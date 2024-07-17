@@ -1,0 +1,50 @@
+.headerlist:hover+.subHeader {
+    opacity: 1;
+
+}
+.custom-sub-opacity:hover>.logoImage {
+    margin-top: 5px !important;
+}
+
+.custom-sub-opacity:hover .custom-opacity {
+    visibility: visible;
+}
+
+.linehight {
+    line-height: 71px;
+}
+
+.header-text-new {
+    color: white;
+}
+
+.header-text-new:hover {
+    color: #866b2f
+}
+
+.header-drop-icon {
+    color: #866b2f;
+    /* margin-top: 39px; */
+}
+
+.header-drop-icon:hover {
+    transform: translateY(5px);
+
+}
+
+.custom-opacity {
+    visibility: hidden;
+}
+
+.text-colour-off-white {
+    color: rgba(255, 255, 255, .6);
+}
+.list-text {
+    color: #22304A;
+    font-weight: 500;
+}
+
+.list-text:hover {
+    color: #b40606;
+    /* font-weight: bold; */
+}
