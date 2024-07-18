@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import React, { useEffect, useState } from "react";
 import Header from "../common/header/Header";
 import './index.css'
@@ -50,15 +50,15 @@ const Slider = () => {
     }, [currentIndex]);
     const [isSticky, setIsSticky] = useState(false);
     console.log(isSticky)
-    useEffect(() => {
-      window.addEventListener("scroll", () => {
-        if (window.scrollY > 0) {
-          setIsSticky(true);
-        } else {
-          setIsSticky(false);
-        }
-      });
-    }, []);
+    // useEffect(() => {
+    //   window.addEventListener("scroll", () => {
+    //     if (window.scrollY > 0) {
+    //       setIsSticky(true);
+    //     } else {
+    //       setIsSticky(false);
+    //     }
+    //   });
+    // }, []);
   const moveItems = () => {
     // Get the next index
     const nextIndex = (currentIndex + 1) % images.length;
@@ -77,7 +77,7 @@ const Slider = () => {
   };
   return (
     <>
-      <div className="container-fluid p-0 position-realtive">
+      <div className="container-fluid p-0 position-realtive ">
       <Header/>
         <div
           className="d-flex gap-4 justify-space-between flex-lg-row flex-column event-container"

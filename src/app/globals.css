@@ -1,43 +1,119 @@
 .logoImage {
-    /* width: 120px;
+  /* width: 120px;
     height: 80px;
     margin-top: 15px; */
-    width: 120px;
-    height: 74px;
-    margin-left: 20px;
+  width: 120px;
+  height: 74px;
+  margin-left: 20px;
 }
+
 .ul-custom {
-    list-style: none;
+  list-style: none;
 }
+
 .cursor-pointer {
-    cursor: pointer;
+  cursor: pointer;
 }
+
 .custom-opacity {
-    visibility: hidden;
+  visibility: hidden;
 }
+
 .smallfont {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .verySmallFont {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 .mediumfont {
-    font-size: 16px;
+  font-size: 16px;
 }
-.button-all{
-    border: none; 
-    color: white; 
-    text-align: center; 
-    text-decoration: none; 
-    display: inline-block; 
-    font-size: 13px; 
-    transition: background-color 0.3s ease, transform 0.3s ease; 
-    cursor: pointer; 
-    border-radius: 50px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  .button-all:hover {
-    transform: translateY(-5px); 
-  }
+
+.button-all {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button-all:hover {
+  transform: translateY(-5px);
+}
+
+/* accordian classes */
+.accodationBorder {
+  border: none !important;
+}
+
+.accodationBorder:focus {
+  /* background-color: #000; */
+  border: none !important;
+  border-color: #000 !important;
+}
+
+.accordation-bg {
+  background-color: #000 !important;
+  border: none !important;
+
+}
+
+.accordion-button:not(.collapsed) {
+  /* color: var(--bs-accordion-active-color); */
+  background-color: transparent !important;
+  border-color: white !important;
+}
+
+.accordationheading {
+  color: rgb(233, 233, 30) !important;
+  font-size: 24px !important;
+  font-weight: 800;
+}
+
+.bg-dark-black {
+  background-color: #000;
+}
+
+.accordion-button:focus {
+  z-index: 0 !important;
+  border-color: none !important;
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-active-icon);
+  transform: var(--bs-accordion-btn-icon-transform);
+  color: white !important;
+}
+
+.accordion-button::after {
+  color: white !important;
+}
+
+.accordion-button {
+  width: 98% !important
+}
+
+/* footer */
+.footer-cont {
+  background-image: url('https://www.demigodhouse.com/assets/images/index_footer_bg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fs-custom{
+  font-size: 15px;
+}
+.h-fs-custom{
+  font-size: 17px;
+}
+.text-web{
+  color: #EBC013;
+}

@@ -459,7 +459,7 @@ function OffCanvasExample() {
                       <Accordion.Body className="p-3">
                         {item.attributes.url_collections.data.map((list, i) => {
                           return (
-                            <p className="hover"> {list.attributes.URLText} </p>
+                            <p key={i+1} className="hover"> {list.attributes.URLText} </p>
                           );
                         })}
                       </Accordion.Body>
@@ -479,14 +479,29 @@ function OffCanvasExample() {
 function Header() {
   const [isSticky, setIsSticky] = useState(false);
 
+  // useEffect(() => {
+  //   window.addEventListener("scroll", () => {
+  //     if (window.scrollY > 0) {
+  //       setIsSticky(true);
+  //     } else {
+  //       setIsSticky(false);
+  //     }
+  //   });
+  // }, []);
   useEffect(() => {
-    window.addEventListener("scroll", () => {
-      if (window.scrollY > 0) {
+    const handleScroll = () => {
+      if (document.documentElement.scrollTop > 0) {
         setIsSticky(true);
       } else {
         setIsSticky(false);
       }
-    });
+    };
+
+    document.addEventListener("scroll", handleScroll);
+
+    return () => {
+      document.removeEventListener("scroll", handleScroll);
+    };
   }, []);
   return (
     <>
@@ -506,7 +521,7 @@ function Header() {
                   return (
                     <>
                       {item.attributes.url_collections.data.length !== 0 ? (
-                        <div>
+                        <div key={i+1}>
                           <ul className="ul-custom custom-sub-opacity cursor-pointer mb-0">
                             <li className=" linehight fs-6">
                               <div className="d-flex">
