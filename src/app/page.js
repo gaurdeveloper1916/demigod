@@ -1,6 +1,6 @@
 import Footer from "./component/common/footer/Footer";
 import Header from "./component/common/header/Header";
-import Map from "./component/googlemap/map";
+import Map from "./component/googlemap/Map";
 import Booknow from "./component/homepage/BookNow";
 import FridayNight from "./component/homepage/FridayNight";
 import Membership from "./component/homepage/Membership";
