@@ -11,6 +11,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import Accordion from "react-bootstrap/Accordion";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { data } from "../../constant/Dummy";
+import { FaChevronDown } from "react-icons/fa";
 
 function OffCanvasExample() {
   const data = [
@@ -529,9 +530,10 @@ function Header() {
                                   {" "}
                                   {item.attributes.URLText}
                                 </p>
-                                <MdArrowDropUp
-                                  size={34}
-                                  className="header-drop-icon mt-4"
+                                <FaChevronDown
+                                  size={18}
+                                  color="white"
+                                  className="header-drop-icn  mt-4 mx-1"
                                 />
                               </div>
 
