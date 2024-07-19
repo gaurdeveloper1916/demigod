@@ -418,7 +418,7 @@ transition-property: width;
   border: 0;
 }
 .fontdiv{
-  top: 1rem;
+  top: 0rem;
 }
 .product:hover .specifies {
   bottom: 0;
@@ -431,8 +431,21 @@ transition-property: width;
         flex-direction: row-reverse;
       
 }
+.verySmallFont{
+  font-size: 12px;
+}
 /* mobile */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .specifies{
+    bottom:-78%;
+  }
+  .fontdiv{
+    top: 0rem;
+  }
+  
+  .verySmallFont{
+    font-size: 7px;
+  }
   .event-container {
     padding:0rem
   }
@@ -469,3 +482,5 @@ transition-property: width;
 .ff-heading{
   font-family: fantasy;
 }
+
+

@@ -26,11 +26,11 @@ const Prochainement
   ];
   return (
     <div className="p-4 container">
-      <div className="d-flex justify-content-between align-items-center mx-4">
+      <div className="d-flex justify-content-between align-items-center mx-lg-4 mx-0">
        <div>
          <h4 className="text-white">Prochainement</h4></div>
       <div>
-      <div>
+      <div className="d-lg-block d-md-block d-none">
       <button className="px-4 py-2 rounded smallfont bg-black text-white border">Programmation</button>
       <MdArrowCircleLeft className="cursor"  color="white"size={34}/>
       <MdArrowCircleRight className="cursor" color="white"size={34} />
@@ -38,7 +38,7 @@ const Prochainement
 
       </div>
       </div>
-      <p className="text-white mx-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium culpa distinctio, ipsa ut assumenda nemo a sint architecto maxime doloremque expedita, aliquam veritatis accusamus dignissimos. Ratione eaque iste eligendi laboriosam. ipsa ut assumenda nemo a sint architecto maxime doloremque expedita, </p>
+      <p className="text-white mx-lg-4 mx-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium culpa distinctio, ipsa ut assumenda nemo a sint architecto maxime doloremque expedita, aliquam veritatis accusamus dignissimos. Ratione eaque iste eligendi laboriosam. ipsa ut assumenda nemo a sint architecto maxime doloremque expedita, </p>
       <div className="d-flex flex-lg-row flex-column justify-content-center align-items-center  gap-5 ">
         {arr.map((item, index) => {
           return (

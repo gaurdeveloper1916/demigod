@@ -507,12 +507,12 @@ function Header() {
     <>
       <div className="d-lg-block d-none ">
         <div
-          style={{ left: "61px", zIndex: "999" }}
+          style={{ zIndex: "999" }}
           className={`d-flex header-hover  w-100  position-fixed top-0 justify-content-center align-items-center   ${
             isSticky ? "bg-black" : ""
           }`}
         >
-          <div className="d-flex col-lg-12 ">
+          <div className="d-flex justify-content-center align-items-center col-lg-12 ">
             <div className="d-flex gap-5">
               <img className="logoImage" src="./images/demigodnew.png"></img>
 
@@ -537,7 +537,7 @@ function Header() {
 
                               <div
                                 style={{
-                                  left: "-5%",
+                                  left: "0%",
                                   top: "5.5rem",
                                   zIndex: "1",
                                 }}
@@ -661,7 +661,7 @@ function Header() {
               <div className=" d-flex justify-content-center align-items-center mb-3">
                 <buton
                   type="button"
-                  className=" px-3 py-1 rounded-pill cursor button-bg text-white fw-bold "
+                  className="very px-3 py-1 verySmallFont rounded-pill cursor button-bg text-white fw-bold "
                 >
                   SIGN UP
                 </buton>

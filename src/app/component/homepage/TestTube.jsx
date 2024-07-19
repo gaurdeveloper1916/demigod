@@ -75,10 +75,10 @@ function Testtube() {
             </div>
             <div className="col-lg-6">
               <div className="d-flex flex-column  ">
-                <p className="text-white evnt-txt-des ">{intialState.evtDes}</p>
+                <p className="text-white evnt-txt-des  p-lg-0 p-4 mt-lg-0 mt-4">{intialState.evtDes}</p>
                 <div className="d-flex gap-1 justify-content-center align-items-center">
-                  <div className="col-lg-8 d-flex py-5">
-                    <button className="know-more-button px-4 py-1 fw-bold">
+                  <div className="col-lg-8 d-flex ">
+                    <button className="know-more-button px-4 px-0  py-1 fw-bold">
                       Know More <GiStarShuriken />
                     </button>
                     <button className="know-more-arrow">
