@@ -7,6 +7,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { CgMail } from "react-icons/cg";
 import "./index.css";
 import Header from "../component/common/header/Header";
+import Footer from "../component/common/footer/Footer";
 function page(props) {
   return (
     <div className="container-fluid bg-black  position-realtive">
@@ -224,7 +225,9 @@ function page(props) {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
+    
   );
 }
 

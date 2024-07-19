@@ -98,10 +98,10 @@ const Slider = () => {
               aut nostrum enim?
             </p>
             <div className="d-flex gap-3">
-              <button className="button-all px-4 py-2  text-black fw-bold" type="button ">
+              <button className="button-all px-4 py-2  text-white fw-bold" type="button ">
                 Watch
               </button>
-              <button className="button-all px-4 py-2  text-black fw-bold" type="button ">
+              <button className="button-all px-4 py-2  text-white fw-bold" type="button ">
                 My List
               </button>
             </div>

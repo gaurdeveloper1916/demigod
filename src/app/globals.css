@@ -73,7 +73,9 @@ button:not(:disabled) {
     /* font-family: "Playfair Display",
         serif; */
 }
-
+.mobile-list-header{
+  background-color: linear-gradient(270deg, #866b2f, #dbb85e 50%, #866b2f);;
+}
 /* accordian classes */
 .accordion-item {
   color: white !important;
@@ -130,7 +132,9 @@ button:not(:disabled) {
 }
 
 .accordion-button {
-  width: 98% !important
+  width: 98% !important;
+  color: black !important;
+  
 }
 
 /* footer */

@@ -38,7 +38,6 @@ function TwoImagesDiv(props) {
               <div className="row-reverse">
                 <MdArrowOutward size={25} className="" />
               </div>{" "}
-              
             </div>
           </div>
           <hr className="text-white hrClass" />

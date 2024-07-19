@@ -14,422 +14,6 @@ import { data } from "../../constant/Dummy";
 import { FaChevronDown } from "react-icons/fa";
 
 function OffCanvasExample() {
-  const data = [
-    {
-      id: 1,
-      attributes: {
-        URLText: "Event",
-        url: "#",
-        createdAt: "2024-06-04T09:37:28.020Z",
-        updatedAt: "2024-06-04T09:37:29.014Z",
-        publishedAt: "2024-06-04T09:37:29.011Z",
-        url_collections: {
-          data: [
-            {
-              id: 1,
-              attributes: {
-                URLText: "All Services",
-                url: "#",
-                createdAt: "2024-06-04T09:35:27.861Z",
-                updatedAt: "2024-06-04T09:35:28.855Z",
-                publishedAt: "2024-06-04T09:35:28.852Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 2,
-              attributes: {
-                URLText: "Career Counseling",
-                url: "#",
-                createdAt: "2024-06-04T09:36:08.206Z",
-                updatedAt: "2024-06-04T09:36:09.354Z",
-                publishedAt: "2024-06-04T09:36:09.350Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 3,
-              attributes: {
-                URLText: "Study Abroad",
-                url: "#",
-                createdAt: "2024-06-04T09:36:29.997Z",
-                updatedAt: "2024-06-04T09:36:31.080Z",
-                publishedAt: "2024-06-04T09:36:31.078Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 4,
-              attributes: {
-                URLText: "Test Preparation",
-                url: "#",
-                createdAt: "2024-06-04T09:36:52.535Z",
-                updatedAt: "2024-06-04T09:36:53.560Z",
-                publishedAt: "2024-06-04T09:36:53.557Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-          ],
-        },
-        urlicon: {
-          data: null,
-        },
-      },
-    },
-    {
-      id: 2,
-      attributes: {
-        URLText: "Corporate",
-        url: "#",
-        createdAt: "2024-06-04T09:40:16.115Z",
-        updatedAt: "2024-06-04T09:40:17.431Z",
-        publishedAt: "2024-06-04T09:40:17.428Z",
-        url_collections: {
-          data: [
-            {
-              id: 5,
-              attributes: {
-                URLText: "Success Stories",
-                url: "#",
-                createdAt: "2024-06-04T09:38:06.587Z",
-                updatedAt: "2024-06-04T09:38:07.490Z",
-                publishedAt: "2024-06-04T09:38:07.487Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 6,
-              attributes: {
-                URLText: "My Mentor Process",
-                url: "#",
-                createdAt: "2024-06-04T09:38:26.711Z",
-                updatedAt: "2024-06-04T09:38:27.714Z",
-                publishedAt: "2024-06-04T09:38:27.711Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 7,
-              attributes: {
-                URLText: "Interaction",
-                url: "#",
-                createdAt: "2024-06-04T09:38:43.749Z",
-                updatedAt: "2024-06-04T09:38:44.687Z",
-                publishedAt: "2024-06-04T09:38:44.685Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 8,
-              attributes: {
-                URLText: "Our Philosophy",
-                url: "#",
-                createdAt: "2024-06-04T09:39:11.099Z",
-                updatedAt: "2024-06-04T09:39:12.280Z",
-                publishedAt: "2024-06-04T09:39:12.278Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-          ],
-        },
-        urlicon: {
-          data: null,
-        },
-      },
-    },
-    {
-      id: 2,
-      attributes: {
-        URLText: "Wedding",
-        url: "#",
-        createdAt: "2024-06-04T09:40:16.115Z",
-        updatedAt: "2024-06-04T09:40:17.431Z",
-        publishedAt: "2024-06-04T09:40:17.428Z",
-        url_collections: {
-          data: [
-            {
-              id: 5,
-              attributes: {
-                URLText: "Success Stories",
-                url: "#",
-                createdAt: "2024-06-04T09:38:06.587Z",
-                updatedAt: "2024-06-04T09:38:07.490Z",
-                publishedAt: "2024-06-04T09:38:07.487Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 6,
-              attributes: {
-                URLText: "My Mentor Process",
-                url: "#",
-                createdAt: "2024-06-04T09:38:26.711Z",
-                updatedAt: "2024-06-04T09:38:27.714Z",
-                publishedAt: "2024-06-04T09:38:27.711Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 7,
-              attributes: {
-                URLText: "Interaction",
-                url: "#",
-                createdAt: "2024-06-04T09:38:43.749Z",
-                updatedAt: "2024-06-04T09:38:44.687Z",
-                publishedAt: "2024-06-04T09:38:44.685Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 8,
-              attributes: {
-                URLText: "Our Philosophy",
-                url: "#",
-                createdAt: "2024-06-04T09:39:11.099Z",
-                updatedAt: "2024-06-04T09:39:12.280Z",
-                publishedAt: "2024-06-04T09:39:12.278Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-          ],
-        },
-        urlicon: {
-          data: null,
-        },
-      },
-    },
-    {
-      id: 2,
-      attributes: {
-        URLText: "M&M",
-        url: "#",
-        createdAt: "2024-06-04T09:40:16.115Z",
-        updatedAt: "2024-06-04T09:40:17.431Z",
-        publishedAt: "2024-06-04T09:40:17.428Z",
-        url_collections: {
-          data: [
-            {
-              id: 5,
-              attributes: {
-                URLText: "Success Stories",
-                url: "#",
-                createdAt: "2024-06-04T09:38:06.587Z",
-                updatedAt: "2024-06-04T09:38:07.490Z",
-                publishedAt: "2024-06-04T09:38:07.487Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 6,
-              attributes: {
-                URLText: "My Mentor Process",
-                url: "#",
-                createdAt: "2024-06-04T09:38:26.711Z",
-                updatedAt: "2024-06-04T09:38:27.714Z",
-                publishedAt: "2024-06-04T09:38:27.711Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 7,
-              attributes: {
-                URLText: "Interaction",
-                url: "#",
-                createdAt: "2024-06-04T09:38:43.749Z",
-                updatedAt: "2024-06-04T09:38:44.687Z",
-                publishedAt: "2024-06-04T09:38:44.685Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 8,
-              attributes: {
-                URLText: "Our Philosophy",
-                url: "#",
-                createdAt: "2024-06-04T09:39:11.099Z",
-                updatedAt: "2024-06-04T09:39:12.280Z",
-                publishedAt: "2024-06-04T09:39:12.278Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-          ],
-        },
-        urlicon: {
-          data: null,
-        },
-      },
-    },
-    {
-      id: 5,
-      attributes: {
-        URLText: "Journal",
-        url: "#",
-        createdAt: "2024-06-04T09:40:16.115Z",
-        updatedAt: "2024-06-04T09:40:17.431Z",
-        publishedAt: "2024-06-04T09:40:17.428Z",
-        url_collections: {
-          data: [
-            {
-              id: 5,
-              attributes: {
-                URLText: "Success Stories",
-                url: "#",
-                createdAt: "2024-06-04T09:38:06.587Z",
-                updatedAt: "2024-06-04T09:38:07.490Z",
-                publishedAt: "2024-06-04T09:38:07.487Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 6,
-              attributes: {
-                URLText: "My Mentor Process",
-                url: "#",
-                createdAt: "2024-06-04T09:38:26.711Z",
-                updatedAt: "2024-06-04T09:38:27.714Z",
-                publishedAt: "2024-06-04T09:38:27.711Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 7,
-              attributes: {
-                URLText: "Interaction",
-                url: "#",
-                createdAt: "2024-06-04T09:38:43.749Z",
-                updatedAt: "2024-06-04T09:38:44.687Z",
-                publishedAt: "2024-06-04T09:38:44.685Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 8,
-              attributes: {
-                URLText: "Our Philosophy",
-                url: "#",
-                createdAt: "2024-06-04T09:39:11.099Z",
-                updatedAt: "2024-06-04T09:39:12.280Z",
-                publishedAt: "2024-06-04T09:39:12.278Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-          ],
-        },
-        urlicon: {
-          data: null,
-        },
-      },
-    },
-    {
-      id: 6,
-      attributes: {
-        URLText: "Contact",
-        url: "#",
-        createdAt: "2024-06-04T09:40:16.115Z",
-        updatedAt: "2024-06-04T09:40:17.431Z",
-        publishedAt: "2024-06-04T09:40:17.428Z",
-        url_collections: {
-          data: [
-            {
-              id: 5,
-              attributes: {
-                URLText: "Success Stories",
-                url: "#",
-                createdAt: "2024-06-04T09:38:06.587Z",
-                updatedAt: "2024-06-04T09:38:07.490Z",
-                publishedAt: "2024-06-04T09:38:07.487Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 6,
-              attributes: {
-                URLText: "My Mentor Process",
-                url: "#",
-                createdAt: "2024-06-04T09:38:26.711Z",
-                updatedAt: "2024-06-04T09:38:27.714Z",
-                publishedAt: "2024-06-04T09:38:27.711Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 7,
-              attributes: {
-                URLText: "Interaction",
-                url: "#",
-                createdAt: "2024-06-04T09:38:43.749Z",
-                updatedAt: "2024-06-04T09:38:44.687Z",
-                publishedAt: "2024-06-04T09:38:44.685Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-            {
-              id: 8,
-              attributes: {
-                URLText: "Our Philosophy",
-                url: "#",
-                createdAt: "2024-06-04T09:39:11.099Z",
-                updatedAt: "2024-06-04T09:39:12.280Z",
-                publishedAt: "2024-06-04T09:39:12.278Z",
-                urlicon: {
-                  data: null,
-                },
-              },
-            },
-          ],
-        },
-        urlicon: {
-          data: null,
-        },
-      },
-    },
-  ];
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -437,41 +21,55 @@ function OffCanvasExample() {
 
   return (
     <>
-      <RxHamburgerMenu onClick={handleShow} className="mt-2 " size={35} />
-      <Offcanvas show={show} onHide={handleClose} placement="end" name="end">
+      <RxHamburgerMenu
+        color="white"
+        onClick={handleShow}
+        className="mt-2 "
+        size={35}
+      />
+      <Offcanvas
+        className="bg-black"
+        show={show}
+        onHide={handleClose}
+        placement="end"
+        name="end"
+        
+      >
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>
-            <img
-              className="logoImage"
-              src="./asserts/images/demigodnew.png"
-            ></img>
+            <Link href="/">
+              <img className="logoImage" src="./images/demigodnew.png"></img>
+            </Link>
           </Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          {data.map((item, i) => {
-            return (
-              <>
-                <div>
-                  <Accordion>
-                    <Accordion.Item eventKey="0" className="w-100">
+          <Accordion defaultActiveKey="0">
+            {data.map((item, i) => {
+              return (
+                <div key={i + 1}>
+                  {item.attributes.onHover ? (
+                    <Accordion.Item eventKey={i + 1}>
                       <Accordion.Header>
+                        {" "}
                         {item.attributes.URLText}
                       </Accordion.Header>
-                      <Accordion.Body className="p-3">
-                        {item.attributes.url_collections.data.map((list, i) => {
-                          return (
-                            <p key={i+1} className="hover"> {list.attributes.URLText} </p>
-                          );
-                        })}
+                      <Accordion.Body>
+                        {item.attributes.corporate}
                       </Accordion.Body>
-                      <hr className="m-0" />
                     </Accordion.Item>
-                  </Accordion>
-                  {/* <Accordion.Header>Our Services</Accordion.Header> */}
+                  ) : (
+                    <Link href={item.attributes.url}>
+                      {" "}
+                      <button className=" header-list mediumfont  rounded text-start py-3  text-black mobile-list-header ">
+                        {" "}
+                        {item.attributes.URLText}
+                      </button>
+                    </Link>
+                  )}
                 </div>
-              </>
-            );
-          })}
+              );
+            })}
+          </Accordion>
         </Offcanvas.Body>
       </Offcanvas>
     </>
@@ -479,16 +77,6 @@ function OffCanvasExample() {
 }
 function Header() {
   const [isSticky, setIsSticky] = useState(false);
-
-  // useEffect(() => {
-  //   window.addEventListener("scroll", () => {
-  //     if (window.scrollY > 0) {
-  //       setIsSticky(true);
-  //     } else {
-  //       setIsSticky(false);
-  //     }
-  //   });
-  // }, []);
   useEffect(() => {
     const handleScroll = () => {
       if (document.documentElement.scrollTop > 0) {
@@ -513,34 +101,47 @@ function Header() {
             isSticky ? "bg-black" : ""
           }`}
         >
-          <div className="d-flex justify-content-center align-items-center col-lg-12 ">
+          <div className="d-flex justify-content-center align-items-center col-lg-12  ">
             <div className="d-flex gap-5">
-             <Link href="/"> <img className="logoImage cursor" src="./images/demigodnew.png"></img></Link>
+              <Link href="/">
+                {" "}
+                <img
+                  className="logoImage cursor"
+                  src="./images/demigodnew.png"
+                ></img>
+              </Link>
 
-              <div className="d-flex justify-content-center align-items-center gap-2  headerlist  ">
+              <div className="d-flex justify-content-center align-items-center gap-3  headerlist  ">
                 {data.map((item, i) => {
                   return (
                     <>
-                      {item.attributes.url_collections.data.length !== 0 ? (
-                        <div key={i+1}>
-                          <ul className="ul-custom custom-sub-opacity cursor-pointer mb-0">
-                            <li className=" linehight fs-6">
-                              <div className="d-flex justify-content-center align-items-center">
-                                <p className=" fs-6 fw-bold m-0 header-text-new">
-                                  {" "}
-                                  {item.attributes.URLText}
-                                </p>
+                      <div key={i + 1}>
+                        <ul className="ul-custom custom-sub-opacity cursor-pointer mb-0">
+                          <li className=" linehight fs-6">
+                            <div className="d-flex justify-content-center align-items-center">
+                              <Link
+                                style={{ textDecoration: "none" }}
+                                href={item.attributes.url}
+                                className=" fs-6 fw-bold m-0 header-text-new  "
+                              >
+                                {" "}
+                                {item.attributes.URLText}
+                              </Link>
+                              {item.attributes.onHover ? (
                                 <FaChevronDown
                                   size={17}
                                   color="white"
                                   className="header-drop-icn  mx-1"
                                 />
-                              </div>
-
+                              ) : (
+                                ""
+                              )}
+                            </div>
+                            {item.attributes.onHover ? (
                               <div
                                 style={{
                                   left: "0%",
-                                  top: "5.5rem",
+                                  top: "4.6rem",
                                   zIndex: "1",
                                 }}
                                 className="custom-opacity w-100  bg-white d-flex border-top position-absolute  align-items-center "
@@ -550,7 +151,10 @@ function Header() {
                                     style={{ lineHeight: "24px" }}
                                     className="col-lg-4  text-white"
                                   >
-                                    <h1 className="fw-bold">ABOUT DEMIGOD</h1>
+                                    <h1 className="fw-bold">
+                                      {" "}
+                                      {item.attributes.corporate}
+                                    </h1>
                                     <p className="smallfont text-colour-off-white ">
                                       Demigod is about consectetur adipisicing
                                       elit. Eaque, quos natus rerum maiores est
@@ -645,17 +249,12 @@ function Header() {
                                   </div>
                                 </div>
                               </div>
-                            </li>
-                          </ul>
-                        </div>
-                      ) : (
-                        <Link
-                          className=" decoration-none d-flex justify-content-center align-items-center gap-5  mb-3 headerlist list-text"
-                          href="#"
-                        >
-                          {item.attributes.URLText}
-                        </Link>
-                      )}
+                            ) : (
+                              ""
+                            )}
+                          </li>
+                        </ul>
+                      </div>
                     </>
                   );
                 })}
@@ -663,7 +262,7 @@ function Header() {
               <div className=" d-flex justify-content-center align-items-center ">
                 <buton
                   type="button"
-                  className="very px-3 py-1 verySmallFont rounded-pill cursor button-bg text-white fw-bold "
+                  className="very mx-5 px-3 py-1 verySmallFont rounded-pill cursor button-bg text-white fw-bold "
                 >
                   SIGN UP
                 </buton>
@@ -673,7 +272,7 @@ function Header() {
         </div>
       </div>
 
-      <div className="container-fluid p-0 d-lg-none d-block p-2">
+      <div className="container-fluid p-0 d-lg-none d-block  p-2">
         <div className="d-flex justify-content-between">
           <img className="w-25" src="./images/demigodnew.png"></img>
           {/* <RxHamburgerMenu className='mt-2 ' size={35} /> */}
