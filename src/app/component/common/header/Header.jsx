@@ -515,7 +515,7 @@ function Header() {
         >
           <div className="d-flex justify-content-center align-items-center col-lg-12 ">
             <div className="d-flex gap-5">
-              <img className="logoImage" src="./images/demigodnew.png"></img>
+             <Link href="/"> <img className="logoImage cursor" src="./images/demigodnew.png"></img></Link>
 
               <div className="d-flex justify-content-center align-items-center gap-2  headerlist  ">
                 {data.map((item, i) => {
@@ -525,15 +525,15 @@ function Header() {
                         <div key={i+1}>
                           <ul className="ul-custom custom-sub-opacity cursor-pointer mb-0">
                             <li className=" linehight fs-6">
-                              <div className="d-flex">
-                                <p className=" fs-6 fw-bold  header-text-new">
+                              <div className="d-flex justify-content-center align-items-center">
+                                <p className=" fs-6 fw-bold m-0 header-text-new">
                                   {" "}
                                   {item.attributes.URLText}
                                 </p>
                                 <FaChevronDown
-                                  size={18}
+                                  size={17}
                                   color="white"
-                                  className="header-drop-icn  mt-4 mx-1"
+                                  className="header-drop-icn  mx-1"
                                 />
                               </div>
 
@@ -660,7 +660,7 @@ function Header() {
                   );
                 })}
               </div>
-              <div className=" d-flex justify-content-center align-items-center mb-3">
+              <div className=" d-flex justify-content-center align-items-center ">
                 <buton
                   type="button"
                   className="very px-3 py-1 verySmallFont rounded-pill cursor button-bg text-white fw-bold "

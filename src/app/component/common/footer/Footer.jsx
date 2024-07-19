@@ -5,6 +5,7 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa";
+import Marquee from "react-fast-marquee";
 
 function Footer(props) {
   const eventCategory = [
@@ -160,12 +161,13 @@ function Footer(props) {
 
            <div className="m-0">
             <h6 className="text-center text-web fs-5">DemiGod Group</h6>
-           <marquee
+           <Marquee
               className="marq"
               scrollamount='25'
               bgcolor="transparent"
               direction="left"
-              loop=""
+              loop={0}
+              speed={150}
             >
               <div className="d-flex gap-4">
                 {demiGroup.map((item,i) => {
@@ -181,7 +183,7 @@ function Footer(props) {
                   );
                 })}
               </div>
-            </marquee>
+            </Marquee>
            </div>
 
             <div className="col-lg-12 col-12 ">

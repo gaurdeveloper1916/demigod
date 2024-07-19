@@ -1,4 +1,27 @@
 .input-box-custom{
     border: none;
-    background-color: gray;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 26px 42px rgba(0, 0, 0, 0.1);
 }
+.submit_button{
+    background-color: white !important;
+    border-radius: 15px !important;
+}
+.contact_heading{
+    font-size:60px
+}
+.latest_event{
+    right: 10%;
+    bottom:0;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .contact_heading{
+        font-size:50px
+    }
+    .latest_event{
+        right:20%;
+        bottom:-2%;
+    }
+}
+    
