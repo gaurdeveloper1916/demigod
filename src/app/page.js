@@ -19,7 +19,7 @@ export default function Home() {
       <Booknow/>
       <Testtube/>
       {/* <FridayNight/> */}
-      <Map/>
+     <div className="mt-4 mb-4"> <Map/></div>
       <Footer/>
     </div>
   );
