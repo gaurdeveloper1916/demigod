@@ -1,36 +1,13 @@
-"use client";
-import React from "react";
-import Slider from "react-slick";
-import "./fridaynight.css";
-function FridayNight() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 1,
-          autoplay: true,
-          dots: true,
-        },
-      },
-    ],
-  };
+'use client';
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
+import  "./fridaynight.css"
+import { FreeMode, Pagination } from 'swiper/modules';
+
+export default function FridayNight() {
   const initialImages = [
     {
       img: "https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?cs=srgb&dl=pexels-cottonbro-3171837.jpg&fm=jpg",
@@ -76,17 +53,43 @@ function FridayNight() {
 
   return (
     <div className="container mt-5">
-      <div className="slider-container ">
-        <Slider {...settings}>
-          {initialImages.map((item,i) => {
-            return (
-              <div key={i+1} className="d-flex justify-content-center align-items-center p-2">
+      <div className="slider-container">
+        <Swiper
+          slidesPerView={4}
+          spaceBetween={30}
+          freeMode={true}
+          pagination={{
+            clickable: true,
+          }}
+          breakpoints={{
+           
+            320: {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            480: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            640: {
+              slidesPerView: 4,
+              spaceBetween: 30,
+            },
+          }}
+        
+          navigation={true}
+          modules={[FreeMode, Pagination]}
+          className="mySwiper"
+        >
+          {initialImages.map((image, index) => (
+            <SwiperSlide key={index}>
+              <div className="d-flex justify-content-center align-items-center p-2">
                 <div className="image-container position-relative">
                   <img
                     className="img-fluid rounded"
-                    src={item.img}
-                    alt="Your Image"
-                  ></img>
+                    src={image.img}
+                    alt={image.name}
+                  />
                   <div className="overlay">
                     <h1 className="text-san">SAN</h1>
                   </div>
@@ -96,19 +99,16 @@ function FridayNight() {
                     <p className="text-secondary">22.06.24 18:00</p>
                     <h6 className="m-0">Peter Whelan</h6>
                     <p className="text-secondary">Direttore</p>
-                    <button className="rounded-pill  btn-custom  px-4 py-2  text-white">Acquis biGE</button>
+                    <button className="rounded-pill btn-custom px-4 py-2 text-white">
+                      Acquis biGE
+                    </button>
                   </div>
                 </div>
-
               </div>
-          
-
-            );
-          })}
-        </Slider>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );
 }
-
-export default FridayNight;

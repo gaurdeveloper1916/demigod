@@ -13,7 +13,10 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { data } from "../../constant/Dummy";
 import { FaChevronDown } from "react-icons/fa";
 
-function OffCanvasExample() {
+import { BsX } from 'react-icons/bs';
+
+
+function OffCanvasExample({ data }) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -24,8 +27,9 @@ function OffCanvasExample() {
       <RxHamburgerMenu
         color="white"
         onClick={handleShow}
-        className="mt-2 "
-        size={35}
+     
+        style={{marginTop:"12px"}}
+        size={30}
       />
       <Offcanvas
         className="bg-black"
@@ -33,17 +37,17 @@ function OffCanvasExample() {
         onHide={handleClose}
         placement="end"
         name="end"
-        
       >
-        <Offcanvas.Header closeButton>
+        <Offcanvas.Header closeButton={false} className="d-flex justify-content-between">
           <Offcanvas.Title>
             <Link href="/">
-              <img className="logoImage" src="./images/demigodnew.png"></img>
+              <img className="logoImage" src="./images/demigodnew.png" alt="Logo"></img>
             </Link>
           </Offcanvas.Title>
+          <BsX className="offcanvas-close-icon fs-1 text-white"   onClick={handleClose} />
         </Offcanvas.Header>
         <Offcanvas.Body>
-          <Accordion defaultActiveKey="0">
+        <Accordion defaultActiveKey="0">
             {data.map((item, i) => {
               return (
                 <div key={i + 1}>
@@ -60,7 +64,7 @@ function OffCanvasExample() {
                   ) : (
                     <Link href={item.attributes.url}>
                       {" "}
-                      <button className=" header-list mediumfont  rounded text-start py-3  text-black mobile-list-header ">
+                      <button className=" header-list mediumfont  rounded text-start  text-black mobile-list-header " style={{padding:"14px" }}>
                         {" "}
                         {item.attributes.URLText}
                       </button>
@@ -75,8 +79,12 @@ function OffCanvasExample() {
     </>
   );
 }
+
+
+
 function Header() {
   const [isSticky, setIsSticky] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
   useEffect(() => {
     const handleScroll = () => {
       if (document.documentElement.scrollTop > 0) {
@@ -92,6 +100,14 @@ function Header() {
       document.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  const handleMouseEnter = () => {
+    setIsHovered(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsHovered(false);
+  };
   return (
     <>
       <div className="d-lg-block d-none ">
@@ -121,20 +137,23 @@ function Header() {
                             <div className="d-flex justify-content-center align-items-center">
                               <Link
                                 style={{ textDecoration: "none" }}
-                                href={item.attributes.url}
-                                className=" fs-6 fw-bold m-0 header-text-new  "
+                                href={item.attributes.url} 
+                                className={`fs-6 fw-bold m-0 header-text-new ${
+                                  isHovered ? "text-transform-hover" : ""
+                                }`}
+                                onMouseEnter={handleMouseEnter}
+                                onMouseLeave={handleMouseLeave}
                               >
-                                {" "}
                                 {item.attributes.URLText}
                               </Link>
-                              {item.attributes.onHover ? (
+                              {item.attributes.onHover && (
                                 <FaChevronDown
                                   size={17}
                                   color="white"
-                                  className="header-drop-icn  mx-1"
+                                  className={`header-drop-icon mx-1 ${
+                                    isHovered ? "rotate-icon" : ""
+                                  }`}
                                 />
-                              ) : (
-                                ""
                               )}
                             </div>
                             {item.attributes.onHover ? (
