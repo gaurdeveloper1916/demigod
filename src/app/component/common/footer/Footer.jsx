@@ -44,178 +44,6 @@ function Footer(props) {
   ];
   return (
     <>
-      {/* <div className="container-fluid  p-0">
-        <footer className="footer-cont d-flex text-lg-start text-white ">
-          <div className="container p-lg-4">
-            <div className="d-flex flex-column justify-content-center   flex-lg-row ">
-              <div className="d-flex justify-content-center align-items-center">
-
-             
-              <div className="col-lg-12 col-7 text-center  ">
-                  <img
-                    src="./images/demigodnew.png"
-                    //  style={{ width: "300px", height: "94px" }}
-                    className="img-fluid"
-                    alt=""
-                    loading="lazy"
-                  />
-                
-              </div>
-              </div>
-            
-              <div className="col-lg-5 d-flex gap-2  ">
-
-                <div className="col-lg-6 ">
-           
-                    <ul className="list-unstyled text-start">
-                      {eventCategory.slice(0, 8).map((item, i) => {
-                        return (
-                          <li key={i+1} className="mb-2">
-                            <FaHandPointRight color="#ebc013" />
-                            <a
-                              href="#!"
-                              className="text-white text-center text-dec fs-custom"
-                            >
-                              <i className="fas fa-paw pe-3"></i>
-                              {item}
-                            </a>
-                          </li>
-                        );
-                      })}
-                    </ul>
-              
-                </div>
-                <div className="col-lg-6 ">
-                    <ul className="list-unstyled text-start">
-                      {eventCategory.slice(8, 15).map((item, i) => {
-                        return (
-                          <li key={i+1} className="mb-2">
-                            <FaHandPointRight color="#ebc013" />
-
-                            <a href="#!" className="text-white text-dec fs-custom">
-                              <i className="fas fa-paw pe-3"></i>
-                              {item}
-                            </a>
-                          </li>
-                        );
-                      })}
-                    </ul>
-                </div>
-              </div>
-
-              <div className="col-lg-2  col-12  ">
-                <h5 className="text-uppercase text-web">Services</h5>
-                <ul className="list-unstyled">
-                  {servicesList.map((item, i) => {
-                    return (
-                      <li key={i+1} className="mb-2">
-                        <FaHandPointRight color="#ebc013" />
-                        <a href="#!" className="text-white text-dec fs-custom">
-                          <i className="fas fa-paw pe-3"></i>
-                          {item}
-                        </a>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </div>
-              <div className="col-lg-2   col-12 ">
-                <h5 className="text-web text-center   text-uppercase">
-                  Connect With Us
-                </h5>
-
-                <ul className="list-unstyled d-flex justify-content-center align-items-center gap-4 flex-lg-column flex-row mx-4 p-3">
-                  <li>
-                    <a
-                      className="text-white "
-                      href="https://www.facebook.com/DemiGodCloud"
-                    >
-                      <FaFacebookF size={25} />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-white px-2"
-                      href="https://www.facebook.com/DemiGodCloud"
-                    >
-                      <FaInstagram size={25} />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-white ps-2"
-                      href="https://www.facebook.com/DemiGodCloud"
-                    >
-                      <FaXTwitter size={25} />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-white ps-2"
-                      href="https://www.facebook.com/DemiGodCloud"
-                    >
-                      <FaLinkedinIn size={25} />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <hr></hr>
-
-           <div className="m-0">
-            <h6 className="text-center text-web fs-5">DemiGod Group</h6>
-           <Marquee
-              className="marq"
-              scrollamount='25'
-              bgcolor="transparent"
-              direction="left"
-              loop={0}
-              speed={150}
-            >
-              <div className="d-flex gap-4">
-                {demiGroup.map((item,i) => {
-                  return (
-                    <div key={i+1}>
-                      <img
-                        className="m-0"
-                        style={{ width: "150px", height: "60px" }}
-                        src="/images/demigodnew.png"
-                      ></img>
-                      <p className="text-center text-web">{item}</p>
-                    </div>
-                  );
-                })}
-              </div>
-            </Marquee>
-           </div>
-
-            <div className="col-lg-12 col-12 ">
-              <div className="">
-                <h5 className="text-uppercase text-web">Get in Touch</h5>
-
-                <div className="d-flex gap-3 flex-lg-row flex-column  mt-1">
-                  <div>
-                    <p className="m-0  fs-custom">Corporate Office</p>
-                    <p className="fs-custom">208, PMB,Opera House, Mumbai,Maharashtra, INDIA</p>
-                  </div>
-                  <div>
-                    <p className="m-0  fs-custom">Registered Office</p>
-                    <p className="fs-custom">D-10, Kabir Marg, Bani Park, Jaipur,Rajasthan, INDIA</p>
-                  </div>
-                  <div>
-                    <p className="m-0  fs-custom">Phone</p>
-                    <p className="m-0 fs-custom">+91-8355897803,+91-7023843975</p>
-                  </div>
-                  <div>
-                    <p className="m-0  fs-custom">Email</p>
-                    <p className="m-0 fs-custom">info@demigodhouse.com</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </footer>
-      </div> */}
       <div
         style={{
           backgroundImage: "./images/footer_bg.png",
@@ -253,7 +81,7 @@ function Footer(props) {
           <div className="col-lg-9 d-flex">
             <div className="col-lg-8 d-flex gap-3">
               <div className="text-white verySmallFont">
-                <button className="verySmallFont border-0 rounded px-3 py-2">
+                <button className="verySmallFont border-0 rounded px-3 py-2 text-white">
                   Help Or Support ?
                 </button>
                 <div className="mt-3 px-3">
@@ -265,7 +93,7 @@ function Footer(props) {
                 </div>
               </div>
               <div className="text-white verySmallFont">
-                <button className="verySmallFont border-0 rounded px-3 py-2">
+                <button className="verySmallFont border-0 rounded px-3 py-2 text-white">
                   Event Categories
                 </button>
                 <div className="mt-3 px-3">
@@ -279,7 +107,7 @@ function Footer(props) {
             </div>
             <div className="col-lg-4">
               <div className="text-white verySmallFont">
-                <button className="verySmallFont border-0 rounded px-3 py-2">
+                <button className="verySmallFont border-0 rounded px-3 py-2 text-white">
                   Services
                 </button>
                 <div className="mt-3 px-3">
@@ -297,7 +125,7 @@ function Footer(props) {
         <div className="d-flex justify-content-center align-items-center mt-5 ">
           <div className="col-lg-9 col-12  d-flex  flex-lg-row flex-column  align-items-center ">
             <div className="col-lg-6 col-12 display text-white verySmallFont ">
-              <button className="verySmallFont border-0 rounded px-3 py-2">
+              <button className="verySmallFont border-0 rounded px-3 py-2  text-white">
                 Follow us on Social Media
               </button>
               <ul className="list-unstyled d-flex display gap-3  px-1">
@@ -337,7 +165,7 @@ function Footer(props) {
               </ul>
             </div>
             <div className="col-lg-6 col-12 display text-white verySmallFont">
-              <button className="verySmallFont border-0 rounded px-3 py-2">
+              <button className="verySmallFont border-0 rounded px-3 py-2  text-white">
                 Shortcuts
               </button>
               <div className="d-flex gap-2 display mediumFont px-2">
@@ -369,7 +197,7 @@ function Footer(props) {
         <div className="d-flex justify-content-center align-items-center mt-5 ">
           <div className="col-lg-9 col-12  d-flex flex-lg-row flex-column  align-items-center mb-5">
             <div className="col-lg-10 text-white verySmallFont display">
-              <button className="verySmallFont border-0 rounded px-3 py-2">
+              <button className="verySmallFont border-0 rounded px-3 py-2  text-white">
                 Access Link
               </button>
               <div className="d-flex gap-3 display">
