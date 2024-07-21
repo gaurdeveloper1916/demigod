@@ -295,12 +295,12 @@ function Footer(props) {
         </div>
 
         <div className="d-flex justify-content-center align-items-center mt-5 ">
-          <div className="col-lg-9 col-12  d-flex flex-lg-row flex-column  align-items-center ">
-            <div className="col-lg-6 col-12 text-white verySmallFont">
+          <div className="col-lg-9 col-12  d-flex  flex-lg-row flex-column  align-items-center ">
+            <div className="col-lg-6 col-12 display text-white verySmallFont ">
               <button className="verySmallFont border-0 rounded px-3 py-2">
                 Follow us on Social Media
               </button>
-              <ul className="list-unstyled d-flex gap-3  px-1">
+              <ul className="list-unstyled d-flex display gap-3  px-1">
                 <li>
                   <a
                     className="text-white "
@@ -336,11 +336,11 @@ function Footer(props) {
                 <p>@demigodhouse</p>
               </ul>
             </div>
-            <div className="col-lg-6 col-12 text-white verySmallFont">
+            <div className="col-lg-6 col-12 display text-white verySmallFont">
               <button className="verySmallFont border-0 rounded px-3 py-2">
                 Shortcuts
               </button>
-              <div className="d-flex gap-2 mediumFont px-2">
+              <div className="d-flex gap-2 display mediumFont px-2">
                 <div className="d-flex">
                   <MdArrowOutward color="white" className="mt-1" />
                   <p>Home</p>
@@ -368,11 +368,11 @@ function Footer(props) {
 
         <div className="d-flex justify-content-center align-items-center mt-5 ">
           <div className="col-lg-9 col-12  d-flex flex-lg-row flex-column  align-items-center mb-5">
-            <div className="col-lg-10 text-white verySmallFont">
+            <div className="col-lg-10 text-white verySmallFont display">
               <button className="verySmallFont border-0 rounded px-3 py-2">
                 Access Link
               </button>
-              <div className="d-flex gap-3">
+              <div className="d-flex gap-3 display">
                 <div className="d-flex gap-1 ">
                   <FaUserCheck size={18} className="mt-1" />
                   <p className="mt-1">Register Your events with us</p>

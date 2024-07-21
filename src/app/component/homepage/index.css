@@ -436,6 +436,11 @@ transition-property: width;
 }
 /* mobile */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .display{
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+  }
   .specifies{
     bottom:-78%;
   }
