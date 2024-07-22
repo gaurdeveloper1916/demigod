@@ -12,15 +12,18 @@ import TwoImagesDiv from "./component/homepage/TwoImagesDiv";
 export default function Home() {
   return (
     <div className="bg-black">
-      <Slider/>
-      <TwoImagesDiv/>
-      <Prochainement/>
-      <Membership/>
-      <Booknow/>
-      <Testtube/>
-      <FridayNight/>
-     <div className="mt-4 mb-4"> <Map/></div>
-      <Footer/>
+      <Slider />
+      <TwoImagesDiv />
+      <Prochainement />
+      <Membership />
+      <Booknow />
+      <Testtube />
+      <FridayNight />
+      <div className="mt-4 mb-4">
+        {" "}
+        <Map />
+      </div>
+      <Footer />
     </div>
   );
 }

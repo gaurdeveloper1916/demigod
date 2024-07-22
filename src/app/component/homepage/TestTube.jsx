@@ -5,7 +5,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import { GiStarShuriken } from "react-icons/gi";
 
 function Testtube() {
-  const multipleTestTube = [460, 350, 460, 350];
+  const multipleTestTube = [390,460, 350, 460, 350];
   const tubeData = [
     {
       evtName: "Dubai Events",

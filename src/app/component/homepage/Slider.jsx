@@ -50,20 +50,9 @@ const Slider = () => {
     }, [currentIndex]);
     const [isSticky, setIsSticky] = useState(false);
     console.log(isSticky)
-    // useEffect(() => {
-    //   window.addEventListener("scroll", () => {
-    //     if (window.scrollY > 0) {
-    //       setIsSticky(true);
-    //     } else {
-    //       setIsSticky(false);
-    //     }
-    //   });
-    // }, []);
   const moveItems = () => {
-    // Get the next index
     const nextIndex = (currentIndex + 1) % images.length;
 
-    // Update the state with the new current index
     setCurrentIndex(nextIndex);
   };
 
@@ -71,7 +60,6 @@ const Slider = () => {
     setCurrentIndex(index);
   };
 
-  // Function to create a circular index based on the current index and array length
   const getCircularIndex = (index, length) => {
     return (index + length) % length;
   };
