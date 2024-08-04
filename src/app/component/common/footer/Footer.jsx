@@ -142,7 +142,7 @@ function Footer(props) {
                     className="text-white "
                     href="https://www.facebook.com/DemiGodCloud"
                   >
-                    <FaInstagram size={20} />
+                    <FaInstagram size={20}/>
                   </a>
                 </li>
                 <li>
