@@ -49,7 +49,6 @@ function OffCanvasExample({ data }) {
         <Offcanvas.Body>
         <Accordion defaultActiveKey="0">
             {data.map((item, i) => {
-              {console.log(item.attributes.URLText)}
               return (
                 <div key={i + 1}>
                   {item.attributes.onHover ? (
