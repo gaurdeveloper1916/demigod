@@ -9,6 +9,7 @@ import Marquee from "react-fast-marquee";
 import { MdArrowOutward, MdUnsubscribe } from "react-icons/md";
 import { FaUserCheck } from "react-icons/fa";
 import Link from "next/link";
+import './index.css'
 
 function Footer(props) {
   const eventCategory = [
@@ -50,8 +51,8 @@ function Footer(props) {
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-        }}
-        className="container-fluid p-0 "
+        }}  
+        className="container-fluid p-0 pt-5 bg-black"
       >
         <Marquee
           className="marq"
@@ -79,7 +80,7 @@ function Footer(props) {
         <hr className="text-white" />
         <div className="d-flex justify-content-center align-items-center">
           <div className="col-lg-9 d-flex">
-            <div className="col-lg-8 d-flex gap-3">
+            <div className="col-lg-8 d-flex flex-lg-row flex-md-row flex-column gap-3">
               <div className="text-white verySmallFont">
                 <button className="verySmallFont border-0 rounded px-3 py-2 text-white">
                   Help Or Support ?
@@ -122,13 +123,16 @@ function Footer(props) {
           </div>
         </div>
 
-        <div className="d-flex justify-content-center align-items-center mt-5 ">
-          <div className="col-lg-9 col-12  d-flex  flex-lg-row flex-column  align-items-center ">
-            <div className="col-lg-6 col-12 display text-white verySmallFont ">
-              <button className="verySmallFont border-0 rounded px-3 py-2  text-white">
+        <div className="d-flex  align-items-center mt-5 ">
+          <div className="col-lg-12  d-flex flex-follow mx-lg-0 mx-md-0 mx-3 ">
+            <div className="col-lg-9 col-9 d-flex flex-lg-row flex-column justify-content-between">
+
+           
+            <div className="col-lg-6  col-12 display flex-item flex-column  text-white verySmallFont ">
+              <button className="verySmallFont border-0 rounded px-3 py-2     text-white">
                 Follow us on Social Media
               </button>
-              <ul className="list-unstyled d-flex display gap-3  px-1">
+              <ul className="list-unstyled d-flex flex-lg-row flex-col  display text-center gap-3   px-1 mt-2">
                 <li>
                   <a
                     className="text-white "
@@ -142,7 +146,7 @@ function Footer(props) {
                     className="text-white "
                     href="https://www.facebook.com/DemiGodCloud"
                   >
-                    <FaInstagram size={20}/>
+                    <FaInstagram size={20} />
                   </a>
                 </li>
                 <li>
@@ -164,11 +168,11 @@ function Footer(props) {
                 <p>@demigodhouse</p>
               </ul>
             </div>
-            <div className="col-lg-6 col-12 display text-white verySmallFont">
+            <div className="col-lg-5   col-12 display text-white verySmallFont ">
               <button className="verySmallFont border-0 rounded px-3 py-2  text-white">
                 Shortcuts
               </button>
-              <div className="d-flex gap-2 display mediumFont px-2">
+              <div className="d-flex gap-3 display mediumFont px-2 mt-2">
                 <div className="d-flex">
                   <MdArrowOutward color="white" className="mt-1" />
                   <p>Home</p>
@@ -185,18 +189,21 @@ function Footer(props) {
                   <MdArrowOutward color="white" className="mt-1" />
                   <p>Weddings</p>
                 </div>
-                <div className="d-flex">
-                  <MdArrowOutward color="white" className="mt-1" />
-                  <p>Media & Marketing</p>
-                </div>
+                
               </div>
             </div>
+            </div>
+
           </div>
+
+
+
+
         </div>
 
         <div className="d-flex justify-content-center align-items-center mt-5 ">
           <div className="col-lg-9 col-12  d-flex flex-lg-row flex-column  align-items-center mb-5">
-            <div className="col-lg-10 text-white verySmallFont display">
+            <div className="col-lg-10 text-white verySmallFont display mx-lg-0 mx-md-0 mx-3">
               <button className="verySmallFont border-0 rounded px-3 py-2  text-white">
                 Access Link
               </button>

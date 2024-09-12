@@ -1,0 +1,12 @@
+.flex-follow{
+    justify-content: center;
+    
+
+  }
+  @media screen and (max-width: 600px) {
+    .flex-follow{
+      justify-content: start;
+      
+  
+    }
+  }

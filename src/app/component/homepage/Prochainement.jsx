@@ -55,10 +55,10 @@ const Prochainement
                     </div>
                   </div>
                 </div>
-                <div className="w-100 bg-white py-2 my-2 cursor  rounded">
+                <div style={{backgroundColor:'#866b2f'}} className="w-100  py-2 my-2 cursor  rounded">
 
-                  <div className="d-flex justify-content-between mx-3 align-items-center">
-                    <div>
+                  <div  className="d-flex justify-content-between text-white  mx-3 align-items-center">
+                    <div >
                       <p className="m-0 fw-bold">Sam. 28 sept.</p>
                       <p className="m-0 fw-bold">LOREAM THEA DHUESO</p>
                     </div>

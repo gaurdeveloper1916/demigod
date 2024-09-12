@@ -1,0 +1,21 @@
+.image-container {
+    width: 400px;
+    height: 200px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+  }
+  
+  .image.fade-in {
+    opacity: 1;
+  }
+  

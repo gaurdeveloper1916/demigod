@@ -1,0 +1,11 @@
+.slick-slide {
+    margin: 0 60px;
+  }
+
+  .slick-list{
+    margin-bottom: 0px;
+    height: 380px;
+  }
+  .cursor{
+    cursor: pointer !important;
+  }

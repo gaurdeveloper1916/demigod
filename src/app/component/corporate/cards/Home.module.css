@@ -1,0 +1,29 @@
+/* styles/Home.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px; /* Add padding for small screens */
+  }
+  
+  .cardsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  @media (max-width: 768px) {
+    .cardsGrid {
+      gap: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cardsGrid {
+      gap: 10px;
+    }
+  }
+  

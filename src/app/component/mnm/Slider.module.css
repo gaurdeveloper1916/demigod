@@ -1,0 +1,50 @@
+.sliderContainer {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .sliderInner {
+    display: flex;
+    transition: transform 0.3s ease;
+    white-space: nowrap;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 200px; /* Adjust based on your content */
+    background: #ddd; /* Adjust background color */
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .arrow:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .arrow:nth-of-type(1) {
+    left: 10px;
+  }
+  
+  .arrow:nth-of-type(2) {
+    right: 10px;
+  }
+  

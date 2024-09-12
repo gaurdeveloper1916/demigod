@@ -1,6 +1,7 @@
 .image-container {
   position: relative;
   width: fit-content;
+  overflow: hidden;
 }
 
 .image-container img {
@@ -26,34 +27,42 @@
   transition-delay: 5s;
 }
 
+
 .image-container .overlay {
-  display: none;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: purple;
-  /* Adjust color and opacity as needed */
   color: white;
-  justify-content: center;
-  /* align-items: center; */
   text-align: center;
   padding: 20px;
   box-sizing: border-box;
   z-index: 1;
   opacity: 0;
-  transition: opacity 0.5s ease 0.5s;
+  visibility: hidden; 
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
   border-radius: 10px;
+  display: flex;
+  
+}
+
+.image-container .overlay h1 {
+  transform: translateX(100%); 
+  opacity: 0;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .image-container:hover .overlay {
-  display: flex;
   opacity: 1;
-  transition: opacity 0.5s ease 0.5s;
-
+  visibility: visible;
 }
 
+.image-container:hover .overlay h1 {
+  transform: translateX(0%); 
+  opacity: 1;
+}
 .visible-on-hover {
   /* display: none; */
   position: relative;
@@ -98,6 +107,7 @@
   margin-top: 40px;
   font-family: fantasy;
   font-size: 100px;
+  
 }
 
 .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {

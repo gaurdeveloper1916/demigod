@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Salsa&display=swap");
+
+.swiper-container {
+    height: 100vh; /* Ensure full height */
+    overflow: hidden; /* Prevent scrollbars */
+  }
+  
+  .swiper-slide {
+    height: 100vh; /* Ensure full height */
+  }
+
+/* content */
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 14%;
+  left: 3%;
+  width: 40%;
+  height: max-content;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  opacity: 0;
+  z-index: 2;
+}
+
+.content h1 {
+  font-family: "Salsa", cursive;
+  font-size: clamp(2rem, 3vw, 6rem);
+  margin-bottom: 20px;
+  opacity: 0;
+}
+
+.content p {
+  font-family: inherit;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 500;
+  opacity: 0;
+}
+
+.swiper-slide-active .content {
+  opacity: 1;
+}
+
+.swiper-slide-active .content h1 {
+  animation: moveDown 0.8s ease-in forwards;
+}
+
+.swiper-slide-active .content p {
+  animation: moveDown 1s ease-in forwards;
+  animation-delay: 1s;
+}
+
+@keyframes moveDown {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* background */
+
+.background[data-item="one"] {
+  background: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/dd28eb02-d6b1-401e-bc10-aead024e9ebf);
+  background-size: cover;
+  background-position: 50% 40%;
+}
+
+.background[data-item="two"] {
+  background: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/fc70e01c-17f9-4e74-a967-f039285524c5);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.background[data-item="three"] {
+  background: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/4e3edcf1-1b68-408f-87e2-ee9fd477bf87);
+  background-size: cover;
+  background-position: 50% 40%;
+}
+
+.background[data-item="four"] {
+  background: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/b772933f-6340-4c95-8d06-d809c4c9b739);
+  background-size: cover;
+  background-position: 50% 60%;
+}
+
+.background[data-item="five"] {
+  background: url(https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/9f0fab6b-c28d-47e9-80f0-868e00562c3f);
+  background-size: cover;
+  background-position: 50% 40%;
+}
+
+.background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: circle(5%);
+  filter: brightness(90%);
+  overflow: hidden;
+  opacity: 0;
+  z-index: 1;
+}
+
+.animation {
+  animation: resizeClipPath 3s ease-in-out forwards;
+}
+
+@keyframes resizeClipPath {
+  0% {
+    clip-path: circle(5%);
+    opacity: 0;
+  }
+  100% {
+    clip-path: circle(71%);
+    opacity: 1;
+  }
+}
+
+/* pagination bullet */
+
+.swiper-pagination-bullet {
+  width: 1.2rem;
+  height: 1.2rem;
+  background: #f2f2f2;
+  border-radius: 1rem;
+  opacity: 0.9;
+}
+
+.swiper-pagination-bullet-active {
+  background: #f1c40f;
+  opacity: 1;
+  transform: scale(1.5);
+  transition: all 0.3s ease;
+}

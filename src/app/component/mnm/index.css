@@ -1,0 +1,125 @@
+.all-container {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff; 
+}
+
+.all-container:hover {
+  border: 2px solid rgba(74,68,161,1); 
+}
+
+.gradient-text {
+    background-image: linear-gradient(90deg, rgba(74,68,161,1) 13%, rgba(198,162,203,1) 100%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text; /* For WebKit browsers */
+    color: transparent;
+  }
+  /* .hover-cont :hover{
+    .
+  } */
+.x-twitter-container{
+  padding: 8rem;
+  right: -21rem;
+  top: 13rem;
+   
+}
+.linkdien-container{
+  padding: 5rem;
+  right: -17.6rem;
+  top: 3rem;
+}
+.discord-container{
+    
+  padding: 6rem;
+  right: -5rem;
+  top: 18rem;
+
+}
+.discord-container2{
+  padding: 6rem;
+  right: 20rem;
+  top: 22rem;
+
+}
+.youtube-container{
+  padding: 6.2rem;
+  right: -8rem;
+  top: 5.7rem;
+
+}
+.forum-container{
+  padding: 5rem;
+  right: 3.9rem;
+  top: 11rem;
+
+}
+.wiki-container{
+  padding: 3.5rem;
+  right: 7rem;
+  top: 21.1rem;
+}
+.wiki-container2{
+  padding: 3.5rem;
+  right: 13rem;
+  top: 25.1rem;
+}
+.snap-container{
+  padding: 4.5rem;
+  right: 3.5rem;
+  top: 27.7rem;
+}
+.tele-container{
+  padding: 3.5rem;
+  right: -3.5rem;
+  top: 30rem;
+}
+.tele-container2{
+  padding: 3.5rem;
+  right: 11.9rem;
+  top: 32.2rem;
+}
+.forum-container2{
+  padding: 5rem;
+    right: 13rem;
+    top: 15.2rem;
+}
+
+.icon-color{
+    color: rgb(141 141 218);
+}
+
+.slick-prev,
+.slick-next {
+  display: none;
+  visibility: hidden;
+}
+/* .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, -5px);
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+  }
+  .swiper-pagination-bullet{
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: whitesmoke;
+  }
+  .swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #cfad58;
+  } */
+  .swiper-pagination{
+    display: none !important;
+  }
+  .bg-whitesh{
+    background-color: rgb(35 38 40) 
+  }
+ /* the slides */
+
+
+  
+
+  

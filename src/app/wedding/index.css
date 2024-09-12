@@ -1,0 +1,58 @@
+.vict-text {
+  font-size: 200px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.top-destination h1 {
+  color: rgb(59, 59, 145);
+  font-size: 35px;
+}
+
+.top-destination p {
+  color: white;
+  font-size: 40px;
+}
+
+.top-destination {
+  text-align: center;
+}
+
+.moodboard-sub h1 {
+  font-size: 26px;
+}
+
+.moodboard {
+  font-size: 120px;
+  font-weight: 800;
+}
+
+.dropbtn {
+  color: white;
+  font-weight: 700;
+}
+
+.discover{
+    font-family:unset;
+    font-size: 4rem;
+}
+
+.margins{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .vict-text {
+    font-size: 80px;
+  }
+  .moodboard-sub h1 {
+    font-size: 18px;
+  }
+  .moodboard {
+    font-size: 60px;
+  }
+  .discover{
+    font-size: 3rem;
+    text-align: center;
+}
+}

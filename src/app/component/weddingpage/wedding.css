@@ -1,0 +1,223 @@
+.slick-prev,
+.slick-next {
+  display: none;
+  visibility: hidden;
+}
+
+
+
+.image-container {
+  position: relative;
+}
+
+.left-arrow{
+  left: 95%;
+  /* top: 45%; */
+  bottom: 50%;
+  background-color: white;
+}
+.bg-cards-inner {
+  background: linear-gradient(145deg, rgba(61, 74, 255, 0.37), rgba(173, 216, 230, 0.2) 50%, rgba(61, 74, 255, 0.37)); /* Adds a light blue gradient */
+  backdrop-filter: blur(0px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent background */
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.image-container:hover .overlay {
+  opacity: 1;
+}
+
+.circular-div {
+  width: 120px; /* Adjust the width as needed */
+  height: 120px; /* Adjust the height as needed */
+  border-radius: 50%;
+  border: 1px dotted white;
+  /* Border thickness and color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* .circular-div::before,
+.circular-div::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px dotted white;
+} */
+
+.circular-div::before {
+  transform: rotate(45deg);
+}
+
+.circular-div::after {
+  transform: rotate(-45deg);
+}
+
+.text {
+  font-size: 20px; /* Adjust the font size as needed */
+  text-align: center;
+}
+
+.slick-current img{
+   /* width: 350px !important; */
+  padding-top: 0px !important; 
+  /* transform: scale(1.08); */
+}
+.margin-custom{
+  margin-top: 4rem;
+}
+
+.content-div {
+  /* opacity: 0; */
+  transition: opacity 0.5s ease-in-out;
+}
+
+.content-div-active {
+  opacity: 1;
+}
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for other browsers */
+.scroll-container {
+  scrollbar-width: none; /* Firefox */
+  ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+.slider2 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+.slick-slide {
+  padding: 10px;
+}
+.slick-list {
+  touch-action: pan-y;
+}
+h1 {
+  font-size: 2rem;
+}
+.custom_position{
+  position: absolute;
+}
+
+.icon-container {
+  position: relative;
+  width: 60px; /* Adjust the width as needed */
+  height: 60px; /* Adjust the height as needed */
+}
+
+.icon-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* width: 100%;
+  height: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.icon-wrapper.show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.icon-wrapper.hide {
+  opacity: 0;
+  transform: scale(0.8);
+  pointer-events: none; /* Prevent interaction with the hidden icon */
+}
+.text-venus{
+  font-size: 85px;
+  font-weight: 600;
+}
+.dream_text{
+  font-size:35px;
+  line-height: 40px;
+}
+.slider_img{
+  height: 600px;
+}
+.width-75{
+  width: 75%
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .slick-slide {
+    padding: 5px;
+  }
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .text-venus{
+    font-size: 60px;
+    font-weight: 600;
+  }
+  .width-75{
+    width: 100%
+  }
+  .slider_img{
+    height: 400px !important;
+  }
+  .custom_position{
+    position: relative;
+  }
+  .left-arrow{
+    left: 0%;
+    top: 100%;
+    bottom: 50%;
+    background-color: white;
+   
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .left-arrow {
+    left: 93%;
+    top: 42%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .left-arrow {
+    left: 0%;
+    /* top: 0%; */
+    bottom: 0;
+    background-color: black;
+    color: white;
+  }
+}
+
+

@@ -21,7 +21,7 @@ export  const data = [
         URLText: "Corporate",
         corporate:"ABOUT CORPORATE",
         onHover:true,
-        url: "#",
+        url: "/corporate",
         createdAt: "2024-06-04T09:40:16.115Z",
         updatedAt: "2024-06-04T09:40:17.431Z",
         publishedAt: "2024-06-04T09:40:17.428Z",
@@ -36,7 +36,7 @@ export  const data = [
       attributes: {
         URLText: "Wedding",
         corporate:"ABOUT WEDDING",
-        url: "#",
+        url: "/wedding",
         onHover:true,
         createdAt: "2024-06-04T09:40:16.115Z",
         updatedAt: "2024-06-04T09:40:17.431Z",
@@ -51,7 +51,7 @@ export  const data = [
       id: 4,
       attributes: {
         URLText: "M&M",
-        url: "#",
+        url: "/m&m",
         createdAt: "2024-06-04T09:40:16.115Z",
         updatedAt: "2024-06-04T09:40:17.431Z",
         publishedAt: "2024-06-04T09:40:17.428Z",

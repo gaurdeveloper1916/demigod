@@ -75,10 +75,11 @@ const Slider = () => {
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             transition: "background-image 0.5s ease-in-out",
+            height:"90vh",
           }}
         >
           <div className="col-lg-4 p-3 mt-5">
-            <p className="text-white">2023 | 1hour 40 Minutes | Horror</p>
+            <p className="text-white mt-lg-5">2023 | 1hour 40 Minutes | Horror</p>
             <p className="text-white smallfont">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
               harum reprehenderit facilis unde voluptatem quaerat nihil magnam.
@@ -94,8 +95,8 @@ const Slider = () => {
               </button>
             </div>
           </div>
-          <div className="col-lg-7">
-            <div className="carousel-container ">
+          <div className="col-lg-7 mt-lg-5">
+            <div className="carousel-container mt-5">
               <div className="d-flex flex-column">
                 <div className="carousel-items">
                   {/* Render 5 items on the screen */}

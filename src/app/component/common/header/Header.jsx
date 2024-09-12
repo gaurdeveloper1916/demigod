@@ -49,22 +49,27 @@ function OffCanvasExample({ data }) {
         <Offcanvas.Body>
         <Accordion defaultActiveKey="0">
             {data.map((item, i) => {
+              {console.log(item.attributes.URLText)}
               return (
                 <div key={i + 1}>
                   {item.attributes.onHover ? (
                     <Accordion.Item eventKey={i + 1}>
-                      <Accordion.Header>
+                      <Accordion.Header className={`${item.attributes.URLText === 'Wedding' ? 'mb-2':'my-3'}`}>
                         {" "}
                         {item.attributes.URLText}
                       </Accordion.Header>
-                      <Accordion.Body>
+                      <Accordion.Body >
+                       <div className="header-text-new">
+                       <Link className="text-white text-deco " href={item.attributes.url}>
                         {item.attributes.corporate}
+                        </Link>
+                        </div>
                       </Accordion.Body>
                     </Accordion.Item>
                   ) : (
-                    <Link href={item.attributes.url}>
+                    <Link  href={item.attributes.url}>
                       {" "}
-                      <button className=" header-list mediumfont  rounded text-start  text-black mobile-list-header " style={{padding:"14px" }}>
+                      <button className="my-2 border border-dark header-list mediumfont  rounded text-start  text-black mobile-list-header " style={{padding:"14px" }}>
                         {" "}
                         {item.attributes.URLText}
                       </button>
@@ -170,10 +175,12 @@ function Header() {
                                     style={{ lineHeight: "24px" }}
                                     className="col-lg-4  text-white"
                                   >
-                                    <h1 className="fw-bold">
+                                   <Link className="text-white text-deco" href= {item.attributes.url}>
+                                   <h2 className="fw-bold header-text-new ">
                                       {" "}
                                       {item.attributes.corporate}
-                                    </h1>
+                                    </h2>
+                                   </Link>
                                     <p className="smallfont text-colour-off-white ">
                                       Demigod is about consectetur adipisicing
                                       elit. Eaque, quos natus rerum maiores est

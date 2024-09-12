@@ -1,0 +1,62 @@
+/* components/Card.module.css */
+.card {
+    border: solid 1px #000;
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    position: relative;
+    transition: transform 0.4s;
+    transform-style: preserve-3d;
+  }
+  
+  .card div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 260px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 5vw; /* Responsive font size */
+    position: absolute;
+    margin: 0;
+    backface-visibility: hidden;
+  }
+  
+  .front {
+    background: red;
+  }
+  
+  .back {
+    background: blue;
+    transform: rotateY(180deg);
+  }
+  
+  .card:hover {
+    transform: rotateY(180deg);
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      max-width: 200px;
+      height: 200px;
+    }
+  
+    .card div {
+      line-height: 160px;
+      font-size: 6vw; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      max-width: 150px;
+      height: 150px;
+    }
+  
+    .card div {
+      line-height: 110px;
+      font-size: 8vw; /* Adjust font size for smaller screens */
+    }
+  }
+  
