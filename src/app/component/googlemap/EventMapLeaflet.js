@@ -15,23 +15,6 @@ const EventMapLeaflet = () => {
     popupAnchor: [1, -34],
     shadowSize: [41, 41],
   });
-  const eventList = [
-    {
-      position: [28.7041, 77.1025],
-     
-      
-    },
-    {
-      position: [38.9637, 35.2433],
-      
-      
-    },
-    {
-      position: [25.2048, 55.2708],
-     
-      
-    },
-  ];
   return (
     <MapContainer
       center={[20.5937, 78.9629]}

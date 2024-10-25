@@ -2,13 +2,17 @@
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 import "./index.css";
+import Link from "next/link";
 function TwoImagesDiv(props) {
   return (
     <div className="container p-0 mb-5">
       <div className="d-flex gap-3 mt-5 p-lg-0 p-2">
         <div className="col-lg-8 mt-5 ">
           <h1 className="text-center text-white mb-5 mt-2">SELECTED WORK</h1>
+          <Link href="/landingpage">
           <img className="img-fluid w-100 " src="/images/bigImage.jpg"></img>
+
+          </Link>
 
           <div className="d-flex align-items-center  justify-content-between mx-2 ">
             <div className="text-white verySmallFont">

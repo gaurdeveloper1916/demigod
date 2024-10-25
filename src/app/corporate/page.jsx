@@ -12,6 +12,7 @@ import Footer from "../component/common/footer/Footer";
 import TypeWriterText from "../component/constant/TypeWriterText";
 import Home from "../component/corporate/cards/Home";
 import FlipProducts from "../component/corporate/FlipCards/FlipProducts";
+import MultiSlider from "../component/weddingpage/MultiSlider";
 function page(props) {
   return (
     <>
@@ -65,13 +66,22 @@ function page(props) {
         </div>
         <div> <Aboutevent /></div>
         <TradeShowComponent  />
+        <MultiSlider/>
         {/* <ServicesSlider/> */}
         <UpdownSlider/>
         <Networkingpage/>
         {/* <Home/> */}
         <Flipcards/>
+        <div className="mt-5">
+        <Flipcards/>
+
+        </div>
         <FlipProducts/>
+        <Flipcards/>
         <Montering/>
+        {/* <div className="mb-5">
+        <Flipcards/>
+        </div> */}
         {/* <Footer/>  */}
       </div>
     </>

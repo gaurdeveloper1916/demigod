@@ -95,21 +95,18 @@ export default function Partnershipslider() {
           {initialImages.map((image, index) => (
             <SwiperSlide key={index}>
               <div className="d-flex justify-content-center align-items-center p-2">
-                <div className=" position-relative">
                   <img
                     className="img-fluid rounded"
                     src={image.img}
                     alt={image.name}
                   />
-                  
-                </div>
               </div>
             </SwiperSlide>
           ))}
         </Swiper>
-        <div  className="d-flex justify-content-between   px-lg-5 mt-3 ">
+        <div  className="d-flex justify-content-between  px-lg-5 px-2 mt-3">
           <div className="rounded-full cursor" onClick={handlePrev}>
-            <p className="fw-bold text-white ">PREVIOUS</p>
+            <p className="fw-bold text-white">PREVIOUS</p>
           </div>
           <div
             className="rounded-full cursor"

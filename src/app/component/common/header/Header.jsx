@@ -49,6 +49,7 @@ function OffCanvasExample({ data }) {
         <Offcanvas.Body>
         <Accordion defaultActiveKey="0">
             {data.map((item, i) => {
+              // {console.log(item.attributes.URLText)}
               return (
                 <div key={i + 1}>
                   {item.attributes.onHover ? (
@@ -285,19 +286,21 @@ function Header() {
                 })}
               </div>
               <div className=" d-flex justify-content-center align-items-center ">
-                <buton
+               <Link href='signin'>
+               <buton
                   type="button"
                   className="very mx-5 px-3 py-1 verySmallFont rounded-pill cursor button-bg text-white fw-bold "
                 >
                   SIGN UP
                 </buton>
+               </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="container-fluid p-0 d-lg-none d-block  p-2">
+      <div className="container-fluid p-0 d-lg-none d-block  p-2 bg-black">
         <div className="d-flex justify-content-between">
           <img className="w-25" src="./images/demigodnew.png"></img>
           {/* <RxHamburgerMenu className='mt-2 ' size={35} /> */}

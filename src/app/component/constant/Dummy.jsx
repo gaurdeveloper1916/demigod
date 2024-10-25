@@ -5,7 +5,7 @@ export  const data = [
         URLText: "Event",
         corporate:"ABOUT EVENT",
         onHover:true,
-        url: "#",
+        url: "/events",
         createdAt: "2024-06-04T09:37:28.020Z",
         updatedAt: "2024-06-04T09:37:29.014Z",
         publishedAt: "2024-06-04T09:37:29.011Z",

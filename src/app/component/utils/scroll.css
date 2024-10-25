@@ -1,0 +1,81 @@
+
+  
+  html, body {
+    /* height: 100%;
+    width: 100%;
+    overflow: hidden; */
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  .slider {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  .image {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 0;
+    transition: all 1s ease-out;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .image.current {
+    top: 0;
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  .status {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    z-index: 2;
+  }
+  
+  .stat {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+  }
+  
+  .stat.current {
+    background-color: white;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    z-index: 2;
+  }
+  
+  .text div {
+    opacity: 0;
+    transition: all 0.5s ease-out;
+  }
+  
+  .text .current {
+    opacity: 1;
+  }
+  

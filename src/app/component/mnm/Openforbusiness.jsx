@@ -102,8 +102,8 @@ export default function Openforbusiness() {
         >
           {initialImages.map((image, index) => (
             <SwiperSlide key={index}>
-              <div className="d-flex justify-content-center align-items-center p-2">
-                <div className=" position-relative" data-aos="flip-left" data-aos-duration="1200">
+              <div className="d-flex justify-content-center align-items-center p-2 overflow-hidden">
+                <div className="" data-aos="flip-right" data-aos-duration="1200">
                   <img
                     className="img-fluid rounded"
                     src={image.img}
@@ -119,35 +119,18 @@ export default function Openforbusiness() {
             </SwiperSlide>
           ))}
         </Swiper>
-      
-        <div  className="d-flex  flex-column">
-          <div className="d-flex  gap-2 mt-4">
-            <div
-              className=" rounded-full  p-2"
-              onClick={handlePrev}
-              style={{ color: "white" }}
-            >
-              {/* <FiChevronLeft className="stroke-2" size={25} /> */}
-              <img
-                style={{ transform: "rotate(-180deg)",width:'90px' }}
-                className="img-fluid arrow-img mx-lg-4"
-                src="/images/arrow.png"
-              ></img>
-            </div>
-            <div
-              className=" rounded-full  p-2"
-              onClick={handleNext}
-              style={{ color: "white" }}
-            >
-              {/* <FiChevronRight className="stroke-2" size={25} /> */}
-              <img
-                 style={{ width:'90px' }}
-                className="img-fluid arrow-img mx-lg-4"
-                src="/images/arrow.png"
-              ></img>
-            </div>
+        <div style={{ textAlign: "left" }} className="d-flex  gap-2 mt-4">
+          <div className="rounded-full p-2" onClick={handlePrev}>
+            <FiChevronLeft className="stroke-2" color="white" size={30} />
           </div>
-          <div className="d-flex text-white px-4">(1/5)</div>
+          <div
+            className="rounded-full p-2"
+            onClick={handleNext}
+            style={{ color: "white" }}
+          >
+            <FiChevronRight className="stroke-2" size={30} />
+
+          </div>
         </div>
       </div>
     </div>

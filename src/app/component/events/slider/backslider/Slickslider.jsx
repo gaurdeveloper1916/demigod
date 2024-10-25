@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import SingleUpDownSlider from "./SingleUpDownSlider";
 
-const UpdownSlider = () => {
+const Slickslider = () => {
   const sliderRef = useRef(null);
 
   const next = () => {
@@ -24,7 +24,7 @@ const UpdownSlider = () => {
     centerMode: true,
     centerPadding: "0",
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     nextArrow: null, // Remove default next arrow
     prevArrow: null, // Remove default previous arrow
@@ -32,7 +32,7 @@ const UpdownSlider = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
           dots: true,
@@ -41,9 +41,9 @@ const UpdownSlider = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
           slidesToScroll: 1,
-          initialSlide: 2,
+          initialSlide: 1,
         },
       },
       {
@@ -70,7 +70,7 @@ const UpdownSlider = () => {
     image: images[index],
   }));
   return (
-    <div className="d-flex justify-content-center align-items-center">
+    <div className="d-flex justify-content-center align-items-center mt-5">
       <div className="col-lg-10 overflow-hidden">
         <div className="mt-5">
           <div
@@ -79,15 +79,7 @@ const UpdownSlider = () => {
             data-aos-duration="1500"
           >
             <Slider {...settings2} ref={sliderRef}>
-              <div>
-                <h3 className="text-warning">Award Cerony</h3>
-                <p className="text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptatum, eos debitis alias eligendi possimus, molestiae
-                  dolore quas soluta at, veritatis consequatur hic vero
-                  aspernatur laudantium id illum nostrum recusandae asperiores?
-                </p>
-              </div>
+              
               {cards.map((card, index) => (
                 <SingleUpDownSlider key={index} margin={card.margin} image={card.image} />
               ))}
@@ -111,4 +103,4 @@ const UpdownSlider = () => {
   );
 };
 
-export default UpdownSlider;
+export default Slickslider;

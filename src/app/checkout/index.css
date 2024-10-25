@@ -1,0 +1,23 @@
+.color-custom{
+  color: black;
+  font-weight: 600;
+}
+
+.hover-bg:hover {
+  background-color: rgba(255, 215, 0, 0.1); /* Light gold background */
+  
+}
+.text-gold {
+  color: gold;
+}
+.btn-gold {
+  background-color: gold;
+  color: black;
+}
+.btn-outline-gold {
+  border: 1px solid gold;
+  color: gold;
+}
+.a-custom{
+  text-decoration: none;
+}

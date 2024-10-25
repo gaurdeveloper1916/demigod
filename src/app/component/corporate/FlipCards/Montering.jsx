@@ -67,7 +67,7 @@ const Montering = () => {
           ))} */}
           <div className={`text-white zoom-container`}>
             <img
-              src="/images/wedding.jpg "
+              src="https://media.istockphoto.com/id/471055422/photo/concert-crowd.webp?a=1&b=1&s=612x612&w=0&k=20&c=CLq9t_vfC3sNszUBDdfJ94WcGeFS48D1npaYL_w-R7o="
               className=" ps-4 pe-4 pt-4"
               height={300}
               alt="..."
@@ -87,7 +87,7 @@ const Montering = () => {
           </div>
           <div className={`text-white zoom-container`}>
             <img
-              src="/images/wedding.jpg "
+              src="https://media.istockphoto.com/id/1486287149/photo/group-of-multiracial-asian-business-participants-casual-chat-after-successful-conference-event.webp?a=1&b=1&s=612x612&w=0&k=20&c=w6LTgtP8zZnJgg9g7jemKYcmAWjv4lxNlPyZ-PjVwkE="
               className=" ps-4 pe-4 pt-4"
               height={300}
               alt="..."
@@ -107,7 +107,7 @@ const Montering = () => {
           </div>
           <div className={`text-white zoom-container`}>
             <img
-              src="/images/wedding.jpg "
+              src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXZlbnR8ZW58MHx8MHx8fDA%3D "
               className=" ps-4 pe-4 pt-4"
               height={300}
               alt="..."
@@ -127,7 +127,7 @@ const Montering = () => {
           </div>
           <div className={`text-white zoom-container`}>
             <img
-              src="/images/wedding.jpg "
+              src="https://images.unsplash.com/photo-1522158637959-30385a09e0da?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGV2ZW50fGVufDB8fDB8fHww "
               className=" ps-4 pe-4 pt-4"
               height={300}
               alt="..."

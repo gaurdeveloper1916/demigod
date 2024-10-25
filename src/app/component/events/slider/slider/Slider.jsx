@@ -18,7 +18,7 @@ const Slider = () => {
   };
 
   return (
-    <main className="container-fluid p-0">
+    <main className="main ">
       <ul className="slider" ref={sliderRef}>
         <li
           className="item"
@@ -34,7 +34,7 @@ const Slider = () => {
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.
             </p>
-            <button>Read More</button>
+            <button className="border border-none">Read More</button>
           </div>
         </li>
         <li
@@ -50,7 +50,7 @@ const Slider = () => {
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.
             </p>
-            <button>Read More</button>
+            <button className="border border-none">Read More</button>
           </div>
         </li>
         <li
@@ -67,7 +67,7 @@ const Slider = () => {
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.
             </p>
-            <button>Read More</button>
+            <button className="border border-none">Read More</button>
           </div>
         </li>
         <li
@@ -84,7 +84,7 @@ const Slider = () => {
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.
             </p>
-            <button>Read More</button>
+            <button className="border border-none">Read More</button>
           </div>
         </li>
         <li
@@ -101,7 +101,7 @@ const Slider = () => {
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.
             </p>
-            <button>Read More</button>
+            <button className="border border-none">Read More</button>
           </div>
         </li>
         <li

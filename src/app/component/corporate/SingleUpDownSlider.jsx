@@ -1,7 +1,7 @@
 import React from "react";
 import { MdArrowOutward } from "react-icons/md";
 
-const SingleUpDownSlider = ({ margin }) => {
+const SingleUpDownSlider = ({ margin,image }) => {
   return (
     <div
       className={`card rounded-4 text-white ${margin ? "margin-custom" : ""}`}
@@ -9,7 +9,7 @@ const SingleUpDownSlider = ({ margin }) => {
       data-aos="fade-up" data-aos-duration="1000"
     >
       <img
-        src="/images/wedding.jpg"
+        src={image}
         className="card-img-top ps-4 pe-4 pt-4"
         alt="..."
       />

@@ -49,6 +49,7 @@ const Slider = () => {
       return () => clearInterval(interval);
     }, [currentIndex]);
     const [isSticky, setIsSticky] = useState(false);
+    console.log(isSticky)
   const moveItems = () => {
     const nextIndex = (currentIndex + 1) % images.length;
 
