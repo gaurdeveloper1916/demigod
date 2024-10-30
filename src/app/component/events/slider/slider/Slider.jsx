@@ -29,12 +29,12 @@ const Slider = () => {
         >
           <div className="content">
             <h2 className="title">"Lossless Youths"</h2>
-            <p className="description">
+            <p className="description col-lg-4">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.
             </p>
-            <button className="border border-none">Read More</button>
+            <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
           </div>
         </li>
         <li
@@ -50,7 +50,7 @@ const Slider = () => {
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.
             </p>
-            <button className="border border-none">Read More</button>
+            <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
           </div>
         </li>
         <li
@@ -67,7 +67,7 @@ const Slider = () => {
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.
             </p>
-            <button className="border border-none">Read More</button>
+            <button className="border border-none smallfont m-0 px-4 py-2  ">Buy now</button>
           </div>
         </li>
         <li
@@ -84,7 +84,7 @@ const Slider = () => {
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.
             </p>
-            <button className="border border-none">Read More</button>
+            <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
           </div>
         </li>
         <li
@@ -101,7 +101,7 @@ const Slider = () => {
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.
             </p>
-            <button className="border border-none">Read More</button>
+            <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
           </div>
         </li>
         <li
@@ -118,11 +118,11 @@ const Slider = () => {
               fuga voluptatum, iure corporis inventore praesentium nisi. Id
               laboriosam ipsam enim.
             </p>
-            <button className=" border border-0">Read More</button>
+            <button className=" border border-0">Buy now</button>
           </div>
         </li>
       </ul>
-      <nav className="nav">
+      <nav className="nav ">
         <IonIcon
           className="btn prev"
           icon={arrowBackOutline}

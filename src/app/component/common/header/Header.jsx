@@ -27,8 +27,8 @@ function OffCanvasExample({ data }) {
       <RxHamburgerMenu
         color="white"
         onClick={handleShow}
-     
-        style={{marginTop:"12px"}}
+
+        style={{ marginTop: "12px" }}
         size={30}
       />
       <Offcanvas
@@ -44,32 +44,32 @@ function OffCanvasExample({ data }) {
               <img className="logoImage" src="./images/demigodnew.png" alt="Logo"></img>
             </Link>
           </Offcanvas.Title>
-          <BsX className="offcanvas-close-icon fs-1 text-white"   onClick={handleClose} />
+          <BsX className="offcanvas-close-icon fs-1 text-white" onClick={handleClose} />
         </Offcanvas.Header>
         <Offcanvas.Body>
-        <Accordion defaultActiveKey="0">
+          <Accordion defaultActiveKey="0">
             {data.map((item, i) => {
               // {console.log(item.attributes.URLText)}
               return (
                 <div key={i + 1}>
                   {item.attributes.onHover ? (
                     <Accordion.Item eventKey={i + 1}>
-                      <Accordion.Header className={`${item.attributes.URLText === 'Wedding' ? 'mb-2':'my-3'}`}>
+                      <Accordion.Header className={`${item.attributes.URLText === 'Wedding' ? 'mb-2' : 'my-3'}`}>
                         {" "}
                         {item.attributes.URLText}
                       </Accordion.Header>
                       <Accordion.Body >
-                       <div className="header-text-new">
-                       <Link className="text-white text-deco " href={item.attributes.url}>
-                        {item.attributes.corporate}
-                        </Link>
+                        <div className="header-text-new">
+                          <Link className="text-white text-deco " href={item.attributes.url}>
+                            {item.attributes.corporate}
+                          </Link>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
                   ) : (
-                    <Link  href={item.attributes.url}>
+                    <Link href={item.attributes.url}>
                       {" "}
-                      <button className="my-2 border border-dark header-list mediumfont  rounded text-start  text-black mobile-list-header " style={{padding:"14px" }}>
+                      <button className="my-2 border border-dark header-list mediumfont  rounded text-start  text-black mobile-list-header " style={{ padding: "14px" }}>
                         {" "}
                         {item.attributes.URLText}
                       </button>
@@ -118,9 +118,8 @@ function Header() {
       <div className="d-lg-block d-none ">
         <div
           style={{ zIndex: "999" }}
-          className={`d-flex header-hover  w-100  position-fixed top-0 justify-content-center align-items-center   ${
-            isSticky ? "bg-black" : ""
-          }`}
+          className={`d-flex header-hover  w-100  position-fixed top-0 justify-content-center align-items-center   ${isSticky ? "bg-black" : ""
+            }`}
         >
           <div className="d-flex justify-content-center align-items-center col-lg-12  ">
             <div className="d-flex gap-5">
@@ -142,10 +141,9 @@ function Header() {
                             <div className="d-flex justify-content-center align-items-center">
                               <Link
                                 style={{ textDecoration: "none" }}
-                                href={item.attributes.url} 
-                                className={`fs-6 fw-bold m-0 header-text-new ${
-                                  isHovered ? "text-transform-hover" : ""
-                                }`}
+                                href={item.attributes.url}
+                                className={`fs-6 fw-bold m-0 header-text-new ${isHovered ? "text-transform-hover" : ""
+                                  }`}
                                 onMouseEnter={handleMouseEnter}
                                 onMouseLeave={handleMouseLeave}
                               >
@@ -155,9 +153,8 @@ function Header() {
                                 <FaChevronDown
                                   size={17}
                                   color="white"
-                                  className={`header-drop-icon mx-1 ${
-                                    isHovered ? "rotate-icon" : ""
-                                  }`}
+                                  className={`header-drop-icon mx-1 ${isHovered ? "rotate-icon" : ""
+                                    }`}
                                 />
                               )}
                             </div>
@@ -175,12 +172,12 @@ function Header() {
                                     style={{ lineHeight: "24px" }}
                                     className="col-lg-4  text-white"
                                   >
-                                   <Link className="text-white text-deco" href= {item.attributes.url}>
-                                   <h2 className="fw-bold header-text-new ">
-                                      {" "}
-                                      {item.attributes.corporate}
-                                    </h2>
-                                   </Link>
+                                    <Link className="text-white text-deco" href={item.attributes.url}>
+                                      <h2 className="fw-bold header-text-new ">
+                                        {" "}
+                                        {item.attributes.corporate}
+                                      </h2>
+                                    </Link>
                                     <p className="smallfont text-colour-off-white ">
                                       Demigod is about consectetur adipisicing
                                       elit. Eaque, quos natus rerum maiores est
@@ -201,7 +198,7 @@ function Header() {
                                     className="col-lg-5 text-white "
                                   >
                                     <div style={{ lineHeight: "2px" }}>
-                                      <p className="fw-bold text-colour-off-white ">
+                                      <p className="fw-bold text-colour-off-white fs-4">
                                         {" "}
                                         About Us
                                       </p>
@@ -211,45 +208,51 @@ function Header() {
                                       <div className="col-lg-6">
                                         <div className="d-flex gap-2">
                                           <RiTeamLine size={23} />
-                                          <p className="m-0 fw-bold">
+                                          <p className="m- fw-bold">
                                             Our Team
                                           </p>
                                         </div>
-                                        <p className="smallfont mt-2 text-colour-off-white ">
-                                          The Amazing Team sit amet adipisicing
-                                          elit. Cupiditate eum error nulla
-                                          mollitia sunt ullam suscipit quis!
-                                        </p>
+                                        <ul className="ps-1 text-colour-off-white">
+                                          <li className="smallfont">The Hidden Benefits of events</li>
+                                          <li className="smallfont">From Couch Potato to Productivity Guru</li>
+                                          <li className="smallfont">The Art of the Last-Minute Panic</li>
+                                          <li className="smallfont">The Hidden Benefits of events</li>
+
+                                        </ul>
+
+
                                       </div>
                                       <div className="col-lg-6">
                                         <div className="d-flex gap-2">
                                           <GiTelepathy size={20} />
-                                          <p className="m-0 fw-bold">
+                                          <p className="m- fw-bold">
                                             Carrer at Now
                                           </p>
                                         </div>
-                                        <p className="smallfont mt-2 text-colour-off-white ">
-                                          Carrer kob listing , sit amet
-                                          adipisicing elit. Cupiditate eum error
-                                          nulla mollitia sunt ullam suscipit
-                                          quis!
-                                        </p>
+                                        <ul className="ps-1 text-colour-off-white">
+                                          <li className="smallfont">The Hidden Benefits of events</li>
+                                          <li className="smallfont">From Couch Potato to Productivity Guru</li>
+                                          <li className="smallfont">The Art of the Last-Minute Panic</li>
+                                          <li className="smallfont">The Hidden Benefits of events</li>
+
+                                        </ul>
                                       </div>
                                     </div>
-                                    <div className="d-flex gap-3">
+                                    <div className="d-flex gap-3 mt-4">
                                       <div className="col-lg-6">
                                         <div className="d-flex gap-2">
                                           <FaHandshake size={25} />
-                                          <p className="m-0 fw-bold">
+                                          <p className="m- fw-bold">
                                             Our Partner
                                           </p>
                                         </div>
-                                        <p className="smallfont mt-2 text-colour-off-white ">
-                                          Explore demigod partnership
-                                          adipisicing elit. Cupiditate eum error
-                                          nulla mollitia sunt ullam suscipit
-                                          quis!
-                                        </p>
+                                        <ul className="ps-1 text-colour-off-white">
+                                          <li className="smallfont">The Hidden Benefits of events</li>
+                                          <li className="smallfont">From Couch Potato to Productivity Guru</li>
+                                          <li className="smallfont">The Art of the Last-Minute Panic</li>
+                                          <li className="smallfont">The Hidden Benefits of events</li>
+
+                                        </ul>
                                       </div>
                                       <div className="col-lg-6">
                                         <div className="d-flex gap-2">
@@ -286,21 +289,21 @@ function Header() {
                 })}
               </div>
               <div className=" d-flex justify-content-center align-items-center ">
-               <Link href='signin'>
-               <buton
-                  type="button"
-                  className="very mx-5 px-3 py-1 verySmallFont rounded-pill cursor button-bg text-white fw-bold "
-                >
-                  SIGN UP
-                </buton>
-               </Link>
+                <Link href='signin'>
+                  <buton
+                    type="button"
+                    className="very mx-5 px-3 py-1 verySmallFont rounded-pill cursor button-bg text-white fw-bold "
+                  >
+                    SIGN UP
+                  </buton>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="container-fluid p-0 d-lg-none d-block  p-2 bg-black">
+      <div className="container-fluid p-0 d-lg-none d-block  p-2">
         <div className="d-flex justify-content-between">
           <img className="w-25" src="./images/demigodnew.png"></img>
           {/* <RxHamburgerMenu className='mt-2 ' size={35} /> */}

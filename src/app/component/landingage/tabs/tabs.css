@@ -120,7 +120,10 @@ p-renamed {
 }
 
 /* Mobile devices (portrait) */
+.background-custom{
+  background-image: linear-gradient(270deg, #866b2f, #dbb85e 50%, #866b2f);
 
+}
 .padding-items{
   padding: 20px
 }
@@ -136,10 +139,6 @@ p-renamed {
     margin-top: 2rem;
     float: right;
    width: 100%;
-}
-.background-custom{
-  background-image: linear-gradient(270deg, #866b2f, #dbb85e 50%, #866b2f);
-
 }
   
 }
@@ -157,10 +156,6 @@ p-renamed {
     margin-top: 4rem;
     float: right;
    width: 100%;
-}
-.background-custom{
-  background-image: linear-gradient(270deg, #866b2f, #dbb85e 50%, #866b2f);
-
 }
 }
 

@@ -23,7 +23,7 @@ const Panel = () => {
         <div className='col-lg-4 col-12'>
 
           <h4 className=' text-white text-center '>Our Partner</h4>
-          <div className='d-flex flex-lg-row flex-md-row flex-column justify-content-center align-items-center gap-3'>
+          <div className='d-flex flex-lg-row flex-column justify-content-center align-items-center gap-3'>
             <img className='image-partner rounded' src='https://media.istockphoto.com/id/1591572504/photo/cheerful-businesswomen-shaking-hands-in-meeting-room.webp?a=1&b=1&s=612x612&w=0&k=20&c=o9gVzM52qGsXBazL11EFxSmRSJLtpMnmWf9us04Pfws='></img>
             <img className='image-partner rounded' src='https://media.istockphoto.com/id/1498442212/photo/business-partner-meeting-collaboration-of-people-in-organizations-colleagues-congratulate.webp?a=1&b=1&s=612x612&w=0&k=20&c=y6c1aG58FV86B96kNMfM7w7cK7crp4dccmCFeqVSqw8='></img>
 
@@ -31,13 +31,13 @@ const Panel = () => {
 
 
           </div>
-          <div className='d-flex flex-lg-row flex-md-row flex-column justify-content-center align-items-center gap-3 mt-3'>
+          <div className='d-flex flex-lg-row flex-column justify-content-center align-items-center gap-3 mt-3'>
             <img className='image-partner rounded' src='https://media.istockphoto.com/id/2103894533/photo/business-people-in-the-office.webp?a=1&b=1&s=612x612&w=0&k=20&c=Ei7Wz8y6FCBSL1yIuIqt8qoYe1vP_BJE2EFbSSAwSOw='></img>
 
             <img className='image-partner rounded' src='https://media.istockphoto.com/id/2160707342/photo/making-decision-on-the-move.webp?a=1&b=1&s=612x612&w=0&k=20&c=UKdF7StmfHxqV5Tm7yaaq9QuP6iJKkYoS3H4nhGOox4='></img>
 
           </div>
-          <div className='d-flex flex-lg-row flex-md-row flex-column justify-content-center align-items-center gap-3 mt-3'>
+          <div className='d-flex flex-lg-row flex-column justify-content-center align-items-center gap-3 mt-3'>
             <img className='image-partner rounded' src='https://media.istockphoto.com/id/1498442212/photo/business-partner-meeting-collaboration-of-people-in-organizations-colleagues-congratulate.webp?a=1&b=1&s=612x612&w=0&k=20&c=y6c1aG58FV86B96kNMfM7w7cK7crp4dccmCFeqVSqw8='></img>
 
             <img className='image-partner rounded' src='https://media.istockphoto.com/id/1498442212/photo/business-partner-meeting-collaboration-of-people-in-organizations-colleagues-congratulate.webp?a=1&b=1&s=612x612&w=0&k=20&c=y6c1aG58FV86B96kNMfM7w7cK7crp4dccmCFeqVSqw8='></img>

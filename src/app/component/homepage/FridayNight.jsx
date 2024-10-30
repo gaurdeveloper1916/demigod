@@ -6,6 +6,7 @@ import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 import  "./fridaynight.css"
 import { FreeMode, Pagination } from 'swiper/modules';
+import Link from 'next/link';
 
 export default function FridayNight() {
   const initialImages = [
@@ -99,9 +100,12 @@ export default function FridayNight() {
                     <p className="text-secondary">22.06.24 18:00</p>
                     <h6 className="m-0">Peter Whelan</h6>
                     <p className="text-secondary">Direttore</p>
-                    <button className="rounded-pill btn-custom px-4 py-2 text-white">
-                      Acquis biGE
-                    </button>
+                    <Link href="/landingpage">
+                      <button className="rounded-pill btn-custom px-4 py-2 text-white">
+                        Acquis biGE
+                      </button>
+                    </Link>
+                    
                   </div>
                 </div>
               </div>

@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "../common/header/Header";
 import './index.css'
+import Link from "next/link";
 
 // Data
 const initialImages = [
@@ -49,7 +50,6 @@ const Slider = () => {
       return () => clearInterval(interval);
     }, [currentIndex]);
     const [isSticky, setIsSticky] = useState(false);
-    console.log(isSticky)
   const moveItems = () => {
     const nextIndex = (currentIndex + 1) % images.length;
 
@@ -66,7 +66,7 @@ const Slider = () => {
   return (
     <>
       <div className="container-fluid p-0 position-realtive ">
-      <Header/>
+     
         <div
           className="d-flex gap-4 justify-space-between flex-lg-row flex-column event-container"
           style={{
@@ -87,12 +87,17 @@ const Slider = () => {
               aut nostrum enim?
             </p>
             <div className="d-flex gap-3">
-              <button className="button-all px-4 py-2  text-white fw-bold" type="button ">
-                Watch
-              </button>
-              <button className="button-all px-4 py-2  text-white fw-bold" type="button ">
-                My List
-              </button>
+              <Link href="/landingpage">
+                <button className="button-all px-4 py-2  text-white fw-bold" type="button ">
+                  Watch
+                </button>
+              </Link>
+              <Link href="/landingpage">
+                <button className="button-all px-4 py-2  text-white fw-bold" type="button ">
+                  My List
+                </button>
+              </Link>
+             
             </div>
           </div>
           <div className="col-lg-7 mt-lg-5">

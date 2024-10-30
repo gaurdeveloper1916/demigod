@@ -4,6 +4,9 @@ import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 import "leaflet-defaulticon-compatibility";
 import { WorldJson } from "../constant/Worldjson";
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import Link from "next/link";
 const EventMapLeaflet = () => {
   const yellowIcon = new L.Icon({
     iconUrl:
@@ -20,7 +23,7 @@ const EventMapLeaflet = () => {
       center={[20.5937, 78.9629]}
       zoom={3}
       scrollWheelZoom={false}
-      style={{ height: "430px", zIndex: "0!important" }}
+      style={{ height: "600px", zIndex: "0!important" }}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
@@ -31,8 +34,8 @@ const EventMapLeaflet = () => {
       {WorldJson.map((item, i) => {
         return (
           <Marker
-          key={i+1}
-            position={[item.latitude,item.longitude]}
+            key={i + 1}
+            position={[item.latitude, item.longitude]}
             draggable={true}
             animate={true}
             icon={yellowIcon}
@@ -40,16 +43,39 @@ const EventMapLeaflet = () => {
             <Popup>
               <div className="">
                 <img className="w-100" src={item.image} />
-                <div className="card-body p-2">
-                  <h5 className="card-title m-0">{item.country}</h5>
-                  <p className="card-text mb-2">{item.des}</p>
-                  <div>
-                    <button className="btn btn-primary border-0 rounded">
-                      {" "}
-                      Book Your Ticket
-                    </button>
-                  </div>{" "}
-                </div>
+                <Card className="p-0" >
+                  <div className="d-flex flex-lg-row flex-column gap-2 p-2">
+                    <div className="d-flex flex-column justify-content-center align-items-center">
+                      <img style={{ height: '150px' }} variant="top " src="https://img.freepik.com/premium-photo/wedding-pics_1305541-8038.jpg?semt=ais_hybrid" className="w-100 img-fluid rounded" />
+                      <div className="d-flex flex-column justify-content-center align-items-center mt-3" >
+                        <p className="m-0 fw-medium">{`${item.city} event`}</p>
+                        <p className="m-0">
+                          Some quick example text to build on the  title and make up the
+                          bulk of the card's content.
+                        </p>
+                        <Link href="/landingpage">
+                          <button className="verySmallFont text-white border border-0 rounded">Book now</button>
+
+                        </Link>                      </div>
+                    </div>
+                    <div className="d-flex flex-column justify-content-center align-items-center">
+                      <img style={{ height: '150px' }} variant="top " src="https://media.istockphoto.com/id/1933378885/photo/bride-and-groom-using-sparklers-with-their-wedding-guests-on-the-beach-wedding-party.webp?a=1&b=1&s=612x612&w=0&k=20&c=O14Es2rFMXW3UhfwBM2Km5QXHYt3O5LI-CLXtY3QsL4=" className="w-100 img-fluid rounded" />
+                      <div className="d-flex flex-column justify-content-center align-items-center mt-3">
+                      <p className="m-0 fw-medium">{`${item.country} event`}</p>
+                        <p className="m-0">
+                          Some quick example text to build on the  title and make up the
+                          bulk of the card's content.
+                        </p>
+                        <Link href="/landingpage">
+                          <button className="verySmallFont text-white border border-0 rounded">Book now</button>
+
+                        </Link>
+                      </div>
+                    </div>
+                    
+                  </div>
+
+                </Card>
               </div>
             </Popup>
           </Marker>

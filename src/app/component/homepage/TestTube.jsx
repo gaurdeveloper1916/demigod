@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./index.css";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { GiStarShuriken } from "react-icons/gi";
+import Link from "next/link";
 
 function Testtube() {
   const multipleTestTube = [390,460, 350, 460, 350];
@@ -78,12 +79,17 @@ function Testtube() {
                 <p className="text-white evnt-txt-des  p-lg-0 p-4 mt-lg-0 mt-4">{intialState.evtDes}</p>
                 <div className="d-flex gap-1 justify-content-center align-items-center">
                   <div className="col-lg-8 d-flex ">
-                    <button className="know-more-button px-4 px-0  py-1 fw-bold">
-                      Know More <GiStarShuriken />
-                    </button>
-                    <button className="know-more-arrow">
-                      <IoIosArrowRoundForward />
-                    </button>
+                  
+                      <button className="know-more-button px-4 px-0  py-1 fw-bold">
+                        Know More <GiStarShuriken />
+                      </button>
+                   
+                    <Link href="/landingpage">
+                      <button className="know-more-arrow">
+                        <IoIosArrowRoundForward />
+                      </button>
+                    </Link>
+                   
                   </div>
                 </div>
               </div>

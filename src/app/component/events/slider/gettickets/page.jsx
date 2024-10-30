@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function GetTickets(props) {
@@ -37,9 +38,12 @@ function GetTickets(props) {
               </p>
             </div>
             <div className="d-flex justify-content-center align-items-center">
-              <button className="button-all bg-warning fw-bold text-black px-4 py-2" type="button">
-                GET TICKETS
-              </button>
+                <Link href="/landingpage">
+                  <button className="button-all bg-warning fw-bold text-black px-4 py-2" type="button">
+                    GET TICKETS
+                  </button>
+                </Link>
+             
             </div>
           </div>
         </div> py-2

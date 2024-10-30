@@ -1,16 +1,29 @@
 "use client";
 import * as React from "react";
 import PropTypes from "prop-types";
-import { useTheme } from "@mui/material/styles";
-import AppBar from "@mui/material/AppBar";
-import Tabs from "@mui/material/Tabs";
-import Tab from "@mui/material/Tab";
-import Box from "@mui/material/Box";
+import {
+  useTheme,
+  useMediaQuery,
+  AppBar,
+  Tabs,
+  Tab,
+  Box,
+  Drawer,
+  IconButton,
+  List,
+  ListItem,
+  ListItemText,
+  Divider,
+} from "@mui/material";
+
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import MenuIcon from "@mui/icons-material/Menu";
+
 import "./tabs.css";
 import { useState } from "react";
+import Link from "next/link";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -41,20 +54,22 @@ function a11yProps(index) {
   };
 }
 
-// Custom Slider Component
+
 const ImageSlider = () => {
-  const [hovered, setHovered] = useState(false);
+  const [hoveredIndices, setHoveredIndices] = useState(Array(4).fill(false));
+  const isSmallScreen = useMediaQuery("(max-width:600px)");
+  const isMediumScreen = useMediaQuery("(max-width:960px)");
 
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 2, // 2 images at a time
+    slidesToShow: isSmallScreen ? 1 : isMediumScreen ? 2 : 3,
     slidesToScroll: 1,
-    arrows: true, // Enable previous/next buttons
+    arrows: true,
   };
+  
 
-  // Replace these images with the actual ones you need
   const images = [
     "https://media.istockphoto.com/id/493958679/photo/audience-at-the-conference-hall.jpg?s=612x612&w=0&k=20&c=xd25jricV0WozAldp8zC0wthPmKCzZcVrzf8bM1U8EY=",
     "https://media.istockphoto.com/id/2148966237/photo/joyful-senior-friends-in-props-dancing-with-wineglasses-while-partying-together-at-home.jpg?s=612x612&w=0&k=20&c=eTbibxvMlJDcxhNyktcdmWhxqI9TnBpxxy9MadJ69Fc=",
@@ -62,45 +77,39 @@ const ImageSlider = () => {
     "https://media.istockphoto.com/id/140449928/photo/information-for-the-mass.jpg?s=612x612&w=0&k=20&c=jgIIE1qAEWr7-y_cNu-_m2aVHu4nr4sxQRkDu__CsGY=",
   ];
 
+  const handleMouseEnter = (index) => {
+    const newHovered = [...hoveredIndices];
+    newHovered[index] = true;
+    setHoveredIndices(newHovered);
+  };
+
+  const handleMouseLeave = (index) => {
+    const newHovered = [...hoveredIndices];
+    newHovered[index] = false;
+    setHoveredIndices(newHovered);
+  };
+
   return (
     <>
-      {/* First Row */}
       <Slider {...settings}>
-        {images.slice(0, 2).map((image, index) => (
-          <div key={index} className="d-flex">
-            <img
-              src={image}
-              className="w-100 m-2 rounded"
-              style={{ height: "300px" }}
-              alt={`slide-${index}`}
-            />
-          </div>
-        ))}
-      </Slider>
-      {/* Second Row */}
-      <Slider {...settings}>
-        {images.slice(2, 4).map((image, index) => (
+        {images.map((image, index) => (
           <div
             key={index}
             className="d-flex position-relative"
-            onMouseEnter={() => setHovered(true)}
-            onMouseLeave={() => setHovered(false)}
+            onMouseEnter={() => handleMouseEnter(index)}
+            onMouseLeave={() => handleMouseLeave(index)}
           >
             <img
               src={image}
               className="w-100 m-2 rounded"
-              style={{ height: "300px" }}
+              style={{ height: isSmallScreen ? "200px" : "300px" }}
               alt={`slide-${index}`}
             />
-            {hovered ? (
-              <button className="position-absolute bottom-0 start-50 translate-middle-x btn btn-primary">
+            <Link href="/landingpage">
+              <button className="position-absolute border-0 bottom-0 start-50 translate-middle-x btn btn-primary">
                 View Events
               </button>
-            ) : (
-              <p  style={{ bottom: "10px" }} className="position-absolute pb-5 start-50 translate-middle-x text-white">
-                Know More
-              </p>
-            )}
+            </Link>
           </div>
         ))}
       </Slider>
@@ -111,98 +120,87 @@ const ImageSlider = () => {
 export default function FullWidthTabs() {
   const theme = useTheme();
   const [value, setValue] = React.useState(0);
-
+  console.log(value)
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
+  const [drawerOpen, setDrawerOpen] = React.useState(false);
+  const list = ["HEALTHCARE", "NIGHTLIFE", "RELIGIOUS", "ARTS", "EDUCATION", "EXHIBITION"]
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+  
+  const handleDrawerToggle = () => {
+    setDrawerOpen(!drawerOpen);
+  };
 
   return (
-    <div className="d-flex justify-content-center align-items-center mt-5 ">
-      <div className="col-lg-10 ">
+    <div className="d-flex justify-content-center align-items-center mt-5">
+      <div className={isSmallScreen ? "col-12" : "col-lg-10"}>
         <Box sx={{ bgcolor: "background.", width: "100%" }}>
-          <AppBar style={{ backgroundColor: "" }} position="static">
-            <Tabs
-              value={value}
-              onChange={handleChange}
-              indicatorColor="secondary"
-              textColor="inherit"
-              variant="fullWidth"
-              aria-label="full width tabs example"
-              style={{
-                backgroundColor: "",
-                borderRadius: "100px",
-                color: "white",
-                fontWeight: "bold",
-              }}
-            >
-              <Tab
-                style={{
-                  backgroundColor: value === 0 ? "blue" : "black",
-                  color: value === 0 ? "white" : "inherit",
+          <AppBar style={{ backgroundColor: "black" }} position="static">
+
+            {isSmallScreen ? (
+              <>
+                <div style={{backgroundColor:'#866b2f'}} className="d-flex justify-content-between px-4  ">
+                 
+                  <p className="mt-3 fw-bold">Explore More Events</p>
+                  <p className="m-0 mt-3" color="inherit " aria-label="menu" onClick={handleDrawerToggle} sx={{ ml: 2 }}>
+                    <MenuIcon color="white" />
+                  </p>
+                </div>
+
+                <Drawer
+                  anchor="left"
+                  open={drawerOpen}
+                  onClose={handleDrawerToggle}
+                  PaperProps={{
+                    sx: { width: 250, backgroundColor: "#333", color: "#fff" },
+                  }}
+                >
+                  <List>
+                    <ListItem sx={{ textAlign: "center", py: 2 }}>
+                      <ListItemText primary="Menu" primaryTypographyProps={{ variant: "h6" }} />
+                    </ListItem>
+                    <Divider />
+                    {list.map((label, index) => (
+                      <ListItem button key={index} onClick={() => { setValue(index); handleDrawerToggle(); }}>
+                        <ListItemText primary={label} />
+                      </ListItem>
+                    ))}
+                  </List>
+                </Drawer>
+              </>
+            ) : (
+              <Tabs
+                value={value}
+                onChange={handleChange}
+                variant="fullWidth"
+                aria-label="full width tabs example"
+                sx={{
+                  color: "white",
+                  fontWeight: "bold",
+                  "& .MuiTab-root": {
+                    backgroundColor: "black",
+                    color: "white",
+                    "&.Mui-selected": {
+                      backgroundColor: "blue",
+                      color: "white",
+                    },
+                  },
                 }}
-                label="HEALTHCARE"
-                {...a11yProps(0)}
-              />
-              <Tab
-                style={{
-                  backgroundColor: value === 1 ? "blue" : "black",
-                  color: value === 1 ? "white" : "inherit",
-                }}
-                label="NIGHTLIFE"
-                {...a11yProps(1)}
-              />
-              <Tab
-                style={{
-                  backgroundColor: value === 2 ? "blue" : "black",
-                  color: value === 2 ? "white" : "inherit",
-                }}
-                label="RELIGIOUS"
-                {...a11yProps(2)}
-              />
-              <Tab
-                style={{
-                  backgroundColor: value === 3 ? "blue" : "black",
-                  color: value === 3 ? "white" : "inherit",
-                }}
-                label="ARTS"
-                {...a11yProps(3)}
-              />
-              <Tab
-                style={{
-                  backgroundColor: value === 4 ? "blue" : "black",
-                  color: value === 4 ? "white" : "inherit",
-                }}
-                label="EDUCATION"
-                {...a11yProps(4)}
-              />
-              <Tab
-                style={{
-                  backgroundColor: value === 5 ? "blue" : "black",
-                  color: value === 5 ? "white" : "inherit",
-                }}
-                label="EXHIBITION"
-                {...a11yProps(5)}
-              />
-            </Tabs>
+              >
+                {list.map((label, index) => (
+                  <Tab key={index} label={label} {...a11yProps(index)} />
+                ))}
+              </Tabs>
+            )}
           </AppBar>
-          <TabPanel value={value} index={0} dir={theme.direction}>
-            <ImageSlider />
-          </TabPanel>
-          <TabPanel value={value} index={1} dir={theme.direction}>
-            <ImageSlider />
-          </TabPanel>
-          <TabPanel value={value} index={2} dir={theme.direction}>
-            <ImageSlider />
-          </TabPanel>
-          <TabPanel value={value} index={3} dir={theme.direction}>
-            <ImageSlider />
-          </TabPanel>
-          <TabPanel value={value} index={4} dir={theme.direction}>
-            <ImageSlider />
-          </TabPanel>
-          <TabPanel value={value} index={5} dir={theme.direction}>
-            <ImageSlider />
-          </TabPanel>
+          {[0, 1, 2, 3, 4, 5].map((index) => (
+            <TabPanel key={index} value={value} index={index} dir={theme.direction}>
+              <p className="text-white px-2 fw-medium">{`${list[value]} EVENTS`}</p>
+              <ImageSlider />
+              <ImageSlider />
+            </TabPanel>
+          ))}
         </Box>
       </div>
     </div>

@@ -29,7 +29,10 @@ function TwoImagesDiv(props) {
           <hr className="text-white hrClass" />
         </div>
         <div className="col-lg-4 ">
-          <img className="img-fluid w-100" src="/images/smallImage.jpg"></img>
+          <Link href="/landingpage">
+            <img className="img-fluid w-100" src="/images/smallImage.jpg"></img>
+
+          </Link>
           {/* <hr className='text-white hrClass' /> */}
 
           <div className="d-flex align-items-center  justify-content-between mx-2 ">
@@ -51,10 +54,13 @@ function TwoImagesDiv(props) {
       {/* 2nd div */}
       <div className="d-flex gap-3 mt-5 p-lg-0 p-2">
         <div className="col-lg-4 mt-5  ">
-          <img
-            className="img-fluid w-100 mt-5"
-            src="/images/smallImage.jpg"
-          ></img>
+          <Link href="/landingpage">
+            <img
+              className="img-fluid w-100 mt-5"
+              src="/images/smallImage.jpg"
+            ></img>
+          </Link>
+         
           {/* <hr className='text-white hrClass' /> */}
 
           <div className="d-flex align-items-center  justify-content-between mx-2 ">
@@ -73,10 +79,13 @@ function TwoImagesDiv(props) {
         </div>
         <div className="col-lg-8 ">
           {/* <h1 className='text-center text-white mb-5 mt-2'>SELECTED WORK</h1> */}
-          <img
-            className="img-fluid w-100 h-75 "
-            src="/images/2largeImage.jpg"
-          ></img>
+          <Link href="/landingpage">
+            <img
+              className="img-fluid w-100 h-75 "
+              src="/images/2largeImage.jpg"
+            ></img>
+          </Link>
+          
           {/* <hr className='text-white hrClass' /> */}
 
           <div className="d-flex align-items-center  justify-content-between mx-2 ">
@@ -99,10 +108,13 @@ function TwoImagesDiv(props) {
 
       <div className="d-flex gap-3 mt-5 p-lg-0 p-2">
         <div className="col-lg-8 mt-5">
-          <img
-            className="img-fluid w-100 mt-5 "
-            src="/images/bigImage.jpg"
-          ></img>
+          <Link href="/landingpage">
+            <img
+              className="img-fluid w-100 mt-5 "
+              src="/images/bigImage.jpg"
+            ></img>
+          </Link>
+         
           {/* <hr className='text-white hrClass' /> */}
 
           <div className="d-flex align-items-center  justify-content-between mx-2 ">

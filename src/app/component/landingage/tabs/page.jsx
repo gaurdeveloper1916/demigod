@@ -31,8 +31,8 @@ const Tabs = () => {
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
-                <button className='border border-0 verySmallFont rounded p-2'>Book Now</button>
-              </div>
+                <Link href='/checkout'>                <button  className='border border-0 verySmallFont rounded p-2'>Book Now</button>
+                </Link>              </div>
             </div>
             <div className='d-flex  justify-content-around text-white mt-3'>
               <div className='d-flex flex-column align-items-center justify-content-center'>
@@ -41,16 +41,16 @@ const Tabs = () => {
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
-                <button className='border border-0 verySmallFont rounded p-2'>Book Now</button>
-              </div>
+                <Link href='/checkout'>                <button  className='border border-0 verySmallFont rounded p-2'>Book Now</button>
+                </Link>              </div>
               <div className='d-flex flex-column align-items-center justify-content-center'>
                 <h4 className='text-center'>$25</h4>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
-                <button className='border border-0 verySmallFont rounded p-2'>Book Now</button>
-              </div>
+ <Link href='/checkout'>                <button  className='border border-0 verySmallFont rounded p-2'>Book Now</button>
+                </Link>              </div>
             </div>
             <div className='d-flex  justify-content-around text-white mt-3'>
               <div className='d-flex flex-column align-items-center justify-content-center'>
@@ -59,16 +59,16 @@ const Tabs = () => {
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
-                <button className='border border-0 verySmallFont rounded p-2'>Book Now</button>
-              </div>
+ <Link href='/checkout'>                <button  className='border border-0 verySmallFont rounded p-2'>Book Now</button>
+                </Link>              </div>
               <div className='d-flex flex-column align-items-center justify-content-center'>
                 <h4 className='text-center'>$25</h4>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
-                <button className='border border-0 verySmallFont rounded p-2'>Book Now</button>
-              </div>
+ <Link href='/checkout'>                <button  className='border border-0 verySmallFont rounded p-2'>Book Now</button>
+                </Link>              </div>
             </div>
 
 
@@ -156,7 +156,7 @@ const Tabs = () => {
       case 'subscription':
         return (
           <div className='bg-dange w-100 py-3'>
-            <div className='d-flex flex-md-row flex-lg-row flex-column justify-content-center align-items-center gap-3'>
+            <div className='d-flex flex-lg-row flex-column justify-content-center align-items-center gap-3'>
               <div className='d-flex flex-column align-items-center justify-content-center'>
                 <img className='image-partner rounded' src='https://media.istockphoto.com/id/1591572504/photo/cheerful-businesswomen-shaking-hands-in-meeting-room.webp?a=1&b=1&s=612x612&w=0&k=20&c=o9gVzM52qGsXBazL11EFxSmRSJLtpMnmWf9us04Pfws='></img>
 
@@ -166,7 +166,7 @@ const Tabs = () => {
 
               </div>
             </div>
-            <div className='d-flex mt-4 flex-md-row  flex-lg-row flex-column justify-content-center align-items-center gap-3'>
+            <div className='d-flex flex-lg-row flex-column justify-content-center align-items-center gap-3'>
               <div className='d-flex flex-column align-items-center justify-content-center'>
                 <img className='image-partner rounded' src='https://media.istockphoto.com/id/1933376240/photo/portrait-of-a-bride-holding-her-bouquet-on-beach-wedding.jpg?s=612x612&w=0&k=20&c=Bu-SxK2KZtKFf5zeawkobT5KTj32HcvDwRPH7-1WxkY='></img>
 
@@ -176,7 +176,7 @@ const Tabs = () => {
 
               </div>
             </div>
-            <div className='d-flex mt-4 flex-md-row  flex-lg-row flex-column justify-content-center align-items-center gap-3'>
+            <div className='d-flex flex-lg-row flex-column justify-content-center align-items-center gap-3'>
               <div className='d-flex flex-column align-items-center justify-content-center'>
                 <img className='image-partner rounded' src='https://media.istockphoto.com/id/1591572504/photo/cheerful-businesswomen-shaking-hands-in-meeting-room.webp?a=1&b=1&s=612x612&w=0&k=20&c=o9gVzM52qGsXBazL11EFxSmRSJLtpMnmWf9us04Pfws='></img>
 
@@ -199,8 +199,8 @@ const Tabs = () => {
 
   return (
     <div className="container-renamed rounded">
-      <div className="leftbox-renamed  d-flex flex-column align-items-center justify-content-center rounded ">
-        <nav className='background-custom rounded d-flex flex-lg-column flex-row '>
+      <div className="leftbox-renamed  d-flex flex-column align-items-center justify-content-center rounded">
+        <nav className='background-custom rounded d-flex flex-lg-column flex-row'>
           <a onClick={() => setActiveSection('profile')} className={`d-flex padding-items flex-column align-items-center justify-content-center text-decoration-none ${activeSection === 'profile' ? 'active-renamed' : ''}`}>
             <LuTicket />
             Tickets

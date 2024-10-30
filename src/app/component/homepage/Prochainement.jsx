@@ -2,6 +2,7 @@
 import React from "react";
 import { MdArrowCircleLeft, MdArrowCircleRight, MdArrowOutward } from "react-icons/md";
 import './index.css'
+import Link from "next/link";
 const Prochainement
  = () => {
   const arr = [
@@ -43,34 +44,37 @@ const Prochainement
         {arr.map((item, index) => {
           return (
            <>
-              <div className="d-flex  flex-column justify-content-center align-items-center">
-                <div class="product col-lg-10 position-realtive">
-                  <div class="imgbox  ">
-                    <img className="w-100 img-fluid" src={item.image} class="img-fluid" />
-                  </div>
-                  <div class="specifies d-flex justify-content-center align-items-center">
-                    <div className="position-absolute fontdiv">
-                      <h3 className="m-0 mediumfont text-white fw-bold">{item.event_name}</h3>
-                      <p className="m-0 smallfont text-center text-white fw-bold">{item.desc}</p>
+              <Link href="/landingpage">
+                <div className="d-flex  flex-column justify-content-center align-items-center">
+                  <div class="product col-lg-10 position-realtive">
+                    <div class="imgbox  ">
+                      <img className="w-100 img-fluid" src={item.image} class="img-fluid" />
+                    </div>
+                    <div class="specifies d-flex justify-content-center align-items-center">
+                      <div className="position-absolute fontdiv">
+                        <h3 className="m-0 mediumfont text-white fw-bold">{item.event_name}</h3>
+                        <p className="m-0 smallfont text-center text-white fw-bold">{item.desc}</p>
+                      </div>
                     </div>
                   </div>
+                  <div style={{ backgroundColor: '#866b2f' }} className="w-100  py-2 my-2 cursor  rounded">
+
+                    <div className="d-flex justify-content-between text-white  mx-3 align-items-center">
+                      <div >
+                        <p className="m-0 fw-bold">Sam. 28 sept.</p>
+                        <p className="m-0 fw-bold">LOREAM THEA DHUESO</p>
+                      </div>
+                      <div className="bg-warning rounded-pill">
+                        <MdArrowOutward className="p-1" size={30} />
+
+                      </div>
+
+                    </div>
+                  </div>
+
                 </div>
-                <div style={{backgroundColor:'#866b2f'}} className="w-100  py-2 my-2 cursor  rounded">
-
-                  <div  className="d-flex justify-content-between text-white  mx-3 align-items-center">
-                    <div >
-                      <p className="m-0 fw-bold">Sam. 28 sept.</p>
-                      <p className="m-0 fw-bold">LOREAM THEA DHUESO</p>
-                    </div>
-                    <div className="bg-warning rounded-pill">
-                    <MdArrowOutward className="p-1" size={30} />
-
-                    </div>
-
-                  </div>
-                </div>
-
-              </div>
+              </Link>
+             
            </>
           
           );

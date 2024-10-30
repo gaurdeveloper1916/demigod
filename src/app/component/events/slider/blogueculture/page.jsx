@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { MdArrowCircleRight } from "react-icons/md";
 import "./blogue.css";
+import Link from "next/link";
 
 function BolgueCulture(props) {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -26,7 +27,7 @@ function BolgueCulture(props) {
   ];
 
   return (
-    <div className="d-flex justify-content-center align-items-center my-5 p-lg-0  p-3">
+    <div className="d-flex justify-content-center align-items-center my-5 p-lg-0 p-3">
       <div className="col-lg-11">
         <div className="d-flex flex-lg-row flex-column justify-content-center align-items-center gap-5">
           {arr.map((item, index) => {
@@ -58,7 +59,7 @@ function BolgueCulture(props) {
                           className="d-flex flex-column p-2 "
                         >
                           <p className="verySmallFont m-0 text-white">Tous less</p>
-                          <p className="verySmallFont m-0 text-white text-center">hellow</p>
+                          {/* <p className="verySmallFont m-0 text-white text-center">hellow</p> */}
                         </div>
                       </div>
                     </div>
@@ -107,6 +108,7 @@ function BolgueCulture(props) {
                           width: "10px",
                         }}
                       ></div>
+                    
                       <p
                         style={{ color: isHovered ? "black" : "white" }}
                         className="m-0 fw-bold smallfont"
@@ -114,12 +116,15 @@ function BolgueCulture(props) {
                         Publish in 23 April 2024
                       </p>
                     </div>
-                    <div>
-                      <MdArrowCircleRight
-                        size={30}
-                        color={isHovered ? "#353535" : "white"}
-                      />
-                    </div>
+                    <Link href="/landingpage">
+                      <div>
+                        <MdArrowCircleRight
+                          size={30}
+                          color={isHovered ? "#353535" : "white"}
+                        />
+                      </div>
+                    </Link>
+                    
                   </div>
                 </div>
               </div>

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { gsap } from "gsap";
+import Link from "next/link";
 function BackSlider() {
   const images = [
     "/images/networking.png",
@@ -41,8 +42,8 @@ function BackSlider() {
             transition: "background-image 0.5s ease-in-out", // Optional CSS transition
           }}
         >
-          <div className="col-lg-10 p-lg-0 p-md-4 p-4">
-            <div className="col-lg-7 ">
+          <div className="col-lg-10 p-3">
+            <div className="col-lg-7">
               <h5>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
                 pariatur. Nemo soluta est adipisci{" "}
@@ -55,9 +56,12 @@ function BackSlider() {
               temporibus sed earum distinctio, vitae optio. Temporibus esse sunt
               alias nesciunt! Sequi?
             </p>
-            <button className="border border-0 verySmallFont rounded px-4 py-1 text-white">
-              Register
-            </button>
+            <Link href="/landingpage">
+              <button className="border border-0 mediumfont rounded px-4 py-2 text-white">
+                Register
+              </button>
+            </Link>
+           
           </div>
 
 

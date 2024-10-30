@@ -117,7 +117,7 @@
     bottom: 2rem;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 5;
+    z-index: 10;
     user-select: none;
     display: flex;
   }
@@ -188,6 +188,7 @@
     .content {
       width: min(90%, 300px); /* Adjust width for smaller screens */
       left: 5%;
+      top: 21rem;
     }
   
     .content .title {

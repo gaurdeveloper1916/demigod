@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from "react";
 import { FaPlus } from "react-icons/fa";
 import './index.css'
+import Link from "next/link";
 const Booknow = () => {
   const [currentSlide, setCurrentSlide] = useState("standup");
   return (
@@ -52,7 +53,10 @@ const Booknow = () => {
               perferendis perspiciatis in suscipit nobis, quasi tenetur nesciunt
               vitae totam iure.
             </p>
-            <button className="btn">Book Now</button>
+              <Link href="/landingpage">
+                <button className="btn">Book Now</button>
+
+              </Link>
           </div>
         </div>
 
@@ -87,7 +91,10 @@ const Booknow = () => {
               perferendis perspiciatis in suscipit nobis, quasi tenetur nesciunt
               vitae totam iure.
             </p>
-            <button className="btn ">Book Now</button>
+              <Link href="/landingpage">
+                <button className="btn ">Book Now</button>
+
+              </Link>
           </div>
         </div>
 
@@ -124,7 +131,10 @@ const Booknow = () => {
               perferendis perspiciatis in suscipit nobis, quasi tenetur nesciunt
               vitae totam iure.
             </p>
-            <button className="btn ">Book Now</button>
+              <Link href="/landingpage">
+                <button className="btn ">Book Now</button>
+
+              </Link>
           </div>
         </div>
       </div>
