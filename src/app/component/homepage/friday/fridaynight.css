@@ -110,7 +110,9 @@
   
 }
 
-.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+
+
+/* .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
   bottom: var(--swiper-pagination-bottom, -5px);
   top: var(--swiper-pagination-top, auto);
   left: 0;
@@ -123,4 +125,4 @@
 .swiper-pagination-bullet-active {
   opacity: var(--swiper-pagination-bullet-opacity, 1);
   background: #cfad58;
-}
+} */

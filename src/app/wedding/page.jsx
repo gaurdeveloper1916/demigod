@@ -9,6 +9,7 @@ import MultiSlider from "../component/weddingpage/MultiSlider";
 import Moodboard from "../component/weddingpage/Moodboard";
 import WeddingSlider from "../component/weddingpage/OnScrollDiv/WeddingSlider";
 import OnScrollDiv from "../component/weddingpage/OnScrollDiv/OnScrollDiv";
+import FridayNight from "../component/homepage/friday/FridayNight";
 const page = (props) => {
   return (
     <div className="bg-black ">
@@ -129,7 +130,7 @@ const page = (props) => {
      
         <GallerySlider />
      
-      
+        <FridayNight/>
         <MultiSlider />
       
 

@@ -5,7 +5,7 @@ import "./index.css";
 import Link from "next/link";
 function TwoImagesDiv(props) {
   return (
-    <div className="container p-0 mb-5">
+    <div className="container-fluid p-5 mb-5">
       <div className="d-flex gap-3 mt-5 p-lg-0 p-2">
         <div className="col-lg-8 mt-5 ">
           <h1 className="text-center text-white mb-5 mt-2">SELECTED WORK</h1>
@@ -132,7 +132,9 @@ function TwoImagesDiv(props) {
           <hr className="text-white hrClass" />
         </div>
         <div className="col-lg-4 ">
+        <Link href="/landingpage"> 
           <img className="img-fluid w-100" src="/images/smallImage.jpg"></img>
+          </Link>
           {/* <hr className='text-white hrClass' /> */}
 
           <div className="d-flex align-items-center  justify-content-between mx-2 ">

@@ -95,7 +95,7 @@ const ImageSlider = () => {
         {images.map((image, index) => (
           <div
             key={index}
-            className="d-flex position-relative"
+            className="d-flex  position-relative"
             onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={() => handleMouseLeave(index)}
           >
@@ -120,7 +120,6 @@ const ImageSlider = () => {
 export default function FullWidthTabs() {
   const theme = useTheme();
   const [value, setValue] = React.useState(0);
-  console.log(value)
   const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
   const [drawerOpen, setDrawerOpen] = React.useState(false);
   const list = ["HEALTHCARE", "NIGHTLIFE", "RELIGIOUS", "ARTS", "EDUCATION", "EXHIBITION"]
@@ -196,7 +195,7 @@ export default function FullWidthTabs() {
           </AppBar>
           {[0, 1, 2, 3, 4, 5].map((index) => (
             <TabPanel key={index} value={value} index={index} dir={theme.direction}>
-              <p className="text-white px-2 fw-medium">{`${list[value]} EVENTS`}</p>
+              <p className="text-white px-2 fw-bold text-center fw-medium">{`${list[value]} EVENTS`}</p>
               <ImageSlider />
               <ImageSlider />
             </TabPanel>

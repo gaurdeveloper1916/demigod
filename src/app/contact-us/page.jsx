@@ -1,4 +1,5 @@
-import React from "react";
+'use client'
+import React, { useState } from "react";
 import { BsInstagram, BsLinkedin, BsMailbox, BsTwitter } from "react-icons/bs";
 import { FaAngleRight, FaFacebook, FaPhone } from "react-icons/fa6";
 import { IoLocation } from "react-icons/io5";
@@ -9,6 +10,14 @@ import "./index.css";
 import Header from "../component/common/header/Header";
 import Footer from "../component/common/footer/Footer";
 function page(props) {
+  const [bigImage, setBigImage] = useState(
+    "https://www.shutterstock.com/shutterstock/photos/2159023891/display_1500/stock-photo-happy-businesspeople-laughing-while-collaborating-on-a-new-project-in-an-office-group-of-diverse-2159023891.jpg"
+  );
+
+  // Function to handle the click event on small images
+  const handleSmallImageClick = (imageSrc) => {
+    setBigImage(imageSrc);
+  };
   return (
     <div className="container-fluid bg-black  position-realtive">
       <Header />
@@ -34,13 +43,13 @@ function page(props) {
               reprehenderit corrupti incidunt laboriosam maxime porro
               perspiciatis, autem numquam tempore debitis!
             </p>
-            <div className="border col-lg-2  py-1 px-2 d-flex flex-column rounded-pill  justify-content-center align-items-center my-3 ">
+            {/* <div className="border col-lg-2  py-1 px-2 d-flex flex-column rounded-pill  justify-content-center align-items-center my-3 ">
               <RiArrowDropDownLine size={30} />
-            </div>
+            </div> */}
           </div>
           <div
             className="d-flex position-absolute  latest_event"
-            
+
           >
             <p className="d-flex flex-row-reverse  font-weight-normal ">
               SEE THE LATEST EVENTS{" "}
@@ -117,7 +126,7 @@ function page(props) {
           backgroundImage: "url('/images/contact_form.png')",
           backgroundSize: "cover",
           width: "100%",
-          objectFit:"cover"
+          objectFit: "cover"
         }}
       >
         <div
@@ -169,22 +178,26 @@ function page(props) {
             </button>
           </div>
           <div className="col-lg-7">
+            {/* Big image */}
             <img
               className="img-fluid w-100"
               style={{ height: "300px" }}
-              src="https://www.shutterstock.com/shutterstock/photos/2159023891/display_1500/stock-photo-happy-businesspeople-laughing-while-collaborating-on-a-new-project-in-an-office-group-of-diverse-2159023891.jpg"
-            ></img>
-            <div className="d-flex justify-content-between align-items-center mt-3 mx-3 ">
+              src={bigImage} // Dynamically changing image
+              alt="Large view"
+            />
+            <div className="d-flex justify-content-between align-items-center mt-3 mx-3">
               <p className="text-white fw-bold">Know Our Location</p>
               <FaAngleRight className="text-white" size={30} />
             </div>
             <div className="d-flex gap-3 mx-3 mt-3">
+              {/* Small clickable images */}
               <div className="col-lg-3">
                 <img
                   className="rounded img-fluid w-100"
                   style={{ maxHeight: "90px", objectFit: "cover" }}
                   src="./images/dj.jpg"
-                  alt=""
+                  alt="small1"
+                  onClick={() => handleSmallImageClick("./images/dj.jpg")} // Click event
                 />
               </div>
               <div className="col-lg-3">
@@ -192,7 +205,8 @@ function page(props) {
                   className="rounded img-fluid w-100"
                   style={{ maxHeight: "90px", objectFit: "cover" }}
                   src="./images/party.jpg"
-                  alt=""
+                  alt="small2"
+                  onClick={() => handleSmallImageClick("./images/party.jpg")} // Click event
                 />
               </div>
               <div className="col-lg-3">
@@ -200,7 +214,8 @@ function page(props) {
                   className="rounded img-fluid w-100"
                   style={{ maxHeight: "90px", objectFit: "cover" }}
                   src="./images/partygirl.jpg"
-                  alt=""
+                  alt="small3"
+                  onClick={() => handleSmallImageClick("./images/partygirl.jpg")} // Click event
                 />
               </div>
               <div className="col-lg-3">
@@ -208,16 +223,17 @@ function page(props) {
                   className="rounded img-fluid w-100"
                   style={{ maxHeight: "90px", objectFit: "cover" }}
                   src="./images/dj.jpg"
-                  alt=""
+                  alt="small4"
+                  onClick={() => handleSmallImageClick("./images/dj.jpg")} // Click event
                 />
               </div>
             </div>
             <div className="col-lg-8 mt-3 mx-3">
-              <h5 className=" fw-bold text-white">Address</h5>
-              <p className="m- smallfont text-white ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br></br>  Ex
-                dolorem nisi amet repellendus in ab dignissimos,impedit,
-                molestias corrupti voluptatum{" "}
+              <h5 className="fw-bold text-white">Address</h5>
+              <p className="m- smallfont text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Ex
+                dolorem nisi amet repellendus in ab dignissimos, impedit,
+                molestias corrupti voluptatum
               </p>
               <p className="text-white m-0">+91 982727272</p>
               <p className="text-white m-0">info@demigod.com</p>
@@ -226,7 +242,7 @@ function page(props) {
         </div>
       </div>
     </div>
-    
+
   );
 }
 

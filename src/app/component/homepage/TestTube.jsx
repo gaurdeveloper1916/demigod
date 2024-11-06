@@ -6,7 +6,7 @@ import { GiStarShuriken } from "react-icons/gi";
 import Link from "next/link";
 
 function Testtube() {
-  const multipleTestTube = [390,460, 350, 460, 350];
+  const multipleTestTube = [390, 460, 350, 460, 350];
   const tubeData = [
     {
       evtName: "Dubai Events",
@@ -28,7 +28,7 @@ function Testtube() {
 
   return (
     <>
-      <div className="container mt-5">
+      <div className="container-fluid p-5 mt-5">
         <div>
           <div className=" d-flex gap-2 m-0 justify-content-center align-items-center ">
             <div className=" d-flex col-lg-9 gap-3">
@@ -50,14 +50,14 @@ function Testtube() {
           <div className="col-lg-12  d-flex flex-lg-row flex-column   justify-content-center">
             <div className="col-lg-4">
               <div className="d-flex gap-2 justify-content-center align-items-center">
-                {multipleTestTube.map((item,index) => {
+                {multipleTestTube.map((item, index) => {
                   return (
                     <div
                       style={{
                         position: "relative",
                         height: `${item - 150}px`,
                       }}
-                      key={index+1}
+                      key={index + 1}
                     >
                       <video autoPlay loop muted className="tube-bg-video">
                         <source
@@ -79,17 +79,19 @@ function Testtube() {
                 <p className="text-white evnt-txt-des  p-lg-0 p-4 mt-lg-0 mt-4">{intialState.evtDes}</p>
                 <div className="d-flex gap-1 justify-content-center align-items-center">
                   <div className="col-lg-8 d-flex ">
-                  
-                      <button className="know-more-button px-4 px-0  py-1 fw-bold">
+                    <Link href="/landingpage">
+                      <button className="know-more-button px-4 px-2  py-2 fw-bold">
                         Know More <GiStarShuriken />
                       </button>
-                   
+                    </Link>
+
+
                     <Link href="/landingpage">
                       <button className="know-more-arrow">
                         <IoIosArrowRoundForward />
                       </button>
                     </Link>
-                   
+
                   </div>
                 </div>
               </div>

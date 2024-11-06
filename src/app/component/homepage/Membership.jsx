@@ -24,7 +24,7 @@ function Membership(props) {
     },
   ];
   return (
-    <div className="container">
+    <div className="container-fluid p-5">
       <div className="row bg-dark-black">
         <div className="col-lg-6 p-lg-4 p-3">
           <h3 className="text-white p-3 membership-title">

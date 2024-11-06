@@ -207,10 +207,15 @@ function Header() {
                                     <div className="d-flex gap-3 des-header">
                                       <div className="col-lg-6">
                                         <div className="d-flex gap-2">
-                                          <RiTeamLine size={23} />
-                                          <p className="m- fw-bold">
+                                          {/* <RiTeamLine size={23} /> */}
+                                          <div className="d-flex flex-column">
+                                          <p className="m-0 fw-bold">
                                             Our Team
                                           </p>
+                                          <p className="m- fw-bold">
+                                           Talent Meets Collaboration
+                                          </p>
+                                          </div>
                                         </div>
                                         <ul className="ps-1 text-colour-off-white">
                                           <li className="smallfont">The Hidden Benefits of events</li>
@@ -224,10 +229,15 @@ function Header() {
                                       </div>
                                       <div className="col-lg-6">
                                         <div className="d-flex gap-2">
-                                          <GiTelepathy size={20} />
-                                          <p className="m- fw-bold">
+                                          {/* <GiTelepathy size={20} /> */}
+                                          <div className="flex flex-column">
+                                          <p className="m-0 fw-bold">
                                             Carrer at Now
                                           </p>
+                                          <p className="m- fw-bold">
+                                          Build Your Future, Now
+                                          </p>
+                                          </div>
                                         </div>
                                         <ul className="ps-1 text-colour-off-white">
                                           <li className="smallfont">The Hidden Benefits of events</li>
@@ -241,10 +251,13 @@ function Header() {
                                     <div className="d-flex gap-3 mt-4">
                                       <div className="col-lg-6">
                                         <div className="d-flex gap-2">
-                                          <FaHandshake size={25} />
-                                          <p className="m- fw-bold">
+                                          {/* <FaHandshake size={25} /> */}
+                                         <div className="flex flex-column">
+                                         <p className="m-0 fw-bold">
                                             Our Partner
                                           </p>
+                                          <p className="fw-bold">Together, We Achieve More</p>
+                                         </div>
                                         </div>
                                         <ul className="ps-1 text-colour-off-white">
                                           <li className="smallfont">The Hidden Benefits of events</li>
@@ -256,10 +269,13 @@ function Header() {
                                       </div>
                                       <div className="col-lg-6">
                                         <div className="d-flex gap-2">
-                                          <BsTelephone size={23} />
-                                          <p className="m-0  fw-bold">
+                                          {/* <BsTelephone size={23} /> */}
+                                         <div className="d-flex flex-column">
+                                         <p className="m-0  fw-bold">
                                             Contact With us
                                           </p>
+                                          <p className="m-0  fw-bold">We’d Love to Hear From You</p>
+                                         </div>
                                         </div>
                                         <p className="smallfont mt-2 text-colour-off-white ">
                                           If You need to talk, sit amet

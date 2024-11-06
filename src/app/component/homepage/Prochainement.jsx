@@ -26,7 +26,7 @@ const Prochainement
     }
   ];
   return (
-    <div className="p-4 container">
+    <div className=" p-5">
       <div className="d-flex justify-content-between align-items-center mx-lg-4 mx-0">
        <div>
          <h4 className="text-white">Prochainement</h4></div>

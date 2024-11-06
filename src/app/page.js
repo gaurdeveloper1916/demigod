@@ -3,7 +3,7 @@ import Header from "./component/common/header/Header";
 import Slider from "./component/events/slider/slider/Slider";
 import Map from "./component/googlemap/Map";
 import Booknow from "./component/homepage/BookNow";
-import FridayNight from "./component/homepage/FridayNight";
+import FridayNight from "./component/homepage/friday/FridayNight";
 import Membership from "./component/homepage/Membership";
 import Prochainement from "./component/homepage/Prochainement";
 // import Slider from "./component/homepage/Slider";
@@ -12,7 +12,7 @@ import TwoImagesDiv from "./component/homepage/TwoImagesDiv";
 
 export default function Home() {
   return (
-    <div className="bg-black">
+    <div className="bg-black container-fluid p-0">
       <Header />
       <Slider />
       <TwoImagesDiv />

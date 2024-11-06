@@ -18,7 +18,8 @@ const Slider = () => {
   };
 
   return (
-    <main className="main ">
+   <div  className="container-fluid p-0">
+ <main className="main ">
       <ul className="slider" ref={sliderRef}>
         <li
           className="item"
@@ -135,6 +136,7 @@ const Slider = () => {
         />
       </nav>
     </main>
+   </div>
   );
 };
 

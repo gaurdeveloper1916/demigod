@@ -120,14 +120,15 @@ p-renamed {
 }
 
 /* Mobile devices (portrait) */
-.background-custom{
-  background-image: linear-gradient(270deg, #866b2f, #dbb85e 50%, #866b2f);
 
-}
 .padding-items{
   padding: 20px
 }
 @media (max-width: 480px) {
+  .background-custom{
+    background-image: linear-gradient(270deg, #866b2f, #dbb85e 50%, #866b2f);
+  
+  }
   .leftbox-renamed {
     width: 100%;
     height: 100%;
@@ -145,6 +146,13 @@ p-renamed {
 
 /* Tablets (portrait and landscape) */
 @media (min-width: 768px) and (max-width: 1024px) {
+  .background-custom{
+    background-image: linear-gradient(270deg, #866b2f, #dbb85e 50%, #866b2f);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .leftbox-renamed {
     width: 100%;
     height: 100%;
