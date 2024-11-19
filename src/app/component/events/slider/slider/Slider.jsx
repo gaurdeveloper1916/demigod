@@ -1,6 +1,6 @@
 "use client";
 import React, { useRef } from "react";
-import "./Slider.css";
+import "./slider.css";
 import { IonIcon } from "@ionic/react";
 import { arrowBackOutline, arrowForwardOutline } from "ionicons/icons";
 
