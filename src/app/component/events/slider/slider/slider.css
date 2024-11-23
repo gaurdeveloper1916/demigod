@@ -45,20 +45,20 @@
   }
   
   .item:nth-child(3) {
-    left: 50%;
+    left: 38.3%;
   }
   
   .item:nth-child(4) {
-    left: calc(50% + 220px);
-  }
+    left: calc(50% + 40px);
+}
   
   .item:nth-child(5) {
-    left: calc(50% + 440px);
-  }
+    left: calc(50% + 255px);
+      }
   
   .item:nth-child(6) {
-    left: calc(50% + 660px);
-    opacity: 0;
+    left: calc(50% + 477px);
+    /* opacity: 0; */
   }
   
   .content {
