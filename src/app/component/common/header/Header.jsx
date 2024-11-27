@@ -187,9 +187,9 @@ function Header() {
                                       ut ullam esse?
                                     </p>
                                     <div style={{ lineHeight: "2px" }}>
-                                      <p className="m-0">
+                                      {/* <p className="m-0">
                                         About World of Demigod
-                                      </p>
+                                      </p> */}
                                       <hr />
                                     </div>
                                   </div>
@@ -197,13 +197,13 @@ function Header() {
                                     style={{ lineHeight: "24px" }}
                                     className="col-lg-5 text-white "
                                   >
-                                    <div style={{ lineHeight: "2px" }}>
+                                    {/* <div style={{ lineHeight: "2px" }}>
                                       <p className="fw-bold text-colour-off-white fs-4">
                                         {" "}
                                         About Us
                                       </p>
                                       <hr />
-                                    </div>
+                                    </div> */}
                                     <div className="d-flex gap-3 des-header">
                                       <div className="col-lg-6">
                                         <div className="d-flex gap-2">

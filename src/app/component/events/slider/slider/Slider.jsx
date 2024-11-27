@@ -10,120 +10,87 @@ const Slider = () => {
   const activate = (direction) => {
     const slider = sliderRef.current;
     const items = slider.querySelectorAll(".item");
+
     if (direction === "next") {
-      slider.append(items[0]);
+      slider.appendChild(items[0]); // Move the first item to the end
     } else if (direction === "prev") {
-      slider.prepend(items[items.length - 1]);
+      slider.insertBefore(items[items.length - 1], items[0]); // Move the last item to the beginning
+    }
+  };
+
+  const handleImageClick = (index) => {
+    const slider = sliderRef.current;
+    const items = Array.from(slider.querySelectorAll(".item"));
+
+    if (index === 0) {
+      activate("prev"); // Move backward when clicking the first visible item
+    } else if (index === items.length - 1) {
+      activate("next"); // Move forward when clicking the last visible item
     }
   };
 
   return (
     <div className="container-fluid p-0">
-      <main className="main ">
+      <main className="main">
         <ul className="slider" ref={sliderRef}>
-          <li
-            className="item"
-            style={{
+          {[
+            {
+              title: '"Lossless Youths"',
+              description:
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
               backgroundImage:
-                "url('./images/landing-page-images/Punjabideligatescopy4.webp')",
-            }}
-          >
-            <div className="content">
-              <h2 className="title">"Lossless Youths"</h2>
-              <p className="description col-lg-4">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-                fuga voluptatum, iure corporis inventore praesentium nisi. Id
-                laboriosam ipsam enim.
-              </p>
-              <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
-            </div>
-          </li>
-          <li
-            className="item"
-            style={{
-              backgroundImage: "url('./images/landing-page-images/STANDUP.webp')",
-            }}
-          >
-            <div className="content">
-              <h2 className="title">"Estrange Bond"</h2>
-              <p className="description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-                fuga voluptatum, iure corporis inventore praesentium nisi. Id
-                laboriosam ipsam enim.
-              </p>
-              <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
-            </div>
-          </li>
-          <li
-            className="item"
-            style={{
+                "./images/landing-page-images/Punjabideligatescopy4.webp",
+            },
+            {
+              title: '"Estrange Bond"',
+              description:
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+              backgroundImage: "./images/landing-page-images/STANDUP.webp",
+            },
+            {
+              title: '"The Gate Keeper"',
+              description:
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
               backgroundImage:
-                "url('./images/landing-page-images/tourdewhiskeycopy.webp')",
-            }}
-          >
-            <div className="content">
-              <h2 className="title">"The Gate Keeper"</h2>
-              <p className="description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-                fuga voluptatum, iure corporis inventore praesentium nisi. Id
-                laboriosam ipsam enim.
-              </p>
-              <button className="border border-none smallfont m-0 px-4 py-2  ">Buy now</button>
-            </div>
-          </li>
-          <li
-            className="item"
-            style={{
+                "./images/landing-page-images/tourdewhiskeycopy.webp",
+            },
+            {
+              title: '"Last Trace Of Us"',
+              description:
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+              backgroundImage: "./images/landing-page-images/USAcopy.webp",
+            },
+            {
+              title: '"Urban Decay"',
+              description:
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
               backgroundImage:
-                "url('./images/landing-page-images/USAcopy.webp')",
-            }}
-          >
-            <div className="content">
-              <h2 className="title">"Last Trace Of Us"</h2>
-              <p className="description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-                fuga voluptatum, iure corporis inventore praesentium nisi. Id
-                laboriosam ipsam enim.
-              </p>
-              <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
-            </div>
-          </li>
-          <li
-            className="item"
-            style={{
-              backgroundImage:
-                "url('./images/landing-page-images/Punjabideligatescopy4.webp')",
-            }}
-          >
-            <div className="content">
-              <h2 className="title">"Urban Decay"</h2>
-              <p className="description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-                fuga voluptatum, iure corporis inventore praesentium nisi. Id
-                laboriosam ipsam enim.
-              </p>
-              <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
-            </div>
-          </li>
-          <li
-            className="item"
-            style={{
-              backgroundImage:
-                "url('./images/landing-page-images/STANDUP.webp')",
-            }}
-          >
-            <div className="content">
-              <h2 className="title">"The Migration"</h2>
-              <p className="description">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-                fuga voluptatum, iure corporis inventore praesentium nisi. Id
-                laboriosam ipsam enim.
-              </p>
-              <button className=" border border-0">Buy now</button>
-            </div>
-          </li>
+                "./images/landing-page-images/Punjabideligatescopy4.webp",
+            },
+            {
+              title: '"The Migration"',
+              description:
+                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+              backgroundImage: "./images/landing-page-images/STANDUP.webp",
+            },
+          ].map((item, index) => (
+            <li
+              key={index}
+              className="item cursor-pointer"
+              style={{ backgroundImage: `url('${item.backgroundImage}')` }}
+              onClick={() => handleImageClick(index)}
+            >
+              <div className="content">
+                <h2 className="title">{item.title}</h2>
+                <p className="description">{item.description}</p>
+                <button className="border border-none smallfont m-0 px-4 py-2">
+                  Buy now
+                </button>
+              </div>
+            </li>
+          ))}
         </ul>
-        <nav className="nav ">
+        <nav className="nav">
           <IonIcon
             className="btn prev"
             icon={arrowBackOutline}
