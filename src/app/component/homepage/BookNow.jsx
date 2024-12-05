@@ -43,7 +43,7 @@ const Booknow = () => {
               currentSlide === "standup" ? "active" : ""
             }`}
           >
-            <p className="text-uppercase">Oktober fest</p>
+            <p className="text-uppercase fs-5 font-bold"> Ocean gig</p>
             <h1>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
               tempore
@@ -72,7 +72,7 @@ const Booknow = () => {
                 currentSlide === "djnight" ? "active" : ""
               }`}
             >
-              Dj night
+           Oktober fest
             </p>
           </div>
 
@@ -81,7 +81,7 @@ const Booknow = () => {
               currentSlide === "djnight" ? "active" : ""
             }`}
           >
-            <p className="text-uppercase">Dj night</p>
+            <p className="text-uppercase fs-5 font-bold">  Oktober fest</p>
             <h1>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
               tempore
@@ -112,7 +112,7 @@ const Booknow = () => {
                 currentSlide === "dandiyanight" ? "active" : ""
               }`}
             >
-              dandiya night
+               Yacht Summer
             </p>
           </div>
 
@@ -121,7 +121,7 @@ const Booknow = () => {
               currentSlide === "dandiyanight" ? "active" : ""
             }`}
           >
-            <p className="text-uppercase">dandiya night</p>
+            <p className="text-uppercase fs-5 font-bold">  Yacht Summer</p>
             <h1>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
               tempore

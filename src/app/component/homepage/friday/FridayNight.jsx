@@ -24,22 +24,22 @@ export default function FridayNight() {
   const initialImages = [
     {
       img: "/images/landing-page-images/section7/BLUE_COLLAR.webp",
-      name: "Image 1",
+      name: "Blue collar chronicles",
       desc: "Description for Image 1",
     },
     {
       img: "/images/landing-page-images/section7/COUPLE'S_MARATHON.webp",
-      name: "Image 2",
+      name: "Marathon mingle",
       desc: "Description for Image 2",
     },
     {
       img: "/images/landing-page-images/section7/PAINTBALL.webp",
-      name: "Image 3",
+      name: "Warzone Paintfull Tournament",
       desc: "Description for Image 3",
     },
     {
       img: "/images/landing-page-images/section7/STANDUP.webp",
-      name: "Image 4",
+      name: "Comedy Show",
       desc: "Description for Image 4",
     }
   ];
@@ -92,10 +92,10 @@ export default function FridayNight() {
                   alt={image.name}
                 />
                 <div className="overlay">
-                  <h1 className="text-san">SAN</h1>
+                  <h1 className="text-san">{image.name}</h1>
                 </div>
                 <div className="p-3 text-white visible-on-hover">
-                  <h6 className="m-0">Chiesa San Biagio</h6>
+                  <h6 className="m-0">{image.name}</h6>
                   <p className="m-0 text-secondary">OSI in San Biagio</p>
                   <p className="text-secondary">22.06.24 18:00</p>
                   <h6 className="m-0">Peter Whelan</h6>

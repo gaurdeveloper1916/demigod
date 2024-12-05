@@ -38,21 +38,21 @@ const Slider = () => {
     },
     {
       id: 1,
-      title: '"Estrange Bond"',
+      title: '"DFC"',
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
       backgroundImage: "./images/landing-page-images/section1/DFC.webp",
     },
     {
       id: 2,
-      title: '"The Gate Keeper"',
+      title: '"Entrepreneursship Forum"',
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
       backgroundImage: "./images/landing-page-images/section1/FORUM.webp",
     },
     {
       id: 3,
-      title: '"Last Trace Of Us"',
+      title: '"Punjabi deligates"',
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
       backgroundImage: "./images/landing-page-images/section1/PUNJABI_DELIGATES.webp",
@@ -67,7 +67,7 @@ const Slider = () => {
     },
     {
       id: 5,
-      title: '"Estrange Bond"',
+      title: '"DFC"',
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
       backgroundImage: "./images/landing-page-images/section1/DFC.webp",

@@ -9,20 +9,20 @@ const Prochainement
     {
       image:
         "/images/landing-page-images/section3/EUR.webp",
-      event_name: "Mara Tremblaye et",
-      desc: "Hauterive",
+      event_name: "Economic Patriots Summit Euprope",
+      desc: "",
     },
     {
       image:
         "/images/landing-page-images/section3/INDIA.webp",
-        event_name: "Mara Tremblaye et",
-      desc: "Hauterive",
+        event_name: "Economic Patriots Summit India",
+      desc: "",
     },
     {
       image:
         "/images/landing-page-images/section3/USA.webp",
-        event_name: "Mara Tremblaye et",
-      desc: "Hauterive",
+        event_name: "Economic Patriots Summit USA",
+      desc: "",
     }
   ];
   return (
@@ -61,8 +61,8 @@ const Prochainement
 
                     <div className="d-flex justify-content-between text-white  mx-3 align-items-center">
                       <div >
-                        <p className="m-0 fw-bold">Sam. 28 sept.</p>
-                        <p className="m-0 fw-bold">LOREAM THEA DHUESO</p>
+                        <p className="m-0 fw-bold">{item.event_name}</p>
+                        <p className="m-0 fw-bold">{item.desc}</p>
                       </div>
                       <div className="bg-warning rounded-pill">
                         <MdArrowOutward className="p-1" size={30} />
