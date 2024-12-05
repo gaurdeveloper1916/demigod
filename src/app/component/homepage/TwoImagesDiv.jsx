@@ -5,12 +5,12 @@ import "./index.css";
 import Link from "next/link";
 function TwoImagesDiv(props) {
   return (
-    <div className="container-fluid p-5 mb-5">
+    <div className="container-fluid p-5 mb-5 col-lg-11">
       <div className="d-flex gap-3 mt-5 p-lg-0 p-2">
         <div className="col-lg-8 mt-5 ">
           <h1 className="text-center text-white mb-5 mt-2">SELECTED WORK</h1>
           <Link href="/landingpage">
-          <img className="img-fluid w-100 " src="/images/bigImage.jpg"></img>
+          <img className="img-fluid w-100 " src="/images/landing-page-images/section2/big_image.webp"></img>
 
           </Link>
 
@@ -57,7 +57,7 @@ function TwoImagesDiv(props) {
           <Link href="/landingpage">
             <img
               className="img-fluid w-100 mt-5"
-              src="/images/smallImage.jpg"
+              src="/images/landing-page-images/section2/smallimage.webp"
             ></img>
           </Link>
          
@@ -82,7 +82,7 @@ function TwoImagesDiv(props) {
           <Link href="/landingpage">
             <img
               className="img-fluid w-100 h-75 "
-              src="/images/2largeImage.jpg"
+              src="/images/landing-page-images/section2/bigimage.webp"
             ></img>
           </Link>
           
@@ -111,7 +111,7 @@ function TwoImagesDiv(props) {
           <Link href="/landingpage">
             <img
               className="img-fluid w-100 mt-5 "
-              src="/images/bigImage.jpg"
+              src="/images/landing-page-images/section2/1bigimage.webp"
             ></img>
           </Link>
          

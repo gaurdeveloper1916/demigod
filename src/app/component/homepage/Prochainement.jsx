@@ -8,19 +8,19 @@ const Prochainement
   const arr = [
     {
       image:
-        "/images/canada.png/",
+        "/images/landing-page-images/section3/EUR.webp",
       event_name: "Mara Tremblaye et",
       desc: "Hauterive",
     },
     {
       image:
-        "/images/dubai.png/",
+        "/images/landing-page-images/section3/INDIA.webp",
         event_name: "Mara Tremblaye et",
       desc: "Hauterive",
     },
     {
       image:
-        "/images/canada.png/",
+        "/images/landing-page-images/section3/USA.webp",
         event_name: "Mara Tremblaye et",
       desc: "Hauterive",
     }

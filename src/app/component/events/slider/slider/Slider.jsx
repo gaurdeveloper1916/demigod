@@ -1,108 +1,133 @@
-"use client";
-import React, { useRef } from "react";
-import "./slider.css";
+'use client'
+import React, { useRef, useState } from "react";
+import "./slider1.css";
 import { IonIcon } from "@ionic/react";
 import { arrowBackOutline, arrowForwardOutline } from "ionicons/icons";
+import TypeWriterText from "@/app/component/constant/TypeWriterText";
 
 const Slider = () => {
+  const [backgroundImage, setBackgroundImage] = useState(
+    "./images/landing-page-images/STANDUP.webp"
+  );
+  const [currentIndex, setCurrentIndex] = useState(1); // Track current image index
   const sliderRef = useRef(null);
 
+  // Function to handle the activation of next or previous slider items
   const activate = (direction) => {
-    const slider = sliderRef.current;
-    const items = slider.querySelectorAll(".item");
+    const items = sliderRef.current.querySelectorAll(".item");
+    let newIndex = currentIndex;
 
     if (direction === "next") {
-      slider.appendChild(items[0]); // Move the first item to the end
+      newIndex = (currentIndex + 1) % items.length;
     } else if (direction === "prev") {
-      slider.insertBefore(items[items.length - 1], items[0]); // Move the last item to the beginning
+      newIndex = (currentIndex - 1 + items.length) % items.length;
     }
+
+    setCurrentIndex(newIndex);
+    setBackgroundImage(sliderItems[newIndex].backgroundImage);
   };
 
-  const handleImageClick = (index) => {
-    const slider = sliderRef.current;
-    const items = Array.from(slider.querySelectorAll(".item"));
+  const sliderItems = [
+    {
+      id: 0,
+      title: '"Lossless Youths"',
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+      backgroundImage:
+        "./images/landing-page-images/section1/AVIATION.webp",
+    },
+    {
+      id: 1,
+      title: '"Estrange Bond"',
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+      backgroundImage: "./images/landing-page-images/section1/DFC.webp",
+    },
+    {
+      id: 2,
+      title: '"The Gate Keeper"',
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+      backgroundImage: "./images/landing-page-images/section1/FORUM.webp",
+    },
+    {
+      id: 3,
+      title: '"Last Trace Of Us"',
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+      backgroundImage: "./images/landing-page-images/section1/PUNJABI_DELIGATES.webp",
+    },
+    {
+      id: 4,
+      title: '"Lossless Youths"',
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+      backgroundImage:
+        "./images/landing-page-images/section1/AVIATION.webp",
+    },
+    {
+      id: 5,
+      title: '"Estrange Bond"',
+      description:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+      backgroundImage: "./images/landing-page-images/section1/DFC.webp",
+    },
+  ];
 
-    if (index === 0) {
-      activate("prev"); // Move backward when clicking the first visible item
-    } else if (index === items.length - 1) {
-      activate("next"); // Move forward when clicking the last visible item
-    }
+  const handleImageClick = (index) => {
+    console.log(index)
+    setCurrentIndex(index);
+    setBackgroundImage(sliderItems[index].backgroundImage);
   };
 
   return (
-    <div className="container-fluid p-0">
-      <main className="main">
-        <ul className="slider" ref={sliderRef}>
-          {[
-            {
-              title: '"Lossless Youths"',
-              description:
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-              backgroundImage:
-                "./images/landing-page-images/Punjabideligatescopy4.webp",
-            },
-            {
-              title: '"Estrange Bond"',
-              description:
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-              backgroundImage: "./images/landing-page-images/STANDUP.webp",
-            },
-            {
-              title: '"The Gate Keeper"',
-              description:
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-              backgroundImage:
-                "./images/landing-page-images/tourdewhiskeycopy.webp",
-            },
-            {
-              title: '"Last Trace Of Us"',
-              description:
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-              backgroundImage: "./images/landing-page-images/USAcopy.webp",
-            },
-            {
-              title: '"Urban Decay"',
-              description:
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-              backgroundImage:
-                "./images/landing-page-images/Punjabideligatescopy4.webp",
-            },
-            {
-              title: '"The Migration"',
-              description:
-                "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-              backgroundImage: "./images/landing-page-images/STANDUP.webp",
-            },
-          ].map((item, index) => (
-            <li
-              key={index}
-              className="item cursor-pointer"
-              style={{ backgroundImage: `url('${item.backgroundImage}')` }}
-              onClick={() => handleImageClick(index)}
-            >
-              <div className="content">
-                <h2 className="title">{item.title}</h2>
-                <p className="description">{item.description}</p>
-                <button className="border border-none smallfont m-0 px-4 py-2">
-                  Buy now
-                </button>
-              </div>
-            </li>
-          ))}
-        </ul>
-        <nav className="nav">
-          <IonIcon
-            className="btn prev"
-            icon={arrowBackOutline}
-            onClick={() => activate("prev")}
-          />
-          <IonIcon
-            className="btn next"
-            icon={arrowForwardOutline}
-            onClick={() => activate("next")}
-          />
-        </nav>
-      </main>
+    <div className="">
+      <div
+        className="relative h-full"
+        style={{
+          backgroundImage: `url(${backgroundImage})`,
+          objectFit: "cover",
+          backgroundSize: "cover",
+          // backgroundPosition: "center center",
+          transition: "background-image 0.5s ease-in-out",
+        }}
+      >
+        <div
+          className={`overlay-content  ${currentIndex !== null ? "show" : ""}`}
+        >
+          <h2 className="title"><TypeWriterText text={sliderItems[currentIndex].title} speed={20}/></h2>
+          <p className="description">{sliderItems[currentIndex].description}</p>
+        </div>
+        <div className="absolute top-10 bottom-0">
+          <main className="main">
+            <ul className="slider" ref={sliderRef}>
+              {sliderItems.map((item, index) => (
+                <li
+                  key={item.id}
+                  className={`item ${index === currentIndex ? "active" : ""}`}
+                  style={{
+                    backgroundImage: `url(${item.backgroundImage})`,
+                    objectFit: "cover",
+                  }}
+                  onClick={() => handleImageClick(index)} // Pass index on click
+                ></li>
+              ))}
+            </ul>
+            <nav className="nav">
+              <IonIcon
+                className="btn prev"
+                icon={arrowBackOutline}
+                onClick={() => activate("prev")}
+              />
+              <IonIcon
+                className="btn next"
+                icon={arrowForwardOutline}
+                onClick={() => activate("next")}
+              />
+            </nav>
+          </main>
+        </div>
+      </div>
     </div>
   );
 };

@@ -8,18 +8,18 @@ const Booknow = () => {
   const [currentSlide, setCurrentSlide] = useState("standup");
   return (
     <>
-     <div className="container-fluid p-5">
+     <div className="container-fluid  p-5">
      <div
         className="book_now_user d-flex flex-lg-row flex-column"
         style={{
           display: "flex",
           background: `url(${
             currentSlide === "standup"
-              ? "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+              ? "/images/landing-page-images/section4/ocean_Gig.webp"
               : currentSlide === "djnight"
-              ? "https://images.unsplash.com/photo-1561489396-888724a1543d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              : "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          }) center center / cover no-repeat `,
+              ? "/images/landing-page-images/section4/oktober_fest.webp"
+              : "/images/landing-page-images/section4/yacht_party.webp"
+          }) center center / contain no-repeat`,
         }}
       >
         <div
@@ -34,7 +34,7 @@ const Booknow = () => {
                 currentSlide === "standup" ? "active" : ""
               }`}
             >
-              standup
+              Ocean gig
             </p>
           </div>
 
@@ -43,7 +43,7 @@ const Booknow = () => {
               currentSlide === "standup" ? "active" : ""
             }`}
           >
-            <p className="text-uppercase">standup</p>
+            <p className="text-uppercase">Oktober fest</p>
             <h1>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
               tempore
