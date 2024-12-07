@@ -63,7 +63,7 @@ const Slider = () => {
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
       backgroundImage:
-        "./images/landing-page-images/section1/AVIATION.webp",
+        "./images/landing-page-images/section1/Enterpreneurship.jpg",
     },
     {
       id: 5,

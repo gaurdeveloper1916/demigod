@@ -15,7 +15,7 @@ const Booknow = () => {
           display: "flex",
           background: `url(${
             currentSlide === "standup"
-              ? "/images/landing-page-images/section4/ocean_Gig.webp"
+              ? "/images/landing-page-images/section4/test.webp"
               : currentSlide === "djnight"
               ? "/images/landing-page-images/section4/oktober_fest.webp"
               : "/images/landing-page-images/section4/yacht_party.webp"

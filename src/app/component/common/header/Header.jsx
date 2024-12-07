@@ -2,11 +2,6 @@
 import Link from "next/link";
 import "./index.css";
 import React, { useEffect, useState } from "react";
-import { BsTelephone } from "react-icons/bs";
-import { FaHandshake } from "react-icons/fa6";
-import { GiTelepathy } from "react-icons/gi";
-import { MdArrowDropUp } from "react-icons/md";
-import { RiTeamLine } from "react-icons/ri";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Accordion from "react-bootstrap/Accordion";
 import { RxHamburgerMenu } from "react-icons/rx";
@@ -209,19 +204,19 @@ function Header() {
                                         <div className="d-flex gap-2">
                                           {/* <RiTeamLine size={23} /> */}
                                           <div className="d-flex flex-column">
-                                          <p className="m-0 fw-bold">
+                                          <p className="m-0 fs-3 fw-bold header-text-new">
                                             Our Team
                                           </p>
-                                          <p className="m- fw-bold">
+                                          {/* <p className="m- fw-bold">
                                            Talent Meets Collaboration
-                                          </p>
+                                          </p> */}
                                           </div>
                                         </div>
-                                        <ul className="ps-1 text-colour-off-white">
-                                          <li className="smallfont">The Hidden Benefits of events</li>
-                                          <li className="smallfont">From Couch Potato to Productivity Guru</li>
-                                          <li className="smallfont">The Art of the Last-Minute Panic</li>
-                                          <li className="smallfont">The Hidden Benefits of events</li>
+                                        <ul className="ps-1 text-colour-off-white  my-3">
+                                          <li className="smallfont fs-6">The Hidden Benefits of events</li>
+                                          <li className="smallfont fs-6">From Couch Potato to Productivity Guru</li>
+                                          <li className="smallfont fs-6">The Art of the Last-Minute Panic</li>
+                                          <li className="smallfont fs-6">The Hidden Benefits of events</li>
 
                                         </ul>
 
@@ -231,19 +226,17 @@ function Header() {
                                         <div className="d-flex gap-2">
                                           {/* <GiTelepathy size={20} /> */}
                                           <div className="flex flex-column">
-                                          <p className="m-0 fw-bold">
+                                          <p className="m-0 fs-3 fw-bold header-text-new">
                                             Carrer at Now
                                           </p>
-                                          <p className="m- fw-bold">
-                                          Build Your Future, Now
-                                          </p>
+                                         
                                           </div>
                                         </div>
-                                        <ul className="ps-1 text-colour-off-white">
-                                          <li className="smallfont">The Hidden Benefits of events</li>
-                                          <li className="smallfont">From Couch Potato to Productivity Guru</li>
-                                          <li className="smallfont">The Art of the Last-Minute Panic</li>
-                                          <li className="smallfont">The Hidden Benefits of events</li>
+                                        <ul className="ps-1 text-colour-off-white  my-3">
+                                          <li className="smallfont fs-6">The Hidden Benefits of events</li>
+                                          <li className="smallfont fs-6">From Couch Potato to Productivity Guru</li>
+                                          <li className="smallfont fs-6">The Art of the Last-Minute Panic</li>
+                                          <li className="smallfont fs-6">The Hidden Benefits of events</li>
 
                                         </ul>
                                       </div>
@@ -253,17 +246,17 @@ function Header() {
                                         <div className="d-flex gap-2">
                                           {/* <FaHandshake size={25} /> */}
                                          <div className="flex flex-column">
-                                         <p className="m-0 fw-bold">
+                                         <p className="m-0 fs-3 fw-bold header-text-new">
                                             Our Partner
                                           </p>
-                                          <p className="fw-bold">Together, We Achieve More</p>
+                                         
                                          </div>
                                         </div>
-                                        <ul className="ps-1 text-colour-off-white">
-                                          <li className="smallfont">The Hidden Benefits of events</li>
-                                          <li className="smallfont">From Couch Potato to Productivity Guru</li>
-                                          <li className="smallfont">The Art of the Last-Minute Panic</li>
-                                          <li className="smallfont">The Hidden Benefits of events</li>
+                                        <ul className="ps-1 my-3  text-colour-off-white">
+                                          <li className="smallfont fs-6">The Hidden Benefits of events</li>
+                                          <li className="smallfont fs-6">From Couch Potato to Productivity Guru</li>
+                                          <li className="smallfont fs-6">The Art of the Last-Minute Panic</li>
+                                          <li className="smallfont fs-6">The Hidden Benefits of events</li>
 
                                         </ul>
                                       </div>
@@ -271,13 +264,12 @@ function Header() {
                                         <div className="d-flex gap-2">
                                           {/* <BsTelephone size={23} /> */}
                                          <div className="d-flex flex-column">
-                                         <p className="m-0  fw-bold">
+                                         <p className="m-0 fs-3 fw-bold header-text-new">
                                             Contact With us
                                           </p>
-                                          <p className="m-0  fw-bold">We’d Love to Hear From You</p>
                                          </div>
                                         </div>
-                                        <p className="smallfont mt-2 text-colour-off-white ">
+                                        <p className="smallfont mt-2 text-colour-off-white  my-3">
                                           If You need to talk, sit amet
                                           adipisicing elit. Cupiditate eum error
                                           nulla mollitia sunt ullam suscipit

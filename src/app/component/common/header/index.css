@@ -61,6 +61,9 @@
 .header-list{
     width: 98%;
 }
+.online-hover:hover{
+        border-bottom: #b40606;
+}
 
 .btn-close {
     --bs-btn-close-color: #fff; /* Set color to white */

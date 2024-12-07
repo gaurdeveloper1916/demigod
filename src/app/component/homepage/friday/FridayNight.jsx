@@ -114,7 +114,7 @@ export default function FridayNight() {
         {/* Custom previous and next buttons */}
         <div
           style={{ textAlign: "left" }}
-          className="d-flex justify-content-between gap-2 my-4 cursor-pointer"
+          className="d-flex justify-content-center gap-2 my-4 cursor-pointer"
         >
           <div className="rounded-full p-2" onClick={previous}>
             <img
