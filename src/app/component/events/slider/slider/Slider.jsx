@@ -7,12 +7,11 @@ import TypeWriterText from "@/app/component/constant/TypeWriterText";
 
 const Slider = () => {
   const [backgroundImage, setBackgroundImage] = useState(
-    "./images/landing-page-images/STANDUP.webp"
+    "./images/landing-page-images/section1/55.jpg"
   );
-  const [currentIndex, setCurrentIndex] = useState(1); // Track current image index
+  const [currentIndex, setCurrentIndex] = useState(1); 
   const sliderRef = useRef(null);
 
-  // Function to handle the activation of next or previous slider items
   const activate = (direction) => {
     const items = sliderRef.current.querySelectorAll(".item");
     let newIndex = currentIndex;
@@ -34,36 +33,35 @@ const Slider = () => {
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
       backgroundImage:
-        "./images/landing-page-images/section1/AVIATION.webp",
+        "./images/landing-page-images/section1/22.jpg",
     },
     {
       id: 1,
       title: '"DFC"',
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-      backgroundImage: "./images/landing-page-images/section1/DFC.webp",
+      backgroundImage: "./images/landing-page-images/section1/44.jpg",
     },
     {
       id: 2,
       title: '"Entrepreneursship Forum"',
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-      backgroundImage: "./images/landing-page-images/section1/FORUM.webp",
+      backgroundImage: "./images/landing-page-images/section1/55.jpg",
     },
     {
       id: 3,
       title: '"Punjabi deligates"',
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-      backgroundImage: "./images/landing-page-images/section1/PUNJABI_DELIGATES.webp",
-    },
+        backgroundImage: "./images/landing-page-images/section1/22.jpg",    },
     {
       id: 4,
       title: '"Lossless Youths"',
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
-      backgroundImage:
-        "./images/landing-page-images/section1/Enterpreneurship.jpg",
+        backgroundImage: "./images/landing-page-images/section1/44.jpg",
+
     },
     {
       id: 5,
@@ -95,8 +93,8 @@ const Slider = () => {
         <div
           className={`overlay-content  ${currentIndex !== null ? "show" : ""}`}
         >
-          <h2 className="title"><TypeWriterText text={sliderItems[currentIndex].title} speed={20}/></h2>
-          <p className="description">{sliderItems[currentIndex].description}</p>
+          <h2 className="title text-black"><TypeWriterText text={sliderItems[currentIndex].title} speed={20}/></h2>
+          <p className="description text-black">{sliderItems[currentIndex].description}</p>
         </div>
         <div className="absolute top-10 bottom-0">
           <main className="main">
