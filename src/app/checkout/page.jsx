@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './index.css';
 import Header from '../component/common/header/Header';
 import Swal from 'sweetalert2';
-
+import axios from 'axios'
 const Page = () => {
   const initialItems = [
     {
@@ -52,6 +52,46 @@ const Page = () => {
     const total = subtotal + shipping - discount;
     return { subtotal, shipping, total };
   };
+  const checkoutHandler = async (amount) => {
+    // const verifyPayment = (razorpay_payment_id, razorpay_order_id, razorpay_signature) => {
+    //     axios.post('http://localhost:5500/api/payment/payment-verify', {
+    //         razorpay_order_id, razorpay_payment_id, razorpay_signature
+    //     })
+    // }
+    // const { data: { order } } = await axios.post("http://localhost:5500/api/payment/checkout", {
+    //     amount
+    // })
+    // const key = 'rzp_test_CmxYm8kuyMWjPJ'
+
+    // const options = {
+    //     key,
+    //     amount: order.amount,
+    //     currency: "INR",
+    //     name: "purchase package",
+    //     description: "Testing in communication portal payment",
+    //     image: "https://egsgroup.files.wordpress.com/2017/02/payment-successful.png",
+    //     order_id: order.id,
+    //     prefill: {
+    //         name: "Gaurav Kumar",
+    //         email: "gaurav.kumar@example.com",
+    //         contact: "9999999999"
+    //     },
+    //     handler: async function (response) {
+    //         if (response.razorpay_payment_id && response.razorpay_order_id && response.razorpay_signature) {
+    //             verifyPayment(response.razorpay_payment_id, response.razorpay_order_id, response.razorpay_signature)
+    //         }
+    //     },
+    //     notes: {
+    //         "address": "Razorpay Corporate Office"
+    //     },
+    //     theme: {
+    //         "color": "#121212"
+    //     }
+    // };
+    // var rzp1 = new Razorpay(options);
+    // rzp1.open();
+}
+
 
   const applyCoupon = () => {
     if (couponCode === 'DISCOUNT10') {
@@ -73,7 +113,8 @@ const Page = () => {
       }
     }).then((result) => {
       if (result.isConfirmed) {
-        Swal.fire("Payment successful!", "", "success");
+        checkoutHandler(200)
+        // Swal.fire("Payment successful!", "", "success");
       } else if (result.isDenied) {
         Swal.fire("Your payment has been cancelled", "", "info");
       }

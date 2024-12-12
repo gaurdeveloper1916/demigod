@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Head from "next/head";
 import Script from "next/script";
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
 import AOSInit from "./component/AOSInit";
 import Footer from "./component/common/footer/Footer";
 
@@ -29,18 +29,16 @@ export default function RootLayout({ children }) {
           href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
         />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-p3W7Zr4lbOkDHR5rqU17d5It9vO2wQNHjEYtxx0BpQU6zANv0AdPD4Y0WDb1zyK8BkjkZf9llsXfb1xjU43ktA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-
-
       </Head>
       <body className={inter.className}>
         {children}
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <AOSInit />
-        <Footer/>
+        <Footer />
 
-        </body>
+      </body>
+      <Script src="https://checkout.razorpay.com/v1/checkout.js"></Script>
+
     </html>
   );
 }
