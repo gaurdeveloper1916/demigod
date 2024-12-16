@@ -1,145 +1,35 @@
-'use client'
+'use client';
 import React, { useState } from 'react';
 import './index.css';
 import Header from '../component/common/header/Header';
 import Swal from 'sweetalert2';
-import axios from 'axios'
 import { FiMinus } from 'react-icons/fi';
 import { GoPlus } from 'react-icons/go';
-const Page = () => {
-  const initialItems = [
-    {
-      img: "https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img1.webp",
-      title: "Iphone 11 pro",
-      details: "256GB, Navy Blue",
-      quantity: 2,
-      price: 900
-    },
-    {
-      img: "https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img2.webp",
-      title: "Samsung galaxy Note 10",
-      details: "256GB, Navy Blue",
-      quantity: 2,
-      price: 900
-    },
-    {
-      img: "https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img3.webp",
-      title: "Canon EOS M50",
-      details: "Onyx Black",
-      quantity: 1,
-      price: 1199
-    },
-    {
-      img: "https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-shopping-carts/img4.webp",
-      title: "MacBook Pro",
-      details: "1TB, Graphite",
-      quantity: 1,
-      price: 1799
-    },
-  ];
+import axios from 'axios';
 
-  const [items, setItems] = useState(initialItems);
+const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+const phoneRegex = /^[0-9]{10}$/;
+
+const Page = () => {
+  const [quantity, setQuantity] = useState(1); 
+  const [customers, setCustomers] = useState([{ name: "", email: "", phone: "" }]); 
   const [couponCode, setCouponCode] = useState('');
   const [discount, setDiscount] = useState(0);
 
-  const handleQuantityChange = (index, change) => {
-    const newItems = [...items];
-    newItems[index].quantity = Math.max(0, newItems[index].quantity + change);
-    setItems(newItems);
-  };
-
-  const calculateTotal = () => {
-    const subtotal = items.reduce((total, item) => total + item.price * item.quantity, 0);
-    const shipping = 20;
-    const total = subtotal + shipping - discount;
-    return { subtotal, shipping, total };
-  };
-  const checkoutHandler = async (amount) => {
-    // const verifyPayment = (razorpay_payment_id, razorpay_order_id, razorpay_signature) => {
-    //   axios.post('http://localhost:5500/api/payment/payment-verify', {
-    //     razorpay_order_id, razorpay_payment_id, razorpay_signature
-    //   })
-    // }
-    // const { data: { order } } = await axios.post("http://localhost:5500/api/payment/checkout", {
-    //   amount
-    // })
-    // const key = 'rzp_test_CmxYm8kuyMWjPJ'
-
-    // const options = {
-    //   key,
-    //   amount: order.amount,
-    //   currency: "INR",
-    //   name: "Demigod House",
-    //   description: "Testing in Demigod house payment",
-    //   image: "https://www.demigodhouse.com/images/demigodnew.png",
-    //   order_id: order.id,
-    //   prefill: {
-    //     name: "Gaurav Kumar",
-    //     email: "gaurav.kumar@example.com",
-    //     contact: "9999999999"
-    //   },
-    //   handler: async function (response) {
-    //     if (response.razorpay_payment_id && response.razorpay_order_id && response.razorpay_signature) {
-    //       verifyPayment(response.razorpay_payment_id, response.razorpay_order_id, response.razorpay_signature)
-    //     }
-    //   },
-    //   notes: {
-    //     "address": "Razorpay Corporate Office"
-    //   },
-    //   theme: {
-    //     "color": "#121212"
-    //   }
-    // };
-    // var rzp1 = new Razorpay(options);
-    // rzp1.open();
-  }
-
-
-  const applyCoupon = () => {
-    if (couponCode === 'DISCOUNT10') {
-      setDiscount(10);
-      Swal.fire('Coupon applied!', 'You have received a ₹10 discount.', 'success');
-    } else {
-      Swal.fire('Invalid coupon', 'Please check your coupon code.', 'error');
-    }
-  };
-
-  const onSubmit = () => {
-    Swal.fire({
-      title: "<small>Processing fees we don't allow participants without profiling in any offer events, Profiling Fees Rs 220/-</small>",
-      showDenyButton: true,
-      confirmButtonText: "Proceed to payment",
-      denyButtonText: `Cancel`,
-      customClass: {
-        title: 'small-title'
-      }
-    }).then((result) => {
-      if (result.isConfirmed) {
-        checkoutHandler(200)
-        // Swal.fire("Payment successful!", "", "success");
-      } else if (result.isDenied) {
-        Swal.fire("Your payment has been cancelled", "", "info");
-      }
-    });
-  };
-
-  const { subtotal, shipping, total } = calculateTotal();
-
-
-  const [quantity, setQuantity] = useState(1); // State to track the number of tickets
-  const [customers, setCustomers] = useState([
-    { name: "", email: "", phone: "" }, // Default customer details
-  ]);
+  const ticketPrice = 200;
+  const shipping = 20; 
+  const subtotal = quantity * ticketPrice;
+  const total = subtotal + shipping - discount;
 
   const handleIncrease = () => {
     setQuantity(quantity + 1);
-    setCustomers([...customers, { name: "", email: "", phone: "" }]); // Add a new customer
+    setCustomers([...customers, { name: "", email: "", phone: "" }]);
   };
 
   const handleDecrease = () => {
     if (quantity > 1) {
       setQuantity(quantity - 1);
-      setCustomers(customers.slice(0, -1)); // Remove the last customer
+      setCustomers(customers.slice(0, -1));
     }
   };
 
@@ -148,6 +38,78 @@ const Page = () => {
       i === index ? { ...customer, [field]: value } : customer
     );
     setCustomers(updatedCustomers);
+  };
+
+  // Validation function for all customers
+  const isFormValid = customers.every(
+    (customer) =>
+      customer.name &&
+      emailRegex.test(customer.email) && // Validate email format
+      phoneRegex.test(customer.phone) // Validate phone number format
+  );
+
+  const checkoutHandler = async (amount) => {
+    const verifyPayment = (razorpay_payment_id, razorpay_order_id, razorpay_signature) => {
+      axios.post('http://localhost:5500/api/payment/payment-verify', {
+        razorpay_order_id, razorpay_payment_id, razorpay_signature
+      });
+    };
+
+    const { data: { order } } = await axios.post("http://localhost:5500/api/payment/checkout", { amount });
+    const key = 'rzp_test_CmxYm8kuyMWjPJ';
+
+    const options = {
+      key,
+      amount: order.amount,
+      currency: "INR",
+      name: "Demigod House",
+      description: "Testing in Demigod house payment",
+      image: "https://www.demigodhouse.com/images/demigodnew.png",
+      order_id: order.id,
+      prefill: {
+        name: "Gaurav Kumar",
+        email: "gaurav.kumar@example.com",
+        contact: "9999999999"
+      },
+      handler: async function (response) {
+        if (response.razorpay_payment_id && response.razorpay_order_id && response.razorpay_signature) {
+          verifyPayment(response.razorpay_payment_id, response.razorpay_order_id, response.razorpay_signature);
+        }
+      },
+      notes: {
+        address: "Razorpay Corporate Office"
+      },
+      theme: {
+        color: "#121212"
+      }
+    };
+
+    const rzp1 = new Razorpay(options);
+    rzp1.open();
+  };
+
+  const applyCoupon = () => {
+    if (couponCode === 'DISCOUNT10') {
+      setDiscount(10); // ₹10 discount
+      Swal.fire('Coupon applied!', 'You have received a ₹10 discount.', 'success');
+    } else {
+      Swal.fire('Invalid coupon', 'Please check your coupon code.', 'error');
+    }
+  };
+
+  const onSubmit = () => {
+    Swal.fire({
+      title: "<small>Processing fees: Profiling Fees Rs 220/-</small>",
+      showDenyButton: true,
+      confirmButtonText: "Proceed to payment",
+      denyButtonText: `Cancel`,
+    }).then((result) => {
+      if (result.isConfirmed) {
+        checkoutHandler(total);
+      } else if (result.isDenied) {
+        Swal.fire("Your payment has been cancelled", "", "info");
+      }
+    });
   };
 
   return (
@@ -159,15 +121,15 @@ const Page = () => {
             <div className="col mt-5">
               <div className="card bg-dark text-white">
                 <div className="card-body p-4">
-
                   <div className="row">
                     <div className="col-lg-8">
                       <h5 className="mb-3">
                         <a href="#!" className="text-gold">
                           <i className="fas fa-long-arrow-alt-left me-2"></i>Continue shopping
-
                         </a>
-                        <p className='px-2 py-2'>Processing fees we don't allow participants without profiling in any offer events, Profiling Fees Rs 220/-</p>
+                        <p className='px-2 py-2'>
+                          Processing fees: Profiling Fees Rs 220/-
+                        </p>
                       </h5>
                       <hr className="text-gold" />
 
@@ -191,7 +153,6 @@ const Page = () => {
                                   alignItems: "center",
                                   justifyContent: "center",
                                 }}
-                                className="px-3 rounded-circle py-2"
                                 onClick={handleDecrease}
                               >
                                 <FiMinus color="white" />
@@ -207,7 +168,6 @@ const Page = () => {
                                   alignItems: "center",
                                   justifyContent: "center",
                                 }}
-                                className="px-3 rounded-circle py-2"
                                 onClick={handleIncrease}
                               >
                                 <GoPlus color="white" />
@@ -217,19 +177,18 @@ const Page = () => {
 
                           <div className="d-flex flex-column justify-content-center align-items-center">
                             <p className="text-center fw-bold fs-5">Price</p>
-                            <p className="mb-2 text-gold">-₹200/-</p>
+                            <p className="mb-2 text-gold">₹{ticketPrice}/-</p>
                           </div>
                         </div>
 
                         <div>
                           <hr />
-                          <p className="fw-bold fs-5">Customer Details</p>
+                          <p className="fw-bold fs-5">Customer Details:</p>
                           <div className='d-flex justify-content-between'>
-                          <label className="p-1">Name</label>
-                          <label className="p-1">Email Address</label>
-                          <label className="p-1">Phone Number</label>
+                            <label className="p-1">Name</label>
+                            <label className="p-1">Email Address</label>
+                            <label className="p-1">Phone Number</label>
                           </div>
-                          
 
                           {customers.map((customer, index) => (
                             <div key={index} className="d-flex justify-content-between mb-3">
@@ -237,7 +196,7 @@ const Page = () => {
                                 <input
                                   type="text"
                                   placeholder="Enter your name"
-                                  className="px-2 py-1 rounded"
+                                  className="p-2 fs-6 rounded border border-0"
                                   value={customer.name}
                                   onChange={(e) =>
                                     handleCustomerChange(index, "name", e.target.value)
@@ -248,7 +207,7 @@ const Page = () => {
                                 <input
                                   type="email"
                                   placeholder="Enter your email"
-                                  className="px-2 py-1 fs-6 rounded"
+                                  className="p-2 fs-6 rounded"
                                   value={customer.email}
                                   onChange={(e) =>
                                     handleCustomerChange(index, "email", e.target.value)
@@ -259,7 +218,7 @@ const Page = () => {
                                 <input
                                   type="tel"
                                   placeholder="Enter your number"
-                                  className="px-2 py-1 fs-6 rounded"
+                                  className="p-2 fs-6 rounded"
                                   value={customer.phone}
                                   onChange={(e) =>
                                     handleCustomerChange(index, "phone", e.target.value)
@@ -268,6 +227,15 @@ const Page = () => {
                               </div>
                             </div>
                           ))}
+                          <div className="d-flex justify-content-center">
+                            <button
+                              className="mt-3 border border-none px-4 py-2 rounded-pill"
+                              onClick={onSubmit}
+                              disabled={!isFormValid}
+                            >
+                              Submit Details
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -287,7 +255,7 @@ const Page = () => {
                           value={couponCode}
                           onChange={(e) => setCouponCode(e.target.value)}
                         />
-                        <button className='w-100 mt-3 border border-none px-4 py-1 rounded-pill' onClick={applyCoupon}>
+                        <button className='w-100 mt-3 border border-none px-4 py-2 rounded-pill' onClick={applyCoupon}>
                           Apply
                         </button>
                       </div>
@@ -316,7 +284,12 @@ const Page = () => {
                           <p className="mb-2 text-gold">₹{total.toFixed(2)}</p>
                         </div>
 
-                        <button onClick={onSubmit} type="button" className="border border-none px-4 py-2 rounded-pill">
+                        <button
+                          onClick={onSubmit}
+                          type="button"
+                          className="border border-none px-4 py-2 rounded-pill"
+                          disabled={!isFormValid}
+                        >
                           Proceed to pay
                         </button>
                       </div>
