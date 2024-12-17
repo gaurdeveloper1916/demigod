@@ -107,7 +107,7 @@ const Slider = () => {
                     backgroundImage: `url(${item.backgroundImage})`,
                     objectFit: "cover",
                   }}
-                  onClick={() => handleImageClick(index)} // Pass index on click
+                  onClick={() => handleImageClick(index)} 
                 ></li>
               ))}
             </ul>

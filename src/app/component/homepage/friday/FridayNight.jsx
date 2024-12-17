@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './fridaynight.css';  // Your custom styles
+import './fridaynight.css';  
 import Link from 'next/link';
 
 export default function FridayNight() {
@@ -11,13 +11,13 @@ export default function FridayNight() {
 
   const next = () => {
     if (sliderRef.current) {
-      sliderRef.current.slickNext(); // Go to the next slide
+      sliderRef.current.slickNext(); 
     }
   };
 
   const previous = () => {
     if (sliderRef.current) {
-      sliderRef.current.slickPrev(); // Go to the previous slide
+      sliderRef.current.slickPrev(); 
     }
   };
 
@@ -51,9 +51,9 @@ export default function FridayNight() {
     centerMode: false,
     focusOnSelect: true,
     dots: true,
-    arrows: true, // Enable default arrows if needed
-    prevArrow: <button className="slick-prev">Prev</button>, // Customize the previous arrow
-    nextArrow: <button className="slick-next">Next</button>, // Customize the next arrow
+    arrows: true, 
+    prevArrow: <button className="slick-prev">Prev</button>,
+    nextArrow: <button className="slick-next">Next</button>, 
     responsive: [
       {
         breakpoint: 1024,
@@ -111,7 +111,6 @@ export default function FridayNight() {
           ))}
         </Slider>
 
-        {/* Custom previous and next buttons */}
         <div
           style={{ textAlign: "left" }}
           className="d-flex justify-content-center gap-2 my-4 cursor-pointer"
