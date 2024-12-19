@@ -174,12 +174,12 @@ function Header() {
                                       </h2>
                                     </Link>
                                     <p className="smallfont text-colour-off-white ">
-                                      Demigod is about consectetur adipisicing
+                                      Demigod House - Media, Marketing and Event management entity 
                                       elit. Eaque, quos natus rerum maiores est
                                       non delectus aspernatur, similique
                                       repudiandae tempora obcaecati molestiae
                                       nostrum deleniti totam. Consequuntur harum
-                                      ut ullam esse?
+                                      xyz xyz xyz xyz ! 
                                     </p>
                                     <div style={{ lineHeight: "2px" }}>
                                       {/* <p className="m-0">
@@ -205,7 +205,7 @@ function Header() {
                                           {/* <RiTeamLine size={23} /> */}
                                           <div className="d-flex flex-column">
                                           <p className="m-0 fs-3 fw-bold header-text-new">
-                                            Our Team
+                                            Live Concert
                                           </p>
                                           {/* <p className="m- fw-bold">
                                            Talent Meets Collaboration
@@ -213,10 +213,10 @@ function Header() {
                                           </div>
                                         </div>
                                         <ul className="ps-1 text-colour-off-white  my-3">
-                                          <li className="smallfont fs-6">The Hidden Benefits of events</li>
-                                          <li className="smallfont fs-6">From Couch Potato to Productivity Guru</li>
-                                          <li className="smallfont fs-6">The Art of the Last-Minute Panic</li>
-                                          <li className="smallfont fs-6">The Hidden Benefits of events</li>
+                                          <li className="smallfont fs-6">R&B Concert's</li>
+                                          <li className="smallfont fs-6">Pop concert </li>
+                                          <li className="smallfont fs-6">Electronic Fest</li>
+                                          <li className="smallfont fs-6">Punjabi Concert</li>
 
                                         </ul>
 

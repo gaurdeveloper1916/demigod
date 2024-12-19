@@ -29,9 +29,9 @@ const Slider = () => {
   const sliderItems = [
     {
       id: 0,
-      title: '"Lossless Youths"',
+      title: '"Enterprenuership Forum"',
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+        "Enterprenuership 111 Forum happening across G20 Countries with upto $,100,00,0000/- seed & private equity funding for Start-up's,SME's & MSME ",
       backgroundImage:
         "./images/landing-page-images/section1/22.jpg",
     },
@@ -39,27 +39,27 @@ const Slider = () => {
       id: 1,
       title: '"DFC"',
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+        "DemiGod Fight Club, a fighting tournament happening in world capital's rewarding the most toughfest and hardcore Man-machine with championship Prize Money of $1,00,000/- !",
       backgroundImage: "./images/landing-page-images/section1/44.jpg",
     },
     {
       id: 2,
-      title: '"Entrepreneursship Forum"',
+      title: '"D Aero Expo"',
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+        " DemiGod Aero Expo, an event attracting global airlines manufacturer for the Air Show & Airplane exhibition one of it's kind with Global Dignitaries participating for the Modern Aero tech ! ",
       backgroundImage: "./images/landing-page-images/section1/55.jpg",
     },
     {
       id: 3,
-      title: '"Punjabi deligates"',
+      title: '" Car-O-Bar"',
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+        "Car-O-Bar an event all about partying desi style in the most customised automobile of town. Party Fast & furious movies theme party with rewards for the most hybrid & customised automobiles",
         backgroundImage: "./images/landing-page-images/section1/22.jpg",    },
     {
       id: 4,
-      title: '"Lossless Youths"',
+      title: '"Enterprenuership Forum"',
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+        "Enterprenuership 111 Forum happening across G20 Countries with upto $,100,00,0000/- seed & private equity funding for Start-up's,SME's & MSME",
         backgroundImage: "./images/landing-page-images/section1/44.jpg",
 
     },
@@ -67,7 +67,7 @@ const Slider = () => {
       id: 5,
       title: '"DFC"',
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore praesentium nisi. Id laboriosam ipsam enim.",
+        "DemiGod Fight Club, a fighting tournament happening in world capital's rewarding the most toughfest and hardcore Man-machine with championship Prize Money of $1,00,000/- !",
       backgroundImage: "./images/landing-page-images/section1/DFC.webp",
     },
   ];

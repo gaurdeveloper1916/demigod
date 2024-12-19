@@ -3,7 +3,7 @@ export  const data = [
       id: 1,
       attributes: {
         URLText: "Event",
-        corporate:"ABOUT EVENT",
+        corporate:"DemiGod House Events",
         onHover:true,
         url: "/events",
         createdAt: "2024-06-04T09:37:28.020Z",
