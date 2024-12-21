@@ -6,6 +6,7 @@ import Swal from 'sweetalert2';
 import { FiMinus } from 'react-icons/fi';
 import { GoPlus } from 'react-icons/go';
 import axios from 'axios';
+import Proceedbutton from '../component/ProceedButton/Proceedbutton';
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const phoneRegex = /^[0-9]{10}$/;
@@ -227,15 +228,7 @@ const Page = () => {
                               </div>
                             </div>
                           ))}
-                          <div className="d-flex justify-content-center">
-                            <button
-                              className="mt-3 border border-none px-4 py-2 rounded-pill"
-                              onClick={onSubmit}
-                              disabled={!isFormValid}
-                            >
-                              Submit Details
-                            </button>
-                          </div>
+                        
                         </div>
                       </div>
                     </div>
@@ -284,14 +277,15 @@ const Page = () => {
                           <p className="mb-2 text-gold">₹{total.toFixed(2)}</p>
                         </div>
 
-                        <button
+                        {/* <button
                           onClick={onSubmit}
                           type="button"
                           className="border border-none px-4 py-2 rounded-pill"
                           disabled={!isFormValid}
                         >
                           Proceed to pay
-                        </button>
+                        </button> */}
+                        <Proceedbutton/>
                       </div>
                     </div>
                   </div>

@@ -234,3 +234,6 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     border: 1px solid #ffffff;
 }
+.text-heading{
+  color: #dbb85e;
+}
