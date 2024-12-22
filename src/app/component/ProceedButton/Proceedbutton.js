@@ -97,7 +97,7 @@ function MyVerticallyCenteredModal(props) {
           </Form>
         </Modal.Body>
             <Modal.Footer>
-                <button onClick={()=>createAccount(formData)}>Create your account</button>
+                <button className='rounded text-white border border-none px-3 py-1' onClick={()=>createAccount(formData)}>Create your account</button>
             </Modal.Footer>
         </Modal>
     );

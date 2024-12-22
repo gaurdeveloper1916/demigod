@@ -7,13 +7,15 @@ import { FiMinus } from 'react-icons/fi';
 import { GoPlus } from 'react-icons/go';
 import axios from 'axios';
 import Proceedbutton from '../component/ProceedButton/Proceedbutton';
+import { customerDetails } from '../component/helper/Helper';
 
 const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const phoneRegex = /^[0-9]{10}$/;
 
 const Page = () => {
   const [quantity, setQuantity] = useState(1); 
-  const [customers, setCustomers] = useState([{ name: "", email: "", phone: "" }]); 
+  const [customers, setCustomers] = useState([{ name: "", email: "", phone: null}]); 
+  console.log(customers)
   const [couponCode, setCouponCode] = useState('');
   const [discount, setDiscount] = useState(0);
 
@@ -24,7 +26,7 @@ const Page = () => {
 
   const handleIncrease = () => {
     setQuantity(quantity + 1);
-    setCustomers([...customers, { name: "", email: "", phone: "" }]);
+    setCustomers([...customers, { name: "", email: "", phone: null }]);
   };
 
   const handleDecrease = () => {
@@ -35,18 +37,21 @@ const Page = () => {
   };
 
   const handleCustomerChange = (index, field, value) => {
+    if (field === "phone") {
+      value = value.replace(/\D/g, ''); 
+    }
     const updatedCustomers = customers.map((customer, i) =>
-      i === index ? { ...customer, [field]: value } : customer
+      i === index ? { ...customer, [field]: field === 'phone' ? Number(value) : value } : customer
     );
     setCustomers(updatedCustomers);
   };
+  
 
-  // Validation function for all customers
   const isFormValid = customers.every(
     (customer) =>
       customer.name &&
-      emailRegex.test(customer.email) && // Validate email format
-      phoneRegex.test(customer.phone) // Validate phone number format
+      emailRegex.test(customer.email) && 
+      phoneRegex.test(customer.phone) 
   );
 
   const checkoutHandler = async (amount) => {
@@ -106,7 +111,7 @@ const Page = () => {
       denyButtonText: `Cancel`,
     }).then((result) => {
       if (result.isConfirmed) {
-        checkoutHandler(total);
+        customerDetails(customers,total);
       } else if (result.isDenied) {
         Swal.fire("Your payment has been cancelled", "", "info");
       }
@@ -277,15 +282,15 @@ const Page = () => {
                           <p className="mb-2 text-gold">₹{total.toFixed(2)}</p>
                         </div>
 
-                        {/* <button
+                        <button
                           onClick={onSubmit}
                           type="button"
                           className="border border-none px-4 py-2 rounded-pill"
                           disabled={!isFormValid}
                         >
                           Proceed to pay
-                        </button> */}
-                        <Proceedbutton/>
+                        </button>
+                        {/* <Proceedbutton/> */}
                       </div>
                     </div>
                   </div>
