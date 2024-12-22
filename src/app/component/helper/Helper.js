@@ -9,7 +9,6 @@ import { useRouter } from "next/navigation";
 
 
 export const createAccount = async (data) => {
-  console.log(data);
   const createAccountPayload = {
     name: data.firstName,
     email: data.email,
@@ -34,14 +33,13 @@ export const createAccount = async (data) => {
     notifyError(error.response?.data?.message || "An error occurred!");
   }
 }
-const checkoutHandler = async (amount) => {
+const checkoutHandler = async (user_id, amount) => {
   const verifyPayment = async (razorpay_payment_id, razorpay_order_id, razorpay_signature) => {
     try {
       const response = await axios.post(`${process.env.NEXT_PUBLIC_BASE_URL}/api/payment/payment-verify`, {
-        razorpay_order_id, razorpay_payment_id, razorpay_signature
+        razorpay_order_id, razorpay_payment_id, razorpay_signature, user_id, amount
       });
       if (response.status === 200) {
-        console.log("Payment verified successfully");
         window.location.href = `http://localhost:3000/thankyou?reference=${razorpay_payment_id}`;
       } else {
         console.log("Payment verification failed");
@@ -70,7 +68,7 @@ const checkoutHandler = async (amount) => {
       },
       handler: async function (response) {
         if (response.razorpay_payment_id && response.razorpay_order_id && response.razorpay_signature) {
-          await verifyPayment(response.razorpay_payment_id, response.razorpay_order_id, response.razorpay_signature);
+          await verifyPayment(response.razorpay_payment_id, response.razorpay_order_id, response.razorpay_signature, user_id, amount);
         }
       },
       notes: {
@@ -95,7 +93,7 @@ export const customerDetails = async (data, amount) => {
   try {
     const customerDetailsResponse = await axios.post(`${process.env.NEXT_PUBLIC_BASE_URL}/api/user/customer-details`, customerDetailsPayload);
     if (customerDetailsResponse.status === 201) {
-      checkoutHandler(amount);
+      checkoutHandler(customerDetailsResponse.data.customer._id, amount);
     }
   } catch (error) {
     console.error("Error during customer details submission:", error);
