@@ -5,7 +5,7 @@ export  const data = [
         URLText: "Event",
         corporate:"DemiGod House Events",
         onHover:true,
-        url: "/events",
+        url: "/#",
         createdAt: "2024-06-04T09:37:28.020Z",
         updatedAt: "2024-06-04T09:37:29.014Z",
         publishedAt: "2024-06-04T09:37:29.011Z",
@@ -18,7 +18,7 @@ export  const data = [
     {
       id: 2,
       attributes: {
-        URLText: "Corporate",
+        URLText: "Corporate event's",
         corporate:"ABOUT CORPORATE",
         onHover:true,
         url: "/corporate",
@@ -34,7 +34,7 @@ export  const data = [
     {
       id: 3,
       attributes: {
-        URLText: "Wedding",
+        URLText: "Wedding's",
         corporate:"ABOUT WEDDING",
         url: "/wedding",
         onHover:true,

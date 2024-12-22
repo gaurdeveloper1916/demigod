@@ -1,5 +1,7 @@
 import Footer from "./component/common/footer/Footer";
 import Header from "./component/common/header/Header";
+import Formdiv from "./component/events/slider/formdiv/page";
+import GetTickets from "./component/events/slider/gettickets/page";
 import Slider from "./component/events/slider/slider/Slider";
 import Map from "./component/googlemap/Map";
 import Booknow from "./component/homepage/BookNow";
@@ -19,7 +21,9 @@ export default function Home() {
       <Prochainement />
       <Membership />
       <Booknow />
-      <Testtube />
+      <GetTickets/>
+      <Formdiv/>
+      {/* <Testtube /> */}
       <FridayNight />
       <div className="mt-4">
         {" "}
