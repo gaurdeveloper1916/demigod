@@ -179,29 +179,36 @@ function Header() {
                                       </h2>
                                     </Link>
                                     <p className="smallfont text-colour-off-white ">
-                                      Demigod is about consectetur adipisicing
-                                      elit. Eaque, quos natus rerum maiores est
-                                      non delectus aspernatur, similique
-                                      repudiandae tempora obcaecati molestiae
-                                      nostrum deleniti totam. Consequuntur harum
-                                      ut ullam esse?
+                                    {item.attributes.description}
                                     </p>
-                                    <div style={{ lineHeight: "2px" }}>
-                                      <p className="m-0">
+                                    <div style={{ lineHeight: "2px", marginTop: "20px" }}>
+                                      {/* <p className="m-0">
                                         About World of Demigod
-                                      </p>
+                                      </p> */}
                                       <hr />
+                                      <div className="col-lg-6">
+                                        <div className="d-flex gap-2">
+                                          {/* <BsTelephone size={23} /> */}
+                                         <div className="d-flex flex-column">
+                                         <p className="m-0  fw-bold">
+                                            {item.attributes.contact}
+                                          </p>
+                                          <p className="m-0  fw-bold">We’d Love to Hear From You</p>
+                                         </div>
+                                        </div>
+                                        <p className="smallfont mt-2 text-colour-off-white ">
+                                        {item.attributes.contactdescription}
+                                        </p>
+                                      </div>
                                     </div>
                                   </div>
                                   <div
                                     style={{ lineHeight: "24px" }}
-                                    className="col-lg-5 text-white "
-                                  >
+                                    className="col-lg-3 text-white">
                                     <div style={{ lineHeight: "2px" }}>
-                                      <p className="fw-bold text-colour-off-white fs-4">
-                                        {" "}
-                                        About Us
-                                      </p>
+                                    <p className="m-0 fw-bold">
+                                            {item.attributes.title1}
+                                          </p>
                                       <hr />
                                     </div>
                                     <div className="d-flex gap-3 des-header">
@@ -209,86 +216,38 @@ function Header() {
                                         <div className="d-flex gap-2">
                                           {/* <RiTeamLine size={23} /> */}
                                           <div className="d-flex flex-column">
-                                          <p className="m-0 fw-bold">
-                                            Our Team
-                                          </p>
+                                          {/* <p className="m-0 fw-bold">
+                                            {item.attributes.title1}
+                                          </p> */}
                                           <p className="m- fw-bold">
-                                           Talent Meets Collaboration
+                                          {item.attributes.subtitle1}
                                           </p>
                                           </div>
                                         </div>
                                         <ul className="ps-1 text-colour-off-white">
-                                          <li className="smallfont">The Hidden Benefits of events</li>
-                                          <li className="smallfont">From Couch Potato to Productivity Guru</li>
-                                          <li className="smallfont">The Art of the Last-Minute Panic</li>
-                                          <li className="smallfont">The Hidden Benefits of events</li>
-
-                                        </ul>
-
-
-                                      </div>
-                                      <div className="col-lg-6">
-                                        <div className="d-flex gap-2">
-                                          {/* <GiTelepathy size={20} /> */}
-                                          <div className="flex flex-column">
-                                          <p className="m-0 fw-bold">
-                                            Carrer at Now
-                                          </p>
-                                          <p className="m- fw-bold">
-                                          Build Your Future, Now
-                                          </p>
-                                          </div>
-                                        </div>
-                                        <ul className="ps-1 text-colour-off-white">
-                                          <li className="smallfont">The Hidden Benefits of events</li>
-                                          <li className="smallfont">From Couch Potato to Productivity Guru</li>
-                                          <li className="smallfont">The Art of the Last-Minute Panic</li>
-                                          <li className="smallfont">The Hidden Benefits of events</li>
+                                          <li className="smallfont">{item.attributes.bulletpoints1}</li>
+                                          <li className="smallfont">{item.attributes.bulletpoints2}</li>
+                                          <li className="smallfont">{item.attributes.bulletpoints3}</li>
+                                          <li className="smallfont">{item.attributes.bulletpoints4}</li>
+                                          <li className="smallfont">{item.attributes.bulletpoints9}</li>
+                                          <li className="smallfont">{item.attributes.bulletpoints10}</li>
+                                          <li className="smallfont">{item.attributes.bulletpoints11}</li>
+                                          <li className="smallfont">{item.attributes.bulletpoints12}</li>
+                                          <li className="smallfont">{item.attributes.bulletpoints5}</li>
+                                          <li className="smallfont">{item.attributes.bulletpoints6}</li>
+                                          <li className="smallfont">{item.attributes.bulletpoints7}</li>
+                                          <li className="smallfont">{item.attributes.bulletpoints8}</li>
 
                                         </ul>
                                       </div>
+                                      
                                     </div>
-                                    <div className="d-flex gap-3 mt-4">
-                                      <div className="col-lg-6">
-                                        <div className="d-flex gap-2">
-                                          {/* <FaHandshake size={25} /> */}
-                                         <div className="flex flex-column">
-                                         <p className="m-0 fw-bold">
-                                            Our Partner
-                                          </p>
-                                          <p className="fw-bold">Together, We Achieve More</p>
-                                         </div>
-                                        </div>
-                                        <ul className="ps-1 text-colour-off-white">
-                                          <li className="smallfont">The Hidden Benefits of events</li>
-                                          <li className="smallfont">From Couch Potato to Productivity Guru</li>
-                                          <li className="smallfont">The Art of the Last-Minute Panic</li>
-                                          <li className="smallfont">The Hidden Benefits of events</li>
-
-                                        </ul>
-                                      </div>
-                                      <div className="col-lg-6">
-                                        <div className="d-flex gap-2">
-                                          {/* <BsTelephone size={23} /> */}
-                                         <div className="d-flex flex-column">
-                                         <p className="m-0  fw-bold">
-                                            Contact With us
-                                          </p>
-                                          <p className="m-0  fw-bold">We’d Love to Hear From You</p>
-                                         </div>
-                                        </div>
-                                        <p className="smallfont mt-2 text-colour-off-white ">
-                                          If You need to talk, sit amet
-                                          adipisicing elit. Cupiditate eum error
-                                          nulla mollitia sunt ullam suscipit
-                                          quis!
-                                        </p>
-                                      </div>
-                                    </div>
+                                    
                                   </div>
-                                  <div className="col-lg-2 ">
+                                  <div className="col-lg-5">
                                     <img
                                       className="img-fluid"
+                                      style={{height:"400px"}}
                                       src="./images/smallImage.jpg"
                                     ></img>
                                   </div>
