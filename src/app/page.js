@@ -27,7 +27,7 @@ export default function Home() {
       <FridayNight />
       <div className="mt-4">
         {" "}
-        <Map />
+        {/* <Map /> */}
       </div>
     </div>
   );
