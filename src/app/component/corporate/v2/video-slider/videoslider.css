@@ -1,0 +1,21 @@
+.video-carousel-container {
+    width: 88vw;
+    height: 35vh;
+  }
+  
+  @media (min-width: 768px) {
+    .video-carousel-container {
+      width: 70vw;
+      height: 50vh;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .video-carousel-container {
+      height: 70vh;
+    }
+  }
+  
+  .control-btn {
+    background: rgba(255, 255, 255, 0.8);
+  }

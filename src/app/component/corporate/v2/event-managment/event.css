@@ -1,0 +1,129 @@
+.image-container-event {
+    position: relative;
+    width: fit-content;
+    overflow: hidden;
+  }
+  
+  .image-container-event img {
+    display: block;
+    transition: opacity 0.3s ease;
+  }
+  
+  .btn-custom {
+    background-color: black;
+    border: 1px solid white;
+    font-size: 10px;
+  }
+  
+  .image-container:hover .btn-custom {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .image-container:hover {
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 5s;
+  }
+  
+  
+  .image-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1;
+    opacity: 0;
+    visibility: hidden; 
+    transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+    border-radius: 10px;
+    display: flex;
+    
+  }
+  
+  .image-container .overlay h1 {
+    transform: translateX(100%); 
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .image-container:hover .overlay h1 {
+    transform: translateX(0%); 
+    opacity: 1;
+  }
+  .visible-on-hover {
+    /* display: none; */
+    position: relative;
+    z-index: 2;
+    /* Ensure it stays above the overlay */
+    /* opacity: 0; */
+    transition: opacity 0.5s ease 0.5s;
+    /* Adding delay to the transition */
+  }
+  
+  .image-container:hover .visible-on-hover {
+    display: block;
+    opacity: 1;
+  }
+  
+  .slider-bar {
+    visibility: hidden;
+  }
+  
+  .text-container,
+  .buttons-container {
+    position: absolute;
+    visibility: hidden;
+  
+    /* bottom: 0;
+      left: 50%; */
+    transform: translateX(-50%);
+    transition: visibility 0.3s ease;
+  }
+  
+  
+  .image-container:hover .buttons-container {
+    visibility: visible;
+  
+  }
+  
+  .image-container:hover .slider-bar {
+    visibility: visible;
+  }
+  
+  .text-san {
+    margin-top: 40px;
+    font-family: fantasy;
+    font-size: 50px;
+    
+  }
+  
+  
+  
+  /* .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, -5px);
+    top: var(--swiper-pagination-top, auto);
+    left: 0;
+    width: 100%;
+  }
+  .swiper-pagination-bullet{
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: whitesmoke;
+  }
+  .swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #cfad58;
+  } */
+  

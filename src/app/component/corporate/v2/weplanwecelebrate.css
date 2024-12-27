@@ -1,0 +1,77 @@
+/* Wrapper */
+.we-plan-wrapper {
+    padding: 5rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Heading */
+.heading {
+    font-size: 40px;
+}
+
+/* Sub-heading */
+.sub-heading {
+    padding-left: 3.2em;
+}
+
+/* Description */
+.description {
+    margin-top: 1rem;
+}
+
+/* Icon Grid */
+.icon-grid {
+    gap: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Icon Box */
+.icon-box {
+    background-color: #464646;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box p {
+    font-size: 10px;
+    text-align: center;
+}
+
+/* Button */
+.know-more-btn {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 50px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+/* Image Container */
+.image-container {
+    width: 418px;
+    height: 490.55px;
+    position: relative;
+    border: 2px solid #fbc800;
+    /* border-color: #fbc800; */
+}
+
+/* Image Wrapper */
+.image-wrapper {
+    position: absolute;
+    margin-top: 2rem;
+    padding-left: 4px;
+}
+
+/* Main Image */
+.main-image {
+    width: 418.39px;
+    height: 490.55px;
+}
