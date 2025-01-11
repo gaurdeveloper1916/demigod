@@ -111,7 +111,6 @@
 //           <div className="dropbtn ">Get started</div>
 //         </div>
 
-import Sectionone from "../component/weddingpage/v2.1/Sectionone";
 
 //         <h1 className="text-white vict-text">VICTORIA HITT</h1>
 //       </div>
@@ -144,12 +143,22 @@ import Sectionone from "../component/weddingpage/v2.1/Sectionone";
 // export default page;
 
 
+import Header from "../component/common/header/Header";
+import Sectionone from "../component/weddingpage/v2.1/Sectionone";
+import Sectionthree from "../component/weddingpage/v2.1/Sectionthree";
+import Sectiontwo from "../component/weddingpage/v2.1/Sectiontwo";
+import WeddinfSlider from "../component/weddingpage/WeddinfSlider";
+import './styles.css'
 const page =()=>{
   return(
     <>
-        <p>wedding page </p>
+    <Header/>
         <Sectionone/>
+        <Sectiontwo/>
+        <Sectionthree/>
+
     </>
   )
 }
 export default page;
+
