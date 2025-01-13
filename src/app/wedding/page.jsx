@@ -154,7 +154,7 @@ const page =()=>{
     <>
     <Header/>
         <Sectionone/>
-        <Sectiontwo/>
+        {/* <Sectiontwo/> */}
         <Sectionthree/>
 
     </>
