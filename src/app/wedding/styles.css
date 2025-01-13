@@ -39,6 +39,29 @@
     font-size: 13px;
 }
 
+.rotating-image {
+    width: 100%; /* Set the size of the rotating image */
+    height: auto;
+    animation: rotate 8s linear infinite; /* Slow down rotation */
+  }
+
+  /* Center Image */
+  .center-image {
+    width: 200px; /* Adjust the size of the center image */
+    height: auto;
+    z-index: 2; /* Ensure it stays on top */
+  }
+
+  /* Rotate Animation */
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
 @media (max-width: 767px) {
     .planning-text {
         font-size: 25px;

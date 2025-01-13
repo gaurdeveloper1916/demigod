@@ -144,6 +144,7 @@
 
 
 import Header from "../component/common/header/Header";
+import Sectionfour from "../component/weddingpage/v2.1/Sectionfour";
 import Sectionone from "../component/weddingpage/v2.1/Sectionone";
 import Sectionthree from "../component/weddingpage/v2.1/Sectionthree";
 import Sectiontwo from "../component/weddingpage/v2.1/Sectiontwo";
@@ -156,6 +157,7 @@ const page =()=>{
         <Sectionone/>
         {/* <Sectiontwo/> */}
         <Sectionthree/>
+        <Sectionfour/>
 
     </>
   )
