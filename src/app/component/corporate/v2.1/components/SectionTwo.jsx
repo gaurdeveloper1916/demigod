@@ -51,19 +51,18 @@ const SectionTwo = () => {
             <div className="col large-10">
               <div className="wenn-ct">
                 <span className="line">
-                  Wenn es höchste Zeit <br /> für <i>mehr Kapazität</i> wird...{" "}
+                Where creativity meets precision. <br /><i></i> {" "}
                 </span>
                 <span className="line">
-                  Wenn{" "}
+                Transforming concepts {" "}
                   <i>
-                    Konzept zu <br />
-                    Projektplan
-                  </i>{" "}
-                  werden muss...
+                  into extraordinary <br />
+                  experiences. 
+                  </i>{" "} 
                 </span>
                 <span className="line">
-                  Wenn die <i>Pitch-Deadline</i>
-                  <br /> mal wieder gestern war...
+                  Making deadlines <i>and delivering </i>
+                  <br /> excellence every time.
                 </span>
               </div>
             </div>
@@ -81,3 +80,5 @@ const SectionTwo = () => {
 };
 
 export default SectionTwo;
+
+

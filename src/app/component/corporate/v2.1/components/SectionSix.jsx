@@ -212,19 +212,19 @@ const SectionSix = () => {
               </div>
               <div className="text-ct">
                 <div className="usp-ct one">
-                  <span className="serif">10+ Jahre</span>
-                  <span>Event</span>
-                  <span>Erfahrung</span>
+                  <span className="serif">OUR WORK</span>
+                  <span>CORPORATE EVENTS </span>
+                  <span>ORGANISED</span>
                 </div>
                 <div className="usp-ct two">
                   <span className="serif">200+</span>
-                  <span>Umgesetzte</span>
+                  <span>Images</span>
                   <span>Live-Events</span>
                 </div>
                 <div className="usp-ct three">
                   <span className="serif">30+</span>
-                  <span>umgesetzte</span>
-                  <span>Streaming-</span>
+                  <span>Unforgottable</span>
+                  <span>Streaming</span>
                   <span>Events</span>
                 </div>
 

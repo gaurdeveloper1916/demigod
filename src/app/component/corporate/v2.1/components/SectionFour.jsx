@@ -62,11 +62,11 @@ const SectionFour = () => {
             <div className="col">
               <div className="grid-ct">
                 <h2 className="multi-line-headline text-white">
-                  <span>Zeit für</span>
-                  <span>mitreissende</span>
-                  <span>Events,</span>
-                  <span>die in Erinnerung</span>
-                  <span>bleiben</span>
+                  <span>crafted</span>
+                  <span>memorable</span>
+                  <span>Corporate Events,</span>
+                  <span>that leave</span>
+                  <span>a lasting impression</span>
                 </h2>
                 <div className="picture-ct">
                   <div className="aspect-img-ct">

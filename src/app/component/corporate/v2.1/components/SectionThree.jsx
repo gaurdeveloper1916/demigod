@@ -65,7 +65,7 @@ const SectionThree = () => {
         <div className="sec-2">
           <div className="sec-2-scroll-wrap">
             <div className="sec-2-inner">
-              <h1 className="name">Times Event</h1>
+              <h1 className="name">Corporate Events</h1>
               <div className="dark-overlay"></div>
               <div className="bg-imgs-ct fixed-sec">
                 <div className="imgs-row first">

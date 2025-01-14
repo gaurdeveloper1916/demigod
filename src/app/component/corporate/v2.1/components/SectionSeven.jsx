@@ -261,10 +261,10 @@ const SectionSeven = () => {
         <div className="sec-6 overflow-hidden footer-trigger padding-outer" id="testimonials">
           <div className="row">
             <div className="col">
-              <h3>
-                <span>Das sagt</span>
-                <span>die Branche</span>
-              </h3>
+              <h1>
+                <span>Sit back & relax</span>
+                <span> we organise all these for you</span>
+              </h1>
             </div>
           </div>
           <div className="row">
@@ -303,22 +303,11 @@ const SectionSeven = () => {
                       </div>
                       <div className="text-ct">
                         <p>
-                          "Ich hatte das Vergnügen für 2,5 Jahre mit Tina
-                          zusammenzuarbeiten und kann aus erster Hand
-                          bestätigen, dass sie eine außergewöhnliche
-                          Führungskraft ist. Ihre Fähigkeit, komplexe Themen zu
-                          durchdringen und kreative Ideen zu entwickeln,
-                          beeindruckt mich jedes Mal aufs Neue. Sie ist nicht
-                          nur eine großartige Teamplayerin, sondern trifft auch
-                          an entscheidenden Stellen kluge Entscheidungen, die
-                          Projekte voranbringen. Wer mit Tina zusammenarbeitet,
-                          wird von ihrer strategischen Denkweise und ihrer
-                          Fähigkeit, Ideen in erfolgreiche Lösungen umzusetzen,
-                          profitieren."
+                          
                         </p>
                         <div className="line"></div>
                         <p className="name">
-                          Anne Kikuts, Director Marketing, IBM iX DACH
+                         
                         </p>
                       </div>
                     </div>
@@ -342,23 +331,11 @@ const SectionSeven = () => {
                       </div>
                       <div className="text-ct">
                         <p>
-                          "Tina ist nicht nur eine herausragende Eventplanerin
-                          im MICE-Bereich, sondern auch ein wundervoller Mensch.
-                          Ihre lösungsorientierte Herangehensweise und ihre
-                          ruhige Art machen die Zusammenarbeit äußerst angenehm.
-                          Zudem ist sie ein äußerst effizienter Typ, der sich
-                          nicht davor scheut, projektverantwortlich zu handeln –
-                          so macht die gemeinsame Eventplanung gleich noch mehr
-                          Spaß. Ich freue mich jetzt schon auf weitere
-                          gemeinsame Projekte in der Zukunft. Solltet ihr
-                          jemanden z.B. zur Unterstützung für eure Incentive
-                          Organisation suchen, kann ich Tina von Herzen und
-                          uneingeschränkt empfehlen."
+                        We are the top corporate event management company, trusted by leading corporates for their big events.
                         </p>
                         <div className="line"></div>
                         <p className="name">
-                          Anna-Corina Meyer, Managing Director, Mallorca
-                          Elements
+                        Corporate Events
                         </p>
                       </div>
                     </div>
@@ -382,13 +359,10 @@ const SectionSeven = () => {
                       </div>
                       <div className="text-ct">
                         <p>
-                          "Als Moderator habe ich schon einige tolle Shows mit
-                          Tina umgesetzt. Jedes Mal lief alles wunderbar rund
-                          und ich habe mich sehr wohlgefühlt. Gerne jederzeit
-                          wieder."
+                        Exhibitions are all about the industry, not just your business itself. Make your exhibitions the best with our corporate event planning services.
                         </p>
                         <div className="line"></div>
-                        <p className="name">Aljoscha Höhn, Moderator</p>
+                        <p className="name">Exhibitions</p>
                       </div>
                     </div>
                   </div>
@@ -411,17 +385,11 @@ const SectionSeven = () => {
                       </div>
                       <div className="text-ct">
                         <p>
-                          "Tina ist ein absolut wertvoller Mensch bei jedem
-                          Event. Sie ist nicht nur total kommunikativ und
-                          herzlich, sondern bringt mit ihren kreativen Ideen und
-                          ihrem Blick für Besonderes einen frischen Wind in
-                          jedes Event. Ich bin als Kunde absolut zufrieden und
-                          kann sie nur wärmstens empfehlen."
+                        We have creative corporate event planning tips to bring professionals together, foster connections, and promote new ideas at your MICE events.
                         </p>
                         <div className="line"></div>
                         <p className="name">
-                          Sarah Zielke-Vogt, Eventmanagerin, Telekom Deutschland
-                          GmbH
+                        MICE Events
                         </p>
                       </div>
                     </div>
@@ -523,25 +491,12 @@ const SectionSeven = () => {
                           <div className="swiper-card">
                             <div className="text-ct">
                               <p>
-                                "Tina ist nicht nur eine herausragende
-                                Eventplanerin im MICE-Bereich, sondern auch ein
-                                wundervoller Mensch. Ihre lösungsorientierte
-                                Herangehensweise und ihre ruhige Art machen die
-                                Zusammenarbeit äußerst angenehm. Zudem ist sie
-                                ein äußerst effizienter Typ, der sich nicht
-                                davor scheut, projektverantwortlich zu handeln –
-                                so macht die gemeinsame Eventplanung gleich noch
-                                mehr Spaß. Ich freue mich jetzt schon auf
-                                weitere gemeinsame Projekte in der Zukunft.
-                                Solltet ihr jemanden z.B. zur Unterstützung für
-                                eure Incentive Organisation suchen, kann ich
-                                Tina von Herzen und uneingeschränkt empfehlen."
+                              We have creative corporate event planning tips to bring professionals together, foster connections, and promote new ideas at your MICE events.
                               </p>
                               <div className="name-ct">
                                 <div className="line"></div>
                                 <p className="name">
-                                  Anna-Corina Meyer, Managing Director, Mallorca
-                                  Elements
+                                MICE Events
                                 </p>
                               </div>
                             </div>
@@ -551,24 +506,12 @@ const SectionSeven = () => {
                           <div className="swiper-card">
                             <div className="text-ct">
                               <p>
-                                "Ich hatte das Vergnügen für 2,5 Jahre mit Tina
-                                zusammenzuarbeiten und kann aus erster Hand
-                                bestätigen, dass sie eine außergewöhnliche
-                                Führungskraft ist. Ihre Fähigkeit, komplexe
-                                Themen zu durchdringen und kreative Ideen zu
-                                entwickeln, beeindruckt mich jedes Mal aufs
-                                Neue. Sie ist nicht nur eine großartige
-                                Teamplayerin, sondern trifft auch an
-                                entscheidenden Stellen kluge Entscheidungen, die
-                                Projekte voranbringen. Wer mit Tina
-                                zusammenarbeitet, wird von ihrer strategischen
-                                Denkweise und ihrer Fähigkeit, Ideen in
-                                erfolgreiche Lösungen umzusetzen, profitieren."
+                              Are you thinking of an event to celebrate talents and achievements? We will help you host radiant award shows that waves around your brand message.
                               </p>
                               <div className="name-ct">
                                 <div className="line"></div>
                                 <p className="name">
-                                  Anne Kikuts, Director Marketing, IBM iX DACH
+                                Award Shows
                                 </p>
                               </div>
                             </div>
@@ -578,19 +521,12 @@ const SectionSeven = () => {
                           <div className="swiper-card">
                             <div className="text-ct">
                               <p>
-                                "Tina ist ein absolut wertvoller Mensch bei
-                                jedem Event. Sie ist nicht nur total
-                                kommunikativ und herzlich, sondern bringt mit
-                                ihren kreativen Ideen und ihrem Blick für
-                                Besonderes einen frischen Wind in jedes Event.
-                                Ich bin als Kunde absolut zufrieden und kann sie
-                                nur wärmstens empfehlen."
+                              We are the top corporate event planning agency you can trust for your conferences, sales meetings, board retreats, and workshops.
                               </p>
                               <div className="name-ct">
                                 <div className="line"></div>
                                 <p className="name">
-                                  Sarah Zielke-Vogt, Eventmanagerin, Telekom
-                                  Deutschland GmbH
+                                Conferences/Workshops
                                 </p>
                               </div>
                             </div>
@@ -600,14 +536,11 @@ const SectionSeven = () => {
                           <div className="swiper-card">
                             <div className="text-ct">
                               <p>
-                                "Als Moderator habe ich schon einige tolle Shows
-                                mit Tina umgesetzt. Jedes Mal lief alles
-                                wunderbar rund und ich habe mich sehr
-                                wohlgefühlt. Gerne jederzeit wieder."
+                              Opening your dream store? Do it with grand ideas from Demigod House, the best corporate event management company.
                               </p>
                               <div className="name-ct">
                                 <div className="line"></div>
-                                <p className="name">Aljoscha Höhn, Moderator</p>
+                                <p className="name">Store Openings</p>
                               </div>
                             </div>
                           </div>
