@@ -72,15 +72,15 @@ const WeddinfSlider = () => {
 
 
   return (
-    <div className="bg-cards-inner ">
-      <div className="container mt-5   col-lg-10 col-12 d-flex flex-column justify-content-center align-items-center top-destination ">
-        <h1 className="mt-5">Top Destinations</h1>
-        <p className=" col-lg-12 col-12">
-          The first AI that truly understands websites
-        </p>
-      </div>
-      <div className=" container-fluid p-0  ">
-        <div className="d-flex justify-content-center align-items-center">
+    // <div className="bg-cards-inner ">
+    //   <div className="container mt-5   col-lg-10 col-12 d-flex flex-column justify-content-center align-items-center top-destination ">
+    //     <h1 className="mt-5">Top Destinations</h1>
+    //     <p className=" col-lg-12 col-12">
+    //       The first AI that truly understands websites
+    //     </p>
+    //   </div>
+    //   <div className=" container-fluid p-0  ">
+    //     <div className="d-flex justify-content-center align-items-center">
           <div className="col-lg-10 col-11 mt-lg-5">
             <div className=" slider2 ">
               <Slider {...settings2} ref={sliderRef}>
@@ -112,9 +112,7 @@ const WeddinfSlider = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+      
   );
 };
 

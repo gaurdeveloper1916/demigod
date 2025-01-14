@@ -1,0 +1,89 @@
+.text-fs {
+    font-size: 84px;
+    margin: 0;
+}
+
+.text-cont {
+    line-height: 1.1;
+}
+
+.planning-text {
+    font-size: 69px;
+    color: #36393b;
+    line-height: 1.1;
+
+}
+
+.planning-des {
+    font-size: 18px;
+}
+
+.image2 {
+    height: 800px;
+    width: 600px;
+}
+.rounded-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ffffff;
+}
+.effortless-text{
+    font-size: 39px;
+    font-weight: 400;
+}
+.slider-text{
+    font-size: 13px;
+}
+
+.rotating-image {
+    width: 100%; /* Set the size of the rotating image */
+    height: auto;
+    animation: rotate 8s linear infinite; /* Slow down rotation */
+  }
+
+  /* Center Image */
+  .center-image {
+    width: 200px; /* Adjust the size of the center image */
+    height: auto;
+    z-index: 2; /* Ensure it stays on top */
+  }
+
+  /* Rotate Animation */
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+@media (max-width: 767px) {
+    .planning-text {
+        font-size: 25px;
+        color: #36393b;
+        line-height: 1.1;
+
+    }
+    .image2 {
+        height: 100%;
+        width: 100%;
+    }
+    .text-fs {
+        font-size: 30px;
+        margin: 0;
+    }
+}
+
+/* For tablets (portrait and landscape) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .text-fs {
+        font-size: 50px;
+        margin: 0;
+    }
+   
+}

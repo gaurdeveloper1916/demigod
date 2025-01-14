@@ -1,0 +1,128 @@
+"use client";
+import React, { useRef } from "react";
+import Slider from "react-slick";
+import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import WeddingCard from "./Subcomponent/Weedingcard";
+import { IoChevronForward, IoChevronForwardSharp } from "react-icons/io5";
+import { GrFormPrevious } from "react-icons/gr";
+
+// import "./wedding.css";
+
+const Sectionthree = () => {
+  const sliderRef = useRef(null);
+
+  const next = () => {
+    if (sliderRef.current) {
+      sliderRef.current.slickNext();
+    }
+  };
+
+  const previous = () => {
+    if (sliderRef.current) {
+      sliderRef.current.slickPrev();
+    }
+  };
+
+  const settings2 = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  };
+
+
+  const cards = [{ image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=" },
+  { image: "https://media.istockphoto.com/id/1388563119/photo/beautiful-bride-and-groom-celebrate-wedding-outdoors-on-a-beach-near-the-ocean-perfect.jpg?s=612x612&w=0&k=20&c=tRvxRAN6Lb6Cu5c1EUaS081UNbKp0TOLu3x1NFj4FoE=" },
+  {
+    image: "https://media.istockphoto.com/id/1933376240/photo/portrait-of-a-bride-holding-her-bouquet-on-beach-wedding.jpg?s=612x612&w=0&k=20&c=Bu-SxK2KZtKFf5zeawkobT5KTj32HcvDwRPH7-1WxkY=",
+
+  },
+  { image: "https://media.istockphoto.com/id/1142225421/photo/elopement-wedding-ride-and-groom-embracing-in-front-of-wedding-altar.jpg?s=612x612&w=0&k=20&c=gpTFAuPsUsXcA0aB2BVbKJRm2QVuvr0OlMInE1MIeQo=" },
+  { image: "https://media.istockphoto.com/id/1204862788/photo/bride-and-a-groom-is-cutting-wedding-cake-on-banquet-hands-cut-the-cake-with-flowers-newlywed.jpg?s=612x612&w=0&k=20&c=3sAHFcmGSjrvgSMiWXkWndUXyEDdw6XnWaFbgRj9MI8=" },
+  {
+    image: "https://media.istockphoto.com/id/1933376240/photo/portrait-of-a-bride-holding-her-bouquet-on-beach-wedding.jpg?s=612x612&w=0&k=20&c=Bu-SxK2KZtKFf5zeawkobT5KTj32HcvDwRPH7-1WxkY=",
+
+  }
+  ]
+
+
+  return (
+
+    <div className="d-flex ">
+      <div className="col-lg-4">
+        <div
+          className="w-100  object-fit-cover position-relative p-5 d-flex flex-column justify-content-center align-items-cente"
+          style={{
+            backgroundImage: `url('./images/outing-2.png')`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            height:'100vh'
+          }}
+        >
+          <p className="effortless-text text-white">Effortless Execution</p>
+          <p className="text-white">
+            Destination Brides’ five-step proven process allows us to develop and execute a custom-tailored plan for the destination wedding of your dreams.
+          </p>
+          <div className="d-flex gap-5">
+            <div className="bg-white rounded-pill">
+              <GrFormPrevious className="cursor-pointer" onClick={next} size={55} color="black" />
+            </div>
+            <div className="bg-white rounded-pill">
+              <GrFormPrevious
+                className="cursor-pointer"
+                onClick={previous}
+                style={{ transform: "rotate(-180deg)" }}
+                size={55}
+                color="black"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="col-lg-8 col-11 mt-lg-5">
+        <div className=" slider2 ">
+          <Slider {...settings2} ref={sliderRef}>
+            {cards.map((card, index) => (
+              <WeddingCard key={index} margin={(index + 1) % 2 === 0} image={card.image} />
+            ))}
+          </Slider>
+
+
+        </div>
+      </div>
+    </div>
+
+
+
+  );
+};
+
+export default Sectionthree;
