@@ -1,3 +1,5 @@
+import Accordian from "./Subcomponent/Accordian";
+
 const Sectionfour = () => {
     return (
         <>
@@ -11,7 +13,7 @@ const Sectionfour = () => {
                 </div>
 
                 <div
-                    style={{ width: '450px', height: '300px', marginTop: '4rem' }}
+                    style={{ width: '450px', height: '300px', marginTop: '5rem',marginBottom:'5rem' }}
                     className="position-relative d-flex justify-content-center   align-items-center mx-auto"
                 >
                     <img

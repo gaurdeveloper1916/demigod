@@ -148,6 +148,7 @@ import Sectionfour from "../component/weddingpage/v2.1/Sectionfour";
 import Sectionone from "../component/weddingpage/v2.1/Sectionone";
 import Sectionthree from "../component/weddingpage/v2.1/Sectionthree";
 import Sectiontwo from "../component/weddingpage/v2.1/Sectiontwo";
+import Accordian from "../component/weddingpage/v2.1/Subcomponent/Accordian";
 import WeddinfSlider from "../component/weddingpage/WeddinfSlider";
 import './styles.css'
 const page =()=>{
@@ -156,8 +157,11 @@ const page =()=>{
     <Header/>
         <Sectionone/>
         {/* <Sectiontwo/> */}
-        <Sectionthree/>
         <Sectionfour/>
+        <Sectionthree/>
+       
+        <Accordian/>
+
 
     </>
   )
