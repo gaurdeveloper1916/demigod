@@ -1,3 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilory;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+  
+  #page2 {
+    background-color: black;
+  }
+  
+  #page2 .inner {
+    font-size: 40vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  .inner {
+    display: flex;
+    gap: 12px;
+  }
+  
+  .inner-img {
+    width: 62vh;
+    height: auto;
+  }
+  
+
+
 .text-fs {
     font-size: 84px;
     margin: 0;

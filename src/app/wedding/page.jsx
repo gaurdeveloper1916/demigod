@@ -144,6 +144,8 @@
 
 
 import Header from "../component/common/header/Header";
+import SectionFive from "../component/corporate/v2.1/components/SectionFive";
+import Sectionfive from "../component/weddingpage/v2.1/Sectionfive";
 import Sectionfour from "../component/weddingpage/v2.1/Sectionfour";
 import Sectionone from "../component/weddingpage/v2.1/Sectionone";
 import Sectionthree from "../component/weddingpage/v2.1/Sectionthree";
@@ -161,6 +163,7 @@ const page =()=>{
         <Sectionthree/>
        
         <Accordian/>
+        <Sectionfive/>
 
 
     </>
