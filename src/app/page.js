@@ -25,10 +25,7 @@ export default function Home() {
       <Formdiv/>
       {/* <Testtube /> */}
       <FridayNight />
-      <div className="mt-4">
-        {" "}
-        {/* <Map /> */}
-      </div>
+      
     </div>
   );
 }
