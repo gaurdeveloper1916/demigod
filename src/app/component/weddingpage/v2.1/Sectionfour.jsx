@@ -24,7 +24,7 @@ const Sectionfour = () => {
 
                     <img
                         src="./ring.png"
-                        className="center-image position-absolute"
+                        className="center-image rotating-image position-absolute"
                         alt="Center image"
                     />
                 </div>

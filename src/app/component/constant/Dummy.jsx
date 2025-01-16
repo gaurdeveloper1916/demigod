@@ -1,20 +1,20 @@
 export  const data = [
-    {
-      id: 1,
-      attributes: {
-        URLText: "Event",
-        corporate:"DemiGod House Events",
-        onHover:true,
-        url: "/#",
-        createdAt: "2024-06-04T09:37:28.020Z",
-        updatedAt: "2024-06-04T09:37:29.014Z",
-        publishedAt: "2024-06-04T09:37:29.011Z",
+    // {
+    //   id: 1,
+    //   attributes: {
+    //     URLText: "Event",
+    //     corporate:"DemiGod House Events",
+    //     onHover:true,
+    //     url: "/#",
+    //     createdAt: "2024-06-04T09:37:28.020Z",
+    //     updatedAt: "2024-06-04T09:37:29.014Z",
+    //     publishedAt: "2024-06-04T09:37:29.011Z",
        
-        urlicon: {
-          data: null,
-        },
-      },
-    },
+    //     urlicon: {
+    //       data: null,
+    //     },
+    //   },
+    // },
     {
       id: 2,
       attributes: {
@@ -61,21 +61,21 @@ export  const data = [
         },
       },
     },
-    {
-      id: 5,
-      attributes: {
-        URLText: "Journal",
-        corporate:"About JOURNAL",
-        url: "#",
-        createdAt: "2024-06-04T09:40:16.115Z",
-        updatedAt: "2024-06-04T09:40:17.431Z",
-        publishedAt: "2024-06-04T09:40:17.428Z",
-        onHover:false,
-        urlicon: {
-          data: null,
-        },
-      },
-    },
+    // {
+    //   id: 5,
+    //   attributes: {
+    //     URLText: "Journal",
+    //     corporate:"About JOURNAL",
+    //     url: "#",
+    //     createdAt: "2024-06-04T09:40:16.115Z",
+    //     updatedAt: "2024-06-04T09:40:17.431Z",
+    //     publishedAt: "2024-06-04T09:40:17.428Z",
+    //     onHover:false,
+    //     urlicon: {
+    //       data: null,
+    //     },
+    //   },
+    // },
     {
       id: 6,
       attributes: {

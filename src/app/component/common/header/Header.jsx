@@ -153,7 +153,7 @@ function Header() {
                                 />
                               )}
                             </div>
-                            {item.attributes.onHover ? (
+                            {/* {item.attributes.onHover ? (
                               <div
                                 style={{
                                   left: "0%",
@@ -182,9 +182,7 @@ function Header() {
                                       xyz xyz xyz xyz ! 
                                     </p>
                                     <div style={{ lineHeight: "2px" }}>
-                                      {/* <p className="m-0">
-                                        About World of Demigod
-                                      </p> */}
+                                     
                                       <hr />
                                     </div>
                                   </div>
@@ -192,24 +190,15 @@ function Header() {
                                     style={{ lineHeight: "24px" }}
                                     className="col-lg-5 text-white "
                                   >
-                                    {/* <div style={{ lineHeight: "2px" }}>
-                                      <p className="fw-bold text-colour-off-white fs-4">
-                                        {" "}
-                                        About Us
-                                      </p>
-                                      <hr />
-                                    </div> */}
+                                   
                                     <div className="d-flex gap-3 des-header">
                                       <div className="col-lg-6">
                                         <div className="d-flex gap-2">
-                                          {/* <RiTeamLine size={23} /> */}
                                           <div className="d-flex flex-column">
                                           <p className="m-0 fs-3 fw-bold header-text-new">
                                             Live Concert
                                           </p>
-                                          {/* <p className="m- fw-bold">
-                                           Talent Meets Collaboration
-                                          </p> */}
+                                        
                                           </div>
                                         </div>
                                         <ul className="ps-1 text-colour-off-white  my-3">
@@ -224,7 +213,6 @@ function Header() {
                                       </div>
                                       <div className="col-lg-6">
                                         <div className="d-flex gap-2">
-                                          {/* <GiTelepathy size={20} /> */}
                                           <div className="flex flex-column">
                                           <p className="m-0 fs-3 fw-bold header-text-new">
                                             Carrer at Now
@@ -244,7 +232,6 @@ function Header() {
                                     <div className="d-flex gap-3 mt-4">
                                       <div className="col-lg-6">
                                         <div className="d-flex gap-2">
-                                          {/* <FaHandshake size={25} /> */}
                                          <div className="flex flex-column">
                                          <p className="m-0 fs-3 fw-bold header-text-new">
                                             Our Partner
@@ -262,7 +249,6 @@ function Header() {
                                       </div>
                                       <div className="col-lg-6">
                                         <div className="d-flex gap-2">
-                                          {/* <BsTelephone size={23} /> */}
                                          <div className="d-flex flex-column">
                                          <p className="m-0 fs-3 fw-bold header-text-new">
                                             Contact With us
@@ -288,7 +274,7 @@ function Header() {
                               </div>
                             ) : (
                               ""
-                            )}
+                            )} */}
                           </li>
                         </ul>
                       </div>
@@ -296,7 +282,7 @@ function Header() {
                   );
                 })}
               </div>
-              <div className=" d-flex justify-content-center align-items-center ">
+              {/* <div className=" d-flex justify-content-center align-items-center ">
                 <Link href='signin'>
                   <buton
                     type="button"
@@ -305,7 +291,7 @@ function Header() {
                     SIGN UP
                   </buton>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

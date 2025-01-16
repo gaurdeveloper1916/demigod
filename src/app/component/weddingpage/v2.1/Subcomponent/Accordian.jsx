@@ -1,4 +1,5 @@
 'use client';
+import TypeWriterText from '@/app/component/constant/TypeWriterText';
 import React, { useState } from 'react';
 import { FiMinus } from "react-icons/fi";
 import { IoAdd } from 'react-icons/io5';
@@ -59,6 +60,7 @@ const Accordian = () => {
                                 transition: 'all 0.3s ease-in-out',
                             }}
                         >
+                            {/* <TypeWriterText text ={section.content} speed = '10' /> */}
                             {section.content}
                         </p>
 

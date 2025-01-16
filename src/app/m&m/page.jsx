@@ -23,7 +23,7 @@ function Index() {
       <Community/>
       <ElectronicCommunity/>
       <LeadingOrganisation/>
-      <Ecosystem />
+      {/* <Ecosystem /> */}
       <Industryevents/>
       <Openforbusiness/>
       <Partnership/>
