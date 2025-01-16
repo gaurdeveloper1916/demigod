@@ -84,7 +84,7 @@ function Footer(props) {
   <div className="container ">
     <div className="row justify-content-center align-items-start">
       {/* Left Column */}
-      <div className="col-lg-12 col-md-12 col-12 d-flex justify-content-center align-items-start gap-4">
+      <div className="col-lg-12 col-md-12 col-12 d-flex flex-wrap justify-content-center align-items-start gap-4">
         <div className="text-white verySmallFont">
           <button className="verySmallFont border-0 rounded px-3 py-2 text-white ">
             Help Or Support ?
