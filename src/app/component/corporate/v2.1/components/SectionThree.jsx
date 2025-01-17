@@ -73,53 +73,53 @@ const SectionThree = () => {
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        data-srcset="/section-3/scroll-img-1.jpg"
-                        srcSet="/section-3/scroll-img-1.jpg"
+                        data-srcset="/section-3/Tradeshow.jpeg"
+                        srcSet="/section-3/Tradeshow.jpeg"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/scroll-img-1.jpg"
-                        data-src="/section-3/scroll-img-1.jpg"
+                        src="/section-3/WELLLNESS EVENT.jpeg"
+                        data-src="/section-3/WELLLNESS EVENT.jpeg"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/scroll-img-2.jpg"
-                        data-srcset="/section-3/scroll-img-2.jpg"
+                        srcSet="/section-3/Conference.jpeg"
+                        data-srcset="/section-3/Conference.jpeg"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/scroll-img-2.jpg"
-                        data-src="/section-3/scroll-img-2.jpg"
+                        src="/section-3/Seminar.jpg"
+                        data-src="/section-3/Seminar.jpg"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/scroll-img-3.jpg"
-                        data-srcset="/section-3/scroll-img-3.jpg"
+                        srcSet="/section-3/Awardceremony.jpeg"
+                        data-srcset="/section-3/TAwardceremony.jpeg"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/scroll-img-3.jpg"
-                        data-src="/section-3/scroll-img-3.jpg"
+                        src="/section-3/charity.jpeg"
+                        data-src="/section-3/charity.jpeg"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/scroll-img-4.jpg"
-                        data-srcset="/section-3/scroll-img-4.jpg"
+                        srcSet="/section-3/COMPANYMILE(1).jpeg"
+                        data-srcset="/section-3/COMPANYMILE(1).jpeg"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/scroll-img-9.jpg"
-                        data-src="/section-3/scroll-img-9.jpg"
+                        src="/section-3/COMPANYMILE.jpeg"
+                        data-src="/section-3/COMPANYMILE.jpeg"
                       />
                     </picture>
                     <picture>
@@ -230,47 +230,47 @@ const SectionThree = () => {
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/scroll-img-10.jpg"
-                        data-src="/section-3/scroll-img-10.jpg"
+                        src="/section-3/boardmeeting.jpeg"
+                        data-src="/section-3/boardmeeting.jpeg"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/scroll-img-11.jpg"
-                        data-srcset="/section-3/scroll-img-11.jpg"
+                        srcSet="/section-3/compmile.jpeg"
+                        data-srcset="/section-3/compmile.jpeg"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/scroll-img-11.jpg"
-                        data-src="/section-3/scroll-img-11.jpg"
+                        src="/section-3/conf.jpg"
+                        data-src="/section-3/conf.jpg"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/scroll-img-10.jpg"
-                        data-srcset="/section-3/scroll-img-10.jpg"
+                        srcSet="/section-3/nwtwork.jpg"
+                        data-srcset="/section-3/nwtwork.jpg"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/scroll-img-10.jpg"
-                        data-src="/section-3/scroll-img-10.jpg"
+                        src="/section-3/product.jpg"
+                        data-src="/section-3/product.jpg"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/scroll-img-4.jpg"
-                        data-srcset="/section-3/scroll-img-4.jpg"
+                        srcSet="/section-3/trade.jpeg"
+                        data-srcset="/section-3/trade.jpeg"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/scroll-img-4.jpg"
-                        data-src="/section-3/scroll-img-4.jpg"
+                        src="/section-3/WELLNESS EVENT.jpeg"
+                        data-src="/section-3/WELLNESS EVENT.jpeg"
                       />
                     </picture>
                   </div>

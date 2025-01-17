@@ -209,9 +209,9 @@ const SectionFive = () => {
                     </div>
                     <div className="bottom">
                       <span className="gebiete-title">
-                        <i>Product Launch</i>
+                        <i>Team Building Activity</i>
                         <span className="extra-info">
-                            <p>Launch your product with flair, creating excitement and expanding your brand's reach.</p>
+                            <p>Strengthen relationships and foster collaboration through engaging and enjoyable activities designed to build team spirit.</p>
                           </span>
                       </span>
                     </div>
@@ -230,9 +230,9 @@ const SectionFive = () => {
                     <div className="bottom">
                       <span className="gebiete-title">
                         <i>
-                        Conferences
+                        Shareholder Meeting
                           <span className="extra-info">
-                          <p>Educate, inspire, and connect with audiences through impactful conferences featuring keynote speakers and breakout sessions.</p>
+                          <p>Inform, inspire, and connect with stakeholders through impactful presentations and discussions at shareholder meetings.</p>
                           </span>
                         </i>
                       </span>
@@ -251,9 +251,9 @@ const SectionFive = () => {
                     </div>
                     <div className="bottom">
                       <span className="gebiete-title">
-                      <i>Trade Shows</i>
+                      <i>Wellness Events</i>
                       <span className="extra-info">
-                      <p>Showcase your brand and connect with potential clients at engaging trade shows.</p>
+                      <p>Promote well-being and mindfulness with events focused on relaxation, fitness, and holistic health.</p>
                           </span>
                       </span>
                     </div>
@@ -271,9 +271,9 @@ const SectionFive = () => {
                     </div>
                     <div className="bottom">
                       <span className="gebiete-title">
-                      <i>Appreciation Ceremonies</i>
+                      <i>Client Appreciation Event</i>
                       <span className="extra-info">
-                      <p>Celebrate employees and clients with memorable events that express gratitude.</p>
+                      <p>Celebrate and show gratitude to clients with personalized and memorable experiences.</p>
                       </span>
                       </span>
                     </div>
@@ -291,9 +291,9 @@ const SectionFive = () => {
                     </div>
                     <div className="bottom">
                       <span className="gebiete-title">
-                      <i>Team-Building</i>
+                      <i>Incentive Trips</i>
                       <span className="extra-info">
-                        <p>Enhance teamwork with fun activities and adventures that build stronger connections.</p>
+                        <p>Reward employees or clients with exciting trips that combine leisure and adventure, enhancing loyalty and motivation.</p>
                         </span>
                       </span>
                     </div>
@@ -311,10 +311,10 @@ const SectionFive = () => {
                     </div>
                     <div className="bottom">
                       <span className="gebiete-title">
-                      <i>Board Meetings</i>
+                      <i>Symposiums</i>
                       <span className="extra-info">
-                      <p>Enhance teamwork with fun activities and adventures that build stronger connections.</p>
-                      </span>
+                      <p>Facilitate knowledge sharing and discussions on key topics through expert-led sessions and interactive formats.</p>
+                      </span> 
                       </span>
                     </div>
                   </div>
@@ -341,7 +341,6 @@ const SectionFive = () => {
             </div>
           </div>
         </div>
-        
       </main>
     </section>
   );

@@ -15,9 +15,9 @@ const Sectionone = () => {
                     />
                 </video>
                 <div className="position-absolute top-50 start-50 translate-middle text-white text-center text-cont  w-lg-75 w-100">
-                    <p className="fw-bold text-shadow m-0 text-fs">Sophisticated Weddings for </p>
-                    <p className="fw-bold text-shadow m-0 text-fs">Exceptional Brides </p>
-
+                    <p className="fw-bold text-shadow m-0 text-fs">You Dream. & Relax. We Plan</p>
+                    <h3><p className="fw-bold text-shadow m-0 ">Enjoy YOUR Wedding: Stress-Free Wedding Planning</p></h3>
+                    <h4><p className="fw-bold text-shadow">Your Wedding celebration is one (epic!) weekend long. If you aren’t enjoying your wedding planning for the 365 +/- days prior you aren’t working with your best DEMIGOD HOUSE wedding planner. See how we stressed "your"?</p></h4>
                 </div>
             </div>
         </>

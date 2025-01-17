@@ -119,9 +119,9 @@ const SectionOne = () => {
         <div className="row sub-claim-row">
           <div className="col">
             <div className="sub-claim">
-             <b><h1><span>Dream</span> <span>-Desing</span><span>-Deliver</span></h1></b> {" "}
-             <h3><p>We create memorable events by combining innovation, creativity, and flawless execution.</p>
-             <p>Whether it’s a gala dinner, sales conference, product launch, or office opening, we make it unforgettable.</p></h3>
+             <b><h1><span>You Articlate </span> <span>&</span> <span>We Execute</span> <span>Pragmatically</span></h1></b>{" "}
+             <h3><p>We organise astounding events by our team management,innovation, creativity, and flawless execution.</p>
+             <p>From New york to New Delhi we provide our end to end corporate event Management services i.e. product launch,Trade shows,Appreciation ceremonies,Board meetings,Shareholder meetings and akin.</p></h3>
               {/* <span>WE CREATE</span> <span>MEMORABLE</span> <span>EVENTS</span>{" "}
               <span>We are a fully integrated</span> <span>Event Management Company</span> <span></span>{" "}
               <span>That can design and</span> <span>deliver</span> <span>your event</span>{" "}
@@ -155,22 +155,22 @@ const SectionOne = () => {
               data-marquee-target=""
               data-marquee-duplicate="3"
               data-marquee-direction="left"
-              data-marquee-status="normal"Z
-              data-marquee-speed="25"
-              data-marquee-scroll-speed="12"
+              data-marquee-status="normal"
+              data-marquee-speed="6"
+              data-marquee-scroll-speed="50 "
             >
               <div className="marquee-scroll">
                 <div className="marquee-content">
-                  <span className="list-item">Welcome to Demigod Moments</span>
+                  <span className="list-item">Experience India's Best Corporate Event Management</span>
                   <div className="line"> </div>
-                  <span className="list-item">It’s time to innovate</span>
+                  <span className="list-item">With Five Star Hospitality Services</span>
                   <div className="line"> </div>
-                  <span className="list-item">It’s time to connect</span>
+                  <span className="list-item">& Most Divine Experience via.</span>
                   <div className="line"> </div>
-                  <span className="list-item">It’s time to celebrate</span>
+                  <span className="list-item">Corporate Events With DemiGod House</span>
                   <div className="line"> </div>
-                  <span className="list-item">It’s time to  </span>
-                  <div className="line"> </div>
+                  {/* <span className="list-item">It’s time to  </span>
+                  <div className="line"> </div> */}
                 </div>
               </div>
             </div>
@@ -212,11 +212,11 @@ const SectionOne = () => {
           >
             <source
               media="(min-width: 760px)"
-              srcSet="/first-section.png"
+              srcSet="/cor.jpg"
             />
             <img
               alt="Eventgesellschaft in einem Restaurant - hinterste Ebene"
-              src="/first-section.png"
+              src="/cor.jpg"
               data-parallax-target=""
             />
           </picture>

@@ -212,31 +212,43 @@ const SectionSix = () => {
               </div>
               <div className="text-ct">
                 <div className="usp-ct one">
-                  <span className="serif">OUR WORK</span>
-                  <span>CORPORATE EVENTS </span>
-                  <span>ORGANISED</span>
+                  <span className="serif"></span>
+                  <span>Charity & Fundraising</span>
+                  <span>Event's</span>
+                  {/* <p className="paragraph-one">
+                  <h2>With Demigod House's team, any charity and fundraising event can maximize its impact and reach through via our global network.</h2></p> */}
                 </div>
                 <div className="usp-ct two">
-                  <span className="serif">200+</span>
-                  <span>Images</span>
-                  <span>Live-Events</span>
+                  <span className="serif"></span>
+                  <span>Networking</span>
+                  <span>Event's</span>
+                  {/* <p className="paragraph-two">
+                  <h2>Create meaningful connections with Demigod House for our comprehensive end-to-end services for networking events, designed to foster collaboration and build lasting relationships.</h2></p> */}
                 </div>
                 <div className="usp-ct three">
-                  <span className="serif">30+</span>
-                  <span>Unforgottable</span>
-                  <span>Streaming</span>
+                  <span className="serif"></span>
+                  <span></span>
+                  <span>Political</span>
                   <span>Events</span>
+                  {/* <p className="paragraph-three">
+                  <h2>Political event with our expert end-to-end services, ensuring flawless execution and impactful engagement with our audience.</h2></p> */}
                 </div>
 
                 <div className="lines-ct">
                   <div className="line one">
+                  <div className="paragraph-one">
                     <div className="line-inner"></div>
+                  </div>
                   </div>
                   <div className="line two">
+                  <div className="paragraph-two">
                     <div className="line-inner"></div>
                   </div>
+                  </div>
                   <div className="line three">
+                  <div className="paragraph-three">
                     <div className="line-inner"></div>
+                  </div>
                   </div>
                 </div>
               </div>

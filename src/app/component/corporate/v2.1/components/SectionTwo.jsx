@@ -51,18 +51,18 @@ const SectionTwo = () => {
             <div className="col large-10">
               <div className="wenn-ct">
                 <span className="line">
-                Where creativity meets precision. <br /><i></i> {" "}
+                {/* <h1 className="title">CORPORATE </h1> */}
                 </span>
                 <span className="line">
-                Transforming concepts {" "}
+                <h1 className="se-t sie-corporate_2-text st-m-heading st-d-heading se-rc">Corporate Events with DemiGod House is a world standard's exposure integrated with attractions i.e.</h1>{" "}
                   <i>
-                  into extraordinary <br />
-                  experiences. 
+                  <p className="se-t sie-corporate_3-text st-m-paragraph st-d-paragraph se-rc"> GEN Z Tech Decore, Mesmerising Flower Decor and artwork by celebrity artist, Pyrotronics, Drone Shows, Tradional decore, live entertainment , talent management , 5 Star hospitality accomodation and transport services, PR & Markets news breaker! </p>
+                   <br />
+                  
                   </i>{" "} 
                 </span>
                 <span className="line">
-                  Making deadlines <i>and delivering </i>
-                  <br /> excellence every time.
+                
                 </span>
               </div>
             </div>
@@ -80,5 +80,3 @@ const SectionTwo = () => {
 };
 
 export default SectionTwo;
-
-

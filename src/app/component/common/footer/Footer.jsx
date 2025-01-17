@@ -130,7 +130,7 @@ function Footer(props) {
            
             <div className="col-lg-6  col-12 display flex-item flex-column  text-white verySmallFont ">
               <button className="verySmallFont border-0 rounded px-3 py-2     text-white">
-                Follow us on Social Media
+                Follow our work
               </button>
               <ul className="list-unstyled d-flex flex-lg-row flex-col  display text-center gap-3   px-1 mt-2">
                 <li>
@@ -165,7 +165,7 @@ function Footer(props) {
                     <FaLinkedinIn size={20} />
                   </a>
                 </li>
-                <p>@demigodhouse</p>
+                {/* <p>@demigodhouse</p> */}
               </ul>
             </div>
             <div className="col-lg-5   col-12 display text-white verySmallFont ">

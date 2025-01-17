@@ -62,11 +62,11 @@ const SectionFour = () => {
             <div className="col">
               <div className="grid-ct">
                 <h2 className="multi-line-headline text-white">
-                  <span>crafted</span>
-                  <span>memorable</span>
-                  <span>Corporate Events,</span>
-                  <span>that leave</span>
-                  <span>a lasting impression</span>
+                  <span>Product Launch</span>
+                  <span>ATL/BTL</span>
+                  <span>B2B/B2C Marketing</span>
+                  <span>Digital Media Meta/Google Ads Campaign</span>
+                  <span></span>
                 </h2>
                 <div className="picture-ct">
                   <div className="aspect-img-ct">
@@ -76,14 +76,14 @@ const SectionFour = () => {
                     >
                       <source
                         media="(min-width: 760px)"
-                        data-srcset="tina.jpg"
-                        srcSet="tina.jpg"
+                        data-srcset="b.jpg"
+                        srcSet="b.jpg"
                       />
                       <img
                         alt="Portrait von Tina Genßler"
                         className="lazy"
-                        src="tina.jpg"
-                        data-src="tina.jpg"
+                        src="b.jpg"
+                        data-src="b.jpg"
                         data-parallax-target=""
                       />
                     </picture>
@@ -93,32 +93,31 @@ const SectionFour = () => {
             </div>
             <div className="col">
               <div className="serif-text-ct">
-                <span>Ich</span> <span>nehme</span> <span>mir</span>{" "}
-                <span>die</span> <span>Zeit,</span>
-                <span>deine</span> <span>Vision</span>{" "}
-                <i>
+                <span>We</span> <span>Provide</span> <span>End to End</span>{" "}
+                <span>Solutions</span> <span>for brands</span>{" "}
+                <span>B2B & B2C</span> <span>marketing approach</span>{" "}
                   {" "}
-                  <span>bis</span> <span>ins</span>
-                  <span>kleinste</span> <span>Zahnrad</span>
-                </i>{" "}
-                <span>zu</span>
-                <span>verstehen</span> <span>und</span> <span>umzusetzen.</span>{" "}
-                <span>Mit</span> <span>meinem</span> <span>Gespür</span>{" "}
-                <span>für</span>
+                  <span>via a</span> <span>time tested structured plan of</span>
+                  <span>action with 99.99%</span> <span>success rate.</span>
+                {" "}
+                <span>Any form of marketing approach</span>
+                <span>i.e. product launch,</span> <span>Logo re-launch, </span> <span>ATL/BTL </span>{" "}<span> activities, Outdoor Media,</span>{" "}
+                <span> Digital media ads campaign</span> <span>and akin.</span> <span></span>{" "}
+                <span></span>
                 <i>
-                  <span>aktuelle</span> <span>Trends</span>
+                  <span></span> <span></span>
                 </i>{" "}
-                <span>sowie</span> <span>meinem</span>
-                <span>Blick</span> <span>für's</span> <span>Detail</span>{" "}
-                <span>verwandle</span>
-                <span>ich</span> <span>jeden</span> <span>Anlass</span>{" "}
-                <span>in</span> <span>ein</span>
-                <span>Ereignis,</span> <span>das</span> <span>noch</span>{" "}
-                <span>lange</span>
+                <span>Organised,</span> <span>Managed</span>{" "}
+                <span> & Executed by </span> <span>Team Demigod House</span> <span>exclusive factor</span>{" "}
+                <span>make </span>
+                <span>headlines</span> <span>in Domestic & </span> <span>International media.</span>{" "}
+                <span></span> <span></span>
+                <span></span> <span></span> <span></span>{" "}
+                <span></span>
                 <i>
-                  <span>nach</span> <span>dem</span> <span>letzten</span>{" "}
-                  <span>Gong</span>
-                  <span>in</span> <span>Erinnerung</span> <span>bleibt</span>
+                  <span></span> <span></span> <span></span>{" "}
+                  <span></span>
+                  <span></span> <span></span> <span></span>
                 </i>
                 <span>.</span>
               </div>
