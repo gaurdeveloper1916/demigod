@@ -119,9 +119,9 @@ const SectionOne = () => {
         <div className="row sub-claim-row">
           <div className="col">
             <div className="sub-claim">
-             <b><h1><span>You Articlate </span> <span>&</span> <span>We Execute</span> <span>Pragmatically</span></h1></b>{" "}
-             <h3><p>We organise astounding events by our team management,innovation, creativity, and flawless execution.</p>
-             <p>From New york to New Delhi we provide our end to end corporate event Management services i.e. product launch,Trade shows,Appreciation ceremonies,Board meetings,Shareholder meetings and akin.</p></h3>
+             <b><h1><span >You Articlate </span> <span>&</span> <span>We Execute</span> <span>Pragmatically</span></h1></b>{" "}
+             <h3><p style={{fontSize:"16px"}}>We organise astounding events by our team management,innovation, creativity, and flawless execution.</p>
+             <p style={{fontSize:"16px"}}>From New york to New Delhi we provide our end to end corporate event Management services i.e. product launch,Trade shows,Appreciation ceremonies,Board meetings,Shareholder meetings and akin.</p></h3>
               {/* <span>WE CREATE</span> <span>MEMORABLE</span> <span>EVENTS</span>{" "}
               <span>We are a fully integrated</span> <span>Event Management Company</span> <span></span>{" "}
               <span>That can design and</span> <span>deliver</span> <span>your event</span>{" "}
