@@ -83,7 +83,7 @@ const SectionFour = () => {
                         alt="Portrait von Tina Genßler"
                         className="lazy"
                         src="b.jpg"
-                        data-src="b.jpg"
+                        data-src="baa.jpg"
                         data-parallax-target=""
                       />
                     </picture>
