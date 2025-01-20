@@ -2431,7 +2431,7 @@ main .sec-3 .grid-ct h2 {
   align-self: self-end;
   z-index: 2;
   position: relative;
-  font-size: 7.65rem;
+  font-size: 5rem;
   line-height: 95%;
 }
 @media (min-width: 759px) {
@@ -2439,6 +2439,7 @@ main .sec-3 .grid-ct h2 {
     /* font-size: 5.99rem; */
     font-size: 4rem;
         line-height: 4rem;
+        
   }
 }
 main .sec-3 .grid-ct h2 span {
@@ -2453,23 +2454,30 @@ main .sec-3 .grid-ct h2 span:nth-of-type(2) {
   }
 }
 main .sec-3 .grid-ct h2 span:nth-of-type(3) {
-  padding-left: 42.62rem;
+  padding-left: 36.62rem;
+  font-size: 5rem;
+    margin-top: 3rem;
 }
 @media (min-width: 759px) {
   main .sec-3 .grid-ct h2 span:nth-of-type(3) {
     padding-left: 32.55rem;
+    
   }
 }
 main .sec-3 .grid-ct h2 span:nth-of-type(4) {
   padding-left: 4.1rem;
-}
+  /* padding-left: 29.91rem; */
+  font-size: 5rem;
+  margin-top: 3rem;}
 @media (min-width: 759px) {
   main .sec-3 .grid-ct h2 span:nth-of-type(4) {
     padding-left: 22.6rem;
   }
 }
 main .sec-3 .grid-ct h2 span:nth-of-type(5) {
-  padding-left: 35.91rem
+  padding-left: 35.91rem;
+  font-size: 5rem;
+    margin-top: 3rem;
 }
 @media (min-width: 759px) {
   main .sec-3 .grid-ct h2 span:nth-of-type(5) {
