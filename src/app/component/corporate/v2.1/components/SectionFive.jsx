@@ -210,8 +210,13 @@ const SectionFive = () => {
                     </div>
                     <div className="bottom">
                       <span className="gebiete-title">
-                        <i>Gesamtprojektleitung</i>
-                      </span>
+                      <i>
+                      Team Building Activity
+
+                          <span className="extra-info">
+                            (Strengthen relationships and foster collaboration through engaging and enjoyable activities designed to build team spirit.)
+                          </span>
+                        </i>                      </span>
                     </div>
                   </div>
                 </div>
@@ -228,10 +233,10 @@ const SectionFive = () => {
                     <div className="bottom">
                       <span className="gebiete-title">
                         <i>
-                          Teilprojektleitung
+                        Shareholder Meeting
+
                           <span className="extra-info">
-                            (z.B. Catering, Guestmanagement, Künstler, Logistik,
-                            Content etc.)
+                            (Inform, inspire, and connect with stakeholders through impactful presentations and discussions at shareholder meetings.)
                           </span>
                         </i>
                       </span>
@@ -250,8 +255,13 @@ const SectionFive = () => {
                     </div>
                     <div className="bottom">
                       <span className="gebiete-title">
-                        <i>Regie-Assistenz</i>
-                      </span>
+                      <i>
+                      Wellness Events
+
+                          <span className="extra-info">
+                            (Promote well-being and mindfulness with events focused on relaxation, fitness, and holistic health.)
+                          </span>
+                        </i>                      </span>
                     </div>
                   </div>
                 </div>
@@ -267,8 +277,14 @@ const SectionFive = () => {
                     </div>
                     <div className="bottom">
                       <span className="gebiete-title">
-                        <i>Onsite Managerin</i>
-                      </span>
+                      <i>
+                      Client Appreciation Event
+
+                          <span className="extra-info">
+                            (Celebrate and show gratitude to clients with personalized and memorable experiences.
+                            )
+                          </span>
+                        </i>                      </span>
                     </div>
                   </div>
                 </div>
@@ -284,8 +300,13 @@ const SectionFive = () => {
                     </div>
                     <div className="bottom">
                       <span className="gebiete-title">
-                        <i>Incentive Reisen</i>
-                      </span>
+                      <i>
+                      Incentive Trips
+
+                          <span className="extra-info">
+                            (Reward employees or clients with exciting trips that combine leisure and adventure, enhancing loyalty and motivation.)
+                          </span>
+                        </i>                      </span>
                     </div>
                   </div>
                 </div>
@@ -301,14 +322,20 @@ const SectionFive = () => {
                     </div>
                     <div className="bottom">
                       <span className="gebiete-title">
-                        <i>Streaming Events</i>
-                      </span>
+                      <i>
+                      Symposiums
+
+                          <span className="extra-info">
+                            (Facilitate knowledge sharing and discussions on key topics through expert-led sessions and interactive formats.)
+                          </span>
+                        </i>                      </span>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="title-ct">
-                <h2 className="einsatzgebiete-title">Einsatzgebiete</h2>
+                <h2 className="einsatzgebiete-title">Corporate Event
+                </h2>
               </div>
               <div className="bg">
                 <picture>

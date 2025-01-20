@@ -62,16 +62,12 @@ const SectionFour = () => {
             <div className="col">
               <div className="grid-ct">
                 <h2 className="multi-line-headline text-white">
-                  <span>Zeit für</span>
-                  <span>mitreissende</span>
-                  <span>Events,</span>
-                  <span>die in Erinnerung</span>
-                  <span>bleiben</span>
-                  {/* <span>Product Launch</span>
+                
+                  <span>Product Launch</span>
                   <span>ATL BTL</span>
                   <span>B2B/B2C Marketing,</span>
                   <span>Digital Media</span>
-                  <span>Meta/Google Add Campaign</span> */}
+                  <span>Meta/Google Add Campaign</span>
                 </h2>
                 <div className="picture-ct">
                   <div className="aspect-img-ct">
@@ -98,7 +94,7 @@ const SectionFour = () => {
             </div>
             <div className="col">
               <div className="serif-text-ct">
-                <span>Ich</span> <span>nehme</span> <span>mir</span>{" "}
+                {/* <span>Ich</span> <span>nehme</span> <span>mir</span>{" "}
                 <span>die</span> <span>Zeit,</span>
                 <span>deine</span> <span>Vision</span>{" "}
                 <i>
@@ -125,7 +121,8 @@ const SectionFour = () => {
                   <span>Gong</span>
                   <span>in</span> <span>Erinnerung</span> <span>bleibt</span>
                 </i>
-                <span>.</span>
+                <span>.</span> */}
+                We Provide End to End Solutions for brands B2B & B2C marketing approach via a time tested structured plan ofaction with 99.99% success rate. Any form of marketing approachi.e. product launch, Logo re-launch, ATL/BTL activities, Outdoor Media, Digital media ads campaign and akin.    Organised, Managed & Executed by Team Demigod House exclusive factor makeheadlines in Domestic & International media. 
               </div>
             </div>
           </div>

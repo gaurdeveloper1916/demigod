@@ -2436,7 +2436,9 @@ main .sec-3 .grid-ct h2 {
 }
 @media (min-width: 759px) {
   main .sec-3 .grid-ct h2 {
-    font-size: 5.99rem;
+    /* font-size: 5.99rem; */
+    font-size: 4rem;
+        line-height: 4rem;
   }
 }
 main .sec-3 .grid-ct h2 span {
@@ -2467,11 +2469,14 @@ main .sec-3 .grid-ct h2 span:nth-of-type(4) {
   }
 }
 main .sec-3 .grid-ct h2 span:nth-of-type(5) {
-  padding-left: 51.91rem;
+  padding-left: 35.91rem
 }
 @media (min-width: 759px) {
   main .sec-3 .grid-ct h2 span:nth-of-type(5) {
-    padding-left: 64.79rem;
+    padding-left: 52.79rem;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-top: 2rem;
   }
 }
 main .sec-3 .grid-ct .picture-ct {
