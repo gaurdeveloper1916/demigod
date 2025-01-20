@@ -50,20 +50,20 @@ const SectionTwo = () => {
           <div className="row end">
             <div className="col large-10">
               <div className="wenn-ct">
-                <span className="line">
-                  Wenn es höchste Zeit <br /> für <i>mehr Kapazität</i> wird...{" "}
+                <span className="line s1-slider-text">
+                Corporate Events with DemiGod House <br />  is a world <i>standard's exposure integrated with </i> attractions i.e.{" "}
                 </span>
-                <span className="line">
-                  Wenn{" "}
+                <span className="line s1-slider-text mt-3">
+                GEN Z Tech Decore, Mesmerising Flower Decor and artwork by celebrity artist, Pyrotronics, Drone Shows, Tradional decore, live entertainment , talent management 
+                  {/* Wenn{" "}
                   <i>
                     Konzept zu <br />
                     Projektplan
                   </i>{" "}
-                  werden muss...
+                  werden muss... */}
                 </span>
-                <span className="line">
-                  Wenn die <i>Pitch-Deadline</i>
-                  <br /> mal wieder gestern war...
+                <span className="line s1-slider-text mt-3">
+                5 Star hospitality accomodation and transport services, PR & Markets news breaker!
                 </span>
               </div>
             </div>

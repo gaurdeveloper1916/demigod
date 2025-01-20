@@ -698,6 +698,36 @@ h6,
   */
 }
 
+.s1-slider{
+  line-height: 1em;
+
+}
+.s1-slider-font{
+  font-size: 16px;
+}
+.s1-slider-text{
+  font-size: 27px;
+  line-height: 2rem;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .s1-slider{
+    line-height: 2em;
+  
+  }
+  .s1-slider-font{
+    margin-top: 3rem;
+    font-size: 12px;
+    font-weight: 800;
+  }
+  .s1-slider-text{
+    font-size: 17px;
+    line-height: 5rem;
+  }
+}
+
 .body-sub main .line {
   display: block;
   background-color: #4a4a4a;

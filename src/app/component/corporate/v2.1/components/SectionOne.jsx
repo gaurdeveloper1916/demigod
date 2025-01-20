@@ -118,16 +118,19 @@ const SectionOne = () => {
       <header className="index-header" id="home">
         <div className="row sub-claim-row">
           <div className="col">
-            <div className="sub-claim">
-              <span>Ob</span> <span>Firmenfeier,</span>{" "}
-              <span>Produktlaunch</span> <span>oder</span> <span>privates</span>{" "}
-              <span>Fest</span> <span>–</span> <span>ich</span>{" "}
-              <span>helfe</span> <span>euch</span> <span>dabei,</span>{" "}
-              <span>Events</span> <span>in</span>
+            <div className="sub-claim s1-slider">
+              {/* <span className="fw-bold">You Articulate & We Execute Pragmatically</span>
+              <span style={{fontSize:'25px'}}>We organize astounding events through our team management, innovation, creativity, and flawless execution.</span>
+              <span style={{fontSize:'25px'}}>From New York to New Delhi, we provide our end-to-end corporate event management services, including product launches, trade shows, appreciation ceremonies, board meetings, shareholder meetings, and more.</span>
+            
               <i>
                 <span>unvergessliche</span> <span>Momente</span>
               </i>{" "}
-              <span>zu</span> <span>verwandeln.</span>
+              <span>zu</span> <span>verwandeln.</span> */}
+              <b><h1><span >You Articlate </span> <span>&</span> <span>We Execute</span> <span>Pragmatically</span></h1></b>{" "}
+             <h3 className="s1-slider" ><p className="s1-slider-font" >We organise astounding events by our team management,innovation, creativity, and flawless execution.</p>
+             <p className="s1-slider-font">From New york to New Delhi we provide our end to end corporate event Management services i.e. product launch,Trade shows,Appreciation ceremonies,Board meetings,Shareholder meetings and akin.</p></h3>
+
             </div>
           </div>
         </div>
@@ -159,16 +162,16 @@ const SectionOne = () => {
             >
               <div className="marquee-scroll">
                 <div className="marquee-content">
-                  <span className="list-item">It's about time</span>
+                  <span className="list-item">Experience India's Best Corporate Event Management</span>
                   <div className="line"> </div>
-                  <span className="list-item">It's about time</span>
+                  <span className="list-item">With Five Star Hospitality Services</span>
                   <div className="line"> </div>
-                  <span className="list-item">It's about time</span>
+                  <span className="list-item">Most Divine Experience via.</span>
                   <div className="line"> </div>
-                  <span className="list-item">It's about time</span>
+                  <span className="list-item">Corporate Events With DemiGod House</span>
                   <div className="line"> </div>
-                  <span className="list-item">It's about time</span>
-                  <div className="line"> </div>
+                  {/* <span className="list-item">It's about time</span> */}
+                  {/* <div className="line"> </div> */}
                 </div>
               </div>
             </div>
@@ -210,11 +213,11 @@ const SectionOne = () => {
           >
             <source
               media="(min-width: 760px)"
-              srcSet="/first-section.png"
+              srcSet="./event-page/cor.webp"
             />
             <img
               alt="Eventgesellschaft in einem Restaurant - hinterste Ebene"
-              src="/first-section.png"
+              src="./event-page/cor.webp"
               data-parallax-target=""
             />
           </picture>

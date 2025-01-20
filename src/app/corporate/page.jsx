@@ -12,7 +12,7 @@ import Header from "../component/common/header/Header";
 const CorporatePage = () => {
   return (
     <section className="min-vh-100">
-      <Header/>
+      {/* <Header/> */}
       <SectionOne />
       <SectionTwo />
       <SectionFour />

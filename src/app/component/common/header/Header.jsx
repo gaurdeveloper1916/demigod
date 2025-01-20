@@ -113,47 +113,49 @@ function Header() {
       <div className="d-lg-block d-none ">
         <div
           style={{ zIndex: "999" }}
-          className={`d-flex header-hover  w-100  position-fixed top-0 justify-content-center align-items-center   ${isSticky ? "bg-black" : ""
+          className={`d-flex header-hover  w-100 position-fixed top-0 align-items-center   ${isSticky ? "bg-black" : ""
             }`}
         >
-          <div className="d-flex justify-content-center align-items-center col-lg-12  ">
-            <div className="d-flex gap-5">
-              <Link href="/">
+          <div className="  px-5 w-100 d-flex gap-5 justify-content-between">
+            <div>
+              <Link className="" href="/">
                 {" "}
                 <img
                   className="logoImage cursor"
                   src="./images/demigodnew.png"
                 ></img>
               </Link>
+            </div>
 
-              <div className="d-flex justify-content-center align-items-center gap-3  headerlist  ">
-                {data.map((item, i) => {
-                  return (
-                    <>
-                      <div key={i + 1}>
-                        <ul className="ul-custom custom-sub-opacity cursor-pointer mb-0">
-                          <li className=" linehight fs-6">
-                            <div className="d-flex justify-content-center align-items-center">
-                              <Link
-                                style={{ textDecoration: "none" }}
-                                href={item.attributes.url}
-                                className={`fs-6 fw-bold m-0 header-text-new ${isHovered ? "text-transform-hover" : ""
+
+            <div className="d-flex justify-content-center align-items-center gap-3  headerlist  ">
+              {data.map((item, i) => {
+                return (
+                  <>
+                    <div key={i + 1}>
+                      <ul className="ul-custom custom-sub-opacity cursor-pointer mb-0">
+                        <li className=" linehight fs-6">
+                          <div className="d-flex justify-content-center align-items-center">
+                            <Link
+                              style={{ textDecoration: "none" }}
+                              href={item.attributes.url}
+                              className={`fs-6 fw-bold m-0 header-text-new ${isHovered ? "text-transform-hover" : ""
+                                }`}
+                              onMouseEnter={handleMouseEnter}
+                              onMouseLeave={handleMouseLeave}
+                            >
+                              {item.attributes.URLText}
+                            </Link>
+                            {item.attributes.onHover && (
+                              <FaChevronDown
+                                size={17}
+                                color="white"
+                                className={`header-drop-icon mx-1 ${isHovered ? "rotate-icon" : ""
                                   }`}
-                                onMouseEnter={handleMouseEnter}
-                                onMouseLeave={handleMouseLeave}
-                              >
-                                {item.attributes.URLText}
-                              </Link>
-                              {item.attributes.onHover && (
-                                <FaChevronDown
-                                  size={17}
-                                  color="white"
-                                  className={`header-drop-icon mx-1 ${isHovered ? "rotate-icon" : ""
-                                    }`}
-                                />
-                              )}
-                            </div>
-                            {/* {item.attributes.onHover ? (
+                              />
+                            )}
+                          </div>
+                          {/* {item.attributes.onHover ? (
                               <div
                                 style={{
                                   left: "0%",
@@ -275,24 +277,14 @@ function Header() {
                             ) : (
                               ""
                             )} */}
-                          </li>
-                        </ul>
-                      </div>
-                    </>
-                  );
-                })}
-              </div>
-              {/* <div className=" d-flex justify-content-center align-items-center ">
-                <Link href='signin'>
-                  <buton
-                    type="button"
-                    className="very mx-5 px-3 py-1 verySmallFont rounded-pill cursor button-bg text-white fw-bold "
-                  >
-                    SIGN UP
-                  </buton>
-                </Link>
-              </div> */}
+                        </li>
+                      </ul>
+                    </div>
+                  </>
+                );
+              })}
             </div>
+
           </div>
         </div>
       </div>

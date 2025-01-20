@@ -67,6 +67,11 @@ const SectionFour = () => {
                   <span>Events,</span>
                   <span>die in Erinnerung</span>
                   <span>bleiben</span>
+                  {/* <span>Product Launch</span>
+                  <span>ATL BTL</span>
+                  <span>B2B/B2C Marketing,</span>
+                  <span>Digital Media</span>
+                  <span>Meta/Google Add Campaign</span> */}
                 </h2>
                 <div className="picture-ct">
                   <div className="aspect-img-ct">
