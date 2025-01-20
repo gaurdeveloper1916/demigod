@@ -57,18 +57,32 @@ const Sectionthree = () => {
   };
 
 
-  const cards = [{ image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=" },
-  { image: "https://media.istockphoto.com/id/1388563119/photo/beautiful-bride-and-groom-celebrate-wedding-outdoors-on-a-beach-near-the-ocean-perfect.jpg?s=612x612&w=0&k=20&c=tRvxRAN6Lb6Cu5c1EUaS081UNbKp0TOLu3x1NFj4FoE=" },
-  {
-    image: "https://media.istockphoto.com/id/1933376240/photo/portrait-of-a-bride-holding-her-bouquet-on-beach-wedding.jpg?s=612x612&w=0&k=20&c=Bu-SxK2KZtKFf5zeawkobT5KTj32HcvDwRPH7-1WxkY=",
-
-  },
-  { image: "https://media.istockphoto.com/id/1142225421/photo/elopement-wedding-ride-and-groom-embracing-in-front-of-wedding-altar.jpg?s=612x612&w=0&k=20&c=gpTFAuPsUsXcA0aB2BVbKJRm2QVuvr0OlMInE1MIeQo=" },
-  { image: "https://media.istockphoto.com/id/1204862788/photo/bride-and-a-groom-is-cutting-wedding-cake-on-banquet-hands-cut-the-cake-with-flowers-newlywed.jpg?s=612x612&w=0&k=20&c=3sAHFcmGSjrvgSMiWXkWndUXyEDdw6XnWaFbgRj9MI8=" },
-  {
-    image: "https://media.istockphoto.com/id/1933376240/photo/portrait-of-a-bride-holding-her-bouquet-on-beach-wedding.jpg?s=612x612&w=0&k=20&c=Bu-SxK2KZtKFf5zeawkobT5KTj32HcvDwRPH7-1WxkY=",
-
-  }
+  const cards = [{ image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+    heading:"Connect",
+    subHeading:"We’ll first get to know each other on a 45-minute complimentary Zoom call. This is where we’ll dive deeper into your specific wedding vision, dream destination, your love story, and any special needs or requests you may have. We’ll also answer all your questions, so you can make sure we’re the best fit for you!"
+   },
+   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+    heading:"Priya",
+    subHeading:"We’ll first get to know each other on a 45-minute complimentary Zoom call. This is where we’ll dive deeper into your specific wedding vision, dream destination, your love story, and any special needs or requests you may have. We’ll also answer all your questions, so you can make sure we’re the best fit for you!"
+   },
+   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+    heading:"Connect",
+    subHeading:"We’ll first get to know each other on a 45-minute complimentary Zoom call. This is where we’ll dive deeper into your specific wedding vision, dream destination, your love story, and any special needs or requests you may have. We’ll also answer all your questions, so you can make sure we’re the best fit for you!"
+   },
+   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+    heading:"Connect",
+    subHeading:"We’ll first get to know each other on a 45-minute complimentary Zoom call. This is where we’ll dive deeper into your specific wedding vision, dream destination, your love story, and any special needs or requests you may have. We’ll also answer all your questions, so you can make sure we’re the best fit for you!"
+   },
+   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+    heading:"Connect",
+    subHeading:"We’ll first get to know each other on a 45-minute complimentary Zoom call. This is where we’ll dive deeper into your specific wedding vision, dream destination, your love story, and any special needs or requests you may have. We’ll also answer all your questions, so you can make sure we’re the best fit for you!"
+   },
+   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+    heading:"Connect",
+    subHeading:"We’ll first get to know each other on a 45-minute complimentary Zoom call. This is where we’ll dive deeper into your specific wedding vision, dream destination, your love story, and any special needs or requests you may have. We’ll also answer all your questions, so you can make sure we’re the best fit for you!"
+   }
+   
+  
   ]
 
 
@@ -111,7 +125,7 @@ const Sectionthree = () => {
         <div className=" slider2 ">
           <Slider {...settings2} ref={sliderRef}>
             {cards.map((card, index) => (
-              <WeddingCard key={index} margin={(index + 1) % 2 === 0} image={card.image} />
+              <WeddingCard key={index} margin={(index + 1) % 2 === 0} image={card.image} heading= {card.heading} subHeading={card.subHeading} />
             ))}
           </Slider>
 

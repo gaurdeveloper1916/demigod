@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const WeddingCard = ({ margin }) => {
+const WeddingCard = ({ margin,heading,subHeading }) => {
   return (
     <div
       className={`rounded-4 text-white mx-4 ${margin ? "margin-custom" : ""
@@ -29,8 +29,8 @@ const WeddingCard = ({ margin }) => {
       <div className="d-flex gap-2 mt-4">
         <p className="text-black">01 </p>
         <div className="d-flex flex-column">
-          <p className="text-black m-0">Connect</p>
-          <p className="text-black ml-5 slider-text">We’ll first get to know each other on a 45-minute complimentary Zoom call. This is where we’ll dive deeper into your specific wedding vision, dream destination, your love story, and any special needs or requests you may have. We’ll also answer all your questions, so you can make sure we’re the best fit for you!</p>
+          <p className="text-black m-0">{heading}</p>
+          <p className="text-black ml-5 slider-text">{subHeading}</p>
 
         </div>
       </div>
