@@ -25,7 +25,7 @@ export default function Home() {
       <Formdiv/>
       {/* <Testtube /> */}
       <FridayNight />
-      
+
     </div>
   );
 }

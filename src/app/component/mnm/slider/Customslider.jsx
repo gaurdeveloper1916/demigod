@@ -72,17 +72,37 @@ const Customslider = () => {
             <div className="d-flex">
               <div className="text-white verySmallFont">
                 <h6 className="m-0 my-3 gradient-text fw-bold ">
-                  OCTOBER 2024
+                Automotive
                 </h6>
                 <div>
-                  <h6 className="m-0 fw-bold">Hack Summit,SF</h6>
+                  {/* <h6 className="m-0 fw-bold">Hack Summit,SF</h6> */}
                   <p className=" verySmallFont ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam aspernatur esse quia architecto assumenda
+                  We create marketing strategies that drive awareness and sales for automotive brands, focusing on both traditional and digital marketing approaches.
                   </p>
-                  <p className="border-0 px-2 py-2 text-white ">
-                    LEARN MORE
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className={`text-white p-3 bg-cards-inner`}>
+            <img
+              src="/images/wedding.jpg "
+              className=" w-100"
+              //   //height={250}
+              //   width={200}
+              alt="..."
+            />
+            <div className="d-flex">
+              <div className="text-white verySmallFont">
+                <h6 className="m-0 my-3 gradient-text fw-bold ">
+                Real Estate
+                </h6>
+                <div>
+                  {/* <h6 className="m-0 fw-bold">Hack Summit,SF</h6> */}
+                  <p className=" verySmallFont ">
+                  Our real estate marketing strategies use the latest tools to connect potential buyers with properties, resulting in higher conversions and faster sales cycles.
                   </p>
+                 
                 </div>
               </div>
             </div>
@@ -97,17 +117,14 @@ const Customslider = () => {
             <div className="d-flex justify-content-between 5">
               <div className="text-white verySmallFont">
                 <h6 className="m-0 my-3 gradient-text fw-bold ">
-                  January 2024
+                Event Management
                 </h6>
                 <div>
-                  <h6 className="m-0 fw-bold">Hack Summit,SF</h6>
+                  {/* <h6 className="m-0 fw-bold">Hack Summit,SF</h6> */}
                   <p className=" verySmallFont ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam aspernatur esse quia architecto assumenda
+                  From corporate events to large-scale consumer experiences, we craft memorable moments that resonate with attendees, ensuring a lasting impression.
                   </p>
-                  <p className="border-0 bg px-2 py-1 text-white ">
-                    LEARN MORE
-                  </p>
+                 
                 </div>
               </div>
             </div>
@@ -122,17 +139,14 @@ const Customslider = () => {
             <div className="d-flex justify-content-between 5">
               <div className="text-white verySmallFont">
                 <h6 className="m-0 my-3 gradient-text fw-bold ">
-                  Feburary 2024
+                Jewellery
                 </h6>
                 <div>
                   <h6 className="m-0 fw-bold">Hack Summit,SF</h6>
                   <p className=" verySmallFont ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam aspernatur esse quia architecto assumenda
+                  Our expertise in jewellery marketing ensures an impactful presence, driving brand recognition and engagement with affluent clientele.
                   </p>
-                  <p className="border-0 px-2 py-2 text-white ">
-                    LEARN MORE
-                  </p>
+                  
                 </div>
               </div>
             </div>{" "}
@@ -148,17 +162,14 @@ const Customslider = () => {
             <div className="d-flex justify-content-between 5">
               <div className="text-white verySmallFont">
                 <h6 className="m-0 my-3 gradient-text fw-bold ">
-                  March 2024
+                Gems
                 </h6>
                 <div>
-                  <h6 className="m-0 fw-bold">Hack Summit,SF</h6>
-                  <p className=" verySmallFont ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam aspernatur esse quia architecto assumenda
+                  {/* <h6 className="m-0 fw-bold">Hack Summit,SF</h6> */}
+                  <p className=" verySmallFont mt-5">
+                  We provide bespoke solutions for the gemstone industry, leveraging creativity and innovation to elevate brand positioning and visibility.
                   </p>
-                  <p className="border-0 px-2 py-2 text-white ">
-                    LEARN MORE
-                  </p>
+                 
                 </div>
               </div>
             </div>{" "}
@@ -174,17 +185,14 @@ const Customslider = () => {
             <div className="d-flex justify-content-between 5">
               <div className="text-white verySmallFont">
                 <h6 className="m-0 my-3 gradient-text fw-bold ">
-                  April 2024
+                Pharma OTC 
                 </h6>
                 <div>
-                  <h6 className="m-0 fw-bold">Hack Summit,SF</h6>
+                  {/* <h6 className="m-0 fw-bold">Hack Summit,SF</h6> */}
                   <p className=" verySmallFont ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam aspernatur esse quia architecto assumenda
+                  Our tailored marketing and event management services promote OTC products with a focus on customer trust and long-term growth.
                   </p>
-                  <p className="border-0 px-2 py-2 text-white ">
-                    LEARN MORE
-                  </p>
+                 
                 </div>
               </div>
             </div>{" "}
@@ -200,17 +208,16 @@ const Customslider = () => {
             <div className="d-flex justify-content-between 5">
               <div className="text-white verySmallFont">
                 <h6 className="m-0 my-3 gradient-text fw-bold ">
-                  May 2024
+                FMCG 
+
                 </h6>
                 <div>
-                  <h6 className="m-0 fw-bold">Hack Summit,SF</h6>
+                  {/* <h6 className="m-0 fw-bold">Hack Summit,SF</h6> */}
                   <p className=" verySmallFont ">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Veniam aspernatur esse quia architecto assumenda
+                  We help FMCG brands establish dominance through strategic campaigns that increase market penetration and brand loyalty.
+
                   </p>
-                  <p className="border-0 px-2 py-2 text-white ">
-                    LEARN MORE
-                  </p>
+                  
                 </div>
               </div>
             </div>{" "}

@@ -38,23 +38,24 @@ function LeadingOrganisation(props) {
     <div  className="d-flex justify-content-center align-items-center">
       <div className="col-lg-10">
         <div className="d-flex flex-lg-row flex-md-row flex-column justify-content-center align-items-center gap-5 p-4 overflow-hidden">
-          <div className="col-lg-6"  data-aos="fade-right" data-aos-duration="1200">
+          <div className="col-lg-7"  data-aos="fade-right" data-aos-duration="1200">
             <p className="h1 text-white">
-              We're a <span className="gradient-text fw-bold"> Trusted</span>
+              Demigod <span className="gradient-text fw-bold"> House Proposition! </span>
+              <p className="font-medium fs-4 mt-2">Marketing Agency with global print and electronic media organization as associate for being content promotional partners!</p>
             </p>
-            <p className="h1 text-white ">
+            {/* <p className="h1 text-white ">
               <span className="gradient-text fw-bold">Ecosystem</span> for
-              leading
-            </p>
-            <p className="h1 text-white">organizations</p>
-            <p className="text-white">
+              
+            </p> */}
+            {/* <p className="h1 text-white">organizations</p> */}
+            {/* <p className="text-white">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
               dolore laudantium, molestiae voluptate maxime iste ad consequatur,
               labore recusandae provident voluptatibus nisi autem cupiditate
               alias non architecto cum? Excepturi, fugit.
-            </p>
+            </p> */}
           </div>
-          <div  className="col-lg-6"  data-aos="fade-left" data-aos-duration="1200">
+          <div  className="col-lg-5"  data-aos="fade-left" data-aos-duration="1200">
             <div  style={{ height: '350px' }} className="bg-whitesh p-lg-5 p-4 rounded">
               <h4 className="mt-5 text-white fw-bold">
                 <TypeWriterText text={Data[currentIndex].heading} speed="50" />
