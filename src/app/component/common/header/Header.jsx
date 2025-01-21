@@ -144,7 +144,7 @@ function Header() {
                               onMouseEnter={handleMouseEnter}
                               onMouseLeave={handleMouseLeave}
                             >
-                              {item.attributes.URLText}
+                              {item.attributes.URLText} {isHovered ?item.attributes.onHoverText:''}
                             </Link>
                             {item.attributes.onHover && (
                               <FaChevronDown

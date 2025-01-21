@@ -18,7 +18,8 @@ export  const data = [
     {
       id: 2,
       attributes: {
-        URLText: "Corporate event's",
+        onHoverText:"event's",
+        URLText: "Corporate" ,
         corporate:"ABOUT CORPORATE",
         onHover:true,
         url: "/corporate",
@@ -34,6 +35,7 @@ export  const data = [
     {
       id: 3,
       attributes: {
+        onHoverText:"page",
         URLText: "Wedding's",
         corporate:"ABOUT WEDDING",
         url: "/wedding",
