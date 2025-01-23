@@ -77,14 +77,14 @@ const SectionFour = () => {
                     >
                       <source
                         media="(min-width: 760px)"
-                        data-srcset="tina.jpg"
-                        srcSet="tina.jpg"
+                        data-srcset="ATL.webp"
+                        srcSet="ATL.webp"
                       />
                       <img
                         alt="Portrait von Tina Genßler"
                         className="lazy"
-                        src="tina.jpg"
-                        data-src="tina.jpg"
+                        src="ATL.webp"
+                        data-src="ATL.webp"
                         data-parallax-target=""
                       />
                     </picture>

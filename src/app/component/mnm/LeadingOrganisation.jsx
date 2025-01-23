@@ -7,26 +7,56 @@ import './index.css'
 function LeadingOrganisation(props) {
   const Data = [
     {
-      heading: "From end user to MSSP",
-      description:
-        "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Explicabo, ea officiis! At, rerum excepturi nisi consequatur neque vero repellat obcaecati quisquam minima? Quas alias culpaullam iste, itaque beatae natus",
+        heading: "Brand Development",
+        description:
+            "We specialize in crafting compelling brand identities that resonate with your target audience. From brand positioning to storytelling, our strategies help establish a strong and lasting presence in the market.",
     },
     {
-      heading: "From Starts to Multinationals",
-      description:
-        " amet consectetur adipisicing elit.Explicabo, ea officiis! At, rerum excepturi nisi consequatur neque vero repellat obcaecati quisquam minima? Quas alias culpaullam iste, itaque beatae natus",
+        heading: "Marketing",
+        description:
+            "Our expert marketing solutions span digital, traditional, and innovative strategies to connect brands with their audience effectively. Whether it's campaign management or analytics, we deliver measurable results.",
     },
     {
-      heading: "Hybrid Enviornments",
-      description:
-        "Lorem ipsum dolor sit,  ea officiis! At, rerum excepturi nisi consequatur neque vero repellat obcaecati quisquam minima? Quas alias culpaullam iste, itaque beatae natus",
+        heading: "Print & Electronic Media (P & E - Media)",
+        description:
+            "Partnering with top-tier media outlets worldwide, we provide unmatched visibility for your brand through expertly curated content in both print and electronic formats.",
     },
     {
-      heading: "Get In Touch",
-      description:
-        " amet consectetur adipisicing elit.Explicabo, ea officiis! At, rerum excepturi nisi consequatur neque vero repellat obcaecati quisquam minima? Quas alias culpaullam iste, itaque beatae natus",
+        heading: "Brand Seed Funding",
+        description:
+            "We support emerging brands by facilitating seed funding opportunities. Our network of investors and industry experts ensures the financial backing needed to turn visionary ideas into reality.",
     },
-  ];
+    {
+        heading: "Brand Private Equity Offering",
+        description:
+            "DemiGod House assists brands in accessing private equity markets, offering strategic advice and execution to fuel growth and expansion.",
+    },
+    {
+        heading: "B2B & B2C Events",
+        description:
+            "From corporate showcases to consumer-focused activations, we plan and execute unforgettable events that bridge the gap between brands and their audience, driving engagement and business growth.",
+    },
+    {
+        heading: "From End User to MSSP",
+        description:
+            "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Explicabo, ea officiis! At, rerum excepturi nisi consequatur neque vero repellat obcaecati quisquam minima? Quas alias culpaullam iste, itaque beatae natus",
+    },
+    {
+        heading: "From Startups to Multinationals",
+        description:
+            "At Demigod House, we cater to businesses of all sizes. Whether you're a budding startup or a global multinational, our expertise ensures tailored strategies that drive growth and success across industries.",
+    },
+    {
+        heading: "Hybrid Environments",
+        description:
+            "We embrace the future of work and collaboration by fostering hybrid environments. Our solutions bridge physical and digital spaces, enabling seamless operations and connectivity for your business.",
+    },
+    {
+        heading: "Get In Touch",
+        description:
+            "Ready to elevate your brand to new heights? Contact Demigod House today for customized solutions and unparalleled expertise in brand development, marketing, and beyond.",
+    },
+];
   const [currentIndex, setCurrentIndex] = useState(0);
   console.log(Data[currentIndex].heading);
 

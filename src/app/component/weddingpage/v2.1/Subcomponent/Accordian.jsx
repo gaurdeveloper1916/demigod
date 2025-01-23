@@ -11,19 +11,31 @@ const Accordian = () => {
         {
             title: 'Personalization',
             content:
-                'Our couples drive the entire destination wedding vision. We collaborate with you to craft an experience born out of your love story, your deepest desires, and your unique travel style. From our destination and property recommendations to private excursions and off-site activities, every aspect of your destination wedding will be designed around you.',
+                'At Demigod House, we craft destination weddings that are as unique as your love story. Our end-to-end planning services ensure that every detail reflects your vision, desires, and travel preferences. From handpicked destinations and exclusive property recommendations to curated excursions and bespoke activities, your wedding journey will be personalized down to the last detail.',
         },
         {
             title: 'Unparalleled Value',
             content:
-                'Harness the power of our industry relationships and “insider” status. We’ve cultivated connections with the best of the best in destination weddings, so our clients and their guests get treated very well, wherever they go. Expect unbeatable room rates, plenty of perks, and a VIP touch.',
+                'As industry leaders, we leverage our extensive network and insider connections to provide you with unmatched value. With Demigod House, you and your guests enjoy premium perks, VIP treatment, and unbeatable rates at the finest destinations. Your dream wedding comes with extraordinary benefits at every turn.',
         },
         {
             title: 'Straightforward Fees',
             content:
-                'No guesses, no surprises – just the very best, most inclusive service in the industry. Our Destination Wedding Design Fee includes everything from the consultation and proposal to complete travel booking and management for you and your guests, on-call support, contract negotiation with your resort, wedding design, and (much!) more.',
+                'Our all-inclusive Destination Wedding Planning Fee covers everything you need for a seamless experience. From the initial consultation and proposal to travel bookings, guest management, contract negotiations, and wedding design, you can expect unparalleled service without hidden costs or surprises.',
+        },
+        {
+            title: 'Superior Service',
+            content:
+                'Demigod House is more than a planner; we are your trusted partner. From your first consultation to the final vows, we are with you every step of the way. We handle every arrangement for your guests, create custom wedding websites for streamlined booking, and organize exclusive off-site adventures to make your celebration truly unforgettable.',
+        },
+        {
+            title: '24/7 Support',
+            content:
+                'Your peace of mind is our priority. With 24/7 support, our specialists are just a call away to resolve any issues that may arise. Leveraging our strong relationships with resort coordinators and management, we ensure your big day unfolds flawlessly, so you can focus on celebrating your love.'
         },
     ];
+    
+    
 
     const toggleSection = (index) => {
         setActiveIndex(activeIndex === index ? null : index);

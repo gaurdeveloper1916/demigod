@@ -67,9 +67,9 @@ export default function Openforbusiness() {
   return (
     <div className="container mt-5">
       <p className="h1 text-white ">
-            Open
-            <span className="gradient-text fw-bold"> -For </span>
-            Business                  <IoChevronForwardOutline size={35} color="white" className="fw-bold" />
+      DemiGod 
+            <span className="gradient-text fw-bold">House & Subsidiaries </span>
+            <IoChevronForwardOutline size={35} color="white" className="fw-bold" />
 
           </p>
       <div className="slider-container">

@@ -7,7 +7,7 @@ function Herosection() {
     <div
       className="img-fluid position-relative fade-in " data-aos="zoom-in" data-aos-duration="1500"
       style={{
-        backgroundImage: "url('/images/m&m/earth.jpg')",
+        backgroundImage: "url('/images/m&m/homem.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "100vh",
@@ -18,12 +18,9 @@ function Herosection() {
       }}
     >
       <div className="col-lg-6 text-center">
-        <h1 className="colo-bg fw-bold largefont gradient-text ">MEDIA AND MARKETING WITH DEMIGOD HOUSE</h1>
+        <h1 className="colo-bg fw-bold largefont text-white ">MEDIA AND MARKETING WITH DEMIGOD HOUSE</h1>
         <p className="text-white">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet
-          tempora, fugit necessitatibus dolores, quidem hic recusandae
-          consectetur explicabo id at adipisci saepe laudantium, commodi
-          consequatur minus! Corrupti placeat laboriosam pariatur.
+        Brand Developement & Marketing, Print & Electronic media Advertising, Brand seed funding, Brand Private-Equity Investments & B2B/B2C Events!
         </p>
         <div className="d-flex justify-content-center align-items-center">
           <button
