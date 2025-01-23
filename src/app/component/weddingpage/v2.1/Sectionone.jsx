@@ -10,7 +10,7 @@ const Sectionone = () => {
                     className="w-100 h-100 object-fit-cover"
                 >
                     <source
-                        src="https://destinationbrides.com/wp-content/uploads/2022/12/Weddings-Page-Video-November-2022.mp4"
+                        src="./weeding-slider.mp4"
                         type="video/mp4"
                     />
                 </video>

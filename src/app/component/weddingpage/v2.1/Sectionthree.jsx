@@ -57,7 +57,7 @@ const Sectionthree = () => {
   };
 
 
-  const cards = [{ image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+  const cards = [{ image: "https://thumbs.dreamstime.com/b/vector-illustration-avatar-dummy-logo-collection-image-icon-stock-isolated-object-set-symbol-web-137160339.jpg",
     heading:"Connect",
     subHeading:"We’ll first get to know each other on a 45-minute complimentary Zoom call. This is where we’ll dive deeper into your specific wedding vision, dream destination, your love story, and any special needs or requests you may have. We’ll also answer all your questions, so you can make sure we’re the best fit for you!"
    },

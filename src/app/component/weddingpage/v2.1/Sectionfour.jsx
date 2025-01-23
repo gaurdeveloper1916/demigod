@@ -6,8 +6,8 @@ const Sectionfour = () => {
             <div className="d-flex p-4 bg-black text-white align-items-center">
                 <div className="col-lg-6 pe-lg-5">
                     <div className="col-lg-10 p-4">
-                        <p>
-                            We originally met through our young adults group at church, but it wasn't until a group of us from the group moved up to Oregon to attend Ecola Bible College for a year that the two of us truly connected. We found ourselves intrigued by each other's minds, interests, personalities, and shared passions for Jesus, and became good friends. We fell out of touch and thought we'd never talk again—however, God had different plans. In the summer of 2022, we reconnected, and through weeks of several long-distance Facetime calls, maturing, and God's perfect timing, we began officially dating and immediately knew that we wanted to get married. Our meet-cute is one of crazy circumstances, but we couldn't be happier about it.
+                        <p className="fs-6">
+                      Demigod House  began as a vision to revolutionize wedding planning by combining creativity, precision, and a passion for storytelling. We are dedicated to crafting unforgettable celebrations that reflect your unique journey as a couple. From our humble beginnings to becoming leaders in the wedding planning industry, our commitment to excellence has remained steadfast. We believe every wedding is a once-in-a-lifetime experience, and our team is here to make it truly extraordinary.'
                         </p>
                     </div>
                 </div>

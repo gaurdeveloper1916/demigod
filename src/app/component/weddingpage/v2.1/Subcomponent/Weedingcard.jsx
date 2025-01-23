@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const WeddingCard = ({ margin,heading,subHeading }) => {
+const WeddingCard = ({ margin,heading,image,subHeading }) => {
   return (
     <div
       className={`rounded-4 text-white mx-4 ${margin ? "margin-custom" : ""
@@ -19,7 +19,7 @@ const WeddingCard = ({ margin,heading,subHeading }) => {
         className="rounded-circle p-2 d-flex justify-content-center align-items-center"
       >
         <img
-          src="https://media.istockphoto.com/id/1933376240/photo/portrait-of-a-bride-holding-her-bouquet-on-beach-wedding.jpg?s=612x612&w=0&k=20&c=Bu-SxK2KZtKFf5zeawkobT5KTj32HcvDwRPH7-1WxkY="
+          src={image}
           className="rounded-circle"
           alt="Bride holding bouquet"
           style={{ width: "200px", height: "200px" }}
