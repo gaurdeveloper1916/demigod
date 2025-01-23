@@ -1,20 +1,21 @@
 export  const data = [
-    // {
-    //   id: 1,
-    //   attributes: {
-    //     URLText: "Event",
-    //     corporate:"DemiGod House Events",
-    //     onHover:true,
-    //     url: "/#",
-    //     createdAt: "2024-06-04T09:37:28.020Z",
-    //     updatedAt: "2024-06-04T09:37:29.014Z",
-    //     publishedAt: "2024-06-04T09:37:29.011Z",
-       
-    //     urlicon: {
-    //       data: null,
-    //     },
-    //   },
-    // },
+  {
+    id: 2,
+    attributes: {
+      onHoverText:"",
+      URLText: "About us" ,
+      corporate:"ABOUT CORPORATE",
+      onHover:true,
+      url: "/about-us",
+      createdAt: "2024-06-04T09:40:16.115Z",
+      updatedAt: "2024-06-04T09:40:17.431Z",
+      publishedAt: "2024-06-04T09:40:17.428Z",
+   
+      urlicon: {
+        data: null,
+      },
+    },
+  },
     {
       id: 2,
       attributes: {

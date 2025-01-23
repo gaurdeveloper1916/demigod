@@ -215,11 +215,14 @@ const SectionSix = () => {
                   <span className="serif">100+</span>
                   <span>Charity and</span>
                   <span>and Fundraising Events</span>
+                  {/* <p className="serif">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat consequuntur voluptate possimus ullam aut. Ad optio placeat ducimus necessitatibus tenetur repudiandae, earum odio hic quae minus, repellat in illum saepe? </p> */}
                 </div>
                 <div className="usp-ct two">
                   <span className="serif">200+</span>
                   <span>Networking</span>
                   <span>Events</span>
+                  {/* <p className="usp-ct two"> ipsum dolor sit amet consectetur, adipisicing elit. Quaerat consequuntur voluptate possimus ullam aut. Ad optio placeat ducimus necessitatibus tenetur repudiandae, earum odio hic quae minus, repellat in illum saepe? </p> */}
+
                 </div>
                 <div className="usp-ct three">
                   <span className="serif">30+</span>

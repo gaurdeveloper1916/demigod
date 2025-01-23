@@ -165,7 +165,12 @@ h1 {
 .width-75{
   width: 75%
 }
-
+.gradient-text {
+  background-image: linear-gradient(90deg, rgba(74,68,161,1) 13%, rgba(198,162,203,1) 100%, rgba(0,212,255,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text; /* For WebKit browsers */
+  color: transparent;
+}
 @media only screen and (max-width: 480px) {
   h1 {
     font-size: 1.5rem;
