@@ -85,6 +85,8 @@ function OffCanvasExample({ data }) {
 function Header() {
   const [isSticky, setIsSticky] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
+  const [hoveredIndex, setHoveredIndex] = useState(null);
+
   useEffect(() => {
     const handleScroll = () => {
       if (document.documentElement.scrollTop > 0) {
@@ -139,12 +141,13 @@ function Header() {
                             <Link
                               style={{ textDecoration: "none" }}
                               href={item.attributes.url}
-                              className={`fs-6 fw-bold m-0 header-text-new ${isHovered ? "text-transform-hover" : ""
+                              className={`fs-6 fw-bold m-0 header-text-new ${hoveredIndex === i ? "text-transform-hover" : ""
                                 }`}
-                              onMouseEnter={handleMouseEnter}
-                              onMouseLeave={handleMouseLeave}
+                              onMouseEnter={() => setHoveredIndex(i)}
+                              onMouseLeave={() => setHoveredIndex(null)}
                             >
-                              {item.attributes.URLText} {isHovered ?item.attributes.onHoverText:''}
+                              {item.attributes.URLText}{" "}
+                              {hoveredIndex === i ? item.attributes.onHoverText : ""}
                             </Link>
                             {item.attributes.onHover && (
                               <FaChevronDown
