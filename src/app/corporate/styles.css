@@ -2836,7 +2836,8 @@ main .sec-5 .sec-5-scroll-wrap .sec-5-inner .text-ct .usp-ct span {
   line-height: 1em;
 }
 main .sec-5 .sec-5-scroll-wrap .sec-5-inner .text-ct .usp-ct span:not(.serif) {
-  font-size: 8.5rem;
+  font-size: 4.83rem;
+  margin-left: 10rem;
 }
 @media (min-width: 759px) {
   main
@@ -2846,7 +2847,7 @@ main .sec-5 .sec-5-scroll-wrap .sec-5-inner .text-ct .usp-ct span:not(.serif) {
     .text-ct
     .usp-ct
     span:not(.serif) {
-    font-size: 5.83rem;
+    font-size: 4.83rem;
   }
 }
 main .sec-5 .sec-5-scroll-wrap .sec-5-inner .text-ct .usp-ct span.serif {

@@ -212,22 +212,26 @@ const SectionSix = () => {
               </div>
               <div className="text-ct">
                 <div className="usp-ct one">
-                  <span className="serif">100+</span>
-                  <span>Charity and</span>
-                  <span>and Fundraising Events</span>
-                  {/* <p className="serif">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat consequuntur voluptate possimus ullam aut. Ad optio placeat ducimus necessitatibus tenetur repudiandae, earum odio hic quae minus, repellat in illum saepe? </p> */}
+                <span>Charity and</span>
+                <span>and Fundraising Events</span>
+                  <span className="serif"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ullam repudiandae provident voluptatum et sequi dolorum reiciendis, a veritatis, quae perspiciatis, qui quibusdam nobis! Eveniet recusandae asperiores repudiandae error iste.</p></span>
+                 
                 </div>
                 <div className="usp-ct two">
-                  <span className="serif">200+</span>
+                  {/* <span className="serif">200+</span> */}
                   <span>Networking</span>
                   <span>Events</span>
+                  <span className="serif"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ullam repudiandae provident voluptatum et sequi dolorum reiciendis, a veritatis, quae perspiciatis, qui quibusdam nobis! Eveniet recusandae asperiores repudiandae error iste.</p></span>
+
                   {/* <p className="usp-ct two"> ipsum dolor sit amet consectetur, adipisicing elit. Quaerat consequuntur voluptate possimus ullam aut. Ad optio placeat ducimus necessitatibus tenetur repudiandae, earum odio hic quae minus, repellat in illum saepe? </p> */}
 
                 </div>
                 <div className="usp-ct three">
-                  <span className="serif">30+</span>
+                  {/* <span className="serif">30+</span> */}
                   <span>Political</span>
                   <span>Events</span>
+                  <span className="serif"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ullam repudiandae provident voluptatum et sequi dolorum reiciendis, a veritatis, quae perspiciatis, qui quibusdam nobis! Eveniet recusandae asperiores repudiandae error iste.</p></span>
+
                 </div>
 
                 <div className="lines-ct">
