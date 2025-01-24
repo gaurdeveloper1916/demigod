@@ -145,6 +145,10 @@
 
 import Header from "../component/common/header/Header";
 import SectionFive from "../component/corporate/v2.1/components/SectionFive";
+import SectionThree from "../component/corporate/v2.1/components/SectionThree";
+import SectionTwo from "../component/corporate/v2.1/components/SectionTwo";
+import Slider from "../component/events/slider/slider/Slider";
+import Testtube from "../component/homepage/TestTube";
 import Sectionfive from "../component/weddingpage/v2.1/Sectionfive";
 import Sectionfour from "../component/weddingpage/v2.1/Sectionfour";
 import Sectionone from "../component/weddingpage/v2.1/Sectionone";
@@ -161,9 +165,9 @@ const page =()=>{
         {/* <Sectiontwo/> */}
         <Sectionfour/>
         <Sectionthree/>
-       
         <Accordian/>
         <Sectionfive/>
+        
 
 
     </>

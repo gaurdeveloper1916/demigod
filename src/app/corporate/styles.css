@@ -2566,6 +2566,7 @@ main .sec-4-scroll-wrap .sec-4-inner .title-ct .einsatzgebiete-title {
   transform-origin: center;
   margin-inline: auto;
   line-height: 1em;
+  font-family: ivyora-display, serif;
 }
 @media (min-width: 759px) {
   main .sec-4-scroll-wrap .sec-4-inner .title-ct .einsatzgebiete-title {

@@ -14,6 +14,43 @@
   body {
     overflow-x: hidden;
   }
+
+
+  .gradient-text {
+    background-image: linear-gradient(90deg, rgba(74,68,161,1) 13%, rgba(198,162,203,1) 100%, rgba(0,212,255,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text; /* For WebKit browsers */
+    color: transparent;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* gsap Z css  start  */
+
   
   #page2 {
     background-color: black;
@@ -24,9 +61,6 @@
     font-weight: 600;
     text-transform: uppercase;
     color: white;
-  }
-  
-  .inner {
     display: flex;
     gap: 12px;
   }
@@ -34,7 +68,29 @@
   .inner-img {
     width: 62vh;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    flex-direction: column; 
   }
+
+  .inner-img h2 {
+    font-size: 3vw;
+    margin: 0;
+  }
+  
+  .inner-img p {
+    font-size: 1.5vw;
+    margin: 0.5vw 0 0;
+  }
+  
+    /* gsap Z css  end  */
+
   
 
 
@@ -79,17 +135,23 @@
     font-size: 13px;
 }
 
-.rotating-image {
-    width: 100%; /* Set the size of the rotating image */
-    height: auto;
-    animation: rotate 8s linear infinite; /* Slow down rotation */
-  }
+
 
   /* Center Image */
   .center-image {
     width: 200px; /* Adjust the size of the center image */
     height: auto;
     z-index: 2; /* Ensure it stays on top */
+  }
+
+
+  
+  .bride{
+    font-size: 32px
+  }
+  .hospitality{
+    font-size: 69px;
+    font-weight: 300;
   }
 
   /* Rotate Animation */
@@ -101,6 +163,72 @@
       transform: rotate(360deg);
     }
   }
+  .rotating-image {
+    width: 100%; /* Set the size of the rotating image */
+    height: auto;
+    animation: rotate 8s linear infinite; /* Slow down rotation */
+  }
+  .rotate-image{
+    width: 450px;
+    height: 300px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+
+  .rotate-image {
+    width: 450px;
+    height: 300px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+@media (max-width: 1199px) {
+    .rotate-image {
+        width: 400px;
+        height: 280px;
+    }
+}
+
+@media (max-width: 991px) {
+    .rotate-image {
+        width: 350px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 767px) {
+    .rotate-image {
+        width: 80%; /* Adjust for smaller screens */
+        margin-top: 3rem; /* Reduce margin for smaller screens */
+        margin-bottom: 3rem;
+    }
+}
+
+.rotating-image {
+    width: 100%; /* Set the size of the rotating image */
+    height: auto;
+    animation: rotate 8s linear infinite; /* Slow down rotation */
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
 
 @media (max-width: 767px) {
     .planning-text {
@@ -109,6 +237,10 @@
         line-height: 1.1;
 
     }
+    .hospitality {
+      font-size: 40px;
+      font-weight: 300;
+  }
     .image2 {
         height: 100%;
         width: 100%;
@@ -117,6 +249,15 @@
         font-size: 30px;
         margin: 0;
     }
+    .bride {
+      font-size: 27px;
+  }
+    /* .rotate-image{
+      width: 100%;
+      height: 300px;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+    } */
 }
 
 /* For tablets (portrait and landscape) */
