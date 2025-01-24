@@ -31,25 +31,25 @@ const Sectionfive = () => {
         <div className="inner">
           <img
             className="inner-img"
-            src="https://zaneandzoe.com/static/19bffd292942f66a7fb7d54ce9a7e029/a3cdc/zane-zoe-1.webp"
-            alt="img1"
+            src="/wedding-section5/1.jpg"
+            alt="Wedding Image 1"
           />
           <img className="inner-img" src="/svgviewer-output.png" alt="img2" />
           <img
             className="inner-img"
-            src="	https://zaneandzoe.com/static/54446f87097007dea5feef432df4830f/a3cdc/zane-zoe-3.webp"
+            src="	/wedding-section5/2.jpg"
             alt="img3"
           />
           <img className="inner-img" src="/svgviewer-output.png" alt="img4" />
           <img
             className="inner-img"
-            src="https://zaneandzoe.com/static/267850d669bec346918091dc1efe298a/a3cdc/zane-zoe-2.webp"
+            src="/wedding-section5/3.jpg"
             alt="img5"
           />
           <img className="inner-img" src="/svgviewer-output.png" alt="img6" />
           <img
             className="inner-img"
-            src="https://zaneandzoe.com/static/19bffd292942f66a7fb7d54ce9a7e029/a3cdc/zane-zoe-1.webp"
+            src="/wedding-section5/4.jpg"
             alt="img1"
           />
           <img className="inner-img" src="/svgviewer-output.png" alt="img2" />

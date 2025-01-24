@@ -57,23 +57,23 @@ const Sectionthree = () => {
   };
 
 
-  const cards = [{ image: "https://thumbs.dreamstime.com/b/vector-illustration-avatar-dummy-logo-collection-image-icon-stock-isolated-object-set-symbol-web-137160339.jpg",
+  const cards = [{ image: "https://guestpix.com/wp-content/uploads/2024/05/IMG_0643-scaled.jpg",
     heading:"Connect",
     subHeading:"We’ll first get to know each other on a 45-minute complimentary Zoom call. This is where we’ll dive deeper into your specific wedding vision, dream destination, your love story, and any special needs or requests you may have. We’ll also answer all your questions, so you can make sure we’re the best fit for you!"
    },
-   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+   { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2CUjA6ZIv98H6yTZ68qvw3EvRkZlP0EyCkg&s",
     heading:"Design",
     subHeading:"Next, we’ll send over your design fee to get started – and now you’re officially a Demigod House We’ll begin designing your wedding, presenting up to three options that speak to your style, budget, guests’ needs, and big wedding dreams. Then, we’ll tweak your favorite option until it’s perfect."
    },
-   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+   { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgPN9oCvxuMq5KCwd-iV_VEHTvGGQZtDhjig&s",
     heading:"Manage",
     subHeading:"Now, you can leave all the complicated logistics to us. We’ll negotiate with your chosen resort to secure your dates, the best room rate possible, and extra special perks. You’ll also receive a custom wedding website to share with your guests, so they can book themselves with ease. If you or your guests have any special requests, we’ll take care of them for you."
    },
-   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+   { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaydaJxbVVHB16gJnZRLSVFM9sXtPvlWDbZg&s",
     heading:"Support",
     subHeading:"As your big day approaches, we’ll keep you in the loop with deposit due dates, must-know travel info, and an introduction to your on-site wedding coordinator. When you jet off to your dream destination (yay!), you’ll know exactly who to call if you need assistance or have a question. Our team is on standby to support you, so your destination wedding goes off without a hitch."
    },
-   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+   { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtuAz9HFpDfCVxYC9AREgR6t5bQCRkSUuNtg&s",
     heading:"Savor",
     subHeading:"With every detail taken care of for you, you can relax and revel in your celebration shared with loved ones. Let your big day unfurl seamlessly as you embrace every moment of indulgence and inspired design. This is the Demigod House difference."
    },

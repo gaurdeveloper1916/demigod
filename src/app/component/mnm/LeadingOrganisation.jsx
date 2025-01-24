@@ -17,7 +17,7 @@ function LeadingOrganisation(props) {
             "Our expert marketing solutions span digital, traditional, and innovative strategies to connect brands with their audience effectively. Whether it's campaign management or analytics, we deliver measurable results.",
     },
     {
-        heading: "Print & Electronic Media (P & E - Media)",
+        heading: "Print & Electronic Media",
         description:
             "Partnering with top-tier media outlets worldwide, we provide unmatched visibility for your brand through expertly curated content in both print and electronic formats.",
     },
@@ -34,12 +34,7 @@ function LeadingOrganisation(props) {
     {
         heading: "B2B & B2C Events",
         description:
-            "From corporate showcases to consumer-focused activations, we plan and execute unforgettable events that bridge the gap between brands and their audience, driving engagement and business growth.",
-    },
-    {
-        heading: "From End User to MSSP",
-        description:
-            "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Explicabo, ea officiis! At, rerum excepturi nisi consequatur neque vero repellat obcaecati quisquam minima? Quas alias culpaullam iste, itaque beatae natus",
+            "As part of outdoor-marketing campaign, we organize and manage variety of B2B & B2C events for brands direct interactions with their consumers via our events globally.",
     },
     {
         heading: "From Startups to Multinationals",
@@ -70,8 +65,8 @@ function LeadingOrganisation(props) {
         <div className="d-flex flex-lg-row flex-md-row flex-column justify-content-center align-items-center gap-5 p-4 overflow-hidden">
           <div className="col-lg-7"  data-aos="fade-right" data-aos-duration="1200">
             <p className="h1 text-white">
-              Demigod <span className="gradient-text fw-bold"> House Proposition! </span>
-              <p className="font-medium fs-4 mt-2">Marketing Agency with global print and electronic media organization as associate for being content promotional partners!</p>
+              DemiGod <span className="gradient-text fw-bold"> House Proposition! </span>
+              <p className="font-medium fs-4 mt-2">A Marketing Agency with universal approach in print and electronic media sectors with astounding, effective & efficient brand marketing campaign's of 100% success track record.</p>
             </p>
             {/* <p className="h1 text-white ">
               <span className="gradient-text fw-bold">Ecosystem</span> for

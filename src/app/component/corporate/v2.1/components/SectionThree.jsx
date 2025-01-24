@@ -79,8 +79,8 @@ const SectionThree = () => {
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/Award.webp"
-                        data-src="/section-3/Award.webp"
+                        src="/section-3/award.webp"
+                        data-src="/section-3/award.webp"
                       />
                     </picture>
                     <picture>
@@ -125,14 +125,14 @@ const SectionThree = () => {
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/seminars.webp"
-                        data-srcset="/section-3/seminars.webp"
+                        srcSet="/section-3/seminar.webp"
+                        data-srcset="/section-3/seminar.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/seminars.webp"
-                        data-src="/section-3/seminars.webp"
+                        src="/section-3/seminar.webp"
+                        data-src="/section-3/seminar.webp"
                       />
                     </picture>
                   </div>
@@ -142,40 +142,53 @@ const SectionThree = () => {
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/Award.webp"
-                        data-srcset="/section-3/Award.webp"
+                        srcSet="/section-3/board.webp"
+                        data-srcset="/section-3/board.webp"
+                      />
+                      <img
+                        alt="Impressionen von Eventveranstaltungen"
+                        className="lazy"
+                        src="/section-3/board.webp"
+                        data-src="/section-3/board.webp"
+                      />
+                    </picture>
+                    <picture>
+                      <source
+                        media="(min-width: 760px)"
+                        srcSet="/section-3/compmile.webp"
+                        data-srcset="/section-3/compmile.webp"
+                      />
+                      <img
+                        alt="Impressionen von Eventveranstaltungen"
+                        className="lazy"
+                        src="/section-3/compmile.webp"
+                        data-src="/section-3/compmile.webp"
+                      />
+                    </picture>
+                    <picture>
+                      <source
+                        media="(min-width: 760px)"
+                        srcSet="/section-3/retreat.webp"
+                        data-srcset="/section-3/retreat.webp"
+                      />
+                      <img
+                        alt="Impressionen von Eventveranstaltungen"
+                        className="lazy"
+                        src="/section-3/retreat.webp"
+                        data-src="/section-3/retreat.webp"
+                      />
+                    </picture>
+                    <picture>
+                      <source
+                        media="(min-width: 760px)"
+                        srcSet="/section-3/award.webp"
+                        data-srcset="/section-3/award.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
                         src="/section-3/award.webp"
                         data-src="/section-3/award.webp"
-                      />
-                    </picture>
-                    <picture>
-                      <source
-                        media="(min-width: 760px)"
-                        srcSet="/section-3/Company.webp"
-                        data-srcset="/section-3/Company.webp"
-                      />
-                      <img
-                        alt="Impressionen von Eventveranstaltungen"
-                        className="lazy"
-                        src="/section-3/Company.webp"
-                        data-src="/section-3/Company.webp"
-                      />
-                    </picture>
-                    <picture>
-                      <source
-                        media="(min-width: 760px)"
-                        srcSet="/section-3/scroll-img-7.jpg"
-                        data-srcset="/section-3/scroll-img-7.jpg"
-                      />
-                      <img
-                        alt="Impressionen von Eventveranstaltungen"
-                        className="lazy"
-                        src="/section-3/scroll-img-7.jpg"
-                        data-src="/section-3/scroll-img-7.jpg"
                       />
                     </picture>
                     <picture>
@@ -189,19 +202,6 @@ const SectionThree = () => {
                         className="lazy"
                         src="/section-3/fund.web"
                         data-src="/section-3/fund.web"
-                      />
-                    </picture>
-                    <picture>
-                      <source
-                        media="(min-width: 760px)"
-                        srcSet="/section-3/fund.webp"
-                        data-srcset="/section-3/fund.webp"
-                      />
-                      <img
-                        alt="Impressionen von Eventveranstaltungen"
-                        className="lazy"
-                        src="/section-3/fund.webp"
-                        data-src="/section-3/fund.webp"
                       />
                     </picture>
                   </div>
@@ -263,14 +263,14 @@ const SectionThree = () => {
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/Company.webp"
-                        data-srcset="/section-3/Company.webp"
+                        srcSet="/section-3/tradee.webp"
+                        data-srcset="/section-3/tradee.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/Company.webp"
-                        data-src="/section-3/Company.webp"
+                        src="/section-3/tradee.webp"
+                        data-src="/section-3/tradee.webp"
                       />
                     </picture>
                   </div>

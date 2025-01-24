@@ -1,11 +1,17 @@
 import React from "react";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa6";
-import { FaDiscord } from "react-icons/fa";
-import { TiMessages } from "react-icons/ti";
-import { FaYoutube } from "react-icons/fa6";
-import { FaWikipediaW } from "react-icons/fa6";
-import { FaTelegramPlane } from "react-icons/fa";
+import { SiNewyorktimes } from "react-icons/si";
+import { SiThewashingtonpost } from "react-icons/si";
+import { SiNbc } from "react-icons/si";
+import { SiBuzzfeed } from "react-icons/si";
+import { SiVox } from "react-icons/si";
+import { TbBrandNationalGeographic } from "react-icons/tb";
+import { FcBbc } from "react-icons/fc";
+import { SiWarnerbros } from "react-icons/si";
+import { ImTv } from "react-icons/im";
+import { FaMeta } from "react-icons/fa6";
+import { IoLogoGoogleplus } from "react-icons/io";
+import { TbNews } from "react-icons/tb";
+
 
 import "./index.css";
 function ElectronicCommunity() {
@@ -16,78 +22,78 @@ function ElectronicCommunity() {
         <div style={{lineHeight:'4rem'}} className="d-flex flex-column text-white">
             <p className="m-0 community-fs  fw-bold">Our Global<span className="gradient-text fw-bold"> Electronic</span> </p>
             <p className="m-0 community-fs fw-bold"><span className="gradient-text  fw-bold">Media</span>channel partners </p>
-            <p className="m-0 text-center">click on the circle to know our review</p>
+            <p className="m-0 text-center"></p>
           </div>
           <div className="position-absolute   linkdien-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaLinkedin size={40} className="icon-color" />
-              <p className="text-white">Linkdien</p>
+            <SiNewyorktimes size={40} className="icon-color" />
+              {/* <p className="text-white">Linkdien</p> */}
             </div>
           </div>
           <div className="position-absolute   x-twitter-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaXTwitter size={40} className="icon-color" />
-              <p className="text-white">Twitter</p>
+              <SiThewashingtonpost size={40} className="icon-color" />
+              {/* <p className="text-white">Twitter</p> */}
             </div>
           </div>
           <div className="position-absolute   discord-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaDiscord size={40} className="icon-color" />
-              <p className="text-white">Discord</p>
+              <SiNbc size={40} className="icon-color" />
+              {/* <p className="text-white">Discord</p> */}
             </div>
           </div>
           <div className="position-absolute   discord-container2 all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaDiscord size={40} className="icon-color" />
-              <p className="text-white">Discord</p>
+              <SiBuzzfeed size={40} className="icon-color" />
+              {/* <p className="text-white">Discord</p> */}
             </div>
           </div>
           <div className="position-absolute   youtube-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaYoutube size={40} className="icon-color" />
-              <p className="text-white">YouTube</p>
+              <SiVox size={40} className="icon-color" />
+              {/* <p className="text-white">YouTube</p> */}
             </div>
           </div>
           <div className="position-absolute   forum-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <TiMessages size={40} className="icon-color" />
-              <p className="text-white">Forum</p>
+              <TbBrandNationalGeographic size={40} className="icon-color" />
+              {/* <p className="text-white">Forum</p> */}
             </div>
           </div>
           <div className="position-absolute   wiki-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaWikipediaW size={40} className="icon-color" />
-              <p className="text-white">WIKI</p>
+              <SiWarnerbros size={40} className="icon-color" />
+              {/* <p className="text-white">WIKI</p> */}
             </div>
           </div>
           <div className="position-absolute   snap-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaWikipediaW size={40} className="icon-color" />
-              <p className="text-white">Snapchat</p>
+              <FcBbc size={40} className="icon-color" />
+              {/* <p className="text-white">Snapchat</p> */}
             </div>
           </div>
           <div className="position-absolute   tele-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaTelegramPlane size={40} className="icon-color" />
-              <p className="text-white">Tele</p>
+              <ImTv size={40} className="icon-color" />
+              {/* <p className="text-white">Tele</p> */}
             </div>
           </div>
           <div className="position-absolute   forum-container2 all-container">
             <div className="d-flex flex-column align-items-center">
-              <TiMessages size={40} className="icon-color" />
-              <p className="text-white">Forum</p>
+              <FaMeta size={40} className="icon-color" />
+              {/* <p className="text-white">Forum</p> */}
             </div>
           </div>
           <div className="position-absolute   wiki-container2 all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaWikipediaW size={40} className="icon-color" />
-              <p className="text-white">WIKI</p>
+              <IoLogoGoogleplus size={40} className="icon-color" />
+              {/* <p className="text-white">WIKI</p> */}
             </div>
           </div>
           <div className="position-absolute   tele-container2 all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaTelegramPlane size={40} className="icon-color" />
-              <p className="text-white">Tele</p>
+              <TbNews size={40} className="icon-color" />
+              {/* <p className="text-white">Tele</p> */}
             </div>
           </div>
         </div>
