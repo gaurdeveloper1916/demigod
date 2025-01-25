@@ -214,14 +214,14 @@ const SectionSix = () => {
                 <div className="usp-ct one">
                 <span>Charity and</span>
                 <span>and Fundraising Events</span>
-                  <span className="serif"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ullam repudiandae provident voluptatum et sequi dolorum reiciendis, a veritatis, quae perspiciatis, qui quibusdam nobis! Eveniet recusandae asperiores repudiandae error iste.</p></span>
+                  <span className="serif"><p>At Demigod House, we champion global humanitarian causes and combat climate change through impactful fundraising and charity initiatives. Together, we drive meaningful change for a sustainable and compassionate future.</p></span>
                  
                 </div>
                 <div className="usp-ct two">
                   {/* <span className="serif">200+</span> */}
                   <span>Networking</span>
                   <span>Events</span>
-                  <span className="serif"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ullam repudiandae provident voluptatum et sequi dolorum reiciendis, a veritatis, quae perspiciatis, qui quibusdam nobis! Eveniet recusandae asperiores repudiandae error iste.</p></span>
+                  <span className="serif"><p>We host exclusive networking event's for entrepreneures, SME's,MSME's and MNC's with 7 star & 5 star hospitality in the best venues of world capitals i.e Newyork, london.</p></span>
 
                   {/* <p className="usp-ct two"> ipsum dolor sit amet consectetur, adipisicing elit. Quaerat consequuntur voluptate possimus ullam aut. Ad optio placeat ducimus necessitatibus tenetur repudiandae, earum odio hic quae minus, repellat in illum saepe? </p> */}
 
@@ -230,7 +230,7 @@ const SectionSix = () => {
                   {/* <span className="serif">30+</span> */}
                   <span>Political</span>
                   <span>Events</span>
-                  <span className="serif"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ullam repudiandae provident voluptatum et sequi dolorum reiciendis, a veritatis, quae perspiciatis, qui quibusdam nobis! Eveniet recusandae asperiores repudiandae error iste.</p></span>
+                  <span className="serif"><p>We successfully manage and promote political narratives with complete integrity , harmony and professionalism across many democracies globally.</p></span>
 
                 </div>
 

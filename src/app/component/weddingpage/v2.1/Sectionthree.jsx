@@ -57,31 +57,40 @@ const Sectionthree = () => {
   };
 
 
-  const cards = [{ image: "https://guestpix.com/wp-content/uploads/2024/05/IMG_0643-scaled.jpg",
-    heading:"Connect",
-    subHeading:"We’ll first get to know each other on a 45-minute complimentary Zoom call. This is where we’ll dive deeper into your specific wedding vision, dream destination, your love story, and any special needs or requests you may have. We’ll also answer all your questions, so you can make sure we’re the best fit for you!"
+  const cards = [
+    { image: "https://guestpix.com/wp-content/uploads/2024/05/IMG_0643-scaled.jpg",
+    heading:"Consultation and planning",
+    subHeading:"We’ll start with a 45-minute complimentary Zoom call to get to know you, understand your unique love story, and explore your dream wedding vision. From your ideal destination to special requests, we’ll cover everything to ensure we’re the perfect match for bringing your big day to life."
    },
    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2CUjA6ZIv98H6yTZ68qvw3EvRkZlP0EyCkg&s",
-    heading:"Design",
-    subHeading:"Next, we’ll send over your design fee to get started – and now you’re officially a Demigod House We’ll begin designing your wedding, presenting up to three options that speak to your style, budget, guests’ needs, and big wedding dreams. Then, we’ll tweak your favorite option until it’s perfect."
+    heading:"Destination & Venue Selection",
+    subHeading:"After securing your design fee, you’ll officially be a part of the Demigod House family. We’ll curate up to three exquisite venue options tailored to your style, budget, and guests’ needs. Together, we’ll refine your choice until it’s everything you’ve dreamed of and more."
    },
    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgPN9oCvxuMq5KCwd-iV_VEHTvGGQZtDhjig&s",
-    heading:"Manage",
-    subHeading:"Now, you can leave all the complicated logistics to us. We’ll negotiate with your chosen resort to secure your dates, the best room rate possible, and extra special perks. You’ll also receive a custom wedding website to share with your guests, so they can book themselves with ease. If you or your guests have any special requests, we’ll take care of them for you."
+    heading:"Design and Decor Management",
+    subHeading:"Leave the logistics to us. We’ll negotiate with your venue to secure ideal dates, the best room rates, and exclusive perks. You’ll also receive a personalized wedding website to streamline guest bookings, while we handle every special request with precision and care."
    },
    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaydaJxbVVHB16gJnZRLSVFM9sXtPvlWDbZg&s",
-    heading:"Support",
-    subHeading:"As your big day approaches, we’ll keep you in the loop with deposit due dates, must-know travel info, and an introduction to your on-site wedding coordinator. When you jet off to your dream destination (yay!), you’ll know exactly who to call if you need assistance or have a question. Our team is on standby to support you, so your destination wedding goes off without a hitch."
+    heading:"Budget Management",
+    subHeading:"As your big day approaches, we’ll manage timelines, deposit reminders, and essential travel updates. You’ll also meet your on-site wedding coordinator, ensuring every detail is seamless. When it’s time to celebrate, you’ll enjoy a stress-free experience with our dedicated team on standby."
    },
    { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtuAz9HFpDfCVxYC9AREgR6t5bQCRkSUuNtg&s",
-    heading:"Savor",
-    subHeading:"With every detail taken care of for you, you can relax and revel in your celebration shared with loved ones. Let your big day unfurl seamlessly as you embrace every moment of indulgence and inspired design. This is the Demigod House difference."
+    heading:"Vendor Sourcing and management",
+    subHeading:"We take care of sourcing and coordinating with top-notch vendors to bring your wedding vision to life. From florals to entertainment, every element will be meticulously planned, so you can relax and fully immerse yourself in your special day."
    },
-  //  { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
-  //   heading:"Connect",
-  //   subHeading:"We’ll first get to know each other on a 45-minute complimentary Zoom call. This is where we’ll dive deeper into your specific wedding vision, dream destination, your love story, and any special needs or requests you may have. We’ll also answer all your questions, so you can make sure we’re the best fit for you!"
-  //  }
    
+   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+    heading:"Wedding Favours and Gifting",
+    subHeading:"Add a personal touch to your celebration with thoughtfully curated wedding favors and gifts. We’ll ensure each detail aligns with your style, leaving a lasting impression on your guests and making your day even more memorable."
+   },
+   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+    heading:"Guest RSVP & Hospitality Management",
+    subHeading:"We make it easy for your guests to RSVP and plan their travel with our comprehensive hospitality management. From welcome gifts to personalized itineraries, we’ll create a flawless experience that your loved ones will cherish."
+   },
+   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+    heading:"Logistic Management",
+    subHeading:"From transportation to timelines, we handle all logistical aspects of your wedding. Our expert planning ensures every detail runs smoothly, so you and your guests can focus on enjoying the celebration without a worry in the world."
+   },
   
   ]
 
