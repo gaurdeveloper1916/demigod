@@ -18,7 +18,7 @@ function Partnership() {
           </div>
           <div className="col-lg-6 " data-aos="fade-right" data-aos-duration="1200">
             <p className="h1 text-white fw-bold">
-              <span className="gradient-text fw-bold">DemiGod</span>House" "
+              <span className="gradient-text fw-bold">DemiGod</span>House 
             </p>
             <p className="h2 gradient-text fw-bold">& Subsidiaries</p>
             <div className="col-lg-8">

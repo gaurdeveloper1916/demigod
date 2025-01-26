@@ -17,12 +17,12 @@ export default function Openforbusiness() {
   const initialImages = [
     {
       img: "https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?cs=srgb&dl=pexels-cottonbro-3171837.jpg&fm=jpg",
-      name: "Image 1",
+      name: "Open for business",
       desc: "Description for Image 1",
     },
     {
       img: "https://t4.ftcdn.net/jpg/01/20/28/25/360_F_120282530_gMCruc8XX2mwf5YtODLV2O1TGHzu4CAb.jpg",
-      name: "Image 2",
+      name: "chihi",
       desc: "Description for Image 2",
     },
     {
@@ -48,6 +48,11 @@ export default function Openforbusiness() {
     {
       img: "https://img.freepik.com/free-photo/people-celebrating-party_53876-14410.jpg",
       name: "Image 8",
+      desc: "Description for Image 8",
+    },
+    {
+      img: "https://img.freepik.com/free-photo/people-celebrating-party_53876-14410.jpg",
+      name: "Image 756",
       desc: "Description for Image 8",
     },
   ];
@@ -125,8 +130,8 @@ export default function Openforbusiness() {
                       />
                       <div className="bg-whitesh px-3 py-5 mt-2 ">
                         {/* <h6 className="fw-bold gradient-text ">26.08.24</h6> */}
-                        <p className="m-0 gradient-text">Step 1</p>
-                        <p className="m-0 text-white  verySmallFont">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure eos corrupti praesentium impedit fugit, temporibus nobis dolore, corporis unde odio et sint architecto in, ut nam soluta optio? Ipsa, recusandae!</p>
+                        <p className="m-0 gradient-text">{image.name}</p>
+                        <p className="m-0 text-white  verySmallFont">{image.desc}</p>
                       </div>
                     </div>
                   </div>
