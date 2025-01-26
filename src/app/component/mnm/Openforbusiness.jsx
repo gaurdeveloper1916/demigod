@@ -81,7 +81,7 @@ export default function Openforbusiness() {
       <div className="col-lg-8 col-12 col-md-8">
         <div className="container mt-5">
           <p className="h1 text-white ">
-            Open
+            Participation 
             <span className="gradient-text fw-bold"> -For </span>
             Business                  <IoChevronForwardOutline size={35} color="white" className="fw-bold" />
 
@@ -124,8 +124,8 @@ export default function Openforbusiness() {
                         alt={image.name}
                       />
                       <div className="bg-whitesh px-3 py-5 mt-2 ">
-                        <h6 className="fw-bold gradient-text ">26.08.24</h6>
-                        <p className="m-0 gradient-text">Hack Summit , SF</p>
+                        {/* <h6 className="fw-bold gradient-text ">26.08.24</h6> */}
+                        <p className="m-0 gradient-text">Step 1</p>
                         <p className="m-0 text-white  verySmallFont">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure eos corrupti praesentium impedit fugit, temporibus nobis dolore, corporis unde odio et sint architecto in, ut nam soluta optio? Ipsa, recusandae!</p>
                       </div>
                     </div>

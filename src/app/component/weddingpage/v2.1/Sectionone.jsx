@@ -15,8 +15,8 @@ const Sectionone = () => {
                     />
                 </video>
                 <div className="position-absolute top-50 start-50 translate-middle text-white text-center text-cont  w-lg-75 w-100">
-                    <p className="fw-bold text-shadow m-0 text-fs">Sophisticated Weddings for </p>
-                    <p className="fw-bold text-shadow m-0 text-fs">Exceptional Brides </p>
+                    <h3 className="fw-bold text-shadow m-0 text-fs">Graceful Weddings for Exceptional Love Stories </h3>
+                    <p className="fw-bold text-shadow">Your wedding deserves to be as unique and remarkable as your journey together. From exquisite décor to flawless planning, we bring your vision to life with elegance and precision.</p>
 
                 </div>
             </div>
