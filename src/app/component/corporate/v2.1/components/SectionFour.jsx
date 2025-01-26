@@ -1,10 +1,24 @@
-import React, { useEffect, useMemo } from "react";
+"use client";
+
+import React, { useEffect, useMemo, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const SectionFour = () => {
+const SectionFour = ({
+  headlineItems = [
+    "Product Launch",
+    "ATL BTL",
+    "B2B/B2C Marketing",
+    "Digital Media",
+    "Meta/Google Add Campaign",
+  ],
+  description = `We provide end-to-end solutions for brands' B2B & B2C marketing approaches via a time-tested structured plan of action with a 99.99% success rate. Any form of marketing approach—product launch, logo re-launch, ATL/BTL activities, outdoor media, digital media ad campaigns, and akin—is organized, managed, and executed by Team Demigod House. Our exclusive factor makes headlines in domestic and international media.`,
+  imageSrc = "4section.webp",
+}) => {
+  const sectionRef = useRef(null);
+
   const animationConfig = useMemo(
     () => ({
       baseConfig: {
@@ -30,44 +44,44 @@ const SectionFour = () => {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      // Headline animation
+      const section = sectionRef.current;
+
+      // Animate headline items
       gsap.from(".multi-line-headline span", {
         ...animationConfig.baseConfig,
         ...animationConfig.headlines,
         scrollTrigger: {
           ...animationConfig.baseConfig.scrollTrigger,
-          trigger: ".multi-line-headline",
+          trigger: section.querySelector(".multi-line-headline"),
         },
       });
 
-      // Text animation
+      // Animate description text
       gsap.from(".serif-text-ct span", {
         ...animationConfig.baseConfig,
         ...animationConfig.text,
         scrollTrigger: {
           ...animationConfig.baseConfig.scrollTrigger,
-          trigger: ".serif-text-ct",
+          trigger: section.querySelector(".serif-text-ct"),
         },
       });
-    });
+    }, sectionRef);
 
     return () => ctx.revert(); // Cleanup animations on unmount
   }, [animationConfig]);
 
   return (
-    <section>
+    <section ref={sectionRef}>
       <main>
         <div className="sec-3 padding-outer" id="ueber">
           <div className="row">
+            {/* Headline Column */}
             <div className="col">
               <div className="grid-ct">
                 <h2 className="multi-line-headline text-white">
-                
-                  <span>Product Launch</span>
-                  <span>ATL BTL</span>
-                  <span>B2B/B2C Marketing,</span>
-                  <span>Digital Media</span>
-                  <span>Meta/Google Add Campaign</span>
+                  {headlineItems.map((item, index) => (
+                    <span key={index}>{item}</span>
+                  ))}
                 </h2>
                 <div className="picture-ct">
                   <div className="aspect-img-ct">
@@ -77,14 +91,14 @@ const SectionFour = () => {
                     >
                       <source
                         media="(min-width: 760px)"
-                        data-srcset="4section.webp"
-                        srcSet="4section.webp"
+                        data-srcset={imageSrc}
+                        srcSet={`./${imageSrc}`}
                       />
                       <img
-                        alt="Portrait von Tina Genßler"
+                        alt="Dynamic Section Image"
                         className="lazy"
-                        src="4section.webp"
-                        data-src="4section.webp"
+                        src={imageSrc}
+                        data-src={imageSrc}
                         data-parallax-target=""
                       />
                     </picture>
@@ -92,37 +106,13 @@ const SectionFour = () => {
                 </div>
               </div>
             </div>
+
+            {/* Description Column */}
             <div className="col">
               <div className="serif-text-ct">
-                {/* <span>Ich</span> <span>nehme</span> <span>mir</span>{" "}
-                <span>die</span> <span>Zeit,</span>
-                <span>deine</span> <span>Vision</span>{" "}
-                <i>
-                  {" "}
-                  <span>bis</span> <span>ins</span>
-                  <span>kleinste</span> <span>Zahnrad</span>
-                </i>{" "}
-                <span>zu</span>
-                <span>verstehen</span> <span>und</span> <span>umzusetzen.</span>{" "}
-                <span>Mit</span> <span>meinem</span> <span>Gespür</span>{" "}
-                <span>für</span>
-                <i>
-                  <span>aktuelle</span> <span>Trends</span>
-                </i>{" "}
-                <span>sowie</span> <span>meinem</span>
-                <span>Blick</span> <span>für's</span> <span>Detail</span>{" "}
-                <span>verwandle</span>
-                <span>ich</span> <span>jeden</span> <span>Anlass</span>{" "}
-                <span>in</span> <span>ein</span>
-                <span>Ereignis,</span> <span>das</span> <span>noch</span>{" "}
-                <span>lange</span>
-                <i>
-                  <span>nach</span> <span>dem</span> <span>letzten</span>{" "}
-                  <span>Gong</span>
-                  <span>in</span> <span>Erinnerung</span> <span>bleibt</span>
-                </i>
-                <span>.</span> */}
-                We Provide End to End Solutions for brands B2B & B2C marketing approach via a time tested structured plan ofaction with 99.99% success rate. Any form of marketing approachi.e. product launch, Logo re-launch, ATL/BTL activities, Outdoor Media, Digital media ads campaign and akin.    Organised, Managed & Executed by Team Demigod House exclusive factor makeheadlines in Domestic & International media. 
+                {description.split(" ").map((word, index) => (
+                  <span key={index}>{word} </span>
+                ))}
               </div>
             </div>
           </div>
