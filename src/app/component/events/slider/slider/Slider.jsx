@@ -3,7 +3,7 @@ import React, { useRef, useState } from "react";
 import "./slider1.css";
 import { IonIcon } from "@ionic/react";
 import { arrowBackOutline, arrowForwardOutline } from "ionicons/icons";
-import TypeWriterText from "@/app/component/constant/TypeWriterText";
+import TypeWriterText from "../../../constant/TypeWriterText";
 
 const Slider = () => {
   const [backgroundImage, setBackgroundImage] = useState(

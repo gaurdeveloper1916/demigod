@@ -4,15 +4,15 @@ import { useEffect, useRef } from "react";
 import Lenis from "@studio-freight/lenis";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import SectionSeven from "@/app/component/corporate/v2.1/components/SectionSeven";
-import SectionThree from "@/app/component/corporate/v2.1/components/SectionThree";
 import Header from "../component/common/header/Header";
 import "./styles.css";
-import StatisticsSection from "@/app/component/StatisticsSection";
 import SectionOne from "../component/corporate/v2.1/components/SectionOne";
 import SectionTwo from "../component/corporate/v2.1/components/SectionTwo";
 import SectionFour from "../component/corporate/v2.1/components/SectionFour";
 import SectionFive from "../component/corporate/v2.1/components/SectionFive";
+import SectionSeven from "../component/corporate/v2.1/components/SectionSeven";
+import SectionThree from "../component/corporate/v2.1/components/SectionThree";
+import StatisticsSection from "../component/StatisticsSection";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -113,6 +113,8 @@ const CorporatePage = () => {
         ]}
       />
       <SectionSeven />
+      {/* <SectionFour/> */}
+
     </section>
   );
 };

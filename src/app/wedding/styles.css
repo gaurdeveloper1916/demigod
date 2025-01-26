@@ -1,31 +1,28 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: gilory;
-  }
-  
-  html,
-  body {
-    height: 100%;
-    width: 100%;
-  }
-  
-  body {
-    overflow-x: hidden;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilory;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
 
 
-  .gradient-text {
-    background-image: linear-gradient(90deg, rgba(74,68,161,1) 13%, rgba(198,162,203,1) 100%, rgba(0,212,255,1) 100%);
-    background-clip: text;
-    -webkit-background-clip: text; /* For WebKit browsers */
-    color: transparent;
-  }
-
-
-
-
+.gradient-text {
+  background-image: linear-gradient(90deg, rgba(74, 68, 161, 1) 13%, rgba(198, 162, 203, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* For WebKit browsers */
+  color: transparent;
+}
 
 
 
@@ -49,179 +46,240 @@
 
 
 
-    /* gsap Z css  start  */
 
-  
-  #page2 {
-    background-color: black;
-  }
-  
-  #page2 .inner {
-    font-size: 40vw;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: white;
-    display: flex;
-    gap: 12px;
-  }
-  
-  .inner-img {
-    width: 62vh;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.1); 
-    border-radius: 10px;
-    padding: 20px;
-    color: white;
-    flex-direction: column; 
-  }
 
-  .inner-img h2 {
-    font-size: 3vw;
-    margin: 0;
-  }
-  
-  .inner-img p {
-    font-size: 1.5vw;
-    margin: 0.5vw 0 0;
-  }
-  
-    /* gsap Z css  end  */
 
-  
+
+/* gsap Z css  start  */
+
+
+#page2 {
+  background-color: black;
+}
+
+#page2 .inner {
+  font-size: 40vw;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  display: flex;
+  gap: 12px;
+}
+
+.inner-img {
+  width: 62vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  flex-direction: column;
+}
+
+.inner-img h2 {
+  font-size: 3vw;
+  margin: 0;
+}
+
+.inner-img p {
+  font-size: 1.5vw;
+  margin: 0.5vw 0 0;
+}
+
+/* gsap Z css  end  */
+
+
 
 
 .text-fs {
-    font-size: 84px;
-    margin: 0;
+  font-size: 84px;
+  margin: 0;
 }
 
 .text-cont {
-    line-height: 1.1;
+  line-height: 1.1;
 }
 
 .planning-text {
-    font-size: 69px;
-    color: #36393b;
-    line-height: 1.1;
+  font-size: 69px;
+  color: #36393b;
+  line-height: 1.1;
 
 }
 
 .planning-des {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .image2 {
-    height: 800px;
-    width: 600px;
+  height: 800px;
+  width: 600px;
 }
-.rounded-image{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ffffff;
+
+.rounded-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
 }
-.effortless-text{
-    font-size: 39px;
-    font-weight: 400;
+
+.effortless-text {
+  font-size: 39px;
+  font-weight: 400;
 }
-.slider-text{
-    font-size: 13px;
+
+.slider-text {
+  font-size: 13px;
 }
 
 
 
-  /* Center Image */
-  .center-image {
-    width: 200px; /* Adjust the size of the center image */
-    height: auto;
-    z-index: 2; /* Ensure it stays on top */
+/* Center Image */
+.center-image {
+  width: 200px;
+  /* Adjust the size of the center image */
+  height: auto;
+  z-index: 2;
+  /* Ensure it stays on top */
+}
+
+
+
+.bride {
+  font-size: 32px
+}
+
+.hospitality {
+  font-size: 69px;
+  font-weight: 300;
+}
+
+.top-vendor {
+  border: 2px solid #fcd6de;
+  border-radius: 24px;
+  padding: auto;
+  background: linear-gradient(180deg, #fff 0%, #fff6f8 100%);
+}
+
+/* Rotate Animation */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
   }
 
-
-  
-  .bride{
-    font-size: 32px
+  100% {
+    transform: rotate(360deg);
   }
-  .hospitality{
-    font-size: 69px;
-    font-weight: 300;
-  }
-
-  /* Rotate Animation */
-  @keyframes rotate {
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
-  }
-  .rotating-image {
-    width: 100%; /* Set the size of the rotating image */
-    height: auto;
-    animation: rotate 8s linear infinite; /* Slow down rotation */
-  }
-  .rotate-image{
-    width: 450px;
-    height: 300px;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-  }
-
-
-  .rotate-image {
-    width: 450px;
-    height: 300px;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-
-@media (max-width: 1199px) {
-    .rotate-image {
-        width: 400px;
-        height: 280px;
-    }
-}
-
-@media (max-width: 991px) {
-    .rotate-image {
-        width: 350px;
-        height: 250px;
-    }
-}
-
-@media (max-width: 767px) {
-    .rotate-image {
-        width: 80%; /* Adjust for smaller screens */
-        margin-top: 3rem; /* Reduce margin for smaller screens */
-        margin-bottom: 3rem;
-    }
 }
 
 .rotating-image {
-    width: 100%; /* Set the size of the rotating image */
-    height: auto;
-    animation: rotate 8s linear infinite; /* Slow down rotation */
+  width: 100%;
+  /* Set the size of the rotating image */
+  height: auto;
+  animation: rotate 8s linear infinite;
+  /* Slow down rotation */
+}
+
+.rotate-image {
+  width: 450px;
+  height: 300px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+
+.rotate-image {
+  width: 450px;
+  height: 300px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+@media (max-width: 1199px) {
+  .rotate-image {
+    width: 400px;
+    height: 280px;
+  }
+}
+
+
+.lovestory-bg-color {
+  background-color: #f9f9f9;
+}
+
+.lovestoryh3 {
+  font-size: 2.6vw;
+  font-family: 'avegas-royale-bold';
+  color: #434343;
+  width: 67%;
+  margin-bottom: 3%;
+}
+
+.custom-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  /* Increase size for better visibility */
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid red;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+  position: relative;
+}
+
+.custom-checkbox:checked {
+  background-color: red;
+  box-shadow: inset 0 0 0 4px white;
+  /* Creates inner space */
+}
+
+
+@media (max-width: 991px) {
+  .rotate-image {
+    width: 350px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 767px) {
+  .rotate-image {
+    width: 80%;
+    /* Adjust for smaller screens */
+    margin-top: 3rem;
+    /* Reduce margin for smaller screens */
+    margin-bottom: 3rem;
+  }
+}
+
+.rotating-image {
+  width: 100%;
+  /* Set the size of the rotating image */
+  height: auto;
+  animation: rotate 8s linear infinite;
+  /* Slow down rotation */
 }
 
 @keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 
@@ -231,28 +289,33 @@
 
 
 @media (max-width: 767px) {
-    .planning-text {
-        font-size: 25px;
-        color: #36393b;
-        line-height: 1.1;
+  .planning-text {
+    font-size: 25px;
+    color: #36393b;
+    line-height: 1.1;
 
-    }
-    .hospitality {
-      font-size: 40px;
-      font-weight: 300;
   }
-    .image2 {
-        height: 100%;
-        width: 100%;
-    }
-    .text-fs {
-        font-size: 30px;
-        margin: 0;
-    }
-    .bride {
-      font-size: 27px;
+
+  .hospitality {
+    font-size: 40px;
+    font-weight: 300;
   }
-    /* .rotate-image{
+
+  .image2 {
+    height: 100%;
+    width: 100%;
+  }
+
+  .text-fs {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .bride {
+    font-size: 27px;
+  }
+
+  /* .rotate-image{
       width: 100%;
       height: 300px;
       margin-top: 5rem;
@@ -262,9 +325,9 @@
 
 /* For tablets (portrait and landscape) */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .text-fs {
-        font-size: 50px;
-        margin: 0;
-    }
-   
+  .text-fs {
+    font-size: 50px;
+    margin: 0;
+  }
+
 }

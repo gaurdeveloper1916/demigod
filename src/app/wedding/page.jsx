@@ -155,7 +155,9 @@ import Sectionone from "../component/weddingpage/v2.1/Sectionone";
 import Sectionthree from "../component/weddingpage/v2.1/Sectionthree";
 import Sectiontwo from "../component/weddingpage/v2.1/Sectiontwo";
 import Accordian from "../component/weddingpage/v2.1/Subcomponent/Accordian";
+import VendorCategories from "../component/weddingpage/v2.1/VendorCategory";
 import WeddinfSlider from "../component/weddingpage/WeddinfSlider";
+import Lovestory from "../component/weddingpage/v2.1/Lovestory"
 import './styles.css'
 const page =()=>{
   return(
@@ -164,9 +166,12 @@ const page =()=>{
         <Sectionone/>
         {/* <Sectiontwo/> */}
         <Sectionfour/>
+        
         <Sectionthree/>
         <Accordian/>
-        <Sectionfive/>
+        {/* <Sectionfive/> */}
+        <VendorCategories/>
+        <Lovestory/>
         
 
 

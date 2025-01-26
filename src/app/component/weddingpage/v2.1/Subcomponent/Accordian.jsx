@@ -1,5 +1,4 @@
 'use client';
-import TypeWriterText from '@/app/component/constant/TypeWriterText';
 import React, { useState } from 'react';
 import { FiMinus } from "react-icons/fi";
 import { IoAdd } from 'react-icons/io5';

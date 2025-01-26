@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const WeddingCard = ({ margin,heading,image,subHeading }) => {
+const WeddingCard = ({ key,margin,heading,image,subHeading }) => {
   return (
     <div
       className={`rounded-4 text-white mx-4 ${margin ? "margin-custom" : ""
@@ -27,10 +27,10 @@ const WeddingCard = ({ margin,heading,image,subHeading }) => {
       </div>
 
       <div className="d-flex gap-2 mt-4">
-        <p className="text-black">01 </p>
+        {/* <p className="text-black">{key} </p> */}
         <div className="d-flex flex-column">
-          <p className="text-black m-0">{heading}</p>
-          <p className="text-black ml-5 slider-text">{subHeading}</p>
+          <p className="text-black m-0 fw-semibold">{heading}</p>
+          <p className="text-black ml-5 slider-text mt-2">{subHeading}</p>
 
         </div>
       </div>

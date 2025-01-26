@@ -58,40 +58,48 @@ const Sectionthree = () => {
 
 
   const cards = [
-    { image: "https://guestpix.com/wp-content/uploads/2024/05/IMG_0643-scaled.jpg",
-    heading:"Consultation and planning",
-    subHeading:"We’ll start with a 45-minute complimentary Zoom call to get to know you, understand your unique love story, and explore your dream wedding vision. From your ideal destination to special requests, we’ll cover everything to ensure we’re the perfect match for bringing your big day to life."
-   },
-   { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2CUjA6ZIv98H6yTZ68qvw3EvRkZlP0EyCkg&s",
-    heading:"Destination & Venue Selection",
-    subHeading:"After securing your design fee, you’ll officially be a part of the Demigod House family. We’ll curate up to three exquisite venue options tailored to your style, budget, and guests’ needs. Together, we’ll refine your choice until it’s everything you’ve dreamed of and more."
-   },
-   { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgPN9oCvxuMq5KCwd-iV_VEHTvGGQZtDhjig&s",
-    heading:"Design and Decor Management",
-    subHeading:"Leave the logistics to us. We’ll negotiate with your venue to secure ideal dates, the best room rates, and exclusive perks. You’ll also receive a personalized wedding website to streamline guest bookings, while we handle every special request with precision and care."
-   },
-   { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaydaJxbVVHB16gJnZRLSVFM9sXtPvlWDbZg&s",
-    heading:"Budget Management",
-    subHeading:"As your big day approaches, we’ll manage timelines, deposit reminders, and essential travel updates. You’ll also meet your on-site wedding coordinator, ensuring every detail is seamless. When it’s time to celebrate, you’ll enjoy a stress-free experience with our dedicated team on standby."
-   },
-   { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtuAz9HFpDfCVxYC9AREgR6t5bQCRkSUuNtg&s",
-    heading:"Vendor Sourcing and management",
-    subHeading:"We take care of sourcing and coordinating with top-notch vendors to bring your wedding vision to life. From florals to entertainment, every element will be meticulously planned, so you can relax and fully immerse yourself in your special day."
-   },
-   
-   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
-    heading:"Wedding Favours and Gifting",
-    subHeading:"Add a personal touch to your celebration with thoughtfully curated wedding favors and gifts. We’ll ensure each detail aligns with your style, leaving a lasting impression on your guests and making your day even more memorable."
-   },
-   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
-    heading:"Guest RSVP & Hospitality Management",
-    subHeading:"We make it easy for your guests to RSVP and plan their travel with our comprehensive hospitality management. From welcome gifts to personalized itineraries, we’ll create a flawless experience that your loved ones will cherish."
-   },
-   { image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
-    heading:"Logistic Management",
-    subHeading:"From transportation to timelines, we handle all logistical aspects of your wedding. Our expert planning ensures every detail runs smoothly, so you and your guests can focus on enjoying the celebration without a worry in the world."
-   },
-  
+    {
+      image: "https://guestpix.com/wp-content/uploads/2024/05/IMG_0643-scaled.jpg",
+      heading: "Consultation and planning",
+      subHeading: "We’ll start with a 45-minute complimentary Zoom call to get to know you, understand your unique love story, and explore your dream wedding vision. From your ideal destination to special requests, we’ll cover everything to ensure we’re the perfect match for bringing your big day to life."
+    },
+    {
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2CUjA6ZIv98H6yTZ68qvw3EvRkZlP0EyCkg&s",
+      heading: "Destination & Venue Selection",
+      subHeading: "After securing your design fee, you’ll officially be a part of the Demigod House family. We’ll curate up to three exquisite venue options tailored to your style, budget, and guests’ needs. Together, we’ll refine your choice until it’s everything you’ve dreamed of and more."
+    },
+    {
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgPN9oCvxuMq5KCwd-iV_VEHTvGGQZtDhjig&s",
+      heading: "Design and Decor Management",
+      subHeading: "Leave the logistics to us. We’ll negotiate with your venue to secure ideal dates, the best room rates, and exclusive perks. You’ll also receive a personalized wedding website to streamline guest bookings, while we handle every special request with precision and care."
+    },
+    {
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaydaJxbVVHB16gJnZRLSVFM9sXtPvlWDbZg&s",
+      heading: "Budget Management",
+      subHeading: "As your big day approaches, we’ll manage timelines, deposit reminders, and essential travel updates. You’ll also meet your on-site wedding coordinator, ensuring every detail is seamless. When it’s time to celebrate, you’ll enjoy a stress-free experience with our dedicated team on standby."
+    },
+    {
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtuAz9HFpDfCVxYC9AREgR6t5bQCRkSUuNtg&s",
+      heading: "Vendor Sourcing and management",
+      subHeading: "We take care of sourcing and coordinating with top-notch vendors to bring your wedding vision to life. From florals to entertainment, every element will be meticulously planned, so you can relax and fully immerse yourself in your special day."
+    },
+
+    {
+      image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+      heading: "Wedding Favours and Gifting",
+      subHeading: "Add a personal touch to your celebration with thoughtfully curated wedding favors and gifts. We’ll ensure each detail aligns with your style, leaving a lasting impression on your guests and making your day even more memorable."
+    },
+    {
+      image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+      heading: "Guest RSVP & Hospitality Management",
+      subHeading: "We make it easy for your guests to RSVP and plan their travel with our comprehensive hospitality management. From welcome gifts to personalized itineraries, we’ll create a flawless experience that your loved ones will cherish."
+    },
+    {
+      image: "https://media.istockphoto.com/id/1933374098/photo/newlyweds-celebrating-with-their-guests-at-beach-wedding-ceremony.jpg?s=612x612&w=0&k=20&c=mBbcn9c4Kq_kMA0WzeTXB48Jk6P3raONF1SbuKHugrY=",
+      heading: "Logistic Management",
+      subHeading: "From transportation to timelines, we handle all logistical aspects of your wedding. Our expert planning ensures every detail runs smoothly, so you and your guests can focus on enjoying the celebration without a worry in the world."
+    },
+
   ]
 
 
@@ -106,7 +114,7 @@ const Sectionthree = () => {
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            height:'100vh'
+            height: '100vh'
           }}
         >
           <p className="effortless-text text-white">Effortless Execution</p>
@@ -129,18 +137,20 @@ const Sectionthree = () => {
           </div>
         </div>
       </div>
+      <div className="d-flex justify-content-cente align-items-center">
+        <div className="col-lg-9 col-11 mt-lg-5 ">
+          <div className=" slider2 ">
+            <Slider {...settings2} ref={sliderRef}>
+              {cards.map((card, index) => (
+                <WeddingCard key={index} margin={(index + 1) % 2 === 0} image={card.image} heading={card.heading} subHeading={card.subHeading} />
+              ))}
+            </Slider>
 
-      <div className="col-lg-8 col-11 mt-lg-5">
-        <div className=" slider2 ">
-          <Slider {...settings2} ref={sliderRef}>
-            {cards.map((card, index) => (
-              <WeddingCard key={index} margin={(index + 1) % 2 === 0} image={card.image} heading= {card.heading} subHeading={card.subHeading} />
-            ))}
-          </Slider>
 
-
+          </div>
         </div>
       </div>
+
     </div>
 
 
