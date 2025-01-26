@@ -36,7 +36,7 @@ export  const data = [
     {
       id: 3,
       attributes: {
-        onHoverText:"page",
+        onHoverText:"/private event",
         URLText: "Wedding's",
         corporate:"ABOUT WEDDING",
         url: "/wedding",
