@@ -123,6 +123,17 @@ const CorporatePage = () => {
           { value: "At Demigod House, we champion global humanitarian causes and combat climate change through impactful fundraising and charity initiatives. Together, we drive meaningful change for a sustainable and compassionate future.", label1: "2 Charity and", label2: "and Fundraising Events" },
         ]}
       />
+       <SectionFour
+        headlineItems={[
+          "03 New Product Launch",
+          "Global Marketing",
+          "Custom Campaigns",
+          "SEO Optimization",
+          "Targeted Ad Strategies",
+        ]}
+        description="Tailored solutions for your business, ensuring success through strategic planning and expert execution. Our campaigns deliver results globally."
+      imageSrc = "4section.webp"
+      />
       <SectionSeven />
       <SectionFour
         headlineItems={[

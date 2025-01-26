@@ -17,23 +17,23 @@ export default function Openforbusiness() {
   const initialImages = [
     {
       img: "https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?cs=srgb&dl=pexels-cottonbro-3171837.jpg&fm=jpg",
-      name: "Open for business",
-      desc: "Description for Image 1",
+      name: "Choose Your Service",
+      desc: "Select from brand development, marketing, print & electronic media, or third-party manufacturing tailored to your needs.",
     },
     {
       img: "https://t4.ftcdn.net/jpg/01/20/28/25/360_F_120282530_gMCruc8XX2mwf5YtODLV2O1TGHzu4CAb.jpg",
-      name: "chihi",
-      desc: "Description for Image 2",
+      name: "Connect With Us",
+      desc: "Reach out to Demigod House via our website, email, or phone. Share your vision, and let us guide you forward.",
     },
     {
       img: "https://img.freepik.com/free-photo/people-celebrating-party_53876-14410.jpg",
-      name: "Image 3",
-      desc: "Description for Image 3",
+      name: "Proposal Evaluation",
+      desc: "We’ll review your proposal, and if it aligns with our expertise, we’ll contact you to discuss next steps.",
     },
     {
       img: "https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendywei-1190298.jpg&fm=jpg",
-      name: "Image 4",
-      desc: "Description for Image 4",
+      name: " In-Person Meeting",
+      desc: "Meet with us to finalize registration, legal documentation, and discuss seed funding opportunities (if applicable).",
     },
     {
       img: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFydHl8ZW58MHx8MHx8fDA%3D",
