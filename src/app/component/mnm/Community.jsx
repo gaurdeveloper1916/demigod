@@ -21,7 +21,9 @@ function Community() {
           <div className="position-absolute   linkdien-container all-container">
             <div className="d-flex flex-column align-items-center">
               <FaLinkedin size={40} className="icon-color" />
-              <p className="text-white">Linkdien</p>
+              {/* <p className="text-white">Linkdien</p> */}
+              <img style={{width:"150px"}} className="" src="https://i.postimg.cc/Vvn6nMbC/daily-mail.png"></img>
+
             </div>
           </div>
           <div className="position-absolute   x-twitter-container all-container">
@@ -38,8 +40,10 @@ function Community() {
           </div>
           <div className="position-absolute   discord-container2 all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaDiscord size={40} className="icon-color" />
-              <p className="text-white">Discord</p>
+              {/* <FaDiscord size={40} className="icon-color" /> */}
+              {/* <p className="text-white">Discord</p> */}
+              <img style={{width:"150px"}} className="" src="https://i.postimg.cc/Vvn6nMbC/daily-mail.png"></img>
+
             </div>
           </div>
           <div className="position-absolute   youtube-container all-container">
