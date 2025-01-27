@@ -110,9 +110,9 @@ const SectionFour = ({
             {/* Description Column */}
             <div className="col">
               <div className="serif-text-ct">
-                {description.split(" ").map((word, index) => (
-                  <span key={index}>{word} </span>
-                ))}
+                {/* {description.split(" ").map((word, index) => ( */}
+                  <span >{description} </span>
+                {/* ))} */}
               </div>
             </div>
           </div>

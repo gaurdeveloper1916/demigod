@@ -13,6 +13,12 @@
 .header-hover :hover{
     background-color: black;
 }
+.logo-text{
+    top: 3rem;
+    left: 2rem;
+    /* color: red; */
+    color: #C0C0C0;
+}
 
 .linehight {
     line-height: 71px;

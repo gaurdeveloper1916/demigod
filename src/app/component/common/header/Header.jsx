@@ -119,13 +119,14 @@ function Header() {
             }`}
         >
           <div className="  px-5 w-100 d-flex gap-5 justify-content-between">
-            <div>
+            <div className="position-relative">
               <Link className="" href="/">
                 {" "}
                 <img
                   className="logoImage cursor"
                   src="./images/demigodnew.png"
                 ></img>
+                <p className="position-absolute logo-text">Media.Marketing.Event’s</p>
               </Link>
             </div>
 

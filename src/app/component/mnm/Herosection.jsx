@@ -17,7 +17,7 @@ function Herosection() {
         alignItems: "center",
       }}
     >
-      <div className="col-lg-6 text-center gradient-text ">
+      <div style={{backgroundColor:"#0000009c"}} className="col-lg-8 text-center  px-5 py-3 rounded">
         <h1 className="colo-bg fw-bold largefont text-white ">MEDIA AND MARKETING WITH DEMIGOD HOUSE</h1>
         <h3><p className="text-white">
         Brand Developement & Marketing, Print & Electronic media Advertising, Brand seed funding, Brand Private-Equity Investments & B2B/B2C Events!

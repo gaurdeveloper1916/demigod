@@ -63,20 +63,20 @@ export  const data = [
     //     },
     //   },
     // },
-    {
-      id: 6,
-      attributes: {
-        URLText: "Contact",
-        corporate:"About CORPORATE",
-        onHover:false,
-        url: "/contact-us",
-        createdAt: "2024-06-04T09:40:16.115Z",
-        updatedAt: "2024-06-04T09:40:17.431Z",
-        publishedAt: "2024-06-04T09:40:17.428Z",
+    // {
+    //   id: 6,
+    //   attributes: {
+    //     URLText: "Contact",
+    //     corporate:"About CORPORATE",
+    //     onHover:false,
+    //     url: "/contact-us",
+    //     createdAt: "2024-06-04T09:40:16.115Z",
+    //     updatedAt: "2024-06-04T09:40:17.431Z",
+    //     publishedAt: "2024-06-04T09:40:17.428Z",
     
-        urlicon: {
-          data: null,
-        },
-      },
-    },
+    //     urlicon: {
+    //       data: null,
+    //     },
+    //   },
+    // },
   ];
