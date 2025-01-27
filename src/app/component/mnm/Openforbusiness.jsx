@@ -35,26 +35,26 @@ export default function Openforbusiness() {
       name: " In-Person Meeting",
       desc: "Meet with us to finalize registration, legal documentation, and discuss seed funding opportunities (if applicable).",
     },
-    {
-      img: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFydHl8ZW58MHx8MHx8fDA%3D",
-      name: "Image 6",
-      desc: "Description for Image 6",
-    },
-    {
-      img: "https://img.freepik.com/free-photo/people-celebrating-party_53876-14410.jpg",
-      name: "Image 7",
-      desc: "Description for Image 7",
-    },
-    {
-      img: "https://img.freepik.com/free-photo/people-celebrating-party_53876-14410.jpg",
-      name: "Image 8",
-      desc: "Description for Image 8",
-    },
-    {
-      img: "https://img.freepik.com/free-photo/people-celebrating-party_53876-14410.jpg",
-      name: "Image 756",
-      desc: "Description for Image 8",
-    },
+    // {
+    //   img: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFydHl8ZW58MHx8MHx8fDA%3D",
+    //   name: "Image 6",
+    //   desc: "Description for Image 6",
+    // },
+    // {
+    //   img: "https://img.freepik.com/free-photo/people-celebrating-party_53876-14410.jpg",
+    //   name: "Image 7",
+    //   desc: "Description for Image 7",
+    // },
+    // {
+    //   img: "https://img.freepik.com/free-photo/people-celebrating-party_53876-14410.jpg",
+    //   name: "Image 8",
+    //   desc: "Description for Image 8",
+    // },
+    // {
+    //   img: "https://img.freepik.com/free-photo/people-celebrating-party_53876-14410.jpg",
+    //   name: "Image 756",
+    //   desc: "Description for Image 8",
+    // },
   ];
 
   const handlePrev = () => {
@@ -78,7 +78,7 @@ export default function Openforbusiness() {
             <span className="gradient-text fs-5">Demigod House</span>: Your Strategic Partner in Event Management, Media, and Marketing
           </p>
           <p className="text-white">
-            At Demigod House, we provide a time-tested, structured, and results-driven sales, advertising, and marketing execution plan for brands across diverse sectors. Our approach ensures epic profitability, while maintaining effectiveness and efficiency for every client. Sectors We Are Pioneering, Practicing & Monopolistically Leading Across Global Markets:
+          At Demigod House, we make collaboration seamless and impactful. Start by choosing from our tailored services, including brand development, marketing, print and electronic media, or third-party manufacturing. Connect with us via our website, email, or phone to share your vision and let our experts guide you. Once you submit a proposal, we’ll evaluate it to ensure alignment with our expertise and contact you to discuss next steps. For finalization, join us for an in-person meeting to complete registration, legal documentation, and explore potential seed funding opportunities. Together, we turn ideas into success stories.
           </p>
         </div>
       </div>
@@ -87,7 +87,7 @@ export default function Openforbusiness() {
         <div className="container mt-5">
           <p className="h1 text-white ">
             Participation 
-            <span className="gradient-text fw-bold"> -For </span>
+            <span className="gradient-text fw-bold">For </span>
             Business                  <IoChevronForwardOutline size={35} color="white" className="fw-bold" />
 
           </p>

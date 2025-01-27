@@ -260,11 +260,9 @@ function Footer(props) {
                     <p>Subscribe to our Journal</p>
                   </div>
                 </div>
-                <h4 className="mediumFont">DemigodHouse - Lorem Ipsum House</h4>
+                <h4 className="mediumFont">DemigodHouse - </h4>
                 <p className="text-secondary">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Aspernatur consectetur exercitationem officiis reprehenderit
-                  neque...
+                  
                 </p>
                 <div className="d-flex gap-4">
                   <Link href="#" className="text-white">

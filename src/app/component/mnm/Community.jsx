@@ -20,22 +20,24 @@ function Community() {
           </div>
           <div className="position-absolute   linkdien-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaLinkedin size={40} className="icon-color" />
+              {/* <FaLinkedin size={40} className="icon-color" /> */}
               {/* <p className="text-white">Linkdien</p> */}
-              <img style={{width:"150px"}} className="" src="https://i.postimg.cc/Vvn6nMbC/daily-mail.png"></img>
+              <img  className="img-circle" src="https://i.postimg.cc/PxLNf0XK/usa-today.png"></img>
 
             </div>
           </div>
           <div className="position-absolute   x-twitter-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaXTwitter size={40} className="icon-color" />
-              <p className="text-white">Twitter</p>
+              {/* <FaXTwitter size={40} className="icon-color" />
+              <p className="text-white">Twitter</p> */}
+               <img  className="img-circle" src="https://i.postimg.cc/J4CtmT9c/new-york-times.png"></img>
             </div>
           </div>
           <div className="position-absolute   discord-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaDiscord size={40} className="icon-color" />
-              <p className="text-white">Discord</p>
+              {/* <FaDiscord size={40} className="icon-color" />
+              <p className="text-white">Discord</p> */}
+              <img  className="img-circle" src="https://i.postimg.cc/CKrzgwgz/times-of-india.png"></img>
             </div>
           </div>
           <div className="position-absolute   discord-container2 all-container">
@@ -48,50 +50,58 @@ function Community() {
           </div>
           <div className="position-absolute   youtube-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaYoutube size={40} className="icon-color" />
-              <p className="text-white">YouTube</p>
+              {/* <FaYoutube size={40} className="icon-color" />
+              <p className="text-white">YouTube</p> */}
+              <img style={{width:"150px"}} className="" src="https://i.postimg.cc/9FP0fd23/the-sun-times.png"></img>
             </div>
           </div>
           <div className="position-absolute   forum-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <TiMessages size={40} className="icon-color" />
-              <p className="text-white">Forum</p>
+              {/* <TiMessages size={40} className="icon-color" />
+              <p className="text-white">Forum</p> */}
+              <img style={{width:"150px"}} className="" src="https://i.postimg.cc/XJTqrxXW/the-guardian.png"></img>
             </div>
           </div>
           <div className="position-absolute   wiki-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaWikipediaW size={40} className="icon-color" />
-              <p className="text-white">WIKI</p>
+              {/* <FaWikipediaW size={40} className="icon-color" />
+              <p className="text-white">WIKI</p> */}
+              <img style={{width:"150px"}} className="" src="https://i.postimg.cc/SxqXLZdN/rajasthan-patrika.png"></img>
             </div>
           </div>
           <div className="position-absolute   snap-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaWikipediaW size={40} className="icon-color" />
-              <p className="text-white">Snapchat</p>
+              {/* <FaWikipediaW size={40} className="icon-color" />
+              <p className="text-white">Snapchat</p> */}
+              <img style={{width:"150px"}} className="" src="https://i.postimg.cc/523Xsw-K5/hindustan-times.jpg"></img>
             </div>
           </div>
           <div className="position-absolute   tele-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaTelegramPlane size={40} className="icon-color" />
-              <p className="text-white">Tele</p>
+              {/* <FaTelegramPlane size={40} className="icon-color" />
+              <p className="text-white">Tele</p> */}
+              <img style={{width:"150px"}} className="" src="https://i.postimg.cc/43xmqmjD/dainik-bhaskar.png"></img>
             </div>
           </div>
           <div className="position-absolute   forum-container2 all-container">
             <div className="d-flex flex-column align-items-center">
-              <TiMessages size={40} className="icon-color" />
-              <p className="text-white">Forum</p>
+              {/* <TiMessages size={40} className="icon-color" />
+              <p className="text-white">Forum</p> */}
+              <img style={{width:"150px"}} className="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmYnvGedWf49oZjqwJHyhOpUiGAFR-iENqWg&s"></img>
             </div>
           </div>
           <div className="position-absolute   wiki-container2 all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaWikipediaW size={40} className="icon-color" />
-              <p className="text-white">WIKI</p>
+              {/* <FaWikipediaW size={40} className="icon-color" />
+              <p className="text-white">WIKI</p> */}
+              <img style={{width:"150px"}} className="" src="https://play-lh.googleusercontent.com/DChnLY8Bk5YjH0XWR0aClKsFFo7WVWpzVk08jb4X28HvQLQhvfkwmvnzTJq2vzq1Ew=w600-h300-pc0xffffff-pd"></img>
             </div>
           </div>
           <div className="position-absolute   tele-container2 all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaTelegramPlane size={40} className="icon-color" />
-              <p className="text-white">Tele</p>
+              {/* <FaTelegramPlane size={40} className="icon-color" />
+              <p className="text-white">Tele</p> */}
+              <img style={{width:"150px"}} className="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0zfCFcBlCAU2vIJkanbB8ozWCz7_UaGpufeG9IzzNGHgkk6Y7aRo5HQ1IR8yjgqnwCg&usqp=CAU"></img>
             </div>
           </div>
         </div>

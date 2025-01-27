@@ -59,7 +59,7 @@ const StatisticsSection = ({
         })
         .to(lines, {
           autoAlpha: 0,
-          scaleY: "0",
+          scaleY: 0,
         });
 
       // Create animations for each statistic dynamically

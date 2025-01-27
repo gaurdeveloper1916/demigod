@@ -23,12 +23,12 @@ function Herosection() {
         Brand Developement & Marketing, Print & Electronic media Advertising, Brand seed funding, Brand Private-Equity Investments & B2B/B2C Events!
         </p></h3>
         <div className="d-flex justify-content-center align-items-center">
-          <button
+          {/* <button
             type="button"
             className="mx-5 px-4 py-2 border-0 verySmallFont rounded-pill cursor button-bg text-white fw-bold"
           >
             Know More
-          </button>
+          </button> */}
         </div>
       </div>
       <div

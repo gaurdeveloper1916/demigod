@@ -127,10 +127,10 @@ const SectionOne = () => {
                 <span>unvergessliche</span> <span>Momente</span>
               </i>{" "}
               <span>zu</span> <span>verwandeln.</span> */}
-              <b><h1 className="w-100"><span >You Articlate & We Execute Pragmatically</span> </h1></b>{" "}
-              <div className="col-lg-8">
-              <h3 className="s1-slider" ><p className="s1-slider-font" >We organise astounding events by our team management,innovation, creativity, and flawless execution.</p>
-             <p className="s1-slider-font">From New york to New Delhi we provide our end to end corporate event Management services i.e. product launch,Trade shows,Appreciation ceremonies,Board meetings,Shareholder meetings and akin.</p></h3>
+              <b><h1 className="w-150"><span >You Articlate & We Execute Pragmatically</span></h1></b>{" "}
+              <div className="col-lg-11">
+              <h4 className="s1-slider" ><p  >We organise astounding events by our team management, innovation, creativity, and flawless execution.</p>
+             <p> From New york to New Delhi we provide our end to end corporate event Management services i.e. product launch,Trade shows,Appreciation ceremonies,Board meetings,Shareholder meetings and akin.</p></h4>
 
               </div>
              
@@ -160,8 +160,8 @@ const SectionOne = () => {
               data-marquee-duplicate="3"
               data-marquee-direction="left"
               data-marquee-status="normal"
-              data-marquee-speed="25"
-              data-marquee-scroll-speed="12"
+              data-marquee-speed="10"
+              data-marquee-scroll-speed="5"
             >
               <div className="marquee-scroll">
                 <div className="marquee-content">

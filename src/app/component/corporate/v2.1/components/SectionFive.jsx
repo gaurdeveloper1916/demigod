@@ -334,8 +334,8 @@ const SectionFive = () => {
                 </div>
               </div>
               <div className="title-ct">
-                <h2 className="einsatzgebiete-title">Corporate Event
-                </h2>
+                <h6 className="einsatzgebiete-title">Team Orientation
+                </h6>
               </div>
               <div className="bg">
                 <picture>
