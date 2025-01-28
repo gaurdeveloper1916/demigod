@@ -14,6 +14,7 @@ import OnScrollToChnageDiv from "../component/resuablecomponents/OnScrollToChnag
 import LeadingOrganisation from "../component/mnm/LeadingOrganisation";
 import Footer from "../component/common/footer/Footer";
 import ElectronicCommunity from "../component/mnm/slider/ElectronicCommunity";
+import Sectionone from "../component/mnm/Sectionone"
 function Index() {
   return (
     <div className="container-fluid p-0 bg-black">
@@ -24,7 +25,10 @@ function Index() {
       <ElectronicCommunity/>
       <LeadingOrganisation/>
       {/* <Ecosystem /> */}
+     
       <Industryevents/>
+      <Sectionone/>
+
       <Openforbusiness/>
       <Partnership/>
       <Getintouch/>

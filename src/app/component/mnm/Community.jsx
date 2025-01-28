@@ -30,7 +30,7 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <FaXTwitter size={40} className="icon-color" />
               <p className="text-white">Twitter</p> */}
-               <img  className="img-circle" src="global.png"></img>
+               <img  className="img-circle rounded-pill" src="global.png"></img>
             </div>
           </div>
           <div className="position-absolute   discord-container all-container">
@@ -44,7 +44,7 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <FaDiscord size={40} className="icon-color" /> */}
               {/* <p className="text-white">Discord</p> */}
-              <img style={{width:"150px"}} className="" src="HT.png"></img>
+              <img style={{width:"150px"}} className="rounded-pill" src="HT.png"></img>
 
             </div>
           </div>
@@ -52,14 +52,14 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <FaYoutube size={40} className="icon-color" />
               <p className="text-white">YouTube</p> */}
-              <img style={{width:"150px"}} className="" src="rp.png"></img>
+              <img style={{width:"150px"}} className="rounded-pill" src="rp.png"></img>
             </div>
           </div>
           <div className="position-absolute   forum-container all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <TiMessages size={40} className="icon-color" />
               <p className="text-white">Forum</p> */}
-              <img style={{width:"150px"}} className="" src="DB.png"></img>
+              <img style={{width:"150px"}} className="rounded" src="DB.png"></img>
             </div>
           </div>
           <div className="position-absolute   wiki-container all-container">
