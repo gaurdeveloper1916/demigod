@@ -36,11 +36,11 @@ const Sectionfive = () => {
             alt="Wedding Image 1"
           />
           <div className="inner-img content-wrapper">
-            <h2>Find Inspiration
+            <h2>Destination Weddings
 
             </h2>
             <p className="fs-6 gradient-text">
-              Look at other wedding websites for inspiration before you start creating your own. This will help you figure out what you’ll want to include on your own site. Check out these gorgeous wedding website examples to see how it’s done.</p>
+              Say "I do" in a breathtaking location with a destination wedding. Whether it's a tropical beach, a romantic castle, or a serene mountain retreat, destination weddings blend the joy of travel with the intimacy of your big day. It's the perfect way to create unforgettable memories in a picturesque setting.</p>
           </div>
           <img
             className="inner-img"
@@ -48,10 +48,10 @@ const Sectionfive = () => {
             alt="Wedding Image 2"
           />
           <div className="inner-img content-wrapper">
-            <h2>Choose Your Template
+            <h2>Celebrity Weddings
 
             </h2>
-            <p className="fs-6 gradient-text">Pick from a collection of beautiful wedding website templates to showcase your big day. Select the one template you feel works best to display your event. You can customize anything with professional website design features that will make your site\</p>
+            <p className="fs-6 gradient-text">Draw inspiration from the glamour and extravagance of celebrity weddings. From lavish venues to personalized details, learn how to bring star-worthy elements to your own celebration. Add touches of luxury and creativity to make your big day unforgettable.</p>
           </div>
           <img
             className="inner-img"
@@ -59,9 +59,9 @@ const Sectionfive = () => {
             alt="Wedding Image 3"
           />
           <div className="inner-img content-wrapper">
-            <h2>Personalize Your Site
+            <h2>Traditional Weddings
             </h2>
-            <p className="fs-6 gradient-text">Add a custom calendar showing the dates of your bachelor/bachelorette parties, wedding shower, rehearsal dinner and wedding. Design your own logo with Wix Logo Maker that captures your personality as a couple. Add your wedding playlist to set the vibe for your wedding celebration.\</p>
+            <p className="fs-6 gradient-text">Celebrate your roots with a traditional wedding. These ceremonies are steeped in cultural customs and rituals, showcasing timeless elegance and meaningful traditions. From vibrant attire to symbolic rites, traditional weddings honor heritage while uniting families in a celebration of love and legacy.</p>
           </div>
           <img
             className="inner-img"
@@ -69,9 +69,9 @@ const Sectionfive = () => {
             alt="Wedding Image 4"
           />
           <div className="inner-img content-wrapper">
-            <h2>Share Your Wedding Details
+            <h2>Courthouse Weddings
             </h2>
-            <p className="fs-6 gradient-text">Let everyone know when and where your celebration is by adding your wedding date and a map with your venue’s location. Provide a contact page so guests can reach you. Link your gift registries and add your wed</p>
+            <p className="fs-6 gradient-text">Keep it simple and meaningful with a courthouse wedding. These ceremonies are ideal for couples seeking a stress-free, budget-friendly way to tie the knot. Personalize the day with your favorite outfits, heartfelt vows, and a small celebration with loved ones.</p>
           </div>
           <img
             className="inner-img"
@@ -79,10 +79,10 @@ const Sectionfive = () => {
             alt="Wedding Image 5"
           />
           <div className="inner-img content-wrapper">
-            <h2>Get Your Own Domain
+            <h2>Elopements
 
             </h2>
-            <p className="fs-6 gradient-text ">Personalize your wedding site with a custom domain. Guests will use this to easily find your event online. For example, use your first names like kevin-alice.com.</p>
+            <p className="fs-6 gradient-text ">For couples who prefer intimacy over grandeur, elopements are the perfect choice. With just the two of you (or a small group of loved ones), elopements focus on the romance and authenticity of your love story. Exchange vows in scenic, unique locations for a day that's truly your own.</p>
           </div>
           <img
             className="inner-img"

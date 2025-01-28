@@ -42,9 +42,10 @@ const Accordian = () => {
 
     return (
         <div className="container-fluid p-5 mt-5">
-            <p className='bride'>WHY BRIDES CHOOSE US</p>
-            <h2 className='col-lg-9 hospitality' >We blend five-star hospitality
-                with boundless creativity.</h2>
+            <p className='bride'>WHY BRIDES & GROOMS CHOOSE US</p>
+            <h3 className='col-lg-12 hospitality' >
+                From Royal & luxurious hospitality to majestic execution,we make your divine dream wedding come alive.
+                </h3>
             {sections.map((section, index) => (
                 <div
                     key={index}

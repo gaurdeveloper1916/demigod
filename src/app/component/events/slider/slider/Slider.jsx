@@ -32,8 +32,7 @@ const Slider = () => {
       title: '"Enterprenuership Forum"',
       description:
         "Enterprenuership 111 Forum happening across G20 Countries with upto $,100,00,0000/- seed & private equity funding for Start-up's,SME's & MSME ",
-      backgroundImage:
-        "./s1.jpg",
+      backgroundImage: "./s1.jpg",
     },
     {
       id: 1,
@@ -51,17 +50,17 @@ const Slider = () => {
     },
     {
       id: 3,
-      title: '" Car-O-Bar"',
+      title: '"Car-O-Bar"',
       description:
         "Car-O-Bar an event all about partying desi style in the most customised automobile of town. Party Fast & furious movies theme party with rewards for the most hybrid & customised automobiles",
-        backgroundImage: "./images/landing-page-images/section1/22.jpg",    },
+      backgroundImage: "./images/landing-page-images/section1/22.jpg",
+    },
     {
       id: 4,
       title: '"Enterprenuership Forum"',
       description:
         "Enterprenuership 111 Forum happening across G20 Countries with upto $,100,00,0000/- seed & private equity funding for Start-up's,SME's & MSME",
-        backgroundImage: "./images/landing-page-images/section1/44.jpg",
-
+      backgroundImage: "./images/landing-page-images/section1/44.jpg",
     },
     {
       id: 5,
@@ -73,29 +72,45 @@ const Slider = () => {
   ];
 
   const handleImageClick = (index) => {
-    console.log(index)
     setCurrentIndex(index);
     setBackgroundImage(sliderItems[index].backgroundImage);
   };
 
   return (
     <div className="d-lg-block d-md-block d-none">
-      <div
-        className="relative h-full"
-        style={{
-          backgroundImage: `url(${backgroundImage})`,
-          objectFit: "cover",
-          backgroundSize: "cover",
-          // backgroundPosition: "center center",
-          transition: "background-image 0.5s ease-in-out",
-        }}
-      >
+      <div className="relative h-full">
+        {/* Conditional rendering for video or background image */}
+        {sliderItems[currentIndex].backgroundImage === "index.mp4" ? (
+          <video
+            className="absolute top-0 left-0 w-full h-full object-cover"
+            src="index.mp4"
+            autoPlay
+            loop
+            muted
+          ></video>
+        ) : (
+          <div
+            className="absolute top-0 left-0 w-full h-full"
+            style={{
+              backgroundImage: `url(${backgroundImage})`,
+              objectFit: "cover",
+              backgroundSize: "cover",
+              transition: "background-image 0.5s ease-in-out",
+            }}
+          ></div>
+        )}
+
         <div
-          className={`overlay-content  ${currentIndex !== null ? "show" : ""}`}
+          className={`overlay-content ${currentIndex !== null ? "show" : ""}`}
         >
-          <h2 className="title text-black"><TypeWriterText text={sliderItems[currentIndex].title} speed={20}/></h2>
-          <p className="description text-black">{sliderItems[currentIndex].description}</p>
+          <h2 className="title text-black">
+            <TypeWriterText text={sliderItems[currentIndex].title} speed={20} />
+          </h2>
+          <p className="description text-black">
+            {sliderItems[currentIndex].description}
+          </p>
         </div>
+
         <div className="absolute top-10 bottom-0">
           <main className="main">
             <ul className="slider" ref={sliderRef}>
@@ -107,7 +122,7 @@ const Slider = () => {
                     backgroundImage: `url(${item.backgroundImage})`,
                     objectFit: "cover",
                   }}
-                  onClick={() => handleImageClick(index)} 
+                  onClick={() => handleImageClick(index)}
                 ></li>
               ))}
             </ul>

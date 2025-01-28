@@ -20,7 +20,7 @@ function Herosection() {
       <div style={{backgroundColor:"#0000009c"}} className="col-lg-8 text-center  px-5 py-3 rounded">
         <h1 className="colo-bg fw-bold largefont text-white ">MEDIA AND MARKETING WITH DEMIGOD HOUSE</h1>
         <h3><p className="text-white">
-        Brand Developement & Marketing, Print-media & Electronic-media, Advertising, Brand seed funding, Brand Private-Equity Investments & B2B / B2C Events!
+        Brand Developement & Marketing, Print-media & Electronic-media, Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B / B2C Events!
         </p></h3>
         <div className="d-flex justify-content-center align-items-center">
           {/* <button

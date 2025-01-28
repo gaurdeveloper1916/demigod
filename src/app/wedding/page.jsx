@@ -164,12 +164,12 @@ const page =()=>{
     <>
     <Header/>
         <Sectionone/>
-        {/* <Sectiontwo/> */}
+        <Sectiontwo/>
         <Sectionfour/>
         
         <Sectionthree/>
         <Accordian/>
-        {/* <Sectionfive/> */}
+        <Sectionfive/>
         <VendorCategories/>
         <Lovestory/>
         

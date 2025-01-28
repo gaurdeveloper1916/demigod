@@ -6,9 +6,9 @@ const Sectionfour = () => {
             <div className="d-flex flex-lg-row flex-md-row flex-column p-4 bg-black text-white align-items-center">
                 <div className="col-lg-6">
                     <div className="col-lg-10">
-                        <p className="fs-6">
+                        <h4><p className="fs-7 ">
                             Demigod House began as a vision to revolutionize wedding planning by combining creativity, precision, and a passion for storytelling. We are dedicated to crafting unforgettable celebrations that reflect your unique journey as a couple. From our humble beginnings to becoming leaders in the wedding planning industry, our commitment to excellence has remained steadfast. We believe every wedding is a once-in-a-lifetime experience, and our team is here to make it truly extraordinary.
-                        </p>
+                        </p></h4>
                     </div>
                 </div>
 
