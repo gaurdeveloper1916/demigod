@@ -40,22 +40,22 @@ const Sectionfive = () => {
 
             </h2>
             <p className="fs-6 gradient-text">
-              Say "I do" in a breathtaking location with a destination wedding. Whether it's a tropical beach, a romantic castle, or a serene mountain retreat, destination weddings blend the joy of travel with the intimacy of your big day. It's the perfect way to create unforgettable memories in a picturesque setting.</p>
+              Say "I do" in a breathtaking location at a destination wedding. Whether it's a tropical beach in Asia pacific or Caribbean islands', a romantic castle in Europe or India, or a serene mountain retreat in Swiss alps or Himalaya's , destination weddings' blend the joy of travel with the intimacy of your big day. It's the perfect way to create unforgettable memories in a picturesque setting.</p>
           </div>
           <img
             className="inner-img"
-            src="/wedding-section5/2.jpg"
+            src="desti.avif"
             alt="Wedding Image 2"
           />
-          <div className="inner-img content-wrapper">
+          <div className="inner-img content-wrapper gradient-text">
             <h2>Celebrity Weddings
 
             </h2>
-            <p className="fs-6 gradient-text">Draw inspiration from the glamour and extravagance of celebrity weddings. From lavish venues to personalized details, learn how to bring star-worthy elements to your own celebration. Add touches of luxury and creativity to make your big day unforgettable.</p>
+            <p className="fs-6 text-white">Draw inspiration from the glamour and extravagance of celebrity weddings. From lavish venues to personalized details, learn how to bring star-worthy elements to your own celebration. Add touches of luxury and creativity to make your big day unforgettable.</p>
           </div>
           <img
             className="inner-img"
-            src="/wedding-section5/3.jpg"
+            src="celeb.webp"
             alt="Wedding Image 3"
           />
           <div className="inner-img content-wrapper">
@@ -65,13 +65,13 @@ const Sectionfive = () => {
           </div>
           <img
             className="inner-img"
-            src="/wedding-section5/4.jpg"
+            src="trad.avif"
             alt="Wedding Image 4"
           />
           <div className="inner-img content-wrapper">
             <h2>Courthouse Weddings
             </h2>
-            <p className="fs-6 gradient-text">Keep it simple and meaningful with a courthouse wedding. These ceremonies are ideal for couples seeking a stress-free, budget-friendly way to tie the knot. Personalize the day with your favorite outfits, heartfelt vows, and a small celebration with loved ones.</p>
+            <p className="fs-6 gradient-text">Let everyone know when and where your celebration is by adding your wedding date and a map with your venue’s location. Provide a contact page so guests can reach you. Link your gift registries and add your wed</p>
           </div>
           <img
             className="inner-img"
