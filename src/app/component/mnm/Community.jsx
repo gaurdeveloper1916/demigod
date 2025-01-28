@@ -22,7 +22,7 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <FaLinkedin size={40} className="icon-color" /> */}
               {/* <p className="text-white">Linkdien</p> */}
-              <img  className="img-circle" src=""></img>
+              <img  className="img-circle" src="./svgviewer-png-output.png"></img>
 
             </div>
           </div>
@@ -30,7 +30,7 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <FaXTwitter size={40} className="icon-color" />
               <p className="text-white">Twitter</p> */}
-               <img  className="img-circle" src="https://i.postimg.cc/J4CtmT9c/new-york-times.png"></img>
+               <img  className="img-circle" src="https://www.thesun.co.uk/wp-content/themes/thesun/images/sunmasthead.svg"></img>
             </div>
           </div>
           <div className="position-absolute   discord-container all-container">

@@ -33,21 +33,21 @@ const Slider = () => {
       description:
         "Enterprenuership 111 Forum happening across G20 Countries with upto $,100,00,0000/- seed & private equity funding for Start-up's,SME's & MSME ",
       backgroundImage:
-        "./images/landing-page-images/section1/22.jpg",
+        "./s1.jpg",
     },
     {
       id: 1,
       title: '"DFC"',
       description:
         "DemiGod Fight Club, a fighting tournament happening in world capital's rewarding the most toughfest and hardcore Man-machine with championship Prize Money of $1,00,000/- !",
-      backgroundImage: "./images/landing-page-images/section1/44.jpg",
+      backgroundImage: "./s1.jpg",
     },
     {
       id: 2,
       title: '"D Aero Expo"',
       description:
         " DemiGod Aero Expo, an event attracting global airlines manufacturer for the Air Show & Airplane exhibition one of it's kind with Global Dignitaries participating for the Modern Aero tech ! ",
-      backgroundImage: "./images/landing-page-images/section1/55.jpg",
+      backgroundImage: "./s1.jpg",
     },
     {
       id: 3,

@@ -43,6 +43,9 @@ function Footer(props) {
     "DemiGod HealthBox",
     "DemiGod Shield",
   ];
+  const shortcut = [{ name: "Home", linking: "/" }, { name: "M&M", linking: "/m&m" }, { name: "Corporate", linking: "corporate" }, { name: "Weddings", linking: "wedding" },
+    { name: "Contact", linking: "contact-us" }
+  ]
   return (
     <>
       <div
@@ -114,12 +117,16 @@ function Footer(props) {
                   Shortcuts
                 </button>
                 <div className="d-flex flex-column gap-3 mediumFont px-2 mt-2">
-                  {["Home", "Events", "Corporate", "Weddings"].map(
+                  {shortcut.map(
                     (item, index) => (
-                      <div className="d-flex align-items-center" key={index}>
-                        <MdArrowOutward color="white" className="me-2" />
-                        <p className="m-0">{item}</p>
-                      </div>
+
+                      <Link className="" href={item.linking}>
+
+                        <div className="d-flex align-items-center" key={index}>
+                          <MdArrowOutward color="white" className="me-2" />
+                          <p className="m-0 text-white">{item.name}</p>
+                        </div>
+                      </Link>
                     )
                   )}
                 </div>
@@ -262,7 +269,7 @@ function Footer(props) {
                 </div>
                 <h4 className="mediumFont">DemigodHouse - </h4>
                 <p className="text-secondary">
-                  
+
                 </p>
                 <div className="d-flex gap-4">
                   <Link href="#" className="text-white">
