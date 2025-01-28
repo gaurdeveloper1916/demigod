@@ -26,74 +26,98 @@ function ElectronicCommunity() {
           </div>
           <div className="position-absolute   linkdien-container all-container">
             <div className="d-flex flex-column align-items-center">
-            <SiNewyorktimes size={40} className="icon-color" />
+            {/* <SiNewyorktimes size={40} className="icon-color" /> */}
               {/* <p className="text-white">Linkdien</p> */}
+              <img style={{width:"110px"}} className="img-circle" src="rt.png"></img>
+
             </div>
           </div>
           <div className="position-absolute   x-twitter-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <SiThewashingtonpost size={40} className="icon-color" />
+              {/* <SiThewashingtonpost size={40} className="icon-color" /> */}
               {/* <p className="text-white">Twitter</p> */}
+              <img style={{width:"180px"}} className="img-circle" src="dw.png"></img>
+
             </div>
           </div>
           <div className="position-absolute   discord-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <SiNbc size={40} className="icon-color" />
+              {/* <SiNbc size={40} className="icon-color" /> */}
               {/* <p className="text-white">Discord</p> */}
+              <img style={{width:"110px"}} className="img-circle" src="en.png"></img>
+
             </div>
           </div>
           <div className="position-absolute   discord-container2 all-container">
             <div className="d-flex flex-column align-items-center">
-              <SiBuzzfeed size={40} className="icon-color" />
+              {/* <SiBuzzfeed size={40} className="icon-color" /> */}
               {/* <p className="text-white">Discord</p> */}
+              <img className="img-circle" src="msnbc.png"></img>
+
             </div>
           </div>
           <div className="position-absolute   youtube-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <SiVox size={40} className="icon-color" />
+              {/* <SiVox size={40} className="icon-color" /> */}
               {/* <p className="text-white">YouTube</p> */}
+              <img style={{width:"110px"}} className="img-circle" src="reut.png"></img>
+
             </div>
           </div>
           <div className="position-absolute   forum-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <TbBrandNationalGeographic size={40} className="icon-color" />
+              {/* <TbBrandNationalGeographic size={40} className="icon-color" /> */}
               {/* <p className="text-white">Forum</p> */}
+              <img style={{width:"110px"}} className="img-circle" src="fox.png"></img>
+
             </div>
           </div>
           <div className="position-absolute   wiki-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <SiWarnerbros size={40} className="icon-color" />
+              {/* <SiWarnerbros size={40} className="icon-color" /> */}
               {/* <p className="text-white">WIKI</p> */}
+              <img style={{width:"80px"}} className="img-circle" src="chna.png"></img>
+
             </div>
           </div>
           <div className="position-absolute   snap-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <FcBbc size={40} className="icon-color" />
+              {/* <FcBbc size={40} className="icon-color" /> */}
               {/* <p className="text-white">Snapchat</p> */}
+              <img style={{width:"80px"}} className="img-circle" src="fr.png"></img>
+
             </div>
           </div>
           <div className="position-absolute   tele-container all-container">
             <div className="d-flex flex-column align-items-center">
-              <ImTv size={40} className="icon-color" />
+              {/* <ImTv size={40} className="icon-color" /> */}
               {/* <p className="text-white">Tele</p> */}
+              <img style={{width:"80px"}} className="img-circle" src="sa.png"></img>
+
             </div>
           </div>
           <div className="position-absolute   forum-container2 all-container">
             <div className="d-flex flex-column align-items-center">
-              <FaMeta size={40} className="icon-color" />
+              {/* <FaMeta size={40} className="icon-color" /> */}
               {/* <p className="text-white">Forum</p> */}
+              <img style={{width:"80px"}} className="img-circle" src="cnn.png"></img>
+
             </div>
           </div>
           <div className="position-absolute   wiki-container2 all-container">
             <div className="d-flex flex-column align-items-center">
-              <IoLogoGoogleplus size={40} className="icon-color" />
+              {/* <IoLogoGoogleplus size={40} className="icon-color" /> */}
               {/* <p className="text-white">WIKI</p> */}
+              <img style={{width:"80px"}} className="img-circle" src="bbc.png"></img>
+
             </div>
           </div>
           <div className="position-absolute   tele-container2 all-container">
             <div className="d-flex flex-column align-items-center">
-              <TbNews size={40} className="icon-color" />
+              {/* <TbNews size={40} className="icon-color" /> */}
               {/* <p className="text-white">Tele</p> */}
+              <img style={{width:"80px"}} className="img-circle" src="ndtv.png"></img>
+
             </div>
           </div>
         </div>

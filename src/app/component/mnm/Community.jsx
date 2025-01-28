@@ -30,21 +30,21 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <FaXTwitter size={40} className="icon-color" />
               <p className="text-white">Twitter</p> */}
-               <img  className="img-circle" src="https://www.thesun.co.uk/wp-content/themes/thesun/images/sunmasthead.svg"></img>
+               <img  className="img-circle" src="global.png"></img>
             </div>
           </div>
           <div className="position-absolute   discord-container all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaDiscord size={40} className="icon-color" />
               <p className="text-white">Discord</p> */}
-              <img  className="img-circle" src="https://i.postimg.cc/CKrzgwgz/times-of-india.png"></img>
+              <img  className="img-circle" src="timesof.png"></img>
             </div>
           </div>
           <div className="position-absolute   discord-container2 all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaDiscord size={40} className="icon-color" /> */}
               {/* <p className="text-white">Discord</p> */}
-              <img style={{width:"150px"}} className="" src="https://i.postimg.cc/Vvn6nMbC/daily-mail.png"></img>
+              <img style={{width:"150px"}} className="" src="HT.png"></img>
 
             </div>
           </div>
@@ -52,56 +52,56 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <FaYoutube size={40} className="icon-color" />
               <p className="text-white">YouTube</p> */}
-              <img style={{width:"150px"}} className="" src="https://i.postimg.cc/9FP0fd23/the-sun-times.png"></img>
+              <img style={{width:"150px"}} className="" src="rp.png"></img>
             </div>
           </div>
           <div className="position-absolute   forum-container all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <TiMessages size={40} className="icon-color" />
               <p className="text-white">Forum</p> */}
-              <img style={{width:"150px"}} className="" src="https://i.postimg.cc/XJTqrxXW/the-guardian.png"></img>
+              <img style={{width:"150px"}} className="" src="DB.png"></img>
             </div>
           </div>
           <div className="position-absolute   wiki-container all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaWikipediaW size={40} className="icon-color" />
               <p className="text-white">WIKI</p> */}
-              <img style={{width:"150px"}} className="" src="https://i.postimg.cc/SxqXLZdN/rajasthan-patrika.png"></img>
+              <img style={{width:"110px"}} className="" src="ch.png"></img>
             </div>
           </div>
           <div className="position-absolute   snap-container all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaWikipediaW size={40} className="icon-color" />
               <p className="text-white">Snapchat</p> */}
-              <img style={{width:"150px"}} className="" src="https://i.postimg.cc/523Xsw-K5/hindustan-times.jpg"></img>
+              <img style={{width:"110px"}} className="" src="age.png"></img>
             </div>
           </div>
           <div className="position-absolute   tele-container all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaTelegramPlane size={40} className="icon-color" />
               <p className="text-white">Tele</p> */}
-              <img style={{width:"150px"}} className="" src="https://i.postimg.cc/43xmqmjD/dainik-bhaskar.png"></img>
+              <img style={{width:"100px"}} className="" src="die.png"></img>
             </div>
           </div>
           <div className="position-absolute   forum-container2 all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <TiMessages size={40} className="icon-color" />
               <p className="text-white">Forum</p> */}
-              <img style={{width:"150px"}} className="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmYnvGedWf49oZjqwJHyhOpUiGAFR-iENqWg&s"></img>
+              <img style={{width:"150px"}} className="" src="NYK.png"></img>
             </div>
           </div>
           <div className="position-absolute   wiki-container2 all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaWikipediaW size={40} className="icon-color" />
               <p className="text-white">WIKI</p> */}
-              <img style={{width:"150px"}} className="" src="https://play-lh.googleusercontent.com/DChnLY8Bk5YjH0XWR0aClKsFFo7WVWpzVk08jb4X28HvQLQhvfkwmvnzTJq2vzq1Ew=w600-h300-pc0xffffff-pd"></img>
+              <img style={{width:"70px"}} className="" src="japan.png"></img>
             </div>
           </div>
           <div className="position-absolute   tele-container2 all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaTelegramPlane size={40} className="icon-color" />
               <p className="text-white">Tele</p> */}
-              <img style={{width:"150px"}} className="" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0zfCFcBlCAU2vIJkanbB8ozWCz7_UaGpufeG9IzzNGHgkk6Y7aRo5HQ1IR8yjgqnwCg&usqp=CAU"></img>
+              <img style={{width:"110px"}} className="" src="strai.png"></img>
             </div>
           </div>
         </div>
