@@ -22,7 +22,7 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <FaLinkedin size={40} className="icon-color" /> */}
               {/* <p className="text-white">Linkdien</p> */}
-              <img  className="img-circle" src="https://i.postimg.cc/PxLNf0XK/usa-today.png"></img>
+              <img  className="img-circle" src=""></img>
 
             </div>
           </div>
