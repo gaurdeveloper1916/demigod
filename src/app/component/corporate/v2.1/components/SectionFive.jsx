@@ -341,14 +341,14 @@ const SectionFive = () => {
                 <picture>
                   <source
                     media="(min-width: 760px)"
-                    srcSet="/section-5-bg.jpg"
-                    data-srcset="/section-5-bg.jpg"
+                    srcSet="/event-page-de.jpeg"
+                    data-srcset="/event-page-de.jpeg"
                   />
                   <img
                     alt="Eventgäste an einer Bar"
                     className="lazy"
-                    src="/section-5-bg.jpg"
-                    data-src="images/index/einsatzgebiete/einsatzgebiete-bg.jpg"
+                    src="/event-page-de.jpeg"
+                    data-src="/event-page-de.jpeg"
                   />
                 </picture>
               </div>

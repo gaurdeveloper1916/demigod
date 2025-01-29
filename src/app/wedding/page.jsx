@@ -169,7 +169,7 @@ const page =()=>{
         
         <Sectionthree/>
         <Accordian/>
-        {/* <Sectionfive/> */}
+        <Sectionfive/>
         <VendorCategories/>
         <Lovestory/>
         

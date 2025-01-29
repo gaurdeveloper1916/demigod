@@ -63,7 +63,7 @@ const Customslider = () => {
         <Slider {...settings2} ref={sliderRef}>
           <div className={`text-white p-3 bg-cards-inner`}>
             <img
-              src="/images/wedding.jpg "
+              src="auto.jpeg"
               className=" w-100"
               //   //height={250}
               //   width={200}
@@ -86,7 +86,7 @@ const Customslider = () => {
           </div>
           <div className={`text-white p-3 bg-cards-inner`}>
             <img
-              src="/images/wedding.jpg "
+              src="real.jpeg"
               className=" w-100"
               //   //height={250}
               //   width={200}
@@ -109,7 +109,7 @@ const Customslider = () => {
           </div>
           <div className={`text-white  p-3 zoom-container bg-cards-inner`}>
             <img
-              src="/images/wedding.jpg "
+              src="event.jpeg"
               className="w-100 "
             
               alt="..."
@@ -131,7 +131,7 @@ const Customslider = () => {
           </div>
           <div className={`text-white  p-3 zoom-container bg-cards-inner`}>
             <img
-              src="/images/wedding.jpg "
+              src="jewel.webp"
               className="w-100 "
               
               alt="..."
@@ -153,7 +153,7 @@ const Customslider = () => {
           </div>
           <div className={`text-white  p-3 zoom-container bg-cards-inner`}>
             <img
-              src="/images/wedding.jpg "
+              src="jewel.jpeg"
               className=" w-100"
               //height={250}
               //width={240}
@@ -176,7 +176,7 @@ const Customslider = () => {
           </div>
           <div className={`text-white  p-3 zoom-container bg-cards-inner`}>
             <img
-              src="/images/wedding.jpg "
+              src="phrma.webp"
               className="w-100 "
               //height={250}
               //width={240}
@@ -199,7 +199,7 @@ const Customslider = () => {
           </div>
           <div className={`text-white  p-3 zoom-container bg-cards-inner`}>
             <img
-              src="/images/wedding.jpg "
+              src="fmcg.jpeg "
               className=" w-100"
               //height={250}
               //width={240}
@@ -207,17 +207,12 @@ const Customslider = () => {
             />
             <div className="d-flex justify-content-between 5">
               <div className="text-white verySmallFont">
-                <h6 className="m-0 my-3 gradient-text fw-bold ">
-                FMCG 
-
-                </h6>
+                <h6 className="m-0 my-3 gradient-text fw-bold "> FMCG </h6>
                 <div>
                   {/* <h6 className="m-0 fw-bold">Hack Summit,SF</h6> */}
                   <p className=" verySmallFont ">
                   We help FMCG brands establish dominance through strategic campaigns that increase market penetration and brand loyalty.
-
-                  </p>
-                  
+                  </p>   
                 </div>
               </div>
             </div>{" "}
@@ -251,7 +246,7 @@ const Customslider = () => {
               ></img>
             </div>
           </div>
-          <div className="d-flex ml-4  px-4 text-white">(1/5)</div>
+          <div className="d-flex ml-4  px-4 text-white">(1/7)</div>
         </div>
       </div>
     </div>

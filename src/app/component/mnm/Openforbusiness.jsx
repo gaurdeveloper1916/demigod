@@ -16,22 +16,22 @@ export default function Openforbusiness() {
 
   const initialImages = [
     {
-      img: "https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?cs=srgb&dl=pexels-cottonbro-3171837.jpg&fm=jpg",
+      img: "ser.webp",
       name: "Choose Your Service",
       desc: "Select from brand development, marketing, print & electronic media, or third-party manufacturing tailored to your needs.",
     },
     {
-      img: "https://t4.ftcdn.net/jpg/01/20/28/25/360_F_120282530_gMCruc8XX2mwf5YtODLV2O1TGHzu4CAb.jpg",
+      img: "con.webp",
       name: "Connect With Us",
       desc: "Reach out to Demigod House via our website, email, or phone. Share your vision, and let us guide you forward.",
     },
     {
-      img: "https://img.freepik.com/free-photo/people-celebrating-party_53876-14410.jpg",
+      img: "prop.webp",
       name: "Proposal Evaluation",
       desc: "We’ll review your proposal, and if it aligns with our expertise, we’ll contact you to discuss next steps.",
     },
     {
-      img: "https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?cs=srgb&dl=pexels-wendywei-1190298.jpg&fm=jpg",
+      img: "pers.webp",
       name: " In-Person Meeting",
       desc: "Meet with us to finalize registration, legal documentation, and discuss seed funding opportunities (if applicable).",
     },
@@ -75,8 +75,8 @@ export default function Openforbusiness() {
       <div className="col-lg-4 col-12 col-md-4 d-flex justify-content-center align-items-center">
         <div className="d-flex flex-column ">
           <p className="text-white">
-            <span className="gradient-text fs-5">Demigod House</span>: Your Strategic Partner in Event Management, Media, and Marketing
-          </p>
+           <h5><b> <span className="gradient-text fs-5">Demigod House</span>: Your Strategic Partner in Event Management, Media, and Marketing
+          </b></h5></p>
           <p className="text-white">
           At Demigod House, we make collaboration seamless and impactful. Start by choosing from our tailored services, including brand development, marketing, print and electronic media, or third-party manufacturing. Connect with us via our website, email, or phone to share your vision and let our experts guide you. Once you submit a proposal, we’ll evaluate it to ensure alignment with our expertise and contact you to discuss next steps. For finalization, join us for an in-person meeting to complete registration, legal documentation, and explore potential seed funding opportunities. Together, we turn ideas into success stories.
           </p>
@@ -87,8 +87,8 @@ export default function Openforbusiness() {
         <div className="container mt-5">
           <p className="h1 text-white ">
             Participation 
-            <span className="gradient-text fw-bold">For </span>
-            Business                  <IoChevronForwardOutline size={35} color="white" className="fw-bold" />
+            <span className="gradient-text fw-bold"> For </span>
+            Business  <IoChevronForwardOutline size={35} color="white" className="fw-bold" />
 
           </p>
           <div className="slider-container">
@@ -124,7 +124,8 @@ export default function Openforbusiness() {
                   <div className="d-flex justify-content-center align-items-center p-2 overflow-hidden">
                     <div className="" data-aos="flip-right" data-aos-duration="1200">
                       <img
-                        className="img-fluid rounded"
+                        style={{height:"200px"}}
+                        className="img-fluid rounded w-100"
                         src={image.img}
                         alt={image.name}
                       />

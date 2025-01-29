@@ -119,7 +119,7 @@ const Sectionthree = () => {
         >
           <p className="effortless-text text-white">Effortless Execution</p>
           <p className="text-white">
-            Demigod House five-step proven process allows us to develop and execute a custom-tailored plan for the destination wedding of your dreams.
+            Demigod House eight-step proven process allows us to develop and execute a custom-tailored plan for the destination wedding of your dreams.
           </p>
           <div className="d-flex gap-5">
             <div className="bg-white rounded-pill">

@@ -8,37 +8,37 @@ const vendorCategories = [
     title: "Makeup Artists",
     count: 91879,
     image:
-      "https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/wedding-decorators.jpg",
+      "make.jpeg",
   },
   {
     title: "Photographers",
     count: 76357,
     image:
-      "https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/wedding-decorators.jpg",
+      "photo.webp",
   },
   {
     title: "Planners",
     count: 20656,
     image:
-      "https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/wedding-decorators.jpg",
+      "wed.webp",
   },
   {
     title: "Venues",
     count: 38699,
     image:
-      "https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/wedding-decorators.jpg",
+      "ven.jpeg",
   },
   {
     title: "Decorators",
     count: 21864,
     image:
-      "https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/wedding-decorators.jpg",
+      "deco.jpeg",
   },
   {
     title: "Mehendi Artists",
     count: 22805,
     image:
-      "https://img.weddingbazaar.com/shaadisaga_production/static/vendor_categories/wedding-decorators.jpg",
+      "mehe.jpeg",
   },
 ]
 
@@ -67,10 +67,10 @@ export default function VendorCategories() {
           >
             {/* Image */}
             <img
-              className="w-100 h-100"
+              className="w-100 rounded"
               src={category.image}
               alt={category.title}
-              style={{ objectFit: "cover", height: "200px" }}
+              style={{ width: "100%" ,height: "150px" }}
             />
             {/* Input box at top-right if selected */}
             {selectedCategory?.title === category.title ? (

@@ -10,8 +10,8 @@ function Industryevents(props) {
             {/* <p className="text-white h1 fw-bold"><span className="gradient-text fw-bold  h1 fw-bold">Meet</span> us at</p>
             <p className="h1 fw-bold text-white">these <span  className="gradient-text fw-bold h1 fw-bold" >industry</span></p>
             <p className="fw-bold text-white h1">events</p> */}
-            <p className="text-white "> <span className="gradient-text fs-5">Demigod House</span>: Your Strategic Partner in Event Management, Media, and Marketing
-            </p>
+           <b> <h4><p className="text-white "> <span className="gradient-text fs-10">Demigod House</span>: Your Strategic Partner in Event Management, Media, and Marketing
+            </p></h4></b>
             <p className="text-white">At Demigod House, we provide a time-tested, structured, and results-driven sales, advertising, and marketing execution plan for brands across diverse sectors. Our approach ensures epic profitability, while maintaining effectiveness and efficiency for every client.Sectors We Are Pioneering, Practicing & Monopolistically Leading Across Global Markets:
             </p>
         </div>

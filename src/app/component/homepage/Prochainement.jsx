@@ -9,19 +9,19 @@ const Prochainement
     {
       image:
         "/images/landing-page-images/section3/EUR.webp",
-      event_name: "Economic Patriots Summit Euprope",
+      event_name: "Economic Patriots Summit India ",
       desc: "",
     },
     {
       image:
         "/images/landing-page-images/section3/INDIA.webp",
-        event_name: "Economic Patriots Summit India",
+        event_name: "Economic Patriots Summit USA",
       desc: "",
     },
     {
       image:
         "/images/landing-page-images/section3/USA.webp",
-        event_name: "Economic Patriots Summit USA",
+        event_name: "Economic Patriots Summit Euprope",
       desc: "",
     }
   ];

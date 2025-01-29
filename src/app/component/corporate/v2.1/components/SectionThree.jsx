@@ -195,6 +195,35 @@ const SectionThree = () => {
                     <picture>
                       <source
                         media="(min-width: 760px)"
+<<<<<<< Updated upstream
+=======
+                        srcSet="/section-3/compmile.webp"
+                        data-srcset="/section-3/compmile.webp"
+                      />
+                      <img
+                        alt="Impressionen von Eventveranstaltungen"
+                        className="lazy"
+                        src="/section-3/compmile.webp"
+                        data-src="/section-3/compmile.webp"
+                      />
+                    </picture>
+                    <picture>
+                      <source
+                        media="(min-width: 760px)"
+                        srcSet="/section-3/scroll-img-7.jpg"
+                        data-srcset="/section-3/scroll-img-7.jpg"
+                      />
+                      <img
+                        alt="Impressionen von Eventveranstaltungen"
+                        className="lazy"
+                        src="/section-3/scroll-img-7.jpg"
+                        data-src="/section-3/scroll-img-7.jpg"
+                      />
+                    </picture>
+                    <picture>
+                      <source
+                        media="(min-width: 760px)"
+>>>>>>> Stashed changes
                         srcSet="/section-3/fund.web"
                         data-srcset="/section-3/fund.web"
                       />

@@ -66,7 +66,7 @@ const Formdiv = () => {
                 </h3>
                 {step === 1 ? (
                   <>
-                    <h6 className="text-white mt-4">WHO ARE YOU ?</h6>
+                    <h6 className="text-white mt-4">Tell Us About Yourself!</h6>
                     <form>
                       <div className="d-flex gap-5 text-white">
                         <label className="d-flex align-items-center gap-2">
@@ -76,7 +76,7 @@ const Formdiv = () => {
                             checked={selectedOption === "option1"}
                             onChange={handleChange}
                           />
-                          Option 1
+                          Corporate Client
                         </label>
                         <label className="d-flex align-items-center gap-2">
                           <input
@@ -85,7 +85,7 @@ const Formdiv = () => {
                             checked={selectedOption === "option2"}
                             onChange={handleChange}
                           />
-                          Option 2
+                          Private Host
                         </label>
                         <label className="d-flex align-items-center gap-2">
                           <input
@@ -94,7 +94,7 @@ const Formdiv = () => {
                             checked={selectedOption === "option3"}
                             onChange={handleChange}
                           />
-                          Option 3
+                          Event Enthusiast
                         </label>
                       </div>
                       <div className="mt-4">
@@ -102,13 +102,14 @@ const Formdiv = () => {
                           htmlFor="exampleSelect"
                           className="form-label text-white"
                         >
-                          WHAT WOULD BE YOUR NEEDS ?
+                          What type of event are you planning? 
                         </label>
                         <select className="form-select w-50" id="exampleSelect">
                           <option value="">Select an option</option>
-                          <option value="option1">Option 1</option>
-                          <option value="option2">Option 2</option>
-                          <option value="option3">Option 3</option>
+                          <option value="option1">Corporate Meetup</option>
+                          <option value="option2">Gala</option>
+                          <option value="option3">Themed Party</option>
+                          <option value="option4">Festival</option>
                         </select>
                       </div>
                       <div className="mt-4 d-flex flex-column">
