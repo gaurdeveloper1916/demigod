@@ -1,48 +1,57 @@
-const Sectionone = () => {
-    return (
-      <>
-        <div className="row mb-5 justify-content-center my-5 mb-5">
-          {/* Image Section */}
-          <div className="col-12 col-lg- d-flex position-relative justify-content-cente">
-            <img
-              className="rounded w-100"
-              style={{
-                maxWidth: "600px",
-                height: "200px",
-                objectFit: "cover",
-              }}
-              src="https://plus.unsplash.com/premium_photo-1674235766088-80d8410f9523?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2VkZGluZyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D"
-              alt="Hill-top Weddings"
-            />
-            <div style={{left:'18rem'}} className="col-12 col-lg-8 mt-4 position-absolute text-white">
-            <h3>Close-knit Wedding</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-              cupiditate aspernatur, deserunt fugit amet non maiores dolorum.
-              Tempore maxime repudiandae, quasi distinctio necessitatibus
-              corrupti impedit voluptate! Hic consequatur temporibus id. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Eius cupiditate
-              aspernatur, deserunt fugit amet non maiores dolorum. Tempore maxime
-              repudiandae, quasi distinctio necessitatibus corrupti impedit
-              voluptate! Hic consequatur temporibus id.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
-              cupiditate aspernatur, deserunt fugit amet non maiores dolorum.
-              Tempore maxime repudiandae, quasi distinctio necessitatibus
-              corrupti impedit voluptate! Hic consequatur temporibus id. Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Eius cupiditate
-              aspernatur, deserunt fugit amet non maiores dolorum. Tempore maxime
-              repudiandae, quasi distinctio necessitatibus corrupti impedit
-              voluptate! Hic consequatur temporibus id.
-            </p>
-          </div>
-          </div>
-  
-          {/* Content Section */}
-          
-        </div>
-      </>
-    );
-  };
-  
-  export default Sectionone;
-  
+'use client'
+import Carousel from 'react-bootstrap/Carousel';
+
+function IndividualIntervalsExample() {
+  return (
+    <Carousel nextIcon={<span style={{ fontWeight: 'bold', fontSize: '2rem' }}>&#9654;</span>} prevIcon={<span style={{ fontWeight: 'bold', fontSize: '2rem' }}>&#9664;</span>}>
+      <Carousel.Item interval={1000}>
+        <img
+          className="d-block w-100"
+          src="https://picsum.photos/800/400?random=1"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis beatae voluptatem nesciunt impedit maiores fugiat explicabo, consequatur omnis numquam laudantium odio voluptates possimus, blanditiis eveniet a tenetur deleniti at atque?
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laudantium quisquam ducimus vitae culpa ipsam voluptas voluptates numquam, sequi eos magnam possimus ex? Consequuntur saepe repudiandae at nemo et enim.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laudantium quisquam ducimus vitae culpa ipsam voluptas voluptates numquam, sequi eos magnam possimus ex? Consequuntur saepe repudiandae at nemo et enim.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laudantium quisquam ducimus vitae culpa ipsam voluptas voluptates numquam, sequi eos magnam possimus ex? Consequuntur saepe repudiandae at nemo et enim.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={500}>
+        <img
+          className="d-block w-100"
+          src="https://picsum.photos/800/400?random=2"
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis similique non dolor, doloremque explicabo quidem officiis dignissimos distinctio omnis totam voluptates nihil nesciunt? Sunt ducimus illo beatae minus error velit.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laudantium quisquam ducimus vitae culpa ipsam voluptas voluptates numquam, sequi eos magnam possimus ex? Consequuntur saepe repudiandae at nemo et enim.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laudantium quisquam ducimus vitae culpa ipsam voluptas voluptates numquam, sequi eos magnam possimus ex? Consequuntur saepe repudiandae at nemo et enim.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laudantium quisquam ducimus vitae culpa ipsam voluptas voluptates numquam, sequi eos magnam possimus ex? Consequuntur saepe repudiandae at nemo et enim.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="https://picsum.photos/800/400?random=3"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laudantium quisquam ducimus vitae culpa ipsam voluptas voluptates numquam, sequi eos magnam possimus ex? Consequuntur saepe repudiandae at nemo et enim.
+
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laudantium quisquam ducimus vitae culpa ipsam voluptas voluptates numquam, sequi eos magnam possimus ex? Consequuntur saepe repudiandae at nemo et enim.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laudantium quisquam ducimus vitae culpa ipsam voluptas voluptates numquam, sequi eos magnam possimus ex? Consequuntur saepe repudiandae at nemo et enim.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro laudantium quisquam ducimus vitae culpa ipsam voluptas voluptates numquam, sequi eos magnam possimus ex? Consequuntur saepe repudiandae at nemo et enim.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
+}
+
+export default IndividualIntervalsExample;
