@@ -10,7 +10,7 @@ const Selectticket = () => {
         <>
             <div className="d-flex justify-content-center align-items-center bg-black">
                 <div className="col-lg-8">
-                    <div className="d-flex flex-lg-row  flex-column justify-content-center ">
+                    <div className="d-flex flex-lg-row  gap-4 flex-column justify-content-center ">
                         <div className="col-lg-6 ">
                             <div className="d-flex gap-2 ">
                                 <IoArrowBackSharp color="white" className="mt-1" />
@@ -27,6 +27,10 @@ const Selectticket = () => {
                                 <p className="text-white">TICKET TYPE:VIRTUAL</p>
                                 <p className="text-white">EMAIL: INFOKARTIK@GMAIL.COM</p>
                                 <p className="text-white">TOTAL:FREE</p>
+                                <p className="text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel velit possimus ullam voluptate reprehenderit voluptates praesentium. Vero totam repudiandae, beatae, fugit itaque, ratione quisquam ducimus recusandae ad illo optio deleniti?
+                                Vel velit possimus ullam voluptate reprehenderit voluptates praesentium. Vero totam repudiandae, beatae, fugit itaque, ratione quisquam ducimus recusandae ad illo optio deleniti
+                                </p>
+
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -64,13 +68,14 @@ const Selectticket = () => {
 
 
                             </div>
-                            <div className="d-flex justify-content-between align-items-center border px-4 py-2 rounded">
+                            {/* <div className="d-flex justify-content-between align-items-center border px-4 py-2 rounded">
                                 <div>
                                     <p className="m-0 text-white">Virtual</p>
                                     <p className="text-secondary">Online livestreamed Keynote</p>
                                 </div>
                                 <button className="mb-3 fs-6 border rounded px-2 border-none text-white">FREE</button>
-                            </div>
+                            </div> */}
+                            <p className="text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel velit possimus ullam voluptate reprehenderit voluptates praesentium. Vero totam repudiandae, beatae, fugit itaque, ratione quisquam ducimus recusandae ad illo optio deleniti?</p>
                             <p className="text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel velit possimus ullam voluptate reprehenderit voluptates praesentium. Vero totam repudiandae, beatae, fugit itaque, ratione quisquam ducimus recusandae ad illo optio deleniti?</p>
 
                         </div>

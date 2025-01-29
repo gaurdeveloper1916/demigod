@@ -49,9 +49,8 @@ const Sectionfive = () => {
           />
           <div className="inner-img content-wrapper gradient-text">
             <h2>Celebrity Weddings
-
             </h2>
-            <p className="fs-6 text-white">Draw inspiration from the glamour and extravagance of celebrity weddings. From lavish venues to personalized details, learn how to bring star-worthy elements to your own celebration. Add touches of luxury and creativity to make your big day unforgettable.</p>
+            <p className="fs-6 text-white"></p>
           </div>
           <img
             className="inner-img"
