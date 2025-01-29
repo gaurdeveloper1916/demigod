@@ -28,7 +28,7 @@ function ElectronicCommunity() {
             <div className="d-flex flex-column align-items-center">
             {/* <SiNewyorktimes size={40} className="icon-color" /> */}
               {/* <p className="text-white">Linkdien</p> */}
-              <img style={{width:"110px"}} className="img-circle" src="rt.png"></img>
+              <img style={{width:"110px"}} className="img-circle rounded-pill" src="rt.png"></img>
 
             </div>
           </div>
@@ -36,7 +36,7 @@ function ElectronicCommunity() {
             <div className="d-flex flex-column align-items-center">
               {/* <SiThewashingtonpost size={40} className="icon-color" /> */}
               {/* <p className="text-white">Twitter</p> */}
-              <img style={{width:"180px"}} className="img-circle" src="dw.png"></img>
+              <img style={{width:"180px"}} className="img-circle rounded-pill" src="dw.png"></img>
 
             </div>
           </div>
@@ -44,7 +44,7 @@ function ElectronicCommunity() {
             <div className="d-flex flex-column align-items-center">
               {/* <SiNbc size={40} className="icon-color" /> */}
               {/* <p className="text-white">Discord</p> */}
-              <img style={{width:"110px"}} className="img-circle" src="en.png"></img>
+              <img style={{width:"110px"}} className="img-circle rounded-pill" src="en.png"></img>
 
             </div>
           </div>
@@ -52,7 +52,7 @@ function ElectronicCommunity() {
             <div className="d-flex flex-column align-items-center">
               {/* <SiBuzzfeed size={40} className="icon-color" /> */}
               {/* <p className="text-white">Discord</p> */}
-              <img className="img-circle" src="msnbc.png"></img>
+              <img className="img-circle rounded-pill" src="msnbc.png"></img>
 
             </div>
           </div>
@@ -60,7 +60,7 @@ function ElectronicCommunity() {
             <div className="d-flex flex-column align-items-center">
               {/* <SiVox size={40} className="icon-color" /> */}
               {/* <p className="text-white">YouTube</p> */}
-              <img style={{width:"110px"}} className="img-circle" src="reut.png"></img>
+              <img style={{width:"110px"}} className="img-circle rounded-pill" src="reut.png"></img>
 
             </div>
           </div>
@@ -68,7 +68,7 @@ function ElectronicCommunity() {
             <div className="d-flex flex-column align-items-center">
               {/* <TbBrandNationalGeographic size={40} className="icon-color" /> */}
               {/* <p className="text-white">Forum</p> */}
-              <img style={{width:"110px"}} className="img-circle" src="fox.png"></img>
+              <img style={{width:"110px"}} className="img-circle rounded-pill" src="fox.png"></img>
 
             </div>
           </div>
@@ -76,7 +76,7 @@ function ElectronicCommunity() {
             <div className="d-flex flex-column align-items-center">
               {/* <SiWarnerbros size={40} className="icon-color" /> */}
               {/* <p className="text-white">WIKI</p> */}
-              <img style={{width:"80px"}} className="img-circle" src="chna.png"></img>
+              <img style={{width:"80px"}} className="img-circle rounded-pill" src="chna.png"></img>
 
             </div>
           </div>
@@ -84,7 +84,7 @@ function ElectronicCommunity() {
             <div className="d-flex flex-column align-items-center">
               {/* <FcBbc size={40} className="icon-color" /> */}
               {/* <p className="text-white">Snapchat</p> */}
-              <img style={{width:"80px"}} className="img-circle" src="fr.png"></img>
+              <img style={{width:"80px"}} className="img-circle rounded-pill" src="fr.png"></img>
 
             </div>
           </div>
@@ -92,7 +92,7 @@ function ElectronicCommunity() {
             <div className="d-flex flex-column align-items-center">
               {/* <ImTv size={40} className="icon-color" /> */}
               {/* <p className="text-white">Tele</p> */}
-              <img style={{width:"80px"}} className="img-circle" src="sa.png"></img>
+              <img style={{width:"80px"}} className="img-circle rounded-pill" src="sa.png"></img>
 
             </div>
           </div>
@@ -100,7 +100,7 @@ function ElectronicCommunity() {
             <div className="d-flex flex-column align-items-center">
               {/* <FaMeta size={40} className="icon-color" /> */}
               {/* <p className="text-white">Forum</p> */}
-              <img style={{width:"80px"}} className="img-circle" src="cnn.png"></img>
+              <img style={{width:"80px"}} className="img-circle rounded-pill" src="cnn.png"></img>
 
             </div>
           </div>
@@ -108,7 +108,7 @@ function ElectronicCommunity() {
             <div className="d-flex flex-column align-items-center">
               {/* <IoLogoGoogleplus size={40} className="icon-color" /> */}
               {/* <p className="text-white">WIKI</p> */}
-              <img style={{width:"80px"}} className="img-circle" src="bbc.png"></img>
+              <img style={{width:"80px"}} className="img-circle rounded-pill" src="bbc.png"></img>
 
             </div>
           </div>
@@ -116,7 +116,7 @@ function ElectronicCommunity() {
             <div className="d-flex flex-column align-items-center">
               {/* <TbNews size={40} className="icon-color" /> */}
               {/* <p className="text-white">Tele</p> */}
-              <img style={{width:"80px"}} className="img-circle" src="ndtv.png"></img>
+              <img style={{width:"80px"}} className="img-circle rounded-pill" src="ndtv.png"></img>
 
             </div>
           </div>

@@ -31,7 +31,7 @@ function Herosection() {
           </button> */}
         </div>
       </div>
-      <div
+      {/* <div
         className="d-flex w-100 text-white justify-content-between px-5 position-absolute"
         style={{ bottom: '20px' }}
       >
@@ -45,7 +45,7 @@ function Herosection() {
           <p className="mediumfont m-0">Scroll</p>
           <MdArrowOutward size={21} />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -22,7 +22,7 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <FaLinkedin size={40} className="icon-color" /> */}
               {/* <p className="text-white">Linkdien</p> */}
-              <img  className="img-circle" src="./svgviewer-png-output.png"></img>
+              <img  className="img-circle rounded-pill" src="./svgviewer-png-output.png"></img>
 
             </div>
           </div>
@@ -30,21 +30,21 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <FaXTwitter size={40} className="icon-color" />
               <p className="text-white">Twitter</p> */}
-               <img  className="img-circle rounded-pill" src="global.png"></img>
+               <img  className="img-circle rounded-pill " src="global.png"></img>
             </div>
           </div>
           <div className="position-absolute   discord-container all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaDiscord size={40} className="icon-color" />
               <p className="text-white">Discord</p> */}
-              <img  className="img-circle" src="timesof.png"></img>
+              <img  className="img-circle rounded-pill" src="timesof.png"></img>
             </div>
           </div>
           <div className="position-absolute   discord-container2 all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaDiscord size={40} className="icon-color" /> */}
               {/* <p className="text-white">Discord</p> */}
-              <img style={{width:"150px"}} className="rounded-pill" src="HT.png"></img>
+              <img style={{width:"150px"}} className="img-circle rounded-pill" src="HT.png"></img>
 
             </div>
           </div>
@@ -52,56 +52,56 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <FaYoutube size={40} className="icon-color" />
               <p className="text-white">YouTube</p> */}
-              <img style={{width:"150px"}} className="rounded-pill" src="rp.png"></img>
+              <img style={{width:"150px"}} className="img-circle rounded-pill" src="rp.png"></img>
             </div>
           </div>
           <div className="position-absolute   forum-container all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <TiMessages size={40} className="icon-color" />
               <p className="text-white">Forum</p> */}
-              <img style={{width:"150px"}} className="rounded" src="DB.png"></img>
+              <img style={{width:"150px"}} className="img-circle rounded-pill" src="DB.png"></img>
             </div>
           </div>
           <div className="position-absolute   wiki-container all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaWikipediaW size={40} className="icon-color" />
               <p className="text-white">WIKI</p> */}
-              <img style={{width:"110px"}} className="" src="ch.png"></img>
+              <img style={{width:"110px"}} className="img-circle rounded-pill" src="ch.png"></img>
             </div>
           </div>
           <div className="position-absolute   snap-container all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaWikipediaW size={40} className="icon-color" />
               <p className="text-white">Snapchat</p> */}
-              <img style={{width:"110px"}} className="" src="age.png"></img>
+              <img style={{width:"110px"}} className="img-circle rounded-pill" src="age.png"></img>
             </div>
           </div>
           <div className="position-absolute   tele-container all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaTelegramPlane size={40} className="icon-color" />
               <p className="text-white">Tele</p> */}
-              <img style={{width:"100px"}} className="" src="die.png"></img>
+              <img style={{width:"100px"}} className="img-circle rounded-pill" src="die.png"></img>
             </div>
           </div>
           <div className="position-absolute   forum-container2 all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <TiMessages size={40} className="icon-color" />
               <p className="text-white">Forum</p> */}
-              <img style={{width:"150px"}} className="" src="NYK.png"></img>
+              <img style={{width:"150px"}} className="img-circle rounded-pill" src="NYK.png"></img>
             </div>
           </div>
           <div className="position-absolute   wiki-container2 all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaWikipediaW size={40} className="icon-color" />
               <p className="text-white">WIKI</p> */}
-              <img style={{width:"70px"}} className="" src="japan.png"></img>
+              <img style={{width:"70px"}} className="img-circle rounded-pill" src="japan.png"></img>
             </div>
           </div>
           <div className="position-absolute   tele-container2 all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaTelegramPlane size={40} className="icon-color" />
               <p className="text-white">Tele</p> */}
-              <img style={{width:"110px"}} className="" src="strai.png"></img>
+              <img style={{width:"110px"}} className="img-circle rounded-pill" src="strai.png"></img>
             </div>
           </div>
         </div>
