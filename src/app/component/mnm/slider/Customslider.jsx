@@ -1,7 +1,6 @@
 "use client";
 import React, { useRef } from "react";
 import Slider from "react-slick";
-import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import './index.css'
 const Customslider = () => {
   const sliderRef = useRef(null);
@@ -20,10 +19,13 @@ const Customslider = () => {
 
   const settings2 = {
     infinite: true,
-    // centerPadding: "50px",
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    centerPadding: "0px", // Removes extra padding
+    adaptiveHeight: false, // Ensures uniform height
+
+
     responsive: [
       {
         breakpoint: 1024,
@@ -52,7 +54,6 @@ const Customslider = () => {
     ],
   };
 
-  // Generate the card data dynamically with conditional margin
   const cards = Array.from({ length: 6 }, (_, index) => ({
     margin: (index + 1) % 2 === 0,
   }));
@@ -64,9 +65,9 @@ const Customslider = () => {
           <div className={`text-white p-3 bg-cards-inner`}>
             <img
               src="auto.jpeg"
-              className=" w-100"
-              //   //height={250}
-              //   width={200}
+              // className=" "
+                height={250}
+                width={200}
               alt="..."
             />
             <div className="d-flex">
@@ -87,7 +88,7 @@ const Customslider = () => {
           <div className={`text-white p-3 bg-cards-inner`}>
             <img
               src="real.jpeg"
-              className=" w-100"
+              className=" "
               //   //height={250}
               //   width={200}
               alt="..."
@@ -110,7 +111,7 @@ const Customslider = () => {
           <div className={`text-white  p-3 zoom-container bg-cards-inner`}>
             <img
               src="event.jpeg"
-              className="w-100 "
+              className=" "
             
               alt="..."
             />
@@ -132,7 +133,7 @@ const Customslider = () => {
           <div className={`text-white  p-3 zoom-container bg-cards-inner`}>
             <img
               src="jewel.webp"
-              className="w-100 "
+              className=" "
               
               alt="..."
             />
@@ -154,7 +155,7 @@ const Customslider = () => {
           <div className={`text-white  p-3 zoom-container bg-cards-inner`}>
             <img
               src="jewel.jpeg"
-              className=" w-100"
+              className=""
               //height={250}
               //width={240}
               alt="..."
@@ -166,7 +167,7 @@ const Customslider = () => {
                 </h6>
                 <div>
                   {/* <h6 className="m-0 fw-bold">Hack Summit,SF</h6> */}
-                  <p className=" verySmallFont mt-5">
+                  <p className=" verySmallFont ">
                   We provide bespoke solutions for the gemstone industry, leveraging creativity and innovation to elevate brand positioning and visibility.
                   </p>
                  
@@ -177,7 +178,7 @@ const Customslider = () => {
           <div className={`text-white  p-3 zoom-container bg-cards-inner`}>
             <img
               src="phrma.webp"
-              className="w-100 "
+              className=" "
               //height={250}
               //width={240}
               alt="..."
@@ -200,7 +201,7 @@ const Customslider = () => {
           <div className={`text-white  p-3 zoom-container bg-cards-inner`}>
             <img
               src="fmcg.jpeg "
-              className=" w-100"
+              className=" "
               //height={250}
               //width={240}
               alt="..."

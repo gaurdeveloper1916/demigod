@@ -8,6 +8,7 @@ import Industryevents from "../component/mnm/Industryevents";
 import Openforbusiness from "../component/mnm/Openforbusiness";
 import Partnership from "../component/mnm/Partnership";
 import Getintouch from "../component/mnm/Getintouch";
+import TabsComponent from "../component/mnm/TabsComponent"
 import SwiperContainer from "../component/mnm/trusted/SwiperContainer";
 import Trusted from "../component/mnm/trusted/Trusted";
 import OnScrollToChnageDiv from "../component/resuablecomponents/OnScrollToChnageDiv";
@@ -28,8 +29,9 @@ function Index() {
       {/* <Ecosystem /> */}
      
       <Industryevents/>
-      <Sectionone/>
-      <Repetativemandm/>
+      <TabsComponent/>
+      {/* <Sectionone/> */}
+      {/* <Repetativemandm/> */}
 
       <Openforbusiness/>
       <Partnership/>

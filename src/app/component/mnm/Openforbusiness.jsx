@@ -129,7 +129,7 @@ export default function Openforbusiness() {
                         src={image.img}
                         alt={image.name}
                       />
-                      <div className="bg-whitesh px-3 py-5 mt-2 ">
+                      <div className="bg-whitesh custom-height px-3 py-5 mt-2 ">
                         {/* <h6 className="fw-bold gradient-text ">26.08.24</h6> */}
                         <p className="m-0 gradient-text">{image.name}</p>
                         <p className="m-0 text-white  verySmallFont">{image.desc}</p>

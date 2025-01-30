@@ -139,7 +139,7 @@ function Header() {
                       <ul className="ul-custom custom-sub-opacity cursor-pointer mb-0">
                         <li className=" linehight fs-6">
                           <div className="d-flex justify-content-center align-items-center">
-                            <Link
+                            <a
                               style={{ textDecoration: "none" }}
                               href={item.attributes.url}
                               className={`fs-6 fw-bold m-0 header-text-new ${hoveredIndex === i ? "text-transform-hover" : ""
@@ -149,7 +149,7 @@ function Header() {
                             >
                               {item.attributes.URLText}{" "}
                               {hoveredIndex === i ? item.attributes.onHoverText : ""}
-                            </Link>
+                            </a>
                             {item.attributes.onHover && (
                               <FaChevronDown
                                 size={17}

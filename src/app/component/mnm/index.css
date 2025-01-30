@@ -115,13 +115,14 @@
     display: none !important;
   }
   .bg-whitesh{
-    background-color: rgb(35 38 40) 
+    background-color: rgb(35 38 40);
+    height: 200px;
   }
   .img-circle{
     width: 150px;
   }
- /* the slides */
-
+  
+  
 
   
 

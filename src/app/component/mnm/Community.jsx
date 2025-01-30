@@ -22,7 +22,7 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <FaLinkedin size={40} className="icon-color" /> */}
               {/* <p className="text-white">Linkdien</p> */}
-              <img  className="img-circle rounded-pill" src="./svgviewer-png-output.png"></img>
+              <img style={{width:"120px"}}  className="img-circle rounded-pill" src="https://yt3.googleusercontent.com/ytc/AIdro_mpuS6J3PwGJatG2czLGfmZHyE_kNicqukg0jBnCbENmiJl=s900-c-k-c0x00ffffff-no-rj"></img>
 
             </div>
           </div>
@@ -44,7 +44,7 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <FaDiscord size={40} className="icon-color" /> */}
               {/* <p className="text-white">Discord</p> */}
-              <img style={{width:"150px"}} className="img-circle rounded-pill" src="HT.png"></img>
+              <img style={{width:"150px"}} className="img-circle rounded-pill" src="https://media.licdn.com/dms/image/v2/C4D0BAQFgh_w9sQdWqA/company-logo_200_200/company-logo_200_200/0/1674796371606/hindustantimes_logo?e=2147483647&v=beta&t=w1Je6BGJnr89Nb4elHQUqnICm_fNYeWOFrApPmTWH2s"></img>
 
             </div>
           </div>
@@ -59,7 +59,7 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <TiMessages size={40} className="icon-color" />
               <p className="text-white">Forum</p> */}
-              <img style={{width:"150px"}} className="img-circle rounded-pill" src="DB.png"></img>
+              <img style={{width:"130px"}} className="img-circle rounded-pill" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcI8l357TwseEANRCvI41FiJAWw7wtd4zyMw&s"></img>
             </div>
           </div>
           <div className="position-absolute   wiki-container all-container">

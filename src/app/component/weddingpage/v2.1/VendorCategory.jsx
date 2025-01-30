@@ -67,11 +67,11 @@ export default function VendorCategories() {
           >
             {/* Image */}
             <img
-              className="w-100 rounded"
-              src={category.image}
-              alt={category.title}
-              style={{ width: "100%" ,height: "150px" }}
-            />
+  className="rounded"
+  src={category.image}
+  alt={category.title}
+  style={{ width: "200px", height: "150px", objectFit: "cover" }}
+/>
             {/* Input box at top-right if selected */}
             {selectedCategory?.title === category.title ? (
               <div className="position-absolute top-0 end-0 p-2">

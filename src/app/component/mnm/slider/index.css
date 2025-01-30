@@ -9,3 +9,36 @@
   .cursor{
     cursor: pointer !important;
   }
+  .slick-slide {
+    padding: 0 !important; /* Removes padding */
+    margin: 20px !important; /* Ensures no extra margin */
+  }
+  .bg-cards-inner {
+    padding: 5px; /* Reduce padding */
+  }
+  .slick-slide {
+    padding: 0 5px !important; /* Reduce space between slides */
+  }
+  
+  .bg-cards-inner {
+    padding: 10px; /* Adjust padding inside slides */
+    height: 100%; /* Make sure it takes full height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .slick-track {
+    display: flex;
+  }
+  
+  .slick-slide > div {
+    height: 500px
+  }
+  
+  .slick-slide img {
+    width: 200px;
+    max-height: 150px; /* Set a fixed height for images */
+  }
+  
+  
+  
