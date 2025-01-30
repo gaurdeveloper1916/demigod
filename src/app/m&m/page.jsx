@@ -15,6 +15,7 @@ import LeadingOrganisation from "../component/mnm/LeadingOrganisation";
 import Footer from "../component/common/footer/Footer";
 import ElectronicCommunity from "../component/mnm/slider/ElectronicCommunity";
 import Sectionone from "../component/mnm/Sectionone"
+import Repetativemandm from "../component/mnm/Repetativemandm"
 function Index() {
   return (
     <div className="container-fluid p-0 bg-black">
@@ -28,6 +29,7 @@ function Index() {
      
       <Industryevents/>
       <Sectionone/>
+      <Repetativemandm/>
 
       <Openforbusiness/>
       <Partnership/>
