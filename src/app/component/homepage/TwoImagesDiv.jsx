@@ -11,7 +11,7 @@ const data = [
         size: 8,
         src: "/images/landing-page-images/section2/big_image.webp",
         link: "/landingpage",
-        title: "Event /01",
+        // title: "Event /01",
         description: "Wine Making Festival- Fete Du Vines ",
         // category: "BRANDING-WEBDESIGN",
       },
@@ -19,8 +19,8 @@ const data = [
         size: 4,
         src: "/images/smallImage.jpg",
         link: "/landingpage",
-        title: "Event /02",
-        description: "Tinder Heights",
+        // title: "Event /02",
+        description: "Tinder Nights",
         // category: "BRANDING-WEBDESIGN-HELLOW",
       },
     ],
@@ -31,7 +31,7 @@ const data = [
         size: 4,
         src: "/images/landing-page-images/section2/smallimage.webp",
         link: "/landingpage",
-        title: "Event /03",
+        // title: "Event /03",
         description: "D'Throne Prince",
         // category: "BRANDING-WEBDESIGN",
       },
@@ -39,7 +39,7 @@ const data = [
         size: 8,
         src: "/images/landing-page-images/section2/bigimage.webp",
         link: "/landingpage",
-        title: "Event /04",
+        // title: "Event /04",
         description: "D'Royal Tiara",
         // category: "BRANDING-WEBDESIGN",
       },
@@ -51,7 +51,7 @@ const data = [
         size: 8,
         src: "/images/landing-page-images/section2/1bigimage.webp",
         link: "/landingpage",
-        title: "Event /05",
+        // title: "Event /05",
         description: "Cutinary O' Affaris",
         // category: "BRANDING-WEBDESIGN",
       },
@@ -59,7 +59,7 @@ const data = [
         size: 4,
         src: "/images/smallImage.jpg",
         link: "/landingpage",
-        title: "Event /06",
+        // title: "Event /06",
         description: "Marathon Mingle",
         // category: "BRANDING-WEBDESIGN",
       },
@@ -80,7 +80,7 @@ function TwoImagesDiv() {
               <div className="d-flex align-items-center justify-content-between mx-2">
                 <div className="text-white verySmallFont">
                   <p className="m-0">{image.title}</p>
-                  <p className="fs-5 font-bold">{image.description}</p>
+                  <p className="fs-2 font-bold">{image.description}</p>
                 </div>
                 <div className="text-white verySmallFont">
                   <p className="m-0">{image.category}</p>

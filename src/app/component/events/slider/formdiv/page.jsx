@@ -107,6 +107,7 @@ const Formdiv = () => {
                         <select className="form-select w-50" id="exampleSelect">
                           <option value="">Select an option</option>
                           <option value="option1">Corporate Meetup</option>
+                            <suboption value="option1">Corporate Meetup</suboption>
                           <option value="option2">Gala</option>
                           <option value="option3">Themed Party</option>
                           <option value="option4">Festival</option>
