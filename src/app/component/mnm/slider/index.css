@@ -37,6 +37,7 @@
   
   .slick-slide img {
     width: 200px;
+    height: 200px;
     max-height: 150px; /* Set a fixed height for images */
   }
   
