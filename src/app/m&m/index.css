@@ -10,3 +10,6 @@ color: #ee2aff;
     -webkit-background-clip: text; /* For WebKit browsers */
     color: transparent;
   }
+  .section{
+    background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);  
+  }
