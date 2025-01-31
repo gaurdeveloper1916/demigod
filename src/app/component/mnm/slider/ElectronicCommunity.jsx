@@ -36,7 +36,7 @@ function ElectronicCommunity() {
             <div className="d-flex flex-column align-items-center">
               {/* <SiThewashingtonpost size={40} className="icon-color" /> */}
               {/* <p className="text-white">Twitter</p> */}
-              <img style={{width:"180px"}} className="img-circle rounded-pill" src="dw.png"></img>
+              <img style={{width:"180px"}} className="img-circle rounded-pill" src="msnbc.png"></img>
 
             </div>
           </div>
@@ -52,7 +52,7 @@ function ElectronicCommunity() {
             <div className="d-flex flex-column align-items-center">
               {/* <SiBuzzfeed size={40} className="icon-color" /> */}
               {/* <p className="text-white">Discord</p> */}
-              <img className="img-circle rounded-pill" src="msnbc.png"></img>
+              <img className="img-circle rounded-pill" src="dw.png"></img>
 
             </div>
           </div>

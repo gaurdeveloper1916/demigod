@@ -87,7 +87,7 @@ function Community() {
             <div className="d-flex flex-column align-items-center">
               {/* <TiMessages size={40} className="icon-color" />
               <p className="text-white">Forum</p> */}
-              <img style={{width:"150px"}} className="img-circle rounded-pill" src="NYK.png"></img>
+              <img style={{width:"150px"}} className="img-circle rounded-pill" src="https://yt3.googleusercontent.com/ytc/AIdro_niRq8CFu_t0QX45kIzJ58GtS9zlO2SGo7wArxG9gy6uEc=s900-c-k-c0x00ffffff-no-rj"></img>
             </div>
           </div>
           <div className="position-absolute   wiki-container2 all-container">

@@ -44,7 +44,11 @@ const Prochainement
         {arr.map((item, index) => {
           return (
            <>
-              <Link href="/landingpage">
+              <Link
+              href={{
+                pathname: '/landingpage',
+                query: { name: item.event_name},
+              }}>
                 <div className="d-flex  flex-column justify-content-center align-items-center">
                   <div class="product col-lg-10 position-realtive">
                     <div class="imgbox  ">

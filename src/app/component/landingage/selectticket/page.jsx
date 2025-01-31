@@ -5,7 +5,7 @@ import { GoPlus } from "react-icons/go";
 import { IoArrowBackSharp } from "react-icons/io5";
 
 
-const Selectticket = () => {
+const Selectticket = ({name}) => {
     return (
         <>
             <div className="d-flex justify-content-center align-items-center bg-black">
@@ -18,9 +18,9 @@ const Selectticket = () => {
                                 <p className="text-white">Go Back</p>
                             </div>
 
-                            <div style={{ lineHeight: '45px' }}>
-                                <p style={{ fontSize: '45px', fontWeight: '700' }} className="m-0 text-white">JOIN US live in NYC </p>
-                                <p style={{ fontSize: '45px', fontWeight: '700' }} className="text-white">or watch virtually</p>
+                            <div style={{ lineHeight: '40px' }}>
+                                <p style={{ fontSize: '30px', fontWeight: '700' }} className="m-0 text-white">{name}</p>
+                                {/* <p style={{ fontSize: '45px', fontWeight: '700' }} className="text-white">or watch virtually</p> */}
                             </div>
                             <p className="text-white">ALREADY REGISTER ? <span style={{ color: 'orange' }}>LOG IN</span></p>
                             <div className="mt-5 d-flex flex-column">

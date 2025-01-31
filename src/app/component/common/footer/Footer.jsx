@@ -84,10 +84,17 @@ function Footer(props) {
         <hr className="text-white" />
 
         {/* Support and Links Section */}
-        <div className="container ">
+        <div className="container py-4">
           <div className="row justify-content-center align-items-start">
             {/* Left Column */}
             <div className="col-lg-12 col-md-12 col-12 d-flex flex-wrap justify-content-center align-items-start gap-4">
+              <div>
+              <img
+                src="./images/demigodnew.png"
+                alt="Logo"
+                className="img-fluid logoImage"
+              />
+              </div>
               <div className="text-white verySmallFont">
                 <button className="verySmallFont border-0 rounded px-3 py-2 text-white ">
                   Help Or Support ?
@@ -249,47 +256,7 @@ function Footer(props) {
     </div>
   </div> */}
 
-        {/* Footer Info */}
-        <div className="container py-5">
-          <div className="row justify-content-between align-items-center">
-            <div className="col-lg-10 col-md-9 col-12 text-white">
-              <button className="verySmallFont border-0 rounded px-3 py-2 text-white">
-                Access Link
-              </button>
-              <div className="mt-3">
-                <div className="d-flex gap-4">
-                  <div className="d-flex gap-2">
-                    <FaUserCheck size={18} />
-                    <p>Register Your Events with Us</p>
-                  </div>
-                  <div className="d-flex gap-2">
-                    <MdUnsubscribe size={18} />
-                    <p>Subscribe to our Journal</p>
-                  </div>
-                </div>
-                <h4 className="mediumFont">DemigodHouse - </h4>
-                <p className="text-secondary">
-
-                </p>
-                <div className="d-flex gap-4">
-                  <Link href="#" className="text-white">
-                    Terms & Conditions
-                  </Link>
-                  <Link href="#" className="text-white">
-                    Privacy Policy
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-2 col-md-3 col-12 text-center">
-              <img
-                src="./images/demigodnew.png"
-                alt="Logo"
-                className="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
+     
       </div>
     </>
   );

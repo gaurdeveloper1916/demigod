@@ -52,7 +52,13 @@ const Booknow = () => {
               music, and entertainment. Enjoy breathtaking ocean views, gourmet dining, and an
               exclusive party atmosphere like no other.
             </p>
-              <Link href="/landingpage">
+            <Link
+              href={{
+                pathname: '/landingpage',
+                query: { name: '  Sail into Luxury & Celebration'},
+              }}
+
+               >
                 <button className="btn">Book Now</button>
 
               </Link>
@@ -90,7 +96,11 @@ const Booknow = () => {
               this world-famous festival with exciting games, live performances, and a vibrant 
               atmosphere.
             </p></h2>
-              <Link href="/landingpage">
+            <Link
+              href={{
+                pathname: '/landingpage',
+                query: { name: ' Celebrate Oktoberfest in Style'},
+              }}>
                 <button className="btn ">Book Now</button>
 
               </Link>
@@ -129,7 +139,11 @@ const Booknow = () => {
               Enjoy immersive decor, live performances, and themed experiences inspired
               by blockbuster hits.
             </p>
-              <Link href="/landingpage">
+            <Link
+              href={{
+                pathname: '/landingpage',
+                query: { name: '  Experience the Magic of Movies '},
+              }}>
                 <button className="btn ">Book Now</button>
 
               </Link>
@@ -165,7 +179,11 @@ const Booknow = () => {
             <p>
             Join industry leaders and enthusiasts at our upcoming Video Event, where we'll delve into the latest trends in video production, editing techniques, and distribution strategies. Network with professionals, attend workshops, and gain insights to elevate your visual content.
             </p>
-              <Link href="/landingpage">
+            <Link
+              href={{
+                pathname: '/landingpage',
+                query: { name: ' Explore the Future of Visual Storytelling '},
+              }}>
                 <button className="btn">Book Now</button>
 
               </Link>

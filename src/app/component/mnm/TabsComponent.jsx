@@ -6,11 +6,7 @@ const TabsComponent = () => {
 
     return (
         <>
-            {/* Tabs navs */}
-        
-            {/* Tabs navs */}
 
-            {/* Tabs content */}
             <div className="tab-content p-4">
                 <div className={`tab-pane fade ${activeTab === "ex2-tabs-1" ? "show active" : ""}`}>
                     <div className="d-flex gap-4 justify-content-center align-items-center p-4">
@@ -72,7 +68,7 @@ const TabsComponent = () => {
                         </div>
                         <div className="col-lg-9">
                             <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                               3rd Party Contract
+                                3rd Party Contract
                             </h1>
                             <p className="text-white text-start">
                                 Brand Developement & Marketing, Print-media & Electronic-media,
@@ -199,15 +195,18 @@ const TabsComponent = () => {
             <ul className=" d-flex  gap-1 nav nav-tabs nav-fill mb-3 p-4" role="tablist">
                 <li className="nav-item" role="presentation">
                     <button
-                        className={`nav-link   smallfont  ${activeTab === "ex2-tabs-1" ? "active" : ""}`}
+                        className={`nav-link rounded border-0 smallfont ${activeTab === "ex2-tabs-1" ? "bg-primary text-white" : "text-black"
+                            }`}
                         onClick={() => setActiveTab("ex2-tabs-1")}
                     >
                         Brand Development
                     </button>
                 </li>
+
                 <li className="nav-item" role="presentation">
                     <button
-                        className={`nav-link smallfont ${activeTab === "ex2-tabs-2" ? "active" : ""}`}
+                        className={`nav-link smallfont ${activeTab === "ex2-tabs-2" ? "bg-primary text-white" : "text-black"
+                            }`}
                         onClick={() => setActiveTab("ex2-tabs-2")}
                     >
                         Brand Marketing
@@ -215,7 +214,8 @@ const TabsComponent = () => {
                 </li>
                 <li className="nav-item" role="presentation">
                     <button
-                        className={`nav-link smallfont ${activeTab === "ex2-tabs-3" ? "active" : ""}`}
+                        className={`nav-link smallfont ${activeTab === "ex2-tabs-3" ? "bg-primary text-white" : "text-black"
+                            }`}
                         onClick={() => setActiveTab("ex2-tabs-3")}
                     >
                         3rd Party contract
@@ -223,7 +223,8 @@ const TabsComponent = () => {
                 </li>
                 <li className="nav-item" role="presentation">
                     <button
-                        className={`nav-link smallfont ${activeTab === "ex2-tabs-4" ? "active" : ""}`}
+                        className={`nav-link smallfont ${activeTab === "ex2-tabs-4" ? "bg-primary text-white" : "text-black"
+                            }`}
                         onClick={() => setActiveTab("ex2-tabs-4")}
                     >
                         Brand Seo Funding
@@ -231,7 +232,8 @@ const TabsComponent = () => {
                 </li>
                 <li className="nav-item" role="presentation">
                     <button
-                        className={`nav-link smallfont ${activeTab === "ex2-tabs-5" ? "active" : ""}`}
+                        className={`nav-link smallfont ${activeTab === "ex2-tabs-5" ? "bg-primary text-white" : "text-black"
+                            }`}
                         onClick={() => setActiveTab("ex2-tabs-5")}
                     >
                         Brand Seo Funding
@@ -239,7 +241,8 @@ const TabsComponent = () => {
                 </li>
                 <li className="nav-item" role="presentation">
                     <button
-                        className={`nav-link  smallfont ${activeTab === "ex2-tabs-6" ? "active" : ""}`}
+                        className={`nav-link  smallfont ${activeTab === "ex2-tabs-6" ? "bg-primary text-white" : "text-black"
+                            }`}
                         onClick={() => setActiveTab("ex2-tabs-6")}
                     >
                         Brand Private Equity
@@ -247,7 +250,8 @@ const TabsComponent = () => {
                 </li>
                 <li className="nav-item" role="presentation">
                     <button
-                        className={`nav-link smallfont ${activeTab === "ex2-tabs-7" ? "active" : ""}`}
+                        className={`nav-link smallfont ${activeTab === "ex2-tabs-7" ? "bg-primary text-white" : "text-black"
+                            }`}
                         onClick={() => setActiveTab("ex2-tabs-7")}
                     >
                         B2B & B2C Events
