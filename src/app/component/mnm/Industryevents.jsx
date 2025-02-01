@@ -12,7 +12,7 @@ function Industryevents(props) {
             <p className="fw-bold text-white h1">events</p> */}
            <b> <h4><p className="text-white "> <span className="gradient-text fs-10">Demigod House</span>: Your Strategic Partner in Event Management, Media, and Marketing
             </p></h4></b>
-            <p className="text-white">At Demigod House, we provide a time-tested, structured, and results-driven sales, advertising, and marketing execution plan for brands across diverse sectors. Our approach ensures epic profitability, while maintaining effectiveness and efficiency for every client.Sectors We Are Pioneering, Practicing & Monopolistically Leading Across Global Markets:
+            <p className="text-white">At Demigod House, we provide a time-tested, structured, and results-driven sales, advertising, and marketing execution plan  with great success for brands across diversified sectors. Our approach ensures 12%-35% ROI profitability, Period ! While maintaining effectiveness and efficiency for every clientele investments.Sectors We Are Pioneering, Practicing & Monopolistically Leading Across Global Markets are as follows:
             </p>
         </div>
         <div className="col-lg-8">

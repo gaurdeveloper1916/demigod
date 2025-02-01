@@ -15,22 +15,15 @@ const TabsComponent = () => {
                         </div>
                         <div className="col-lg-9">
                             <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                Brand Developement WITH DEMIGOD HOUSE
+                                Brand Developement 
                             </h1>
                             <p className="text-white text-start">
-                                Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events! (repeat content)
+                            Articulating, designing and curating a strategic brand market image alongside reflecting the consumer's demand DNA &
+                            Structuirng in brand products & services.
+                            Our team Research, expertise & exposure  of the
+                            variety of commercial/Industrial sector gives us
+                            the edge & grasp of developing successfuly strategic
+                            Brand Story !
                             </p>
                         </div>
                     </div>
@@ -94,22 +87,10 @@ const TabsComponent = () => {
                         </div>
                         <div className="col-lg-9">
                             <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                MEDIA AND MARKETING WITH DEMIGOD HOUSE
+                                Brand Seed Funding
                             </h1>
                             <p className="text-white text-start">
-                                Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events! (repeat content)
+                                With an innovative 
                             </p>
                         </div>
                     </div>                </div>
@@ -120,25 +101,23 @@ const TabsComponent = () => {
                         </div>
                         <div className="col-lg-9">
                             <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                MEDIA AND MARKETING WITH DEMIGOD HOUSE
+                            Brand Seed Funding
                             </h1>
                             <p className="text-white text-start">
-                                Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events! (repeat content)
+                            With an innovative approach & ambitious growth plans, we
+                            are keen to establish a strategic collaboration with visionary
+                            partners across global markets.
+                            Association with DemiGod House, bring values, not just 
+                            in financial support but for strategic guidance that will
+                            propel brand towards market leadership.
+                            We'll be glad to host a virtual or in-person meeting
+                            regards to further discussions over
+                            our comprehensive business plans
+                            through brief over our proposition.
                             </p>
                         </div>
-                    </div>                </div>
+                    </div>               
+                 </div>
                 <div className={`tab-pane fade ${activeTab === "ex2-tabs-6" ? "show active" : ""}`}>
                     <div className="d-flex gap-4 justify-content-center align-items-center p-4">
                         <div className="col-lg-3 ">
@@ -149,19 +128,7 @@ const TabsComponent = () => {
                                 MEDIA AND MARKETING WITH DEMIGOD HOUSE
                             </h1>
                             <p className="text-white text-start">
-                                Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events!  Brand Developement & Marketing, Print-media & Electronic-media,
-                                Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B /
-                                B2C Events! (repeat content)
+                                
                             </p>
                         </div>
                     </div>                </div>
@@ -236,7 +203,7 @@ const TabsComponent = () => {
                             }`}
                         onClick={() => setActiveTab("ex2-tabs-5")}
                     >
-                        Brand Seo Funding
+                        Brand Seed Funding
                     </button>
                 </li>
                 <li className="nav-item" role="presentation">

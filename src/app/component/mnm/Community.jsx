@@ -15,7 +15,7 @@ function Community() {
         <div style={{ height: "38rem", overflow: "inherit" }} className="d-flex justify-content-center px-5 position-relative">
           <div style={{lineHeight:'4rem'}} className="d-flex flex-column text-white">
             <p className="m-0 community-fs  fw-bold">Our Global<span className="gradient-text fw-bold"> Print</span> </p>
-            <p className="m-0 community-fs fw-bold"><span className="gradient-text  fw-bold">Media</span> partner channel</p>
+            <p className="m-0 community-fs fw-bold"><span className="gradient-text  fw-bold">Media</span> channel partners</p>
             <p className="m-0 text-center">click on the circle to know our review</p>
           </div>
           <div className="position-absolute   linkdien-container all-container">

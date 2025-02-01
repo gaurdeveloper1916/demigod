@@ -25,24 +25,30 @@ export default function FridayNight() {
     {
       img: "/images/landing-page-images/section7/BLUE_COLLAR.webp",
       name: "Blue collar chronicles",
-      desc: "Description for Image 1",
+      desc: "An engaging journey through the lives of hardworking individuals in various industries.",
     },
     {
       img: "/images/landing-page-images/section7/COUPLE'S_MARATHON.webp",
-      name: "Marathon mingle",
-      desc: "Description for Image 2",
+      name: "Influencers Award Ceremony",
+      desc: "A prestigious evening celebrating the achievements of top influencers across various platforms.",
     },
     {
       img: "/images/landing-page-images/section7/PAINTBALL.webp",
       name: "Warzone Paintfull Tournament",
-      desc: "Description for Image 3",
+      desc: "An exciting, action-packed paintball tournament where teams battle for supremacy.",
     },
     {
       img: "/images/landing-page-images/section7/STANDUP.webp",
       name: "Comedy Show",
-      desc: "Description for Image 4",
+      desc: "A night of laughter and fun with performances by some of the best stand-up comedians.",
+    },
+    {
+      img: "/images/landing-page-images/section7/STANDUP.webp",
+      name: "Career Expo",
+      desc: "A networking event for students and professionals to explore new career opportunities.",
     }
   ];
+
 
   const settings = {
     slidesToShow: 4,
@@ -96,18 +102,38 @@ export default function FridayNight() {
                 </div>
                 <div className="p-3 text-white visible-on-hover">
                   <h6 className="m-0">{image.name}</h6>
-                  <p className="m-0 text-secondary">OSI in San Biagio</p>
-                  <p className="text-secondary">22.06.24 18:00</p>
+                  <p className="m-0 text-secondary">Location: India</p>
+                  <p className="text-secondary">{image.name === "Blue Collar Chronicles" ? "22.06.24 18:00" :
+                    image.name === "Influencers Award Ceremony" ? "25.06.24 19:00" :
+                    image.name === "Warzone Paintball Tournament" ? "30.06.24 15:00" :
+                    image.name === "Comedy Show" ? "05.07.24 20:00" :
+                    image.name === "Career Expo" ? "12.07.24 09:00" :
+                    "Date: TBD"}</p>
                   <h6 className="m-0">Peter Whelan</h6>
-                  <p className="text-secondary">Direttore</p>
+                  <p className="text-secondary">{image.name === "Blue Collar Chronicles" || image.name === "Career Expo" ? "Peter Whelan" :
+                    image.name === "Influencers Award Ceremony" ? "John Doe" :
+                    image.name === "Warzone Paintball Tournament" ? "Sarah Smith" :
+                    image.name === "Comedy Show" ? "Mike Johnson" : "Speaker"}</p>
+
+                <p className="text-secondary">
+                    {image.name === "Blue Collar Chronicles" ? "Direttore" :
+                    image.name === "Influencers Award Ceremony" ? "Event Organizer" :
+                    image.name === "Warzone Paintball Tournament" ? "Tournament Organizer" :
+                    image.name === "Comedy Show" ? "Comedian" :
+                    image.name === "Career Expo" ? "Organizer" : "Speaker"}
+                  </p>
                   <Link
               href={{
                 pathname: '/landingpage',
                 query: { name: image.name},
+                
               }}>
                     <button className="rounded-pill btn-custom px-4 py-2 text-white">
-                      Acquis biGE
-                    </button>
+                    {image.name === "Blue Collar Chronicles" ? "Join Now" :
+                  image.name === "Influencers Award Ceremony" ? "Learn More" :
+                  image.name === "Warzone Paintball Tournament" ? "Register Now" :
+                  image.name === "Comedy Show" ? "Get Tickets" :
+                  image.name === "Career Expo" ? "Explore Opportunities" : "Learn More"}                   </button>
                   </Link>
                 </div>
               </div>

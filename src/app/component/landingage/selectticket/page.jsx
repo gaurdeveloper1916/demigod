@@ -5,7 +5,7 @@ import { GoPlus } from "react-icons/go";
 import { IoArrowBackSharp } from "react-icons/io5";
 
 
-const Selectticket = ({name}) => {
+const Selectticket = ({ name = 'Economic Patriots Summit Euprope' }) => {
     return (
         <>
             <div className="d-flex justify-content-center align-items-center bg-black">
@@ -25,10 +25,9 @@ const Selectticket = ({name}) => {
                             <p className="text-white">ALREADY REGISTER ? <span style={{ color: 'orange' }}>LOG IN</span></p>
                             <div className="mt-5 d-flex flex-column">
                                 <p className="text-white">TICKET TYPE:VIRTUAL</p>
-                                <p className="text-white">EMAIL: INFOKARTIK@GMAIL.COM</p>
+                                <p className="text-white">EMAIL: info@demigodhouse.com</p>
                                 <p className="text-white">TOTAL:FREE</p>
-                                <p className="text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel velit possimus ullam voluptate reprehenderit voluptates praesentium. Vero totam repudiandae, beatae, fugit itaque, ratione quisquam ducimus recusandae ad illo optio deleniti?
-                                Vel velit possimus ullam voluptate reprehenderit voluptates praesentium. Vero totam repudiandae, beatae, fugit itaque, ratione quisquam ducimus recusandae ad illo optio deleniti
+                                <p className="text-white mt-3">Payment Method:
                                 </p>
 
                             </div>
@@ -75,8 +74,8 @@ const Selectticket = ({name}) => {
                                 </div>
                                 <button className="mb-3 fs-6 border rounded px-2 border-none text-white">FREE</button>
                             </div> */}
-                            <p className="text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel velit possimus ullam voluptate reprehenderit voluptates praesentium. Vero totam repudiandae, beatae, fugit itaque, ratione quisquam ducimus recusandae ad illo optio deleniti?</p>
-                            <p className="text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel velit possimus ullam voluptate reprehenderit voluptates praesentium. Vero totam repudiandae, beatae, fugit itaque, ratione quisquam ducimus recusandae ad illo optio deleniti?</p>
+                            <p className="text-white mt-3"></p>
+                            <p className="text-white mt-3"></p>
 
                         </div>
                     </div>

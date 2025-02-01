@@ -65,7 +65,7 @@ function LeadingOrganisation(props) {
         <div className="d-flex flex-lg-row flex-md-row flex-column justify-content-center align-items-center gap-5 p-4 overflow-hidden">
           <div className="col-lg-7"  data-aos="fade-right" data-aos-duration="1200">
             <p className="h1 text-white">
-              DemiGod <span className="gradient-text fw-bold"> House Proposition! </span>
+              DemiGod <span className="gradient-text fw-bold"> House Products & Services </span>
               <p className="font-medium fs-4 mt-2">A Marketing Agency with universal approach in print and electronic media sectors with astounding, effective & efficient brand marketing campaign's of 100% success track record.</p>
             </p>
             {/* <p className="h1 text-white ">

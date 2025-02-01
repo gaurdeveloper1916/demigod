@@ -9,19 +9,19 @@ const Prochainement
     {
       image:
         "/images/landing-page-images/section3/EUR.webp",
-      event_name: "Economic Patriots Summit India ",
+      event_name: "Economic Patriots Summit Euprope ",
       desc: "",
     },
     {
       image:
         "/images/landing-page-images/section3/INDIA.webp",
-        event_name: "Economic Patriots Summit USA",
+        event_name: "Economic Patriots Summit India",
       desc: "",
     },
     {
       image:
         "/images/landing-page-images/section3/USA.webp",
-        event_name: "Economic Patriots Summit Euprope",
+        event_name: "Economic Patriots Summit USA",
       desc: "",
     }
   ];
@@ -29,17 +29,17 @@ const Prochainement
     <div className=" p-5">
       <div className="d-flex justify-content-between align-items-center mx-lg-4 mx-0">
        <div>
-         <h4 className="text-white">Prochainement</h4></div>
+         <h4 className="text-white">Upcoming Events</h4></div>
       <div>
       <div className="d-lg-block d-md-block d-none">
-      <button className="px-4 py-2 rounded smallfont bg-black text-white border">Programmation</button>
+      <button className="px-4 py-2 rounded smallfont bg-black text-white border">View All Events</button>
       <MdArrowCircleLeft className="cursor"  color="white"size={34}/>
       <MdArrowCircleRight className="cursor" color="white"size={34} />
       </div>
 
       </div>
       </div>
-      <p className="text-white mx-lg-4 mx-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium culpa distinctio, ipsa ut assumenda nemo a sint architecto maxime doloremque expedita, aliquam veritatis accusamus dignissimos. Ratione eaque iste eligendi laboriosam. ipsa ut assumenda nemo a sint architecto maxime doloremque expedita, </p>
+      <p className="text-white mx-lg-4 mx-0">Stay updated with the latest Economic Patriots Summits happening around the world.</p>
       <div className="d-flex flex-lg-row flex-column justify-content-center align-items-center  gap-5 ">
         {arr.map((item, index) => {
           return (
