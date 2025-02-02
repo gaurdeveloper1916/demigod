@@ -89,6 +89,31 @@ const Sectionfive = () => {
             src="https://zaneandzoe.com/static/19bffd292942f66a7fb7d54ce9a7e029/a3cdc/zane-zoe-1.webp"
             alt="Wedding Image 5"
           />
+
+          {/* new added */}
+          <div className="inner-img content-wrapper gradient-text">
+            <h2>Priya misha
+
+            </h2>
+            <p className="fs-6 text-white ">For couples who prefer intimacy over grandeur, elopements are the perfect choice. With just the two of you (or a small group of loved ones), elopements focus on the romance and authenticity of your love story. Exchange vows in scenic, unique locations for a day that's truly your own.</p>
+          </div>
+          <img
+            className="inner-img"
+            src="https://zaneandzoe.com/static/19bffd292942f66a7fb7d54ce9a7e029/a3cdc/zane-zoe-1.webp"
+            alt="Wedding Image 5"
+          />
+           <div className="inner-img content-wrapper gradient-text">
+            <h2>kartik gaur
+
+            </h2>
+            <p className="fs-6 text-white ">For couples who prefer intimacy over grandeur, elopements are the perfect choice. With just the two of you (or a small group of loved ones), elopements focus on the romance and authenticity of your love story. Exchange vows in scenic, unique locations for a day that's truly your own.</p>
+          </div>
+          <img
+            className="inner-img"
+            src="https://zaneandzoe.com/static/19bffd292942f66a7fb7d54ce9a7e029/a3cdc/zane-zoe-1.webp"
+            alt="Wedding Image 5"
+          />
+
         </div>
       </div>
       <div id="page1"></div>

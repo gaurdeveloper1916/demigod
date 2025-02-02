@@ -13,3 +13,20 @@ color: #ee2aff;
   .section{
     background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);  
   }
+  .news-list {
+    list-style: disc;
+    padding-left: 20px;
+}
+.news-list li {
+    color: white;
+    font-weight: 500;
+}
+.news-list li::marker {
+    color: #fcb700;
+}
+.ago-text{
+  color: #747474;
+}
+.largefont{
+  font-size: 54px;
+}

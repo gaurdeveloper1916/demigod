@@ -237,3 +237,27 @@ body::-webkit-scrollbar-thumb {
 .text-heading{
   color: #dbb85e;
 }
+.tab-css-button{
+  background: #edeff3;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .2375px;
+  /* margin-right:2px; */
+  padding: 6.5px 20px;
+  text-align: center;
+  white-space: nowrap;
+}
+.tab-css-button-slected{
+  background: #dbb85e;
+  border-radius: 4px;
+  display: inline-flex;
+  font-size: 14px;
+  font-weight:900;
+  letter-spacing: .2375px;
+  /* margin-right: 2px; */
+  padding: 6.5px 10px;
+  text-align: center;
+  /* white-space: nowrap; */
+}
