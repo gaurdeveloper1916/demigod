@@ -6,6 +6,10 @@
   height: 74px;
   /* margin-left: 20px; */
 }
+.logoImage-footer{
+  width: 251px;
+  height: 174px;
+}
 
 .ul-custom {
   list-style: none;
@@ -238,23 +242,30 @@ body::-webkit-scrollbar-thumb {
   color: #dbb85e;
 }
 .tab-css-button{
-  background: #edeff3;
+  /* background: #edeff3; */
   border-radius: 4px;
   display: inline-flex;
-  font-size: 14px;
-  font-weight: 600;
+  color: #dbb85e;
+  font-size: 77px;
+    font-weight: 600;
   letter-spacing: .2375px;
+  font-family: cursive;
+
   /* margin-right:2px; */
   padding: 6.5px 20px;
   text-align: center;
   white-space: nowrap;
 }
 .tab-css-button-slected{
-  background: #dbb85e;
+  /* background: #dbb85e; */
   border-radius: 4px;
+  font-family: cursive;
   display: inline-flex;
-  font-size: 14px;
-  font-weight:900;
+  font-size: 77px;
+    font-weight:900;
+  text-decoration: overline;
+
+  color: white;
   letter-spacing: .2375px;
   /* margin-right: 2px; */
   padding: 6.5px 10px;

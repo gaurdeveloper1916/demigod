@@ -1,5 +1,7 @@
 'use client'
 import { useState } from "react";
+import { FiChevronsLeft } from "react-icons/fi";
+import { FiChevronsRight } from "react-icons/fi";
 
 const TabsComponent = () => {
     const [activeTab, setActiveTab] = useState("ex2-tabs-1");
@@ -19,19 +21,24 @@ const TabsComponent = () => {
 
             <div className="w-full px-4">
                 <ul
-                    className="d-flex gap-1 nav nav-ta nav-fil mb-3 overflow-x-auto lg:overflow-hidden lg-px-4"
+                    className="d-flex  nav nav-ta nav-fil mb-3 overflow-x-auto lg:overflow-hidden lg-px-4"
                     role="tablist"
                     style={{ whiteSpace: "nowrap", flexWrap: "nowrap" }}
                 >
                     {tabs.map((tab) => (
-                        <li key={tab.id} role="presentation">
+                        <li className="d-flex  justify-content-center align-items-center" key={tab.id} role="presentation">
                             <p
-                                className={`${activeTab === tab.id ? "tab-css-button-slected" : "tab-css-button"
+                                className={`${activeTab === tab.id ? "tab-css-button-slected mx-4 " : "tab-css-button mx-4 "
                                     }`}
                                 onClick={() => setActiveTab(tab.id)}
                             >
                                 {tab.label}
                             </p>
+                            <div className="d-flex">
+                                <FiChevronsLeft size={100} className="text-secondary"/>
+                                <FiChevronsRight size={100}  className="text-secondary"/>
+                            </div>
+                            {/* <p className="fs-1 w-100 text-white gradient-text">|</p> */}
                         </li>
                     ))}
                 </ul>
