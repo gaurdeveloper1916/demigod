@@ -84,7 +84,7 @@ function Footer(props) {
         <hr className="text-white" />
 
         {/* Support and Links Section */}
-        <div className="container py-4">
+        <div className="container-fluid py-5">
           <div className="row justify-content-center align-items-start">
             {/* Left Column */}
             <div className="col-lg-12 col-md-12 col-12 d-flex flex-wrap justify-content-center align-items-start gap-4">
@@ -92,7 +92,7 @@ function Footer(props) {
               <img
                 src="./images/demigodnew.png"
                 alt="Logo"
-                className="img-fluid logoImage"
+                className="img-fluid logoImage-footer"
               />
               </div>
               <div className="text-white verySmallFont">
@@ -154,7 +154,7 @@ function Footer(props) {
                 <button className="verySmallFont border-0 rounded px-3 py-2 text-white">
                   Follow us on Social Media
                 </button>
-                <ul className="list-unstyled d-flex justify-content-center gap-3 mt-3">
+                <ul className="list-unstyled d-flex flex-column  justify-content-center align-items-center gap-3 mt-3">
                   <li>
                     <a
                       href="https://www.facebook.com/DemiGodCloud"
