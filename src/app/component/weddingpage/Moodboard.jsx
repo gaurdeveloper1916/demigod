@@ -15,7 +15,7 @@ function Moodboard() {
   const handleClose = () => setShowModal(false);
 
   return (
-    <div className="container d-flex justify-content-center align-items-center flex-column text-white margins">
+    <div className="container-fluid py-5 bg-black d-flex justify-content-center align-items-center flex-column text-white margins">
       <div className="d-flex justify-content-between col-lg-8 align-items-center moodboard-sub col-10">
         <h1>flavia D</h1>
         <h1>2024</h1>

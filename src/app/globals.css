@@ -199,7 +199,7 @@ body::-webkit-scrollbar-thumb {
 .gradient-text {
   background-image: linear-gradient(90deg, rgba(74,68,161,1) 13%, rgba(198,162,203,1) 100%, rgba(0,212,255,1) 100%);
   background-clip: text;
-  -webkit-background-clip: text; /* For WebKit browsers */
+  -webkit-background-clip: text; 
   color: transparent;
 }
 .gradient-text-light-black {
@@ -212,19 +212,17 @@ body::-webkit-scrollbar-thumb {
   background-color: linear-gradient(90deg, rgba(200,200,200,0.1) 0%, rgba(255,255,255,1) 100%);
 }
 .bg-card{
-  background: rgba(255, 255, 255, 0.15); /* Lightens the background with a white shade */
+  background: rgba(255, 255, 255, 0.15); 
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.3); /* Makes the border a bit more prominent with a white tone */
+  border: 1px solid rgba(255, 255, 255, 0.3); 
 }
 .bg-cards-inner{
   background: rgb(241 236 236 / 15%);
-  /* box-shadow: 0 8px 32px 0 rgb(108 113 182 / 37%); */
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
-  /* border: 1px solid rgba(255, 255, 255, 0.18); */
 }
 .bg-whitesh{
   background-color: rgb(35 38 40) 
@@ -242,11 +240,11 @@ body::-webkit-scrollbar-thumb {
   color: #dbb85e;
 }
 .tab-css-button{
-  /* background: #edeff3; */
+  /* background: transparent; */
   border-radius: 4px;
   display: inline-flex;
   color: #dbb85e;
-  font-size: 77px;
+  font-size: 20px;
     font-weight: 600;
   letter-spacing: .2375px;
   font-family: cursive;
@@ -257,13 +255,16 @@ body::-webkit-scrollbar-thumb {
   white-space: nowrap;
 }
 .tab-css-button-slected{
-  /* background: #dbb85e; */
+  background: #dbb85e;
   border-radius: 4px;
   font-family: cursive;
   display: inline-flex;
-  font-size: 77px;
+  font-size: 20px;
     font-weight:900;
   text-decoration: overline;
+
+
+
 
   color: white;
   letter-spacing: .2375px;
@@ -271,4 +272,23 @@ body::-webkit-scrollbar-thumb {
   padding: 6.5px 10px;
   text-align: center;
   /* white-space: nowrap; */
+}
+
+.title-des{
+  background-color: #071d39;
+}
+
+
+.overflow-x-auto::-webkit-scrollbar {
+  display: none;
+}
+
+.overflow-x-auto {
+  scrollbar-width: none;
+}
+
+.overflow-x-auto {
+  -ms-overflow-style: none; 
+  overflow-x: auto;
+  white-space: nowrap;
 }
