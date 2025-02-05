@@ -44,7 +44,7 @@ function Footer(props) {
     "DemiGod Shield",
   ];
   const shortcut = [{ name: "Home", linking: "/" }, { name: "M&M", linking: "/m&m" }, { name: "Corporate", linking: "corporate" }, { name: "Weddings", linking: "wedding" },
-    { name: "Contact", linking: "contact-us" },{ name: "About us", linking: "/about_us" }
+    { name: "Contact us", linking: "contact-us" },{ name: "About us", linking: "/about_us" }
   ]
   return (
     <>

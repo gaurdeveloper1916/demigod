@@ -36,18 +36,16 @@ function page(props) {
       >
         <div className="col-lg-10  d-flex flex-column justify-content-center align-items-center p-lg-5 p-4">
           <div className="col-lg-6 col-12 d-flex flex-column justify-content-center align-items-center mt-5">
-            <p className="contact_heading m-0">Contact Us</p>
+            <p className="contact_heading m-0">Get in touch</p>
             <p className="text-center">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est,
-              quae ut excepturi assumenda eos vero quaerat fugit ea similique
-              reprehenderit corrupti incidunt laboriosam maxime porro
-              perspiciatis, autem numquam tempore debitis!
+              
+              Thanks for your interest in DemiGod House. Choose from the options below and we’ll connect you with the right person.
             </p>
             {/* <div className="border col-lg-2  py-1 px-2 d-flex flex-column rounded-pill  justify-content-center align-items-center my-3 ">
               <RiArrowDropDownLine size={30} />
             </div> */}
           </div>
-          <div
+          {/* <div
             className="d-flex position-absolute  latest_event"
 
           >
@@ -55,7 +53,7 @@ function page(props) {
               SEE THE LATEST EVENTS{" "}
             </p>
             <MdArrowOutward size={25} />
-          </div>
+          </div> */}
         </div>
       </div>
 
@@ -63,24 +61,37 @@ function page(props) {
         <div className="col-lg-10">
           <div className="d-flex flex-lg-row flex-column gap-4">
             <div className="col-lg-8 px-5">
-              <h4 className=" text-warning">Honesty Intrested in US</h4>
+              <h4 className=" text-warning">READ FAQs</h4>
               <p className=" ">
-                If you require any further amet consectetur adipisicing elit.
-                <br></br> Eius commodi excepturi voluptatem quo nisi rerum
-                debitis odio.<br></br> Iusto adipisci delectus natus laboriosam
-                dolorum quas at deleniti.{" "}
+              Visit- http://support.demigodhouse.com/support/home
               </p>
-              <p className="smallfont fw-bold">
+              <h4 className=" text-warning"> Trouble with Event Booking?</h4>
+              <p className=" ">
+              Email us at info@demigodhouse.com
+              </p>
+              <h4 className=" text-warning"> Issues Listing or Managing your Event?</h4>
+              <p className=" ">
+              Email us at info@demigodhouse.com
+              </p>
+              <p className=" ">
+              For Indonesia : Email us at info@demigodhouse.com
+              </p>
+              <p className=" ">
+              For UAE : Email us at info@demigodhouse.com
+              </p> 
+              {/* <p className="smallfont fw-bold">
                 We are most selective voluptatem quo nisi rerum debitis odio.
                 <br></br>
                 Iusto adipisci delectus natus laboriosam dolorum quas at
                 deleniti.
-              </p>
+              </p> */}
+
+
               <hr />
-              <div className="d-flex ">
+              {/* <div className="d-flex ">
                 <IoLocation size={24} className="text-warning" />
                 <p className="mx-2">
-                  Via Bettole,68 240550 Parrirano(BS)Italia
+                  India
                 </p>
               </div>
               <div className="d-flex">
@@ -98,7 +109,7 @@ function page(props) {
                 <BsTwitter />
                 <BsLinkedin />
                 <FaFacebook />
-              </div>
+              </div> */}
               <div className=" mt-lg-4">
                 <button
                   className="button-all mt-5 px-4 py-2  text-black fw-bold"
@@ -137,7 +148,9 @@ function page(props) {
           }}
         >
           <div className="col-lg-4">
-            <h4>Fill In your Details</h4>
+            <h4>Ran into a problem?{""}
+              <span>Let us help you out.</span>
+            </h4>
             <div className="d-flex flex-column mt-4">
               <label>Name</label>
               <input
@@ -155,13 +168,14 @@ function page(props) {
               ></input>
             </div>
             <div className="d-flex flex-column mt-2">
-              <label>Phone Number</label>
+              <label>Mobile No</label>
               <input
                 type="text"
                 className="rounded px-3 py-2 mt-1 input-box-custom"
                 placeholder="Enter your phone"
               ></input>
             </div>
+            
             <div className="d-flex flex-column mt-2">
               <label>Leave a message</label>
               <input
@@ -247,3 +261,5 @@ function page(props) {
 }
 
 export default page;
+
+
