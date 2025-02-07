@@ -161,6 +161,35 @@ import Lovestory from "../component/weddingpage/v2.1/Lovestory"
 import GallerySlider from "../component/weddingpage/GallerySlider"
 import Moodboard from "../component/weddingpage/Moodboard"
 import './styles.css'
+
+export const metadata = {
+  title: 'Weeding House',
+  description: '',
+  alternates: {
+    canonical: ``,
+  },
+  openGraph: {
+    title: '',
+    description: '',
+    url:'',
+    images: [
+      {
+        url: '',
+      },
+    ],
+  },
+  twitter: {
+    title: '',
+    description: '',
+    image: '',
+  },
+  linkedin: {
+    title:'',
+    description: '',
+    image: '',
+  },
+};
+
 const page =()=>{
   return(
     <>

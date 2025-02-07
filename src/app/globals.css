@@ -292,3 +292,20 @@ body::-webkit-scrollbar-thumb {
   overflow-x: auto;
   white-space: nowrap;
 }
+.info_card {
+  background: #071d39;
+  bottom: 0;
+  padding: 0 32px;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+.info_card ::before {
+  background: linear-gradient(#0000, #071d39);
+  content: "";
+  height: 65px;
+  left: 0;
+  position: absolute;
+  top: -65px;
+  width: 100%;
+}

@@ -12,6 +12,33 @@ import Prochainement from "./component/homepage/Prochainement";
 import Testtube from "./component/homepage/TestTube";
 import TwoImagesDiv from "./component/homepage/TwoImagesDiv";
 
+export const metadata = {
+  title: 'Demigod House',
+  description: '',
+  alternates: {
+    canonical: ``,
+  },
+  openGraph: {
+    title: '',
+    description: '',
+    url:'',
+    images: [
+      {
+        url: '',
+      },
+    ],
+  },
+  twitter: {
+    title: '',
+    description: '',
+    image: '',
+  },
+  linkedin: {
+    title:'',
+    description: '',
+    image: '',
+  },
+};
 export default function Home() {
   return (
     <div className="bg-black container-fluid p-0">

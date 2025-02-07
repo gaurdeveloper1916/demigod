@@ -4,7 +4,9 @@ import Eventmanagement from '../component/corporate/v2/event-managment/Eventmana
 import Uniting from '../component/corporate/v2/Uniting';
 import Weplanwecelebrate from '../component/corporate/v2/Weplanwecelebrate';
 
+
 const page = () => {
+
     return (
         <>
         <Uniting/>
