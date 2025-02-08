@@ -1,10 +1,13 @@
 'use client'
+// import { useAppContext } from "@/context/AppContext";
 import { useState } from "react";
 import { FiChevronsLeft } from "react-icons/fi";
 import { FiChevronsRight } from "react-icons/fi";
 
 const TabsComponent = () => {
     const [activeTab, setActiveTab] = useState("ex2-tabs-1");
+    // const { state, setState } = useAppContext();
+    // console.log(state, "state")
 
     const tabs = [
         { id: "ex2-tabs-1", label: "Brand Development" },
@@ -26,18 +29,25 @@ const TabsComponent = () => {
                     style={{ whiteSpace: "nowrap", flexWrap: "nowrap" }}
                 >
                     {tabs.map((tab) => (
-                        <li className="d-flex  justify-content-center align-items-center" key={tab.id} role="presentation">
-                            <p
+                        <li className="d-flex  justify-content-center align-items-center" key={tab.id}
+                            role="presentation">
+                            {/* <p
                                 className={`${activeTab === tab.id ? "tab-css-button-slected mx-4 " : "tab-css-button mx-4 "
                                     }`}
                                 onClick={() => setActiveTab(tab.id)}
                             >
+                                
+                            </p> */}
+                            <button
+                                onClick={() => setActiveTab(tab.id)}
+                                className={`verySmallFont border-0 rounded px-3 py-2 text-white ${activeTab === tab.id ? "tab-css-button-slected mx-4 " : "tab-css-button mx-4 "
+                                    }`}  >
                                 {tab.label}
-                            </p>
-                            <div className="d-flex">
+                            </button>
+                            {/* <div className="d-flex">
                                 <FiChevronsLeft size={100} className="text-secondary"/>
                                 <FiChevronsRight size={100}  className="text-secondary"/>
-                            </div>
+                            </div> */}
                             {/* <p className="fs-1 w-100 text-white gradient-text">|</p> */}
                         </li>
                     ))}
@@ -51,10 +61,10 @@ const TabsComponent = () => {
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
 
-                            <div className="d-flex flex-column ">
+                            {/* <div className="d-flex flex-column ">
                                 <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
 
-                                <div className="my-3">
+                                <div className="title-des  p-3">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4 ago-text">
                                         Brand Developement
                                     </h1>
@@ -67,7 +77,31 @@ const TabsComponent = () => {
                                         Brand Story !
                                     </p>
                                 </div>
+                            </div> */}
+
+                            <div
+                                className=" border border-0 position-relative"
+                                style={{ borderRadius: "10px" }}
+                            >
+                                <img
+                                    src="https://image.cnbcfm.com/api/v1/image/107405058-17….jpeg?v=1738824724&w=560&h=470&ffmt=webp&vtcrop=y"
+                                    className="img-fluid w-100"
+                                    style={{ height: "500px" }}
+                                />
+                                <div className="info_card p-3 text-white">
+                                    <h4>
+                                        Volvo Cars weighs tariffs-led production move, warns of
+                                        'hyper-competitiveness' in China
+                                    </h4>
+                                    <p>
+                                        "We're preparing ourselves to see whether we need to start looking at
+                                        production relocation or or even supplier relocation," Volvo Cars CEO
+                                        Jim Rowan told CNBC.
+                                    </p>
+                                </div>
                             </div>
+
+
                             {/* </div> */}
                         </div>
                         <div className="col-lg-7  p-3">
@@ -100,7 +134,7 @@ const TabsComponent = () => {
                             <div className="d-flex flex-column">
                                 <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
 
-                                <div className="my-3">
+                                <div className="title-des p-3">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
                                         Brand MARKETING WITH DEMIGOD HOUSE
 
@@ -149,20 +183,20 @@ const TabsComponent = () => {
                             <div className="d-flex flex-column">
                                 <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
 
-                               <div className="my-3">
-                               <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                               3rd Party Contract
+                                <div className="title-des  p-3">
+                                    <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
+                                        3rd Party Contract
 
-                                </h1>
-                                <p className="text-white text-start">
-                                    Articulating, designing and curating a strategic brand market image alongside reflecting the consumer's demand DNA &
-                                    Structuirng in brand products & services.
-                                    Our team Research, expertise & exposure  of the
-                                    variety of commercial/Industrial sector gives us
-                                    the edge & grasp of developing successfuly strategic
-                                    Brand Story !
-                                </p>
-                               </div>
+                                    </h1>
+                                    <p className="text-white text-start">
+                                        Articulating, designing and curating a strategic brand market image alongside reflecting the consumer's demand DNA &
+                                        Structuirng in brand products & services.
+                                        Our team Research, expertise & exposure  of the
+                                        variety of commercial/Industrial sector gives us
+                                        the edge & grasp of developing successfuly strategic
+                                        Brand Story !
+                                    </p>
+                                </div>
                             </div>
                             {/* </div> */}
                         </div>
@@ -194,18 +228,18 @@ const TabsComponent = () => {
 
                             <div className="d-flex flex-column">
                                 <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
-                                <div className="my-3">
-                                <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                Brand SEO Funding
-                                </h1>
-                                <p className="text-white text-start">
-                                    Articulating, designing and curating a strategic brand market image alongside reflecting the consumer's demand DNA &
-                                    Structuirng in brand products & services.
-                                    Our team Research, expertise & exposure  of the
-                                    variety of commercial/Industrial sector gives us
-                                    the edge & grasp of developing successfuly strategic
-                                    Brand Story !
-                                </p>
+                                <div className="title-des  p-3">
+                                    <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
+                                        Brand SEO Funding
+                                    </h1>
+                                    <p className="text-white text-start">
+                                        Articulating, designing and curating a strategic brand market image alongside reflecting the consumer's demand DNA &
+                                        Structuirng in brand products & services.
+                                        Our team Research, expertise & exposure  of the
+                                        variety of commercial/Industrial sector gives us
+                                        the edge & grasp of developing successfuly strategic
+                                        Brand Story !
+                                    </p>
                                 </div>
                             </div>
                             {/* </div> */}
@@ -238,18 +272,18 @@ const TabsComponent = () => {
 
                             <div className="d-flex flex-column">
                                 <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
-                                <div className="my-3">
-                                <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                Brand Seed Funding
-                                </h1>
-                                <p className="text-white text-start">
-                                    Articulating, designing and curating a strategic brand market image alongside reflecting the consumer's demand DNA &
-                                    Structuirng in brand products & services.
-                                    Our team Research, expertise & exposure  of the
-                                    variety of commercial/Industrial sector gives us
-                                    the edge & grasp of developing successfuly strategic
-                                    Brand Story !
-                                </p>
+                                <div className="title-des  p-3">
+                                    <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
+                                        Brand Seed Funding
+                                    </h1>
+                                    <p className="text-white text-start">
+                                        Articulating, designing and curating a strategic brand market image alongside reflecting the consumer's demand DNA &
+                                        Structuirng in brand products & services.
+                                        Our team Research, expertise & exposure  of the
+                                        variety of commercial/Industrial sector gives us
+                                        the edge & grasp of developing successfuly strategic
+                                        Brand Story !
+                                    </p>
                                 </div>
                             </div>
                             {/* </div> */}
@@ -282,19 +316,19 @@ const TabsComponent = () => {
 
                             <div className="d-flex flex-column">
                                 <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
-                                <div className="my-3">
-                                <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                   Brand Private Equity
+                                <div className="title-des  p-3">
+                                    <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
+                                        Brand Private Equity
 
-                                </h1>
-                                <p className="text-white text-start">
-                                    Articulating, designing and curating a strategic brand market image alongside reflecting the consumer's demand DNA &
-                                    Structuirng in brand products & services.
-                                    Our team Research, expertise & exposure  of the
-                                    variety of commercial/Industrial sector gives us
-                                    the edge & grasp of developing successfuly strategic
-                                    Brand Story !
-                                </p>
+                                    </h1>
+                                    <p className="text-white text-start">
+                                        Articulating, designing and curating a strategic brand market image alongside reflecting the consumer's demand DNA &
+                                        Structuirng in brand products & services.
+                                        Our team Research, expertise & exposure  of the
+                                        variety of commercial/Industrial sector gives us
+                                        the edge & grasp of developing successfuly strategic
+                                        Brand Story !
+                                    </p>
                                 </div>
                             </div>
                             {/* </div> */}
@@ -327,19 +361,19 @@ const TabsComponent = () => {
 
                             <div className="d-flex flex-column">
                                 <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
-                                <div className="my-3">
-                                <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                    B2B & B2C Events
+                                <div className="title-des  p-3">
+                                    <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
+                                        B2B & B2C Events
 
-                                </h1>
-                                <p className="text-white text-start">
-                                    Articulating, designing and curating a strategic brand market image alongside reflecting the consumer's demand DNA &
-                                    Structuirng in brand products & services.
-                                    Our team Research, expertise & exposure  of the
-                                    variety of commercial/Industrial sector gives us
-                                    the edge & grasp of developing successfuly strategic
-                                    Brand Story !
-                                </p>
+                                    </h1>
+                                    <p className="text-white text-start">
+                                        Articulating, designing and curating a strategic brand market image alongside reflecting the consumer's demand DNA &
+                                        Structuirng in brand products & services.
+                                        Our team Research, expertise & exposure  of the
+                                        variety of commercial/Industrial sector gives us
+                                        the edge & grasp of developing successfuly strategic
+                                        Brand Story !
+                                    </p>
                                 </div>
                             </div>
                             {/* </div> */}

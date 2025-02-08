@@ -69,12 +69,12 @@ function Footer(props) {
           <div className="d-flex gap-4">
             {demiGroup.map((item, i) => (
               <div key={i + 1} className="text-center">
-                {/* <img
-                  className="m-0 logoImage-footer"
+                <img
+                  className="m-0 logoImage-footer-marque"
                   
                   src="/images/demigodnew.png"
                   alt="Logo"
-                /> */}
+                />
                 <p className="text-center text-web">{item}</p>
               </div>
             ))}

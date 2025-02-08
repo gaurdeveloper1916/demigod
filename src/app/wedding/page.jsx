@@ -158,7 +158,38 @@ import Accordian from "../component/weddingpage/v2.1/Subcomponent/Accordian";
 import VendorCategories from "../component/weddingpage/v2.1/VendorCategory";
 import WeddinfSlider from "../component/weddingpage/WeddinfSlider";
 import Lovestory from "../component/weddingpage/v2.1/Lovestory"
+import GallerySlider from "../component/weddingpage/GallerySlider"
+import Moodboard from "../component/weddingpage/Moodboard"
 import './styles.css'
+
+export const metadata = {
+  title: 'Weeding House',
+  description: '',
+  alternates: {
+    canonical: ``,
+  },
+  openGraph: {
+    title: '',
+    description: '',
+    url:'',
+    images: [
+      {
+        url: '',
+      },
+    ],
+  },
+  twitter: {
+    title: '',
+    description: '',
+    image: '',
+  },
+  linkedin: {
+    title:'',
+    description: '',
+    image: '',
+  },
+};
+
 const page =()=>{
   return(
     <>
@@ -166,13 +197,16 @@ const page =()=>{
         <Sectionone/>
         <Sectiontwo/>
         <Sectionfour/>
-        
+        <Moodboard/>
+
         <Sectionthree/>
         <Accordian/>
         <Sectionfive/>
         <VendorCategories/>
         <Lovestory/>
         
+         {/* <GallerySlider/> */}
+         <Moodboard/>
 
 
     </>
