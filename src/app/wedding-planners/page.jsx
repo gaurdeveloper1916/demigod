@@ -163,10 +163,10 @@ import Moodboard from "../component/weddingpage/Moodboard"
 import './styles.css'
 
 export const metadata = {
-  title: 'Weeding House',
-  description: '',
+  title: 'DemiGod Wedding Planners',
+  description: 'Best Wedding Planners in India and overseas, with more than 12 years of event management experience',
   alternates: {
-    canonical: ``,
+    canonical: `https://www.demigodhouse.com/wedding`,
   },
   openGraph: {
     title: '',
@@ -198,7 +198,6 @@ const page =()=>{
         <Sectiontwo/>
         <Sectionfour/>
         <Moodboard/>
-
         <Sectionthree/>
         <Accordian/>
         <Sectionfive/>
