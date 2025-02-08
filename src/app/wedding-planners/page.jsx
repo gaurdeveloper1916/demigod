@@ -198,7 +198,6 @@ const page =()=>{
         <Sectiontwo/>
         <Sectionfour/>
         <Moodboard/>
-
         <Sectionthree/>
         <Accordian/>
         <Sectionfive/>
