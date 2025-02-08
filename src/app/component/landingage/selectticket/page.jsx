@@ -1,11 +1,11 @@
 "use client";
-import React from "react";
+import React, { useContext } from "react";
 import { FiMinus } from "react-icons/fi";
 import { GoPlus } from "react-icons/go";
 import { IoArrowBackSharp } from "react-icons/io5";
-
-
-const Selectticket = ({ name = 'Economic Patriots Summit Euprope' }) => {
+import { Auth } from "../../../../context/AppContext";
+const Selectticket = () => {
+    const {landingHeading,landingDes} =useContext(Auth)
     return (
         <>
             <div className="d-flex justify-content-center align-items-center bg-black">
@@ -19,7 +19,8 @@ const Selectticket = ({ name = 'Economic Patriots Summit Euprope' }) => {
                             </div>
 
                             <div style={{ lineHeight: '40px' }}>
-                                <p style={{ fontSize: '30px', fontWeight: '700' }} className="m-0 text-white">{name}</p>
+                                <p style={{ fontSize: '30px', fontWeight: '700' }} className="m-0 text-white">{landingHeading}</p>
+
                                 {/* <p style={{ fontSize: '45px', fontWeight: '700' }} className="text-white">or watch virtually</p> */}
                             </div>
                             <p className="text-white">ALREADY REGISTER ? <span style={{ color: 'orange' }}>LOG IN</span></p>
@@ -63,18 +64,9 @@ const Selectticket = ({ name = 'Economic Patriots Summit Euprope' }) => {
                                     alignItems: 'center',
                                     justifyContent: 'center'
                                 }} className=" px-3 rounded-circle py-2"> <GoPlus color="white" /></div>
-
-
-
                             </div>
-                            {/* <div className="d-flex justify-content-between align-items-center border px-4 py-2 rounded">
-                                <div>
-                                    <p className="m-0 text-white">Virtual</p>
-                                    <p className="text-secondary">Online livestreamed Keynote</p>
-                                </div>
-                                <button className="mb-3 fs-6 border rounded px-2 border-none text-white">FREE</button>
-                            </div> */}
-                            <p className="text-white mt-3"></p>
+                            
+                            <p className="text-white mt-3">{landingDes}</p>
                             <p className="text-white mt-3"></p>
 
                         </div>

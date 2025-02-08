@@ -1,16 +1,30 @@
 'use client'
 import { createContext, useContext, useState } from "react";
+export const Auth = createContext();
 
-const AppContext = createContext();
 
 export const AppProvider = ({ children }) => {
   const [state, setState] = useState("Hello from Context!");
-
+  const [landingHeading, setLandingHeading] = useState('Economic Patriots Summit Euprope')
+  const [landingDes, setLandingDes] = useState('')
+  function handleUpdate(heading,description) {
+    setLandingHeading(heading)
+    setLandingDes(description)
+  }
   return (
-    <AppContext.Provider value={{ state, setState }}>
-      {children}
-    </AppContext.Provider>
-  );
-};
+    <>
+      <Auth.Provider
+        value={{
+          state,
+          setState,
+          landingHeading, setLandingHeading,
+          landingDes, setLandingDes, handleUpdate
 
-export const useAppContext = () => useContext(AppContext);
+        }}
+      >
+        {children}
+      </Auth.Provider>
+    </>
+  );
+}
+export default AppProvider;

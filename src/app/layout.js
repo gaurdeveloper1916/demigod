@@ -10,12 +10,8 @@ import AOSInit from "./component/AOSInit";
 import Footer from "./component/common/footer/Footer";
 import { ToastContainer } from "react-toastify";
 import { Slide } from 'react-toastify';
-import AppProvider from '../context/AppContext'
+import AppProvider from "../context/AppContext"
 const inter = Inter({ subsets: ["latin"] });
-
-
-
-
 export default function RootLayout({ children }) {
   const customToastStyles = {
     borderRadius: '8px',
@@ -36,7 +32,7 @@ export default function RootLayout({ children }) {
         <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet" />
 
       </Head>
-      {/* <AppProvider> */}
+      <AppProvider>
         <body className={inter.className}>
           <ToastContainer
             position="bottom-right"
@@ -63,7 +59,7 @@ export default function RootLayout({ children }) {
           <Footer />
 
         </body>
-      {/* </AppProvider> */}
+      </AppProvider>
       <Script src="https://checkout.razorpay.com/v1/checkout.js"></Script>
 
     </html>

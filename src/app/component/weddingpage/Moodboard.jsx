@@ -16,13 +16,9 @@ function Moodboard() {
 
   return (
     <div className="container-fluid py-5 bg-black d-flex justify-content-center align-items-center flex-column text-white margins">
-      <div className="d-flex justify-content-between col-lg-8 align-items-center moodboard-sub col-10">
-        <h1>flavia D</h1>
-        <h1>2024</h1>
-        <h1>inspiring</h1>
-      </div>
+  
       <div className="col-lg-8 d-flex flex-column align-items-center justify-content-center">
-        <h1 className="moodboard">moodboard</h1>
+        <h1 className="moodboard">traditional </h1>
   <div className="row d-flex flex-wrap align-items-center justify-content-center">
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
       <img

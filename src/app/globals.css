@@ -8,9 +8,17 @@
 }
 .logoImage-footer{
   width: 251px;
-  height: 174px;
+  height: 134px;
 }
-
+.logoImage-footer-marque{
+  width: 170px;
+  height: 134px;
+}
+.moodboard{
+  font-size: 200px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
 .ul-custom {
   list-style: none;
 }
@@ -244,7 +252,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 4px;
   display: inline-flex;
   color: #dbb85e;
-  font-size: 20px;
+  font-size: 32px;
     font-weight: 600;
   letter-spacing: .2375px;
   font-family: cursive;
@@ -259,7 +267,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 4px;
   font-family: cursive;
   display: inline-flex;
-  font-size: 20px;
+  font-size: 32px;
     font-weight:900;
   text-decoration: overline;
 
