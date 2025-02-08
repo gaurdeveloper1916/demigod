@@ -36,7 +36,7 @@ const Sectionfive = () => {
             alt="Wedding Image 1"
           />
           <div className="inner-img content-wrapper gradient-text">
-            <h2>Destination Weddings
+            <h2 className="gradient-text"> Destination Weddings
 
             </h2>
             <p className="fs-6 text-white">
@@ -48,7 +48,7 @@ const Sectionfive = () => {
             alt="Wedding Image 2"
           />
           <div className="inner-img content-wrapper gradient-text">
-            <h2>Celebrity Weddings
+            <h2 className="gradient-text">Celebrity Weddings
             </h2>
             <p className="fs-6 text-white">We understand the importance of privacy, professionalism and keeping paparazzi at the bay during a celebrity's wedding planning / execution . Apart from 7 Star hospitality and transportation services for the guest we ensure to perform and manage every ceremonial affairs or decor in the most cinematic and royal format. 
             </p>
@@ -59,7 +59,7 @@ const Sectionfive = () => {
             alt="Wedding Image 3"
           />
           <div className="inner-img content-wrapper gradient-text">
-            <h2>Traditional Weddings
+            <h2 className="gradient-text">Traditional Weddings
             </h2>
             <p className="fs-6 text-white">Celebrate your roots with a traditional wedding. These ceremonies are steeped in cultural customs and rituals, showcasing timeless elegance and meaningful traditions. From vibrant attire to symbolic rites, traditional weddings honor heritage while uniting families in a celebration of love and legacy.</p>
           </div>
@@ -69,7 +69,7 @@ const Sectionfive = () => {
             alt="Wedding Image 4"
           />
           <div className="inner-img content-wrapper gradient-text">
-            <h2>Courthouse Weddings
+            <h2 className="gradient-text">Courthouse Weddings
             </h2>
             <p className="fs-6 text-white">Let everyone know when and where your celebration is by adding your wedding date and a map with your venue’s location. Provide a contact page so guests can reach you. Link your gift registries and add your wed</p>
           </div>
@@ -79,7 +79,7 @@ const Sectionfive = () => {
             alt="Wedding Image 5"
           />
           <div className="inner-img content-wrapper gradient-text">
-            <h2>Elopements
+            <h2 className="gradient-text">Elopements
 
             </h2>
             <p className="fs-6 text-white ">For couples who prefer intimacy over grandeur, elopements are the perfect choice. With just the two of you (or a small group of loved ones), elopements focus on the romance and authenticity of your love story. Exchange vows in scenic, unique locations for a day that's truly your own.</p>
@@ -92,7 +92,7 @@ const Sectionfive = () => {
 
           {/* new added */}
           <div className="inner-img content-wrapper gradient-text">
-            <h2>Priya misha
+            <h2 className="gradient-text">Intimate Wedding
 
             </h2>
             <p className="fs-6 text-white ">For couples who prefer intimacy over grandeur, elopements are the perfect choice. With just the two of you (or a small group of loved ones), elopements focus on the romance and authenticity of your love story. Exchange vows in scenic, unique locations for a day that's truly your own.</p>
@@ -103,7 +103,7 @@ const Sectionfive = () => {
             alt="Wedding Image 5"
           />
            <div className="inner-img content-wrapper gradient-text">
-            <h2>kartik gaur
+            <h2 className="gradient-text">kartik gaur
 
             </h2>
             <p className="fs-6 text-white ">For couples who prefer intimacy over grandeur, elopements are the perfect choice. With just the two of you (or a small group of loved ones), elopements focus on the romance and authenticity of your love story. Exchange vows in scenic, unique locations for a day that's truly your own.</p>

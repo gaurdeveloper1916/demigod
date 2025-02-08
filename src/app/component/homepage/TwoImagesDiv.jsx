@@ -81,7 +81,7 @@ function TwoImagesDiv() {
     <div
       className="container-fluid p-5 mb-5 col-lg-11"
       style={{
-        backgroundImage: `url('/premium.jpg')`,
+        backgroundImage: `url('/ve.jpg')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',

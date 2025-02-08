@@ -23,54 +23,63 @@ function Moodboard() {
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
       <img
         alt="image"
-        src="/images/moodboard6.png"
+        src="/images/telgu.webp"
         className="img-fluid"
-        onClick={() => handleImageClick("/images/moodboard6.png")}
+        onClick={() => handleImageClick("/images/telgu.webp")}
         style={{ cursor: "pointer" }}
       />
     </div>
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
       <img
         alt="image"
-        src="/images/moodboard5.png"
+        src="/images/punjabi.webp"
         className="img-fluid"
-        onClick={() => handleImageClick("/images/moodboard5.png")}
+        onClick={() => handleImageClick("/images/punjabi.webp")}
         style={{ cursor: "pointer" }}
       />
     </div>
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
       <img
         alt="image"
-        src="/images/moodboard4.png"
+        src="/images/marwari.webp"
         className="img-fluid"
-        onClick={() => handleImageClick("/images/moodboard4.png")}
+        onClick={() => handleImageClick("/images/marwari.webp")}
         style={{ cursor: "pointer" }}
       />
     </div>
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
       <img
         alt="image"
-        src="/images/moodboard3.png"
+        src="/images/chris.webp"
         className="img-fluid"
-        onClick={() => handleImageClick("/images/moodboard3.png")}
+        onClick={() => handleImageClick("/images/chris.webp")}
         style={{ cursor: "pointer" }}
       />
     </div>
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
       <img
         alt="image"
-        src="/images/moodboard2.png"
+        src="/images/bengali.webp"
         className="img-fluid"
-        onClick={() => handleImageClick("/images/moodboard2.png")}
+        onClick={() => handleImageClick("/images/bengali.webp")}
         style={{ cursor: "pointer" }}
       />
     </div>
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
       <img
         alt="image"
-        src="/images/moodboard1.png"
+        src="/images/marathi.webp"
         className="img-fluid"
-        onClick={() => handleImageClick("/images/moodboard1.png")}
+        onClick={() => handleImageClick("/images/marathi.webp")}
+        style={{ cursor: "pointer" }}
+      />
+    </div>
+    <div className="col-5 col-sm-6 col-md-4 col-lg-2">
+      <img
+        alt="image"
+        src="/images/arabic.webp"
+        className="img-fluid"
+        onClick={() => handleImageClick("/images/arabic.webp")}
         style={{ cursor: "pointer" }}
       />
     </div>
@@ -83,7 +92,7 @@ function Moodboard() {
         <Modal.Body className="p-0">
           <div
             style={{
-              backgroundImage: `url('https://media.istockphoto.com/id/1055434948/photo/depressed-young-women-in-the-tunnel.jpg?s=612x612&w=0&k=20&c=HY4AeZ9AWxwmfFVuftQNbel63SUT2Rps-vg0OlWZD8E=')`,
+              backgroundImage: `url('https://www.ritabrata.com/wp-content/uploads/2023/01/DSCF4013.jpg')`,
               backgroundPosition: "center",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
@@ -95,13 +104,9 @@ function Moodboard() {
             <div className="d-flex align-items-center p-5">
               <div className="col-lg-4">
                 <div className="d-flex flex-column">
-                  <h1 className="text-white">Hello</h1>
+                  <h1 className="text-white">Bengali Wedding</h1>
                   <p className="text-white">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores temporibus laudantium modi, similique veniam
-                    officiis. Aspernatur mollitia eos, eveniet veniam magnam
-                    provident sequi nihil eaque cupiditate itaque vitae esse
-                    quos?
+                    Bengali wedding 
                   </p>
                 </div>
               </div>
