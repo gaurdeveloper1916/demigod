@@ -22,17 +22,23 @@ const TabsComponent = () => {
         <>
 
 
-            <div className="w-full px-4">
+            <div className="w-full px-1">
                 <ul
-                    className="d-flex  nav nav-ta nav-fil mb-3 overflow-x-auto lg:overflow-hidden lg-px-4"
+                    className="d-flex  nav nav-ta nav-fil mb-1 overflow-x-auto lg:overflow-hidden lg-px-4"
                     role="tablist"
                     style={{ whiteSpace: "nowrap", flexWrap: "nowrap" }}
                 >
                     {tabs.map((tab) => (
+<<<<<<< Updated upstream
                         <li className="d-flex  justify-content-center align-items-center" key={tab.id}
                             role="presentation">
                             {/* <p
                                 className={`${activeTab === tab.id ? "tab-css-button-slected mx-4 " : "tab-css-button mx-4 "
+=======
+                        <li className="d-flex  justify-content-center align-items-center" key={tab.id} role="presentation">
+                            <p
+                                className={`${activeTab === tab.id ? "tab-css-button-slected mx-1" : "tab-css-button mx-1 "
+>>>>>>> Stashed changes
                                     }`}
                                 onClick={() => setActiveTab(tab.id)}
                             >
@@ -43,11 +49,19 @@ const TabsComponent = () => {
                                 className={`verySmallFont border-0 rounded px-3 py-2 text-white ${activeTab === tab.id ? "tab-css-button-slected mx-4 " : "tab-css-button mx-4 "
                                     }`}  >
                                 {tab.label}
+<<<<<<< Updated upstream
                             </button>
                             {/* <div className="d-flex">
                                 <FiChevronsLeft size={100} className="text-secondary"/>
                                 <FiChevronsRight size={100}  className="text-secondary"/>
                             </div> */}
+=======
+                            </p>
+                            <div className="d-flex">
+                                <FiChevronsLeft size={40} className="text-secondary"/>
+                                <FiChevronsRight size={40}  className="text-secondary"/>
+                            </div>
+>>>>>>> Stashed changes
                             {/* <p className="fs-1 w-100 text-white gradient-text">|</p> */}
                         </li>
                     ))}
@@ -61,6 +75,7 @@ const TabsComponent = () => {
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
 
+<<<<<<< Updated upstream
                             <div
                                 className=" border border-0 position-relative"
                                 style={{ borderRadius: "10px" }}
@@ -83,6 +98,22 @@ const TabsComponent = () => {
                                             the edge & grasp of developing successfuly strategic
                                             Brand Story !
                                         </strong>
+=======
+                            <div className="d-flex flex-column ">
+                                <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
+
+                                <div className="my-3">
+                                    <h1 className="colo-bg fw-bold text-start text-white fs-1 ago-text">
+                                        Brand Developement
+                                    </h1>
+                                    <p className="text-white text-start ">
+                                        Articulating, designing and curating a strategic brand market image alongside reflecting the consumer's demand DNA &
+                                        Structuirng in brand products & services.
+                                        Our team Research, expertise & exposure  of the
+                                        variety of commercial/Industrial sector gives us
+                                        the edge & grasp of developing successfuly strategic
+                                        Brand Story !
+>>>>>>> Stashed changes
                                     </p>
                                 </div>
                             </div>
@@ -135,9 +166,15 @@ const TabsComponent = () => {
                             <div className="d-flex flex-column">
                                 <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
 
+<<<<<<< Updated upstream
                                 <div className="title-des p-3">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
                                         Brand MARKETING 
+=======
+                                <div className="my-3">
+                                    <h1 className="colo-bg fw-bold text-start text-white fs-4">
+                                        Brand MARKETING WITH DEMIGOD HOUSE
+>>>>>>> Stashed changes
 
                                     </h1>
                                     <p className="text-white text-start">

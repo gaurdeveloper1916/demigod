@@ -11,7 +11,7 @@ import Header from "../component/common/header/Header";
 import Footer from "../component/common/footer/Footer";
 function page(props) {
   const [bigImage, setBigImage] = useState(
-    "https://www.shutterstock.com/shutterstock/photos/2159023891/display_1500/stock-photo-happy-businesspeople-laughing-while-collaborating-on-a-new-project-in-an-office-group-of-diverse-2159023891.jpg"
+    " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-76k-1SBjyPIb5XNFfAdqlkFogZMRnXiqTQ&s"
   );
 
   // Function to handle the click event on small images
@@ -24,10 +24,10 @@ function page(props) {
       <div
         className="d-flex flex-column justify-content-center align-items-center text-white"
         style={{
-          backgroundImage: "url('/images/contact-us.png')",
+          backgroundImage: "url('/images/contact-us.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "100vh",
+          height: "80vh",
           width: "100%",
           display: "flex",
           justifyContent: "center",
@@ -36,11 +36,11 @@ function page(props) {
       >
         <div className="col-lg-10  d-flex flex-column justify-content-center align-items-center p-lg-5 p-4">
           <div className="col-lg-6 col-12 d-flex flex-column justify-content-center align-items-center mt-5">
-            <p className="contact_heading m-0">Get in touch</p>
-            <p className="text-center">
+            <h1><b><p className="contact_heading m-0">House Addresse's</p></b></h1>
+            <h2><b><p className="text-center m-4">
               
-              Thanks for your interest in DemiGod House. Choose from the options below and we’ll connect you with the right person.
-            </p>
+              Reach out to us & Get exposure/ Understanding to make your brand success a global success story.
+            </p></b></h2>
             {/* <div className="border col-lg-2  py-1 px-2 d-flex flex-column rounded-pill  justify-content-center align-items-center my-3 ">
               <RiArrowDropDownLine size={30} />
             </div> */}
@@ -65,19 +65,19 @@ function page(props) {
               <p className=" ">
               Visit- http://support.demigodhouse.com/support/home
               </p>
-              <h4 className=" text-warning"> Trouble with Event Booking?</h4>
+              <h4 className=" text-warning"> For Brand Seed Funding & Contract Manufacturing</h4>
               <p className=" ">
-              Email us at info@demigodhouse.com
+              Reach us at P: 83558-97803 or E:info@demigodhouse.com
               </p>
-              <h4 className=" text-warning"> Issues Listing or Managing your Event?</h4>
+              <h4 className=" text-warning"> For B2B / B2C Event's,  Brand Development , Brand Marketing and Private equity </h4>
               <p className=" ">
-              Email us at info@demigodhouse.com
-              </p>
-              <p className=" ">
-              For Indonesia : Email us at info@demigodhouse.com
+              Reach us at P: 83558-97803 E-mail us at info@demigodhouse.com
               </p>
               <p className=" ">
-              For UAE : Email us at info@demigodhouse.com
+              We are available for calls from 0900 hoours till 2200 hours IST 
+              </p>
+              <p className=" ">
+              Our network and economic horizons is across  125 countries !
               </p> 
               {/* <p className="smallfont fw-bold">
                 We are most selective voluptatem quo nisi rerum debitis odio.
@@ -110,14 +110,14 @@ function page(props) {
                 <BsLinkedin />
                 <FaFacebook />
               </div> */}
-              <div className=" mt-lg-4">
+              {/* <div className=" mt-lg-4">
                 <button
                   className="button-all mt-5 px-4 py-2  text-black fw-bold"
                   type="button "
                 >
                   Check Us Out
                 </button>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-4 ">
               <img
@@ -208,19 +208,22 @@ function page(props) {
               <div className="col-lg-3">
                 <img
                   className="rounded img-fluid w-100"
-                  style={{ maxHeight: "90px", objectFit: "cover" }}
-                  src="./images/dj.jpg"
+                  style={{ maxHeight: "100px", objectFit: "cover" }}
+                  src="./images/ahd.avif"
                   alt="small1"
-                  onClick={() => handleSmallImageClick("./images/dj.jpg")} // Click event
+                  onClick={() => handleSmallImageClick("./images/ahd.avif")} // Click event
                 />
               </div>
+              <div class="bwc__sc-ttnkwg-17 gvzyfS">
+   src="//in.bmscdn.com/m6/images/common-modules/regions/ahd.png" alt="AHD" class="bwc__sc-ttnkwg-26 izPSOY"
+</div>
               <div className="col-lg-3">
                 <img
                   className="rounded img-fluid w-100"
                   style={{ maxHeight: "90px", objectFit: "cover" }}
                   src="./images/party.jpg"
                   alt="small2"
-                  onClick={() => handleSmallImageClick("./images/party.jpg")} // Click event
+                  onClick={() => handleSmallImageClick("./images/contact-us.jpg")} // Click event
                 />
               </div>
               <div className="col-lg-3">
@@ -243,14 +246,13 @@ function page(props) {
               </div>
             </div>
             <div className="col-lg-8 mt-3 mx-3">
-              <h5 className="fw-bold text-white">Address</h5>
+              <h5 className="fw-bold text-white">Corporate Office</h5>
               <p className="m- smallfont text-white">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.<br /> Ex
-                dolorem nisi amet repellendus in ab dignissimos, impedit,
-                molestias corrupti voluptatum
+              208, PMB, Opera House, Mumbai,
+              Maharashtra, India
               </p>
-              <p className="text-white m-0">+91 982727272</p>
-              <p className="text-white m-0">info@demigod.com</p>
+              <p className="text-white m-0">+91-8355897803</p>
+              <p className="text-white m-0">info@demigodhouse.com</p>
             </div>
           </div>
         </div>

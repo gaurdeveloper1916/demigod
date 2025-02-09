@@ -16,18 +16,17 @@ function TwoImagesDiv() {
           link: "/landingpage",
           // title: "Event /01",
 
-          title: "Wine Making Festival- Fete Du Vines ",
-          description: "Wine Making Festival- Fete Du Vines des ",
+          title: "Wine Making Festival- Fete Du Vines",
+          description: "Join us for the Wine Making Festival - Fete Du Vines, a celebration of the art and tradition of winemaking. Enjoy wine tastings, vineyard tours, and workshops led by expert vintners. Experience the rich culture and history of winemaking in a festive atmosphere with live music, gourmet food, and more.",
           // category: "BRANDING-WEBDESIGN",
         },
         {
           size: 4,
           src: "/images/smallImage.jpg",
           link: "/landingpage",
-          // title: "Event /02",
-          title: "Tinder Nights",
-          description: "Tinder Nights des",
-          // category: "BRANDING-WEBDESIGN-HELLOW",
+            title: "Tinder Nights",
+            description: "A night of excitement and entertainment awaits you at the Tinder Nights Festival. Join us for an unforgettable evening filled with fun activities, great food, and amazing company. Don't miss out on this unique experience that promises to create lasting memories."
+ // category: "BRANDING-WEBDESIGN-HELLOW",
         },
       ],
     },
@@ -39,7 +38,7 @@ function TwoImagesDiv() {
           link: "/landingpage",
           // title: "Event /03",
           title: "D'Throne Prince",
-          description:"D'Throne Prince des"
+          description: "Join us for an exclusive event featuring the D'Throne Prince. Experience a royal celebration with exquisite performances, gourmet dining, and a majestic atmosphere. Don't miss this chance to be part of a regal affair.",
           // category: "BRANDING-WEBDESIGN",
         },
         {
@@ -48,7 +47,7 @@ function TwoImagesDiv() {
           link: "/landingpage",
           // title: "Event /04",
           title: "D'Royal Tiara",
-           description:"D'Royal Tiara des"
+          description: "D'Royal Tiara is a grand event celebrating the elegance and beauty of royal tiaras. Join us for an evening of glamour, fine dining, and exquisite performances. Witness the unveiling of the most stunning tiaras and enjoy a night of luxury and sophistication.",
           // category: "BRANDING-WEBDESIGN",
         },
       ],
@@ -61,7 +60,7 @@ function TwoImagesDiv() {
           link: "/landingpage",
           // title: "Event /05",
           title: "Cutinary O' Affaris",
-          description:"Cutinary O' Affaris des"
+          description: "Cutinary O' Affaris is a culinary extravaganza that brings together food enthusiasts and top chefs. Enjoy a variety of gourmet dishes, cooking demonstrations, and interactive workshops. Indulge in a gastronomic adventure and discover new flavors and culinary techniques."
 
           // category: "BRANDING-WEBDESIGN",
         },
@@ -70,8 +69,8 @@ function TwoImagesDiv() {
           src: "/images/smallImage.jpg",
           link: "/landingpage",
           // title: "Event /06",
-          description: "Marathon Mingle des",
-
+            title: "Marathon Mingle des",
+            description: "Marathon Mingle des is an exciting event that brings together marathon enthusiasts from all over. Participate in a thrilling marathon race, enjoy the camaraderie of fellow runners, and celebrate your achievements with a post-race party. Whether you're a seasoned runner or a beginner, this event promises an unforgettable experience."
           // category: "BRANDING-WEBDESIGN",
         },
       ],
