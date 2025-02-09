@@ -26,7 +26,7 @@ function Moodboard() {
         src="/images/telgu.webp"
         className="img-fluid"
         onClick={() => handleImageClick("/images/telgu.webp")}
-        style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer" , width: "300px", height: "250px", objectFit: "cover" }}
       />
     </div>
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
@@ -35,7 +35,7 @@ function Moodboard() {
         src="/images/punjabi.webp"
         className="img-fluid"
         onClick={() => handleImageClick("/images/punjabi.webp")}
-        style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
       />
     </div>
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
@@ -44,7 +44,7 @@ function Moodboard() {
         src="/images/marwari.webp"
         className="img-fluid"
         onClick={() => handleImageClick("/images/marwari.webp")}
-        style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
       />
     </div>
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
@@ -53,7 +53,7 @@ function Moodboard() {
         src="/images/chris.webp"
         className="img-fluid"
         onClick={() => handleImageClick("/images/chris.webp")}
-        style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
       />
     </div>
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
@@ -62,7 +62,7 @@ function Moodboard() {
         src="/images/bengali.webp"
         className="img-fluid"
         onClick={() => handleImageClick("/images/bengali.webp")}
-        style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
       />
     </div>
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
@@ -71,7 +71,7 @@ function Moodboard() {
         src="/images/marathi.webp"
         className="img-fluid"
         onClick={() => handleImageClick("/images/marathi.webp")}
-        style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
       />
     </div>
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
@@ -80,7 +80,7 @@ function Moodboard() {
         src="/images/arabic.webp"
         className="img-fluid"
         onClick={() => handleImageClick("/images/arabic.webp")}
-        style={{ cursor: "pointer" }}
+        style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
       />
     </div>
 </div>
