@@ -32,7 +32,7 @@ const Sectionfive = () => {
         <div className="inner">
           <img
             className="inner-img"
-            src="Destination.png"
+            src="Image/wedding-page/sec5/dest.webp"
             alt="Wedding Image 1"
           />
           <div className="inner-img content-wrapper gradient-text">
@@ -44,7 +44,7 @@ const Sectionfive = () => {
           </div>
           <img
             className="inner-img"
-            src="celeb.jpg"
+            src="Image/wedding-page/sec5/celeb.webp"
             alt="Wedding Image 2"
           />
           <div className="inner-img content-wrapper gradient-text">
@@ -55,7 +55,7 @@ const Sectionfive = () => {
           </div>
           <img
             className="inner-img"
-            src="tradi.jpg"
+            src="Image/wedding-page/sec5/trade.webp"
             alt="Wedding Image 3"
           />
           <div className="inner-img content-wrapper gradient-text">
@@ -65,7 +65,7 @@ const Sectionfive = () => {
           </div>
           <img
             className="inner-img"
-            src="trad.avif"
+            src="Image/wedding-page/sec5/court.webp"
             alt="Wedding Image 4"
           />
           <div className="inner-img content-wrapper gradient-text">
@@ -75,7 +75,7 @@ const Sectionfive = () => {
           </div>
           <img
             className="inner-img"
-            src="https://zaneandzoe.com/static/19bffd292942f66a7fb7d54ce9a7e029/a3cdc/zane-zoe-1.webp"
+            src="Image/wedding-page/sec5/elop.webp"
             alt="Wedding Image 5"
           />
           <div className="inner-img content-wrapper gradient-text">
@@ -86,7 +86,7 @@ const Sectionfive = () => {
           </div>
           <img
             className="inner-img"
-            src="https://zaneandzoe.com/static/19bffd292942f66a7fb7d54ce9a7e029/a3cdc/zane-zoe-1.webp"
+            src="Image/wedding-page/sec5/inti.webp"
             alt="Wedding Image 5"
           />
 
@@ -97,17 +97,17 @@ const Sectionfive = () => {
             </h2>
             <p className="fs-6 text-white ">For couples who prefer intimacy over grandeur, elopements are the perfect choice. With just the two of you (or a small group of loved ones), elopements focus on the romance and authenticity of your love story. Exchange vows in scenic, unique locations for a day that's truly your own.</p>
           </div>
-          <img
+          {/* <img
             className="inner-img"
             src="https://zaneandzoe.com/static/19bffd292942f66a7fb7d54ce9a7e029/a3cdc/zane-zoe-1.webp"
-            alt="Wedding Image 5"
-          />
-           <div className="inner-img content-wrapper gradient-text">
+            alt="Wedding Image 5" */}
+          {/* /> */}
+           {/* <div className="inner-img content-wrapper gradient-text">
             <h2 className="gradient-text">kartik gaur
 
             </h2>
             <p className="fs-6 text-white ">For couples who prefer intimacy over grandeur, elopements are the perfect choice. With just the two of you (or a small group of loved ones), elopements focus on the romance and authenticity of your love story. Exchange vows in scenic, unique locations for a day that's truly your own.</p>
-          </div>
+          </div> */}
           {/* <img
             className="inner-img"
             src="https://zaneandzoe.com/static/19bffd292942f66a7fb7d54ce9a7e029/a3cdc/zane-zoe-1.webp"

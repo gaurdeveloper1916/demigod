@@ -8,37 +8,37 @@ const vendorCategories = [
     title: "Makeup Artists",
     count: 91879,
     image:
-      "make.jpeg",
+      "Image/wedding-page/vendor/make.webp",
   },
   {
     title: "Photographers",
     count: 76357,
     image:
-      "photo.webp",
+      "Image/wedding-page/vendor/photo.webp",
   },
   {
     title: "Planners",
     count: 20656,
     image:
-      "wed.webp",
+      "Image/wedding-page/vendor/wed.webp",
   },
   {
     title: "Venues",
     count: 38699,
     image:
-      "ven.jpeg",
+      "Image/wedding-page/vendor/ven.webp",
   },
   {
     title: "Decorators",
     count: 21864,
     image:
-      "deco.jpeg",
+      "Image/wedding-page/vendor/deco.webp",
   },
   {
     title: "Mehendi Artists",
     count: 22805,
     image:
-      "mehe.jpeg",
+      "Image/wedding-page/vendor/mehe.webp",
   },
 ]
 

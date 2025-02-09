@@ -202,7 +202,7 @@ const page =()=>{
         <Accordian/>
         <Sectionfive/>
         <VendorCategories/>
-        <Lovestory/>
+        {/* <Lovestory/> */}
         
          {/* <GallerySlider/> */}
          {/* <Moodboard/> */}
