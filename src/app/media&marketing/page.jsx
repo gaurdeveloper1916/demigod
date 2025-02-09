@@ -27,24 +27,24 @@ export const metadata = {
     canonical: `https://www.demigodhouse.com/m&m`,
   },
   openGraph: {
-    title: '',
-    description: '',
-    url:'',
+    title: 'Media & Marketing',
+    description: "India's Best and Leading Marketing agency with more 13years of Experience in Brand Seed Funding, 3rd party Contract manufacturing, Private Equity, Brand Marketing, Brand Developement, Advertising in Print Media , Digital Marketing and B2B / B2C Events !",
+    url: 'https://www.demigodhouse.com/m&m',
     images: [
       {
-        url: '',
+        url: 'https://www.demigodhouse.com/images/og-image.jpg',
       },
     ],
   },
   twitter: {
-    title: '',
-    description: '',
-    image: '',
+    title: 'Media & Marketing',
+    description: "India's Best and Leading Marketing agency with more 13years of Experience in Brand Seed Funding, 3rd party Contract manufacturing, Private Equity, Brand Marketing, Brand Developement, Advertising in Print Media , Digital Marketing and B2B / B2C Events !",
+    image: 'https://www.demigodhouse.com/images/twitter-image.jpg',
   },
   linkedin: {
-    title:'',
-    description: '',
-    image: '',
+    title: 'Media & Marketing',
+    description: "India's Best and Leading Marketing agency with more 13years of Experience in Brand Seed Funding, 3rd party Contract manufacturing, Private Equity, Brand Marketing, Brand Developement, Advertising in Print Media , Digital Marketing and B2B / B2C Events !",
+    image: 'https://www.demigodhouse.com/images/linkedin-image.jpg',
   },
 };
 
