@@ -138,10 +138,10 @@ const TabsComponent = () => {
                                 style={{ borderRadius: "10px" }}
                             >
                                 <img
-                                    src="Image/m&m/tabs/marketing.webp">
+                                    src="Image/m&m/tabs/marketing.webp"
                                     className="img-fluid w-100"
-                                    style={{ height: "500px" }}
-                                </img>
+                                    style={{ height: "250px" }}
+                                />
 
                                 <div className="title-des p-3">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
@@ -323,20 +323,15 @@ const TabsComponent = () => {
                             {/* </div> */}
                         </div>
                         <div className="col-lg-7  p-3">
-                            <p className="fw-bold text-white">Key Investment Areas:</p>
-                            <ul className="news-list">
-                                <li>
-                                    <strong className="ago-text">We operate across G20, ASEAN, and BRICS economic corridors, ensuring a strong global presence and market penetration.</strong>
-                                    <ul className="mt-2">
-                                            <ul className="mt-1">
-                                                <li>Up to $500 Million Investment Opportunity</li>
-                                                <li>Global Print & Electronic Media</li>
-                                                <li>Brand Association & Broadcasting</li>
-                                                <li> Brand Strategy, Development & Marketing</li>
-                                                <li>Success Story Articulation through Structured Business Models</li>
-                                            </ul>
-                                    </ul>
-                                </li>
+                           <h5> <p className="fw-bold text-white">Upto $500 Million Investment's Opportunity</p></h5>
+                            <ul className="news-list d-flex flex-column gap-2">
+                            <h5><li> We operate across G20, ASEAN, and BRICS economic corridors, ensuring a strong global presence and market penetration.</li>              
+                           <li className="mt-1 ">Global Print & Electronic/Digital Media Association with the brand for strategic Broadcasting of the brand supreme image of products/services quality standards in comparison with the market competitors. </li>
+                           <li>Via. time-tested business models & commercial marketing/finance instruments, we assure a success story for the brand products /services leadership in the markets glbally. </li>
+                              <li> We Design, articulate & curate brand products / services in accordance with fast changing consumer demands in this competative global markets! </li>
+                             <li> For all our brands and associated subsidaries we avail platform to get listed at stock exchanges gloablly i.e. BSE, NSE, NASDAQ, S&P 500, Dow Jhons, Small Cap 2000, DAX, FTSE 100, EURO Stoxx 50, MOEX Russia Index, RTRSI, Hang Seng etc.</li>
+                                 </h5>
+                           
 
                             </ul>
                         </div>
