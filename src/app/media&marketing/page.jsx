@@ -51,17 +51,17 @@ export const metadata = {
 function Index() {
   return (
     <div className="container-fluid p-0 bg-black">
-      <Header />
-      {/* <Trusted/> */}
-      <Herosection />
-      <Community/>
-      <ElectronicCommunity/>
+      {/* <Header /> */}
+      <Trusted/>
+      {/* <Herosection /> */}
+      <Community/> 
+      <ElectronicCommunity/> 
       <LeadingOrganisation/>
-      {/* <Ecosystem /> */}
+      <Ecosystem />
      
       <Industryevents/>
       <TabsComponent/>
-      {/* <Sectionone/> */}
+     <Sectionone/>
       {/* <Repetativemandm/> */}
 
       <Openforbusiness/>

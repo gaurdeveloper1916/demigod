@@ -34,6 +34,7 @@ const Sectionfive = () => {
             className="inner-img"
             src="Image/wedding-page/sec5/dest.webp"
             alt="Wedding Image 1"
+            style={{ cursor: "pointer", width: "500px", height: "800px", objectFit: "cover" }}
           />
           <div className="inner-img content-wrapper gradient-text">
             <h2 className="gradient-text"> Destination Weddings
@@ -46,6 +47,7 @@ const Sectionfive = () => {
             className="inner-img"
             src="Image/wedding-page/sec5/celeb.webp"
             alt="Wedding Image 2"
+            style={{ cursor: "pointer", width: "500px", height: "800px", objectFit: "cover" }}
           />
           <div className="inner-img content-wrapper gradient-text">
             <h2 className="gradient-text">Celebrity Weddings
@@ -57,6 +59,7 @@ const Sectionfive = () => {
             className="inner-img"
             src="Image/wedding-page/sec5/trade.webp"
             alt="Wedding Image 3"
+            style={{ cursor: "pointer", width: "500px", height: "1000px", objectFit: "cover" }}
           />
           <div className="inner-img content-wrapper gradient-text">
             <h2 className="gradient-text">Traditional Weddings
@@ -67,6 +70,7 @@ const Sectionfive = () => {
             className="inner-img"
             src="Image/wedding-page/sec5/court.webp"
             alt="Wedding Image 4"
+            style={{ cursor: "pointer", width: "500px", height: "800px", objectFit: "cover" }}
           />
           <div className="inner-img content-wrapper gradient-text">
             <h2 className="gradient-text">Courthouse Weddings
@@ -77,6 +81,7 @@ const Sectionfive = () => {
             className="inner-img"
             src="Image/wedding-page/sec5/elop.webp"
             alt="Wedding Image 5"
+            style={{ cursor: "pointer", width: "500px", height: "800px", objectFit: "cover" }}
           />
           <div className="inner-img content-wrapper gradient-text">
             <h2 className="gradient-text">Elopements
@@ -88,6 +93,7 @@ const Sectionfive = () => {
             className="inner-img"
             src="Image/wedding-page/sec5/inti.webp"
             alt="Wedding Image 5"
+            style={{ cursor: "pointer", width: "500px", height: "800px", objectFit: "cover" }}
           />
 
           {/* new added */}

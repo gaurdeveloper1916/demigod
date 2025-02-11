@@ -66,7 +66,7 @@ const TabsComponent = () => {
                                 style={{ borderRadius: "10px" }}
                             >
                                 <img
-                                    src="https://image.cnbcfm.com/api/v1/image/107405058-17….jpeg?v=1738824724&w=560&h=470&ffmt=webp&vtcrop=y"
+                                    src="Image/m&m/tabs/brand.webp"
                                     className="img-fluid w-100"
                                     style={{ height: "500px" }}
                                 />
@@ -128,12 +128,20 @@ const TabsComponent = () => {
                 </div>
 
                 <div className={`tab-pane fade ${activeTab === "ex2-tabs-2" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column">
+                    <div className="d-flex flex-lg-row flex-column gap-2 ">
+                        
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
 
-                            <div className="d-flex flex-column">
-                                <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
+                            <div
+                                className=" border border-0 position-relative"
+                                style={{ borderRadius: "10px" }}
+                            >
+                                <img
+                                    src="Image/m&m/tabs/marketing.webp">
+                                    className="img-fluid w-100"
+                                    style={{ height: "500px" }}
+                                </img>
 
                                 <div className="title-des p-3">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
@@ -191,12 +199,13 @@ const TabsComponent = () => {
 
                 </div>
                 <div className={`tab-pane fade ${activeTab === "ex2-tabs-3" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column">
+                    <div className="d-flex flex-lg-row flex-column gap-2 ">
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
 
                             <div className="d-flex flex-column">
-                                <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
+                                <img style={{ height: "300px" }} className="img-fluid w-100 " 
+                                src="Image/m&m/tabs/3rd.webp"></img>
 
                                 <div className="title-des  p-3">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
@@ -294,12 +303,14 @@ const TabsComponent = () => {
                     </div>
                 </div> */}
                 <div className={`tab-pane fade ${activeTab === "ex2-tabs-5" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column">
+                    <div className="d-flex flex-lg-row flex-column gap-2 ">
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
 
                             <div className="d-flex flex-column">
-                                <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
+                                <img style={{ height: "300px" }} className="img-fluid w-100 " 
+                                src="Image/m&m/tabs/seed.webp"></img>
+
                                 <div className="title-des  p-3">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
                                         Brand Seed Funding
@@ -332,12 +343,13 @@ const TabsComponent = () => {
                     </div>
                 </div>
                 <div className={`tab-pane fade ${activeTab === "ex2-tabs-6" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column">
+                    <div className="d-flex flex-lg-row flex-column gap-2 ">
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
 
                             <div className="d-flex flex-column">
-                                <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
+                                <img style={{ height: "300px" }} className="img-fluid w-100 " 
+                                src="Image/m&m/tabs/equity.webp"></img>
                                 <div className="title-des  p-3">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
                                         Brand Private Equity
@@ -391,12 +403,13 @@ const TabsComponent = () => {
                     </div>
                 </div>
                 <div className={`tab-pane fade ${activeTab === "ex2-tabs-7" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column">
+                    <div className="d-flex flex-lg-row flex-column gap-2 ">
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
 
                             <div className="d-flex flex-column">
-                                <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
+                                <img style={{ height: "300px" }} className="img-fluid w-100 " 
+                                src="Image/m&m/tabs/b2b.webp"></img>
                                 <div className="title-des  p-3">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
                                         B2B & B2C Events

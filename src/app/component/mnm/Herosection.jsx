@@ -7,7 +7,7 @@ function Herosection() {
     <div
       className="img-fluid position-relative fade-in " data-aos="zoom-in" data-aos-duration="1500"
       style={{
-        backgroundImage: "url('/images/m&m/m.webp')",
+        backgroundImage: "url('Image/m&m/hero/Hero.webp')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         height: "100vh",
