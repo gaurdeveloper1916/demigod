@@ -25,7 +25,7 @@ function Moodboard() {
         alt="image"
         src="/images/telgu.webp"
         className="img-fluid"
-        onClick={() => handleImageClick("/images/telgu.webp")}
+        onClick={() => handleImageClick("/image/wedding-page/mood-1/telgu.webp")}
         style={{ cursor: "pointer" , width: "300px", height: "250px", objectFit: "cover" }}
       />
     </div>
@@ -92,7 +92,7 @@ function Moodboard() {
         <Modal.Body className="p-0">
           <div
             style={{
-              backgroundImage: `url('https://www.ritabrata.com/wp-content/uploads/2023/01/DSCF4013.jpg')`,
+              backgroundImage: `url(${selectedImage})`,
               backgroundPosition: "center",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
