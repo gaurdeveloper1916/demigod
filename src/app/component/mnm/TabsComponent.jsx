@@ -55,7 +55,7 @@ const TabsComponent = () => {
             </div>
 
             <div className="tab-content px-4">
-                <div className={`tab-pane fade ${activeTab === "ex2-tabs-1" ? "show active" : ""}`}>
+                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-1" ? "show active" : ""}`}>
 
                     <div className="d-flex flex-lg-row flex-column gap-2">
                         <div className="col-lg-5">
@@ -127,7 +127,7 @@ const TabsComponent = () => {
                     </div>
                 </div>
 
-                <div className={`tab-pane fade ${activeTab === "ex2-tabs-2" ? "show active" : ""}`}>
+                <div className={`tab-pane fade  mt-4 ${activeTab === "ex2-tabs-2" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-2 ">
 
                         <div className="col-lg-5">
@@ -198,7 +198,7 @@ const TabsComponent = () => {
 
 
                 </div>
-                <div className={`tab-pane fade ${activeTab === "ex2-tabs-3" ? "show active" : ""}`}>
+                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-3" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-2 ">
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
@@ -258,51 +258,8 @@ const TabsComponent = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div className={`tab-pane fade ${activeTab === "ex2-tabs-4" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column">
-                        <div className="col-lg-5">
-                            <div className="d-flex  justify-content-center align-items-center p-4">
-
-                            <div className="d-flex flex-column">
-                                <img style={{ height: "300px" }} className="img-fluid w-100 " src="https://image.cnbcfm.com/api/v1/image/108095850-17….jpeg?v=1738357388&w=830&h=554&ffmt=webp&vtcrop=y"></img>
-                                <div className="title-des  p-3">
-                                    <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                        Brand SEO Funding
-                                    </h1>
-                                    <p className="text-white text-start">
-                                        Articulating, designing and curating a strategic brand market image alongside reflecting the consumer's demand DNA &
-                                        Structuirng in brand products & services.
-                                        Our team Research, expertise & exposure  of the
-                                        variety of commercial/Industrial sector gives us
-                                        the edge & grasp of developing successfuly strategic
-                                        Brand Story !
-                                    </p>
-                                </div>
-                            </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-7  p-3">
-                            <p className="fw-bold text-white">Latest News</p>
-                            <ul className="news-list">
-                                <li>
-                                    <strong className="ago-text">Purpose-Driven Brand Strategy</strong>
-                                    <ul className="mt-2">
-                                        <li><em>Objective:</em> Develop a purpose-driven brand that resonates emotionally with customers and creates long-term loyalty.</li>
-                                        <li><em>Approach:</em>
-                                            <ul className="mt-1">
-                                                <li>Articulate the brand's mission, vision, and core values</li>
-                                                <li>Align brand messaging with customer needs and trends</li>
-                                                <li>Position the brand as a solution provider within its industry</li>
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div> */}
-                <div className={`tab-pane fade ${activeTab === "ex2-tabs-5" ? "show active" : ""}`}>
+                
+                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-5" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-2 ">
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
@@ -336,7 +293,7 @@ const TabsComponent = () => {
                         </div>
                     </div>
                 </div>
-                <div className={`tab-pane fade ${activeTab === "ex2-tabs-6" ? "show active" : ""}`}>
+                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-6" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-2 ">
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
@@ -396,7 +353,7 @@ const TabsComponent = () => {
                         </div>
                     </div>
                 </div>
-                <div className={`tab-pane fade ${activeTab === "ex2-tabs-7" ? "show active" : ""}`}>
+                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-7" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-2 ">
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
