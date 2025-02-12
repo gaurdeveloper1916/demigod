@@ -14,10 +14,10 @@ const Sectionfive = () => {
     if (animationRef.current) {
       animationRef.current.kill();
     }
-          //desktop
+
     mm.add("(min-width: 800px)", () => {
       animationRef.current = gsap.to("#page2 .inner", {
-        x: "-270%",
+        x: "-190%",
         ease: "none",
         scrollTrigger: {
           trigger: "#page2",
@@ -32,17 +32,15 @@ const Sectionfive = () => {
       });
     });
 
-
-      //for mobile
     mm.add("(max-width: 799px)", () => {
       animationRef.current = gsap.to("#page2 .inner", {
-        x: "-600%",
+        x: "-700%",
         ease: "none",
         scrollTrigger: {
           trigger: "#page2",
           scroller: "body",
           start: "top top",
-          end: "+=400%",
+          end: "+=450%",
           scrub: 1,
           pin: true,
           pinSpacing: true,
@@ -122,34 +120,9 @@ const Sectionfive = () => {
             </h2>
             <p className="fs-6 text-white ">For couples who prefer intimacy over grandeur, elopements are the perfect choice. With just the two of you (or a small group of loved ones), elopements focus on the romance and authenticity of your love story. Exchange vows in scenic, unique locations for a day that's truly your own.</p>
           </div>
-          <img
-            className="inner-img"
-            src="Image/wedding-page/sec5/inti.webp"
-            alt="Wedding Image 5"
-            style={{ cursor: "pointer", width: "500px", height: "800px", objectFit: "cover" }}
-          />
-          <div className="inner-img content-wrapper gradient-text">
-            <h2 className="gradient-text">Intimate Wedding
+         
 
-            </h2>
-            <p className="fs-6 text-white ">For couples who prefer intimacy over grandeur, elopements are the perfect choice. With just the two of you (or a small group of loved ones), elopements focus on the romance and authenticity of your love story. Exchange vows in scenic, unique locations for a day that's truly your own.</p>
-          </div>
-          {/* <img
-            className="inner-img"
-            src="https://zaneandzoe.com/static/19bffd292942f66a7fb7d54ce9a7e029/a3cdc/zane-zoe-1.webp"
-            alt="Wedding Image 5" */}
-          {/* /> */}
-           {/* <div className="inner-img content-wrapper gradient-text">
-            <h2 className="gradient-text">kartik gaur
-
-            </h2>
-            <p className="fs-6 text-white ">For couples who prefer intimacy over grandeur, elopements are the perfect choice. With just the two of you (or a small group of loved ones), elopements focus on the romance and authenticity of your love story. Exchange vows in scenic, unique locations for a day that's truly your own.</p>
-          </div> */}
-          {/* <img
-            className="inner-img"
-            src="https://zaneandzoe.com/static/19bffd292942f66a7fb7d54ce9a7e029/a3cdc/zane-zoe-1.webp"
-            alt="Wedding Image 5"
-          /> */}
+          
 
         </div>
       </div>

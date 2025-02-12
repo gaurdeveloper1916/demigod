@@ -8,9 +8,9 @@ const Sectiontwo = () => {
                 <div className="col-lg-6  col-12 p-0 px-lg-5 px-md-5">
                     <div className="d-flex flex-column justify-content-center ">
                         <h4><p className="planning-text"> We integrate divinity and Cloud 9 factor in your wedding planning ! </p></h4>
-                        <p className="planning-des mt-5">
+                        <p className="planning-des mt-lg-5 mt-md-3 mt-0">
                             DemiGod House Wedding planners' not only provide visvalization of your dream wedding's with divine and mesmerisingly unrealistic ceremonial decor and art work creatives but also execute in most professionally pragmatic manner !   </p>
-                        <p className="mt-5">
+                        <p className="mt-lg-5 mt-md-3 mt-0">
                         Our wedding specialists are here to bring your dream celebration to life with elegance and precision.
                         </p>
                         {/* <div className="d-flex gap-2 mt-4 align-items-center">

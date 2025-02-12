@@ -8,6 +8,7 @@ import Link from 'next/link';
 
 export default function FridayNight() {
   const sliderRef = useRef(null);
+  // const { handleUpdate } = useContext(Auth);
 
   const next = () => {
     if (sliderRef.current) {
