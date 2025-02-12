@@ -128,14 +128,14 @@
 //         <ServicesSlider />
 //       </div>
 
-     
+
 //         <GallerySlider />
-     
+
 //         <FridayNight/>
 //         <MultiSlider />
-      
 
-     
+
+
 //     </div>
 //   );
 // };
@@ -171,7 +171,7 @@ export const metadata = {
   openGraph: {
     title: '',
     description: '',
-    url:'',
+    url: '',
     images: [
       {
         url: '',
@@ -184,28 +184,31 @@ export const metadata = {
     image: '',
   },
   linkedin: {
-    title:'',
+    title: '',
     description: '',
     image: '',
   },
 };
 
-const page =()=>{
-  return(
+const page = () => {
+  return (
     <>
-    <Header/>
-        <Sectionone/>
-        <Sectiontwo/>
-        <Sectionfour/>
-        <Moodboard/>
-        <Sectionthree/>
-        <Accordian/>
-        <Sectionfive/>
-        <VendorCategories/>
+      <div style={{ overflow: "hidden" }}>
+        <Header />
+        <Sectionone />
+        <Sectiontwo />
+        <Sectionfour />
+        {/* <Moodboard/> */}
+        <Sectionthree />
+        <Accordian />
+        <Sectionfive />
+        <VendorCategories />
         {/* <Lovestory/> */}
-        
-         {/* <GallerySlider/> */}
-         {/* <Moodboard/> */}
+
+        {/* <GallerySlider/> */}
+        {/* <Moodboard/> */}
+      </div>
+
 
 
     </>

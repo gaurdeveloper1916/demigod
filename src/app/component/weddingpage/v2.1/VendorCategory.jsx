@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { ArrowRight } from "lucide-react"
-
+import '../../weddingpage/test.css'
 const vendorCategories = [
   {
     title: "Makeup Artists",
@@ -67,10 +67,10 @@ export default function VendorCategories() {
           >
             {/* Image */}
             <img
-              className="rounded"
+              className="rounded vendor-images"
               src={category.image}
               alt={category.title}
-              style={{ width: "200px", height: "150px", objectFit: "cover" }}
+              
             />
             {/* Input box at top-right if selected */}
             {selectedCategory?.title === category.title ? (
