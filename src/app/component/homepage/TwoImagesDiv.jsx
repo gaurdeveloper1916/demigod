@@ -16,16 +16,16 @@ function TwoImagesDiv() {
           link: "/landingpage",
           // title: "Event /01",
 
-          title: "Wine Making Festival- Fete Du Vines",
-          description: "Join us for the Wine Making Festival - Fete Du Vines, a celebration of the art and tradition of winemaking. Enjoy wine tastings, vineyard tours, and workshops led by expert vintners. Experience the rich culture and history of winemaking in a festive atmosphere with live music, gourmet food, and more.",
+            title: "Wine Making Festival- Fete Du Vines",
+            description: "Ready to crush some grapes the old-school way? Get your feet wet (literally!) at this wild wine-making party. We're ditching the stuffy wine talk for hands-on fun - squish grapes, mix your own secret blend, and yes, plenty of tasting! Whether you're a wine newbie or a seasoned sipper, come unleash your inner vintner. Warning: Purple feet and big smiles guaranteed! 🍇✨",
           // category: "BRANDING-WEBDESIGN",
         },
         {
           size: 4,
           src: "/images/smallImage.jpg",
           link: "/landingpage",
-            title: "Tinder Nights",
-            description: "A night of excitement and entertainment awaits you at the Tinder Nights Festival. Join us for an unforgettable evening filled with fun activities, great food, and amazing company. Don't miss out on this unique experience that promises to create lasting memories."
+            title: "Tinder Night Extravaganza",
+            description: "Ready to ditch those awkward dating apps? Join us for a night where real sparks fly! 🔥 We've got cool games to break the ice, yummy snacks, and drinks that'll help you loosen up (but not too much 😉). No more swiping left or right - just real people having real fun! Perfect for cool folks in their 20s and 30s who are tired of the same old dating scene. Trust us, this beats staring at your phone all night! ✨💫"
  // category: "BRANDING-WEBDESIGN-HELLOW",
         },
       ],
@@ -37,8 +37,8 @@ function TwoImagesDiv() {
           src: "/images/landing-page-images/section2/smallimage.webp",
           link: "/landingpage",
           // title: "Event /03",
-          title: "D'Throne Prince",
-          description: "Join us for an exclusive event featuring the D'Throne Prince. Experience a royal celebration with exquisite performances, gourmet dining, and a majestic atmosphere. Don't miss this chance to be part of a regal affair.",
+            title: "D'Throne Prince",
+            description: "Ready for a royal party that's actually fun? 👑 We're turning traditional fancy events upside down! Think amazing food stations (yes, you can eat with your hands!), cool music that'll get you dancing, and Instagram-worthy photo spots everywhere. Whether you're coming solo or with friends, you'll feel like royalty without the stuffy rules. Plus, there's a surprise midnight performance that'll blow your mind! Don't miss out on this epic night - your social media will thank you later! 🎉✨",
           // category: "BRANDING-WEBDESIGN",
         },
         {
@@ -46,8 +46,8 @@ function TwoImagesDiv() {
           src: "/images/landing-page-images/section2/bigimage.webp",
           link: "/landingpage",
           // title: "Event /04",
-          title: "D'Royal Tiara",
-          description: "D'Royal Tiara is a grand event celebrating the elegance and beauty of royal tiaras. Join us for an evening of glamour, fine dining, and exquisite performances. Witness the unveiling of the most stunning tiaras and enjoy a night of luxury and sophistication.",
+            title: "D'Royal Tiara",
+            description: "Get ready for the party of your dreams! 👑 We're throwing the most amazing royal-themed bash where YOU get to wear stunning tiaras and feel like absolute royalty. Think fun photo booths with props, delicious food that'll make your mouth water, and the coolest dance floor ever! No boring formal stuff - just pure fun with your friends, awesome music, and memories that'll last forever. Don't forget to bring your camera because every corner is perfect for those Insta-worthy shots! ✨🎉",
           // category: "BRANDING-WEBDESIGN",
         },
       ],
@@ -59,8 +59,8 @@ function TwoImagesDiv() {
           src: "/images/landing-page-images/section2/1bigimage.webp",
           link: "/landingpage",
           // title: "Event /05",
-          title: "Cutinary O' Affaris",
-          description: "Cutinary O' Affaris is a culinary extravaganza that brings together food enthusiasts and top chefs. Enjoy a variety of gourmet dishes, cooking demonstrations, and interactive workshops. Indulge in a gastronomic adventure and discover new flavors and culinary techniques."
+            title: "Cutinary O' Affaris",
+            description: "Ready for a mind-blowing food party? 🍽️ We've got awesome chefs whipping up the most Instagram-worthy dishes you've ever seen! Jump in and learn some cool cooking tricks, taste amazing food that'll make your taste buds dance, and get ready to become a kitchen superstar. From secret sauce recipes to plating like a pro, this isn't your regular cooking class - it's a full-on food adventure! Perfect for foodies who love trying new things. Warning: You might become obsessed with cooking after this! 🔥✨"
 
           // category: "BRANDING-WEBDESIGN",
         },

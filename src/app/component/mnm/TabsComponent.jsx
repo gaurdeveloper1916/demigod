@@ -88,41 +88,19 @@ const TabsComponent = () => {
                             </div>
                         </div>
                         <div className="col-lg-7  p-3">
-                            <p className="fw-bold text-white">Our Approach:</p>
+                            {/* <p className="fw-bold text-white">Our Approach:</p> */}
                             <ul className="news-list">
-                                <li>
-                                    <strong className="ago-text">Comprehensive Brand Audit & Strategy Development</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We analyze market positioning, audience sentiment, and competitive benchmarks to create a roadmap that defines your brand’s unique value proposition.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Consumer-Centric Branding & Market Positioning</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We meticulously craft brand messaging that resonates with your target demographic, ensuring that your brand narrative speaks directly to customer needs and aspirations.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Multi-Platform Brand Experience Design</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>From digital touchpoints to physical brand experiences, we curate cohesive brand ecosystems that enhance visibility, engagement, and long-term loyalty.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Visual Identity, Storytelling & Engagement</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>A brand is more than just a logo—it’s a living, breathing entity. We craft immersive brand stories and striking visual identities that make a lasting impact on consumers and stakeholders.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
+                                <li>Brand development with DemiGod House ensures guaranteed retail participation of at least 50,000,000 consumers through B2B/B2C events, eCommerce portals, and brick-and-mortar stores.</li>
+                                <li>Our brand image development is driven by time-tested strategic marketing activities, following thorough research and analysis of targeted global markets.</li>
+
+                                <li>We implement a well-defined brand development strategy through print media, digital media, and ATL/BTL activities, adapting seamlessly to market trends—whether in a bullish or bearish phase.</li>
+
+                                <li>Our structured brand development approach provides a competitive edge by integrating exclusive factors aligned with consumer demand in rapidly evolving markets.</li>
+                                <li>With full funding provided by us, our team has complete creative liberty in designing and executing brand development activities for DemiGod House brands, associates, and clientele.</li>
+
+                                <li>We deliver headline-making, trend-setting brand development campaigns through our print and electronic media associates across more than 90 countries on a regular basis.</li>
                             </ul>
+                                
                         </div>
                     </div>
                 </div>
@@ -157,7 +135,7 @@ const TabsComponent = () => {
                         </div>
                         <div className="col-lg-7  p-3">
                             <p className="fw-bold text-white"> Our Approach:</p>
-                            <ul className="news-list">
+                            <ul className="news-list d-flex flex-column gap-2 text-[30px]">
                                 <li>
                                     <strong className="ago-text">Precision-Driven Targeted Brand Campaigns</strong>
                                     <ul className="mt-2">
@@ -281,11 +259,11 @@ const TabsComponent = () => {
                         </div>
                         <div className="col-lg-7  p-3">
                             <h5> <p className="fw-bold text-white">Upto $500 Million Investment's Opportunity</p></h5>
-                            <ul className="news-list d-flex flex-column gap-2">
+                            <ul className="news-list d-flex flex-column gap-2 text-[30px]">
                                 
                                     <li> We operate across G20, ASEAN, and BRICS economic corridors, ensuring a strong global presence and market penetration.</li>
                                     <li className="mt-1">Global Print & Electronic/Digital Media Association with the brand for strategic Broadcasting of the brand supreme image of products/services quality standards in comparison with the market competitors. </li>
-                                    <li>Via. time-tested business models & commercial marketing/finance instruments, we assure a success story for the brand products /services leadership in the markets glbally. </li>
+                                    <li>Via. time-tested business models & commercial marketing/finance instruments, we assure a success story for the brand products /services leadership in the markets globally. </li>
                                     <li> We Design, articulate & curate brand products / services in accordance with fast changing consumer demands in this competative global markets! </li>
                                     <li> For all our brands and associated subsidaries we avail platform to get listed at stock exchanges gloablly i.e. BSE, NSE, NASDAQ, S&P 500, Dow Jhons, Small Cap 2000, DAX, FTSE 100, EURO Stoxx 50, MOEX Russia Index, RTRSI, Hang Seng etc.</li>
                             
