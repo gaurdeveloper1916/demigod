@@ -5,25 +5,58 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
+let mm = gsap.matchMedia();
 
 const Sectionfive = () => {
   const animationRef = useRef(null);
 
-
   useEffect(() => {
-    if (!animationRef.current) {
+    if (animationRef.current) {
+      animationRef.current.kill();
+    }
+          //desktop
+    mm.add("(min-width: 800px)", () => {
       animationRef.current = gsap.to("#page2 .inner", {
         x: "-270%",
+        ease: "none",
         scrollTrigger: {
           trigger: "#page2",
           scroller: "body",
-          start: "top 0%",
-          end: "top -190%",
-          scrub: 2,
+          start: "top top",
+          end: "+=300%",
+          markers: true,
+          scrub: 1,
           pin: true,
+          pinSpacing: true,
         },
       });
-    }
+    });
+
+
+      //for mobile
+    mm.add("(max-width: 799px)", () => {
+      animationRef.current = gsap.to("#page2 .inner", {
+        x: "-600%",
+        ease: "none",
+        scrollTrigger: {
+          trigger: "#page2",
+          scroller: "body",
+          start: "top top",
+          end: "+=400%",
+          scrub: 1,
+          pin: true,
+          pinSpacing: true,
+          markers: true,
+        },
+      });
+    });
+
+    return () => {
+      if (animationRef.current) {
+        animationRef.current.kill();
+      }
+      mm.revert();
+    };
   }, []);
 
   return (
@@ -95,8 +128,6 @@ const Sectionfive = () => {
             alt="Wedding Image 5"
             style={{ cursor: "pointer", width: "500px", height: "800px", objectFit: "cover" }}
           />
-
-          {/* new added */}
           <div className="inner-img content-wrapper gradient-text">
             <h2 className="gradient-text">Intimate Wedding
 
