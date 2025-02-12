@@ -16,17 +16,17 @@ function TwoImagesDiv() {
           link: "/landingpage",
           // title: "Event /01",
 
-            title: "Wine Making Festival- Fete Du Vines",
-            description: "Ready to crush some grapes the old-school way? Get your feet wet (literally!) at this wild wine-making party. We're ditching the stuffy wine talk for hands-on fun - squish grapes, mix your own secret blend, and yes, plenty of tasting! Whether you're a wine newbie or a seasoned sipper, come unleash your inner vintner. Warning: Purple feet and big smiles guaranteed! 🍇✨",
+          title: "Wine Making Festival- Fete Du Vines",
+          description: "Ready to crush some grapes the old-school way? Get your feet wet (literally!) at this wild wine-making party. We're ditching the stuffy wine talk for hands-on fun - squish grapes, mix your own secret blend, and yes, plenty of tasting! Whether you're a wine newbie or a seasoned sipper, come unleash your inner vintner. Warning: Purple feet and big smiles guaranteed! 🍇✨",
           // category: "BRANDING-WEBDESIGN",
         },
         {
           size: 4,
           src: "/images/smallImage.jpg",
           link: "/landingpage",
-            title: "Tinder Night Extravaganza",
-            description: "Ready to ditch those awkward dating apps? Join us for a night where real sparks fly! 🔥 We've got cool games to break the ice, yummy snacks, and drinks that'll help you loosen up (but not too much 😉). No more swiping left or right - just real people having real fun! Perfect for cool folks in their 20s and 30s who are tired of the same old dating scene. Trust us, this beats staring at your phone all night! ✨💫"
- // category: "BRANDING-WEBDESIGN-HELLOW",
+          title: "Tinder Night Extravaganza",
+          description: "Ready to ditch those awkward dating apps? Join us for a night where real sparks fly! 🔥 We've got cool games to break the ice, yummy snacks, and drinks that'll help you loosen up (but not too much 😉). No more swiping left or right - just real people having real fun! Perfect for cool folks in their 20s and 30s who are tired of the same old dating scene. Trust us, this beats staring at your phone all night! ✨💫"
+          // category: "BRANDING-WEBDESIGN-HELLOW",
         },
       ],
     },
@@ -37,8 +37,8 @@ function TwoImagesDiv() {
           src: "/images/landing-page-images/section2/smallimage.webp",
           link: "/landingpage",
           // title: "Event /03",
-            title: "D'Throne Prince",
-            description: "Ready for a royal party that's actually fun? 👑 We're turning traditional fancy events upside down! Think amazing food stations (yes, you can eat with your hands!), cool music that'll get you dancing, and Instagram-worthy photo spots everywhere. Whether you're coming solo or with friends, you'll feel like royalty without the stuffy rules. Plus, there's a surprise midnight performance that'll blow your mind! Don't miss out on this epic night - your social media will thank you later! 🎉✨",
+          title: "D'Throne Prince",
+          description: "Ready for a royal party that's actually fun? 👑 We're turning traditional fancy events upside down! Think amazing food stations (yes, you can eat with your hands!), cool music that'll get you dancing, and Instagram-worthy photo spots everywhere. Whether you're coming solo or with friends, you'll feel like royalty without the stuffy rules. Plus, there's a surprise midnight performance that'll blow your mind! Don't miss out on this epic night - your social media will thank you later! 🎉✨",
           // category: "BRANDING-WEBDESIGN",
         },
         {
@@ -46,8 +46,8 @@ function TwoImagesDiv() {
           src: "/images/landing-page-images/section2/bigimage.webp",
           link: "/landingpage",
           // title: "Event /04",
-            title: "D'Royal Tiara",
-            description: "Get ready for the party of your dreams! 👑 We're throwing the most amazing royal-themed bash where YOU get to wear stunning tiaras and feel like absolute royalty. Think fun photo booths with props, delicious food that'll make your mouth water, and the coolest dance floor ever! No boring formal stuff - just pure fun with your friends, awesome music, and memories that'll last forever. Don't forget to bring your camera because every corner is perfect for those Insta-worthy shots! ✨🎉",
+          title: "D'Royal Tiara",
+          description: "Get ready for the party of your dreams! 👑 We're throwing the most amazing royal-themed bash where YOU get to wear stunning tiaras and feel like absolute royalty. Think fun photo booths with props, delicious food that'll make your mouth water, and the coolest dance floor ever! No boring formal stuff - just pure fun with your friends, awesome music, and memories that'll last forever. Don't forget to bring your camera because every corner is perfect for those Insta-worthy shots! ✨🎉",
           // category: "BRANDING-WEBDESIGN",
         },
       ],
@@ -59,8 +59,8 @@ function TwoImagesDiv() {
           src: "/images/landing-page-images/section2/1bigimage.webp",
           link: "/landingpage",
           // title: "Event /05",
-            title: "Cutinary O' Affaris",
-            description: "Ready for a mind-blowing food party? 🍽️ We've got awesome chefs whipping up the most Instagram-worthy dishes you've ever seen! Jump in and learn some cool cooking tricks, taste amazing food that'll make your taste buds dance, and get ready to become a kitchen superstar. From secret sauce recipes to plating like a pro, this isn't your regular cooking class - it's a full-on food adventure! Perfect for foodies who love trying new things. Warning: You might become obsessed with cooking after this! 🔥✨"
+          title: "Cutinary O' Affaris",
+          description: "Ready for a mind-blowing food party? 🍽️ We've got awesome chefs whipping up the most Instagram-worthy dishes you've ever seen! Jump in and learn some cool cooking tricks, taste amazing food that'll make your taste buds dance, and get ready to become a kitchen superstar. From secret sauce recipes to plating like a pro, this isn't your regular cooking class - it's a full-on food adventure! Perfect for foodies who love trying new things. Warning: You might become obsessed with cooking after this! 🔥✨"
 
           // category: "BRANDING-WEBDESIGN",
         },
@@ -69,8 +69,8 @@ function TwoImagesDiv() {
           src: "/images/smallImage.jpg",
           link: "/landingpage",
           // title: "Event /06",
-            title: "Marathon Mingle des",
-            description: "Marathon Mingle des is an exciting event that brings together marathon enthusiasts from all over. Participate in a thrilling marathon race, enjoy the camaraderie of fellow runners, and celebrate your achievements with a post-race party. Whether you're a seasoned runner or a beginner, this event promises an unforgettable experience."
+          title: "Marathon Mingle des",
+          description: "Marathon Mingle des is an exciting event that brings together marathon enthusiasts from all over. Participate in a thrilling marathon race, enjoy the camaraderie of fellow runners, and celebrate your achievements with a post-race party. Whether you're a seasoned runner or a beginner, this event promises an unforgettable experience."
           // category: "BRANDING-WEBDESIGN",
         },
       ],
@@ -87,14 +87,14 @@ function TwoImagesDiv() {
       }}
     >
       {data.map((section, index) => (
-        <div className="d-flex gap-3 mt-5 p-lg-0 p-2" key={index}>
+        <div className="d-flex flex-lg-row flex-column gap-3 mt-5 p-lg-0 p-2" key={index}>
           {section.images.map((image, i) => (
             <div className={`col-lg-${image.size} ${i === 0 ? "mt-5" : ""}`} key={i}>
               <Link
-                onClick={()=>{handleUpdate(image.title,image.description)}}
+                onClick={() => { handleUpdate(image.title, image.description) }}
                 href={{
                   pathname: "/landingpage",
-              
+
                 }}
               >
                 <img className="img-fluid w-100" src={image.src} alt={image.title} />

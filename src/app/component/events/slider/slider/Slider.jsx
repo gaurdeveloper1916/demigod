@@ -79,7 +79,7 @@ const Slider = () => {
   };
 
   return (
-    <div className="d-lg-block d-md-block d-none">
+    <div className="">
       <div
         className="relative h-full"
         style={{
