@@ -55,7 +55,7 @@ function Footer(props) {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
-        className="container-fluid p-0 bg-black relative z-50"
+        className="container-fluid p-0 bg-black relative z-50 "
       >
         {/* Marquee Section */}
         <Marquee
