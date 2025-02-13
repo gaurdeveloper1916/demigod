@@ -34,7 +34,7 @@ function Moodboard() {
         alt="image"
         src="/images/punjabi.webp"
         className="img-fluid"
-        onClick={() => handleImageClick("/images/punjabi.webp")}
+        onClick={() => handleImageClick("Image/wedding-page/mood-1/punjabi.webp")}
         style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
       />
     </div>
@@ -43,25 +43,28 @@ function Moodboard() {
         alt="image"
         src="/images/marwari.webp"
         className="img-fluid"
-        onClick={() => handleImageClick("/images/marwari.webp")}
+        onClick={() => handleImageClick("Image/wedding-page/mood-1/marwari.webp")}
         style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
       />
     </div>
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
-      <img
-        alt="image"
-        src="/images/chris.webp"
-        className="img-fluid"
-        onClick={() => handleImageClick("/images/chris.webp")}
-        style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
-      />
+      <div>
+        <img
+          alt="image"
+          src="/images/chris.webp"
+          className="img-fluid"
+          onClick={() => handleImageClick("Image/wedding-page/mood-1/chris.webp")}
+          style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
+        />
+      <h1 className="text-white">Christian Wedding</h1>
+      </div>
     </div>
     <div className="col-5 col-sm-6 col-md-4 col-lg-2">
       <img
         alt="image"
         src="/images/bengali.webp"
         className="img-fluid"
-        onClick={() => handleImageClick("/images/bengali.webp")}
+        onClick={() => handleImageClick("Image/wedding-page/mood-1/bengali.webp")}
         style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
       />
     </div>
@@ -70,7 +73,7 @@ function Moodboard() {
         alt="image"
         src="/images/marathi.webp"
         className="img-fluid"
-        onClick={() => handleImageClick("/images/marathi.webp")}
+        onClick={() => handleImageClick("Image/wedding-page/mood-1/marathi.webp")}
         style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
       />
     </div>
@@ -79,7 +82,7 @@ function Moodboard() {
         alt="image"
         src="/images/arabic.webp"
         className="img-fluid"
-        onClick={() => handleImageClick("/images/arabic.webp")}
+        onClick={() => handleImageClick("Image/wedding-page/mood-1/arabic.webp")}
         style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
       />
     </div>

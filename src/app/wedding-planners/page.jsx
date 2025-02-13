@@ -198,7 +198,7 @@ const page = () => {
         <Sectionone />
         <Sectiontwo />
         <Sectionfour />
-        {/* <Moodboard/> */}
+        <Moodboard/>
         <Sectionthree />
         <Accordian />
         <Sectionfive />
