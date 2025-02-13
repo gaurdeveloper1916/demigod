@@ -43,9 +43,14 @@ function Footer(props) {
     "DemiGod HealthBox",
     "DemiGod Shield",
   ];
-  const shortcut = [{ name: "Home", linking: "/" }, { name: "M&M", linking: "/m&m" }, { name: "Corporate", linking: "corporate" }, { name: "Weddings", linking: "wedding" },
-    { name: "Contact us", linking: "contact-us" },{ name: "About us", linking: "/about_us" }
-  ]
+  const shortcut = [
+    { name: "Home", linking: "/" },
+    { name: "M&M", linking: "/m&m" },
+    { name: "Corporate", linking: "corporate" },
+    { name: "Weddings", linking: "wedding" },
+    { name: "Contact us", linking: "contact-us" },
+    { name: "About us", linking: "/about_us" },
+  ];
   return (
     <>
       <div
@@ -55,7 +60,7 @@ function Footer(props) {
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
-        className="container-fluid p-0 bg-black relative z-50 "
+        className="container-fluid p-0 bg-black relative z-50"
       >
         {/* Marquee Section */}
         <Marquee
@@ -71,7 +76,6 @@ function Footer(props) {
               <div key={i + 1} className="text-center">
                 <img
                   className="m-0 logoImage-footer-marque"
-                  
                   src="/images/demigodnew.png"
                   alt="Logo"
                 />
@@ -87,74 +91,14 @@ function Footer(props) {
         <div className="container-fluid py-5">
           <div className="row justify-content-center align-items-start">
             {/* Left Column */}
-            <div className="col-lg-12 col-md-12 col-12 d-flex flex-wrap justify-content-center align-items-start gap-4">
-              <div>
-              <img
-                src="./images/demigodnew.png"
-                alt="Logo"
-                className="img-fluid logoImage-footer"
-              />
-              </div>
-              <div className="text-white verySmallFont">
-                <button className="verySmallFont border-0 rounded px-3 py-2 text-white ">
-                  Help Or Support ?
-                </button>
-                <div className="mt-3 px-3">
-                  <p className="m-0">Phone</p>
-                  <p className="m-0">+91-8355723794</p>
-                  <p>+91-8355723794</p>
-                  <p className="m-0">Email</p>
-                  <p>info@demigodhouse.com</p>
-                </div>
-              </div>
-              <div className="text-white verySmallFont">
-                <button className="verySmallFont border-0 rounded px-3 py-2 text-white w-10">
-                  Event Categories
-                </button>
-                <div className="mt-3 px-3">
-                  <p className="m-0">Phone</p>
-                  <p className="m-0">+91-8355723794</p>
-                  <p>+91-8355723794</p>
-                  <p className="m-0">Email</p>
-                  <p>info@demigodhouse.com</p>
-                </div>
-              </div>
-              <div className="text-white verySmallFont">
-                <button className="verySmallFont border-0 rounded px-3 py-2 text-white w-10">
-                  Shortcuts
-                </button>
-                <div className="d-flex flex-column gap-3 mediumFont px-2 mt-2">
-                  {shortcut.map(
-                    (item, index) => (
-
-                      <Link className="" href={item.linking}>
-
-                        <div className="d-flex align-items-center" key={index}>
-                          <MdArrowOutward color="white" className="me-2" />
-                          <p className="m-0 text-white">{item.name}</p>
-                        </div>
-                      </Link>
-                    )
-                  )}
-                </div>
-              </div>
-              <div className="text-white verySmallFont">
-                <button className="verySmallFont border-0 rounded px-3 py-2 text-white w-10">
-                  Services
-                </button>
-                <div className="mt-3 px-3">
-                  <p className="m-0">Phone</p>
-                  <p className="m-0">+91-8355723794</p>
-                  <p>+91-8355723794</p>
-                  <p className="m-0">Email</p>
-                  <p>info@demigodhouse.com</p>
-                </div>
-              </div>
-              <div className="text-white verySmallFont">
-                <button className="verySmallFont border-0 rounded px-3 py-2 text-white">
-                  Follow us on Social Media
-                </button>
-                <ul className="list-unstyled d-flex flex-column  justify-content-center align-items-center gap-3 mt-3">
+            <div className="col-lg-10 col-md-12 col-12 d-flex flex-wrap justify-content-between align-items-start gap-4 ">
+              <div className="footer_logo">
+                <img
+                  src="./images/demigodnew.png"
+                  alt="Logo"
+                  className="img-fluid logoImage-footer"
+                />
+                <ul className="list-unstyled d-flex  justify-content-center align-items-center gap-3 ">
                   <li>
                     <a
                       href="https://www.facebook.com/DemiGodCloud"
@@ -189,74 +133,66 @@ function Footer(props) {
                   </li>
                 </ul>
               </div>
+
+              <div className="text-white smallfont">
+                <button className="smallfont border-0 rounded px-3 py-2 text-white ">
+                  Help Or Support ?
+                </button>
+                <div className="mt-3 px-3">
+                  <p className="m-0">Phone</p>
+                  <p className="m-0">+91-8355723794</p>
+                  <p>+91-8355723794</p>
+                  <p className="m-0">Email</p>
+                  <p>info@demigodhouse.com</p>
+                </div>
+              </div>
+              <div className="text-white smallfont">
+                <button className="smallfont border-0 rounded px-3 py-2 text-white w-10">
+                  Event Categories
+                </button>
+                <div className="mt-3 px-3">
+                  <p className="m-0">Phone</p>
+                  <p className="m-0">+91-8355723794</p>
+                  <p>+91-8355723794</p>
+                  <p className="m-0">Email</p>
+                  <p>info@demigodhouse.com</p>
+                </div>
+              </div>
+              <div className="text-white smallfont">
+                <button className="smallfont border-0 rounded px-3 py-2 text-white w-10">
+                  Shortcuts
+                </button>
+                <div className="d-flex flex-column gap-2 mediumFont px-2 mt-2">
+                  {shortcut.map((item, index) => (
+                    <Link className="text-decoration-none" href={item.linking}>
+                      <div className="d-flex align-items-center" key={index}>
+                        <MdArrowOutward color="white" className="me-2" />
+                        <p className="m-0 text-white">{item.name}</p>
+                      </div>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+              <div className="text-white smallfont">
+                <button className="smallfont border-0 rounded px-3 py-2 text-white w-10">
+                  Services
+                </button>
+                <div className="mt-3 px-3">
+                  <p className="m-0">Phone</p>
+                  <p className="m-0">+91-8355723794</p>
+                  <p>+91-8355723794</p>
+                  <p className="m-0">Email</p>
+                  <p>info@demigodhouse.com</p>
+                </div>
+              </div>
+             
             </div>
 
-            {/* Right Column */}
-            {/* <div className="col-lg-6 col-md-6 col-12 d-flex  gap-4">
-        <div className="text-white verySmallFont">
-          <button className="verySmallFont border-0 rounded px-3 py-2 text-white w-10">
-            Shortcuts
-          </button>
-          <div className="d-flex flex-column gap-3 mediumFont px-2 mt-2">
-            {["Home", "Events", "Corporate", "Weddings"].map((item, index) => (
-              <div className="d-flex align-items-center" key={index}>
-                <MdArrowOutward color="white" className="me-2" />
-                <p className="m-0">{item}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-        <div className="text-white verySmallFont">
-          <button className="verySmallFont border-0 rounded px-3 py-2 text-white w-10">
-            Services
-          </button>
-          <div className="mt-3 px-3">
-            <p className="m-0">Phone</p>
-            <p className="m-0">+91-8355723794</p>
-            <p>+91-8355723794</p>
-            <p className="m-0">Email</p>
-            <p>info@demigodhouse.com</p>
-          </div>
-        </div>
-      </div> */}
+            
           </div>
         </div>
 
-        {/* Social Media Section */}
-        {/* <div className="container py-4">
-    <div className="row justify-content-center align-items-center">
-      <div className="col-lg-10 col-12 text-white text-center">
-        <button className="verySmallFont border-0 rounded px-3 py-2 text-white">
-          Follow us on Social Media
-        </button>
-        <ul className="list-unstyled d-flex justify-content-center gap-3 mt-3">
-          <li>
-            <a href="https://www.facebook.com/DemiGodCloud" className="text-white">
-              <FaFacebookF size={20} />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/DemiGodCloud" className="text-white">
-              <FaInstagram size={20} />
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/DemiGodCloud" className="text-white">
-              <FaXTwitter size={20} />
-            </a>
-          </li>
-          <li>
-            <a href="https://linkedin.com/company/DemiGodCloud" className="text-white">
-              <FaLinkedinIn size={20} />
-            </a>
-          </li>
-        </ul>
-        <p>@demigodhouse</p>
-      </div>
-    </div>
-  </div> */}
-
-     
+       
       </div>
     </>
   );

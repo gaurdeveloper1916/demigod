@@ -3,10 +3,17 @@
     
 
   }
+  .smallfont {
+    font-size: 15px;
+  }
+
   @media screen and (max-width: 600px) {
     .flex-follow{
       justify-content: start;
       
   
+    }
+    .smallfont {
+      font-size: 11px;
     }
   }

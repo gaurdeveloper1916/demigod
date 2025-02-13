@@ -249,6 +249,25 @@
 
 /* Adjustments for mobile screens */
 @media (max-width: 650px) {
+
+
+  .main {
+    height: 90vh;
+  }
+  .overlay-content .title {
+    font-size: 30px;
+  }
+  .slider {
+    display: none;
+  }
+  .overlay-content .description {
+    font-size: 18px;
+  }
+  .overlay-content {
+    width: 85%;
+    top: 50%;
+  }
+  
   .item {
     width: 130px;
     height: 220px;
