@@ -2,11 +2,12 @@
   "name": "demigod_v2",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
+ "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start:prod": "npm run build && next start",
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
