@@ -6,21 +6,21 @@ function OnScrollDiv() {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const divs = [
-        <div className=" d-flex justify-content-center align-items-center mt-5">
+        <div key={1} className=" d-flex justify-content-center align-items-center mt-5">
             <img
                 alt="Image"
                 src="https://images.pexels.com/photos/16754128/pexels-photo-16754128/free-photo-of-a-green-park-with-trees-and-a-white-bench.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 className="img-fluid"
             />
         </div>,
-        <div className=" d-flex justify-content-center align-items-center mt-5">
+        <div  key={2} className=" d-flex justify-content-center align-items-center mt-5">
             <img
                 alt="Image"
                 src="https://m.media-amazon.com/images/I/710GjkD28nL._AC_UF1000,1000_QL80_.jpg"
                 className="img-fluid"
             />
         </div>,
-        <div>
+        <div  key={3}>
             <WeddingSlider />
         </div>
     ];

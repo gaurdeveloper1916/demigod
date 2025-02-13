@@ -164,7 +164,7 @@ function Footer(props) {
                 </button>
                 <div className="d-flex flex-column gap-2 mediumFont px-2 mt-2">
                   {shortcut.map((item, index) => (
-                    <Link className="text-decoration-none" href={item.linking}>
+                    <Link key={item} className="text-decoration-none" href={item.linking}>
                       <div className="d-flex align-items-center" key={index}>
                         <MdArrowOutward color="white" className="me-2" />
                         <p className="m-0 text-white">{item.name}</p>
