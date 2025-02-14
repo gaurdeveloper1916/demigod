@@ -144,8 +144,9 @@ const Lovestory = () => {
       {/* Dummy Data Section */}
       <div>
         <div className="d-flex flex-lg-row flex-md-row flex-column justify-content-between align-items-center my-5 gap-4">
-          {dummyData.map((i) => (
+          {dummyData.map((i,index) => (
             <div
+            key={index}
               className="d-flex flex-column justify-content-center align-items-center text-center"
               style={{ gap: "10px" }} // Adjust spacing as needed
             >

@@ -9,10 +9,8 @@ import { CgMail } from "react-icons/cg";
 import "./index.css";
 import Header from "../component/common/header/Header";
 import Footer from "../component/common/footer/Footer";
-function page(props) {
-  const [bigImage, setBigImage] = useState(
-    " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-76k-1SBjyPIb5XNFfAdqlkFogZMRnXiqTQ&s"
-  );
+function Page(props) {
+  const [bigImage, setBigImage] = useState("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-76k-1SBjyPIb5XNFfAdqlkFogZMRnXiqTQ&s");
 
   // Function to handle the click event on small images
   const handleSmallImageClick = (imageSrc) => {
@@ -262,6 +260,6 @@ function page(props) {
   );
 }
 
-export default page;
+export default Page;
 
 

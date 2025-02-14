@@ -5,7 +5,7 @@ import { GoPlus } from "react-icons/go";
 import { IoArrowBackSharp } from "react-icons/io5";
 import { Auth } from "../../../../context/AppContext";
 const Selectticket = () => {
-    const {landingHeading,landingDes, } =useContext(Auth)
+    const {landingHeading,landingDes,ticketdes } =useContext(Auth)
     const [ticketCount, setTicketCount] = useState(1);
 
     return (
@@ -29,7 +29,7 @@ const Selectticket = () => {
                                 <p className="text-white">TICKET TYPE:VIRTUAL</p>
                                 <p className="text-white">EMAIL: info@demigodhouse.com</p>
                                 <p className="text-white">TOTAL:FREE</p>
-                                <p className="text-white mt-3">Payment Method
+                                <p className="text-white mt-3">{ticketdes ? ticketdes : 'More Details'} 
                                 </p>
                             </div>
                         </div>

@@ -7,9 +7,13 @@ export const AppProvider = ({ children }) => {
   const [state, setState] = useState("Hello from Context!");
   const [landingHeading, setLandingHeading] = useState('Economic Patriots Summit Euprope')
   const [landingDes, setLandingDes] = useState('')
-  function handleUpdate(heading,description) {
+  const [ticketdes, setTicketDes] = useState('')
+
+  function handleUpdate(heading,description,ticket) {
     setLandingHeading(heading)
     setLandingDes(description)
+    setTicketDes(ticket)
+    
   }
   return (
     <>
@@ -17,7 +21,8 @@ export const AppProvider = ({ children }) => {
         value={{
           state,
           setState,
-          landingHeading, setLandingHeading,
+          setTicketDes,ticketdes,
+          landingHeading, setLandingHeading,setTicketDes,
           landingDes, setLandingDes, handleUpdate
 
         }}
