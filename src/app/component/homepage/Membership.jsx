@@ -24,7 +24,7 @@ function Membership(props) {
     },
   ];
   return (
-    <div className="container-fluid p-5">
+    <div className="container-fluid p-lg-5 p-3 mb-5 col-lg-11">
       <div className="row bg-dark-black">
         <div className="col-lg-6 p-lg-4 p-3">
           <h3 className="text-white p-3 membership-title">
@@ -70,7 +70,7 @@ function Membership(props) {
             </Accordion.Item>
           </Accordion>
         </div>
-        <div className="col-lg-6 p-3 d-flex align-items-center justify-content-center">
+        <div className="col-lg-6 d-lg-block d-none p-3 d-flex align-items-center justify-content-center">
           <img
             className="w-100 img-membership"
             src="https://images.pexels.com/photos/2263436/pexels-photo-2263436.jpeg?cs=srgb&dl=pexels-teddy-yang-2263436.jpg&fm=jpg"

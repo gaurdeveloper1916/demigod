@@ -2,17 +2,18 @@
 import React from "react";
 import { useState } from "react";
 import { FaPlus } from "react-icons/fa";
-import './booknow.css'
+import './book.css'
 import Link from "next/link";
 const Booknow = () => {
   const [currentSlide, setCurrentSlide] = useState("standup");
   return (
     <>
-     <div className="container-fluid  p-5">
+     <div className="container-fluid p-5">
      <div
         className="book_now_user d-flex flex-lg-row flex-column"
         style={{
           display: "flex",
+          height:'100vh',
           background: `url(${
             currentSlide === "standup"
               ? "/images/landing-page-images/section4/test.webp"
@@ -34,7 +35,7 @@ const Booknow = () => {
                 currentSlide === "standup" ? "active" : ""
               }`}
             >
-              D'Yacht Party
+              standup
             </p>
           </div>
 
@@ -43,7 +44,7 @@ const Booknow = () => {
               currentSlide === "standup" ? "active" : ""
             }`}
           >
-            <p className="text-uppercase fs-5 font-bold"> D'Yacht Party</p>
+            <p className="text-uppercase">D'Yacht Party</p>
             <h1>
             Sail into Luxury & Celebration
             </h1>
@@ -52,13 +53,7 @@ const Booknow = () => {
               music, and entertainment. Enjoy breathtaking ocean views, gourmet dining, and an
               exclusive party atmosphere like no other.
             </p>
-            <Link
-              href={{
-                pathname: '/landingpage',
-                query: { name: '  Sail into Luxury & Celebration'},
-              }}
-
-               >
+              <Link href="/landingpage">
                 <button className="btn">Book Now</button>
 
               </Link>
@@ -77,7 +72,7 @@ const Booknow = () => {
                 currentSlide === "djnight" ? "active" : ""
               }`}
             >
-           Oktober fest
+                Oktober fest
             </p>
           </div>
 
@@ -86,7 +81,6 @@ const Booknow = () => {
               currentSlide === "djnight" ? "active" : ""
             }`}
           >
-            <p className="text-uppercase fs-5 font-bold">  Oktober fest</p>
             <h1>
             Celebrate Oktoberfest in Style
             </h1>
@@ -96,11 +90,7 @@ const Booknow = () => {
               this world-famous festival with exciting games, live performances, and a vibrant 
               atmosphere.
             </p></h2>
-            <Link
-              href={{
-                pathname: '/landingpage',
-                query: { name: ' Celebrate Oktoberfest in Style'},
-              }}>
+              <Link href="/landingpage">
                 <button className="btn ">Book Now</button>
 
               </Link>
@@ -121,7 +111,7 @@ const Booknow = () => {
                 currentSlide === "dandiyanight" ? "active" : ""
               }`}
             >
-               Movie Theme Event
+                Movie Theme Event
             </p>
           </div>
 
@@ -130,7 +120,7 @@ const Booknow = () => {
               currentSlide === "dandiyanight" ? "active" : ""
             }`}
           >
-            <p className="text-uppercase fs-5 font-bold"> Movie Theme Event </p>
+           <p className="text-uppercase fs-5 font-bold"> Movie Theme Event </p>
             <h1>
             Experience the Magic of Movies 
             </h1>
@@ -139,56 +129,51 @@ const Booknow = () => {
               Enjoy immersive decor, live performances, and themed experiences inspired
               by blockbuster hits.
             </p>
-            <Link
-              href={{
-                pathname: '/landingpage',
-                query: { name: '  Experience the Magic of Movies '},
-              }}>
+              <Link href="/landingpage">
                 <button className="btn ">Book Now</button>
 
               </Link>
           </div>
-          
-          
         </div>
+
         <div
-          className={`slider1 ${currentSlide === "standup" ? "active" : ""}`}
-          onClick={(e) => setCurrentSlide("standup")}
+          className={`slider1 ${
+            currentSlide === "videoevent" ? "active" : ""
+          }`}
+          onClick={(e) => setCurrentSlide("videoevent")}
         >
-          
+         
           <div className="booknow__title_wrapper">
             <FaPlus className="plus_icon" />
             <p
-              className={`book_title ${
-                currentSlide === "standup" ? "active" : ""
+              className={`book_title text-uppercase ${
+                currentSlide === "videoevent" ? "active" : ""
               }`}
             >
-              Video Event
+                Video Event
             </p>
           </div>
 
           <div
             className={`book_now_user_content ${
-              currentSlide === "standup" ? "active" : ""
+              currentSlide === "videoevent" ? "active" : ""
             }`}
           >
-            <p className="text-uppercase fs-5 font-bold"> Video Event</p>
+           <p className="text-uppercase fs-5 font-bold"> Video Event</p>
             <h1>
             Explore the Future of Visual Storytelling
             </h1>
             <p>
             Join industry leaders and enthusiasts at our upcoming Video Event, where we'll delve into the latest trends in video production, editing techniques, and distribution strategies. Network with professionals, attend workshops, and gain insights to elevate your visual content.
             </p>
-            <Link
-              href={{
-                pathname: '/landingpage',
-                query: { name: ' Explore the Future of Visual Storytelling '},
-              }}>
-                <button className="btn">Book Now</button>
+              <Link href="/landingpage">
+                <button className="btn ">Book Now</button>
 
               </Link>
           </div>
         </div>
+
+        
       </div>
      </div>
     </>

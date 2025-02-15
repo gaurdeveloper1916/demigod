@@ -1,0 +1,10 @@
+.explore-text{
+    font-size: 30px;
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .explore-text{
+        font-size: 20px;
+    }
+  }

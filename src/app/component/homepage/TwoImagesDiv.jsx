@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useContext } from "react";
 import { MdArrowOutward } from "react-icons/md";
 import { Auth } from "../../../context/AppContext";
-
+import './index.css'
 function TwoImagesDiv() {
   const { handleUpdate } = useContext(Auth)
   const data = [
@@ -83,7 +83,7 @@ function TwoImagesDiv() {
   ];
   return (
     <div
-      className="container-fluid p-5 mb-5 col-lg-11"
+      className="container-fluid p-lg-5 p-3 mb-5 col-lg-11"
       style={{
         backgroundImage: `url('/ve.jpg')`,
         backgroundSize: 'cover',
@@ -109,8 +109,8 @@ function TwoImagesDiv() {
                   <div className="text-white verySmallFont">
                     <div style={{ lineHeight: "30px" }}>
                       <p
-                        style={{ fontSize: "30px", fontWeight: "700" }}
-                        className="m-0 text-white"
+                        
+                        className="m-0 text-white image-div-content"
                       >
                         {image.title}{" "}
                       </p>

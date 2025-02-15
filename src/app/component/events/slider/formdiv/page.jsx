@@ -39,12 +39,12 @@ const Formdiv = () => {
         </button>
       </div>
       <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
-        <Modal.Header  className="bg-black border-0 d-flex justify-content-end">
-            <RxCross2  onClick={()=>{
-              setShow(false)
-              setStep(1)
-            }} 
-            size={25} className="text-white cursor"/>
+        <Modal.Header className="bg-black border-0 d-flex justify-content-end">
+          <RxCross2 onClick={() => {
+            setShow(false)
+            setStep(1)
+          }}
+            size={25} className="text-white cursor" />
         </Modal.Header>
         <Modal.Body className="bg-black">
           <div className={`d-flex flex-lg-row flex-column transition-container ${step === 2 ? "step-2" : "step-1"}`}>
@@ -68,7 +68,7 @@ const Formdiv = () => {
                   <>
                     <h6 className="text-white mt-4">Tell Us About Yourself!</h6>
                     <form>
-                      <div className="d-flex gap-5 text-white">
+                      <div className="d-flex flex-lg-row flex-column gap-lg-5 gap-0 text-white">
                         <label className="d-flex align-items-center gap-2">
                           <input
                             type="radio"
@@ -102,12 +102,12 @@ const Formdiv = () => {
                           htmlFor="exampleSelect"
                           className="form-label text-white"
                         >
-                          What type of event are you planning? 
+                          What type of event are you planning?
                         </label>
                         <select className="form-select w-50" id="exampleSelect">
                           <option value="">Select an option</option>
                           <option value="option1">Corporate Meetup</option>
-                            <suboption value="option1">Corporate Meetup</suboption>
+                          <suboption value="option1">Corporate Meetup</suboption>
                           <option value="option2">Gala</option>
                           <option value="option3">Themed Party</option>
                           <option value="option4">Festival</option>
@@ -197,15 +197,15 @@ const Formdiv = () => {
                     <h5 className="mt-4">Thank You for Your Response!</h5>
                   </div>
                 )}
-                <div className="d-flex justify-content-end mt-4">
+                <div className="d-flex mx-5 ">
                   {step === 1 ? (
-                    <button className="corner-button" onClick={handleContinue}>
-                    <span>Continue</span>
-                </button>
+                    <button className="corner-button mt-5" onClick={handleContinue}>
+                      <span>Continue</span>
+                    </button>
                   ) : step === 2 ? (
-                    <button className="corner-button" onClick={handleSubmit}>
-            <span>Submit</span>
-        </button>
+                    <button className="corner-button  mt-5" onClick={handleSubmit}>
+                      <span>Submit</span>
+                    </button>
                   ) : null}
                 </div>
               </div>

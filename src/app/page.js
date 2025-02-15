@@ -4,7 +4,7 @@ import Formdiv from "./component/events/slider/formdiv/page";
 import GetTickets from "./component/events/slider/gettickets/page";
 import Slider from "./component/events/slider/slider/Slider";
 import Map from "./component/googlemap/Map";
-import Booknow from "./component/homepage/BookNow";
+import Booknow from "./react-slick/BookNow";
 import FridayNight from "./component/homepage/friday/FridayNight";
 import Membership from "./component/homepage/Membership";
 import Prochainement from "./component/homepage/Prochainement";

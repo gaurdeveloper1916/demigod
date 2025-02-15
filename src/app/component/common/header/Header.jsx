@@ -19,13 +19,13 @@ function OffCanvasExample({ data }) {
 
   return (
     <>
-      <RxHamburgerMenu
+      {/* <RxHamburgerMenu
         color="white"
         onClick={handleShow}
 
         style={{ marginTop: "12px" }}
         size={30}
-      />
+      /> */}
       <Offcanvas
         className="bg-black"
         show={show}
@@ -296,7 +296,8 @@ function Header() {
       <div className="container-fluid p-0 d-lg-none d-block  p-2">
         <div className="d-flex justify-content-between">
           <img className="w-25" src="./images/demigodnew.png"></img>
-          {/* <RxHamburgerMenu className='mt-2 ' size={35} /> */}
+          <p className="position-absolute logo-text">Media.Marketing.Event’s</p>
+
           <OffCanvasExample placement="end" name="end" data={data} />
         </div>
       </div>

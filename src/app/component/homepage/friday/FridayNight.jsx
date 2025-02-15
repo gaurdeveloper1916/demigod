@@ -165,7 +165,7 @@ export default function FridayNight() {
           </div>
         </div>
       </div>
-      <div className="text-center mt-5">
+      <div className="text-center mt-5 text-white">
         <h2>Join us for an unforgettable Friday night!</h2>
         <p>Experience the best events and activities, curated just for you.</p>
         <Link href="/events">
