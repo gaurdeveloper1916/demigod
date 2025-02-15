@@ -44,10 +44,10 @@ const Slider = () => {
     },
     {
       id: 2,
-      title: '"D Aero Expo"',
-      description:
-        " DemiGod Aero Expo, an event attracting global airlines manufacturer for the Air Show & Airplane exhibition one of it's kind with Global Dignitaries participating for the Modern Aero tech ! ",
-      backgroundImage: "./images/landing-page-images/section1/55.jpg",
+      title: '""',
+      // description:
+      //   " DemiGod Aero Expo, an event attracting global airlines manufacturer for the Air Show & Airplane exhibition one of it's kind with Global Dignitaries participating for the Modern Aero tech ! ",
+      backgroundImage: "./images/landing-page-images/section1/hero.jpeg",
     },
     {
       id: 3,
