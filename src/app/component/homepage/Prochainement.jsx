@@ -1,33 +1,37 @@
 'use client'
-import React from "react";
+import React, { useContext } from "react";
 import { MdArrowCircleLeft, MdArrowCircleRight, MdArrowOutward } from "react-icons/md";
 import './index.css'
 import Link from "next/link";
 import { Auth } from "../../../context/AppContext";
 
-function TwoImagesDiv() {
+
+const Prochainement= () => {
   const { handleUpdate } = useContext(Auth);
-}
-const Prochainement
-  = () => {
+
     const arr = [
       {
         image:
           "/images/landing-page-images/section3/EUR.webp",
         event_name: "Economic Patriots Summit Euprope ",
         desc: "Join us for the Economic Patriots Summit Europe, where industry leaders and economic experts will discuss the future of Europe's economy.",
+        ticketsDes:"jskadhkashdkjasd"
       },
       {
         image:
           "/images/landing-page-images/section3/INDIA.webp",
         event_name: "Economic Patriots Summit India",
         desc: "Join us for the Economic Patriots Summit India, where industry leaders and economic experts will discuss the future of India's economy.",
+        ticketsDes:"jskadhkashdkjasd"
+      
+        
       },
       {
         image:
           "/images/landing-page-images/section3/USA.webp",
         event_name: "Economic Patriots Summit USA",
-        desc: "Join us for the Economic Patriots Summit USA, where industry leaders and economic experts will discuss the future of USA's economy."
+        desc: "Join us for the Economic Patriots Summit USA, where industry leaders and economic experts will discuss the future of USA's economy.",
+        ticketsDes:"jskadhkashdkjasd"
       }
     ];
     return (
@@ -51,11 +55,9 @@ const Prochainement
           {arr.map((item, index) => {
             return (
               <Link
+                onClick={()=>handleUpdate(item.event_name,item.desc,item.ticketsDes)}
                 key={index}
-                href={{
-                  pathname: '/landingpage',
-                  query: { name: item.event_name },
-                }}
+                href='/landingpage'
               >
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <div className="product col-lg-10 position-relative">
@@ -88,5 +90,4 @@ const Prochainement
       </div>
     );
   };
-export default Prochainement
-  ;
+export default Prochainement;
