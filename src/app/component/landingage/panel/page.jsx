@@ -5,7 +5,7 @@ import { GoDownload } from 'react-icons/go';
 import { FaAngleDown } from 'react-icons/fa';
 import Link from 'next/link';
 import Tabs from '../tabs/page';
-
+import TabsComponent from '../TabsComponent/TabsComponent'
 const Panel = () => {
   const [activeTab, setActiveTab] = useState('v-pills-home');
 
@@ -17,7 +17,9 @@ const Panel = () => {
     <>
       <div className='d-flex  flex-lg-row flex-column justify-content-center gap-4  mt-5'>
         <div className='col-lg-7 col-12'>
-          <Tabs />
+          {/* <Tabs /> */}
+          <TabsComponent/>
+
 
         </div>
         <div className='col-lg-4 col-12'>

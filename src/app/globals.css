@@ -6,19 +6,23 @@
   height: 74px;
   /* margin-left: 20px; */
 }
-.logoImage-footer{
+
+.logoImage-footer {
   width: 251px;
   height: 134px;
 }
-.logoImage-footer-marque{
+
+.logoImage-footer-marque {
   width: 170px;
   height: 134px;
 }
-.moodboard{
+
+.moodboard {
   font-size: 200px;
   font-weight: bold;
   font-family: sans-serif;
 }
+
 .ul-custom {
   list-style: none;
 }
@@ -38,13 +42,16 @@
 .verySmallFont {
   font-size: 12px;
 }
-.text-deco{
+
+.text-deco {
   text-decoration: none;
 }
+
 .mediumfont {
   font-size: 16px;
 }
-.largefont{
+
+.largefont {
   font-size: 54px;
 }
 
@@ -64,41 +71,56 @@
 .button-all:hover {
   transform: translateY(-5px);
 }
-.button-all{
-  border: none; /* Remove borders */
-  color: white; /* White text */
-  text-align: center; /* Center text */
-  text-decoration: none; /* Remove underline */
-  display: inline-block; /* Make it inline block */
-  font-size: 13px; /* Font size */
-  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
-  cursor: pointer; 
-  border-radius: 50px; 
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+
+.button-all {
+  border: none;
+  /* Remove borders */
+  color: white;
+  /* White text */
+  text-align: center;
+  /* Center text */
+  text-decoration: none;
+  /* Remove underline */
+  display: inline-block;
+  /* Make it inline block */
+  font-size: 13px;
+  /* Font size */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  /* Smooth transition */
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Shadow effect */
 }
+
 .button-all:hover {
-  transform: translateY(-5px); 
+  transform: translateY(-5px);
 }
+
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
 [type=submit]:not(:disabled),
 button:not(:disabled) {
-    cursor: pointer;
-    font-weight: 500;
-    background-image: linear-gradient(270deg, #866b2f, #dbb85e 50%, #866b2f);
-    
-    /* font-family: "Playfair Display",
+  cursor: pointer;
+  font-weight: 500;
+  background-image: linear-gradient(270deg, #866b2f, #dbb85e 50%, #866b2f);
+
+  /* font-family: "Playfair Display",
         serif; */
 }
-.mobile-list-header{
-  background-color: linear-gradient(270deg, #866b2f, #dbb85e 50%, #866b2f);;
+
+.mobile-list-header {
+  background-color: linear-gradient(270deg, #866b2f, #dbb85e 50%, #866b2f);
+  ;
 }
+
 /* accordian classes */
 .accordion-item {
   color: white !important;
   background-color: transparent !important;
   border: none !important;
 }
+
 .accodationBorder {
   border: none !important;
 }
@@ -151,7 +173,7 @@ button:not(:disabled) {
 .accordion-button {
   width: 98% !important;
   color: black !important;
-  
+
 }
 
 /* footer */
@@ -160,15 +182,19 @@ button:not(:disabled) {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.fs-custom{
+
+.fs-custom {
   font-size: 15px;
 }
-.h-fs-custom{
+
+.h-fs-custom {
   font-size: 17px;
 }
-.text-web{
+
+.text-web {
   color: #EBC013;
 }
+
 body::-webkit-scrollbar {
   width: 5px;
 }
@@ -204,56 +230,65 @@ body::-webkit-scrollbar-thumb {
   display: none;
   visibility: hidden;
 }
+
 .gradient-text {
-  background-image: linear-gradient(90deg, rgba(74,68,161,1) 13%, rgba(198,162,203,1) 100%, rgba(0,212,255,1) 100%);
+  background-image: linear-gradient(90deg, rgba(74, 68, 161, 1) 13%, rgba(198, 162, 203, 1) 100%, rgba(0, 212, 255, 1) 100%);
   background-clip: text;
-  -webkit-background-clip: text; 
+  -webkit-background-clip: text;
   color: transparent;
 }
+
 .gradient-text-light-black {
-  background-image: linear-gradient(90deg, rgba(200,200,200,0.1) 0%, rgba(255,255,255,1) 100%);
+  background-image: linear-gradient(90deg, rgba(200, 200, 200, 0.1) 0%, rgba(255, 255, 255, 1) 100%);
   background-clip: text !important;
-  -webkit-background-clip: text !important; 
+  -webkit-background-clip: text !important;
   color: transparent !important;
 }
-.bg-color{
-  background-color: linear-gradient(90deg, rgba(200,200,200,0.1) 0%, rgba(255,255,255,1) 100%);
+
+.bg-color {
+  background-color: linear-gradient(90deg, rgba(200, 200, 200, 0.1) 0%, rgba(255, 255, 255, 1) 100%);
 }
-.bg-card{
-  background: rgba(255, 255, 255, 0.15); 
+
+.bg-card {
+  background: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.3); 
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
-.bg-cards-inner{
+
+.bg-cards-inner {
   background: rgb(241 236 236 / 15%);
   backdrop-filter: blur(0px);
   -webkit-backdrop-filter: blur(0px);
   border-radius: 10px;
 }
-.bg-whitesh{
-  background-color: rgb(35 38 40) 
+
+.bg-whitesh {
+  background-color: rgb(35 38 40)
 }
-.full-circle{
+
+.full-circle {
   width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #ffffff;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
 }
-.text-heading{
+
+.text-heading {
   color: #dbb85e;
 }
-.tab-css-button{
+
+.tab-css-button {
   /* background: transparent; */
   border-radius: 4px;
   display: inline-flex;
   color: #dbb85e;
   font-size: 32px;
-    font-weight: 600;
+  font-weight: 600;
   letter-spacing: .2375px;
   font-family: cursive;
 
@@ -262,13 +297,14 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   white-space: nowrap;
 }
-.tab-css-button-slected{
+
+.tab-css-button-slected {
   background: #dbb85e;
   border-radius: 4px;
   font-family: cursive;
   display: inline-flex;
   font-size: 32px;
-    font-weight:900;
+  font-weight: 900;
   text-decoration: overline;
 
 
@@ -282,7 +318,7 @@ body::-webkit-scrollbar-thumb {
   /* white-space: nowrap; */
 }
 
-.title-des{
+.title-des {
   background-color: #071d39;
 }
 
@@ -296,10 +332,11 @@ body::-webkit-scrollbar-thumb {
 }
 
 .overflow-x-auto {
-  -ms-overflow-style: none; 
+  -ms-overflow-style: none;
   overflow-x: auto;
   white-space: nowrap;
 }
+
 .info_card {
   background: #071d39;
   bottom: 0;
@@ -308,6 +345,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   z-index: 2;
 }
+
 .info_card ::before {
   background: linear-gradient(#0000, #071d39);
   content: "";
