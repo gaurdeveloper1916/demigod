@@ -1,19 +1,28 @@
-.flex-follow{
-    justify-content: center;
-    
+.flex-follow {
+  justify-content: center;
 
+
+}
+.smallfont {
+  font-size: 15px;
+}
+
+.footer_logo {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .flex-follow {
+    justify-content: start;
   }
+
   .smallfont {
-    font-size: 15px;
+    font-size: 11px;
   }
 
-  @media screen and (max-width: 600px) {
-    .flex-follow{
-      justify-content: start;
-      
-  
-    }
-    .smallfont {
-      font-size: 11px;
-    }
+  .footer_logo {
+    margin-left: 4rem;
   }
+}
+
+@media (max-width: 650px) {}

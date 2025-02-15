@@ -104,7 +104,7 @@ function Footer(props) {
                       href="https://www.facebook.com/DemiGodCloud"
                       className="text-white"
                     >
-                      <FaFacebookF size={20} />
+                      <FaFacebookF size={30} />
                     </a>
                   </li>
                   <li>
@@ -112,7 +112,7 @@ function Footer(props) {
                       href="https://www.instagram.com/DemiGodCloud"
                       className="text-white"
                     >
-                      <FaInstagram size={20} />
+                      <FaInstagram size={30} />
                     </a>
                   </li>
                   <li>
@@ -120,7 +120,7 @@ function Footer(props) {
                       href="https://twitter.com/DemiGodCloud"
                       className="text-white"
                     >
-                      <FaXTwitter size={20} />
+                      <FaXTwitter size={30} />
                     </a>
                   </li>
                   <li>
@@ -128,7 +128,7 @@ function Footer(props) {
                       href="https://linkedin.com/company/DemiGodCloud"
                       className="text-white"
                     >
-                      <FaLinkedinIn size={20} />
+                      <FaLinkedinIn size={30} />
                     </a>
                   </li>
                 </ul>
