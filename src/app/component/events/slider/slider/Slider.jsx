@@ -58,10 +58,10 @@ const Slider = () => {
                 objectFit: "cover",
               }}
             >
-              <source src="/testing-video.MP4" type="video/mp4" />
+              <source src="/1.MP4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-            <div className="content">
+            {/* <div className="content">
               <h2 className="title">"Estrange Bond"</h2>
               <p className="description">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
@@ -69,7 +69,7 @@ const Slider = () => {
                 laboriosam ipsam enim.
               </p>
               <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
-            </div>
+            </div> */}
           </li>
           <li
             className="item"

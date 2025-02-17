@@ -12,10 +12,10 @@ const TabsComponent = () => {
     const tabs = [
         { id: "ex2-tabs-1", label: "Brand Development" },
         { id: "ex2-tabs-2", label: "Brand Marketing" },
-        { id: "ex2-tabs-3", label: "3rd Party Contract" },
+        { id: "ex2-tabs-3", label: "3rd Party Contract Manufacturing" },
         // { id: "ex2-tabs-4", label: "Brand SEO Funding" },
         { id: "ex2-tabs-5", label: "Brand Seed Funding" },
-        { id: "ex2-tabs-6", label: "Brand Private Equity" },
+        // { id: "ex2-tabs-6", label: "Brand Private Equity" },
         { id: "ex2-tabs-7", label: "B2B & B2C Events" },
     ];
     return (
@@ -105,8 +105,8 @@ const TabsComponent = () => {
                     </div>
                 </div>
 
-                <div className={`tab-pane fade  mt-4 ${activeTab === "ex2-tabs-2" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column gap-2 ">
+                <div className={`tab-pane fade  mt-12 ${activeTab === "ex2-tabs-2" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column gap-6 ">
 
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
@@ -117,59 +117,32 @@ const TabsComponent = () => {
                             >
                                 <img
                                     src="Image/m&m/tabs/marketing.webp"
-                                    className="img-fluid w-100"
-                                    style={{ height: "250px" }}
+                                    className="img-fluid w-500 image-style"
+                                    style={{ height: "700px" }}
                                 />
-
-                                <div className="title-des p-3">
+                                <div className="info_card p-10 text-white">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
                                         Brand MARKETING
 
                                     </h1>
                                     <p className="text-white text-start">
-                                        <strong>Our team’s research, expertise & exposure across a variety of commercial and industrial sectors give us the edge & grasp to develop a successfully strategic brand story!</strong>At Demigod House, we specialize in curating high-impact marketing strategies that ensure your brand stands out in an increasingly competitive landscape. We don’t just market—we create experiences that resonate with consumers and drive engagement.
-                                    </p>
+                                        <strong>DemiGod House marketing team specializes in curating high-impact marketing strategies that ensures your brand sectoral leadership & success story in an increasingly competitive landscape. We don’t just market, we create experiences that resonate with consumers and drive engagement.</strong>                                    </p>
                                 </div>
                             </div>
                             {/* </div> */}
                         </div>
                         <div className="col-lg-7  p-3">
-                            <p className="fw-bold text-white"> Our Approach:</p>
-                            <ul className="news-list d-flex flex-column gap-2 text-[30px]">
-                                <li>
-                                    <strong className="ago-text">Precision-Driven Targeted Brand Campaigns</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We develop, test, and optimize marketing campaigns tailored to specific audience segments, ensuring maximum engagement and ROI.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Cross-Platform Omnichannel Brand Presence</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We design integrated marketing strategies that seamlessly blend digital, print, television, radio, and outdoor media for unmatched market reach.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Social Media Domination & Community Engagement</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>Through strategic content creation, influencer collaborations, and real-time engagement, we position your brand at the center of industry conversations.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Data-Backed Content Creation & Storytelling</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We craft powerful brand stories that capture attention, spark emotions, and drive action, ensuring long-term customer loyalty.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
+                            {/* <p className="fw-bold text-white">Our Approach:</p> */}
+                            <ul className="news-list">
+                                <li>DemiGod House Marketing Team specializes in crafting high-impact marketing strategies that establish your brand as a sector leader and success story in today’s highly competitive landscape. We don’t just market—we create experiences that resonate with consumers and drive meaningful engagement. </li>
+                                <li>Marketing activities articulation & execution via our team is done on the basis of pragmatic market’s research, analysis and consumer fast changing demand as per global trends! </li>
 
+                                <li>Our marketing strategies are built on in-depth market research, thorough analysis, and an acute understanding of evolving consumer demands in line with global trends. We implement time-tested trade techniques and strategically integrated marketing campaigns across all available print and electronic media worldwide, ensuring maximum reach and impact for our clients’ brands across diverse B2B and B2C markets. </li>
+
+                                <li>With a vast and active network of traders, retailers, wholesalers, importers, and e-commerce vendors spanning over 65 countries, we provide our clients with a distinct competitive edge in sales and consumer interaction. Our arsenal of marketing tools, trade techniques, and strategic industry associations enables us to fulfill genuine consumer demand across a wide range of global markets.</li>
+                                <li>By God’s grace, not a single client has ever discontinued our marketing services, a testament to our team’s dedication and expertise. Our success is driven by meticulous market analysis and a pragmatic approach to understanding consumer demand based on the demographic structure of each market we serve.  </li>
                             </ul>
+                                
                         </div>
                     </div>
 
@@ -179,15 +152,18 @@ const TabsComponent = () => {
                 <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-3" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-2 ">
                         <div className="col-lg-5">
-                            {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
-
-                            <div className="d-flex flex-column">
-                                <img style={{ height: "300px" }} className="img-fluid w-100 "
-                                    src="Image/m&m/tabs/3rd.webp"></img>
-
-                                <div className="title-des  p-3">
+                        <div
+                                className=" border border-0 position-relative"
+                                style={{ borderRadius: "10px" }}
+                            >
+                                <img
+                                    src="Image/m&m/tabs/3rd.webp"
+                                    className="img-fluid w-100"
+                                    style={{ height: "500px" }}
+                                />
+                                <div className="info_card p-3 text-white">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                        3rd Party Contract
+                                        3rd Party Contract Manufacturing
 
                                     </h1>
                                     <p className="text-white text-start">
@@ -239,6 +215,7 @@ const TabsComponent = () => {
                 
                 <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-5" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-2 ">
+                        
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
 
