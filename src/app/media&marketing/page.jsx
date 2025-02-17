@@ -17,6 +17,7 @@ import Footer from "../component/common/footer/Footer";
 import ElectronicCommunity from "../component/mnm/slider/ElectronicCommunity";
 import Sectionone from "../component/mnm/Sectionone"
 import Repetativemandm from "../component/mnm/Repetativemandm"
+import AOSInit from "../component/AOSInit";
 
 
 export const metadata = {
@@ -66,6 +67,7 @@ function Index() {
       <Openforbusiness/>
       <Partnership/>
       <Getintouch/> 
+      {/* <AOSInit /> */}
     </div> 
   );
 }
