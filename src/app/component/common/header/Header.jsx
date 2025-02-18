@@ -4,11 +4,11 @@ import "./index.css";
 import React, { useEffect, useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Accordion from "react-bootstrap/Accordion";
-import { RxHamburgerMenu } from "react-icons/rx";
 import { data } from "../../constant/Dummy";
 import { FaChevronDown } from "react-icons/fa";
 
 import { BsX } from 'react-icons/bs';
+import { RxHamburgerMenu } from "react-icons/rx";
 
 
 function OffCanvasExample({ data }) {
@@ -19,13 +19,13 @@ function OffCanvasExample({ data }) {
 
   return (
     <>
-      {/* <RxHamburgerMenu
+      <RxHamburgerMenu
         color="white"
         onClick={handleShow}
 
         style={{ marginTop: "12px" }}
         size={30}
-      /> */}
+      />
       <Offcanvas
         className="bg-black"
         show={show}
@@ -35,9 +35,9 @@ function OffCanvasExample({ data }) {
       >
         <Offcanvas.Header closeButton={false} className="d-flex justify-content-between">
           <Offcanvas.Title>
-            <Link href="/">
+            <a href="/">
               <img className="logoImage" src="./images/demigodnew.png" alt="Logo"></img>
-            </Link>
+            </a>
           </Offcanvas.Title>
           <BsX className="offcanvas-close-icon fs-1 text-white" onClick={handleClose} />
         </Offcanvas.Header>
@@ -55,20 +55,20 @@ function OffCanvasExample({ data }) {
                       </Accordion.Header>
                       <Accordion.Body >
                         <div className="header-text-new">
-                          <Link className="text-white text-deco " href={item.attributes.url}>
+                          <a className="text-white text-deco " href={item.attributes.url}>
                             {item.attributes.corporate}
-                          </Link>
+                          </a>
                         </div>
                       </Accordion.Body>
                     </Accordion.Item>
                   ) : (
-                    <Link href={item.attributes.url}>
+                    <a href={item.attributes.url}>
                       {" "}
                       <button className="my-2 border border-dark header-list mediumfont  rounded text-start  text-black mobile-list-header " style={{ padding: "14px" }}>
                         {" "}
                         {item.attributes.URLText}
                       </button>
-                    </Link>
+                    </a>
                   )}
                 </div>
               );
@@ -119,7 +119,7 @@ function Header() {
             }`}
         >
           <div className="  px-5 w-100 d-flex gap-5 justify-content-between">
-            <div className="position-relative">
+            <div className="position-relative d-flex align-items-center gap-3">
               <Link className="" href="/">
                 {" "}
                 <img
@@ -293,7 +293,7 @@ function Header() {
         </div>
       </div>
 
-      <div className="container-fluid p-0 d-lg-none d-block  p-2">
+      <div className="container-fluid p-0 d-lg-none d-block bg-black p-2">
         <div className="d-flex justify-content-between">
           <img className="w-25" src="./images/demigodnew.png"></img>
           <p className="position-absolute logo-text">Media.Marketing.Event’s</p>
