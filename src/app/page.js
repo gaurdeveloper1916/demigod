@@ -14,7 +14,7 @@ import TwoImagesDiv from "./component/homepage/TwoImagesDiv";
 
 export const metadata = {
   title: 'Demigod House',
-  description: '',
+  description: 'Media and Marketing Event’s',
   alternates: {
     canonical: ``,
   },

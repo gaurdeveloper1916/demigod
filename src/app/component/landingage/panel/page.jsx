@@ -1,10 +1,7 @@
 'use client'
 import React, { useState } from 'react';
 import './panel.css'; // Assuming your CSS is saved in this file
-import { GoDownload } from 'react-icons/go';
-import { FaAngleDown } from 'react-icons/fa';
-import Link from 'next/link';
-import Tabs from '../tabs/page';
+
 import TabsComponent from '../TabsComponent/TabsComponent'
 const Panel = () => {
   const [activeTab, setActiveTab] = useState('v-pills-home');
@@ -15,7 +12,8 @@ const Panel = () => {
 
   return (
     <>
-      <div className='d-flex  flex-lg-row flex-column justify-content-center gap-4  mt-5'>
+    <div className='container-fluid'>
+    <div className='d-flex  flex-lg-row flex-column justify-content-center gap-4  mt-5'>
         <div className='col-lg-7 col-12'>
           {/* <Tabs /> */}
           <TabsComponent/>
@@ -49,6 +47,7 @@ const Panel = () => {
 
       </div>
 
+    </div>
     </>
 
   );
