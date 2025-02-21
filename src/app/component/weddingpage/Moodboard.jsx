@@ -54,9 +54,9 @@ function Moodboard() {
                 alt="image"
                 src="/images/chris.webp"
                 className="img-fluid"
-      onClick={() => handleImageClick("Image/wedding-page/mood-1/chris.webp", 
-              "Sacred Unions, Timeless Elegance Christian weddings embody grace and tradition, centered around the sacred exchange of vows in a church setting. The ceremony typically includes readings from scripture, hymns, and the symbolic exchange of rings. From the bride's walk down the aisle to the final blessing, these weddings celebrate the divine nature of marriage while incorporating personal touches that make each celebration unique."
-              )}
+                onClick={() => handleImageClick("Image/wedding-page/mood-1/chris.webp", 
+                "Sacred Unions, Timeless Elegance Christian weddings embody grace and tradition, centered around the sacred exchange of vows in a church setting. The ceremony typically includes readings from scripture, hymns, and the symbolic exchange of rings. From the bride's walk down the aisle to the final blessing, these weddings celebrate the divine nature of marriage while incorporating personal touches that make each celebration unique."
+                )}
                 style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
               />
             </div>
@@ -103,7 +103,7 @@ function Moodboard() {
               backgroundRepeat: "no-repeat",
               height: "100vh",
               width: "100%",
-              position: "relative", // Ensure the parent div is relative to position children absolutely
+              position: "relative",
             }}
           >
             <div className="d-flex align-items-center p-5">
@@ -117,9 +117,8 @@ function Moodboard() {
               </div>
             </div>
 
-            {/* Book Now and Skip buttons positioned at the bottom */}
             <div style={{ position: 'absolute', bottom: 20, left: 20 }}>
-              <div className="d-flex">
+            <div onClick={handleClose} className="d-flex cursor-pointer">
                 <p className="text-white">Book Now</p>
                 <MdArrowOutward size={25} color="white" className="text-end" />
               </div>

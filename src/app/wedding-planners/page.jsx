@@ -202,8 +202,8 @@ const page = () => {
         <Sectionthree />
         <Accordian />
         <Sectionfive />
-        <VendorCategories />
-        <Lovestory/>
+        {/* <VendorCategories />
+        <Lovestory/> */}
 
         {/* <GallerySlider/> */}
         {/* <Moodboard/> */}

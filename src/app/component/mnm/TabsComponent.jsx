@@ -329,41 +329,15 @@ const TabsComponent = () => {
                             {/* </div> */}
                         </div>
                         <div className="col-lg-7  p-3">
-                            <p className="fw-bold text-white">Our Approach:</p>
+                            {/* <p className="fw-bold text-white">Our Approach:</p> */}
                             <ul className="news-list">
-                                <li>
-                                    <strong className="ago-text">Event Strategy & Immersive Brand Experience Design</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We create bespoke event concepts that reinforce your brand identity and ensure maximum audience engagement.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text"> Strategic Event Marketing & Global Promotion</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We execute multi-channel marketing campaigns that drive attendance, enhance event visibility, and generate pre-event buzz.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">High-Impact Networking & Business Development Opportunities</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We facilitate exclusive networking experiences, enabling B2B and B2C connections that result in strategic alliances and new business opportunities.
-                                            </li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Post-Event Engagement & Legacy Building</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We implement strategies to maintain long-term audience engagement, turning event attendees into loyal brand advocates.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
+                                <li>Explore our incredible exposure of events globally! Until 2030, we have lined up more than 1,600 events, ensuring strategic participation of over 500,000 individuals on average.</li>  
+                                <li>We digitally host and provide management services for a variety of B2B and B2C events worldwide.</li>
+                                <li>Our global B2B/B2C events group, powered by Demigod House, connects our associates, clientele, and retail corporations with brand exposure for their products and services.</li>
+                                <li>We create high-impact networking platforms that bring together industry leaders, innovators, and key decision-makers.</li>
+                                <li>We facilitate seamless event execution with end-to-end planning, production, and engagement strategies tailored for maximum impact.</li>
+                                <li>We leverage cutting-edge technology and digital integrations to enhance audience interaction and event experiences.</li>
+                                <li>We offer customized event solutions, ensuring brands achieve their marketing, sales, and outreach goals effectively.</li>
                             </ul>
                         </div>
                     </div>

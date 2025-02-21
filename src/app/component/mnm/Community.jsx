@@ -10,8 +10,8 @@ import { FaTelegramPlane } from "react-icons/fa";
 import "./index.css";
 function Community() {
   return (
-    <div className="d-flex justify-content-center align-items-center d-lg-block  d-none mb-5">
-      <div className="col-lg-8 mt-4 ">
+    <div className="d-flex justify-content-center align-items-center d-lg-block  d-none">
+      <div className="col-lg-8">
         <div style={{ height: "38rem", overflow: "inherit" }} className="d-flex justify-content-center px-5 position-relative">
           <div style={{lineHeight:'4rem'}} className="d-flex flex-column text-white">
             <p className="m-0 community-fs  fw-bold">Our Global<span className="gradient-text fw-bold"> Print</span> </p>
