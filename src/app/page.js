@@ -13,7 +13,7 @@ import Testtube from "./component/homepage/TestTube";
 import TwoImagesDiv from "./component/homepage/TwoImagesDiv";
 
 export const metadata = {
-  title: 'Demigod House',
+  title: 'Next App',
   description: 'Media and Marketing Event’s',
   alternates: {
     canonical: ``,

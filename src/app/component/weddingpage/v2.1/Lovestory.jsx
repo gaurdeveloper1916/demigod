@@ -33,8 +33,7 @@ const Lovestory = () => {
         </div>
       </div>
 
-      {/* Section for Maharashtrian Weddings */}
-      <div className="row align-items-center justify-content-center mb-5">
+      {/* <div className="row align-items-center justify-content-center mb-5">
         <div className="col-12 col-lg-3 mb-4 mb-lg-0">
           <img
             className="img-fluid rounded"
@@ -51,7 +50,6 @@ const Lovestory = () => {
         </div>
       </div>
 
-      {/* Section for Punjabi Weddings */}
       <div className="row align-items-center justify-content-center mb-5">
         <div className="col-12 col-lg-8 bg-white p-4 rounded order-2 order-lg-1">
           <h3>Punjabi / Sikh Weddings</h3>
@@ -69,7 +67,6 @@ const Lovestory = () => {
         </div>
       </div>
 
-      {/* Section for Bengali Weddings */}
       <div className="row align-items-center justify-content-center mb-5">
         <div className="col-12 col-lg-3 mb-4 mb-lg-0">
           <img
@@ -87,7 +84,6 @@ const Lovestory = () => {
         </div>
       </div>
 
-      {/* Section for Gujarati Weddings */}
       <div className="row align-items-center justify-content-center mb-5">
         <div className="col-12 col-lg-3 mb-4 mb-lg-0">
           <img
@@ -105,7 +101,6 @@ const Lovestory = () => {
         </div>
       </div>
 
-      {/* Section for Marwari Weddings */}
       <div className="row align-items-center justify-content-center mb-5">
         <div className="col-12 col-lg-8 bg-white p-4 rounded order-2 order-lg-1">
           <h3>Marwari Weddings</h3>
@@ -123,7 +118,6 @@ const Lovestory = () => {
         </div>
       </div>
 
-      {/* Section for Telugu Weddings */}
       <div className="row align-items-center justify-content-center mb-5">
         <div className="col-12 col-lg-3 mb-4 mb-lg-0">
           <img
@@ -139,7 +133,7 @@ const Lovestory = () => {
             Telugu weddings are a spiritual journey, rich with sacred rituals and timeless customs that honor both the couple and their families. Key ceremonies include the 'Kanyadaan' (giving away of the bride) and 'Talambralu,' where the bride and groom shower each other with sacred rice. These weddings are marked by deep respect for tradition, with a focus on unity, prosperity, and familial bonds.
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/* Dummy Data Section */}
       <div>

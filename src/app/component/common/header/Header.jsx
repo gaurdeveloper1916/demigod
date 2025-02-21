@@ -9,9 +9,10 @@ import { FaChevronDown } from "react-icons/fa";
 
 import { BsX } from 'react-icons/bs';
 import { RxHamburgerMenu } from "react-icons/rx";
+import { MdOutlineArrowUpward } from "react-icons/md";
 
 
-function OffCanvasExample({ data }) {
+function OffCanvasExample({ data, where }) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -33,43 +34,33 @@ function OffCanvasExample({ data }) {
         placement="end"
         name="end"
       >
-        <Offcanvas.Header closeButton={false} className="d-flex justify-content-between">
+        <Offcanvas.Header closeButton={false} className="d-flex justify-content-between p-2">
           <Offcanvas.Title>
             <a href="/">
               <img className="logoImage" src="./images/demigodnew.png" alt="Logo"></img>
             </a>
           </Offcanvas.Title>
-          <BsX className="offcanvas-close-icon fs-1 text-white" onClick={handleClose} />
+          <BsX size={35} className=" text-white" onClick={handleClose} />
         </Offcanvas.Header>
-        <Offcanvas.Body>
-          <Accordion defaultActiveKey="0">
+        <Offcanvas.Body style={{ marginTop: where === 'corporate' ? '-1%' : '-6%' }}>
+
+          <Accordion defaultActiveKey="0" className={`${where === 'corporate' ? 'd-flex flex-column gap-5 px-5' : ''}`}>
             {data.map((item, i) => {
               // {console.log(item.attributes.URLText)}
               return (
-                <div key={i + 1}>
-                  {item.attributes.onHover ? (
-                    <Accordion.Item eventKey={i + 1}>
-                      <Accordion.Header className={`${item.attributes.URLText === 'Wedding' ? 'mb-2' : 'my-3'}`}>
-                        {" "}
-                        {item.attributes.URLText}
-                      </Accordion.Header>
-                      <Accordion.Body >
-                        <div className="header-text-new">
-                          <a className="text-white text-deco " href={item.attributes.url}>
-                            {item.attributes.corporate}
-                          </a>
-                        </div>
-                      </Accordion.Body>
-                    </Accordion.Item>
-                  ) : (
-                    <a href={item.attributes.url}>
-                      {" "}
-                      <button className="my-2 border border-dark header-list mediumfont  rounded text-start  text-black mobile-list-header " style={{ padding: "14px" }}>
-                        {" "}
-                        {item.attributes.URLText}
-                      </button>
-                    </a>
-                  )}
+                <div style={{ lineHeight: '8px' }} key={i + 1}>
+                  <a className="text-deco" href={item.attributes.url}>
+                    <div className="d-flex justify-content-between">
+                      <p className={`text-web ${where === 'corporate' ? '' : 'smallfont'}`}>  {item.attributes.corporate}</p>
+
+                      <div >
+                        <MdOutlineArrowUpward size={25} color="white" className="transform rotate-45" />
+                      </div>
+
+                    </div>
+                  </a >
+                  <hr className="text-white" />
+
                 </div>
               );
             })}
@@ -82,7 +73,7 @@ function OffCanvasExample({ data }) {
 
 
 
-function Header() {
+function Header({ where }) {
   const [isSticky, setIsSticky] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -126,7 +117,7 @@ function Header() {
                   className="logoImage cursor"
                   src="./images/demigodnew.png"
                 ></img>
-                <p className="position-absolute logo-text">Media.Marketing.Event’s</p>
+                <p className='position-absolute logo-text'>Media.Marketing.Event’s</p>
               </Link>
             </div>
 
@@ -296,9 +287,9 @@ function Header() {
       <div className="container-fluid p-0 d-lg-none d-block bg-black p-2">
         <div className="d-flex justify-content-between">
           <img className="w-25" src="./images/demigodnew.png"></img>
-          <p className="position-absolute logo-text">Media.Marketing.Event’s</p>
+          <p className={`position-absolute ${where === 'corporate' ? 'logo-text-corporate' : 'logo-text'}`}>Media.Marketing.Event’s</p>
 
-          <OffCanvasExample placement="end" name="end" data={data} />
+          <OffCanvasExample placement="end" name="end" data={data} where={where} />
         </div>
       </div>
     </>

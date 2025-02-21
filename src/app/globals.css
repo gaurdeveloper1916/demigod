@@ -355,3 +355,34 @@ body::-webkit-scrollbar-thumb {
   top: -65px;
   width: 100%;
 }
+
+
+/* Extra small devices (phones) */
+@media (max-width: 575px) {
+  /* Styles for phones */
+  .moodboard {
+    font-size: 64px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+}
+
+/* Small devices (Tablets in portrait mode) */
+@media (min-width: 576px) and (max-width: 767px) {
+  /* Styles for small tablets */
+}
+
+/* Medium devices (Tablets in landscape mode) */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Styles for large tablets */
+}
+
+/* Large devices (Laptops & Desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Styles for small desktops */
+}
+
+/* Extra large devices (Large Desktops, 4K screens) */
+@media (min-width: 1200px) {
+  /* Styles for large desktops */
+}

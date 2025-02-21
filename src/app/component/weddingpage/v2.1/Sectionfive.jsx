@@ -24,7 +24,7 @@ const Sectionfive = () => {
           scroller: "body",
           start: "top top",
           end: "+=300%",
-          markers: true,
+          // markers: true,
           scrub: 1,
           pin: true,
           pinSpacing: true,
@@ -44,7 +44,7 @@ const Sectionfive = () => {
           scrub: 1,
           pin: true,
           pinSpacing: true,
-          markers: true,
+          // markers: true,
         },
       });
     });

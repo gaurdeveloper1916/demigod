@@ -105,7 +105,7 @@ const Sectionthree = () => {
 
   return (
 
-    <div className="d-flex flex-lg-row flex-md-row flex-column">
+    <div className="d-flex flex-lg-row flex-md-row flex-column p-4 bg-black">
       <div className="col-lg-4">
         <div
           className="w-100  object-fit-cover position-relative p-5 d-flex flex-column justify-content-center align-items-cente"

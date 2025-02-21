@@ -3,11 +3,11 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 const Sectiontwo = () => {
     return (
         <>
-            <div className="d-flex flex-lg-row flex-md-column flex-column  p-lg-5 p-md-4 p-3">
+            <div className="d-flex bg-black flex-lg-row flex-md-column flex-column  p-lg-5 p-md-4 p-3">
 
-                <div className="col-lg-6  col-12 p-0 px-lg-5 px-md-5">
+                <div className="col-lg-6  col-12 p-0 px-lg-5 px-md-5 text-white">
                     <div className="d-flex flex-column justify-content-center ">
-                        <h4><p className="planning-text"> We integrate divinity and Cloud 9 factor in your wedding planning ! </p></h4>
+                        <h4><p className=""> We integrate divinity and Cloud 9 factor in your wedding planning ! </p></h4>
                         <p className="planning-des mt-lg-5 mt-md-3 mt-0">
                             DemiGod House Wedding planners' not only provide visvalization of your dream wedding's with divine and mesmerisingly unrealistic ceremonial decor and art work creatives but also execute in most professionally pragmatic manner !   </p>
                         <p className="mt-lg-5 mt-md-3 mt-0">

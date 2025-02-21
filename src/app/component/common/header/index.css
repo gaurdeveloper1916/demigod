@@ -16,10 +16,23 @@
 .logo-text{
     top: 2rem;
     left: 8rem;
-    /* color: red; */
     color: #C0C0C0;
 
 }
+.logo-text-corporate{
+    top: 9rem;
+    left: 17rem;
+    color: #C0C0C0;
+
+}
+.row-reverse{
+    display: flex;
+      flex-direction: row-reverse;
+    
+}
+.rotate-45 {
+    transform: rotate(45deg);
+  }
 
 .linehight {
     line-height: 71px;
@@ -90,4 +103,11 @@
     border: 0;
     border-radius: .375rem;
     opacity: var(--bs-btn-close-opacity);
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    .logo-text {
+        top: 1.6rem;
+        left: 6rem;
+        color: #C0C0C0;
+    }
 }

@@ -29,8 +29,8 @@ const WeddingCard = ({ key,margin,heading,image,subHeading }) => {
       <div className="d-flex gap-2 mt-4">
         {/* <p className="text-black">{key} </p> */}
         <div className="d-flex flex-column">
-          <p className="text-black m-0 fw-semibold">{heading}</p>
-          <p className="text-black ml-5 slider-text mt-2">{subHeading}</p>
+          <p className="text-white m-0 fw-semibold">{heading}</p>
+          <p className="text-white ml-5 slider-text mt-2">{subHeading}</p>
 
         </div>
       </div>

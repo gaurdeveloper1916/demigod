@@ -166,11 +166,10 @@
   }
   
   /* Adjustments for mobile screens */
+  
   @media (max-width: 650px) {
-    .item {
-      width: 130px;
-      height: 220px;
-    }
+    
+    
   
     .item:nth-child(4) {
       left: calc(50% + 130px);
