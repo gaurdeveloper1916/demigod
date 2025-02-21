@@ -2,8 +2,9 @@
 import Link from "next/link";
 import "./index.css";
 import React, { useEffect, useState } from "react";
-import Offcanvas from "react-bootstrap/Offcanvas";
-import Accordion from "react-bootstrap/Accordion";
+
+import { Accordion ,Offcanvas} from "react-bootstrap";
+
 import { data } from "../../constant/Dummy";
 import { FaChevronDown } from "react-icons/fa";
 

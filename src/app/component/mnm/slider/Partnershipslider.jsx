@@ -14,7 +14,7 @@ export default function Partnershipslider() {
 
   const initialImages = [
     {
-      img: "https://images.pexels.com/photos/3171837/pexels-photo-3171837.jpeg?cs=srgb&dl=pexels-cottonbro-3171837.jpg&fm=jpg",
+      img: "./images/bengali.webp",
       name: "Image 1",
       desc: "Description for Image 1",
     },
@@ -94,9 +94,10 @@ export default function Partnershipslider() {
         >
           {initialImages.map((image, index) => (
             <SwiperSlide key={index}>
-              <div className="d-flex justify-content-center align-items-center p-2">
+              <div  className="d-flex  justify-content-center align-items-center p-2">
                   <img
-                    className="img-fluid rounded"
+                  style={{height:"400px"}}
+                    className=" rounded"
                     src={image.img}
                     alt={image.name}
                   />

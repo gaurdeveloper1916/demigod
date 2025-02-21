@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Tab, Nav, Accordion } from "react-bootstrap";
 
 const TicketCard = ({ price }) => (
@@ -14,11 +15,12 @@ const TicketCard = ({ price }) => (
 );
 
 const TabsComponent = () => {
+    const [activeTab, setActiveTab] = useState("tab1");
     const tickets = [25, 25, 25, 25, 25, 25];
 
     return (
         <div>
-            <Tab.Container defaultActiveKey="tab1">
+            <Tab.Container activeKey={activeTab} onSelect={(key) => setActiveTab(key)}>
                 {/* Tabs Navigation */}
                 <Nav variant="tabs" className="bg-dark p-2 rounded">
                     <Nav.Item>

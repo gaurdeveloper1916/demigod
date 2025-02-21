@@ -70,7 +70,7 @@ export default function Openforbusiness() {
   };
 
   return (
-    <div className="d-flex flex-lg-row flex-md-row flex-column p-4">
+    <div className="d-flex flex-lg-row flex-md-row flex-column p-5">
 
       <div className="col-lg-4 col-12 col-md-4 d-flex justify-content-center align-items-center">
         <div className="d-flex flex-column ">
@@ -84,7 +84,6 @@ export default function Openforbusiness() {
       </div>
 
       <div className="col-lg-8 col-12 col-md-8">
-        <div className="container mt-5">
           <p className="h1 text-white ">
             Participation 
             <span className="gradient-text fw-bold"> For </span>
@@ -153,7 +152,6 @@ export default function Openforbusiness() {
               </div>
             </div>
           </div>
-        </div>
       </div>
 
 
