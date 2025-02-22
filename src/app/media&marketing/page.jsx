@@ -21,32 +21,37 @@ import AOSInit from "../component/AOSInit";
 
 
 export const metadata = {
-  title: 'Media & Marketing',
-  description: "India's Best and Leading Marketing agency with more 13years of Experience in Brand Seed Funding, 3rd party Contract manufacturing, Private Equity, Brand Marketing, Brand Developement, Advertising in Print Media , Digital Marketing and B2B / B2C Events !" 
-  ,
+  metadataBase: new URL('https://www.demigodhouse.com'),
+  title: 'Media & Marketing | Demigod House',
+  description: "India's Leading Marketing Agency - 13+ Years of Excellence in Brand Development, Seed Funding, Digital Marketing, Print Media Advertising, and B2B/B2C Events. Expert solutions in Contract Manufacturing, Private Equity & Brand Marketing.",
   alternates: {
-    canonical: `https://www.demigodhouse.com/m&m`,
+    canonical: '/media-marketing',
   },
   openGraph: {
-    title: 'Media & Marketing',
-    description: "India's Best and Leading Marketing agency with more 13years of Experience in Brand Seed Funding, 3rd party Contract manufacturing, Private Equity, Brand Marketing, Brand Developement, Advertising in Print Media , Digital Marketing and B2B / B2C Events !",
-    url: 'https://www.demigodhouse.com/m&m',
+    title: 'Media & Marketing Services | Demigod House',
+    description: "India's Leading Marketing Agency - 13+ Years of Excellence in Brand Development, Seed Funding, Digital Marketing, Print Media Advertising, and B2B/B2C Events. Expert solutions in Contract Manufacturing, Private Equity & Brand Marketing.",
+    url: '/media-marketing',
+    siteName: 'Demigod House',
+    type: 'website',
     images: [
       {
-        url: 'https://www.demigodhouse.com/images/og-image.jpg',
+        url: '/images/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Demigod House Media & Marketing Services',
       },
     ],
   },
   twitter: {
-    title: 'Media & Marketing',
-    description: "India's Best and Leading Marketing agency with more 13years of Experience in Brand Seed Funding, 3rd party Contract manufacturing, Private Equity, Brand Marketing, Brand Developement, Advertising in Print Media , Digital Marketing and B2B / B2C Events !",
-    image: 'https://www.demigodhouse.com/images/twitter-image.jpg',
+    card: 'summary_large_image',
+    title: 'Media & Marketing Services | Demigod House',
+    description: "India's Leading Marketing Agency - 13+ Years of Excellence in Brand Development, Seed Funding, Digital Marketing, Print Media Advertising, and B2B/B2C Events.",
+    images: '/images/twitter-image.jpg',
   },
-  linkedin: {
-    title: 'Media & Marketing',
-    description: "India's Best and Leading Marketing agency with more 13years of Experience in Brand Seed Funding, 3rd party Contract manufacturing, Private Equity, Brand Marketing, Brand Developement, Advertising in Print Media , Digital Marketing and B2B / B2C Events !",
-    image: 'https://www.demigodhouse.com/images/linkedin-image.jpg',
-  },
+  robots: {
+    index: true,
+    follow: true,
+  }
 };
 
 function Index() {

@@ -169,24 +169,24 @@ export const metadata = {
     canonical: `https://www.demigodhouse.com/wedding`,
   },
   openGraph: {
-    title: '',
-    description: '',
-    url: '',
+    title: 'DemiGod Wedding Planners - Luxury Wedding Planning Services',
+    description: 'Create unforgettable weddings with DemiGod - India\'s premier luxury wedding planners. Offering complete wedding planning services in India and overseas.',
+    url: 'https://www.demigodhouse.com/wedding',
     images: [
       {
-        url: '',
+        url: 'https://www.demigodhouse.com/images/wedding-banner.jpg',
       },
     ],
   },
   twitter: {
-    title: '',
-    description: '',
-    image: '',
+    title: 'DemiGod Wedding Planners - Luxury Wedding Planning Services',
+    description: 'Create unforgettable weddings with DemiGod - India\'s premier luxury wedding planners. 12+ years of excellence in wedding planning.',
+    image: 'https://www.demigodhouse.com/images/wedding-banner.jpg',
   },
   linkedin: {
-    title: '',
-    description: '',
-    image: '',
+    title: 'DemiGod Wedding Planners - Luxury Wedding Planning Services', 
+    description: 'Premium wedding planning services by DemiGod. Creating magical moments for destination weddings in India and abroad.',
+    image: 'https://www.demigodhouse.com/images/wedding-banner.jpg',
   },
 };
 
