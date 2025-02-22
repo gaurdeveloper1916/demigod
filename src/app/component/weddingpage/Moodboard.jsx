@@ -20,7 +20,7 @@ function Moodboard() {
 
       <div className="col-lg-10 d-flex flex-column align-items-center justify-content-center">
         <h1 className="moodboard">traditional </h1>
-        <div className=" d-flex  gap-3">
+        <div className=" d-flex flex-lg-row flex-md-row flex-column  gap-3">
           <div className="">
             <img
               alt="image"

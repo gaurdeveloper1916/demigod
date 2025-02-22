@@ -89,7 +89,7 @@ const CorporatePage = () => {
 
   return (
     <section className="min-vh-100">
-      <Header />
+      <Header where='corporate'/>
       <SectionOne />
       <SectionTwo />
       <SectionThree />

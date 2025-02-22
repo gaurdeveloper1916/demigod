@@ -9,9 +9,10 @@ import { FaChevronDown } from "react-icons/fa";
 
 import { BsX } from 'react-icons/bs';
 import { RxHamburgerMenu } from "react-icons/rx";
+import { MdOutlineArrowUpward } from "react-icons/md";
 
 
-function OffCanvasExample({ data }) {
+function OffCanvasExample({ data, where }) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
@@ -22,7 +23,6 @@ function OffCanvasExample({ data }) {
       <RxHamburgerMenu
         color="white"
         onClick={handleShow}
-
         style={{ marginTop: "12px" }}
         size={30}
       />
@@ -33,48 +33,34 @@ function OffCanvasExample({ data }) {
         placement="end"
         name="end"
       >
-        <Offcanvas.Header closeButton={false} className="d-flex justify-content-between">
+        <Offcanvas.Header closeButton={false} className="d-flex justify-content-between p-2">
           <Offcanvas.Title>
             <a href="/">
-              <img className="logoImage" src="./images/demigodnew.png" alt="Logo"></img>
+              <img className="logoImage" src="./images/demigodnew.png" alt="Logo" />
             </a>
           </Offcanvas.Title>
-          <BsX className="offcanvas-close-icon fs-1 text-white" onClick={handleClose} />
+          <BsX size={35} className="text-white" onClick={handleClose} />
         </Offcanvas.Header>
-        <Offcanvas.Body>
-          <Accordion defaultActiveKey="0">
-            {data.map((item, i) => {
-              // {console.log(item.attributes.URLText)}
-              return (
-                <div key={i + 1}>
-                  {item.attributes.onHover ? (
-                    <Accordion.Item eventKey={i + 1}>
-                      <Accordion.Header className={`${item.attributes.URLText === 'Wedding' ? 'mb-2' : 'my-3'}`}>
-                        {" "}
-                        {item.attributes.URLText}
-                      </Accordion.Header>
-                      <Accordion.Body >
-                        <div className="header-text-new">
-                          <a className="text-white text-deco " href={item.attributes.url}>
-                            {item.attributes.corporate}
-                          </a>
-                        </div>
-                      </Accordion.Body>
-                    </Accordion.Item>
-                  ) : (
-                    <a href={item.attributes.url}>
-                      {" "}
-                      <button className="my-2 border border-dark header-list mediumfont  rounded text-start  text-black mobile-list-header " style={{ padding: "14px" }}>
-                        {" "}
-                        {item.attributes.URLText}
-                      </button>
-                    </a>
-                  )}
-                </div>
-              );
-            })}
+        <Offcanvas.Body style={{ marginTop: where === "corporate" ? "-1%" : "-6%" }}>
+          <Accordion
+            defaultActiveKey="0"
+            className={`${where === "corporate" ? "d-flex flex-column gap-4 px-5" : "gap-3 px-3"}`}
+          >
+            {data.map((item, i) => (
+              <div key={i + 1} className="py-2"> {/* Added padding for spacing */}
+                <a className="text-deco text-white text-decoration-none" href={item.attributes.url}>
+                  <div className="d-flex justify-content-between align-items-center"> {/* Center items properly */}
+                    <p className={`text-web mb-0 ${where === "corporate" ? "fs-0" : "smallfont fs-6"}`}>
+                      {item.attributes.corporate}
+                    </p>
+                    <MdOutlineArrowUpward size={25} color="white" className="rotate-45" />
+                  </div>
+                </a>
+              </div>
+            ))}
           </Accordion>
         </Offcanvas.Body>
+
       </Offcanvas>
     </>
   );
@@ -82,223 +68,73 @@ function OffCanvasExample({ data }) {
 
 
 
-function Header() {
+function Header({ where }) {
   const [isSticky, setIsSticky] = useState(false);
-  const [isHovered, setIsHovered] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(null);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (document.documentElement.scrollTop > 0) {
-        setIsSticky(true);
-      } else {
-        setIsSticky(false);
-      }
+      setIsSticky(document.documentElement.scrollTop > 0);
     };
 
     document.addEventListener("scroll", handleScroll);
-
     return () => {
       document.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
-  const handleMouseEnter = () => {
-    setIsHovered(true);
-  };
-
-  const handleMouseLeave = () => {
-    setIsHovered(false);
-  };
   return (
     <>
-      <div className="d-lg-block d-none ">
+      {/* Desktop Header */}
+      <div className="d-lg-block d-none">
         <div
-          style={{ zIndex: "999" }}
-          className={`d-flex header-hover  w-100 position-fixed top-0 align-items-center   ${isSticky ? "bg-black" : ""
-            }`}
+          style={{ zIndex: 999 }}
+          className={`d-flex header-hover w-100 position-fixed top-0 align-items-center ${isSticky ? "bg-black" : ""}`}
         >
-          <div className="  px-5 w-100 d-flex gap-5 justify-content-between">
+          <div className="px-5 w-100 d-flex gap-5 justify-content-between">
+            {/* Logo */}
             <div className="position-relative">
-              <Link className="" href="/">
-                {" "}
-                <img
-                  className="logoImage cursor"
-                  src="./images/demigodnew.png"
-                ></img>
+              <Link href="/">
+                <img className="logoImage cursor" src="./images/demigodnew.png" alt="Logo" />
                 <p className="position-absolute logo-text">Media.Marketing.Event’s</p>
               </Link>
             </div>
 
-
-            <div className="d-flex justify-content-center align-items-center gap-3  headerlist  ">
-              {data.map((item, i) => {
-                return (
-                  <>
-                    <div key={i + 1}>
-                      <ul className="ul-custom custom-sub-opacity cursor-pointer mb-0">
-                        <li className=" linehight fs-6">
-                          <div className="d-flex justify-content-center align-items-center">
-                            <a
-                              style={{ textDecoration: "none" }}
-                              href={item.attributes.url}
-                              className={`fs-6 fw-bold m-0 header-text-new ${hoveredIndex === i ? "text-transform-hover" : ""
-                                }`}
-                              onMouseEnter={() => setHoveredIndex(i)}
-                              onMouseLeave={() => setHoveredIndex(null)}
-                            >
-                              {item.attributes.URLText}{" "}
-                              {hoveredIndex === i ? item.attributes.onHoverText : ""}
-                            </a>
-                            {item.attributes.onHover && (
-                              <FaChevronDown
-                                size={17}
-                                color="white"
-                                className={`header-drop-icon mx-1 ${isHovered ? "rotate-icon" : ""
-                                  }`}
-                              />
-                            )}
-                          </div>
-                          {/* {item.attributes.onHover ? (
-                              <div
-                                style={{
-                                  left: "0%",
-                                  top: "4.6rem",
-                                  zIndex: "1",
-                                }}
-                                className="custom-opacity w-100  bg-white d-flex border-top position-absolute  align-items-center "
-                              >
-                                <div className="d-flex gap-4 bg-black w-100 p-5">
-                                  <div
-                                    style={{ lineHeight: "24px" }}
-                                    className="col-lg-4  text-white"
-                                  >
-                                    <Link className="text-white text-deco" href={item.attributes.url}>
-                                      <h2 className="fw-bold header-text-new ">
-                                        {" "}
-                                        {item.attributes.corporate}
-                                      </h2>
-                                    </Link>
-                                    <p className="smallfont text-colour-off-white ">
-                                      Demigod House - Media, Marketing and Event management entity 
-                                      elit. Eaque, quos natus rerum maiores est
-                                      non delectus aspernatur, similique
-                                      repudiandae tempora obcaecati molestiae
-                                      nostrum deleniti totam. Consequuntur harum
-                                      xyz xyz xyz xyz ! 
-                                    </p>
-                                    <div style={{ lineHeight: "2px" }}>
-                                     
-                                      <hr />
-                                    </div>
-                                  </div>
-                                  <div
-                                    style={{ lineHeight: "24px" }}
-                                    className="col-lg-5 text-white "
-                                  >
-                                   
-                                    <div className="d-flex gap-3 des-header">
-                                      <div className="col-lg-6">
-                                        <div className="d-flex gap-2">
-                                          <div className="d-flex flex-column">
-                                          <p className="m-0 fs-3 fw-bold header-text-new">
-                                            Live Concert
-                                          </p>
-                                        
-                                          </div>
-                                        </div>
-                                        <ul className="ps-1 text-colour-off-white  my-3">
-                                          <li className="smallfont fs-6">R&B Concert's</li>
-                                          <li className="smallfont fs-6">Pop concert </li>
-                                          <li className="smallfont fs-6">Electronic Fest</li>
-                                          <li className="smallfont fs-6">Punjabi Concert</li>
-
-                                        </ul>
-
-
-                                      </div>
-                                      <div className="col-lg-6">
-                                        <div className="d-flex gap-2">
-                                          <div className="flex flex-column">
-                                          <p className="m-0 fs-3 fw-bold header-text-new">
-                                            Carrer at Now
-                                          </p>
-                                         
-                                          </div>
-                                        </div>
-                                        <ul className="ps-1 text-colour-off-white  my-3">
-                                          <li className="smallfont fs-6">The Hidden Benefits of events</li>
-                                          <li className="smallfont fs-6">From Couch Potato to Productivity Guru</li>
-                                          <li className="smallfont fs-6">The Art of the Last-Minute Panic</li>
-                                          <li className="smallfont fs-6">The Hidden Benefits of events</li>
-
-                                        </ul>
-                                      </div>
-                                    </div>
-                                    <div className="d-flex gap-3 mt-4">
-                                      <div className="col-lg-6">
-                                        <div className="d-flex gap-2">
-                                         <div className="flex flex-column">
-                                         <p className="m-0 fs-3 fw-bold header-text-new">
-                                            Our Partner
-                                          </p>
-                                         
-                                         </div>
-                                        </div>
-                                        <ul className="ps-1 my-3  text-colour-off-white">
-                                          <li className="smallfont fs-6">The Hidden Benefits of events</li>
-                                          <li className="smallfont fs-6">From Couch Potato to Productivity Guru</li>
-                                          <li className="smallfont fs-6">The Art of the Last-Minute Panic</li>
-                                          <li className="smallfont fs-6">The Hidden Benefits of events</li>
-
-                                        </ul>
-                                      </div>
-                                      <div className="col-lg-6">
-                                        <div className="d-flex gap-2">
-                                         <div className="d-flex flex-column">
-                                         <p className="m-0 fs-3 fw-bold header-text-new">
-                                            Contact With us
-                                          </p>
-                                         </div>
-                                        </div>
-                                        <p className="smallfont mt-2 text-colour-off-white  my-3">
-                                          If You need to talk, sit amet
-                                          adipisicing elit. Cupiditate eum error
-                                          nulla mollitia sunt ullam suscipit
-                                          quis!
-                                        </p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div className="col-lg-2 ">
-                                    <img
-                                      className="img-fluid"
-                                      src="./images/smallImage.jpg"
-                                    ></img>
-                                  </div>
-                                </div>
-                              </div>
-                            ) : (
-                              ""
-                            )} */}
-                        </li>
-                      </ul>
-                    </div>
-                  </>
-                );
-              })}
+            {/* Navigation */}
+            <div className="d-flex justify-content-center align-items-center gap-3 headerlist">
+              {data.map((item, i) => (
+                <div key={i}>
+                  <a
+                    style={{ textDecoration: "none" }}
+                    href={item.attributes.url}
+                    className={`fs-6 fw-bold m-0 header-text-new ${hoveredIndex === i ? "text-transform-hover" : ""}`}
+                    onMouseEnter={() => setHoveredIndex(i)}
+                    onMouseLeave={() => setHoveredIndex(null)}
+                  >
+                    {item.attributes.URLText} {hoveredIndex === i ? item.attributes.onHoverText : ""}
+                  </a>
+                  {item.attributes.onHover && (
+                    <FaChevronDown
+                      size={17}
+                      color="white"
+                      className={`header-drop-icon mx-1 ${hoveredIndex === i ? "rotate-icon" : ""}`}
+                    />
+                  )}
+                </div>
+              ))}
             </div>
-
           </div>
         </div>
       </div>
 
+      {/* Mobile Header */}
       <div className="container-fluid p-0 d-lg-none d-block bg-black p-2">
         <div className="d-flex justify-content-between">
-          <img className="w-25" src="./images/demigodnew.png"></img>
-          <p className="position-absolute logo-text">Media.Marketing.Event’s</p>
-
-          <OffCanvasExample placement="end" name="end" data={data} />
+          <img className="w-25" src="./images/demigodnew.png" alt="Logo" />
+          {/* <p className={`position-absolute ${where === "corporate" ? "logo-text-corporate" : "logo-text"}`}>
+            Media.Marketing.Event’s
+          </p> */}
+          <OffCanvasExample placement="end" name="end" data={data} where={where} />
         </div>
       </div>
     </>
@@ -306,3 +142,5 @@ function Header() {
 }
 
 export default Header;
+
+

@@ -164,7 +164,7 @@ body {
 .top-vendor {
   border: 2px solid #fcd6de;
   border-radius: 24px;
-  padding: auto;
+
   background: linear-gradient(180deg, #fff 0%, #fff6f8 100%);
 }
 
@@ -256,7 +256,7 @@ body {
 
 @media (max-width: 767px) {
   .rotate-image {
-    width: 80%;
+    width: 105%;
     /* Adjust for smaller screens */
     margin-top: 3rem;
     /* Reduce margin for smaller screens */

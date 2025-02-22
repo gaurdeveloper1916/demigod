@@ -53,7 +53,7 @@ export default function VendorCategories() {
   }
 
   return (
-    <div className="container py-4 top-vendor my-5">
+    <div className="container-fluid top-vendor my-5">
       <h6 className="display-6 mb-4">Find top vendors for hassle-free wedding planning</h6>
 
       <div className="d-flex flex-wrap gap-3">
@@ -70,7 +70,7 @@ export default function VendorCategories() {
               className="rounded vendor-images"
               src={category.image}
               alt={category.title}
-              
+
             />
             {/* Input box at top-right if selected */}
             {selectedCategory?.title === category.title ? (

@@ -39,6 +39,7 @@ export  const data = [
       attributes: {
         URLText: "M&M",
         url: "/media&marketing",
+        corporate:"MEDIA AND MARKETING",
         createdAt: "2024-06-04T09:40:16.115Z",
         updatedAt: "2024-06-04T09:40:17.431Z",
         publishedAt: "2024-06-04T09:40:17.428Z",
