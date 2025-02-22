@@ -57,7 +57,7 @@ function Moodboard() {
                 onClick={() => handleImageClick("Image/wedding-page/mood-1/chris.webp")}
                 style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
               />
-              <h1 className="text-white">Christian Wedding</h1>
+              {/* <h1 className="text-white fs-6">Christian Wedding</h1> */}
             </div>
           </div>
           <div className="">

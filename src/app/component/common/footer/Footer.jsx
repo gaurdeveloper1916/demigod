@@ -37,11 +37,15 @@ function Footer(props) {
     "Contact",
   ];
   const demiGroup = [
-    "DemiGod Art",
-    "DemiGod Cloud",
-    "DemiGod Estate",
-    "DemiGod HealthBox",
-    "DemiGod Shield",
+
+    { name: "DemiGod Art", imageUrl: "https://www.artdemigod.com/assets/image/art%20logo%20finel.png" },
+    { name: "DemiGod Cloud", imageUrl: "https://www.demigodcloud.com/images/demigod%20vector%20nav.webp" },
+    { name: "DemiGod HealthBox", imageUrl: "./logo/healthboxlogo.png" },
+    { name: "Demigod", imageUrl: "./logo/demigodlogo.png" },
+
+    { name: "Anagari", imageUrl: "./logo/anagari.png" },
+    { name: "DemiGod Estate", imageUrl: "http://www.amgbharat.com/assets/images/navlogo.png" }
+
   ];
   const shortcut = [
     { name: "Home", linking: "/" },
@@ -76,10 +80,10 @@ function Footer(props) {
               <div key={i + 1} className="text-center">
                 <img
                   className="m-0 logoImage-footer-marque"
-                  src="/images/demigodnew.png"
+                  src={item.imageUrl}
                   alt="Logo"
                 />
-                <p className="text-center text-web">{item}</p>
+                <p className="text-center text-web">{item.name}</p>
               </div>
             ))}
           </div>
@@ -185,14 +189,14 @@ function Footer(props) {
                   <p>info@demigodhouse.com</p>
                 </div>
               </div>
-             
+
             </div>
 
-            
+
           </div>
         </div>
 
-       
+
       </div>
     </>
   );
