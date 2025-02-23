@@ -24,5 +24,17 @@
     margin-left: 4rem;
   }
 }
+.logoImage-footer-marque {
+  width: 100px; 
+  height: 100px; 
+  object-fit: contain; 
+}
+.footer-background {
+  background-image: url("/public/first-section.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 @media (max-width: 650px) {}

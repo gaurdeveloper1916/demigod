@@ -58,13 +58,8 @@ function Footer(props) {
   return (
     <>
       <div
-        style={{
-          backgroundImage: 'url("./images/footer_bg.png")',
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-        }}
-        className="container-fluid p-0 bg-black relative z-50"
+       
+        className="container-fluid p-0 bg-black relative z-50 footer-background"
       >
         {/* Marquee Section */}
         <Marquee
