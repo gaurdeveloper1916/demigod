@@ -100,13 +100,13 @@ const TabsComponent = () => {
 
                                 <li>We deliver headline-making, trend-setting brand development campaigns through our print and electronic media associates across more than 90 countries on a regular basis.</li>
                             </ul>
-                                
+
                         </div>
                     </div>
                 </div>
 
-                <div className={`tab-pane fade  mt-4 ${activeTab === "ex2-tabs-2" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column gap-2 ">
+                <div className={`tab-pane fade  mt-12 ${activeTab === "ex2-tabs-2" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column gap-6 ">
 
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
@@ -117,59 +117,32 @@ const TabsComponent = () => {
                             >
                                 <img
                                     src="Image/m&m/tabs/marketing.webp"
-                                    className="img-fluid w-100"
-                                    style={{ height: "250px" }}
+                                    className="img-fluid w-500 image-style"
+                                    style={{ height: "700px" }}
                                 />
-
-                                <div className="title-des p-3">
+                                <div className="info_card p-10 text-white">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
                                         Brand MARKETING
 
                                     </h1>
                                     <p className="text-white text-start">
-                                        <strong>Our team’s research, expertise & exposure across a variety of commercial and industrial sectors give us the edge & grasp to develop a successfully strategic brand story!</strong>At Demigod House, we specialize in curating high-impact marketing strategies that ensure your brand stands out in an increasingly competitive landscape. We don’t just market—we create experiences that resonate with consumers and drive engagement.
-                                    </p>
+                                        <strong>DemiGod House marketing team specializes in curating high-impact marketing strategies that ensures your brand sectoral leadership & success story in an increasingly competitive landscape. We don’t just market, we create experiences that resonate with consumers and drive engagement.</strong>                                    </p>
                                 </div>
                             </div>
                             {/* </div> */}
                         </div>
                         <div className="col-lg-7  p-3">
-                            <p className="fw-bold text-white"> Our Approach:</p>
-                            <ul className="news-list d-flex flex-column gap-2 text-[30px]">
-                                <li>
-                                    <strong className="ago-text">Precision-Driven Targeted Brand Campaigns</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We develop, test, and optimize marketing campaigns tailored to specific audience segments, ensuring maximum engagement and ROI.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Cross-Platform Omnichannel Brand Presence</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We design integrated marketing strategies that seamlessly blend digital, print, television, radio, and outdoor media for unmatched market reach.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Social Media Domination & Community Engagement</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>Through strategic content creation, influencer collaborations, and real-time engagement, we position your brand at the center of industry conversations.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Data-Backed Content Creation & Storytelling</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We craft powerful brand stories that capture attention, spark emotions, and drive action, ensuring long-term customer loyalty.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
+                            {/* <p className="fw-bold text-white">Our Approach:</p> */}
+                            <ul className="news-list">
+                                <li>DemiGod House Marketing Team specializes in crafting high-impact marketing strategies that establish your brand as a sector leader and success story in today’s highly competitive landscape. We don’t just market—we create experiences that resonate with consumers and drive meaningful engagement. </li>
+                                <li>Marketing activities articulation & execution via our team is done on the basis of pragmatic market’s research, analysis and consumer fast changing demand as per global trends! </li>
 
+                                <li>Our marketing strategies are built on in-depth market research, thorough analysis, and an acute understanding of evolving consumer demands in line with global trends. We implement time-tested trade techniques and strategically integrated marketing campaigns across all available print and electronic media worldwide, ensuring maximum reach and impact for our clients’ brands across diverse B2B and B2C markets. </li>
+
+                                <li>With a vast and active network of traders, retailers, wholesalers, importers, and e-commerce vendors spanning over 65 countries, we provide our clients with a distinct competitive edge in sales and consumer interaction. Our arsenal of marketing tools, trade techniques, and strategic industry associations enables us to fulfill genuine consumer demand across a wide range of global markets.</li>
+                                <li>By God’s grace, not a single client has ever discontinued our marketing services, a testament to our team’s dedication and expertise. Our success is driven by meticulous market analysis and a pragmatic approach to understanding consumer demand based on the demographic structure of each market we serve.  </li>
                             </ul>
+
                         </div>
                     </div>
 
@@ -179,21 +152,27 @@ const TabsComponent = () => {
                 <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-3" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-2 ">
                         <div className="col-lg-5">
-                            {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
+                            <div
+                                className=" border border-0 position-relative"
+                                style={{ borderRadius: "10px" }}
+                            >
+                                <img
+                                    src="Image/m&m/tabs/3rd.webp"
+                                    className="img-fluid w-100"
+                                    style={{ height: "500px" }}
+                                />
 
-                            <div className="d-flex flex-column">
-                                <img style={{ height: "300px" }} className="img-fluid w-100 "
-                                    src="Image/m&m/tabs/3rd.webp"></img>
-
-                                <div className="title-des  p-3">
+                                <div className="info_card p-3 text-white">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                        3rd Party Contract
+                                        3rd Party Contract Manufacturing
 
                                     </h1>
                                     <p className="text-white text-start">
                                         <strong>Structuring in brand products & services to align with the consumer's demand DNA while ensuring seamless third-party partnerships that add value and expand market influence.</strong>Successful brands thrive on strategic partnerships. We specialize in identifying, structuring, and negotiating third-party contracts that maximize market reach and commercial growth.
                                     </p>
                                 </div>
+
+
                             </div>
                             {/* </div> */}
                         </div>
@@ -236,9 +215,10 @@ const TabsComponent = () => {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-5" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-2 ">
+
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
 
@@ -257,16 +237,18 @@ const TabsComponent = () => {
                             </div>
                             {/* </div> */}
                         </div>
+
+                        
                         <div className="col-lg-7  p-3">
                             <h5> <p className="fw-bold text-white">Upto $500 Million Investment's Opportunity</p></h5>
                             <ul className="news-list d-flex flex-column gap-2 text-[30px]">
-                                
-                                    <li> We operate across G20, ASEAN, and BRICS economic corridors, ensuring a strong global presence and market penetration.</li>
-                                    <li className="mt-1">Global Print & Electronic/Digital Media Association with the brand for strategic Broadcasting of the brand supreme image of products/services quality standards in comparison with the market competitors. </li>
-                                    <li>Via. time-tested business models & commercial marketing/finance instruments, we assure a success story for the brand products /services leadership in the markets globally. </li>
-                                    <li> We Design, articulate & curate brand products / services in accordance with fast changing consumer demands in this competative global markets! </li>
-                                    <li> For all our brands and associated subsidaries we avail platform to get listed at stock exchanges gloablly i.e. BSE, NSE, NASDAQ, S&P 500, Dow Jhons, Small Cap 2000, DAX, FTSE 100, EURO Stoxx 50, MOEX Russia Index, RTRSI, Hang Seng etc.</li>
-                            
+
+                                <li> We operate across G20, ASEAN, and BRICS economic corridors, ensuring a strong global presence and market penetration.</li>
+                                <li className="mt-1">Global Print & Electronic/Digital Media Association with the brand for strategic Broadcasting of the brand supreme image of products/services quality standards in comparison with the market competitors. </li>
+                                <li>Via. time-tested business models & commercial marketing/finance instruments, we assure a success story for the brand products /services leadership in the markets globally. </li>
+                                <li> We Design, articulate & curate brand products / services in accordance with fast changing consumer demands in this competative global markets! </li>
+                                <li> For all our brands and associated subsidaries we avail platform to get listed at stock exchanges gloablly i.e. BSE, NSE, NASDAQ, S&P 500, Dow Jhons, Small Cap 2000, DAX, FTSE 100, EURO Stoxx 50, MOEX Russia Index, RTRSI, Hang Seng etc.</li>
+
                             </ul>
                         </div>
                     </div>
@@ -352,41 +334,15 @@ const TabsComponent = () => {
                             {/* </div> */}
                         </div>
                         <div className="col-lg-7  p-3">
-                            <p className="fw-bold text-white">Our Approach:</p>
+                            {/* <p className="fw-bold text-white">Our Approach:</p> */}
                             <ul className="news-list">
-                                <li>
-                                    <strong className="ago-text">Event Strategy & Immersive Brand Experience Design</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We create bespoke event concepts that reinforce your brand identity and ensure maximum audience engagement.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text"> Strategic Event Marketing & Global Promotion</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We execute multi-channel marketing campaigns that drive attendance, enhance event visibility, and generate pre-event buzz.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">High-Impact Networking & Business Development Opportunities</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We facilitate exclusive networking experiences, enabling B2B and B2C connections that result in strategic alliances and new business opportunities.
-                                            </li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Post-Event Engagement & Legacy Building</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We implement strategies to maintain long-term audience engagement, turning event attendees into loyal brand advocates.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
+                                <li>Explore our incredible exposure of events globally! Until 2030, we have lined up more than 1,600 events, ensuring strategic participation of over 500,000 individuals on average.</li>
+                                <li>We digitally host and provide management services for a variety of B2B and B2C events worldwide.</li>
+                                <li>Our global B2B/B2C events group, powered by Demigod House, connects our associates, clientele, and retail corporations with brand exposure for their products and services.</li>
+                                <li>We create high-impact networking platforms that bring together industry leaders, innovators, and key decision-makers.</li>
+                                <li>We facilitate seamless event execution with end-to-end planning, production, and engagement strategies tailored for maximum impact.</li>
+                                <li>We leverage cutting-edge technology and digital integrations to enhance audience interaction and event experiences.</li>
+                                <li>We offer customized event solutions, ensuring brands achieve their marketing, sales, and outreach goals effectively.</li>
                             </ul>
                         </div>
                     </div>

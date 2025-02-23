@@ -1,7 +1,12 @@
+a{
+    font-family: ivyora-display, serif;
+}
+
 .headerlist:hover+.subHeader {
     opacity: 1;
 
 }
+
 .custom-sub-opacity:hover>.logoImage {
     margin-top: 5px !important;
 }
@@ -10,10 +15,11 @@
     visibility: visible;
 }
 
-.header-hover :hover{
+.header-hover :hover {
     background-color: black;
 }
-.logo-text{
+
+.logo-text {
     top: 2rem;
     left: 8rem;
     /* color: red; */
@@ -27,24 +33,24 @@
 
 .header-text-new {
     color: white;
-    text-transform: uppercase; 
-    transition: color 0.3s ease; 
-  }
-  
-  .header-text-new:hover {
-    color: #866b2f; 
-  }
-  
-  .header-drop-icon {
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.header-text-new:hover {
     color: #866b2f;
-    transition: transform 0.3s ease, color 0.3s ease; 
-  }
-  
-  .header-text-new:hover + .header-drop-icon {
-    transform: rotate(180deg); 
-    color: #f0ad4e; 
-  }
-  
+}
+
+.header-drop-icon {
+    color: #866b2f;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.header-text-new:hover+.header-drop-icon {
+    transform: rotate(180deg);
+    color: #f0ad4e;
+}
+
 
 .custom-opacity {
     visibility: hidden;
@@ -53,6 +59,7 @@
 .text-colour-off-white {
     color: rgba(255, 255, 255, .6);
 }
+
 .list-text {
     color: #22304A;
     font-weight: 500;
@@ -62,18 +69,22 @@
     color: #b40606;
     /* font-weight: bold; */
 }
-.header-container :hover{
+
+.header-container :hover {
     background-color: black;
 }
-.header-list{
+
+.header-list {
     width: 98%;
 }
-.online-hover:hover{
-        border-bottom: #b40606;
+
+.online-hover:hover {
+    border-bottom: #b40606;
 }
 
 .btn-close {
-    --bs-btn-close-color: #fff; /* Set color to white */
+    --bs-btn-close-color: #fff;
+    /* Set color to white */
     --bs-btn-close-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z'/%3e%3c/svg%3e);
     --bs-btn-close-opacity: 0.5;
     --bs-btn-close-hover-opacity: 0.75;
