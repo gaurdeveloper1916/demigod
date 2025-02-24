@@ -49,7 +49,7 @@ export default function Openforbusiness() {
   };
 
   return (
-    <div className="d-flex flex-lg-row flex-md-row flex-column p-5">
+    <div className="d-flex flex-lg-row flex-md-row flex-column p-3">
       <div className="col-lg-4 col-12 col-md-4 d-flex justify-content-center align-items-center">
         <div className="d-flex flex-column">
           <h5 className="text-white fw-bold">
@@ -95,7 +95,7 @@ export default function Openforbusiness() {
                       />
                       <div className="bg-whitesh custom-height px-3 py-5 mt-2 text-white">
                         <p className="m-0 gradient-text fw-bold">{image.name}</p>
-                        <p className="m-0 verySmallFont">{image.desc}</p>
+                        <p className="m-0">{image.desc}</p>
                       </div>
                     </div>
                   </div>
