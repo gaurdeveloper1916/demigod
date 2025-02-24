@@ -319,22 +319,7 @@ const TabsComponent = () => {
                 </div> */}
                 <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-7" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-2 ">
-                        <div className="col-lg-5">
-
-                            <div className="d-flex flex-column">
-                                <img style={{ height: "300px" }} className="img-fluid w-100 "
-                                    src="Image/m&m/tabs/b2b.webp"></img>
-                                <div className="title-des  p-3">
-                                    <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                        B2B & B2C Events
-
-                                    </h1>
-                                    <p className="text-white text-start">
-                                        <strong> Articulating, designing, and curating brand experiences that engage consumers, strengthen B2B networks, and drive business impact.</strong>From high-profile corporate summits to large-scale consumer activations, we create impactful events that foster connections, amplify brand visibility, and drive revenue growth.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
+                       
 
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
