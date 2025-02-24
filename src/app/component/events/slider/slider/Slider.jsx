@@ -28,7 +28,7 @@ const Slider = () => {
                 "url('https://cdn.mos.cms.futurecdn.net/dP3N4qnEZ4tCTCLq59iysd.jpg')",
             }}
           >
-            <div className="content">
+            {/* <div className="content">
               <h2 className="title">"Lossless Youths"</h2>
               <p className="description col-lg-4">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
@@ -36,7 +36,7 @@ const Slider = () => {
                 laboriosam ipsam enim.
               </p>
               <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
-            </div>
+            </div> */}
           </li>
           <li
             className="item"
@@ -61,15 +61,15 @@ const Slider = () => {
               <source src="/testing-video.MP4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-            <div className="content">
+            {/* <div className="content">
               <h2 className="title">"Estrange Bond"</h2>
-              <p className="description">
+              <p className="description text-black">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
                 fuga voluptatum, iure corporis inventore praesentium nisi. Id
                 laboriosam ipsam enim.
               </p>
               <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
-            </div>
+            </div> */}
           </li>
           <li
             className="item"
@@ -78,7 +78,7 @@ const Slider = () => {
                 "url('https://images7.alphacoders.com/878/878663.jpg')",
             }}
           >
-            <div className="content">
+            {/* <div className="content">
               <h2 className="title">"The Gate Keeper"</h2>
               <p className="description">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
@@ -86,7 +86,7 @@ const Slider = () => {
                 laboriosam ipsam enim.
               </p>
               <button className="border border-none smallfont m-0 px-4 py-2  ">Buy now</button>
-            </div>
+            </div> */}
           </li>
           <li
             className="item"
@@ -95,7 +95,7 @@ const Slider = () => {
                 "url('https://images7.alphacoders.com/878/878663.jpg')",
             }}
           >
-            <div className="content">
+            {/* <div className="content">
               <h2 className="title">"Last Trace Of Us"</h2>
               <p className="description">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
@@ -103,7 +103,7 @@ const Slider = () => {
                 laboriosam ipsam enim.
               </p>
               <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
-            </div>
+            </div> */}
           </li>
           <li
             className="item"
@@ -112,7 +112,7 @@ const Slider = () => {
                 "url('https://theawesomer.com/photos/2017/07/simon_stalenhag_the_electric_state_6.jpg')",
             }}
           >
-            <div className="content">
+            {/* <div className="content">
               <h2 className="title">"Urban Decay"</h2>
               <p className="description">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
@@ -120,7 +120,7 @@ const Slider = () => {
                 laboriosam ipsam enim.
               </p>
               <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
-            </div>
+            </div> */}
           </li>
           <li
             className="item"
@@ -129,7 +129,7 @@ const Slider = () => {
                 "url('https://da.se/app/uploads/2015/09/simon-december1994.jpg')",
             }}
           >
-            <div className="content">
+            {/* <div className="content">
               <h2 className="title">"The Migration"</h2>
               <p className="description">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
@@ -137,7 +137,7 @@ const Slider = () => {
                 laboriosam ipsam enim.
               </p>
               <button className=" border border-0">Buy now</button>
-            </div>
+            </div> */}
           </li>
         </ul>
         <nav className="nav ">

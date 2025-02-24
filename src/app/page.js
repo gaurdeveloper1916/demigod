@@ -8,6 +8,16 @@ import Membership from "./component/homepage/Membership";
 import Prochainement from "./component/homepage/Prochainement";
 
 import TwoImagesDiv from "./component/homepage/TwoImagesDiv";
+import Index from "./events/page";
+import Herosection from "./component/mnm/Herosection";
+import Community from "./component/mnm/Community";
+import ElectronicCommunity from "./component/mnm/slider/ElectronicCommunity";
+import LeadingOrganisation from "./component/mnm/LeadingOrganisation";
+import Industryevents from "./component/mnm/Industryevents";
+import TabsComponent from "./component/mnm/TabsComponent";
+import Openforbusiness from "./component/mnm/Openforbusiness";
+import Partnership from "./component/mnm/Partnership";
+import Getintouch from "./component/mnm/Getintouch";
 
 export const metadata = {
   title: 'Demigod House',
@@ -39,16 +49,21 @@ export const metadata = {
 export default function Home() {
   return (
     <div className="bg-black container-fluid p-0">
-      <Header />
-      <Slider />
-      <TwoImagesDiv />
-      <Prochainement />
-      <Membership />
-      <Booknow />
-      <GetTickets/>
-      <Formdiv/>
-      {/* <Testtube /> */}
-      <FridayNight />
+     <Header/>
+      {/* <Index/> */}
+      <Herosection /> 
+      <Community/> 
+      <ElectronicCommunity/> 
+      <LeadingOrganisation/> 
+      {/* <Ecosystem /> */}
+      <Industryevents/>
+      <TabsComponent/>
+      {/* <Sectionone/>   */}
+      {/* <Repetativemandm/> */}
+
+      <Openforbusiness/>
+      <Partnership/>
+      <Getintouch/> 
 
     </div>
   );

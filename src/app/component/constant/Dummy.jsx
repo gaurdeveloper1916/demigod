@@ -37,8 +37,8 @@ export  const data = [
     {
       id: 4,
       attributes: {
-        URLText: "M&M",
-        url: "/media&marketing",
+        URLText: "Events",
+        url: "/events",
         corporate:"MEDIA AND MARKETING",
         createdAt: "2024-06-04T09:40:16.115Z",
         updatedAt: "2024-06-04T09:40:17.431Z",

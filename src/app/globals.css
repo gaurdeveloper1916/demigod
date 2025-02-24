@@ -362,12 +362,7 @@ body::-webkit-scrollbar-thumb {
     font-weight: bold;
     font-family: sans-serif;
   }
-  .tab-css-button-slected {
-    font-size: 21px;
-  }
-  .tab-css-button{
-    font-size: 21px;
-  } 
+ 
 }
 
 /* Medium devices (tablets, 768px and up) */
