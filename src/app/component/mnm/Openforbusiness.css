@@ -1,0 +1,93 @@
+/* Container Styling */
+.openforbusiness-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    color: white;
+  }
+  
+  
+  
+  /* Left Text Section */
+  .text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  /* Swiper Section */
+  .swiper-section {
+    flex: 1.5;
+  }
+  
+  .section-title {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  /* Swiper Styles */
+  .business-swiper {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .swiper-slide-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .slide-content img {
+    max-height: 200px;
+    width: auto;
+    border-radius: 10px;
+  }
+  
+  .slide-text {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  .slide-title {
+    font-weight: bold;
+  }
+  
+  .slide-desc {
+    font-size: 14px;
+  }
+  
+  /* Swiper Navigation Buttons */
+  .swiper-nav {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .nav-btn {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+  
+  .nav-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+  
