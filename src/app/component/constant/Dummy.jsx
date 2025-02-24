@@ -39,7 +39,7 @@ export  const data = [
       attributes: {
         URLText: "Events",
         url: "/events",
-        corporate:"MEDIA AND MARKETING",
+        corporate:"Events",
         createdAt: "2024-06-04T09:40:16.115Z",
         updatedAt: "2024-06-04T09:40:17.431Z",
         publishedAt: "2024-06-04T09:40:17.428Z",

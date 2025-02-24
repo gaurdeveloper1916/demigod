@@ -20,8 +20,16 @@ import Partnership from "./component/mnm/Partnership";
 import Getintouch from "./component/mnm/Getintouch";
 
 export const metadata = {
-  title: 'Demigod House',
-  description: 'Media and Marketing Event’s',
+  title: "DemiGod House",
+  description: "Media, Marketing & Events",
+  keywords: [
+    "Best Wedding planners in India", "Best Wedding planners in USA", "Best Wedding planners in Europe",
+    "Best Wedding planners in Mumbai", "Best Wedding planners in New Delhi", "Best Wedding planners in Bengaluru",
+    "Best Wedding planners in New York", "Best Wedding planners in Spain", "Best Wedding planners in California",
+    "Best Wedding planners in Thailand", "Best Wedding planners in Dubai", "Best Wedding planners in London",
+    "Best Wedding planners in Germany", "Best Wedding planners in Poland", "Best Wedding planners in Asia",
+    "Best Wedding planners in Australia"
+  ],
   alternates: {
     canonical: ``,
   },
