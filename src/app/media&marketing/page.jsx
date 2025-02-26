@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../component/common/header/Header";
-import "./index.css";
 import Herosection from "../component/mnm/Herosection";
 import Community from "../component/mnm/Community";
 import Ecosystem from "../component/mnm/Ecosystem";
