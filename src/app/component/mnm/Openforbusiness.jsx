@@ -67,7 +67,7 @@ export default function Openforbusiness() {
 
       <div className="col-lg-8 col-12 col-md-8">
         <div className="container mt-5">
-          <p className="fs-6 text-white">
+          <p className="fs-3 text-white">
             Participation
             <span className="gradient-text fw-bold"> For </span>
             Business <IoChevronForwardOutline size={35} color="white" className="fw-bold" />

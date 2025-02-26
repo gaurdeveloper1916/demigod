@@ -23,7 +23,7 @@ const Formdiv = () => {
   };
   return (
     <div
-      className=""
+      className="mt-5"
       style={{
         backgroundImage:
           "url(https://cdn.pixabay.com/photo/2023/04/03/12/59/crowd-7896788_1280.jpg)",

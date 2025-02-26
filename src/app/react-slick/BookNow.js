@@ -11,7 +11,7 @@ const Booknow = () => {
   const [currentSlide, setCurrentSlide] = useState("standup");
   return (
     <>
-      <div className="container-fluid p-5">
+      <div className="container-fluid ">
         <div
           className="book_now_user d-flex flex-lg-row flex-column"
           style={{

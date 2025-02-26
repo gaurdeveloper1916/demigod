@@ -2,8 +2,8 @@
   /* width: 120px;
     height: 80px;
     margin-top: 15px; */
-  width: 200px;
-  height: 130px;
+    width: 186px;
+    height: 89px;
   /* margin-left: 20px; */
 }
 
@@ -287,7 +287,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 4px;
   display: inline-flex;
   color: #dbb85e;
-  font-size: 32px;
+  font-size: 17px;
   font-weight: 600;
   letter-spacing: .2375px;
   font-family: cursive;

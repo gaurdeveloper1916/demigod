@@ -90,8 +90,8 @@ export default function Home() {
      <Header/>
       {/* <Index/> */}
       <Herosection /> 
-      <Community/> 
-      <ElectronicCommunity/> 
+      {/* <Community/>  */}
+      {/* <ElectronicCommunity/>  */}
       <LeadingOrganisation/> 
       {/* <Ecosystem /> */}
       <Industryevents/>
@@ -100,7 +100,7 @@ export default function Home() {
       {/* <Repetativemandm/> */}
 
       <Openforbusiness/>
-      <Partnership/>
+      {/* <Partnership/> */}
       <Getintouch/> 
 
     </div>

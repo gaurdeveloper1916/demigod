@@ -6,11 +6,13 @@ import { MdArrowOutward } from "react-icons/md";
 function Moodboard() {
   const [showModal, setShowModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState("");
+  const [title,setTitle]=useState('')
   const [des,setDes]=useState('')
-  const handleImageClick = (imageSrc,heading) => {
+  const handleImageClick = (imageSrc,heading,title) => {
     setSelectedImage(imageSrc);
     setShowModal(true);
     setDes(heading)
+    setTitle(title)
   };
 
   const handleClose = () => setShowModal(false);
@@ -26,7 +28,7 @@ function Moodboard() {
               alt="image"
               src="/images/telgu.webp"
               className="img-fluid text-0px"
-              onClick={() => handleImageClick("/image/wedding-page/mood-1/telgu.webp","Sacred Customs, Deep-rooted Traditions Telugu weddings are a spiritual journey, rich with sacred rituals and timeless customs that honor both the couple and their families. Key ceremonies include the 'Kanyadaan' (giving away of the bride) and 'Talambralu,' where the bride and groom shower each other with sacred rice. These weddings are marked by deep respect for tradition, with a focus on unity, prosperity, and familial bonds.")}
+              onClick={() => handleImageClick("/image/wedding-page/mood-1/telgu.webp","Sacred Customs, Deep-rooted Traditions Telugu weddings are a spiritual journey, rich with sacred rituals and timeless customs that honor both the couple and their families. Key ceremonies include the 'Kanyadaan' (giving away of the bride) and 'Talambralu,' where the bride and groom shower each other with sacred rice. These weddings are marked by deep respect for tradition, with a focus on unity, prosperity, and familial bonds.","title telgu")}
               style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
             />
           </div>
@@ -35,7 +37,7 @@ function Moodboard() {
               alt="image"
               src="/images/punjabi.webp"
               className="img-fluid"
-              onClick={() => handleImageClick("Image/wedding-page/mood-1/punjabi.webp","Joyful Celebrations, Boundless Energy Punjabi and Sikh weddings are known for their exuberant celebrations, filled with music, dance, and heartfelt traditions. The 'Anand Karaj' ceremony, where the couple ties the knot in front of the Guru Granth Sahib, is central to the wedding. The vibrant festivities include the traditional 'Bhangra' dance and the joyous 'Lagana' ceremony, creating a lively atmosphere for family and friends.")}
+              onClick={() => handleImageClick("Image/wedding-page/mood-1/punjabi.webp","Joyful Celebrations, Boundless Energy Punjabi and Sikh weddings are known for their exuberant celebrations, filled with music, dance, and heartfelt traditions. The 'Anand Karaj' ceremony, where the couple ties the knot in front of the Guru Granth Sahib, is central to the wedding. The vibrant festivities include the traditional 'Bhangra' dance and the joyous 'Lagana' ceremony, creating a lively atmosphere for family and friends.","title punjabi")}
               style={{ cursor: "pointer", width: "300px", height: "250px", objectFit: "cover" }}
             />
           </div>
@@ -109,7 +111,7 @@ function Moodboard() {
             <div className="d-flex align-items-center p-5">
               <div className="col-lg-4">
                 <div className="d-flex flex-column">
-                  <h1 className="text-white">Telgu Wedding</h1>
+                  <h1 className="text-white">{title}</h1>
                   <p className="text-white">
                     {des? des:"please pass des"}
                   </p>

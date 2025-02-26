@@ -82,7 +82,7 @@ function TwoImagesDiv() {
   ];
   return (
     <div
-      className="container-fluid p-lg-5 p-3 mb-5 col-lg-11"
+      className="container-fluid  mb-5 col-lg-11"
       style={{
         backgroundImage: `url('/ve.jpg')`,
         backgroundSize: 'cover',

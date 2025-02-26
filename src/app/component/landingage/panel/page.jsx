@@ -21,8 +21,8 @@ const Panel = () => {
           </div>
           <div className='col-lg-4 col-12'>
             <h4 className='text-white text-center'>Our Partner</h4>
-            <div className='row justify-content-center'>
-              <div className='col-6 col-md-6 col-lg-6 mb-3 d-flex justify-content-center'>
+            <div className='d-flex flex-wrap justify-content-center align-items-center'>
+              <div className='col-6 col-md-6 col-lg-6 mb-3 d-flex justify-content-center '>
                 <img className='image-partner rounded img-fluid' src='https://media.istockphoto.com/id/1591572504/photo/cheerful-businesswomen-shaking-hands-in-meeting-room.webp?a=1&b=1&s=612x612&w=0&k=20&c=o9gVzM52qGsXBazL11EFxSmRSJLtpMnmWf9us04Pfws=' alt='Businesswomen shaking hands' />
               </div>
               <div className='col-6 col-md-6 col-lg-6 mb-3 d-flex justify-content-center'>

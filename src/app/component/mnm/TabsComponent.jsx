@@ -19,34 +19,28 @@ const TabsComponent = () => {
     ];
     return (
         <>
-            <div className="w-full px-1">
+            <div className="w-full ">
                 <ul
                     className="d-flex  mb-1 overflow-x-auto lg:overflow-hidden lg-px-4"
                     role="tablist"
-                    style={{ whiteSpace: "nowrap", flexWrap: "nowrap" }}
+                // style={{ whiteSpace: "nowrap", flexWrap: "nowrap" }}
                 >
                     {tabs.map((tab) => (
                         <li className="d-flex  justify-content-center align-items-center" key={tab.id}
                             role="presentation">
-                            {/* <p
-                                className={`${activeTab === tab.id ? "tab-css-button-slected mx-4 " : "tab-css-button mx-4 "
-                                    }`}
-                                onClick={() => setActiveTab(tab.id)}
-                            >
-                                
-                            </p> */}
+
                             <button
                                 onClick={() => setActiveTab(tab.id)}
-                                className={`verySmallFont border-0 rounded px-3 py-2 text-white ${activeTab === tab.id ? "tab-css-button-slected mx-4 " : "tab-css-button mx-4 "
+                                className={`verySmallFont border-0 rounded px-3 py-2 text-white ${activeTab === tab.id ? "tab-css-button-slected  " : "tab-css-button  "
                                     }`}  >
                                 {tab.label}
                             </button>
-                            
+
                         </li>
                     ))}
                 </ul>
             </div>
-          
+
 
             <div className="tab-content px-4">
                 <div className={`tab-pane fade mt-12 ${activeTab === "ex2-tabs-1" ? "show active" : ""}`}>
@@ -61,7 +55,7 @@ const TabsComponent = () => {
                                 <img
                                     src="Image/m&m/tabs/brand.webp"
                                     className=" rounded image-tab"
-                                   
+
                                 />
                                 <div className="info_card p-3 text-white">
                                     <h3>
@@ -80,28 +74,24 @@ const TabsComponent = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-lg-7  p-3">
-                            {/* <p className="fw-bold text-white">Our Approach:</p> */}
-                            <ul className="news-list d-flex gap-2 flex-column">
+                        <div className="col-lg-7 p-3 d-flex flex-column align-items-center justify-content-center mx-auto ">
+                            <ul className="news-list d-flex gap-2 flex-column align-items-center justify-content-center">
                                 <li>Brand development with DemiGod House ensures guaranteed retail participation of at least 50,000,000 consumers through B2B/B2C events, eCommerce portals, and brick-and-mortar stores.</li>
                                 <li>Our brand image development is driven by time-tested strategic marketing activities, following thorough research and analysis of targeted global markets.</li>
-
                                 <li>We implement a well-defined brand development strategy through print media, digital media, and ATL/BTL activities, adapting seamlessly to market trends—whether in a bullish or bearish phase.</li>
-
                                 <li>Our structured brand development approach provides a competitive edge by integrating exclusive factors aligned with consumer demand in rapidly evolving markets.</li>
                                 <li>With full funding provided by us, our team has complete creative liberty in designing and executing brand development activities for DemiGod House brands, associates, and clientele.</li>
-
                                 <li>We deliver headline-making, trend-setting brand development campaigns through our print and electronic media associates across more than 90 countries on a regular basis.</li>
                             </ul>
-
                         </div>
+
                     </div>
                 </div>
 
                 <div className={`tab-pane fade  mt-12 ${activeTab === "ex2-tabs-2" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-6 ">
 
-                      
+
 
 
                         <div className="col-lg-5">
@@ -114,15 +104,15 @@ const TabsComponent = () => {
                                 <img
                                     src="Image/m&m/tabs/marketing.webp"
                                     className=" rounded image-tab"
-                                   
+
                                 />
                                 <div className="info_card p-3 text-white">
                                     <h3>
                                         <strong><em> Brand MARKETING</em></strong>
                                     </h3>
                                     <p>
-                                    <strong>DemiGod House marketing team specializes in curating high-impact marketing strategies that ensures your brand sectoral leadership & success story in an increasingly competitive landscape. We don’t just market, we create experiences that resonate with consumers and drive engagement.</strong>                         
-                                            
+                                        <strong>DemiGod House marketing team specializes in curating high-impact marketing strategies that ensures your brand sectoral leadership & success story in an increasingly competitive landscape. We don’t just market, we create experiences that resonate with consumers and drive engagement.</strong>
+
 
                                     </p>
                                 </div>
@@ -130,7 +120,7 @@ const TabsComponent = () => {
                         </div>
 
 
-                        <div className="col-lg-7  p-3">
+                        <div className="col-lg-7 p-3 d-flex flex-column align-items-center justify-content-center mx-auto  p-3">
                             {/* <p className="fw-bold text-white">Our Approach:</p> */}
                             <ul className="news-list d-flex gap-2 flex-column">
                                 <li>DemiGod House Marketing Team specializes in crafting high-impact marketing strategies that establish your brand as a sector leader and success story in today’s highly competitive landscape. We don’t just market—we create experiences that resonate with consumers and drive meaningful engagement. </li>
@@ -154,7 +144,7 @@ const TabsComponent = () => {
                             >
                                 <img
                                     src="Image/m&m/tabs/3rd.webp"
-                                      className="rounded image-tab"
+                                    className="rounded image-tab"
                                 />
 
                                 <div className="info_card p-3 text-white">
@@ -171,40 +161,40 @@ const TabsComponent = () => {
                             </div>
                             {/* </div> */}
                         </div>
-                        <div className="col-lg-7  p-3">
+                        <div className="col-lg-7 p-3 d-flex flex-column align-items-center justify-content-center mx-auto  p-3">
                             {/* <p className="fw-bold text-white">Our Approach:</p> */}
                             <ul className="news-list">
-                            <li>
-                                We facilitate 3rd Party Contract Manufacturing for globally recognized 
-                                mainstream media brands across developed and developing economies.
-                            </li>
-                            <li>
-                                Our operations cover diverse sectors:
-                                <ul className="sector-list">
-                                <li>🚗 Automotive Components</li>
-                                <li>💎 Gemstones & Jewelry</li>
-                                <li>🛍️ FMCG</li>
-                                <li>💊 Pharma-OTC</li>
-                                <li>💻 IT & Electronics</li>
-                                <li>🎬 Entertainment</li>
-                                <li>🏗️ Real Estate & Construction</li>
-                                </ul>
-                            </li>
-                            <li>
-                                We focus exclusively on permanent and long-term contract manufacturing partnerships.
-                            </li>
-                            <li>
-                                As trusted channel partners, we ensure seamless collaboration between 
-                                brand entities and industrial manufacturers.
-                            </li>
-                            <li>
-                                To discuss potential partnerships, share your portfolio and queries:
-                                <br />
-                                📧 <a href="mailto:info@demigodhouse.com">info@demigodhouse.com</a>
-                                <br />
-                                📞 <a href="tel:+918355897803">+91 83558 97803</a>
-                            </li> 
-                        </ul>
+                                <li>
+                                    We facilitate 3rd Party Contract Manufacturing for globally recognized
+                                    mainstream media brands across developed and developing economies.
+                                </li>
+                                <li>
+                                    Our operations cover diverse sectors:
+                                    <ul className="sector-list">
+                                        <li>🚗 Automotive Components</li>
+                                        <li>💎 Gemstones & Jewelry</li>
+                                        <li>🛍️ FMCG</li>
+                                        <li>💊 Pharma-OTC</li>
+                                        <li>💻 IT & Electronics</li>
+                                        <li>🎬 Entertainment</li>
+                                        <li>🏗️ Real Estate & Construction</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    We focus exclusively on permanent and long-term contract manufacturing partnerships.
+                                </li>
+                                <li>
+                                    As trusted channel partners, we ensure seamless collaboration between
+                                    brand entities and industrial manufacturers.
+                                </li>
+                                <li>
+                                    To discuss potential partnerships, share your portfolio and queries:
+                                    <br />
+                                    📧 <a href="mailto:info@demigodhouse.com">info@demigodhouse.com</a>
+                                    <br />
+                                    📞 <a href="tel:+918355897803">+91 83558 97803</a>
+                                </li>
+                            </ul>
 
                         </div>
                     </div>
@@ -213,7 +203,7 @@ const TabsComponent = () => {
                 <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-5" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-2 ">
 
-                        
+
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
 
@@ -222,25 +212,25 @@ const TabsComponent = () => {
                                 style={{ borderRadius: "10px" }}
                             >
                                 <img
-                                   src="Image/m&m/tabs/seed.webp"
+                                    src="Image/m&m/tabs/seed.webp"
                                     className=" rounded image-tab"
-                                   
+
                                 />
                                 <div className="info_card p-3 text-white">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                    Brand Seed Funding
+                                        Brand Seed Funding
 
                                     </h1>
                                     <p className="text-white text-start">
                                         <strong>Articulating, designing, and curating a strategic brand market image alongside ensuring structured funding for business growth and expansion.</strong> We provide up to $500 million in seed funding to nurture promising brands, helping them transition from vision to market dominance with a structured business roadmap.
                                     </p>
-                                  
+
                                 </div>
                             </div>
                         </div>
 
-                        
-                        <div className="col-lg-7  p-3">
+
+                        <div className="col-lg-7 p-3 d-flex flex-column align-items-center justify-content-center mx-auto  p-3">
                             <h5> <p className="fw-bold text-white">Upto $500 Million Investment's Opportunity</p></h5>
                             <ul className="news-list d-flex flex-column gap-2 ">
 
@@ -283,7 +273,7 @@ const TabsComponent = () => {
                             </div>
                          
                         </div>
-                        <div className="col-lg-7  p-3">
+                        <div className="col-lg-7 p-3 d-flex flex-column align-items-center justify-content-center mx-auto  p-3">
                             <p className="fw-bold text-white">Our Approach:</p>
                             <ul className="news-list">
                                 <li>
@@ -324,7 +314,7 @@ const TabsComponent = () => {
                 </div> */}
                 <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-7" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-2 ">
-                       
+
 
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
@@ -334,25 +324,25 @@ const TabsComponent = () => {
                                 style={{ borderRadius: "10px" }}
                             >
                                 <img
-                                  src="Image/m&m/tabs/b2b.webp"
+                                    src="Image/m&m/tabs/b2b.webp"
                                     className=" rounded image-tab"
-                                   
+
                                 />
                                 <div className="info_card p-3 text-white">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                    B2B & B2C Events
+                                        B2B & B2C Events
                                     </h1>
                                     <p className="text-white text-start">
-                                    <strong> Articulating, designing, and curating brand experiences that engage consumers, strengthen B2B networks, and drive business impact.</strong>From high-profile corporate summits to large-scale consumer activations, we create impactful events that foster connections, amplify brand visibility, and drive revenue growth.
+                                        <strong> Articulating, designing, and curating brand experiences that engage consumers, strengthen B2B networks, and drive business impact.</strong>From high-profile corporate summits to large-scale consumer activations, we create impactful events that foster connections, amplify brand visibility, and drive revenue growth.
                                     </p>
-                                  
+
                                 </div>
                             </div>
                         </div>
 
 
 
-                        <div className="col-lg-7  p-3">
+                        <div className="col-lg-7 p-3 d-flex flex-column align-items-center justify-content-center mx-auto  p-3">
                             {/* <p className="fw-bold text-white">Our Approach:</p> */}
                             <ul className="news-list d-flex gap-2 flex-column">
                                 <li>Explore our incredible exposure of events globally! Until 2030, we have lined up more than 1,600 events, ensuring strategic participation of over 500,000 individuals on average.</li>

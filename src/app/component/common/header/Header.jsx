@@ -95,10 +95,10 @@ function Header({ where }) {
           <div className="px-5 w-100 d-flex gap-5 justify-content-between">
             {/* Logo */}
             <div className="position-relative">
-              <Link href="/">
-                <img className="logoImage cursor" src="./images/demigodnew.png" alt="Logo" />
+              <a href="/">
+                <img className="logoImage cursor" src="./demigodnew.png" alt="Logo" />
                 <p className="position-absolute logo-text">Media.Marketing.Event’s</p>
-              </Link>
+              </a>
             </div>
 
             {/* Navigation */}
@@ -114,13 +114,13 @@ function Header({ where }) {
                   >
                     {item.attributes.URLText} {hoveredIndex === i ? item.attributes.onHoverText : ""}
                   </a>
-                  {item.attributes.onHover && (
+                  {/* {item.attributes.onHover && (
                     <FaChevronDown
                       size={17}
                       color="white"
                       className={`header-drop-icon mx-1 ${hoveredIndex === i ? "rotate-icon" : ""}`}
                     />
-                  )}
+                  )} */}
                 </div>
               ))}
             </div>

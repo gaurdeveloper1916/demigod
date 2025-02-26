@@ -60,7 +60,7 @@ const Customslider = () => {
 
   return (
     <div className="container">
-      <div style={{ marginTop: "10rem" }} className=" mx-4 p-4 bg-cards ">
+      <div className=" mx-4 p-4 bg-cards ">
         <Slider {...settings2} ref={sliderRef}>
           <div className={`text-white p-3 bg-cards-inner`}>
             <img
@@ -143,7 +143,6 @@ const Customslider = () => {
                 Jewellery
                 </h6>
                 <div>
-                  <h6 className="m-0 fw-bold">Hack Summit,SF</h6>
                   <p className=" verySmallFont ">
                   Our expertise in jewellery marketing ensures an impactful presence, driving brand recognition and engagement with affluent clientele.
                   </p>
