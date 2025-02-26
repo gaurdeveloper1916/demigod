@@ -55,9 +55,8 @@ const TabsComponent = () => {
             </div>
 
             <div className="tab-content px-4">
-                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-1" ? "show active" : ""}`}>
-
-                    <div className="d-flex flex-lg-row flex-column gap-2">
+                <div className={`tab-pane fade mt-12 ${activeTab === "ex2-tabs-1" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column gap-6">
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
 
@@ -67,6 +66,7 @@ const TabsComponent = () => {
                             >
                                 <img
                                     src="Image/m&m/tabs/brand.webp"
+                                    alt="Brand Development"
                                     className="img-fluid w-100"
                                     style={{ height: "500px" }}
                                 />
@@ -117,6 +117,7 @@ const TabsComponent = () => {
                             >
                                 <img
                                     src="Image/m&m/tabs/marketing.webp"
+                                    alt="Brand Marketing"
                                     className="img-fluid w-500 image-style"
                                     style={{ height: "700px" }}
                                 />
@@ -145,12 +146,10 @@ const TabsComponent = () => {
                                 
                         </div>
                     </div>
-
-
-
                 </div>
-                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-3" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column gap-2 ">
+
+                <div className={`tab-pane fade mt-12 ${activeTab === "ex2-tabs-3" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column gap-6 ">
                         <div className="col-lg-5">
                         <div
                                 className=" border border-0 position-relative"
@@ -158,6 +157,7 @@ const TabsComponent = () => {
                             >
                                 <img
                                     src="Image/m&m/tabs/3rd.webp"
+                                    alt="3rd Party Contract Manufacturing"
                                     className="img-fluid w-100"
                                     style={{ height: "500px" }}
                                 />
@@ -174,7 +174,7 @@ const TabsComponent = () => {
                             {/* </div> */}
                         </div>
                         <div className="col-lg-7  p-3">
-                            <p className="fw-bold text-white">Our Approach:</p>
+                            {/* <p className="fw-bold text-white">Our Approach:</p> */}
                             <ul className="news-list">
                             <li>
                                 We facilitate 3rd Party Contract Manufacturing for globally recognized 
@@ -206,25 +206,30 @@ const TabsComponent = () => {
                                 <br />
                                 📞 <a href="tel:+918355897803">+91 83558 97803</a>
                             </li> 
-                            </ul>
+                        </ul>
 
                         </div>
                     </div>
                 </div>
                 
-                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-5" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column gap-2 ">
-                        
-                        <div className="col-lg-5">
-                            {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
+                <div className={`tab-pane fade mt-12 ${activeTab === "ex2-tabs-5" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column gap-6 ">
 
-                            <div className="d-flex flex-column">
-                                <img style={{ height: "300px" }} className="img-fluid w-100 "
-                                    src="Image/m&m/tabs/seed.webp"></img>
-
-                                <div className="title-des  p-3">
+                    <div className="col-lg-5">
+                        <div
+                                className=" border border-0 position-relative"
+                                style={{ borderRadius: "10px" }}
+                            >
+                                <img
+                                    src="Image/m&m/tabs/seed.webp"
+                                    alt="Brand Seed Funding"
+                                    className="img-fluid w-100"
+                                    style={{ height: "500px" }}
+                                />
+                                <div className="info_card p-3 text-white">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                        Brand Seed Funding
+                                    Brand Seed Funding
+
                                     </h1>
                                     <p className="text-white text-start">
                                         <strong>Articulating, designing, and curating a strategic brand market image alongside ensuring structured funding for business growth and expansion.</strong> We provide up to $500 million in seed funding to nurture promising brands, helping them transition from vision to market dominance with a structured business roadmap.
@@ -232,6 +237,8 @@ const TabsComponent = () => {
                                 </div>
                             </div>
                             {/* </div> */}
+                        </div>
+                    
                         </div>
                         <div className="col-lg-7  p-3">
                             <h5> <p className="fw-bold text-white">Upto $500 Million Investment's Opportunity</p></h5>
@@ -247,21 +254,27 @@ const TabsComponent = () => {
                         </div>
                     </div>
                 </div>
-                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-6" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column gap-2 ">
-                        <div className="col-lg-5">
-                            {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
 
-                            <div className="d-flex flex-column">
-                                <img style={{ height: "300px" }} className="img-fluid w-100 "
-                                    src="Image/m&m/tabs/equity.webp"></img>
-                                <div className="title-des  p-3">
+                <div className={`tab-pane fade mt-12 ${activeTab === "ex2-tabs-6" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column gap-6 ">
+                        <div className="col-lg-5">
+                        <div
+                                className=" border border-0 position-relative"
+                                style={{ borderRadius: "10px" }}
+                            >
+                                <img
+                                    src="Image/m&m/tabs/b2b.webp"
+                                    alt="B2b & B2c Events"
+                                    className="img-fluid w-100"
+                                    style={{ height: "500px" }}
+                                />
+                                <div className="info_card p-3 text-white">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                        Brand Private Equity
+                                    B2B & B2C Events
 
                                     </h1>
                                     <p className="text-white text-start">
-                                        <strong>Our expertise & exposure across diverse industries provide us with the edge & grasp to structure successful brand equity strategies that drive growth and profitability.</strong>We connect high-potential brands with leading private equity investors, ensuring capital infusion, strategic structuring, and business scalability.
+                                        <strong>Articulating, designing, and curating brand experiences that engage consumers, strengthen B2B networks, and drive business impact.</strong>From high-profile corporate summits to large-scale consumer activations, we create impactful events that foster connections, amplify brand visibility, and drive revenue growth.
                                     </p>
                                 </div>
                             </div>
@@ -304,11 +317,11 @@ const TabsComponent = () => {
                                     </ul>
                                 </li>
                             </ul>
-                        </div>
                     </div>
                 </div>
-                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-7" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column gap-2 ">
+
+                <div className={`tab-pane fade mt-12 ${activeTab === "ex2-tabs-7" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column gap-6 ">
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
 

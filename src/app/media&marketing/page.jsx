@@ -25,16 +25,7 @@ export const metadata = {
   title: "DemiGod House | Media, Marketing & Events",
   description: "DemiGod House specializes in media, marketing, and events. We provide top-tier brand development, advertising, and seed funding solutions worldwide.",
 
-  keywords: [
-    "Best Marketing Agency in Mumbai",
-    "Best Marketing Agency in New Delhi",
-    "Best Marketing Agency in India",
-    "Best Marketing Agency in Dubai",
-    "Best Marketing Agency in London",
-    "Best Brand Development Agency in India",
-    "Brand Seed Funding",
-    "Advertising Agency",
-  ],
+  keywords: ["Best Marketing Agency in Mumbai", "Best Marketing Agency in New Delhi", "Best Marketing Agency in India", "Best Marketing Agency in Dubai", "Best Marketing Agency in London", "Best Brand Development Agency in India", "Brand Seed Funding", "Advertising Agency", "Top Marketing Agency in Mumbai", "Top Marketing Agency in New Delhi", "Top Marketing Agency in India", "Top Marketing Agency in Dubai", "Top Marketing Agency in London", "Top Brand Development Agency in India", "Top Brand Seed Funding", "Top Advertising Agency", "Digital Marketing Services", "Social Media Marketing", "Content Marketing", "SEO Services", "PPC Advertising", "Brand Strategy", "Event Management", "PR Services", "Media Planning", "Marketing Consultancy", "Creative Agency", "Integrated Marketing", "B2B Marketing", "B2C Marketing", "Marketing Analytics", "Email Marketing", "Influencer Marketing", "Brand Identity Design", "Marketing ROI", "Lead Generation", "Market Research", "Campaign Management", "Marketing Automation", "Video Marketing", "Corporate Events", "Brand Positioning", "Growth Marketing", "Performance Marketing", "Marketing Strategy", "Marketing Solutions"],
 
   alternates: {
     canonical: 'https://www.demigodhouse.com/',
@@ -58,7 +49,7 @@ export const metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: "DemiGod House | Media, Marketing & Events",
+    title: "DemiGod House | Media, Marketing & Events", 
     description: "Top marketing agency for brand development, advertising, and seed funding in Mumbai, New Delhi, Dubai, London, and more.",
     images: 'https://www.demigodhouse.com/images/twitter-image.jpg',
     site: '@YourTwitterHandle', // Replace with your actual Twitter handle
