@@ -16,6 +16,7 @@ const TabsComponent = () => {
         { id: "ex2-tabs-5", label: "Brand Seed Funding" },
         // { id: "ex2-tabs-6", label: "Brand Capital" },
         { id: "ex2-tabs-7", label: "B2B & B2C Events" },
+        { id: "ex2-tabs-8", label: "New Section" },
     ];
     return (
         <>
@@ -244,74 +245,7 @@ const TabsComponent = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-6" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column gap-2 ">
-                        <div className="col-lg-5">
 
-                <div className={`tab-pane fade mt-12 ${activeTab === "ex2-tabs-6" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column gap-6 ">
-                        <div className="col-lg-5">
-                        <div
-                                className=" border border-0 position-relative"
-                                style={{ borderRadius: "10px" }}
-                            >
-                                <img
-                                    src="Image/m&m/tabs/b2b.webp"
-                                    alt="B2b & B2c Events"
-                                    className="img-fluid w-100"
-                                    style={{ height: "500px" }}
-                                />
-                                <div className="info_card p-3 text-white">
-                                    <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                    B2B & B2C Events
-
-                                    </h1>
-                                    <p className="text-white text-start">
-                                        <strong>Articulating, designing, and curating brand experiences that engage consumers, strengthen B2B networks, and drive business impact.</strong>From high-profile corporate summits to large-scale consumer activations, we create impactful events that foster connections, amplify brand visibility, and drive revenue growth.
-                                    </p>
-                                </div>
-                            </div>
-                         
-                        </div>
-                        <div className="col-lg-7 p-3 d-flex flex-column align-items-center justify-content-center mx-auto  p-3">
-                            <p className="fw-bold text-white">Our Approach:</p>
-                            <ul className="news-list">
-                                <li>
-                                    <strong className="ago-text">Exclusive Access to Global Private Equity Networks</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We connect brands with top-tier private investors, venture capitalists, and financial institutions to secure competitive investment opportunities.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Tailored Capital Allocation & Growth Acceleration</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>Our financial strategists optimize capital distribution, ensuring investment funds fuel high-impact initiatives that maximize brand value.
-                                            </li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Equity Structuring for Scalability & Market Expansion</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We design private equity models that enhance financial sustainability, support market entry, and enable long-term brand success.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Exit Strategies & IPO Readiness</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We structure clear exit strategies to maximize investor returns, paving the way for IPOs and large-scale acquisitions.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                            </ul>
-                    </div>
-                </div> */}
                 <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-7" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-2 ">
 
@@ -356,6 +290,52 @@ const TabsComponent = () => {
                         </div>
                     </div>
                 </div>
+
+                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-8" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column gap-2 ">
+
+
+                        <div className="col-lg-5">
+                            {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
+
+                            <div
+                                className=" border border-0 position-relative"
+                                style={{ borderRadius: "10px" }}
+                            >
+                                <img
+                                    src="Image/m&m/tabs/b2b.webp"
+                                    className=" rounded image-tab"
+
+                                />
+                                <div className="info_card p-3 text-white">
+                                    <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
+                                        B2B & B2C Events
+                                    </h1>
+                                    <p className="text-white text-start">
+                                        <strong> Articulating, designing, and curating brand experiences that engage consumers, strengthen B2B networks, and drive business impact.</strong>From high-profile corporate summits to large-scale consumer activations, we create impactful events that foster connections, amplify brand visibility, and drive revenue growth.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div className="col-lg-7 p-3 d-flex flex-column align-items-center justify-content-center mx-auto  p-3">
+                            {/* <p className="fw-bold text-white">Our Approach:</p> */}
+                            <ul className="news-list d-flex gap-2 flex-column">
+                                <li>Explore our incredible exposure of events globally! Until 2030, we have lined up more than 1,600 events, ensuring strategic participation of over 500,000 individuals on average.</li>
+                                <li>We digitally host and provide management services for a variety of B2B and B2C events worldwide.</li>
+                                <li>Our global B2B/B2C events group, powered by Demigod House, connects our associates, clientele, and retail corporations with brand exposure for their products and services.</li>
+                                <li>We create high-impact networking platforms that bring together industry leaders, innovators, and key decision-makers.</li>
+                                <li>We facilitate seamless event execution with end-to-end planning, production, and engagement strategies tailored for maximum impact.</li>
+                                <li>We leverage cutting-edge technology and digital integrations to enhance audience interaction and event experiences.</li>
+                                <li>We offer customized event solutions, ensuring brands achieve their marketing, sales, and outreach goals effectively.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+             
             </div>
             {/* Tabs content */}
         </>

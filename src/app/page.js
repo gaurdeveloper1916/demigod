@@ -18,12 +18,11 @@ import TabsComponent from "./component/mnm/TabsComponent";
 import Openforbusiness from "./component/mnm/Openforbusiness";
 import Partnership from "./component/mnm/Partnership";
 import Getintouch from "./component/mnm/Getintouch";
-
+import Map  from "./component/googlemap/Map"
 export const metadata = {
   metadataBase: new URL('https://www.demigodhouse.com'),
   title: "DemiGod House | Media, Marketing & Events",
   description: "DemiGod House specializes in media, marketing, and event management. We provide world-class corporate event solutions, wedding planning, and brand experiences across the globe.",
-
   keywords: [
     "Best Corporate Event Management Company",
     "Best Wedding Planners",
@@ -100,6 +99,7 @@ export default function Home() {
       {/* <Repetativemandm/> */}
 
       <Openforbusiness/>
+      <Map/>
       {/* <Partnership/> */}
       <Getintouch/> 
 
