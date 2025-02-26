@@ -17,7 +17,7 @@ const Tabs = () => {
           <div className='bg-dange w-100 py-3'>
             <div className='d-flex  justify-content-around text-white'>
               <div className='d-flex flex-column align-items-center justify-content-center'>
-                <h4 className='text-center'>$25</h4>
+                <h4 className='text-center'>$50</h4>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>
                 <p className='m-0'>Lorem ipsum dolor sit amet,</p>

@@ -213,7 +213,6 @@ function Page(props) {
                 />
               </div>
               <div class="bwc__sc-ttnkwg-17 gvzyfS">
-   src="//in.bmscdn.com/m6/images/common-modules/regions/ahd.png" alt="AHD" class="bwc__sc-ttnkwg-26 izPSOY"
 </div>
               <div className="col-lg-3">
                 <img
@@ -250,7 +249,7 @@ function Page(props) {
               Maharashtra, India
               </p>
               <p className="text-white m-0">+91-8355897803</p>
-              <p className="text-white m-0">info@demigodhouse.com</p>
+              <p className="text-white m-0">dev@demigodhouse.com</p>
             </div>
           </div>
         </div>

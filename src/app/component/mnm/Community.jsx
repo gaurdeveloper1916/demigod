@@ -10,8 +10,8 @@ import { FaTelegramPlane } from "react-icons/fa";
 import "./index.css";
 function Community() {
   return (
-    <div className="d-flex justify-content-center align-items-center d-lg-block  d-none mb-5">
-      <div className="col-lg-8 mt-4 ">
+    <div className="d-flex justify-content-center align-items-center d-lg-block  d-none">
+      <div className="col-lg-8">
         <div style={{ height: "38rem", overflow: "inherit" }} className="d-flex justify-content-center px-5 position-relative">
           <div style={{lineHeight:'4rem'}} className="d-flex flex-column text-white">
             <p className="m-0 community-fs  fw-bold">Our Global<span className="gradient-text fw-bold"> Print</span> </p>
@@ -29,14 +29,14 @@ function Community() {
           <div className="position-absolute   x-twitter-container all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaXTwitter size={40} className="icon-color" />
-              <p className="text-white">Twitter</p> */}
-               <img  className="img-circle rounded-pill " src="global.png"></img>
-            </div>
-          </div>
-          <div className="position-absolute   discord-container all-container">
-            <div className="d-flex flex-column align-items-center">
-              {/* <FaDiscord size={40} className="icon-color" />
-              <p className="text-white">Discord</p> */}
+                      <p className="text-white">Twitter</p> */}
+                       <img  className="img-circle rounded-pill " src="global.png" alt="Global News"></img>
+                    </div>
+                    </div>
+                    <div className="position-absolute   discord-container all-container">
+                    <div className="d-flex flex-column align-items-center">
+                      {/* <FaDiscord size={40} className="icon-color" />
+                      <p className="text-white">Discord</p> */}
               <img  className="img-circle rounded-pill" src="timesof.png"></img>
             </div>
           </div>

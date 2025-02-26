@@ -49,9 +49,8 @@ const TabsComponent = () => {
           
 
             <div className="tab-content px-4">
-                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-1" ? "show active" : ""}`}>
-
-                    <div className="d-flex flex-lg-row flex-column gap-2">
+                <div className={`tab-pane fade mt-12 ${activeTab === "ex2-tabs-1" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column gap-6">
                         <div className="col-lg-5">
                             {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
 
@@ -142,15 +141,12 @@ const TabsComponent = () => {
                                 <li>With a vast and active network of traders, retailers, wholesalers, importers, and e-commerce vendors spanning over 65 countries, we provide our clients with a distinct competitive edge in sales and consumer interaction. Our arsenal of marketing tools, trade techniques, and strategic industry associations enables us to fulfill genuine consumer demand across a wide range of global markets.</li>
                                 <li>By God’s grace, not a single client has ever discontinued our marketing services, a testament to our team’s dedication and expertise. Our success is driven by meticulous market analysis and a pragmatic approach to understanding consumer demand based on the demographic structure of each market we serve.  </li>
                             </ul>
-
                         </div>
                     </div>
-
-
-
                 </div>
-                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-3" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column gap-2 ">
+
+                <div className={`tab-pane fade mt-12 ${activeTab === "ex2-tabs-3" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column gap-6 ">
                         <div className="col-lg-5">
                             <div
                                 className=" border border-0 position-relative"
@@ -176,41 +172,40 @@ const TabsComponent = () => {
                             {/* </div> */}
                         </div>
                         <div className="col-lg-7  p-3">
-                            <p className="fw-bold text-white">Our Approach:</p>
+                            {/* <p className="fw-bold text-white">Our Approach:</p> */}
                             <ul className="news-list">
-                                <li>
-                                    <strong className="ago-text">Identifying High-Value Partnership Opportunities</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We conduct in-depth market analysis to identify strategic partnerships that align with your brand’s long-term goals.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Seamless Contract Structuring & Negotiation</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>Our legal and business experts ensure fair, transparent, and mutually beneficial contracts, mitigating risks and securing growth-driven collaborations.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Brand Synergy & Ecosystem Integration</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We structure partnerships that enhance brand credibility, strengthen industry positioning, and create new revenue streams.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Ongoing Relationship & Performance Management</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>Beyond contracts, we ensure that partnerships are nurtured, optimized, and leveraged for sustained long-term success.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                            </ul>
+                            <li>
+                                We facilitate 3rd Party Contract Manufacturing for globally recognized 
+                                mainstream media brands across developed and developing economies.
+                            </li>
+                            <li>
+                                Our operations cover diverse sectors:
+                                <ul className="sector-list">
+                                <li>🚗 Automotive Components</li>
+                                <li>💎 Gemstones & Jewelry</li>
+                                <li>🛍️ FMCG</li>
+                                <li>💊 Pharma-OTC</li>
+                                <li>💻 IT & Electronics</li>
+                                <li>🎬 Entertainment</li>
+                                <li>🏗️ Real Estate & Construction</li>
+                                </ul>
+                            </li>
+                            <li>
+                                We focus exclusively on permanent and long-term contract manufacturing partnerships.
+                            </li>
+                            <li>
+                                As trusted channel partners, we ensure seamless collaboration between 
+                                brand entities and industrial manufacturers.
+                            </li>
+                            <li>
+                                To discuss potential partnerships, share your portfolio and queries:
+                                <br />
+                                📧 <a href="mailto:info@demigodhouse.com">info@demigodhouse.com</a>
+                                <br />
+                                📞 <a href="tel:+918355897803">+91 83558 97803</a>
+                            </li> 
+                        </ul>
+
                         </div>
                     </div>
                 </div>
@@ -233,7 +228,8 @@ const TabsComponent = () => {
                                 />
                                 <div className="info_card p-3 text-white">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                        Brand Seed Funding
+                                    Brand Seed Funding
+
                                     </h1>
                                     <p className="text-white text-start">
                                         <strong>Articulating, designing, and curating a strategic brand market image alongside ensuring structured funding for business growth and expansion.</strong> We provide up to $500 million in seed funding to nurture promising brands, helping them transition from vision to market dominance with a structured business roadmap.
@@ -262,16 +258,26 @@ const TabsComponent = () => {
                     <div className="d-flex flex-lg-row flex-column gap-2 ">
                         <div className="col-lg-5">
 
-                            <div className="d-flex flex-column">
-                                <img style={{ height: "300px" }} className="img-fluid w-100 "
-                                    src="Image/m&m/tabs/equity.webp"></img>
-                                <div className="title-des  p-3">
+                <div className={`tab-pane fade mt-12 ${activeTab === "ex2-tabs-6" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column gap-6 ">
+                        <div className="col-lg-5">
+                        <div
+                                className=" border border-0 position-relative"
+                                style={{ borderRadius: "10px" }}
+                            >
+                                <img
+                                    src="Image/m&m/tabs/b2b.webp"
+                                    alt="B2b & B2c Events"
+                                    className="img-fluid w-100"
+                                    style={{ height: "500px" }}
+                                />
+                                <div className="info_card p-3 text-white">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                        Brand Private Equity
+                                    B2B & B2C Events
 
                                     </h1>
                                     <p className="text-white text-start">
-                                        <strong>Our expertise & exposure across diverse industries provide us with the edge & grasp to structure successful brand equity strategies that drive growth and profitability.</strong>We connect high-potential brands with leading private equity investors, ensuring capital infusion, strategic structuring, and business scalability.
+                                        <strong>Articulating, designing, and curating brand experiences that engage consumers, strengthen B2B networks, and drive business impact.</strong>From high-profile corporate summits to large-scale consumer activations, we create impactful events that foster connections, amplify brand visibility, and drive revenue growth.
                                     </p>
                                 </div>
                             </div>
@@ -314,7 +320,6 @@ const TabsComponent = () => {
                                     </ul>
                                 </li>
                             </ul>
-                        </div>
                     </div>
                 </div> */}
                 <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-7" ? "show active" : ""}`}>

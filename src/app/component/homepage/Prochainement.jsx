@@ -11,27 +11,22 @@ const Prochainement= () => {
 
     const arr = [
       {
-        image:
-          "/images/landing-page-images/section3/EUR.webp",
-        event_name: "Economic Patriots Summit Euprope ",
-        desc: "Join us for the Economic Patriots Summit Europe, where industry leaders and economic experts will discuss the future of Europe's economy.",
-        ticketsDes:"jskadhkashdkjasd"
+      image: "/images/landing-page-images/section3/EUR.webp",
+      event_name: "Economic Patriots Summit Euprope ",
+      desc: "Calling all European business minds! Get ready for an eye-opening summit that'll shake up how we think about Europe's money matters.",
+      ticketsDes: "🌟 Connect with real business heroes who've been there, done that\n🤝 Network with folks who speak your language - no corporate jargon\n💡 Get practical tips you can use right away\n🎯 Learn winning strategies from people who've built success from scratch\n🚀 Walk away with action steps, not just theory\n✨ Be part of Europe's next big economic story"
       },
       {
-        image:
-          "/images/landing-page-images/section3/INDIA.webp",
-        event_name: "Economic Patriots Summit India",
-        desc: "Join us for the Economic Patriots Summit India, where industry leaders and economic experts will discuss the future of India's economy.",
-        ticketsDes:"jskadhkashdkjasd"
-      
-        
+      image: "/images/landing-page-images/section3/INDIA.webp",
+      event_name: "Economic Patriots Summit India",
+      desc: "Hey India! Ready to be part of something big? Join us for a game-changing summit where we're talking real business, real growth, and real opportunities.",
+      ticketsDes: "🎉 Meet successful Indian entrepreneurs who started just like you\n💪 Get insider knowledge from people who understand our market\n📱 Learn how to use tech to grow your business\n🤝 Make connections that actually matter\n💡 Get real solutions for real business challenges\n🌟 Be part of India's economic revolution"
       },
       {
-        image:
-          "/images/landing-page-images/section3/USA.webp",
-        event_name: "Economic Patriots Summit USA",
-        desc: "Join us for the Economic Patriots Summit USA, where industry leaders and economic experts will discuss the future of USA's economy.",
-        ticketsDes:"jskadhkashdkjasd"
+      image: "/images/landing-page-images/section3/USA.webp",
+      event_name: "Economic Patriots Summit USA",
+      desc: "America, let's talk business! Join us for a no-nonsense summit where we cut through the fluff and focus on what really works in today's economy.",
+      ticketsDes: "🗽 Get straight talk from American business veterans\n💡 Learn street-smart business strategies that work\n🤝 Connect with fellow entrepreneurs who get it\n🚀 Get practical tools for growing your business\n💪 Turn challenges into opportunities\n🌟 Be part of America's next success story"
       }
     ];
     return (

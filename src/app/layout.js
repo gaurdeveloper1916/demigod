@@ -55,7 +55,6 @@ export default function RootLayout({ children }) {
           <Footer />
         </AppProvider>
 
-        {/* External Scripts (Load After Page Becomes Interactive) */}
         <Script src="https://unpkg.com/aos@2.3.1/dist/aos.js" strategy="afterInteractive" />
         <Script src="https://checkout.razorpay.com/v1/checkout.js" strategy="afterInteractive" />
       </body>

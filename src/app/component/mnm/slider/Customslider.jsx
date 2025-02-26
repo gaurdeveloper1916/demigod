@@ -68,7 +68,7 @@ const Customslider = () => {
               // className=" "
                 height={250}
                 width={200}
-              alt="..."
+              alt="Automotive sector brand marketing, Automotive sector brand Developement, Automotive sector brand advertising, Automotive sector brand seed funding, Automotive sector B2B Events, Automotive sector B2C Events, Automotive sector brand management, Automotive sector brand promotion"
             />
             <div className="d-flex">
               <div className="text-white verySmallFont">
@@ -91,7 +91,7 @@ const Customslider = () => {
               className=" "
               //   //height={250}
               //   width={200}
-              alt="..."
+              alt="Real Estate sector brand marketing,Real Estate sector brand advertising, Real Estate sector brand seed funding, Real Estate sector B2B Events, Real Estate sector B2C Events, Real Estate sector brand management, Real Estate sector brand promotion"
             />
             <div className="d-flex">
               <div className="text-white verySmallFont">
@@ -113,7 +113,7 @@ const Customslider = () => {
               src="event.jpeg"
               className=" "
             
-              alt="..."
+              alt="Event Management sector brand marketing, Event Management sector brand advertising, Event Management sector brand seed funding, Event Management sector B2B Events, Event Management sector B2C Events, Event Management sector brand management, Event Management sector brand promotion"
             />
             <div className="d-flex justify-content-between 5">
               <div className="text-white verySmallFont">
@@ -135,7 +135,7 @@ const Customslider = () => {
               src="jewel.webp"
               className=" "
               
-              alt="..."
+              alt="Jewellery sector brand marketing, Jewellery sector brand advertising, Jewellery sector brand seed funding, Jewellery sector B2B Events, Jewellery sector B2C Events, Jewellery sector brand management, Jewellery sector brand promotion, Jewellery sector brand Developement, Jewellery sector brand advertising, Jewellery sector brand seed funding, Jewellery sector B2B Events, Jewellery sector B2C Events, Jewellery sector brand management, Jewellery sector brand promotion"
             />
             <div className="d-flex justify-content-between 5">
               <div className="text-white verySmallFont">
@@ -158,7 +158,7 @@ const Customslider = () => {
               className=""
               //height={250}
               //width={240}
-              alt="..."
+              alt="Gems sector brand marketing, Gems sector brand advertising, Gems sector brand seed funding, Gems sector B2B Events, Gems sector B2C Events, Gems sector brand management, Gems sector brand promotion, Gems sector brand Developement, Gems sector brand advertising, Gems sector brand seed funding, Gems sector B2B Events, Gems sector B2C Events, Gems sector brand management, Gems sector brand promotion"
             />
             <div className="d-flex justify-content-between 5">
               <div className="text-white verySmallFont">
@@ -232,6 +232,7 @@ const Customslider = () => {
                 style={{ transform: "rotate(-180deg)",width:'60px' }}
                 className="img-fluid arrow-img mx-lg-4"
                 src="/images/arrow.png"
+                alt="previous"
               ></img>
             </div>
             <div
@@ -244,6 +245,7 @@ const Customslider = () => {
                  style={{ width:'60px' }}
                 className="img-fluid arrow-img mx-lg-4"
                 src="/images/arrow.png"
+                alt="next"
               ></img>
             </div>
           </div>
