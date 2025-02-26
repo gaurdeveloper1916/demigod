@@ -25,6 +25,7 @@ function OffCanvasExample({ data, where }) {
         onClick={handleShow}
         style={{ marginTop: "12px" }}
         size={30}
+        className="mb-4"
       />
       <Offcanvas
         className="bg-black"
@@ -129,8 +130,8 @@ function Header({ where }) {
 
       {/* Mobile Header */}
       <div className="container-fluid p-0 d-lg-none d-block bg-black p-2">
-        <div className="d-flex justify-content-between">
-          <img className="w-25" src="./images/demigodnew.png" alt="Logo" />
+        <div className="d-flex justify-content-between align-items-center">
+          <img className="w-50" src="./images/demigodnew.png" alt="Logo" />
           {/* <p className={`position-absolute ${where === "corporate" ? "logo-text-corporate" : "logo-text"}`}>
             Media.Marketing.Event’s
           </p> */}

@@ -48,12 +48,11 @@ function Footer(props) {
 
   ];
   const shortcut = [
-    { name: "Home", linking: "/" },
-    { name: "M&M", linking: "/m&m" },
-    { name: "Corporate", linking: "corporate" },
-    { name: "Weddings", linking: "wedding" },
+    { name: "M&M", linking: "/" },
+    { name: "Corporate", linking: "/corporate-events" },
+    { name: "Weddings", linking: "/wedding-planners" },
     { name: "Contact us", linking: "contact-us" },
-    { name: "About us", linking: "/about_us" },
+    { name: "About us", linking: "/about-us" },
   ];
   return (
     <>
