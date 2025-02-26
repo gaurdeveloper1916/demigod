@@ -13,32 +13,70 @@ import Testtube from "./component/homepage/TestTube";
 import TwoImagesDiv from "./component/homepage/TwoImagesDiv";
 
 export const metadata = {
-title: 'Demigod House - Premier Events & Entertainment Venue',
-description: 'Experience unforgettable events at Demigod House. Live music, exclusive parties, fine dining, and world-class entertainment. Book your tickets for upcoming shows and special events.',
-alternates: {
-  canonical: `https://demigodhouse.com`,
-},
-openGraph: {
-  title: 'Demigod House - Where Epic Events Come Alive',
-  description: 'Join us for spectacular events featuring top artists, exclusive parties, and premium entertainment experiences in a luxurious venue setting.',
-  url: 'https://demigodhouse.com',
-  images: [
-    {
-      url: '/images/demigod-venue.jpg',
-    },
+  metadataBase: new URL('https://www.demigodhouse.com'),
+  title: "DemiGod House | Media, Marketing & Events",
+  description: "DemiGod House specializes in media, marketing, and event management. We provide world-class corporate event solutions, wedding planning, and brand experiences across the globe.",
+
+  keywords: [
+    "Best Corporate Event Management Company",
+    "Best Wedding Planners",
+    "Best Corporate Event Management Company in USA",
+    "Best Corporate Event Management Company in New York",
+    "Best Corporate Event Management Company in UK",
+    "Best Corporate Event Management Company in London",
+    "Best Corporate Event Management Company in Chicago",
+    "Best Corporate Event Management Company in Mumbai",
+    "Best Corporate Event Management Company in New Delhi",
+    "Best Corporate Event Management Company in Jaipur",
+    "Best Corporate Event Management Company in Bengaluru",
+    "Best Corporate Event Management Company in Pune",
+    "Best Corporate Event Management Company in South Africa",
+    "Best Corporate Event Management Company in Thailand",
+    "Best Corporate Event Management Company in Dubai",
+    "Best Corporate Event Management Company in Spain",
+    "Best Corporate Event Management Company in Germany",
+    "Best Corporate Event Management Company in Poland",
   ],
-},
-twitter: {
-  title: 'Demigod House - Premier Entertainment Destination',
-  description: 'Your gateway to extraordinary events, parties and entertainment. Follow us for event updates and exclusive offers.',
-  image: '/images/demigod-social.jpg',
-},
-linkedin: {
-  title: 'Demigod House - Leading Entertainment Venue',
-  description: 'Premier destination for corporate events, live performances, and exclusive entertainment experiences.',
-  image: '/images/demigod-linkedin.jpg',
-}
+
+  alternates: {
+    canonical: 'https://www.demigodhouse.com/',
+  },
+
+  openGraph: {
+    title: "DemiGod House | Media, Marketing & Events",
+    description: "Leading corporate event management company with expertise in media, marketing, and luxury event planning worldwide. Experience excellence in event execution.",
+    url: 'https://www.demigodhouse.com',
+    siteName: 'DemiGod House',
+    type: 'website',
+    images: [
+      {
+        url: 'https://www.demigodhouse.com/images/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: "DemiGod House | Media, Marketing & Events",
+      },
+    ],
+  },
+
+  twitter: {
+    card: 'summary_large_image',
+    title: "DemiGod House | Media, Marketing & Events",
+    description: "DemiGod House specializes in media, marketing, and world-class event planning. Your trusted partner for corporate and luxury events worldwide.",
+    images: 'https://www.demigodhouse.com/images/twitter-image.jpg',
+    site: '@YourTwitterHandle', 
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  other: {
+    'fb:app_id': 'YourFacebookAppID', 
+  },
 };
+
+
 export default function Home() {
   return (
     <div className="bg-black container-fluid p-0">

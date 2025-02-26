@@ -22,36 +22,56 @@ import AOSInit from "../component/AOSInit";
 
 export const metadata = {
   metadataBase: new URL('https://www.demigodhouse.com'),
-  title: 'Media & Marketing | Demigod House',
-  description: "India's Leading Marketing Agency - 13+ Years of Excellence in Brand Development, Seed Funding, Digital Marketing, Print Media Advertising, and B2B/B2C Events. Expert solutions in Contract Manufacturing, Private Equity & Brand Marketing.",
+  title: "DemiGod House | Media, Marketing & Events",
+  description: "DemiGod House specializes in media, marketing, and events. We provide top-tier brand development, advertising, and seed funding solutions worldwide.",
+
+  keywords: [
+    "Best Marketing Agency in Mumbai",
+    "Best Marketing Agency in New Delhi",
+    "Best Marketing Agency in India",
+    "Best Marketing Agency in Dubai",
+    "Best Marketing Agency in London",
+    "Best Brand Development Agency in India",
+    "Brand Seed Funding",
+    "Advertising Agency",
+  ],
+
   alternates: {
-    canonical: '/media-marketing',
+    canonical: 'https://www.demigodhouse.com/',
   },
+
   openGraph: {
-    title: 'Media & Marketing Services | Demigod House',
-    description: "India's Leading Marketing Agency - 13+ Years of Excellence in Brand Development, Seed Funding, Digital Marketing, Print Media Advertising, and B2B/B2C Events. Expert solutions in Contract Manufacturing, Private Equity & Brand Marketing.",
-    url: '/media-marketing',
-    siteName: 'Demigod House',
+    title: "DemiGod House | Media, Marketing & Events",
+    description: "Leading marketing and brand development agency offering expert advertising, seed funding, and media solutions in India, Dubai, London, and beyond.",
+    url: 'https://www.demigodhouse.com',
+    siteName: 'DemiGod House',
     type: 'website',
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: 'https://www.demigodhouse.com/images/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Demigod House Media & Marketing Services',
+        alt: "DemiGod House | Media, Marketing & Events",
       },
     ],
   },
+
   twitter: {
     card: 'summary_large_image',
-    title: 'Media & Marketing Services | Demigod House',
-    description: "India's Leading Marketing Agency - 13+ Years of Excellence in Brand Development, Seed Funding, Digital Marketing, Print Media Advertising, and B2B/B2C Events.",
-    images: '/images/twitter-image.jpg',
+    title: "DemiGod House | Media, Marketing & Events",
+    description: "Top marketing agency for brand development, advertising, and seed funding in Mumbai, New Delhi, Dubai, London, and more.",
+    images: 'https://www.demigodhouse.com/images/twitter-image.jpg',
+    site: '@YourTwitterHandle', // Replace with your actual Twitter handle
   },
+
   robots: {
     index: true,
     follow: true,
-  }
+  },
+
+  other: {
+    'fb:app_id': 'YourFacebookAppID', // Replace with your actual Facebook App ID
+  },
 };
 
 function Index() {
@@ -70,7 +90,7 @@ function Index() {
       {/* <Repetativemandm/> */}
 
       <Openforbusiness/>
-      <Partnership/>
+      {/* <Partnership/> */}
       <Getintouch/> 
       {/* <AOSInit /> */}
     </div> 

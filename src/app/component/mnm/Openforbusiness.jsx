@@ -19,21 +19,25 @@ export default function Openforbusiness() {
       img: "ser.webp",
       name: "Choose Your Service",
       desc: "Select from brand development, marketing, print & electronic media, or third-party manufacturing tailored to your needs.",
+      alt: "Service selection illustration showing different business services"
     },
     {
       img: "con.webp",
       name: "Connect With Us",
       desc: "Reach out to Demigod House via our website, email, or phone. Share your vision, and let us guide you forward.",
+      alt: "Connection and communication illustration"
     },
     {
       img: "prop.webp",
       name: "Proposal Evaluation",
-      desc: "We’ll review your proposal, and if it aligns with our expertise, we’ll contact you to discuss next steps.",
+      desc: "We'll review your proposal, and if it aligns with our expertise, we'll contact you to discuss next steps.",
+      alt: "Proposal evaluation and review process illustration"
     },
     {
       img: "pers.webp",
       name: " In-Person Meeting",
       desc: "Meet with us to finalize registration, legal documentation, and discuss seed funding opportunities (if applicable).",
+      alt: "In-person business meeting illustration"
     },
     // {
     //   img: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGFydHl8ZW58MHx8MHx8fDA%3D",

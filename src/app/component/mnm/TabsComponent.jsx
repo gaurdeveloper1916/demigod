@@ -176,39 +176,38 @@ const TabsComponent = () => {
                         <div className="col-lg-7  p-3">
                             <p className="fw-bold text-white">Our Approach:</p>
                             <ul className="news-list">
-                                <li>
-                                    <strong className="ago-text">Identifying High-Value Partnership Opportunities</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We conduct in-depth market analysis to identify strategic partnerships that align with your brand’s long-term goals.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Seamless Contract Structuring & Negotiation</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>Our legal and business experts ensure fair, transparent, and mutually beneficial contracts, mitigating risks and securing growth-driven collaborations.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Brand Synergy & Ecosystem Integration</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>We structure partnerships that enhance brand credibility, strengthen industry positioning, and create new revenue streams.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <strong className="ago-text">Ongoing Relationship & Performance Management</strong>
-                                    <ul className="mt-2">
-                                        <ul className="mt-1">
-                                            <li>Beyond contracts, we ensure that partnerships are nurtured, optimized, and leveraged for sustained long-term success.</li>
-                                        </ul>
-                                    </ul>
-                                </li>
+                            <li>
+                                We facilitate 3rd Party Contract Manufacturing for globally recognized 
+                                mainstream media brands across developed and developing economies.
+                            </li>
+                            <li>
+                                Our operations cover diverse sectors:
+                                <ul className="sector-list">
+                                <li>🚗 Automotive Components</li>
+                                <li>💎 Gemstones & Jewelry</li>
+                                <li>🛍️ FMCG</li>
+                                <li>💊 Pharma-OTC</li>
+                                <li>💻 IT & Electronics</li>
+                                <li>🎬 Entertainment</li>
+                                <li>🏗️ Real Estate & Construction</li>
+                                </ul>
+                            </li>
+                            <li>
+                                We focus exclusively on permanent and long-term contract manufacturing partnerships.
+                            </li>
+                            <li>
+                                As trusted channel partners, we ensure seamless collaboration between 
+                                brand entities and industrial manufacturers.
+                            </li>
+                            <li>
+                                To discuss potential partnerships, share your portfolio and queries:
+                                <br />
+                                📧 <a href="mailto:info@demigodhouse.com">info@demigodhouse.com</a>
+                                <br />
+                                📞 <a href="tel:+918355897803">+91 83558 97803</a>
+                            </li> 
                             </ul>
+
                         </div>
                     </div>
                 </div>

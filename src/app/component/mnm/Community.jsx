@@ -29,14 +29,14 @@ function Community() {
           <div className="position-absolute   x-twitter-container all-container">
             <div className="d-flex flex-column align-items-center">
               {/* <FaXTwitter size={40} className="icon-color" />
-              <p className="text-white">Twitter</p> */}
-               <img  className="img-circle rounded-pill " src="global.png"></img>
-            </div>
-          </div>
-          <div className="position-absolute   discord-container all-container">
-            <div className="d-flex flex-column align-items-center">
-              {/* <FaDiscord size={40} className="icon-color" />
-              <p className="text-white">Discord</p> */}
+                      <p className="text-white">Twitter</p> */}
+                       <img  className="img-circle rounded-pill " src="global.png" alt="Global News"></img>
+                    </div>
+                    </div>
+                    <div className="position-absolute   discord-container all-container">
+                    <div className="d-flex flex-column align-items-center">
+                      {/* <FaDiscord size={40} className="icon-color" />
+                      <p className="text-white">Discord</p> */}
               <img  className="img-circle rounded-pill" src="timesof.png"></img>
             </div>
           </div>

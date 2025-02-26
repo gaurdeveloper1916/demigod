@@ -163,32 +163,67 @@ import Moodboard from "../component/weddingpage/Moodboard"
 import './styles.css'
 
 export const metadata = {
-  title: 'DemiGod Wedding Planners',
-  description: 'Best Wedding Planners in India and overseas, with more than 12 years of event management experience',
+  metadataBase: new URL('https://www.demigodhouse.com'),
+  title: "DemiGod House | Media, Marketing & Events",
+  description: "DemiGod House specializes in media, marketing, and event management. We are the leading experts in luxury wedding planning, corporate events, and brand experiences worldwide.",
+
+  keywords: [
+    "Best Wedding Planners in India",
+    "Best Wedding Planners in USA",
+    "Best Wedding Planners in Europe",
+    "Best Wedding Planners in Mumbai",
+    "Best Wedding Planners in New Delhi",
+    "Best Wedding Planners in Bengaluru",
+    "Best Wedding Planners in New York",
+    "Best Wedding Planners in Spain",
+    "Best Wedding Planners in California",
+    "Best Wedding Planners in Thailand",
+    "Best Wedding Planners in Dubai",
+    "Best Wedding Planners in London",
+    "Best Wedding Planners in Germany",
+    "Best Wedding Planners in Poland",
+    "Best Wedding Planners in Asia",
+    "Best Wedding Planners in Australia",
+  ],
+
   alternates: {
-    canonical: `https://www.demigodhouse.com/wedding`,
+    canonical: 'https://www.demigodhouse.com/',
   },
+
   openGraph: {
-    title: 'DemiGod Wedding Planners - Luxury Wedding Planning Services',
-    description: 'Create unforgettable weddings with DemiGod - India\'s premier luxury wedding planners. Offering complete wedding planning services in India and overseas.',
-    url: 'https://www.demigodhouse.com/wedding',
+    title: "DemiGod House | Media, Marketing & Events",
+    description: "Top-rated wedding planners specializing in luxury destination weddings, corporate events, and brand experiences across India, USA, Europe, and beyond.",
+    url: 'https://www.demigodhouse.com',
+    siteName: 'DemiGod House',
+    type: 'website',
     images: [
       {
-        url: 'https://www.demigodhouse.com/images/wedding-banner.jpg',
+        url: 'https://www.demigodhouse.com/images/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: "DemiGod House | Media, Marketing & Events",
       },
     ],
   },
+
   twitter: {
-    title: 'DemiGod Wedding Planners - Luxury Wedding Planning Services',
-    description: 'Create unforgettable weddings with DemiGod - India\'s premier luxury wedding planners. 12+ years of excellence in wedding planning.',
-    image: 'https://www.demigodhouse.com/images/wedding-banner.jpg',
+    card: 'summary_large_image',
+    title: "DemiGod House | Media, Marketing & Events",
+    description: "Luxury wedding planners specializing in destination weddings, event management, and brand marketing across India, USA, Europe, and beyond.",
+    images: 'https://www.demigodhouse.com/images/twitter-image.jpg',
+    site: '@YourTwitterHandle', // Replace with your actual Twitter handle
   },
-  linkedin: {
-    title: 'DemiGod Wedding Planners - Luxury Wedding Planning Services', 
-    description: 'Premium wedding planning services by DemiGod. Creating magical moments for destination weddings in India and abroad.',
-    image: 'https://www.demigodhouse.com/images/wedding-banner.jpg',
+
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  other: {
+    'fb:app_id': 'YourFacebookAppID', // Replace with your actual Facebook App ID
   },
 };
+
 
 const page = () => {
   return (
