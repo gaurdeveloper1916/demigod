@@ -31,7 +31,7 @@ export const metadata = {
     "Best Wedding planners in Australia"
   ],
   alternates: {
-    canonical: ``,
+    canonical: `https://www.demigodhouse.com/`,
   },
   openGraph: {
     title: '',
