@@ -97,7 +97,7 @@ function Header({ where }) {
             <div className="position-relative">
               <a href="/">
                 <img className="logoImage cursor" src="./demigodnew.png" alt="Logo of Demigod House" />
-                <p className="position-absolute logo-text">Media.Marketing.Event’s</p>
+                <p className={`position-absolute ${where !== 'corporate' ? 'logo-text' : 'logo-text-corporate'}`}>Media.Marketing.Event’s</p>
               </a>
             </div>
 

@@ -26,6 +26,13 @@ a{
     color: #C0C0C0;
 
 }
+.logo-text-corporate{
+    font-size: 16px;
+    top: 2.5rem;
+    left: 12rem;
+    /* color: red; */
+    color: #C0C0C0;
+}
 
 .linehight {
     line-height: 71px;

@@ -92,6 +92,7 @@ export default function Home() {
       {/* <Community/>  */}
       {/* <ElectronicCommunity/>  */}
       <LeadingOrganisation/> 
+      <Map/>
       {/* <Ecosystem /> */}
       <Industryevents/>
       <TabsComponent/>
@@ -99,7 +100,7 @@ export default function Home() {
       {/* <Repetativemandm/> */}
 
       <Openforbusiness/>
-      <Map/>
+     
       {/* <Partnership/> */}
       <Getintouch/> 
 

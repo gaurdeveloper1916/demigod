@@ -44,7 +44,7 @@ function Footer(props) {
     { name: "Demigod", imageUrl: "./logo/demigodlogo.png" },
 
     { name: "Anagari", imageUrl: "./logo/anagari.png" },
-    { name: "DemiGod Estate", imageUrl: "http://www.amgbharat.com/assets/images/navlogo.png" }
+    { name: "DemiGod Estate", imageUrl: "./images/navlogo.png" }
 
   ];
   const shortcut = [

@@ -43,28 +43,28 @@ const EventMapLeaflet = () => {
           >
             <Popup>
               <div className="container my-4">
-          <Card style={{width:"500px"}} className="p-4 mt-4  shadow-lg">
-            <div className="row g-4">
-              {[
-                { src: "./Image/digital.jpg", alt: "Digital Event" },
-                { src: "./Image/electronic.jpg", alt: "Electronic Event" },
-                { src: "./Image/print.jpg", alt: "Print Event" },
-              ].map((img, index) => (
-                <div key={index} className="col-md-4 d-flex flex-column align-items-center">
-            <img
-              src={img.src}
-              alt={img.alt}
-              className="w-100 img-fluid rounded shadow img-map"
-            />
-            <div className="text-center mt-3">
-              <p className="m-0 fs-6 text-muted">
-                Digital media event in {item.country} by DemiGod House Media 
-              </p>
-            </div>
-                </div>
-              ))}
-            </div>
-          </Card>
+                <Card style={{ width: "500px" }} className="p-4 mt-4  shadow-lg">
+                  <div className="row g-4">
+                    {[
+                      { src: "./Image/digital.jpg", alt: "Digital Event", subLine1: " Digital media event in", subLine2: "by DemiGod House Media" },
+                      { src: "./Image/electronic.jpg", alt: "Electronic Event", subLine1: " Digital Electronics event in", subLine2: "by DemiGod House Media" },
+                      { src: "./Image/print.jpg", alt: "Print Event", subLine1: " Digital Print event in", subLine2: "by DemiGod House Media" },
+                    ].map((img, index) => (
+                      <div key={index} className="col-md-4 d-flex flex-column align-items-center">
+                        <img
+                          src={img.src}
+                          alt={img.alt}
+                          className="w-100 img-fluid rounded shadow img-map"
+                        />
+                        <div className="text-center mt-3">
+                          <p className="m-0 fs-6 text-muted">
+                            {img.subLine1} {item.country}  {img.subLine2}
+                          </p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </Card>
               </div>
             </Popup>
           </Marker>
