@@ -139,7 +139,7 @@ function Footer(props) {
                 <div className="mt-3 px-3">
                   <p className="m-0">Phone</p>
                   <p className="m-0">+91-8355897803</p>
-                  <p>+91-8355723794</p>
+                  <p>+91-7023843975</p>
                   <p className="m-0">Email</p>
                   <p>dev@demigodhouse.com</p>
                 </div>
@@ -151,7 +151,7 @@ function Footer(props) {
                 <div className="mt-3 px-3">
                   <p className="m-0">Phone</p>
                   <p className="m-0">+91-8355897803</p>
-                  <p>+91-8355723794</p>
+                  <p>+91-7023843975</p>
                   <p className="m-0">Email</p>
                   <p>dev@demigodhouse.com</p>
                 </div>
@@ -178,7 +178,7 @@ function Footer(props) {
                 <div className="mt-3 px-3">
                   <p className="m-0">Phone</p>
                   <p className="m-0">+91-8355897803</p>
-                  <p>+91-8355723794</p>
+                  <p>+91-7023843975</p>
                   <p className="m-0">Email</p>
                   <p>dev@demigodhouse.com</p>
                 </div>

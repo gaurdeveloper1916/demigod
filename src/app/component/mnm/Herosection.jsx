@@ -4,7 +4,7 @@ import React from "react";
 function Herosection() {
   return (
     <div
-      className="img-fluid position-relative fade-in " data-aos="zoom-in" data-aos-duration="1500"
+      className="img-fluid position-relative fade-in "
       aria-label="MEDIA AND MARKETING WITH DEMIGOD HOUSE, Brand Developement & Marketing, Print-media & Electronic-media, Advertising, Brand Seed Funding, Brand Private-Equity Investments ,B2B Events, B2C Events"  
       style={{
         backgroundImage: "url('Image/m&m/hero/Hero.webp')",

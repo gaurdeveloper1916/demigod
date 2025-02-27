@@ -22,7 +22,7 @@ function Page(props) {
       <div
         className="d-flex flex-column justify-content-center align-items-center text-white"
         style={{
-          backgroundImage: "url('contact/contact.webp')",
+          backgroundImage: "url('Image/contact/contact.webp')",
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: "80vh",
@@ -34,7 +34,7 @@ function Page(props) {
       >
         <div className="col-lg-10 d-flex flex-column justify-content-center align-items-center p-lg-5 p-4">
           <div className="col-lg-6 col-12 d-flex flex-column justify-content-center align-items-center mt-5">
-            <h1 className="contact_heading m-0  fw-bold">House Addresses</h1>
+            <h1 className="contact_heading m-0  fw-bold" >House Addresses</h1>
             <h2 className="text-center m-4 fw-semibold">
               Reach out to us & get exposure to make your brand a global success story.
             </h2>
@@ -119,7 +119,7 @@ function Page(props) {
             <div className="col-lg-4 ">
               <img
                 className="img-fluid w-100"
-                src="contact/cont.webp"
+                src="Image/contact/faq.webp"
                 alt="Contact us"
               ></img>
             </div>
@@ -207,36 +207,36 @@ function Page(props) {
                 <img
                   className="rounded img-fluid"
                   style={{ width: "120px", height: "80px", objectFit: "cover" }}
-                  src="contact/aus.webp"
+                  src="Image/contact/lon.webp"
                   alt="Contact Our Office in Australia - Sydney City Skyline"
-                  onClick={() => handleSmallImageClick("contact/aus.webp")} // Click event
+                  onClick={() => handleSmallImageClick("Image/contact/lon.webp")} // Click event
                 />
               </div>
               <div className="col-lg-3">
                 <img
                   className="rounded img-fluid"
                   style={{ width: "120px", height: "80px", objectFit: "cover" }}
-                  src="contact/ind.webp"
+                  src="Image/contact/ind.webp"
                   alt="Get in Touch with Our India Office - Famous Landmarks"
-                  onClick={() => handleSmallImageClick("contact/ind.webp")} // Click event
+                  onClick={() => handleSmallImageClick("Image/contact/ind.webp")} // Click event
                 />
               </div>
               <div className="col-lg-3">
                 <img
                   className="rounded img-fluid"
                   style={{ width: "120px", height: "80px", objectFit: "cover" }}
-                  src="contact/usa.webp"
+                  src="Image/contact/usa.webp"
                   alt="Contact Our USA Office - New York City Skyline"
-                  onClick={() => handleSmallImageClick("contact/usa.webp")} // Click event
+                  onClick={() => handleSmallImageClick("Image/contact/usa.webp")} // Click event
                 />
               </div>
               <div className="col-lg-3">
                 <img
                   className="rounded img-fluid"
                   style={{ width: "120px", height: "80px", objectFit: "cover" }}
-                  src="contact/uk.webp"
+                  src="Image/contact/uk.webp"
                   alt="Reach Our UK Office - London Tower Bridge"
-                  onClick={() => handleSmallImageClick("contact/uk.webp")} // Click event
+                  onClick={() => handleSmallImageClick("Image/contact/uk.webp")} // Click event
                 />
               </div>
             </div>
