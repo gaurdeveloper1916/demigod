@@ -168,23 +168,9 @@ export const metadata = {
   description: "DemiGod House specializes in media, marketing, and event management. We are the leading experts in luxury wedding planning, corporate events, and brand experiences worldwide.",
 
   keywords: [
-    "Best Wedding Planners in India",
-    "Best Wedding Planners in USA",
-    "Best Wedding Planners in Europe",
-    "Best Wedding Planners in Mumbai",
-    "Best Wedding Planners in New Delhi",
-    "Best Wedding Planners in Bengaluru",
-    "Best Wedding Planners in New York",
-    "Best Wedding Planners in Spain",
-    "Best Wedding Planners in California",
-    "Best Wedding Planners in Thailand",
-    "Best Wedding Planners in Dubai",
-    "Best Wedding Planners in London",
-    "Best Wedding Planners in Germany",
-    "Best Wedding Planners in Poland",
-    "Best Wedding Planners in Asia",
-    "Best Wedding Planners in Australia",
-  ],
+    "Best Wedding Planners","Top Wedding Planners","Best Destination Wedding Planners","Top Destination Wedding Planners","Best Luxury Wedding Planners","Top Luxury Wedding Planners","Best Wedding Planning Company","Top Wedding Planning Company","Best Wedding Event Management Company","Top Wedding Event Management Company","Best Destination Wedding Planning Company","Top Destination Wedding Planning Company","Best Wedding Designers","Top Wedding Designers","Best Celebrity Wedding Planners","Top Celebrity Wedding Planners","Best Wedding Event Organizers","Top Wedding Event Organizers","Best Wedding Decor Planners","Top Wedding Decor Planners","Best Wedding Coordination Services","Top Wedding Coordination Services","Best Royal Wedding Planners","Top Royal Wedding Planners","Best Beach Wedding Planners","Top Beach Wedding Planners","Best Traditional Wedding Planners","Top Traditional Wedding Planners","Best Indian Wedding Planners","Top Indian Wedding Planners","Best Christian Wedding Planners","Top Christian Wedding Planners","Best Muslim Wedding Planners","Top Muslim Wedding Planners","Best Hindu Wedding Planners","Top Hindu Wedding Planners","Best Sikh Wedding Planners","Top Sikh Wedding Planners","Best Multicultural Wedding Planners","Top Multicultural Wedding Planners","Best Wedding Venue Selection Services","Top Wedding Venue Selection Services","Best Wedding Catering Services","Top Wedding Catering Services","Best Wedding Photography & Videography Services","Top Wedding Photography & Videography Services","Best Wedding Entertainment Planners","Top Wedding Entertainment Planners","Best Wedding Invitation Designers","Top Wedding Invitation Designers","Best Wedding Floral Decorators","Top Wedding Floral Decorators","Best Wedding Theme Planners","Top Wedding Theme Planners","Best Wedding Logistics Management","Top Wedding Logistics Management"
+],
+
 
   alternates: {
     canonical: 'https://www.demigodhouse.com/',

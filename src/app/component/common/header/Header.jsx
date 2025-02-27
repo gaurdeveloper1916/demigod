@@ -96,7 +96,7 @@ function Header({ where }) {
             {/* Logo */}
             <div className="position-relative">
               <a href="/">
-                <img className="logoImage cursor" src="./demigodnew.png" alt="Logo" />
+                <img className="logoImage cursor" src="./demigodnew.png" alt="Logo of Demigod House" />
                 <p className="position-absolute logo-text">Media.Marketing.Event’s</p>
               </a>
             </div>

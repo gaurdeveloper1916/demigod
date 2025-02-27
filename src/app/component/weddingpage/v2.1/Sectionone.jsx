@@ -17,6 +17,7 @@ const Sectionone = () => {
                 >
                     <source
                         src="./weeding-slider.mp4"
+                        alt="Wedding video"
                         type="video/mp4"
                     />
                 </video>

@@ -32,49 +32,49 @@ const Curveslider = () => {
         <div className="swiper-slide">
           <img
             src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
-            alt=""
+            alt="landing page slider"
           />
         </div>
         <div className="swiper-slide">
           <img
             src="https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixlib=rb-4.0.3&auto=format&fit=crop&w=1476&q=80"
-            alt=""
+            alt="landing page slider"
           />
         </div>
         <div className="swiper-slide">
           <img
             src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
-            alt=""
+            alt="landing page slider"
           />
         </div>
         <div className="swiper-slide">
           <img
             src="https://images.unsplash.com/photo-1434394354979-a235cd36269d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1451&q=80"
-            alt=""
+            alt="landing page slider"
           />
         </div>
         <div className="swiper-slide">
           <img
             src="https://images.unsplash.com/photo-1458668383970-8ddd3927deed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1467&q=80"
-            alt=""
+            alt="landing page slider"
           />
         </div>
         <div className="swiper-slide">
           <img
             src="https://images.unsplash.com/photo-1444065707204-12decac917e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1473&q=80"
-            alt=""
+            alt="landing page slider"
           />
         </div>
         <div className="swiper-slide">
           <img
             src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
-            alt=""
+            alt="landing page slider"
           />
         </div>
         <div className="swiper-slide">
           <img
             src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
-            alt=""
+            alt="landing page slider"
           />
         </div>
       </div>
