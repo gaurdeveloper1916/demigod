@@ -2,8 +2,8 @@ export  const data = [
   {
     id: 3,
     attributes: {
-      onHoverText:"/MEDIA AND MARKETING",
-      URLText: "M&M",
+      onHoverText:"",
+      URLText: "MEDIA AND MARKETING",
       corporate:"MEDIA AND MARKETING",
       url: "/",
       onHover:true,

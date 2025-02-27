@@ -64,33 +64,23 @@ function LeadingOrganisation(props) {
       <div className="col-lg-10">
         <div className="d-flex flex-lg-row flex-md-row flex-column justify-content-center align-items-center gap-5 p-4 overflow-hidden">
           <div className="col-lg-7" data-aos="fade-right" data-aos-duration="1200">
-            <p className="h1 text-white">
+            <div className="h1 text-white">
               DemiGod <span className="gradient-text fw-bold"> House Products & Services </span>
               <p className="font-medium fs-4 mt-2">A Marketing Agency with universal approach in print and electronic media sectors with astounding, effective & efficient brand marketing campaign's of 100% success track record.</p>
-            </p>
-            {/* <p className="h1 text-white ">
-              <span className="gradient-text fw-bold">Ecosystem</span> for
-              
-            </p> */}
-            {/* <p className="h1 text-white">organizations</p> */}
-            {/* <p className="text-white">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed
-              dolore laudantium, molestiae voluptate maxime iste ad consequatur,
-              labore recusandae provident voluptatibus nisi autem cupiditate
-              alias non architecto cum? Excepturi, fugit.
-            </p> */}
+            </div>
+          
           </div>
           <div className="col-lg-5"  >
             <div style={{ height: '350px' }} className="bg-whitesh p-lg-5 p-4 rounded">
               <h4 className="mt-5 text-white fw-bold">
                 <TypeWriterText text={Data[currentIndex].heading} speed="50" />
               </h4>
-              <p className="text-white">
+              <div className="text-white">
                 <TypeWriterText
                   text={Data[currentIndex].description}
                   speed="10"
                 />
-              </p>
+              </div>
               <div className="d-flex justify-content-end">
                 <IoChevronForwardOutline onClick={handleClick} size={35} color="white" className="fw-bold" />
 

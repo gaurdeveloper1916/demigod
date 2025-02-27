@@ -10,9 +10,12 @@ const TicketCard = ({ price }) => (
         <p className="m-0">Lorem ipsum dolor sit amet,</p>
         <p className="m-0">Lorem ipsum dolor sit amet,</p>
         <p className="m-0">Lorem ipsum dolor sit amet,</p>
+        <a href="/checkout">
         <button className="border border-0 mt-2 verySmallFont rounded p-2 bg-primary text-white">
             Book Now
         </button>
+        </a>
+      
     </div>
 );
 const tickets = [25, 25, 25, 25, 25, 25];

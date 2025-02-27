@@ -9,6 +9,8 @@ import { CgMail } from "react-icons/cg";
 import "./index.css";
 import Header from "../component/common/header/Header";
 import Footer from "../component/common/footer/Footer";
+import Faq from './Faq'
+import Accordian from "../component/weddingpage/v2.1/Subcomponent/Accordian";
 function Page(props) {
   const [bigImage, setBigImage] = useState("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-76k-1SBjyPIb5XNFfAdqlkFogZMRnXiqTQ&s");
 
@@ -54,7 +56,7 @@ function Page(props) {
         </div>
       </div>
 
-      <div className="d-flex justify-content-center align-items-center flex-lg-row flex-column text-white mt-5">
+      {/* <div className="d-flex justify-content-center align-items-center flex-lg-row flex-column text-white mt-5">
         <div className="col-lg-10">
           <div className="d-flex flex-lg-row flex-column gap-4">
             <div className="col-lg-8 px-5">
@@ -76,45 +78,11 @@ function Page(props) {
               <p className=" ">
               Our network and economic horizons is across  125 countries !
               </p> 
-              {/* <p className="smallfont fw-bold">
-                We are most selective voluptatem quo nisi rerum debitis odio.
-                <br></br>
-                Iusto adipisci delectus natus laboriosam dolorum quas at
-                deleniti.
-              </p> */}
+           
 
 
               <hr />
-              {/* <div className="d-flex ">
-                <IoLocation size={24} className="text-warning" />
-                <p className="mx-2">
-                  India
-                </p>
-              </div>
-              <div className="d-flex">
-                <FaPhone size={18} className="text-warning" />
-                <p className="mx-2">+91 938386262</p>
-              </div>
-              <div className="d-flex">
-                <CgMail size={24} className="text-warning" />
-                <p className="mx-2">info@demigod.com</p>
-              </div>
-
-              <p className="fw-bold">Stay Tuned</p>
-              <div className="d-flex gap-3">
-                <BsInstagram />
-                <BsTwitter />
-                <BsLinkedin />
-                <FaFacebook />
-              </div> */}
-              {/* <div className=" mt-lg-4">
-                <button
-                  className="button-all mt-5 px-4 py-2  text-black fw-bold"
-                  type="button "
-                >
-                  Check Us Out
-                </button>
-              </div> */}
+             
             </div>
             <div className="col-lg-4 ">
               <img
@@ -125,7 +93,8 @@ function Page(props) {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Faq/>
 
       {/* 3rd div */}
 
