@@ -33,7 +33,7 @@ const EventMapLeaflet = () => {
         "
       />
       {WorldJson.map((item, i) => {
-        return (
+        return item.latitude && item.longitude ? (
           <Marker
             key={i + 1}
             position={[item.latitude, item.longitude]}
@@ -43,38 +43,32 @@ const EventMapLeaflet = () => {
           >
             <Popup>
               <div className="container my-4">
-                {/* Main Image */}
-
-                {/* Card Section */}
-                <Card style={{width:"500px"}} className="p-4 mt-4  shadow-lg">
-                  <div className="row g-4">
-                    {/* Image Data Array */}
-                    {[
-                      { src: "./Image/digital.jpg", alt: "Digital Event" },
-                      { src: "./Image/electronic.jpg", alt: "Electronic Event" },
-                      { src: "./Image/print.jpg", alt: "Print Event" },
-                    ].map((img, index) => (
-                      <div key={index} className="col-md-4 d-flex flex-column align-items-center">
-                        <img
-                          src={img.src}
-                          alt={img.alt}
-                          className="w-100 img-fluid rounded shadow img-map"
-                          // style={{ maxWidth: "350px", height: "auto" }}
-                        />
-                        <div className="text-center mt-3">
-                          <p className="m-0 fs-6 text-muted">
-                            Some quick example text to build on the title and make up the bulk of the card's content.
-                          </p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </Card>
+          <Card style={{width:"500px"}} className="p-4 mt-4  shadow-lg">
+            <div className="row g-4">
+              {[
+                { src: "./Image/digital.jpg", alt: "Digital Event" },
+                { src: "./Image/electronic.jpg", alt: "Electronic Event" },
+                { src: "./Image/print.jpg", alt: "Print Event" },
+              ].map((img, index) => (
+                <div key={index} className="col-md-4 d-flex flex-column align-items-center">
+            <img
+              src={img.src}
+              alt={img.alt}
+              className="w-100 img-fluid rounded shadow img-map"
+            />
+            <div className="text-center mt-3">
+              <p className="m-0 fs-6 text-muted">
+                Digital media event in {item.country} by DemiGod House Media 
+              </p>
+            </div>
+                </div>
+              ))}
+            </div>
+          </Card>
               </div>
-
             </Popup>
           </Marker>
-        );
+        ) : null;
       })}
     </MapContainer>
   );
