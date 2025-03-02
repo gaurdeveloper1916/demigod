@@ -46,9 +46,9 @@ const EventMapLeaflet = () => {
                 <Card style={{ width: "500px" }} className="p-4 mt-4  shadow-lg">
                   <div className="row g-4">
                     {[
-                      { src: "./Image/digital.jpg", alt: "Digital Event", subLine1: " Digital media event in", subLine2: "by DemiGod House Media" },
-                      { src: "./Image/electronic.jpg", alt: "Electronic Event", subLine1: " Digital Electronics event in", subLine2: "by DemiGod House Media" },
-                      { src: "./Image/print.jpg", alt: "Print Event", subLine1: " Digital Print event in", subLine2: "by DemiGod House Media" },
+                      { src: "./Image/digital.jpg", alt: "Digital Event", subLine1: "Regional & Main stream Digital Media services i.e. Google adwords & Meta ads campaign structuring in ", subLine2: "by DemiGod House " },
+                      { src: "./Image/electronic.jpg", alt: "Electronic Event", subLine1: " Regional languages and English language Television / Radio advertising campaign structuring services in", subLine2: "by DemiGod House " },
+                      { src: "./Image/print.jpg", alt: "Print Event", subLine1: " Regional languages & English langusge Newspapers, tabloids, magazines, Billboards and banners advertising campaign structuring services in ", subLine2: "by DemiGod House" },
                     ].map((img, index) => (
                       <div key={index} className="col-md-4 d-flex flex-column align-items-center">
                         <img

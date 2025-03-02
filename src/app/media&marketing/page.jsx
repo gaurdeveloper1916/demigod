@@ -83,7 +83,6 @@ function Index() {
       <Openforbusiness/>
       {/* <Partnership/> */}
       <Getintouch/> 
-      <AOSInit />
     </div> 
   );
 }
