@@ -1,6 +1,5 @@
 import React from "react";
-
-
+import './index.css'
 function Herosection() {
   return (
     <div
@@ -18,8 +17,8 @@ function Herosection() {
       }}
     >
       <div style={{backgroundColor:"#0000009c"}} className="col-lg-8 col-12 text-center  px-5 py-3 rounded">
-        <h1 className="colo-bg fw-bold largefont text-white ">MEDIA AND MARKETING WITH DEMIGOD HOUSE</h1>
-        <h3><p className="text-white">
+        <h1 className="colo-bg fw-bold largefont-media text-white ">MEDIA AND MARKETING WITH DEMIGOD HOUSE</h1>
+        <h3><p className="text-white media-des">
         Brand Developement & Marketing, Print-media & Electronic-media, Advertising, Brand Seed Funding, Brand Private-Equity Investments & B2B / B2C Events!
         </p></h3>
        

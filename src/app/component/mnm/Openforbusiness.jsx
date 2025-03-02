@@ -21,7 +21,7 @@ export default function Openforbusiness() {
       alt: "Service selection illustration showing different business services"
     },
     {
-      img: "con.webp",
+      img: "key_aspect.jpeg",
       name: "Connect With Us",
       desc: "Reach out to Demigod House via our website, email, or phone. Share your vision, and let us guide you forward.",
       alt: "Connection and communication illustration"

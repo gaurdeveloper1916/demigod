@@ -9,6 +9,7 @@ import Card from 'react-bootstrap/Card';
 import Link from "next/link";
 import './index.css'
 const EventMapLeaflet = () => {
+  const mapHeight = window.innerWidth < 400 ? "300px" : window.innerWidth < 768 ? "400px" : "600px";
   const yellowIcon = new L.Icon({
     iconUrl:
       "https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png",
@@ -20,12 +21,13 @@ const EventMapLeaflet = () => {
     shadowSize: [41, 41],
   });
   return (
+    
     <MapContainer
       center={[20.5937, 78.9629]}
       zoom={3}
       scrollWheelZoom={false}
-      style={{ height: "600px", zIndex: "0!important" }}
-    >
+       className="map-container"
+       style={{ height: mapHeight, zIndex: "0!important" }}    >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://server.arcgisonline.com/ArcGIS/rest/services/canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}

@@ -121,6 +121,42 @@
   .img-circle{
     width: 150px;
   }
+  .largefont-media{
+    font-size: 54px;
+  }
+
+
+  @media (min-width: 320px) and (max-width: 479px) { 
+    
+    .largefont-media{
+      font-size: 27px;
+    }
+    .media-des{
+      font-size: 14px;
+    }
+  }
+  
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) { 
+    /* Styles for tablets */
+  }
+  
+  /* Large devices (laptops, 1024px and up) */
+  @media (min-width: 1024px) { 
+    /* Styles for laptops */
+  }
+  
+  /* Extra large devices (desktops, 1200px and up) */
+  @media (min-width: 1200px) { 
+    /* Styles for desktops */
+  }
+  
+  /* Ultra-wide screens (1440px and up) */
+  @media (min-width: 1440px) { 
+    /* Styles for large desktops */
+  }
+
+
   
   
 

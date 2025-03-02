@@ -4,19 +4,20 @@ import { useState } from "react";
 import './tab.css'
 
 const TabsComponent = () => {
-    const [activeTab, setActiveTab] = useState("ex2-tabs-1");
+    const [activeTab, setActiveTab] = useState("ex2-tabs-8");
     // const { state, setState } = useAppContext();
     // console.log(state, "state")
 
     const tabs = [
-        { id: "ex2-tabs-1", label: "Brand Development" },
+        { id: "ex2-tabs-8", label: " Brand Association" },
         { id: "ex2-tabs-2", label: "Brand Marketing" },
-        { id: "ex2-tabs-3", label: "3rd Party Contract Manufacturing" },
+        { id: "ex2-tabs-3", label: " Contract Manufacturing" },
         // { id: "ex2-tabs-4", label: "Brand SEO Funding" },
         { id: "ex2-tabs-5", label: "Brand Seed Funding" },
         // { id: "ex2-tabs-6", label: "Brand Capital" },
         { id: "ex2-tabs-7", label: "B2B & B2C Events" },
-        { id: "ex2-tabs-8", label: " Brand Association" },
+        { id: "ex2-tabs-1", label: "Brand Development" }
+       
     ];
     return (
         <>
@@ -155,7 +156,7 @@ const TabsComponent = () => {
 
                                 <div className="info_card p-3 text-white">
                                     <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                        3rd Party Contract Manufacturing
+                                        Contract Manufacturing
 
                                     </h1>
                                     <p className="text-white text-start">
@@ -309,7 +310,7 @@ const TabsComponent = () => {
                                 style={{ borderRadius: "10px" }}
                             >
                                 <img
-                                    src="Image/m&m/adver.webp"
+                                    src="./brand_association.jpeg"
                                     alt="Brand Advertising"
                                     className=" rounded image-tab"
 
@@ -333,9 +334,14 @@ const TabsComponent = () => {
                             {/* <p className="fw-bold text-white">Our Approach:</p> */}
                             <ul className="news-list d-flex flex-column gap-2">
                             <li>At DemiGod House, we avail end to end Brand Marketing , Brand Strategizing, Brand Development, Brand Seed Funding & capital procurement, Brand Product’s contract manufacturing, Brand advertising in Print Media / Electronic Media and B2B / B2C Events for Brand ATL / BTL promotion ! </li><br />
+                            {/* <p className="text-white">See more...</p> */}
+                            <div>
                             <strong> <li>We are a powerhouse of strategic marketing and brand elevation, ensuring a brand’s success story unfolds seamlessly across global and domestic markets.</li><br />
                             <li>Our flagship offerings include Brand Association and Capital Procurement—where we collaborate with industrial leaders to fuel strategic brand growth and redefine market dominance.</li></strong><br />
                             <li>DemiGod House exists at the intersection of luxury, influence, and scale, strategically positioned to deliver high-value investment returns and <strong>building legacy-driven brands that leave a lasting impact.</strong></li><br />
+                            <li>The primary objective of association with DemiGod House is to elevate the product’s sale by strategically aligning our marketing resources and capital investments, ultimately fostering long-term growth, brand loyalty, and higher revenue.</li><br />
+                            </div>
+
                             </ul>
                         </div>
                     </div>
