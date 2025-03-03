@@ -92,7 +92,7 @@ const Slider = () => {
             className="item"
             style={{
               backgroundImage:
-                "url('https://images7.alphacoders.com/878/878663.jpg')",
+                "url('./event-page/punjabideligates.png')",
             }}
           >
             {/* <div className="content">

@@ -11,7 +11,7 @@ function TwoImagesDiv() {
       images: [
         {
           size: 8,
-          src: "/images/landing-page-images/section2/big_image.webp",
+          src: "/event-page/wine_making.png",
           link: "/landingpage",
           // title: "Event /01",
 
@@ -98,7 +98,6 @@ function TwoImagesDiv() {
                 onClick={() => { handleUpdate(image.title, image.description,image.ticketdes) }}
                 href={{
                   pathname: "/landingpage",
-
                 }}
               >
                 <img className="img-fluid w-100" src={image.src} alt={image.title} />
