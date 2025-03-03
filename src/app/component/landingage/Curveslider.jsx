@@ -43,19 +43,20 @@ const Curveslider = () => {
           </div>
         </div>
         {/* More Image Slides */}
-        <div className="swiper-slide">
-          <div className="media-container">
-            <img
-             src="./event-page/wine_inner.png"
-              alt="landing page slider"
-            />
-          </div>
-        </div>
+        
         
         <div className="swiper-slide">
           <div className="media-container">
             <img
               src="./event-page/wine_inner.png"
+              alt="landing page slider"
+            />
+          </div>
+        </div>
+        <div className="swiper-slide">
+          <div className="media-container">
+            <img
+             src="./event-page/wine_inner.png"
               alt="landing page slider"
             />
           </div>
