@@ -9,6 +9,7 @@ import Marquee from "react-fast-marquee";
 import { MdArrowOutward, MdUnsubscribe } from "react-icons/md";
 import { FaUserCheck } from "react-icons/fa";
 import Link from "next/link";
+import BlinkAnimation from './BlinkAnimation'
 import "./index.css";
 
 function Footer(props) {
@@ -57,31 +58,38 @@ function Footer(props) {
   return (
     <>
       <div
-       
+
         className="container-fluid p-0 bg-black relative z-50 footer-background"
       >
         {/* Marquee Section */}
-        <Marquee
-          className="marq"
-          scrollamount="25"
-          bgcolor="transparent"
-          direction="left"
-          loop={0}
-          speed={150}
-        >
-          <div className="d-flex gap-4">
-            {demiGroup.map((item, i) => (
-              <div key={i + 1} className="text-center">
-                <img
-                  className="m-0 logoImage-footer-marque"
-                  src={item.imageUrl}
-                  alt="Logo"
-                />
-                <p className="text-center text-web">{item.name}</p>
-              </div>
-            ))}
-          </div>
-        </Marquee>
+        <div className="d-lg-block d-none">
+          <Marquee
+            className="marq "
+            scrollamount="25"
+            bgcolor="transparent"
+            direction="left"
+            loop={0}
+            speed={150}
+          >
+            <div className="d-flex gap-4">
+              {demiGroup.map((item, i) => (
+                <div key={i + 1} className="text-center">
+                  <img
+                    className="m-0 logoImage-footer-marque"
+                    src={item.imageUrl}
+                    alt="Logo"
+                  />
+                  <p className="text-center text-web">{item.name}</p>
+                </div>
+              ))}
+            </div>
+          </Marquee>
+        </div>
+
+        <div className="d-lg-none d-block">
+          <BlinkAnimation />
+
+        </div>
 
         <hr className="text-white" />
 
@@ -90,7 +98,7 @@ function Footer(props) {
           <div className="row justify-content-center align-items-start">
             {/* Left Column */}
             <div className="col-lg-10 col-md-12 col-12 d-flex flex-wrap justify-content-between align-items-start gap-4 ">
-              <div className="footer_logo">
+              <div className="footer_logo  d-lg-block d-none">
                 <img
                   src="./images/demigodnew.png"
                   alt="Logo"
@@ -133,11 +141,11 @@ function Footer(props) {
               </div>
 
               <div className="text-white smallfont">
-                <button className="smallfont border-0 rounded px-3 py-2 text-white ">
+                <p className="sub-meduium-font border-0 fw-bold rounded px-2 py-2 text-heading ">
                   Help Or Support ?
-                </button>
-                <div className="mt-3 px-3">
-                  <p className="m-0">Phone</p>
+                </p>
+                <div className="mt-3 px-2  mediumfont ">
+                  <p className="ml-4">Phone</p>
                   <p className="m-0">+91-8355897803</p>
                   <p>+91-7023843975</p>
                   <p className="m-0">Email</p>
@@ -145,10 +153,10 @@ function Footer(props) {
                 </div>
               </div>
               <div className="text-white smallfont">
-                <button className="smallfont border-0 rounded px-3 py-2 text-white w-10">
+                <p className="sub-meduium-font border-0 fw-bold rounded px-2 py-2  text-heading w-10">
                   Event Categories
-                </button>
-                <div className="mt-3 px-3">
+                </p>
+                <div className="mt-3 px-3 mediumfont">
                   <p className="m-0">Phone</p>
                   <p className="m-0">+91-8355897803</p>
                   <p>+91-7023843975</p>
@@ -157,25 +165,25 @@ function Footer(props) {
                 </div>
               </div>
               <div className="text-white smallfont">
-                <button className="smallfont border-0 rounded px-3 py-2 text-white w-10">
+                <p className="sub-meduium-font border-0 rounded fw-bold px-2 py-2 text-heading w-10">
                   Shortcuts
-                </button>
-                <div className="d-flex flex-column gap-2 mediumFont px-2 mt-2">
+                </p>
+                <div className="d-flex flex-column gap-2  px-2 mt-2">
                   {shortcut.map((item, index) => (
                     <Link key={item} className="text-decoration-none" href={item.linking}>
                       <div className="d-flex align-items-center" key={index}>
                         <MdArrowOutward color="white" className="me-2" />
-                        <p className="m-0 text-white">{item.name}</p>
+                        <p className="m-0 text-white mediumfont" >{item.name}</p>
                       </div>
                     </Link>
                   ))}
                 </div>
               </div>
               <div className="text-white smallfont">
-                <button className="smallfont border-0 rounded px-3 py-2 text-white w-10">
+                <p className="sub-meduium-font border-0 rounded px-2 py-2 fw-bold w-10 text-heading">
                   Services
-                </button>
-                <div className="mt-3 px-3">
+                </p>
+                <div className="mt-3 px-3 mediumfont">
                   <p className="m-0">Phone</p>
                   <p className="m-0">+91-8355897803</p>
                   <p>+91-7023843975</p>

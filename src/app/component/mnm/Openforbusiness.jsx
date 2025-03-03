@@ -72,7 +72,7 @@ export default function Openforbusiness() {
             <span className="gradient-text fw-bold"> For </span>
             Business <IoChevronForwardOutline size={35} color="white" className="fw-bold" />
           </p>
-          <div className="slider-container">
+          <div className="">
             <Swiper
               loop={true}
               ref={swiperRef}

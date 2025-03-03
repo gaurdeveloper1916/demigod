@@ -11,6 +11,20 @@
   margin-left: 0;
 }
 
+.imageWrapper img {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+
 @media screen and (max-width: 600px) {
   .flex-follow {
     justify-content: start;
@@ -24,6 +38,7 @@
     margin-left: 4rem;
   }
 }
+
 .logoImage-footer-marque {
   /* width: 100px; 
   height: 100px;  */

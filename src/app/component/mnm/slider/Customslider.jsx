@@ -61,10 +61,10 @@ const Customslider = () => {
   return (
     <div className="container">
       <div className=" mx-4 p-4 bg-cards ">
-        <Slider {...settings2} ref={sliderRef}>
+        <Slider className='react-slick-new' {...settings2} ref={sliderRef}>
           <div className={`text-white p-3 bg-cards-inner`}>
             <img
-              src="auto.jpeg"
+              src="auto.jpeg "
               // className=" "
                 height={250}
                 width={200}
