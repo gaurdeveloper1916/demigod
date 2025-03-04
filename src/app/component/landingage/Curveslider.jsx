@@ -12,8 +12,8 @@ const Curveslider = () => {
       loop: true,
       spaceBetween: 20,
       centeredSlides: true,
-      slidesPerView: "auto", // Ensure slides are auto-sized
-      initialSlide: 2, // Force the video to appear in the center initially
+      slidesPerView: "auto",
+      initialSlide: 2, 
       breakpoints: {
         640: { slidesPerView: 1 },
         768: { slidesPerView: 2 },
