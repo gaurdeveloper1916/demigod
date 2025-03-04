@@ -13,7 +13,7 @@ const Curveslider = () => {
       spaceBetween: 20,
       centeredSlides: true,
       slidesPerView: "auto",
-      initialSlide: 2, 
+      initialSlide: 2,
       breakpoints: {
         640: { slidesPerView: 1 },
         768: { slidesPerView: 2 },
@@ -42,10 +42,13 @@ const Curveslider = () => {
         {/* Center Video Slide */}
         <div className="swiper-slide video-slide">
           <div className="media-container">
-            <video autoPlay muted loop>
-              <source src="./event-page/wine_festval_video.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
+            <div className="video-container">
+
+              <video autoPlay muted loop>
+                <source src="./event-page/wine_festval_video.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
           </div>
         </div>
 

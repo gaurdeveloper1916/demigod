@@ -100,16 +100,11 @@ function TwoImagesDiv() {
             <div className={`col-lg-${image.size} ${i === 0 ? "mt-5" : ""}`} key={i}>
               <Link onClick={() => handleUpdate(image.title, image.description, image.ticketdes)} href={image.link}>
                 {image.src.endsWith(".mp4") ? (
-                  <video
-                    autoPlay
-                    muted
-                    loop
-                    className="img-fluid w-100"
-                    style={{ objectFit: "cover" }}
-                  >
-                    <source src={image.src} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
+                 <div className="video-container">
+                 <video autoPlay muted loop playsInline className="img-fluid w-100">
+                   <source src={image.src} type="video/mp4" />
+                 </video>
+               </div>
                 ) : (
                   <img className="img-fluid w-100" src={image.src} alt={image.title} />
                 )}
