@@ -34,14 +34,7 @@ const Curveslider = () => {
         </div>
 
        
-        <div className="swiper-slide">
-          <div className="media-container">
-            <video autoPlay muted loop>
-              <source src="./event-page/wine_festval_video.mp4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
+        
         {/* More Image Slides */}
         
         
@@ -51,6 +44,14 @@ const Curveslider = () => {
               src="./event-page/wine_inner.png"
               alt="landing page slider"
             />
+          </div>
+        </div>
+        <div className="swiper-slide">
+          <div className="media-container">
+            <video autoPlay muted loop>
+              <source src="./event-page/wine_festval_video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
           </div>
         </div>
         <div className="swiper-slide">

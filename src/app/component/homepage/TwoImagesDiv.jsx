@@ -1,20 +1,23 @@
+
+
 'use client'
 import Link from "next/link";
 import { useContext } from "react";
 import { MdArrowOutward } from "react-icons/md";
 import { Auth } from "../../../context/AppContext";
-import './index.css'
+import './index.css';
+
 function TwoImagesDiv() {
-  const { handleUpdate } = useContext(Auth)
+  const { handleUpdate } = useContext(Auth);
   const data = [
     {
       images: [
         {
           size: 8,
-          src: "/event-page/wine_making.png",
+          src: "/event-page/wine_festval_video.mp4",
           link: "/landingpage",
           // title: "Event /01",
-
+  
           title: "Wine Making Festival- Fete Du Vines",
           description: "Ready to crush some grapes the old-school way? Get your feet wet (literally!) at this wild wine-making party. We're ditching the stuffy wine talk for hands-on fun - squish grapes, mix your own secret blend, and yes, plenty of tasting! Whether you're a wine newbie or a seasoned sipper, come unleash your inner vintner. Warning: Purple feet and big smiles guaranteed! 🍇✨",
           ticketdes: "This event is for wine lovers who want to learn the art of winemaking. Participants will get to crush grapes, mix their own blend, and taste different wines. Whether you're a wine newbie or a seasoned sipper, this event promises a fun and educational experience."
@@ -45,7 +48,7 @@ function TwoImagesDiv() {
         },
         {
           size: 8,
-          src: "/images/landing-page-images/section2/bigimage.webp",
+          src: "/event-page/wine_festval_video.mp4",
           link: "/landingpage",
           // title: "Event /04",
           title: "D'Royal Tiara",
@@ -59,7 +62,7 @@ function TwoImagesDiv() {
       images: [
         {
           size: 8,
-          src: "/images/landing-page-images/section2/1bigimage.webp",
+          src: "/event-page/wine_festval_video.mp4",
           link: "/landingpage",
           // title: "Event /05",
           title: "Cutinary O' Affaris",
@@ -79,10 +82,11 @@ function TwoImagesDiv() {
         },
       ],
     },
-  ];
+  ];  
+
   return (
     <div
-      className="container-fluid  mb-5 col-lg-11"
+      className="container-fluid mb-5 col-lg-11"
       style={{
         backgroundImage: `url('/ve.jpg')`,
         backgroundSize: 'cover',
@@ -94,26 +98,28 @@ function TwoImagesDiv() {
         <div className="d-flex flex-lg-row flex-column gap-3 mt-5 p-lg-0 p-2" key={index}>
           {section.images.map((image, i) => (
             <div className={`col-lg-${image.size} ${i === 0 ? "mt-5" : ""}`} key={i}>
-              <Link
-                onClick={() => { handleUpdate(image.title, image.description,image.ticketdes) }}
-                href={{
-                  pathname: "/landingpage",
-                }}
-              >
-                <img className="img-fluid w-100" src={image.src} alt={image.title} />
+              <Link onClick={() => handleUpdate(image.title, image.description, image.ticketdes)} href={image.link}>
+                {image.src.endsWith(".mp4") ? (
+                  <video
+                    autoPlay
+                    muted
+                    loop
+                    className="img-fluid w-100"
+                    style={{ objectFit: "cover" }}
+                  >
+                    <source src={image.src} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                ) : (
+                  <img className="img-fluid w-100" src={image.src} alt={image.title} />
+                )}
               </Link>
               <div className="mt-3" style={{ lineHeight: "2px" }}>
                 <div className="d-flex align-items-center justify-content-between mx-2">
                   <div className="text-white verySmallFont">
                     <div style={{ lineHeight: "30px" }}>
-                      <p
-                        
-                        className="m-0 text-white image-div-content"
-                      >
-                        {image.title}{" "}
-                      </p>
+                      <p className="m-0 text-white image-div-content">{image.title}</p>
                     </div>
-                    <p className="fs-2 font-bold"></p>
                   </div>
                   <div className="text-white verySmallFont">
                     <p className="m-0">{image.category}</p>
@@ -131,4 +137,4 @@ function TwoImagesDiv() {
     </div>
   );
 }
-export default TwoImagesDiv
+export default TwoImagesDiv;
