@@ -21,7 +21,7 @@ import Getintouch from "./component/mnm/Getintouch";
 import Map  from "./component/googlemap/Map"
 export const metadata = {
   metadataBase: new URL('https://www.demigodhouse.com'),
-  title: "DemiGod House | Media, Marketing & Events",
+  title: "DemiGod House | Media, Marketing & Events in India & International ! ( DemiGod House Entity is all about Brand Association, Brand Capital Procurement, Brand Seed Funding, Brand Development, Brand Marketing, Brand Management, Print-Media & Electronic Media Advertising, Digital Media Marketing, Event Management Services -  Corporate Events, Weddings and Commercial Events. ) ",
   description: "DemiGod House specializes in media, marketing, and event management. We provide world-class corporate event solutions, wedding planning, and brand experiences across the globe.",
   keywords: [
     "Best Corporate Event Management Company",
@@ -49,7 +49,7 @@ export const metadata = {
   },
 
   openGraph: {
-    title: "DemiGod House | Media, Marketing & Events",
+    title: "DemiGod House | Media, Marketing & Events ( DemiGod House Entity is all about Brand Association, Brand Capital Procurement, Brand Seed Funding, Brand Development, Brand Marketing, Brand Management, Print-Media & Electronic Media Advertising, Digital Media Marketing, Event Management Services -  Corporate Events, Weddings and Commercial Events. ) ",
     description: "Leading corporate event management company with expertise in media, marketing, and luxury event planning worldwide. Experience excellence in event execution.",
     url: 'https://www.demigodhouse.com',
     siteName: 'DemiGod House',

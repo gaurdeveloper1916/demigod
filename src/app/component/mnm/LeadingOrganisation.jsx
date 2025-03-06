@@ -47,10 +47,16 @@ function LeadingOrganisation(props) {
         "We embrace the future of work and collaboration by fostering hybrid environments. Our solutions bridge physical and digital spaces, enabling seamless operations and connectivity for your business.",
     },
     {
+      heading: "Brand Association",
+      description:
+        "Our flagship offerings include Brand Association and Capital Procurement—where we collaborate with industrial leaders to fuel strategic brand growth and redefine market dominance.",
+    },
+    {
       heading: "Get In Touch",
       description:
         "Ready to elevate your brand to new heights? Contact Demigod House today for customized solutions and unparalleled expertise in brand development, marketing, and beyond.",
     },
+   
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
   console.log(Data[currentIndex].heading);

@@ -124,7 +124,9 @@
   .largefont-media{
     font-size: 54px;
   }
-
+  .media-des{
+    font-size: 34px;
+  }
 
   @media (min-width: 320px) and (max-width: 479px) { 
     
