@@ -7,6 +7,11 @@ import './index.css'
 function LeadingOrganisation(props) {
   const Data = [
     {
+      heading: "Brand Association",
+      description:
+        "Our flagship offerings include Brand Association and Capital Procurement—where we collaborate with industrial leaders to fuel strategic brand growth and redefine market dominance.",
+    },
+    {
       heading: "Brand Development",
       description:
         "We specialize in crafting compelling brand identities that resonate with your target audience. From brand positioning to storytelling, our strategies help establish a strong and lasting presence in the market.",

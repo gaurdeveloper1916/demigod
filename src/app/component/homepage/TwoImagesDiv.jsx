@@ -25,7 +25,7 @@ function TwoImagesDiv() {
         },
         {
           size: 4,
-          src: "/images/smallImage.jpg",
+          src: "/images/smallImage.jpg chnage.mp4",
           link: "/landingpage",
           title: "Tinder Night Extravaganza",
           description: "Ready to ditch those awkward dating apps? Join us for a night where real sparks fly! 🔥 We've got cool games to break the ice, yummy snacks, and drinks that'll help you loosen up (but not too much 😉). No more swiping left or right - just real people having real fun! Perfect for cool folks in their 20s and 30s who are tired of the same old dating scene. Trust us, this beats staring at your phone all night! ✨💫",
@@ -48,7 +48,7 @@ function TwoImagesDiv() {
         },
         {
           size: 8,
-          src: "/event-page/wine_festval_video.mp4",
+          src: "/event-page/chnage.mp4",
           link: "/landingpage",
           // title: "Event /04",
           title: "D'Royal Tiara",

@@ -112,7 +112,8 @@ function Header({ where }) {
                     onMouseEnter={() => setHoveredIndex(i)}
                     onMouseLeave={() => setHoveredIndex(null)}
                   >
-                    {item.attributes.URLText} {hoveredIndex === i ? item.attributes.onHoverText : ""}
+
+                    {hoveredIndex === i && !item.attributes.reverse ? item.attributes.onHoverText : ""}     {item.attributes.URLText} {hoveredIndex === i && item.attributes.reverse ? item.attributes.onHoverText : ""}
                   </a>
                   {/* {item.attributes.onHover && (
                     <FaChevronDown
