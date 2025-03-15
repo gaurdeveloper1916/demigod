@@ -25,57 +25,25 @@ const Slider = () => {
             className="item"
             style={{
               backgroundImage:
-                "url('https://cdn.mos.cms.futurecdn.net/dP3N4qnEZ4tCTCLq59iysd.jpg')",
+                "url('./images/landing-page-images/section1/22.jpg')",
             }}
           >
-            {/* <div className="content">
-              <h2 className="title">"Lossless Youths"</h2>
+            <div className="content">
+              {/* <h2 className="title">"Lossless Youths"</h2>
               <p className="description col-lg-4">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
                 fuga voluptatum, iure corporis inventore praesentium nisi. Id
                 laboriosam ipsam enim.
               </p>
-              <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
-            </div> */}
+              <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button> */}
+            </div>
           </li>
-          <li
-            className="item"
-            style={{
-              backgroundImage: "url('https://i.redd.it/tc0aqpv92pn21.jpg')",
-            }}
-          >
-            <video
-              autoPlay
-              muted
-              loop
-              style={{
-                position: "absolute",
-                width: "100%",
-                height: "100%",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                objectFit: "cover",
-              }}
-            >
-              <source src="/1.MP4" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-            {/* <div className="content">
-              <h2 className="title">"Estrange Bond"</h2>
-              <p className="description text-black">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
-                fuga voluptatum, iure corporis inventore praesentium nisi. Id
-                laboriosam ipsam enim.
-              </p>
-              <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
-            </div> */}
-          </li>
+      
           <li
             className="item"
             style={{
               backgroundImage:
-                "url('https://images7.alphacoders.com/878/878663.jpg')",
+                "url('./images/landing-page-images/section1/44.jpg')",
             }}
           >
             {/* <div className="content">
@@ -92,7 +60,7 @@ const Slider = () => {
             className="item"
             style={{
               backgroundImage:
-                "url('./event-page/punjabideligates.png')",
+                "url('./images/landing-page-images/section1/55.jpg')",
             }}
           >
             {/* <div className="content">
@@ -109,7 +77,7 @@ const Slider = () => {
             className="item"
             style={{
               backgroundImage:
-                "url('https://theawesomer.com/photos/2017/07/simon_stalenhag_the_electric_state_6.jpg')",
+                "url('./images/landing-page-images/section1/AVIATION.webp')",
             }}
           >
             {/* <div className="content">
@@ -126,7 +94,7 @@ const Slider = () => {
             className="item"
             style={{
               backgroundImage:
-                "url('https://da.se/app/uploads/2015/09/simon-december1994.jpg')",
+                "url('./images/landing-page-images/section1/DFC.webp')",
             }}
           >
             {/* <div className="content">

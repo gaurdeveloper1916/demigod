@@ -141,32 +141,34 @@ function Footer(props) {
               </div>
 
               <div className="text-white smallfont">
-                <p className="sub-meduium-font border-0 fw-bold rounded px-2 py-2 text-heading ">
-                  Help Or Support ?
+                <p className="sub-meduium-font border-0 fw-bold rounded  py-2 text-heading ">
+                 Event Categories 
                 </p>
-                <div className="mt-3 px-2  mediumfont ">
-                  <p className="ml-4">Phone</p>
-                  <p className="m-0">+91-8355897803</p>
-                  <p>+91-7023843975</p>
-                  <p className="m-0">Email</p>
-                  <p>dev@demigodhouse.com</p>
+                <div className="d-flex flex-column gap-2 mediumfont">
+                  <p className="m-0">Live concert's</p>
+                  <p className="m-0">Exhibitions</p>
+                  <p className="m-0">Travel Events</p>
+                  <p className="m-0"> Sport's Event </p>
+                  <p className="m-0">Art & Craft</p>
+         
                 </div>
               </div>
-              <div className="text-white smallfont">
-                <p className="sub-meduium-font border-0 fw-bold rounded px-2 py-2  text-heading w-10">
-                  Event Categories
+              <div className=" text-white smallfont">
+                <p className="sub-meduium-font border-0 fw-bold rounded py-2  text-heading w-10">
+                  Trending Event's
                 </p>
-                <div className="mt-3 px-3 mediumfont">
-                  <p className="m-0">Phone</p>
-                  <p className="m-0">+91-8355897803</p>
-                  <p>+91-7023843975</p>
-                  <p className="m-0">Email</p>
-                  <p>dev@demigodhouse.com</p>
+                <div className="d-flex flex-column gap-2 mediumfont">
+                  <p className="m-0">Punjabi Delegates</p>
+                  <p className="m-0">Wine Makeing Festival</p>
+                  <p className="m-0">Car-O-Bar </p>
+                  <p className="m-0"> Tinder Nights </p>
+                  <p className="m-0">Enterprenuership Forum </p>
+         
                 </div>
               </div>
               <div className="text-white smallfont">
                 <p className="sub-meduium-font border-0 rounded fw-bold px-2 py-2 text-heading w-10">
-                  Shortcuts
+                  Page's Link
                 </p>
                 <div className="d-flex flex-column gap-2  px-2 mt-2">
                   {shortcut.map((item, index) => (
@@ -181,7 +183,7 @@ function Footer(props) {
               </div>
               <div className="text-white smallfont">
                 <p className="sub-meduium-font border-0 rounded px-2 py-2 fw-bold w-10 text-heading">
-                  Services
+                  Connect with us :
                 </p>
                 <div className="mt-3 px-3 mediumfont">
                   <p className="m-0">Phone</p>

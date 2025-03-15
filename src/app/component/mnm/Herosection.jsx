@@ -19,7 +19,7 @@ function Herosection() {
       <div style={{backgroundColor:"#0000009c"}} className="col-lg-8 col-12 text-center  px-5 py-3 rounded">
         <h1 className="colo-bg fw-bold largefont-media text-white ">MEDIA AND MARKETING <br/> WITH DEMIGOD HOUSE</h1>
         <h3><p className="text-white media-des">
-        Brand Association , Brand Capital Procurement , Brand Seed Funding , Brand Developement , Brand Marketing , Print-media & Electronic-media Advertising , Digital Media Marketing , Event Management Services - B2B / B2C / Private Events!
+        Venture Capital, Brand Association , Brand Seed Funding , Brand Developement , Brand Marketing , Print-media & Electronic-media Advertising , Digital Media Marketing , Event Management Services - B2B / B2C / Private Events!
         </p></h3>
        
       </div>
