@@ -292,7 +292,7 @@ transition-property: width;
 .product {
  position: relative;
   width: 100%;
-  height: 500px;
+  /* height: 500px; */
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   background: #0E0E0F;

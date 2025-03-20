@@ -18,10 +18,21 @@ const Booknow = () => {
             display: "flex",
             height: '100vh',
             background: `url(${currentSlide === "standup"
-              ? "/images/landing-page-images/section4/test.webp"
+              ? 
+              // "/images/landing-page-images/section4/test.webp"
+              "./event-page/yatch_summer.webp"
+
               : currentSlide === "djnight"
-                ? "/images/landing-page-images/section4/oktober_fest.webp"
-                : "/images/landing-page-images/section4/yacht_party.webp"
+                ? 
+                // "/images/landing-page-images/section4/oktober_fest.webp"
+                "./event-page/october_fest.webp"
+                
+
+                : 
+                
+                // "/images/landing-page-images/section4/yacht_party.webp"
+                "./event-page/theme_event.webp"
+
               }) center center / contain no-repeat`,
           }}
         >
@@ -33,7 +44,7 @@ const Booknow = () => {
             <div className="booknow__title_wrapper">
               <FaPlus className="plus_icon" />
               <p
-                className={`book_title ${currentSlide === "standup" ? "active" : ""
+                className={`book_title fw-bold ${currentSlide === "standup" ? "active" : ""
                   }`}
               >
                 standup

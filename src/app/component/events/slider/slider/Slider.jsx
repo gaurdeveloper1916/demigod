@@ -25,7 +25,7 @@ const Slider = () => {
             className="item"
             style={{
               backgroundImage:
-                "url('./images/landing-page-images/section1/22.jpg')",
+                "url('./event-page/punjabideligates.png')",
             }}
           >
             <div className="content">

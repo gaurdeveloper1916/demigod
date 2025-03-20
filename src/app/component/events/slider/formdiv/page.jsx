@@ -26,7 +26,8 @@ const Formdiv = () => {
       className="mt-5"
       style={{
         backgroundImage:
-          "url(https://cdn.pixabay.com/photo/2023/04/03/12/59/crowd-7896788_1280.jpg)",
+          // "url(https://cdn.pixabay.com/photo/2023/04/03/12/59/crowd-7896788_1280.jpg)",
+          "url(./event-page/event.webp)",
         height: "100vh",
       }}
     >
@@ -52,8 +53,8 @@ const Formdiv = () => {
             <div className={`col-lg-6 image-section ${step === 1 ? "order-2" : "order-1"}`}>
               <div className="image-wrapper">
                 <img
-                  src="https://img.freepik.com/free-photo/excited-audience-watching-confetti-fireworks-having-fun-music-festival-night-copy-space_637285-559.jpg"
-                  className="img-fluid w-100"
+                  src="./event-page/react_us_out.webp"
+                  className="img-fluid w-100 "
                   alt="Music Festival"
                 />
               </div>

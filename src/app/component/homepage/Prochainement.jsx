@@ -11,26 +11,33 @@ const Prochainement= () => {
 
     const arr = [
       {
-      image: "/images/landing-page-images/section3/EUR.webp",
+      // image: "/images/landing-page-images/section3/EUR.webp",
+      image: "/event-page/economic_patriots.webp",
+      
       event_name: "Economic Patriots Summit Euprope ",
       desc: "Calling all European business minds! Get ready for an eye-opening summit that'll shake up how we think about Europe's money matters.",
       ticketsDes: "🌟 Connect with real business heroes who've been there, done that\n🤝 Network with folks who speak your language - no corporate jargon\n💡 Get practical tips you can use right away\n🎯 Learn winning strategies from people who've built success from scratch\n🚀 Walk away with action steps, not just theory\n✨ Be part of Europe's next big economic story"
       },
       {
-      image: "/images/landing-page-images/section3/INDIA.webp",
+      // image: "/images/landing-page-images/section3/INDIA.webp",
+      image: "/event-page/india_patriots.webp",
+
+     
       event_name: "Economic Patriots Summit India",
       desc: "Hey India! Ready to be part of something big? Join us for a game-changing summit where we're talking real business, real growth, and real opportunities.",
       ticketsDes: "🎉 Meet successful Indian entrepreneurs who started just like you\n💪 Get insider knowledge from people who understand our market\n📱 Learn how to use tech to grow your business\n🤝 Make connections that actually matter\n💡 Get real solutions for real business challenges\n🌟 Be part of India's economic revolution"
       },
       {
-      image: "/images/landing-page-images/section3/USA.webp",
+      // image: "/images/landing-page-images/section3/USA.webp",
+      image: "/event-page/us_patroits.webp",
       event_name: "Economic Patriots Summit USA",
+      
       desc: "America, let's talk business! Join us for a no-nonsense summit where we cut through the fluff and focus on what really works in today's economy.",
       ticketsDes: "🗽 Get straight talk from American business veterans\n💡 Learn street-smart business strategies that work\n🤝 Connect with fellow entrepreneurs who get it\n🚀 Get practical tools for growing your business\n💪 Turn challenges into opportunities\n🌟 Be part of America's next success story"
       }
     ];
     return (
-      <div className="container-fluid p-lg-5 p-3 mb-5 col-lg-11">
+      <div className="container-fluid p-lg-5 p-3 mb-5 col-lg-12">
         <div className="d-flex justify-content-between align-items-center ">
           <div>
             <h4 className="text-white">Upcoming Events</h4></div>
@@ -57,7 +64,7 @@ const Prochainement= () => {
                 <div className="d-flex flex-column justify-content-center align-items-center">
                   <div className="product col-lg-10 position-relative">
                     <div className="imgbox">
-                      <img className="w-100 img-fluid" src={item.image} alt={item.event_name} />
+                      <img className="w-100  img-fluid" src={item.image} alt={item.event_name} />
                     </div>
                     <div className="specifies d-flex justify-content-center align-items-center">
                       <div className="position-absolute fontdiv">
