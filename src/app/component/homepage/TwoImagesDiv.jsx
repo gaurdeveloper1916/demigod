@@ -15,19 +15,19 @@ function TwoImagesDiv() {
       images: [
         {
           size: 8,
-          src: "/event-page/wine_making_festival.webp",
+          src: "/event-page/wz̄ine_festval_video.mp4",
           link: "/landingpage",
           // title: "Event /01",
   
-          title: "Wine Making Festival- Fete Du Vines",
+          title: "Wine Making Festival- Vin Fete",
           description: "Ready to crush some grapes the old-school way? Get your feet wet (literally!) at this wild wine-making party. We're ditching the stuffy wine talk for hands-on fun - squish grapes, mix your own secret blend, and yes, plenty of tasting! Whether you're a wine newbie or a seasoned sipper, come unleash your inner vintner. Warning: Purple feet and big smiles guaranteed! 🍇✨",
           ticketdes: "This event is for wine lovers who want to learn the art of winemaking. Participants will get to crush grapes, mix their own blend, and taste different wines. Whether you're a wine newbie or a seasoned sipper, this event promises a fun and educational experience."
         },
         {
           size: 4,
-          src: "/event-page/wine_making_festival.webp",
+          src: "/event-page/dating.png",
           link: "/landingpage",
-          title: "Tinder Night Extravaganza",
+          title: "Tinder Night ",
           description: "Ready to ditch those awkward dating apps? Join us for a night where real sparks fly! 🔥 We've got cool games to break the ice, yummy snacks, and drinks that'll help you loosen up (but not too much 😉). No more swiping left or right - just real people having real fun! Perfect for cool folks in their 20s and 30s who are tired of the same old dating scene. Trust us, this beats staring at your phone all night! ✨💫",
           ticketdes: "This event is for singles in their 20s and 30s who are tired of dating apps and want to meet new people in a fun and relaxed setting. Participants can enjoy games, snacks, and drinks while mingling with other singles. Whether you're looking for love or just want to make new friends, this event promises a fun and memorable night.",
           // category: "BRANDING-WEBDESIGN-HELLOW",
@@ -39,7 +39,8 @@ function TwoImagesDiv() {
       images: [
         {
           size: 4,
-          src: "/event-page/d_throne_prince.webp",
+          
+          src: './images/landing-page-images/section2/smallImage.webp',
           link: "/landingpage",
           // title: "Event /03",
           title: "D'Throne Prince",
@@ -71,7 +72,8 @@ function TwoImagesDiv() {
         },
         {
           size: 4,
-          src: "/event-page/marathon_mingle.webp",
+          // src: "/event-page/marathon_mingle.webp",
+          src: "./images/landing-page-images/section7/COUPLE'S_MARATHON.webp",
           link: "/landingpage",
           // title: "Event /06",
           title: "Marathon Mingle des",
@@ -97,7 +99,7 @@ function TwoImagesDiv() {
         },
         {
           size: 8,
-          src: "/event-page/beauty_pagent.webp",
+          src: "/event-page/Beauty_Paegant_Poster.mp4",
           link: "/landingpage",
           title: "D'Royal Tiara",
           description: "Get ready for the party of your dreams! 👑 We're throwing the most amazing royal-themed bash where YOU get to wear stunning tiaras and feel like absolute royalty. Think fun photo booths with props, delicious food that'll make your mouth water, and the coolest dance floor ever! No boring formal stuff - just pure fun with your friends, awesome music, and memories that'll last forever. Don't forget to bring your camera because every corner is perfect for those Insta-worthy shots! ✨🎉",

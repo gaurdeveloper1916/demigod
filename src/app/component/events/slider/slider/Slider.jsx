@@ -18,6 +18,7 @@ const Slider = () => {
   };
 
   return (
+
     <div className="container-fluid p-0">
       <main className="main ">
         <ul className="slider" ref={sliderRef}>
@@ -38,7 +39,7 @@ const Slider = () => {
               <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button> */}
             </div>
           </li>
-      
+
           <li
             className="item"
             style={{
@@ -46,6 +47,23 @@ const Slider = () => {
                 "url('./images/landing-page-images/section1/44.jpg')",
             }}
           >
+            <video
+              autoPlay
+              muted
+              loop
+              style={{
+                position: "absolute",
+                width: "100%",
+                height: "100%",
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+                objectFit: "cover",
+              }}
+            >
+              <source src="/1.MP4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             {/* <div className="content">
               <h2 className="title">"The Gate Keeper"</h2>
               <p className="description">
@@ -56,15 +74,16 @@ const Slider = () => {
               <button className="border border-none smallfont m-0 px-4 py-2  ">Buy now</button>
             </div> */}
           </li>
+
           <li
             className="item"
             style={{
               backgroundImage:
-                "url('./images/landing-page-images/section1/55.jpg')",
+                "url('./images/landing-page-images/section1/AVIATION.webp')",
             }}
           >
             {/* <div className="content">
-              <h2 className="title">"Last Trace Of Us"</h2>
+              <h2 className="title">"Urban Decay"</h2>
               <p className="description">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
                 fuga voluptatum, iure corporis inventore praesentium nisi. Id
@@ -77,7 +96,7 @@ const Slider = () => {
             className="item"
             style={{
               backgroundImage:
-                "url('./images/landing-page-images/section1/AVIATION.webp')",
+              "url('./images/landing-page-images/section1/22.jpg')",
             }}
           >
             {/* <div className="content">
