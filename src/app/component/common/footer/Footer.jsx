@@ -54,6 +54,7 @@ function Footer(props) {
     { name: "Weddings", linking: "/wedding-planners" },
     { name: "Contact us", linking: "contact-us" },
     { name: "About us", linking: "/about-us" },
+    { name: "House Events", linking: "/events" },
   ];
   return (
     <>

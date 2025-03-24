@@ -209,7 +209,7 @@ const SectionOne = () => {
               data-parallax-target=""
             />
           </picture> */}
-          <picture
+          {/* <picture
             className="bg fourth-layer"
             data-parallax-strength="5.5"
             data-parallax-height="5"
@@ -221,6 +221,21 @@ const SectionOne = () => {
             <img
               alt="Eventgesellschaft in einem Restaurant - hinterste Ebene"
               src="./slider-2.jpg"
+              data-parallax-target=""
+            />
+          </picture> */}
+           <picture
+            className="bg fourth-layer"
+            data-parallax-strength="5.5"
+            data-parallax-height="5"
+          >
+            <source
+              media="(min-width: 760px)"
+              srcSet="./corporate-page/corporateslider.webp"
+            />
+            <img
+              alt="Eventgesellschaft in einem Restaurant - hinterste Ebene"
+              src="./corporate-page/corporateslider.webp"
               data-parallax-target=""
             />
           </picture>

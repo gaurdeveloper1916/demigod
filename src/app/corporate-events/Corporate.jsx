@@ -89,7 +89,7 @@ const CorporatePage = () => {
 
   return (
     <section className="min-vh-100">
-      <Header where='corporate'/>
+      <Header where='corporate' />
       <SectionOne />
       <SectionTwo />
       <SectionThree />
@@ -103,11 +103,11 @@ const CorporatePage = () => {
           "Meta / Google Ad Campaign",
         ]}
         description="We provide end-to-end solutions for brands' B2B & B2C marketing approaches via a time-tested structured plan of action with a 99.99% success rate. Any form of marketing approach—product launch, logo re-launch, ATL/BTL activities, outdoor media, digital media ad campaigns, and akin—is organized, managed, and executed by Team Demigod House. Our exclusive factor makes headlines in domestic and international media."
-      imageSrc = "4section.webp"
+        imageSrc="4section.webp"
       />
       <StatisticsSection
         statistics={[
-          { value: "At Demigod House, we champion global humanitarian causes and combat climate change through impactful fundraising and charity initiatives. Together, we drive meaningful change for a sustainable and compassionate future.", label1: "Charity and", label2: "Fundraising Events"  },
+          { value: "At Demigod House, we champion global humanitarian causes and combat climate change through impactful fundraising and charity initiatives. Together, we drive meaningful change for a sustainable and compassionate future.", label1: "Charity and", label2: "Fundraising Events" },
           { value: "We host exclusive networking events for entrepreneurs, SMEs, MSMEs, and MNCs with 7-star & 5-star hospitality in the best venues of world capitals, i.e., New York, London, Dubai, Abu Dhabi, Amsterdam, Athens, Bangkok, Beijing, Berlin, Zurich, Cape Town, Brasília, Brussels, Buenos Aires, Cairo, Sydney, Dublin, Copenhagen, Kathmandu, Kuala Lumpur, Madrid, Mexico City, Monaco, Moscow, Mumbai, Paris, Santiago, Seoul, Singapore, Taipei, Tokyo, Vienna, Warsaw, Washington D.C., and Wellington.", label1: "Networking", label2: "Events" },
           { value: "We successfully manage and promote political narratives with complete integrity , harmony and professionalism across many democracies globally.", label1: "Political", label2: "Events" },
         ]}
@@ -118,23 +118,22 @@ const CorporatePage = () => {
       <StatisticsSection
         statistics={[
           { value: "We manage and organize the most modern and tech-savvy conferences, seminars and webseminars, with atmospheric and integrated decor tailored to the subject of the event.", label1: "Conference and", label2: "Seminars" },
-          { value: "Expo and trade shows organised by DemiGod house always result in a tremendous amount of increase in the sale and promotion of the participant’s brand products / services at global platforms or world of commerce ! Connecting businesses, innovators, and audiences to showcase and celebrate cutting-edge products and services worldwide.", label1: "Exhibition's &" ,label2: "Trade Show"},
+          { value: "Expo and trade shows organised by DemiGod house always result in a tremendous amount of increase in the sale and promotion of the participant’s brand products / services at global platforms or world of commerce ! Connecting businesses, innovators, and audiences to showcase and celebrate cutting-edge products and services worldwide.", label1: "Exhibition's &", label2: "Trade Show" },
           { value: "Our expertise curates unforgettable, headline-making award ceremonies with innovative decor designs and the latest technology, including drone shows, pyrotronics, fireworks, and a majestic entertainment experience at exquisite locations.", label1: "Award Ceremony" },
         ]}
-      />x
+      />
 
       <SectionFour
-             headlineItems={[
-              "Company Milestone",
-              "CSR / Overseas Ceremony",
-              "Experimental  Event's",
+        headlineItems={[
+          "Company Milestone",
+          "CSR / Overseas Ceremony",
+          "Experimental  Event's",
         ]}
-      description="We celebrate your company milestones with meticulously planned events that showcase your journey and achievements. Our facilitation / CSR ceremonies honor excellence with memorable and impactful recognition. Through experimental and immersive experiences, we create unique moments that captivate your audience. Our Experimental events at global platform deliver's tailored solutions and strategic promotional campaigns that drive  brand success across G20 markets."
-      imageSrc="4section.webp"
-/>
+        description="We celebrate your company milestones with meticulously planned events that showcase your journey and achievements. Our facilitation / CSR ceremonies honor excellence with memorable and impactful recognition. Through experimental and immersive experiences, we create unique moments that captivate your audience. Our Experimental events at global platform deliver's tailored solutions and strategic promotional campaigns that drive  brand success across G20 markets."
+        imageSrc="4section.webp"
+      />
 
-      {/* <SectionFour/> */}
-      {/* <SectionSeven /> */}
+
 
     </section>
   );
