@@ -9,7 +9,9 @@ const TabsComponent = () => {
     // console.log(state, "state")
 
     const tabs = [
+        
         { id: "ex2-tabs-8", label: " Brand Association" },
+        { id: "ex2-tabs-9", label: "Venture Capital" },
         { id: "ex2-tabs-2", label: "Brand Marketing" },
         { id: "ex2-tabs-3", label: " Contract Manufacturing" },
         // { id: "ex2-tabs-4", label: "Brand SEO Funding" },
@@ -45,6 +47,51 @@ const TabsComponent = () => {
 
 
             <div className="tab-content px-[5.5rem]">
+            <div className={`tab-pane fade  ${activeTab === "ex2-tabs-8" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column  ">
+
+
+                        <div className="col-lg-5">
+
+                            <div
+                                className=" border border-0 position-relative"
+                                style={{ borderRadius: "10px" }}
+                            >
+                                <img
+                                    src="./brand_association.jpeg"
+                                    alt="Brand Advertising"
+                                    className=" rounded image-tab"
+
+                                />
+                                <div className="info_card p-3 text-white">
+                                    <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
+                                        Brand Association
+                                    </h1>
+                                    <p className="text-white text-start text-dark">
+                                        <strong>
+                                            Amplifying brand visibility with strategic, high-impact advertising campaigns
+                                            that ensure maximum reach, engagement, and conversions across global markets.
+                                            We integrate traditional, digital, and experiential advertising techniques to position
+                                            brands at the forefront of consumer attention and market influence.
+                                        </strong> 
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                       <div className="col-lg-7 p-3  d-flex flex-column align-items-center ">
+                            <ul className="news-list d-flex flex-column gap-2">
+                            <li>At DemiGod House, we avail end to end Brand Marketing , Brand Strategizing, Brand Development, BrandSeed Funding & capital procurement, Brand Product’s contract manufacturing, Brand advertising in Print Media / Electronic Media and B2B / B2C Events for Brand ATL / BTL promotion ! </li><br />
+                            <div>
+                            <strong> <li>We are a powerhouse of strategic marketing and brand elevation, ensuring a brand’s success story unfolds seamlessly across global and domestic markets.</li><br />
+                            <li>Our flagship offerings include Brand Association and Capital Procurement—where we collaborate with industrial leaders to fuel strategic brand growth and redefine market dominance.</li></strong><br />
+                            <li>DemiGod House exists at the intersection of luxury, influence, and scale, strategically positioned to deliver high-value investment returns and <strong>building legacy-driven brands that leave a lasting impact.</strong></li><br />
+                            <li>The primary objective of association with DemiGod House is to elevate the product’s sale by strategically aligning our marketing resources and capital investments, ultimately fostering long-term growth, brand loyalty, and higher revenue.</li><br />
+                            </div>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div className={`tab-pane fade mt-12 ${activeTab === "ex2-tabs-1" ? "show active" : ""}`}>
                     <div className="d-flex flex-lg-row flex-column gap-6">
                         <div className="col-lg-5">
@@ -89,6 +136,51 @@ const TabsComponent = () => {
                                 <li>With full funding provided by us, our team has complete creative liberty in designing and executing brand development activities for DemiGod House brands, associates, and clientele.</li>
                                 <br />
                                 <li>We deliver headline-making, trend-setting brand development campaigns through our print and electronic media associates across more than 90 countries on a regular basis.</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div className={`tab-pane fade mt-12 ${activeTab === "ex2-tabs-9" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column gap-6">
+                        <div className="col-lg-5">
+                            {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
+
+                            <div
+                                className=" border border-0 position-relative"
+                                style={{ borderRadius: "10px" }}
+                            >
+                                <img
+                                    src="./venture_capital.webp"
+                                    className=" rounded image-tab"
+
+                                />
+                                <div className="info_card p-3 text-white">
+                                    <h3>
+                                        <strong><em>Venture capital</em></strong>
+                                    </h3>
+                                    <p>
+                                        <strong>
+                                        At DemiGod House Venture Capital, we bridge innovation with strategic funding, empowering businesses with seed investments, growth-stage financing, and private equity solutions. More than just investors, we act as growth architects, aligning financial expertise with market positioning to drive long-term success.
+                                        </strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-7 p-3 d-flex flex-column align-items-center mx-auto ">
+                            <ul className="news-list d-flex gap-1 flex-column align-items-center ">
+                                <li>At DemiGod House, we bridge visionary entrepreneurship with strategic capital infusion, offering end-to-end Venture Capital solutions, including Seed Funding, Growth-Stage Investments, Private Equity, Debt Structuring, and Exit Strategies</li>
+                                <br />
+                                <li>We are more than investors—we are growth architects, empowering startups and established businesses to scale sustainably, optimize financial frameworks, and unlock exponential market potential.</li>
+                                <br />
+                                <li>Our flagship offerings include Capital Syndication and Strategic Investment Partnerships, where we collaborate with leading institutional investors, angel networks, and private equity firms to fuel disruptive innovation and establish market leadership.</li>
+                                <br />
+                                <li>DemiGod House operates at the nexus of wealth, influence, and enterprise, strategically positioning businesses for high-value exits, sustainable revenue models, and long-term equity appreciation.</li>
+                                <br />
+                                <li>The primary objective of associating with DemiGod House Venture Capital is to secure the right capital at the right time, ensuring seamless financial growth, accelerated scalability, and a dominant market presence that transforms vision into legacy.</li>
+                               
                             </ul>
                         </div>
 
@@ -201,8 +293,8 @@ const TabsComponent = () => {
                     </div>
                 </div>
 
-                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-5" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column gap-2 ">
+                <div className={`tab-pane fade  ${activeTab === "ex2-tabs-5" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column  ">
 
 
                         <div className="col-lg-5">
@@ -251,8 +343,8 @@ const TabsComponent = () => {
                     </div>
                 </div>
 
-                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-7" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column gap-2 ">
+                <div className={`tab-pane fade  ${activeTab === "ex2-tabs-7" ? "show active" : ""}`}>
+                    <div className="d-flex flex-lg-row flex-column  ">
 
 
                         <div className="col-lg-5">
@@ -298,54 +390,7 @@ const TabsComponent = () => {
                     </div>
                 </div>
 
-                <div className={`tab-pane fade mt-4 ${activeTab === "ex2-tabs-8" ? "show active" : ""}`}>
-                    <div className="d-flex flex-lg-row flex-column gap-2 ">
-
-
-                        <div className="col-lg-5">
-                            {/* <div className="d-flex  justify-content-center align-items-center p-4"> */}
-
-                            <div
-                                className=" border border-0 position-relative"
-                                style={{ borderRadius: "10px" }}
-                            >
-                                <img
-                                    src="./brand_association.jpeg"
-                                    alt="Brand Advertising"
-                                    className=" rounded image-tab"
-
-                                />
-                                <div className="info_card p-3 text-white">
-                                    <h1 className="colo-bg fw-bold largefont text-start text-white fs-4">
-                                        Brand Association
-                                    </h1>
-                                    <p className="text-white text-start text-dark">
-                                        <strong>
-                                            Amplifying brand visibility with strategic, high-impact advertising campaigns
-                                            that ensure maximum reach, engagement, and conversions across global markets.
-                                            We integrate traditional, digital, and experiential advertising techniques to position
-                                            brands at the forefront of consumer attention and market influence.
-                                        </strong> 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                       <div className="col-lg-7 p-3 d-flex flex-column align-items-center mx-auto  p-3">
-                            {/* <p className="fw-bold text-white">Our Approach:</p> */}
-                            <ul className="news-list d-flex flex-column gap-2">
-                            <li>At DemiGod House, we avail end to end Brand Marketing , Brand Strategizing, Brand Development, Brand Seed Funding & capital procurement, Brand Product’s contract manufacturing, Brand advertising in Print Media / Electronic Media and B2B / B2C Events for Brand ATL / BTL promotion ! </li><br />
-                            {/* <p className="text-white">See more...</p> */}
-                            <div>
-                            <strong> <li>We are a powerhouse of strategic marketing and brand elevation, ensuring a brand’s success story unfolds seamlessly across global and domestic markets.</li><br />
-                            <li>Our flagship offerings include Brand Association and Capital Procurement—where we collaborate with industrial leaders to fuel strategic brand growth and redefine market dominance.</li></strong><br />
-                            <li>DemiGod House exists at the intersection of luxury, influence, and scale, strategically positioned to deliver high-value investment returns and <strong>building legacy-driven brands that leave a lasting impact.</strong></li><br />
-                            <li>The primary objective of association with DemiGod House is to elevate the product’s sale by strategically aligning our marketing resources and capital investments, ultimately fostering long-term growth, brand loyalty, and higher revenue.</li><br />
-                            </div>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+             
              
             </div>
             {/* Tabs content */}

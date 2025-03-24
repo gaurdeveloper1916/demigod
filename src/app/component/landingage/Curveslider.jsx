@@ -1,12 +1,14 @@
 "use client";
-import { useEffect, useRef } from "react";
+import { useContext, useEffect, useRef } from "react";
 import Swiper from "swiper";
 import "swiper/swiper-bundle.css";
 import "./landing.css";
+import { Auth } from "../../../context/AppContext";
 
 const Curveslider = () => {
+  const { imageForLandingPage, landingImage, setLandingImage, commonImage } = useContext(Auth)
   const swiperRef = useRef(null);
-
+  console.log(landingImage)
   useEffect(() => {
     swiperRef.current = new Swiper(".swiper", {
       loop: true,
@@ -28,41 +30,47 @@ const Curveslider = () => {
         {/* Image Slide */}
         <div className="swiper-slide">
           <div className="media-container">
-            <img src="./event-page/wine_inner.png" alt="landing page slider" />
+            <img src={landingImage.leftImage === '' ? commonImage : landingImage.leftImage} alt="landing page slider" />
           </div>
         </div>
 
         {/* Image Slide */}
         <div className="swiper-slide">
           <div className="media-container">
-            <img src="./event-page/wine_inner.png" alt="landing page slider" />
+            <img src={landingImage.leftImage === '' ? commonImage : landingImage.leftImage} alt="landing page slider" />
           </div>
         </div>
 
         {/* Center Video Slide */}
+
         <div className="swiper-slide video-slide">
           <div className="media-container">
-            <div className="video-container">
+            {
+              landingImage.midVideo.includes('.mp4') ?
+                <div className="video-container">
 
-              <video autoPlay muted loop>
-                <source src="./event-page/wine_festval_video.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
+                  <video autoPlay muted loop>
+                    <source src={landingImage.midVideo} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div> : <img src={landingImage.midVideo} alt="landing page slider" />
+
+            }
+
           </div>
         </div>
 
         {/* Image Slide */}
         <div className="swiper-slide">
           <div className="media-container">
-            <img src="./event-page/wine_inner.png" alt="landing page slider" />
+            <img src={landingImage.rightImage === '' ? commonImage : landingImage.rightImage} alt="landing page slider" />
           </div>
         </div>
 
         {/* Image Slide */}
         <div className="swiper-slide">
           <div className="media-container">
-            <img src="./event-page/wine_inner.png" alt="landing page slider" />
+            <img src={landingImage.rightImage === '' ? commonImage : landingImage.rightImage} alt="landing page slider" />
           </div>
         </div>
       </div>

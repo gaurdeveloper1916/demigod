@@ -29,14 +29,14 @@ const Slider = () => {
                 "url('./event-page/punjabideligates.png')",
             }}
           >
-            <div className="content">
-              {/* <h2 className="title">"Lossless Youths"</h2>
-              <p className="description col-lg-4">
+            <div className="content ">
+              <h2 className="title">"Lossless Youths"</h2>
+              <h6 >
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
                 fuga voluptatum, iure corporis inventore praesentium nisi. Id
                 laboriosam ipsam enim.
-              </p>
-              <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button> */}
+              </h6>
+              <button className="border border-none smallfont m-0 px-4 py-2 ">Buy now</button>
             </div>
           </li>
 

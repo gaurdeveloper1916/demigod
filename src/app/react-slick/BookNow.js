@@ -59,7 +59,7 @@ const Booknow = () => {
               <h1>
                 Sail into Luxury & Celebration
               </h1>
-              <p>
+              <p className="mediumfont">
                 Step aboard a magnificent yacht and indulge in an unforgettable evening of luxury,
                 music, and entertainment. Enjoy breathtaking ocean views, gourmet dining, and an
                 exclusive party atmosphere like no other.
@@ -146,7 +146,7 @@ const Booknow = () => {
             </div>
           </div>
 
-          <div
+          {/* <div
             className={`slider1 ${currentSlide === "videoevent" ? "active" : ""
               }`}
             onClick={(e) => setCurrentSlide("videoevent")}
@@ -178,7 +178,7 @@ const Booknow = () => {
 
               </Link>
             </div>
-          </div>
+          </div> */}
 
 
         </div>

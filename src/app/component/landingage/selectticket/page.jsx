@@ -8,7 +8,7 @@ import './index.css'
 const Selectticket = () => {
     const {landingHeading,landingDes,ticketdes } =useContext(Auth)
     const [ticketCount, setTicketCount] = useState(1);
-
+console.log(landingHeading)
     return (
         <>
             <div className="d-flex justify-content-center align-items-center bg-black">
@@ -46,7 +46,7 @@ const Selectticket = () => {
                                     <p className="m-0 text-white">In-Person</p>
                                     <p className="text-secondary"> New York, NY</p>
                                 </div>
-                                <button onClick={() => alert('Button clicked!')} className="mb-3 border rounded px-2 border-0 text-white fs-6">$500</button>
+                                <button onClick={() => alert('Button clicked!')} className="mb-3 border rounded px-2 border-0 text-white fs-6">${500*ticketCount}</button>
                             </div>
 
                             <div className="d-flex gap-2 align-items-center my-4">
