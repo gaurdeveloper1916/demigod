@@ -7,6 +7,27 @@ import "./index.css";
 
 const locations = [
   {
+    name: "Jaipur",
+    image: "https://s7ap1.scene7.com/is/image/incredibleindia/hawa-mahal-jaipur-rajasthan-city-1-hero?qlt=82&ts=1726660605161",
+    address: "Regd. Office - D-10  Kabir Marg, banipark, Jaipur, RAJ - 302016.",
+    phone: "+91-7023843975",
+    email: "dev@demigodhouse.com",
+  },
+  {
+    name: "Mumbai",
+    image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/40/ce/c3/mumbai-marine-drive-along.jpg?w=900&h=-1&s=1",
+    address: "208,PMB,Charni Road, Opera House,Girgaon – Mumbai 400 004",
+    phone: "+91-7023843975",
+    email: "dev@demigodhouse.com",
+  },
+  {
+    name: "Delhi",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/66/Janak_Place_Shopping_Complex.jpg",
+    address: "Baba Kharak Singh Rd, Block P, Connaught Place, New Delhi, Delhi 110001",
+    phone: "+91-7023843975",
+    email: "dev@demigodhouse.com",
+  },
+  {
     name: "Dubai",
     image: "https://content.presspage.com/uploads/2431/1920_dubaiconnect.jpg?10000",
     address: "Anantara Downtown - Level 1 - Marasi Dr - Business Bay - Dubai - United Arab Emirates",
