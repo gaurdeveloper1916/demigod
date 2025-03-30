@@ -8,7 +8,6 @@ import { Auth } from "../../../context/AppContext";
 const Curveslider = () => {
   const { imageForLandingPage, landingImage, setLandingImage, commonImage } = useContext(Auth)
   const swiperRef = useRef(null);
-  console.log(landingImage)
   useEffect(() => {
     swiperRef.current = new Swiper(".swiper", {
       loop: true,

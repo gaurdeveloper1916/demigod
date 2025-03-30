@@ -23,7 +23,6 @@ function MyVerticallyCenteredModal(props) {
     const handleSubmit = (e) => {
       e.preventDefault();
       // Handle form submission logic
-      console.log('Form Data Submitted:', formData);
       handleClose(); // Close modal after submission
     };
     return (

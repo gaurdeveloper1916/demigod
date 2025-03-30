@@ -4,7 +4,6 @@ import { Auth } from "../../../../context/AppContext";
 
 const Sectionone = () => {
     const { state } = useContext(Auth)
-    console.log(state)
     return (
         <>
             <div className="position-relative vh-100 overflow-hidden">

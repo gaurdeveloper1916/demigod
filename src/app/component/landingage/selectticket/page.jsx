@@ -8,7 +8,6 @@ import './index.css'
 const Selectticket = () => {
     const { landingHeading, landingDes, ticketdes } = useContext(Auth)
     const [ticketCount, setTicketCount] = useState(1);
-    console.log(landingHeading)
     return (
         <>
             <div className="d-flex justify-content-center align-items-center bg-black">

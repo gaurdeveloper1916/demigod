@@ -21,7 +21,6 @@ export const createAccount = async (data) => {
       createAccountPayload
     );
 
-    console.log(account);
 
     if (account.data.success) {
       notify("Account created successfully!");

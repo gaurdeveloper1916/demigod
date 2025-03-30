@@ -64,7 +64,6 @@ function LeadingOrganisation(props) {
    
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
-  console.log(Data[currentIndex].heading);
 
   const handleClick = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % Data.length);

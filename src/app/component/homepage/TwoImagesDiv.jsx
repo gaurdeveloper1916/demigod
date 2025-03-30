@@ -178,7 +178,6 @@ function TwoImagesDiv() {
           {section.images.map((image, i) => (
 
             <div onClick={() => { handleChange(image.title, image.description, image.ticketdes, image.src, image.leftImage, image.rightImage) }} className={`col-lg-${image.size} ${i === 0 ? "mt-5" : ""}`} key={i}>
-              {console.log(image)}
               <Link href={image.link}>
                 {image.src.endsWith(".mp4") ? (
                   <div className="video-container">
