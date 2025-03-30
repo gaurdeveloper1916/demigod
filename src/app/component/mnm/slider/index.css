@@ -19,10 +19,15 @@
   .slick-slide {
     padding: 0 5px !important; 
   }
+  .des-text{
+    line-height: 18px;
+    letter-spacing: 1px;
+  }
   
   .bg-cards-inner {
+    border: 1px solid #dbb85e;
     padding: 10px;
-    height: 100%; 
+    height: 70%; 
     display: flex;
     flex-direction: column;
   }

@@ -11,7 +11,17 @@
 .all-container:hover {
   border: 2px solid rgba(74,68,161,1); 
 }
-
+.prodservices{
+  
+  font-size: 40px;
+  line-height: 1.15;
+  font-family: ui-monospace;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.sub-text{
+    font-size: 18px;
+}
 .gradient-text {
     background-image: linear-gradient(90deg, rgba(74,68,161,1) 13%, rgba(198,162,203,1) 100%, rgba(0,212,255,1) 100%);
     background-clip: text;

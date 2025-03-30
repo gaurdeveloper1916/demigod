@@ -10,4 +10,10 @@
 .img-map{
     object-fit: contain;
 }
+.map-container{
+    height: 400px;
+    position: relative;
+    outline-style: none;
+    border-radius: 20px;
+}
 
