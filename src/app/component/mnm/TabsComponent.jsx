@@ -9,7 +9,6 @@ const TabsComponent = () => {
     // console.log(state, "state")
 
     const tabs = [
-        
         { id: "ex2-tabs-8", label: " Brand Association" },
         { id: "ex2-tabs-9", label: "Venture Capital" },
         { id: "ex2-tabs-2", label: "Brand Marketing" },
@@ -19,7 +18,6 @@ const TabsComponent = () => {
         // { id: "ex2-tabs-6", label: "Brand Capital" },
         { id: "ex2-tabs-7", label: "B2B & B2C Events" },
         { id: "ex2-tabs-1", label: "Brand Development" }
-       
     ];
     return (
         <>
