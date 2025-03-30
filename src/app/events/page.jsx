@@ -27,7 +27,7 @@ import GetTickets from "../component/events/slider/gettickets/page";
 import Formdiv from "../component/events/slider/formdiv/page";
 import FridayNight from "../component/homepage/friday/FridayNight";
 
-
+import CarouselSection from "../component/events/slider/herosection/Herosection"
 export const metadata = {
   title: 'Media & Marketing',
   description: "India's Best and Leading Marketing agency with more 13years of Experience in Brand Seed Funding, 3rd party Contract manufacturing, Private Equity, Brand Marketing, Brand Developement, Advertising in Print Media , Digital Marketing and B2B / B2C Events !"
@@ -61,7 +61,8 @@ function Index() {
   return (
     <div className="container-fluid p-0 bg-black">
       <Header />
-      <Slider />
+      {/* <Slider /> */}
+      <CarouselSection/>
       <TwoImagesDiv />
       <Prochainement />
       <Membership />

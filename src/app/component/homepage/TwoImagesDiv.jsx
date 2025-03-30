@@ -16,7 +16,7 @@ function TwoImagesDiv() {
           link: "/landingpage",
           leftImage: "./event-page/wine_making.png",
           rightImage: "./event-page/wine_making.png",
-          title: "Wine Making Festival- Vin Fete",
+          title: "Wine Making Festival-Fete du  Vin ",
           description: "Ready to crush some grapes the old-school way? Get your feet wet (literally!) at this wild wine-making party. We're ditching the stuffy wine talk for hands-on fun - squish grapes, mix your own secret blend, and yes, plenty of tasting! Whether you're a wine newbie or a seasoned sipper, come unleash your inner vintner. Warning: Purple feet and big smiles guaranteed! 🍇✨",
           ticketdes: "This event is for wine lovers who want to learn the art of winemaking. Participants will get to crush grapes, mix their own blend, and taste different wines. Whether you're a wine newbie or a seasoned sipper, this event promises a fun and educational experience."
         },
@@ -24,7 +24,7 @@ function TwoImagesDiv() {
           size: 4,
           src: "/event-page/dating.png",
           link: "/landingpage",
-          title: "Tinder Night ",
+          title: "Tinder Nights",
           leftImage: "",
           rightImage: "",
           description: "Ready to ditch those awkward dating apps? Join us for a night where real sparks fly! 🔥 We've got cool games to break the ice, yummy snacks, and drinks that'll help you loosen up (but not too much 😉). No more swiping left or right - just real people having real fun! Perfect for cool folks in their 20s and 30s who are tired of the same old dating scene. Trust us, this beats staring at your phone all night! ✨💫",
@@ -117,7 +117,43 @@ function TwoImagesDiv() {
         },
       ],
     },
+// {
+//       images: [
+//         {
+//           size: 4,
+//           src: "/event-page/india_patriots.webp",
 
+//           link: "/landingpage",
+//           // title: "Event /03",
+//           leftImage: "",
+//           rightImage: "",
+//           // category: "BRANDING-WEBDESIGN",
+
+
+//           image: "/event-page/india_patriots.webp",
+
+     
+//           title: "Economic Patriots Summit India",
+//       description: "Hey India! Ready to be part of something big? Join us for a game-changing summit where we're talking real business, real growth, and real opportunities.",
+//       ticketdes: "🎉 Meet successful Indian entrepreneurs who started just like you\n💪 Get insider knowledge from people who understand our market\n📱 Learn how to use tech to grow your business\n🤝 Make connections that actually matter\n💡 Get real solutions for real business challenges\n🌟 Be part of India's economic revolution"
+//         },
+//         {
+//           size: 8,
+//           src: "/event-page/us_patroits.webp",
+//           link: "/landingpage",
+//           leftImage: "",
+//           rightImage: "",
+         
+//           // category: "BRANDING-WEBDESIGN",
+
+//           image: "/event-page/us_patroits.webp",
+//           title: "Economic Patriots Summit USA",
+          
+//           description: "America, let's talk business! Join us for a no-nonsense summit where we cut through the fluff and focus on what really works in today's economy.",
+//           ticketdes: "🗽 Get straight talk from American business veterans\n💡 Learn street-smart business strategies that work\n🤝 Connect with fellow entrepreneurs who get it\n🚀 Get practical tools for growing your business\n💪 Turn challenges into opportunities\n🌟 Be part of America's next success story"
+//         },
+//       ],
+//     },
 
   ];
 

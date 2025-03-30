@@ -44,10 +44,10 @@ const Booknow = () => {
             <div className="booknow__title_wrapper">
               <FaPlus className="plus_icon" />
               <p
-                className={`book_title fw-bold ${currentSlide === "standup" ? "active" : ""
+                className={`book_title fs-6 fw-bold ${currentSlide === "standup" ? "active" : ""
                   }`}
               >
-                standup
+                D'Yacht Party
               </p>
             </div>
 
@@ -55,11 +55,11 @@ const Booknow = () => {
               className={`book_now_user_content ${currentSlide === "standup" ? "active" : ""
                 }`}
             >
-              <p className="text-uppercase">D'Yacht Party</p>
+              {/* <p className="text-uppercase fs-6">D'Yacht Party</p> */}
               <h1>
                 Sail into Luxury & Celebration
               </h1>
-              <p className="mediumfont">
+              <p className="mediumfont fs-6">
                 Step aboard a magnificent yacht and indulge in an unforgettable evening of luxury,
                 music, and entertainment. Enjoy breathtaking ocean views, gourmet dining, and an
                 exclusive party atmosphere like no other.
@@ -97,7 +97,7 @@ const Booknow = () => {
               <h1>
                 Celebrate Oktoberfest in Style
               </h1>
-              <h2><p>
+              <h2><p className="fs-6">
                 Join us for a festive Oktoberfest celebration filled with traditional Bavarian music,
                 authentic German cuisine, and the finest selection of beers. Experience the joy of
                 this world-famous festival with exciting games, live performances, and a vibrant
@@ -122,7 +122,7 @@ const Booknow = () => {
                 className={`book_title text-uppercase ${currentSlide === "dandiyanight" ? "active" : ""
                   }`}
               >
-                Movie Theme Event
+                Star Wars Thomo Party
               </p>
             </div>
 
@@ -130,11 +130,11 @@ const Booknow = () => {
               className={`book_now_user_content ${currentSlide === "dandiyanight" ? "active" : ""
                 }`}
             >
-              <p className="text-uppercase fs-5 font-bold"> Movie Theme Event </p>
+              {/* <p className="text-uppercase fs-5 font-bold"> Star Wars</p> */}
               <h1>
-                Experience the Magic of Movies
+              Star Wars Thomo Party
               </h1>
-              <p>
+              <p className="fs-6">
                 Step into a world of cinematic wonder with our exclusive Movie Theme Event.
                 Enjoy immersive decor, live performances, and themed experiences inspired
                 by blockbuster hits.
