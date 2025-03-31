@@ -4,7 +4,7 @@ export  const data = [
     attributes: {
       onHoverText:"- MEDIA AND MARKETING",
       URLText: "M&M",
-      corporate:"MEDIA AND MARKETING",
+      corporate:"Media and Marketing",
       url: "/",
       reverse:true,
       onHover:true,
@@ -22,7 +22,7 @@ export  const data = [
       attributes: {
         onHoverText:"event's",
         URLText: "Corporate" ,
-        corporate:"ABOUT CORPORATE",
+        corporate:" Corporate Events",
         onHover:true,
         reverse:true,
         url: "/corporate-events",
@@ -40,7 +40,7 @@ export  const data = [
       attributes: {
         onHoverText:"/private event",
         URLText: "Wedding's",
-        corporate:"ABOUT WEDDING",
+        corporate:" Wedding's / Private Events",
         url: "/wedding-planners",
         reverse:true,
         onHover:true,
@@ -60,7 +60,7 @@ export  const data = [
         URLText: "Event's",
         url: "/events",
         reverse:false,
-        corporate:"ABOUT EVENTS",
+        corporate:"House Events",
         createdAt: "2024-06-04T09:40:16.115Z",
         updatedAt: "2024-06-04T09:40:17.431Z",
         publishedAt: "2024-06-04T09:40:17.428Z",
