@@ -3,7 +3,7 @@ import React, { useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './fridaynight.css';  
+import './fridaynight.css';
 import Link from 'next/link';
 
 export default function FridayNight() {
@@ -12,60 +12,65 @@ export default function FridayNight() {
 
   const next = () => {
     if (sliderRef.current) {
-      sliderRef.current.slickNext(); 
+      sliderRef.current.slickNext();
     }
   };
 
   const previous = () => {
     if (sliderRef.current) {
-      sliderRef.current.slickPrev(); 
+      sliderRef.current.slickPrev();
     }
   };
 
   const initialImages = [
     {
-      img: "/images/landing-page-images/section7/BLUE_COLLAR.webp",
-      name: "Blue collar chronicles",
-      desc: "An engaging journey through the lives of hardworking individuals in various industries.",
+      img: "/event-page/exhbition.jpeg",
+      name: "Exhbition Expo",
+      desc: "An Exhibition Expo is a large-scale event where businesses, organizations, and individuals showcase their products, services, innovations, or art to a targeted audience. These expos often cater to specific industries such as technology, fashion, healthcare, or education.",
     },
     {
-      img: "/images/landing-page-images/section7/COUPLE'S_MARATHON.webp",
-      name: "Influencers Award Ceremony",
-      desc: "A prestigious evening celebrating the achievements of top influencers across various platforms.",
+      img: "/event-page/pharma.jpeg",
+      name: "Pharma Expo",
+      desc: "A Pharma Expo is a specialized trade exhibition focused on the pharmaceutical industry. It serves as a platform for pharmaceutical companies, healthcare professionals, researchers, and manufacturers to showcase innovations, products, and technologies related to medicine, drug development, and healthcare solutions.",
     },
     {
-      img: "/images/landing-page-images/section7/PAINTBALL.webp",
-      name: "Warzone Paintfull Tournament",
-      desc: "An exciting, action-packed paintball tournament where teams battle for supremacy.",
+      img: "/event-page/travel-Tourism.jpeg",
+      name: "Travel & Tourism Expo",
+      desc: "A Travel & Tourism Expo is a large-scale event that brings together travel agencies, tourism boards, airlines, hospitality brands, and adventure companies to showcase destinations, travel services, and experiences. These expos serve as a hub for networking, business collaborations, and discovering new travel trends.",
     },
     {
-      img: "/images/landing-page-images/section7/STANDUP.webp",
-      name: "Comedy Show",
-      desc: "A night of laughter and fun with performances by some of the best stand-up comedians.",
+      img: "/event-page/tech-expo.jpeg",
+      name: "Tech Expo",
+      desc: "A Tech Expo is a large-scale event that showcases the latest advancements in technology, innovation, and digital transformation. It serves as a platform for tech companies, startups, developers, and industry leaders to present their cutting-edge products, software, and solutions.",
     },
     {
-      img: "/images/landing-page-images/section7/STANDUP.webp",
-      name: "Career Expo",
-      desc: "A networking event for students and professionals to explore new career opportunities.",
+      img: "/event-page/destate.jpeg",
+      name: "D'estate Expo",
+      desc: "D'Estate Expo is a leading real estate exhibition that brings together industry experts, investors, developers, and homebuyers under one roof. Whether you're looking for residential, commercial, or luxury properties, this expo offers exclusive opportunities to explore top-tier real estate projects and investment prospects.",
+    },
+    {
+      img: "/event-page/carrer-expo.jpeg",
+      name: "Carrer Expo",
+      desc: "A Career Expo is a premier event where job seekers, professionals, and recruiters come together to explore career opportunities, industry trends, and skill development. Whether you're a fresh graduate, an experienced professional, or a company looking for top talent, this expo serves as a dynamic platform for networking and career advancement.",
     }
   ];
 
 
   const settings = {
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     infinite: true,
     centerMode: false,
     focusOnSelect: true,
     dots: true,
-    arrows: true, 
+    arrows: true,
     prevArrow: <button className="slick-prev">Prev</button>,
-    nextArrow: <button className="slick-next">Next</button>, 
+    nextArrow: <button className="slick-next">Next</button>,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 4,
           slidesToScroll: 1,
         },
       },
@@ -94,7 +99,8 @@ export default function FridayNight() {
             <div key={index} className="d-flex justify-content-center align-items-center p-2">
               <div className="image-container position-relative">
                 <img
-                  className="img-fluid rounded"
+                style={{height:'270px'}}
+                  className="rounded img-fluid w-100"
                   src={image.img}
                   alt={image.name}
                 />
@@ -102,39 +108,39 @@ export default function FridayNight() {
                   <h1 className="text-san">{image.name}</h1>
                 </div>
                 <div className="p-3 text-white visible-on-hover">
-                  <h6 className="m-0">{image.name}</h6>
-                  <p className="m-0 text-secondary">Location: India</p>
+                  <h6 className="m-0 fw-bold">{image.name}</h6>
+                  <p className='mt-2'>{image.desc}</p>
+                  {/* <p className="m-0 text-secondary">Location: India</p>
                   <p className="text-secondary">{image.name === "Blue Collar Chronicles" ? "22.06.24 18:00" :
                     image.name === "Influencers Award Ceremony" ? "25.06.24 19:00" :
                     image.name === "Warzone Paintball Tournament" ? "30.06.24 15:00" :
                     image.name === "Comedy Show" ? "05.07.24 20:00" :
                     image.name === "Career Expo" ? "12.07.24 09:00" :
-                    "Date: TBD"}</p>
-                  <h6 className="m-0">Peter Whelan</h6>
-                  <p className="text-secondary">{image.name === "Blue Collar Chronicles" || image.name === "Career Expo" ? "Peter Whelan" :
+                    "Date: TBD"}</p> */}
+                  {/* <p className="text-secondary">{image.name === "Blue Collar Chronicles" || image.name === "Career Expo" ? "Peter Whelan" :
                     image.name === "Influencers Award Ceremony" ? "John Doe" :
                     image.name === "Warzone Paintball Tournament" ? "Sarah Smith" :
-                    image.name === "Comedy Show" ? "Mike Johnson" : "Speaker"}</p>
+                    image.name === "Comedy Show" ? "Mike Johnson" : "Speaker"}</p> */}
 
-                <p className="text-secondary">
+                  {/* <p className="text-secondary">
                     {image.name === "Blue Collar Chronicles" ? "Direttore" :
                     image.name === "Influencers Award Ceremony" ? "Event Organizer" :
                     image.name === "Warzone Paintball Tournament" ? "Tournament Organizer" :
                     image.name === "Comedy Show" ? "Comedian" :
                     image.name === "Career Expo" ? "Organizer" : "Speaker"}
-                  </p>
+                  </p> */}
                   <Link
-              href={{
-                pathname: '/landingpage',
-                query: { name: image.name},
-                
-              }}>
+                    href={{
+                      pathname: '/landingpage',
+                      query: { name: image.name },
+
+                    }}>
                     <button className="rounded-pill btn-custom px-4 py-2 text-white">
-                    {image.name === "Blue Collar Chronicles" ? "Join Now" :
-                  image.name === "Influencers Award Ceremony" ? "Learn More" :
-                  image.name === "Warzone Paintball Tournament" ? "Register Now" :
-                  image.name === "Comedy Show" ? "Get Tickets" :
-                  image.name === "Career Expo" ? "Explore Opportunities" : "Learn More"}                   </button>
+                      {image.name === "Blue Collar Chronicles" ? "Join Now" :
+                        image.name === "Influencers Award Ceremony" ? "Learn More" :
+                          image.name === "Warzone Paintball Tournament" ? "Register Now" :
+                            image.name === "Comedy Show" ? "Get Tickets" :
+                              image.name === "Career Expo" ? "Explore Opportunities" : "Learn More"}                   </button>
                   </Link>
                 </div>
               </div>
