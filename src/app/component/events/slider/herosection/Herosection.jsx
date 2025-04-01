@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import "bootstrap/dist/js/bootstrap.bundle.min";
 import { Button } from "react-bootstrap";
-
+import './hero.css'
 const CarouselSection = () => {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle.min");
@@ -48,6 +48,14 @@ const CarouselSection = () => {
         <div className="carousel-item">
           <img style={{ height: '100vh' }} src="./media&marketing/expo.jpeg" className="d-block w-100" alt="Slide 4" />
         </div>
+        <button   className="carousel-control-prev " type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span style={{backgroundColor:"#0000009c"}} className="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span className="visually-hidden">Previous</span>
+        </button>
+        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span  style={{backgroundColor:"#0000009c"}} className="carousel-control-next-icon rounded " aria-hidden="true"></span>
+          <span className="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
   );
