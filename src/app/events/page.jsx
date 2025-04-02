@@ -11,6 +11,7 @@ import Formdiv from "../component/events/slider/formdiv/page";
 import FridayNight from "../component/homepage/friday/FridayNight";
 
 import CarouselSection from "../component/events/slider/herosection/Herosection"
+import Link from "next/link";
 export const metadata = {
   title: 'Media & Marketing',
   description: "India's Best and Leading Marketing agency with more 13years of Experience in Brand Seed Funding, 3rd party Contract manufacturing, Private Equity, Brand Marketing, Brand Developement, Advertising in Print Media , Digital Marketing and B2B / B2C Events !"
@@ -53,6 +54,13 @@ function Index() {
       <GetTickets />
       <Formdiv />
       <FridayNight />
+      <div className="text-center mt-5 text-white">
+        <h2>Join us for an unforgettable Friday night!</h2>
+        <p>Experience the best events and activities, curated just for you.</p>
+        <Link href="/events">
+          <button className="btn btn-primary px-4 py-2">Explore All Events</button>
+        </Link>
+      </div>
     </div>
   );
 }

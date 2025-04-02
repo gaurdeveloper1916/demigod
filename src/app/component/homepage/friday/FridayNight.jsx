@@ -70,7 +70,7 @@ export default function FridayNight() {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
@@ -92,7 +92,7 @@ export default function FridayNight() {
   };
 
   return (
-    <div className="container-fluid p-5 mt-5">
+    <div className="container-fluid p-lg-5 p-0 mt-5">
       <div className="slider-container">
         <Slider {...settings} ref={sliderRef}>
           {initialImages.map((image, index) => (
@@ -171,13 +171,7 @@ export default function FridayNight() {
           </div>
         </div>
       </div>
-      <div className="text-center mt-5 text-white">
-        <h2>Join us for an unforgettable Friday night!</h2>
-        <p>Experience the best events and activities, curated just for you.</p>
-        <Link href="/events">
-          <button className="btn btn-primary px-4 py-2">Explore All Events</button>
-        </Link>
-      </div>
+     
     </div>
   );
 }

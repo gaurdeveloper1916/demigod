@@ -28,20 +28,28 @@ function Membership(props) {
       <div className="row bg-dark-black">
         <div className="col-lg-6 p-lg-4 p-3">
           <h3 className="text-white p-3 membership-title">
-            Membership Category
+          Exclusive Membership Benefits
           </h3>
           <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0" >
-              <Accordion.Header>Gold</Accordion.Header>
+              <Accordion.Header>Member Privileges</Accordion.Header>
               <Accordion.Body>
-              Event Management /Activation Agencies / Experiential Marketing Companies / International Agencies with a minimum turnover of Rs. 2 crore in the immediate past year and in existence for a minimum of two years.
-              <li>Participation in the Annual General Meeting without voting rights.</li>
-              <li>Access to EEMA events.</li>
-              <li>Complimentary access to two EEMA workshops.</li>
+              DemiGod House subsidiaries offer elite benefits across diverse industries:
+              <li>Media & Publications: Stay ahead with exclusive weekly journal insights.</li>
+              <li>Financial Services: Upcoming NBFC with loans at lower rates than standard market.</li>
+
+              Hospitality & Retail:
+
+              <li>Organic Grocery & Salad Chain – A premium experience in dining & retail.
+              </li>
+              <li>Real Estate – Unlock high-value investment opportunities.
+              </li>
+              <li>Gems & Jewellery – Indulge in exclusive member discounts.
+              </li>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
-              <Accordion.Header>Platinum</Accordion.Header>
+              <Accordion.Header>Enrollment & Membership Tiers (90% redeemable on DemiGod House services)</Accordion.Header>
               <Accordion.Body>
               Event Management and Activation Agencies / Experiential Marketing Companies with a minimum turnover of (4 crore) in the immediate past year and in existence for a minimum of 2 years .
               <li>Right to vote & hold office in the National Executive Committee</li>
