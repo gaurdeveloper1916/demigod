@@ -1,13 +1,12 @@
 'use client'
 import React, { useEffect } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import { Button } from "react-bootstrap";
 import './hero.css';
 
 const CarouselSection = () => {
-  useEffect(() => {
-    import("bootstrap/dist/js/bootstrap.bundle.min");
-  }, []);
+  // useEffect(() => {
+  //   import("bootstrap/dist/js/bootstrap.bundle.min");
+  // }, []);
 
   return (
     <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">

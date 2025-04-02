@@ -2,219 +2,131 @@
 import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import { RxCross2 } from "react-icons/rx";
-import './formdiv.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./formdiv.css";
+
 const Formdiv = () => {
-  const [fullscreen, setFullscreen] = useState(true);
   const [show, setShow] = useState(false);
-  const [step, setStep] = useState(1); // Track the current step
-  function handleShow() {
-    setFullscreen(true);
-    setShow(true);
-  }
+  const [step, setStep] = useState(1);
   const [selectedOption, setSelectedOption] = useState("option1");
-  const handleChange = (e) => {
-    setSelectedOption(e.target.value);
-  };
-  const handleContinue = () => {
-    setStep(2); // Move to step 2
-  };
-  const handleSubmit = () => {
-    setStep(3); // Move to thank you step
-  };
+
+  const handleChange = (e) => setSelectedOption(e.target.value);
+  const handleContinue = () => setStep(2);
+  const handleSubmit = () => setStep(3);
+
   return (
     <div
       className="mt-5"
       style={{
-        backgroundImage:
-          // "url(https://cdn.pixabay.com/photo/2023/04/03/12/59/crowd-7896788_1280.jpg)",
-          "url(./event-page/event.webp)",
+        backgroundImage: "url(/event-page/event.webp)",
         height: "100vh",
+        backgroundSize: "cover",
       }}
     >
       <div className="d-flex justify-content-center align-items-center vh-100">
-        <button
-          className="btn px-5 rounded bg-white text-black"
-          onClick={handleShow}
-        >
+        <button className="btn px-5 rounded bg-white text-black" onClick={() => setShow(true)}>
           Explore Now
         </button>
       </div>
-      <Modal show={show} fullscreen={fullscreen} onHide={() => setShow(false)}>
+
+      <Modal show={show} fullscreen onHide={() => { setShow(false); setStep(1); }}>
         <Modal.Header className="bg-black border-0 d-flex justify-content-end">
-          <RxCross2 onClick={() => {
-            setShow(false)
-            setStep(1)
-          }}
-            size={25} className="text-white cursor" />
+          <RxCross2 onClick={() => { setShow(false); setStep(1); }} size={25} className="text-white cursor-pointer" />
         </Modal.Header>
+        
         <Modal.Body className="bg-black">
-          <div className={`d-flex flex-lg-row flex-column transition-container ${step === 2 ? "step-2" : "step-1"}`}>
+          <div className={`d-flex flex-lg-row flex-column ${step === 2 ? "step-2" : "step-1"}`}>
+            
             {/* Image Section */}
             <div className={`col-lg-6 image-section ${step === 1 ? "order-2" : "order-1"}`}>
               <div className="image-wrapper">
-                <img
-                  src="./event-page/react_us_out.webp"
-                  className="img-fluid w-100 "
-                  alt="Music Festival"
-                />
+                <img src="/event-page/react_us_out.webp" className="img-fluid w-100" alt="Music Festival" />
               </div>
             </div>
+
             {/* Form Section */}
             <div className={`col-lg-6 form-section d-flex justify-content-center ${step === 1 ? "order-1" : "order-2"}`}>
               <div className="col-lg-11 col-12">
                 <h3 className="fw-bold text-warning">
-                  {step === 1 ? "Reach Out" : step === 2 ? "Reach Out Again" : "Thank You"}
+                  {step === 1 ? "Reach Out" : step === 2 ? "Tell Us More" : "Thank You!"}
                 </h3>
-                {step === 1 ? (
+
+                {step === 1 && (
                   <>
                     <h6 className="text-white mt-4">Tell Us About Yourself!</h6>
                     <form>
                       <div className="d-flex flex-lg-row flex-column gap-lg-5 gap-0 text-white">
-                        <label className="d-flex align-items-center gap-2">
-                          <input
-                            type="radio"
-                            value="option1"
-                            checked={selectedOption === "option1"}
-                            onChange={handleChange}
-                          />
-                          Corporate Client
-                        </label>
-                        <label className="d-flex align-items-center gap-2">
-                          <input
-                            type="radio"
-                            value="option2"
-                            checked={selectedOption === "option2"}
-                            onChange={handleChange}
-                          />
-                          Private Host
-                        </label>
-                        <label className="d-flex align-items-center gap-2">
-                          <input
-                            type="radio"
-                            value="option3"
-                            checked={selectedOption === "option3"}
-                            onChange={handleChange}
-                          />
-                          Event Enthusiast
-                        </label>
+                        {["Corporate Client", "Private Host", "Event Enthusiast"].map((label, i) => (
+                          <label key={i} className="d-flex align-items-center gap-2">
+                            <input type="radio" value={`option${i + 1}`} checked={selectedOption === `option${i + 1}`} onChange={handleChange} />
+                            {label}
+                          </label>
+                        ))}
                       </div>
+
                       <div className="mt-4">
-                        <label
-                          htmlFor="exampleSelect"
-                          className="form-label text-white"
-                        >
-                          What type of event are you planning?
-                        </label>
-                        <select className="form-select w-50" id="exampleSelect">
+                        <label htmlFor="eventSelect" className="form-label text-white">What type of event are you planning?</label>
+                        <select className="form-select w-50" id="eventSelect">
                           <option value="">Select an option</option>
-                          <option value="option1">Corporate Meetup</option>
-                          <suboption value="option1">Corporate Meetup</suboption>
-                          <option value="option2">Gala</option>
-                          <option value="option3">Themed Party</option>
-                          <option value="option4">Festival</option>
+                          {["Corporate Meetup", "Gala", "Themed Party", "Festival"].map((option, i) => (
+                            <option key={i} value={option}>{option}</option>
+                          ))}
                         </select>
                       </div>
+
                       <div className="mt-4 d-flex flex-column">
-                        <label
-                          htmlFor="exampleInput"
-                          className="form-label text-white"
-                        >
-                          WHAT ARE YOU REACHING OUT ?
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control w-50"
-                          id="exampleInput"
-                          placeholder="Type something..."
-                        />
+                        <label htmlFor="reasonInput" className="form-label text-white">What are you reaching out for?</label>
+                        <input type="text" className="form-control w-50" id="reasonInput" placeholder="Type something..." />
                       </div>
                     </form>
                   </>
-                ) : step === 2 ? (
+                )}
+
+                {step === 2 && (
                   <div className="text-white">
-                    <h6 className="text-white mt-4">WHO ARE YOU ?</h6>
+                    <h6 className="text-white mt-4">Who are you?</h6>
                     <form>
                       <div className="d-flex gap-5 text-white">
-                        <label className="d-flex align-items-center gap-2">
-                          <input
-                            type="radio"
-                            value="option1"
-                            checked={selectedOption === "option1"}
-                            onChange={handleChange}
-                          />
-                          Option 1
-                        </label>
-                        <label className="d-flex align-items-center gap-2">
-                          <input
-                            type="radio"
-                            value="option2"
-                            checked={selectedOption === "option2"}
-                            onChange={handleChange}
-                          />
-                          Option 2
-                        </label>
-                        <label className="d-flex align-items-center gap-2">
-                          <input
-                            type="radio"
-                            value="option3"
-                            checked={selectedOption === "option3"}
-                            onChange={handleChange}
-                          />
-                          Option 3
-                        </label>
+                        {["Option 1", "Option 2", "Option 3"].map((label, i) => (
+                          <label key={i} className="d-flex align-items-center gap-2">
+                            <input type="radio" value={`option${i + 1}`} checked={selectedOption === `option${i + 1}`} onChange={handleChange} />
+                            {label}
+                          </label>
+                        ))}
                       </div>
+
                       <div className="mt-4">
-                        <label
-                          htmlFor="exampleSelect"
-                          className="form-label text-white"
-                        >
-                          WHAT WOULD BE YOUR NEEDS ?
-                        </label>
-                        <select className="form-select w-50" id="exampleSelect">
+                        <label htmlFor="needsSelect" className="form-label text-white">What would be your needs?</label>
+                        <select className="form-select w-50" id="needsSelect">
                           <option value="">Select an option</option>
-                          <option value="option1">Option 1</option>
-                          <option value="option2">Option 2</option>
-                          <option value="option3">Option 3</option>
+                          {["Option 1", "Option 2", "Option 3"].map((option, i) => (
+                            <option key={i} value={option}>{option}</option>
+                          ))}
                         </select>
                       </div>
+
                       <div className="mt-4 d-flex flex-column">
-                        <label
-                          htmlFor="exampleInput"
-                          className="form-label text-white"
-                        >
-                          WHAT ARE YOU REACHING OUT ?
-                        </label>
-                        <input
-                          type="text"
-                          className="form-control w-50"
-                          id="exampleInput"
-                          placeholder="Type something..."
-                        />
+                        <label htmlFor="finalInput" className="form-label text-white">What are you reaching out for?</label>
+                        <input type="text" className="form-control w-50" id="finalInput" placeholder="Type something..." />
                       </div>
                     </form>
                   </div>
-                ) : (
-                  <div className="text-white">
-                    <h5 className="mt-4">Thank You for Your Response!</h5>
-                  </div>
                 )}
-                <div className="d-flex mx-5 ">
-                  {step === 1 ? (
-                    <button className="corner-button mt-5" onClick={handleContinue}>
-                      <span>Continue</span>
-                    </button>
-                  ) : step === 2 ? (
-                    <button className="corner-button  mt-5" onClick={handleSubmit}>
-                      <span>Submit</span>
-                    </button>
-                  ) : null}
+
+                {step === 3 && <h5 className="text-white mt-4">Thank You for Your Response!</h5>}
+
+                <div className="d-flex mx-5">
+                  {step === 1 && <button className="corner-button mt-5" onClick={handleContinue}><span>Continue</span></button>}
+                  {step === 2 && <button className="corner-button mt-5" onClick={handleSubmit}><span>Submit</span></button>}
                 </div>
               </div>
             </div>
+
           </div>
         </Modal.Body>
       </Modal>
     </div>
   );
 };
+
 export default Formdiv;

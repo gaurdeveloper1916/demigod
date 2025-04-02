@@ -11,8 +11,10 @@ import Footer from "./component/common/footer/Footer";
 import { ToastContainer } from "react-toastify";
 import { Slide } from "react-toastify";
 import AppProvider from "../context/AppContext";
+import dynamic from "next/dynamic";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const Bootstrap = dynamic(() => import("bootstrap/dist/js/bootstrap.bundle.min"), { ssr: false });
 
 export default function RootLayout({ children }) {
   const customToastStyles = {
