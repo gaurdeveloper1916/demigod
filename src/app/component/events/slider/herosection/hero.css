@@ -1,24 +1,43 @@
-.custom-carousel-btn {
-  background-color: rgba(128, 128, 128, 0.7) !important; /* Gray Background */
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.carousel-container-test {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.slide-video-test, .slide-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.custom-button-test {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease-in-out;
 }
 
-.carousel-control-prev {
-  left: 3rem; /* Adjust as needed */
+.custom-button-test.left {
+  left: 20px;
 }
 
-.carousel-control-next {
-  right: 3rem; /* Adjust as needed */
+.custom-button-test.right {
+  right: 20px;
 }
 
-.custom-carousel-btn:hover {
-  background-color: rgba(128, 128, 128, 0.9) !important; /* Darker Gray on Hover */
+.custom-button-test:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
 }

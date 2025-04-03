@@ -1,51 +1,55 @@
-'use client'
-import React, { useEffect } from "react";
-import { Button } from "react-bootstrap";
-import './hero.css';
+"use client";
+import React, { useRef } from "react";
+import Slider from "react-slick";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import "./hero.css";
 
 const CarouselSection = () => {
-  // useEffect(() => {
-  //   import("bootstrap/dist/js/bootstrap.bundle.min");
-  // }, []);
+  const sliderRef = useRef(null);
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: false, // Default arrows हटा दिए गए हैं
+    pauseOnHover: false,
+  };
 
   return (
-    <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
-      <div className="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      </div>
-      
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <video className="d-block w-100" style={{ width: "100%", height: "100vh", objectFit: "cover" }}  autoPlay loop muted>
-            <source src="/1.MP4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        <div className="carousel-item">
-          <video className="d-block w-100" style={{ width: "100%", height: "100vh", objectFit: "cover" }}  autoPlay loop muted>
-            <source src="/car-o-bar.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-        <div className="carousel-item">
-          <img className="d-block w-100" style={{ height: '100vh', objectFit: "cover" }} src="./event-page/enter.jpeg" alt="Slide 3" />
-        </div>
-        <div className="carousel-item">
-          <img className="d-block w-100" style={{ height: '100vh', objectFit: "cover" }} src="./event-page/agrotech1.jpeg" alt="Slide 4" />
-        </div>
-      </div>
-
-      {/* Custom Previous and Next Buttons */}
-      <button className="carousel-control-prev custom-carousel-btn d-flex" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Previous</span>
+    <div className="carousel-container-test">
+      {/* Left Navigation Button */}
+      <button className="custom-button-test left" onClick={() => sliderRef.current?.slickPrev()}>
+        <FaChevronLeft />
       </button>
-      <button className="carousel-control-next custom-carousel-btn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="visually-hidden">Next</span>
+
+      <Slider ref={sliderRef} {...settings} className="carousel-slider">
+        <div>
+          <video className="slide-video-test" autoPlay loop muted>
+            <source src="/1.MP4" type="video/mp4" />
+          </video>
+        </div>
+        <div>
+          <video className="slide-video-test" autoPlay loop muted>
+            <source src="/car-o-bar.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div>
+          <img className="slide-image" src="/event-page/enter.jpeg" alt="Slide 3" />
+        </div>
+        <div>
+          <img className="slide-image" src="/event-page/agrotech1.jpeg" alt="Slide 4" />
+        </div>
+      </Slider>
+
+      {/* Right Navigation Button */}
+      <button className="custom-button-test right" onClick={() => sliderRef.current?.slickNext()}>
+        <FaChevronRight />
       </button>
     </div>
   );
