@@ -1,156 +1,461 @@
-import Header from "../component/common/header/Header";
+import React from "react";
+import Marquee from "react-fast-marquee";
 import './index.css'
+import Header from "../component/common/header/Header";
 const page = () => {
-    return (
-        <>
+  const features = [
+    {
+      title: "Why Choose Us?",
+      text: "With a deep understanding of market trends and innovative strategies, we drive brands toward unparalleled growth. Our results-driven approach ensures your business stays ahead in the competitive landscape.",
+    },
+    {
+      title: "Creative Experts",
+      text: "Our team of visionary marketers, designers, and strategists crafts compelling campaigns that resonate with your audience. We turn ideas into impactful brand stories that drive engagement and conversions.",
+    },
+    {
+      title: "Launch & Scale",
+      text: "From seamless campaign execution to continuous optimization, we ensure your brand’s success. We refine strategies based on insights, maximizing reach and impact for sustainable growth.",
+    },
+  ];
+  return (
+    <div className="">
         <Header/>
-            <section className="py-3 py-md-5 bg-black text-white ">
-                <div className="container">
-                    <div className="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
-                        <div className="col-12 col-lg-6 col-xl-5">
-                            <img className="img-fluid rounded" loading="lazy" src="./section-3/scroll-img-4.jpg" alt="About 1" />
-                        </div>
-                        <div className="col-12 col-lg-6 col-xl-7">
-                            <div className="row justify-content-xl-center ">
-                                <div className="col-12 col-xl-11 mt-5">
-                                    <h2 className="mb-3">Who Are We?</h2>
-                                    <p className="lead fs-4 text-white mb-3">We help people to build incredible brands and superior products. Our perspective is to furnish outstanding captivating services.</p>
-                                    <p className="mb-5">We are a fast-growing company, but we have never lost sight of our core values. We believe in collaboration, innovation, and customer satisfaction. We are always looking for new ways to improve our products and services.</p>
-                                    <div className="row gy-4 gy-md-0 gx-xxl-5X">
-                                        <div className="col-12 col-md-6">
-                                            <div className="d-flex">
-                                                <div className="me-4 text-primary">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-gear-fill" viewBox="0 0 16 16">
-                                                        <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
-                                                    </svg>
-                                                </div>
-                                                <div>
-                                                    <h2 className="h4 mb-3">Versatile Brand</h2>
-                                                    <p className="text-white mb-0">We are crafting a digital method that subsists life across all mediums.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="col-12 col-md-6">
-                                            <div className="d-flex">
-                                                <div className="me-4 text-primary">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-fire" viewBox="0 0 16 16">
-                                                        <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
-                                                    </svg>
-                                                </div>
-                                                <div>
-                                                    <h2 className="h4 mb-3">Digital Agency</h2>
-                                                    <p className=" mb-0 text-white">We believe in innovation by merging primary with elaborate ideas.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div className="px-lg-5 px-3 px-md-5 background_video">
+        <video autoPlay loop muted playsInline className="video-background">
+          <source src="/bg-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="row gx-5 d-flex justify-content-center vh-100 align-items-center">
+          <div className="col-lg-8 p-lg-5 p-3 p-md-4">
+            <div className="text-center my-5">
+              <h1
+                className="display-2 fw-bolder text-white mb-2"
+                data-aos="fade-up"
+                data-aos-duration="2000"
+              >
+                About Us
+              </h1>
+              <h2
+                className="text-white-50 mt-4"
+                style={{ fontWeight: "600", lineHeight: "40px" }}
+              >
+                At our core, we prioritize pushing boundaries, embracing the
+                unknown, and fostering a culture of continuous learning.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="bg-black">
+        <div className="container px-lg-5 px-4 px-md-5">
+          <div className="row  d-flex justify-content-center  ">
+            <div className="col-lg-8 p-4">
+              <div className="text-center ">
+                <div className="d-flex justify-content-center align-items-center">
+                  <h4
+                    className="  text-white mb-2 p-2  rounded-2 px-4  "
+                    style={{
+                      border: "1px solid #3d3d3d",
+                      backgroundColor: "#252525",
+                    }}
+                    data-aos="fade-up"
+                    data-aos-duration="1000"
+                  >
+                    Our Story
+                  </h4>
                 </div>
-            </section>
+                <p
+                  className="text-white-50 mb-4  mt-4 lead text-jutsify "
+                  style={{
+                    textAlign: "justify",
+                    fontWeight: "500",
+                  }}
+                >
+                  Our journey began in 2011 as an event management and marketing
+                  ogency, specializing in corporate events and ATL/BTL marketing
+                  for oding brands across India. Over the years, we but a
+                  reputation for market Solution. <br></br> <br></br> However,
+                  the COVID-19 disruption reshaped global markets, inspiring us
+                  10 oive and innovate. In response, we restructured our entity
+                  as part of d edge Fund group, expanding our focus beyond
+                  marketing fo executing dustrial associations for a diverse
+                  portfolio of brands. Today, we dri helping businesses
+                  establish dominance in competiive landscapes
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
-
-            <section className="py-3 py-md-5 py-xl-8 bg-black text-white">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12 col-md-10 col-lg-8">
-                            <h3 className="fs-5 mb-2 text-secondary text-uppercase text-white">About</h3>
-                            <h2 className="display-5 mb-4">At our core, we prioritize pushing boundaries, embracing the unknown, and fostering a culture of continuous learning.</h2>
-                            <button type="button" className="btn btn-lg mb-3 fs-6 mb-md-4 mb-xl-5">Connect Now</button>
+        <div className=" px-lg-5 px-3 px-md-5 ">
+          <div className="row  d-flex justify-content-center overflow-hidden ">
+            <div className="col-lg-11 p-4">
+              <div className="">
+                <h2
+                  className=" text-center text-white mb-2"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
+                  Our Differentiator
+                </h2>
+                <div className="d-flex justify-content-between ">
+                  <div className="g-4 row py-5 ">
+                    {features.map((feature, index) => (
+                      <div
+                        className="col-lg-4 col-md-6 col-12 d-flex"
+                        key={index}
+                        data-aos={
+                          index === 0
+                            ? "fade-right"
+                            : index === 1
+                            ? "fade-up"
+                            : "fade-left"
+                        }
+                        data-aos-duration="2000"
+                      >
+                        <div className="text-light card bg-dark border-0 d-flex flex-column w-100 p-3">
+                          <div
+                            style={{
+                              height: "160px",
+                              backgroundColor: "#444",
+                              borderRadius: "10px",
+                            }}
+                          ></div>
+                          <div className="card-body d-flex flex-column align-items-start ">
+                            <h4>{feature.title}</h4>
+                            <p className="mt-2">{feature.text}</p>
+                          </div>
                         </div>
-                    </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                <div className="container">
-                    <div className="row gy-3 gy-md-4 gy-lg-0">
-                        <div className="col-12 col-lg-6">
-                            <div className="card bg-color bg-light p-3 m-0">
-                                <div className="row gy-3 gy-md-0 align-items-md-center">
-                                    <div className="col-md-5 ">
-                                        <img src="./section-3/scroll-img-1.jpg" className="img-fluid rounded-start" alt="Why Choose Us?" />
-                                    </div>
-                                    <div className="col-md-7">
-                                        <div className="card-body p-0">
-                                            <h2 className="card-title h4 mb-3 gradiant-text">Why Choose Us?</h2>
-                                            <p className="card-text lead">With years of experience and deep industry knowledge, we have a proven track record of success and are pushing ourselves to stay ahead of the curve.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-12 col-lg-6">
-                            <div className="card bg-color bg-light p-3 m-0">
-                                <div className="row  gy-3 gy-md-0 align-items-md-center">
-                                    <div className="col-md-5">
-                                        <img src="./section-3/scroll-img-2.jpg" className="img-fluid rounded-start" alt="Visionary Team" />
-                                    </div>
-                                    <div className="col-md-7 ">
-                                        <div className="card-body p-0">
-                                            <h2 className="card-title h4 mb-3 gradiant-text">Visionary Team</h2>
-                                            <p className="card-text lead">With a team of visionary engineers, developers, and creative minds, we embark on a journey to transform complex challenges into ingenious technological solutions.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div className="text-light bg-black py-5 overflow-hidden">
+          <div className="container  ">
+            <div data-aos="fade-up" data-aos-duration="1500">
+              <div className="d-flex justify-content-center align-items-center">
+                <h4
+                  className="  text-white mb-2 p-2  rounded-2 px-4  "
+                  style={{
+                    border: "1px solid #3d3d3d",
+                    backgroundColor: "#252525",
+                  }}
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  Our Mission
+                </h4>
+              </div>
+
+              <div className=" d-flex justify-content-center">
+                <div className="col-lg-9">
+                  <p
+                    className="text-white-50 mb-4  mt-4 lead text-center "
+                    style={{
+                      fontWeight: "500",
+                    }}
+                  >
+                    Empowering brands to transcend boundaries by delivering
+                    innovative solutions in brand marketing, seed funding,
+                    venture capital, and contract manufacturing. We are
+                    committed to creating impactful alliances, driving
+                    sustainable growth, and crafting success stories across B2B
+                    and B2C sectors globally. With a future-ready approach and a
+                    zero-carbon footprint commitment, we aim to redefine
+                    industries while connecting brands to unparalleled
+                    opportunities worldwide.
+                  </p>
                 </div>
+              </div>
+            </div>
 
-            </section>
-
-
-            <section class="py-3 py-md-5 py-xl-8 bg-black text-white">
-                <div class="container">
-                    <div class="row justify-content-md-center">
-                        <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6">
-                            <h2 class="mb-4 display-5 text-center">Our Mission</h2>
-                            <p class="text-secondary mb-5 text-center lead fs-4 text-white">We believe in the power of teamwork and collaboration. Our diverse experts work tirelessly to deliver innovative solutions tailored to our clients' needs.</p>
-                            <hr class="w-50 mx-auto mb-5 mb-xl-9 border-dark-subtle" />
-                        </div>
-                    </div>
+            <div className="row mt-5 align-items-stretch">
+              <div className="col-md-4 d-flex">
+                <div
+                  className="p-4 rounded-3 shadow d-flex flex-column h-100"
+                  data-aos="fade-up"
+                  data-aos-duration="1500"
+                >
+                  <p className="fs-5 mb-0">
+                    As a passionate and ambitious agency, we are committed to
+                    helping brands make a lasting impact. Our fresh perspective,
+                    innovative approach, and dedication to excellence set us
+                    apart. We believe in crafting powerful marketing strategies
+                    that drive real results.
+                  </p>
                 </div>
+              </div>
 
-                <div class="container">
-                    <div class="row gy-4 gy-lg-0 align-items-lg-center">
-                        <div class="col-12 col-lg-6">
-                            <img class="img-fluid rounded border border-dark" loading="lazy" src="./section-3/scroll-img-2.jpg" alt="About Us" />
-                        </div>
-                        <div class="col-12 col-lg-6 col-xxl-6">
-                            <div class="row justify-content-lg-end">
-                                <div class="col-12 col-lg-11">
-                                    <div class="about-wrapper">
-                                        <p class="lead mb-4 mb-md-5">As a socially responsible entity, we are deeply committed to positively impacting the communities we serve and the world at large. Through various initiatives and partnerships, we actively contribute to environmental sustainability, social welfare, and educational advancement.</p>
-                                        <div class="row gy-4 mb-4 mb-md-5">
-                                            <div class="col-12 col-md-6">
-                                                <div class="card border border-dark">
-                                                    <div class="card-body bg-color rounded p-4">
-                                                        <h3 class="display-5 fw-bold text-primary text-center mb-2">370+</h3>
-                                                        <p class="fw-bold text-center m-0">Qualified Experts</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-12 col-md-6">
-                                                <div class="card border border-dark">
-                                                    <div class="card-body bg-color rounded p-4">
-                                                        <h3 class="display-5 fw-bold text-primary text-center mb-2">18k+</h3>
-                                                        <p class="fw-bold text-center m-0">Satisfied Clients</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <button type="button" className="btn btn-lg mb-3 fs-6 mb-md-4 mb-xl-5">Explore Now</button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+              <div className="col-md-4 d-flex">
+                <div
+                  className="p-4 rounded-3 shadow d-flex flex-column justify-content-center h-100"
+                  style={{ border: "1px solid #3d3d3d" }}
+                  data-aos="fade-right"
+                  data-aos-duration="1500"
+                >
+                  <h1 className="fw-bold">Bold Ideas</h1>
+                  <h5 style={{ lineHeight: "30px", flexGrow: 1 }}>
+                    We bring fresh, innovative concepts that help businesses
+                    stand out in a competitive digital landscape.
+                  </h5>
                 </div>
-            </section>
+              </div>
 
-        </>
-    )
-}
+              <div className="col-md-4 d-flex mt-3 mt-md-0">
+                <div
+                  className="p-4 rounded-3 shadow d-flex flex-column h-100"
+                  style={{ border: "1px solid #3d3d3d" }}
+                  data-aos="fade-left"
+                  data-aos-duration="1500"
+                >
+                  <h1 className="fw-bold">Data-Driven Strategies</h1>
+                  <h5 style={{ lineHeight: "30px", flexGrow: 1 }}>
+                    Every decision we make is backed by insights, ensuring
+                    maximum impact and measurable growth.
+                  </h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="container py-5 mt-lg-5">
+          <div className="d-flex justify-content-center align-items-center  py-lg-5 ">
+            <div className="col-lg-6 black_shade">
+              <Marquee speed={30}>
+                <div className="d-flex ">
+                  <div className="px-5">
+                    <img
+                      src="https://www.artdemigod.com/assets/image/art%20logo%20finel.png"
+                      width="350px"
+                      height="150px"
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
+                  <div className="px-5">
+                    <img
+                      src="https://www.demigodcloud.com/images/demigod%20vector%20nav.webp"
+                      width="350px"
+                      height="150px"
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
+                  <div className="px-5">
+                    <img
+                      src="https://www.demigodcloud.com/images/demigod%20vector%20nav.webp"
+                      width="350px"
+                      height="150px"
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
+                  <div className="px-5">
+                    <img
+                      src="./logo/healthboxlogo.png"
+                      width="350px"
+                      height="150px"
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
+                  <div className="px-5">
+                    <img
+                      src="./logo/demigodlogo.png"
+                      width="350px"
+                      height="150px"
+                      style={{ objectFit: "cover" }}
+                    />
+                  </div>
+                </div>
+              </Marquee>
+            </div>
+          </div>
+        </div>
+
+        <div className="text-light bg-black py-5 overflow-hidden mt-lg-3">
+          <div className="container  ">
+            <div data-aos="fade-up" data-aos-duration="1500">
+              <div className="d-flex justify-content-center align-items-center">
+                <h4
+                  className="  text-white mb-2 p-2  rounded-2 px-4  "
+                  style={{
+                    border: "1px solid #3d3d3d",
+                    backgroundColor: "#252525",
+                  }}
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                >
+                  FAQs
+                </h4>
+              </div>
+
+              <div className=" d-flex justify-content-center ">
+                <p
+                  className="text-white mt-3 display-5 "
+                  style={{ fontWeight: "600" }}
+                >
+                  We’re here to help
+                </p>
+              </div>
+            </div>
+
+            <div className="d-flex justify-content-center align-items-center ">
+              <div className="col-lg-10 col-md-10 col-12">
+                {" "}
+                <div
+                  className="accordion custom-accordion my-5 "
+                  id="faqAccordion"
+                >
+                  <div className="accordion-item ">
+                    <h2 className="accordion-header" id="headingOne">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="false"
+                        aria-controls="collapseOne"
+                      >
+                        What is Demigod House ?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      className="accordion-collapse collapse show mb-2"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#faqAccordion"
+                    >
+                      <div className="accordion-body">
+                        At our core, we prioritize pushing boundaries, embracing
+                        the unknown, and fostering a culture of continuous
+                        learning.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingTwo">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo"
+                        aria-expanded="false"
+                        aria-controls="collapseTwo"
+                      >
+                        What services do we provide?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseTwo"
+                      className="accordion-collapse collapse mb-2"
+                      aria-labelledby="headingTwo"
+                      data-bs-parent="#faqAccordion"
+                    >
+                      <div className="accordion-body">
+                        We offer end-to-end creative solutions, from branding
+                        and strategy to development and post-launch support.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingThree">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        What is the process?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      className="accordion-collapse collapse mb-2"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#faqAccordion"
+                    >
+                      <div className="accordion-body">
+                        Our process includes discovery, ideation, prototyping,
+                        execution, and feedback-driven iteration.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item">
+                    <h2 className="accordion-header" id="headingFour">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseFour"
+                      >
+                        What sectors do we cater?
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFour"
+                      className="accordion-collapse collapse mb-2"
+                      aria-labelledby="headingFour"
+                      data-bs-parent="#faqAccordion"
+                    >
+                      <div className="accordion-body">
+                        We serve a wide range of sectors including tech
+                        startups, lifestyle brands, fintech, and more.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="text-light bg-black py-5 overflow-hidden">
+          <div className="container  ">
+            <div data-aos="fade-up" data-aos-duration="1500">
+              <div className="d-flex justify-content-center align-items-center">
+                <img src="./logo/demigodlogo.png" width="200px" />
+              </div>
+
+              <div className=" d-flex justify-content-center ">
+                <div className="col-lg-4 text-center">
+                  <p
+                    className="text-white mt-3 display-5 "
+                    style={{ fontWeight: "600" }}
+                  >
+                    Let’s talk about your next big move
+                  </p>
+                  <p
+                    className="text-white mt-3 fs-5 "
+                    style={{ fontWeight: "600" }}
+                  >
+                    Hop on a call with us to see how our services can accelerate
+                    your growth.
+                  </p>
+
+                  <button className="effect effect-3 p-1 mt-3">
+                    Schedule a Call back
+                  </button>
+                  <p className="mt-2 lead">
+                    its <strong>Free</strong>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default page;

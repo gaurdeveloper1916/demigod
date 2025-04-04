@@ -1,10 +1,120 @@
-.gradiant-text{
-    background-image: linear-gradient(90deg, rgba(74, 68, 161, 1) 13%, rgba(198, 162, 203, 1) 100%, rgba(0, 212, 255, 1) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
-
-.bg-color{
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-}
+.background_video {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .black_shade {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .black_shade::before,
+  .black_shade::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 15%;
+    pointer-events: none;
+    z-index: 2;
+  }
+  
+  .black_shade::before {
+    left: 0;
+    background: linear-gradient(
+      to right,
+      rgb(0 0 0 / 93%) 0%,
+      rgb(0 0 0 / 0%) 100%
+    );
+  }
+  
+  .black_shade::after {
+    right: 0;
+    background: linear-gradient(
+      to left,
+      rgb(0 0 0 / 93%) 0%,
+      rgb(0 0 0 / 0%) 100%
+    );
+  }
+  
+  .effect {
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .effect.effect-3 {
+    transition: all 0.2s linear 0s;
+  
+    &:before {
+      content: " Schedule a Call back ";
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 100%;
+      left: 0px;
+      width: 100%;
+      height: 100%;
+      text-align: center;
+      transition: all 0.2s linear 0.2s;
+    }
+  
+    &:hover {
+      text-indent: -9999px;
+  
+      &:before {
+        top: 0;
+        text-indent: 0;
+      }
+    }
+  }
+  .custom-accordion .accordion-item {
+    background: linear-gradient(to right, #1a1a1a, #e2ca8f33 50%, #1a1a1a);
+    border: none;
+    border-radius: 15px !important;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding: 9px;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+  }
+  
+  .custom-accordion .accordion-button {
+    background: transparent !important;
+    color: #fff !important;
+    font-weight: 600;
+    box-shadow: none;
+  }
+  
+  .custom-accordion .accordion-button:not(.collapsed) {
+    background: transparent;
+    color: #fff;
+  }
+  
+  .custom-accordion .accordion-body {
+    color: #ccc;
+    font-weight: 500;
+    padding: 10px;
+    margin-left: 18px;
+  }
+  
+  .accordion-button::after {
+    filter: invert(1);
+  }
