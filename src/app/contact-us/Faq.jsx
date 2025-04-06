@@ -4,73 +4,67 @@ import { Accordion } from "react-bootstrap";
 const Faq = () => {
   return (
     <div className="d-flex justify-content-center align-items-center">
-      <div className="col-lg-10">
-        <h3 className="text-white p-3 membership-title">
-          F.A.Q
-        </h3>
+      <div className="col-lg-8">
+        <h3 className="text-white p-3 membership-title">F.A.Q</h3>
         <Accordion className="d-flex flex-column gap-4" defaultActiveKey="0">
           <Accordion.Item eventKey="0">
-            <Accordion.Header>What is the agenda behind DemiGod House & no. of subsidaries ?</Accordion.Header>
+            <Accordion.Header>
+              What is the agenda behind DemiGod House & number of subsidiaries?
+            </Accordion.Header>
             <Accordion.Body>
-              Event Management / Activation Agencies / Experiential Marketing Companies / International Agencies with a minimum turnover of Rs. 2 crore in the immediate past year and in existence for at least two years.
-              <ul>
-                <li>Participation in the Annual General Meeting without voting rights.</li>
-                <li>Access to EEMA events.</li>
-                <li>Complimentary access to two EEMA workshops.</li>
-              </ul>
-              <h5>FAQs:</h5>
-              <p><strong>Q:</strong> How can I apply for general membership?</p>
-              <p><strong>A:</strong> You can apply through our website by filling out the membership form and submitting the required documents.</p>
+              <p className="accordian-color-cus">
+                DemiGod House is the flagship subsidiary of our hedge fund structuring, orchestrating a network of other subsidiaries across diverse sectors and spanning 48 countries. This chic collective is devoted to pioneering the most promising, ROI-generating strategies, firmly establishing itself as the ultimate high-flyer in the financial cosmos.
+              </p>
             </Accordion.Body>
           </Accordion.Item>
-
           <Accordion.Item eventKey="1">
-            <Accordion.Header>Modus Operandi to participate in DemiGod House Events !n </Accordion.Header>
-            <Accordion.Body>
-              Event Management and Activation Agencies / Experiential Marketing Companies with a minimum turnover of Rs. 4 crore in the immediate past year and in existence for at least two years.
-              <ul>
-                <li>Right to vote & hold office in the National Executive Committee.</li>
-                <li>Participation in the Annual General Meeting with voting rights.</li>
-                <li>Access to EEMA events.</li>
-                <li>Complimentary access to three EEMA workshops.</li>
-              </ul>
-              <h5>FAQs:</h5>
-              <p><strong>Q:</strong> What benefits do Platinum members get over other membership tiers?</p>
-              <p><strong>A:</strong> Platinum members have voting rights, can hold executive positions, and get additional workshop access.</p>
+            <Accordion.Header>
+              Modus Operandi to participate in DemiGod House events
+            </Accordion.Header>
+            <Accordion.Body >
+              <p>Two fabulous ways to join our exclusive DemiGod House events:</p>
+              <ol type="A" className="accordian-color-cus d-flex flex-column gap-3 mt-2 accordian-color-cus">
+                <li >
+                  <strong>Become a member:</strong> Pay a one-time profiling fee of ₹550 to enroll, and if eligible, simply cover the event participation fee. Voilà! This pathway lets you attend multiple events without the hassle of repeated profiling.
+                </li>
+                <li>
+                  <strong>Register for individual events:</strong> If you prefer a more selective approach, opt for individual event registration. Pay the profiling fee of ₹550 for each desired event, and if eligible, settle the participation fee for that specific gathering. Perfect for those wanting to make a stylish statement at select events.
+                </li>
+              </ol>
             </Accordion.Body>
           </Accordion.Item>
 
           <Accordion.Item eventKey="2">
-            <Accordion.Header>What is profiling Fee ? </Accordion.Header>
+            <Accordion.Header>What is the profiling fee?</Accordion.Header>
             <Accordion.Body>
-              Artists (stand-alone representing yourself – any of the below skills) who have performed in at least five shows with any existing EEMA Platinum, Gold, or Silver members.
-              <ul>
-                <li>Access to EEMA events at a special fee.</li>
-                <li>EEMAXG Awards Night attendance at a special fee.</li>
-                <li>Workshop attendance at a special fee.</li>
-                <li>Regional Conclaves at a special fee.</li>
+              <ul className="accordian-color-cus d-flex flex-column gap-3 mt-2 accordian-color-cus" >
+                <li>
+                  Profiling fee is a petite investment of ₹550 — your ticket to our world of refined events. This mandatory profiling interview, whether done virtually or in-person, ensures that every participant brings the charm and professionalism we adore, keeping our gatherings absolutely exquisite and filtering out any elements that might disrupt the ambiance.
+                </li>
+                <li>
+                  If a person is not eligible, the profiling fee will be adjusted in the paperwork, hence not refundable.
+                </li>
               </ul>
-              <h5>FAQs:</h5>
-              <p><strong>Q:</strong> How can artists become a Star Member?</p>
-              <p><strong>A:</strong> You need to provide proof of performance at five EEMA Platinum/Gold/Silver member events.</p>
             </Accordion.Body>
           </Accordion.Item>
 
           <Accordion.Item eventKey="3">
-            <Accordion.Header>How to get in touch ! </Accordion.Header>
+            <Accordion.Header>What are the grounds for profiling?</Accordion.Header>
             <Accordion.Body>
-              Event Support Service providers / Supply Chain / Artist Management Agencies in operation with a minimum turnover of Rs. 50 lacs in the last financial year.
-              <ul>
-                <li>Access to EEMA events.</li>
-                <li>Complimentary access to two EEMA workshops.</li>
+              <p>
+                At DemiGod House, we carefully select participants to maintain the excellence and spirit of our events. Candidates are assessed on three core pillars:
+              </p>
+              <ul className="accordian-color-cus d-flex flex-column gap-3 mt-2 accordian-color-cus">
+                <li>Ethics</li>
+                <li>Professionalism</li>
+                <li>Harmony</li>
               </ul>
-              <h5>FAQs:</h5>
-              <p><strong>Q:</strong> What type of service providers can apply?</p>
-              <p><strong>A:</strong> Companies involved in event logistics, artist management, production, technical support, and related services are eligible.</p>
+              <p className="accordian-color-cus d-flex flex-column gap-3 mt-2 accordian-color-cus">
+                This ensures that only those who embody these qualities join us, preserving the exclusivity and elegance of DemiGod House gatherings.
+              </p>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
-
       </div>
     </div>
   );

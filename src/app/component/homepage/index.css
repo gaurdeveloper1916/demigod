@@ -192,6 +192,9 @@ border-radius: .5rem;
   display: block;
   transition: opacity 0.3s ease;
 }
+.accordian-color-cus{
+  color: #ccc7c7;
+}
 .btn-custom{
   background-color: black;
   border: 1px solid white;

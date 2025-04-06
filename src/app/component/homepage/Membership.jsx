@@ -28,53 +28,98 @@ function Membership(props) {
       <div className="row bg-dark-black">
         <div className="col-lg-6 p-lg-4 p-3">
           <h3 className="text-white p-3 membership-title">
-          Exclusive Membership Benefits
+            Exclusive Membership Benefits
           </h3>
           <Accordion defaultActiveKey="0">
             <Accordion.Item eventKey="0" >
-              <Accordion.Header>Member Privileges</Accordion.Header>
-              <Accordion.Body>
-              DemiGod House subsidiaries offer elite benefits across diverse industries:
-              <li>Media & Publications: Stay ahead with exclusive weekly journal insights.</li>
-              <li>Financial Services: Upcoming NBFC with loans at lower rates than standard market.</li>
+              <Accordion.Header>Prive access to events globally across 48 countries, organised by
+                demigod house.</Accordion.Header>
+              <Accordion.Body className="d-flex flex-column gap-4">
+                <div>
+                  DemiGod House grants members access to exclusive events across 48 countries, fostering
+                  global connections and unique experiences.                  {/* <li>Discover our global footprint:  <a href="demigodhouse.com/events">https://demigodhouse.com/events</a></li> */}
+                </div>
+                <div>
+                  Discover our Events global footprint: demigodhouse.com/events
+                </div>
 
-              Hospitality & Retail:
-
-              <li>Organic Grocery & Salad Chain – A premium experience in dining & retail.
-              </li>
-              <li>Real Estate – Unlock high-value investment opportunities.
-              </li>
-              <li>Gems & Jewellery – Indulge in exclusive member discounts.
-              </li>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
-              <Accordion.Header>Enrollment & Membership Tiers (90% redeemable on DemiGod House services)</Accordion.Header>
+              <Accordion.Header>Benefits of Demigod house subsidiaries.</Accordion.Header>
               <Accordion.Body>
-              Event Management and Activation Agencies / Experiential Marketing Companies with a minimum turnover of (4 crore) in the immediate past year and in existence for a minimum of 2 years .
-              <li>Right to vote & hold office in the National Executive Committee</li>
-              <li>Participation in the Annual General Meeting with voting rights</li>
-              <li>Access to EEMA events</li>
-              <li>Complimentary access to three EEMA workshops</li>
+                A one-time profiling interview (₹550) ensures quality participation.
+                <div className="">
+                  <ul className="d-flex flex-column gap-3 mt-2 accordian-color-cus">
+                    <li>Organic Indulgence – Receive a curated Goodies Box featuring premium organic soft
+                      commodities, including farm-fresh fruits, vegetables, nuts, and Gir Cow Ghee via
+                      DemiGod House.
+                    </li>
+                    <li>Elite Financial Benefits – Enjoy financial loans at the lowest interest rates and secure
+                      12% + ROI through one of our NBFC subsidiaries.
+                    </li>
+                    <li>Seamless IT Support – Gain access to state-of-the-art IT solutions and services
+                      through DemiGod Cloud i.e., app/web/custom solutions/hardware/etc.</li>
+                    <li>VVIP Access to Global Events – Enjoy unparalleled VVIP access, luxury amenities
+                      and accommodations at Demigod house events across 48 nations.</li>
+                    <li>
+                      Luxury Gems & Jewelry – Adorn yourself with exquisite gems and fine jewelry at
+                      exclusive membership pricing via Anagari.
+                    </li>
+                    <li>Exclusive Facility Management – Avail world-class facility management services at
+                      members-only pricing via DemiGod Shield i.e. bouncers, advanced CCTV
+                      surveillance, meticulous maintenance, tailored security solutions, professional
+                      housekeeping, energy optimization, and seamless operational support for your
+                      spaces.</li>
+                    <li>
+                      And beyond – Enjoy premium benefits across 200+ elite subsidiaries under DemiGod
+                      House Hedge Funds portfolio, delivering a universe of privileges curated for the
+                      select few.
+                    </li>
+                  </ul>
+                </div>
+
+                <div>
+                  Step into a realm where exclusivity meets limitless possibilities.
+                </div>
+                <div>
+                  {`                Become a DemiGod House member today- {CTA}
+`}
+                </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2">
-              <Accordion.Header>Star Member</Accordion.Header>
+              <Accordion.Header>Enrollment and profiling fee </Accordion.Header>
               <Accordion.Body>
-              Artists ( stand alone representing yourself – Any of the below skills ) having performed for 5 shows with any existing EEMA Platinum / Gold / Silver members.
-            <li>Access to EEMA events at a special fee</li>
-            <li>EEMAXG Awards Night attendance at a special fee</li>
-            <li>Workshop attendance at a special fee</li>
-            <li>Regional Conclaves at a special fee</li>
+                <ul className="d-flex flex-column gap-3 mt-2 accordian-color-cus" >
+                  <li>Selective Entry: Only individuals who pass our profiling filtration process via virtual
+                    calls or meetings will be invited to DemiGod House events.</li>
+                  <li>EEMAXG Awards Night attendance at a special fee</li>
+                  <li>Profiling Interview Fee: Due to past concerns with unauthorized participation, a
+                    non-refundable profiling fee of ₹550 is required for the profiling interview.</li>
+                </ul>
+                <div className="d-flex flex-column gap-3 mt-2 accordian-color-cus" >This ensures a secure, high-caliber community where members experience exclusivity at its
+                  finest.</div>
+                <div>
+                  <h5 className="mt-2">HOW TO JOIN</h5>
+                 <li className="d-flex flex-column gap-3 mt-2 accordian-color-cus" >
+                 <li>Provide your essentials: name, email, and phone number.</li>
+                  <li>Secure your profile with the exclusive fee.</li>
+                  <li>Await a personal connection from our team.</li>
+                 </li>
+                  <div className="d-flex flex-column gap-3 mt-2 accordian-color-cus" >{`Proceed to Profiling Now- {CTA}`}</div>
+                </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="3">
-              <Accordion.Header>Associate Partner Member</Accordion.Header>
+              <Accordion.Header>Membership Amount & Standards</Accordion.Header>
               <Accordion.Body>
-              Event Support Service providers / Supply chain / Artist Management Agencies in operation & with a minimum turnover of Rs. 50 lacs & for one financial year.
-              <li>Access to EEMA events</li>
-              <li>Complimentary access to two EEMA workshops</li>
-               </Accordion.Body>
+                Event Support Service providers / Supply chain / Artist Management Agencies in operation & with a minimum turnover of Rs. 50 lacs & for one financial year.
+               <ul className="d-flex flex-column gap-3 mt-2 accordian-color-cus" >
+               <li>Access to EEMA events</li>
+               <li>Complimentary access to two EEMA workshops</li>
+               </ul>
+              </Accordion.Body>
             </Accordion.Item>
           </Accordion>
         </div>

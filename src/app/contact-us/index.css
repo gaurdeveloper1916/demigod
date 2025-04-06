@@ -14,6 +14,9 @@
     right: 10%;
     bottom:0;
 }
+.accordian-color-cus{
+    color: #ccc7c7;
+  }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
     .contact_heading{

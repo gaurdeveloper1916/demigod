@@ -1,9 +1,11 @@
 "use client";
 import React, { useState } from "react";
-import { FaAngleRight } from "react-icons/fa6";
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
+
 import Header from "../component/common/header/Header";
 import Faq from "./Faq";
 import "./index.css";
+import Slider from "react-slick";
 
 const locations = [
   {
@@ -17,7 +19,7 @@ const locations = [
     name: "Mumbai",
     image: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/40/ce/c3/mumbai-marine-drive-along.jpg?w=900&h=-1&s=1",
     address: "208,PMB,Charni Road, Opera House,Girgaon – Mumbai 400 004",
-    phone: "+91-7023843975",
+    phone: "+91 83558 97803",
     email: "dev@demigodhouse.com",
   },
   {
@@ -41,7 +43,7 @@ const locations = [
     phone: "+91-7023843975",
     email: "dev@demigodhouse.com",
   },
-  
+
   {
     name: "Washington, D.C.",
     image: "https://cdn.britannica.com/42/93842-050-295D32A0/US-Capitol-place-meeting-Congress-Washington-DC.jpg",
@@ -77,8 +79,8 @@ const locations = [
     phone: "+91-7023843975",
     email: "dev@demigodhouse.com",
   },
-  
-  
+
+
   {
     name: "Hyderabad",
     image: "https://i0.wp.com/weekendyaari.in/wp-content/uploads/2024/10/hyd-night-weekend-yaari-.jpg?fit=1224%2C816&ssl=1",
@@ -87,15 +89,50 @@ const locations = [
     email: "dev@demigodhouse.com",
   },
 ];
+const NextArrow = ({ onClick }) => (
+  <div
+    className="custom-arrow next-arrow"
+    onClick={onClick}
+    style={{
+      position: "absolute",
+      top: "3%",
+      right: "-32px",
+      zIndex: 1,
+      cursor: "pointer",
+      color: "#fff",
+      fontSize: "2.5rem",
+    }}
+  >
+    <FaAngleRight />
+  </div>
+);
 
+const PrevArrow = ({ onClick }) => (
+  <div
+    className="custom-arrow prev-arrow"
+    onClick={onClick}
+    style={{
+      position: "absolute",
+      top: "7%",
+      left: "-33px",
+      zIndex: 1,
+      cursor: "pointer",
+      color: "#fff",
+      fontSize: "2.5rem",
+    }}
+  >
+    <FaAngleLeft />
+  </div>
+);
 function ContactPage() {
   const [selectedLocation, setSelectedLocation] = useState(locations[0]);
 
   return (
     <div className="container-fluid bg-black position-relative">
+
       <Header />
 
-      {/* Hero Section */}
+
       <div
         className="d-flex flex-column justify-content-center align-items-center text-white"
         style={{
@@ -115,7 +152,6 @@ function ContactPage() {
       </div>
 
       <Faq />
-
       {/* Contact Form & Location Section */}
       <div
         className="col-lg-12 d-flex justify-content-center align-items-center mt-lg-5"
@@ -156,7 +192,7 @@ function ContactPage() {
             </button>
           </div>
 
-          <div className="col-lg-7 ">
+          <div className="col-lg-7">
             <div className="position-relative">
               <div
                 className="position-absolute w-100 text-center p-2"
@@ -164,36 +200,80 @@ function ContactPage() {
                   bottom: "0px",
                   left: "50%",
                   transform: "translateX(-50%)",
-                  background: "rgba(0, 0, 0, 0.6)", 
+                  background: "rgba(0, 0, 0, 0.6)",
                   color: "white",
                   borderRadius: "8px",
                 }}
               >
-                <p className="m-0 fs-5 font-semibold">{selectedLocation.name === 'Jaipur' || selectedLocation.name === 'Delhi' || selectedLocation.name === 'Mumbai' ? '':"Coming Soon@"}</p>
+                <p className="m-0 fs-5 font-semibold">
+                  {selectedLocation.name === 'Jaipur' || selectedLocation.name === 'Delhi' || selectedLocation.name === 'Mumbai'
+                    ? ''
+                    : 'Coming Soon@'}
+                </p>
                 <p className="m-0 fw-bold">{selectedLocation.address}</p>
               </div>
 
-              {/* Image */}
-              <img className="img-fluid w-100 rounded" style={{ height: "300px" }} src={selectedLocation.image} alt={selectedLocation.name} />
+              <img
+                className="img-fluid w-100 rounded"
+                style={{ height: "300px" }}
+                src={selectedLocation.image}
+                alt={selectedLocation.name}
+              />
             </div>
 
             <div className="d-flex justify-content-between align-items-center mt-3 mx-3">
               <p className="text-white fw-bold">Know Our Location</p>
-              <FaAngleRight className="text-white" size={30} />
+              {/* <FaAngleRight className="text-white" size={30} /> */}
             </div>
 
-            <div className="d-flex  mt-3 overflow-x-auto">
-              {locations.map((location, index) => (
-                <div key={index} className="col-lg-3">
-                  <img
-                    className="rounded img-fluid"
-                    style={{ width: "120px", height: "80px", objectFit: "cover", cursor: "pointer" }}
-                    src={location.image}
-                    alt={location.name}
-                    onClick={() => setSelectedLocation(location)}
-                  />
-                </div>
-              ))}
+            {/* Slider with arrows + autoplay */}
+            <div className="position-relative px-4">
+              <Slider
+                slidesToShow={4}
+                slidesToScroll={1}
+                autoplay={true}
+                autoplaySpeed={2500}
+                infinite={true}
+                nextArrow={<NextArrow />}
+                prevArrow={<PrevArrow />}
+                responsive={[
+                  {
+                    breakpoint: 992,
+                    settings: {
+                      slidesToShow: 3,
+                    },
+                  },
+                  {
+                    breakpoint: 768,
+                    settings: {
+                      slidesToShow: 2,
+                    },
+                  },
+                  {
+                    breakpoint: 576,
+                    settings: {
+                      slidesToShow: 1,
+                    },
+                  },
+                ]}
+              >
+                {locations.map((location, index) => (
+                  <div key={index} className="px-2">
+                    <img
+                      className="rounded img-fluid"
+                      style={{
+                        width: "100%",
+                        height: "80px",
+                        objectFit: "cover",
+                        cursor: "pointer",
+                      }}
+                      src={location.image}
+                      alt={location.name}
+                      onClick={() => setSelectedLocation(location)}
+                    />
+                  </div>
+                ))}
+              </Slider>
             </div>
 
             <div className="col-lg-8 mt-3 mx-3">
@@ -210,3 +290,9 @@ function ContactPage() {
 }
 
 export default ContactPage;
+
+
+
+
+
+
