@@ -1,0 +1,18 @@
+.background_video {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .text-cont{
+    position: absolute;
+    bottom: 0px;
+  }
