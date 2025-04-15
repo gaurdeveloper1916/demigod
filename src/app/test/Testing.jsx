@@ -119,8 +119,8 @@ const Testing = () => {
                         </div>
                         <div className='d-flex justify-content-center align-items-center gap-4 flex-wrap mt-5'>
                             {
-                                Data.map((item) => {
-                                    return <div className=' automobile '
+                                Data.map((item,i) => {
+                                    return <div key={i} className=' automobile '
                                      data-aos="fade-up"
                                         data-aos-duration="1500">
                                         <div className=' bottom-0 px-2 '>
