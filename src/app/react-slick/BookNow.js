@@ -5,9 +5,19 @@ import { FaPlus } from "react-icons/fa";
 import './book.css'
 import Link from "next/link";
 import { Auth } from "../../context/AppContext";
-const Booknow = () => {
-  const { handleUpdate } = useContext(Auth);
+import { useRouter } from 'next/navigation';
 
+
+const Booknow = () => {
+  const { handleUpdate, imageForLandingPage } = useContext(Auth);
+  const router = useRouter();
+
+  function handleChange(title, description, ticketdes, imdVideo, leftImage, rightImage) {
+    handleUpdate(title, description, ticketdes)
+    imageForLandingPage(leftImage, imdVideo, rightImage)
+    router.push('/landingpage');
+
+  }
   const [currentSlide, setCurrentSlide] = useState("standup");
   return (
     <>
@@ -17,21 +27,22 @@ const Booknow = () => {
           style={{
             display: "flex",
             height: '100vh',
+            width:'100%',
             background: `url(${currentSlide === "standup"
-              ? 
+              ?
               // "/images/landing-page-images/section4/test.webp"
               "./event-page/yatch_summer.webp"
 
               : currentSlide === "djnight"
-                ? 
+                ?
                 // "/images/landing-page-images/section4/oktober_fest.webp"
                 "./event-page/october_fest.webp"
-                
 
-                : 
-                
+
+                :
+
                 // "/images/landing-page-images/section4/yacht_party.webp"
-                "./event-page/theme_event.webp"
+                "./event-page/startwars.jpeg"
 
               }) center center / contain no-repeat`,
           }}
@@ -64,14 +75,11 @@ const Booknow = () => {
                 music, and entertainment. Enjoy breathtaking ocean views, gourmet dining, and an
                 exclusive party atmosphere like no other.
               </p>
-              <Link href="/landingpage">
-                <button onClick={() => {
-                  handleUpdate(`D'Yacht Party`, `Sail into Luxury & Celebration`, ` Step aboard a magnificent yacht and indulge in an unforgettable evening of luxury,
-              music, and entertainment. Enjoy breathtaking ocean views, gourmet dining, and an
-              exclusive party atmosphere like no other.`)
-                }} className="btn">Book Now</button>
+             
+                <button className="btn" onClick={() => { handleChange(item.event_name, item.desc, item.ticketsDes, item.image, item.leftImage, item.rightImage) }}>
+                  Book Now
+                </button>
 
-              </Link>
             </div>
           </div>
 
@@ -122,7 +130,7 @@ const Booknow = () => {
                 className={`book_title text-uppercase ${currentSlide === "dandiyanight" ? "active" : ""
                   }`}
               >
-                Star Wars Thomo Party
+                Star Wars Theme Party
               </p>
             </div>
 
@@ -132,7 +140,7 @@ const Booknow = () => {
             >
               {/* <p className="text-uppercase fs-5 font-bold"> Star Wars</p> */}
               <h1>
-              Star Wars Thomo Party
+                Star Wars Theme Party
               </h1>
               <p className="fs-6">
                 Step into a world of cinematic wonder with our exclusive Movie Theme Event.

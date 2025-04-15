@@ -12,7 +12,31 @@
     object-fit: cover;
     z-index: -1;
   }
+  .variety{
+    line-height: 40px;
+    font-size: 22px;
+    font-family: 'ui-serif';
+    font-weight: 100;
+  }
   .text-cont{
     position: absolute;
     bottom: 0px;
+    font-weight: 100;
+  }
+  .demigod-text{
+    font-size: 34px;
+    font-weight: 100;
+    
+  }
+  .marketing-agency-text{
+    font-size: 23px;
+    font-weight: 100;
+  }
+  .automobile{
+    width: 350px;
+    border: 1px solid #866b2f;
+    height: 350px;
+    border-radius: 20px;
+    font-weight: 100;
+    color: white;
   }

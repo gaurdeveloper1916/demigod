@@ -71,8 +71,8 @@ function Index() {
       <Header />
       {/* <Trusted/> */}
       <Herosection /> 
-      {/* <Community/> 
-      <ElectronicCommunity/>  */}
+      <Community/> 
+      <ElectronicCommunity/> 
       <LeadingOrganisation/> 
       {/* <Ecosystem /> */}
       <Industryevents/>

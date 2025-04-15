@@ -48,15 +48,18 @@ function TwoImagesDiv() {
         },
         {
           size: 8,
-          src: "/event-page/d_throne_prince.webp",
+          src: "/event-page/Beauty_Paegant_Poster.mp4",
           link: "/landingpage",
-          // title: "Event /04",
           title: "D'Royal Tiara",
           leftImage: "",
           rightImage: "",
           description: "Get ready for the party of your dreams! 👑 We're throwing the most amazing royal-themed bash where YOU get to wear stunning tiaras and feel like absolute royalty. Think fun photo booths with props, delicious food that'll make your mouth water, and the coolest dance floor ever! No boring formal stuff - just pure fun with your friends, awesome music, and memories that'll last forever. Don't forget to bring your camera because every corner is perfect for those Insta-worthy shots! ✨🎉",
           ticketdes: "This event is for people who want to experience a royal-themed party where they can wear tiaras and feel like royalty. Participants can enjoy photo booths, delicious food, and a fun dance floor in a relaxed and enjoyable atmosphere. Whether you're coming alone or with friends, this event promises a night of fun, music, and memories. Be sure to capture the moment with your camera as every corner is perfect for Instagram-worthy shots!",
-        },
+          // category: "BRANDING-WEBDESIGN",
+        }
+
+
+       
       ],
     },
 
@@ -64,7 +67,7 @@ function TwoImagesDiv() {
       images: [
         {
           size: 8,
-          src: "/event-page/marathon_mingle.webp",
+          src: "/cooking.jpeg",
           link: "/landingpage",
           // title: "Event /05",
           title: "Cutinary O' Affaris",
@@ -89,34 +92,34 @@ function TwoImagesDiv() {
     },
 
 
-    {
-      images: [
-        {
-          size: 4,
-          src: "/event-page/beauty_pagent_1.webp",
+    // {
+    //   images: [
+    //     {
+    //       size: 4,
+    //       src: "/event-page/beauty_pagent_1.webp",
 
-          link: "/landingpage",
-          // title: "Event /03",
-          title: "Beauty Paegant",
-          leftImage: "",
-          rightImage: "",
-          description: "Ready for a royal party that's actually fun? 👑 We're turning traditional fancy events upside down! Think amazing food stations (yes, you can eat with your hands!), cool music that'll get you dancing, and Instagram-worthy photo spots everywhere. Whether you're coming solo or with friends, you'll feel like royalty without the stuffy rules. Plus, there's a surprise midnight performance that'll blow your mind! Don't miss out on this epic night - your social media will thank you later! 🎉✨",
-          ticketdes: "This event is for people who want to experience a royal party with a modern twist. Participants can enjoy delicious food, music, and photo opportunities in a fun and relaxed atmosphere. Whether you're coming alone or with friends, this event promises a night of royalty without the formalities. Be sure to stay for the surprise midnight performance that will leave you speechless!",
-          // category: "BRANDING-WEBDESIGN",
-        },
-        {
-          size: 8,
-          src: "/event-page/Beauty_Paegant_Poster.mp4",
-          link: "/landingpage",
-          title: "D'Royal Tiara",
-          leftImage: "",
-          rightImage: "",
-          description: "Get ready for the party of your dreams! 👑 We're throwing the most amazing royal-themed bash where YOU get to wear stunning tiaras and feel like absolute royalty. Think fun photo booths with props, delicious food that'll make your mouth water, and the coolest dance floor ever! No boring formal stuff - just pure fun with your friends, awesome music, and memories that'll last forever. Don't forget to bring your camera because every corner is perfect for those Insta-worthy shots! ✨🎉",
-          ticketdes: "This event is for people who want to experience a royal-themed party where they can wear tiaras and feel like royalty. Participants can enjoy photo booths, delicious food, and a fun dance floor in a relaxed and enjoyable atmosphere. Whether you're coming alone or with friends, this event promises a night of fun, music, and memories. Be sure to capture the moment with your camera as every corner is perfect for Instagram-worthy shots!",
-          // category: "BRANDING-WEBDESIGN",
-        },
-      ],
-    },
+    //       link: "/landingpage",
+    //       // title: "Event /03",
+    //       title: "Beauty Paegant",
+    //       leftImage: "",
+    //       rightImage: "",
+    //       description: "Ready for a royal party that's actually fun? 👑 We're turning traditional fancy events upside down! Think amazing food stations (yes, you can eat with your hands!), cool music that'll get you dancing, and Instagram-worthy photo spots everywhere. Whether you're coming solo or with friends, you'll feel like royalty without the stuffy rules. Plus, there's a surprise midnight performance that'll blow your mind! Don't miss out on this epic night - your social media will thank you later! 🎉✨",
+    //       ticketdes: "This event is for people who want to experience a royal party with a modern twist. Participants can enjoy delicious food, music, and photo opportunities in a fun and relaxed atmosphere. Whether you're coming alone or with friends, this event promises a night of royalty without the formalities. Be sure to stay for the surprise midnight performance that will leave you speechless!",
+    //       // category: "BRANDING-WEBDESIGN",
+    //     },
+    //     {
+    //       size: 8,
+    //       src: "/event-page/queen_reserve_night.jpeg",
+    //       link: "/landingpage",
+    //       // title: "Event /04",
+    //       title: "Queen’s Reserve Night",
+    //       leftImage: "",
+    //       rightImage: "",
+    //       description: "Queen’s Reserve Night is an exclusive celebration of elegance, royalty, and refined taste. This premium event brings together wine connoisseurs, luxury lifestyle enthusiasts, and culture lovers for a regal evening like no other.",
+    //       ticketdes: "Guests will indulge in a curated selection of fine wines from top-tier vineyards, paired with gourmet delicacies designed to enhance every sip. The ambiance is set with live music performances—ranging from smooth jazz to classical strings—creating a sophisticated and enchanting atmosphere.Attendees are encouraged to dress in royal-inspired attire, with themed décor, candlelit lounges, and photo-worthy installations enhancing the majestic vibe of the night. Whether you're toasting to tradition or simply savoring the moment, Queen’s Reserve Night promises an immersive experience rooted in luxury and charm.",
+    //     },
+    //   ],
+    // },
 // {
 //       images: [
 //         {
@@ -186,7 +189,7 @@ function TwoImagesDiv() {
                     </video>
                   </div>
                 ) : (
-                  <img className="img-fluid w-100" src={image.src} alt={image.title} />
+                  <img  className="img-fluid w-100 " src={image.src} alt={image.title} />
                 )}
               </Link>
               <div className="mt-3" style={{ lineHeight: "2px" }}>

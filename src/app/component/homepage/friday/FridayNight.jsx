@@ -1,12 +1,15 @@
 'use client';
-import React, { useRef } from 'react';
+import React, { useContext, useRef } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './fridaynight.css';
 import Link from 'next/link';
+import { Auth } from '../../../../context/AppContext';
 
 export default function FridayNight() {
+  const { handleUpdate, imageForLandingPage } = useContext(Auth);
+
   const sliderRef = useRef(null);
   // const { handleUpdate } = useContext(Auth);
 
@@ -26,31 +29,43 @@ export default function FridayNight() {
     {
       img: "/event-page/exhbition.jpeg",
       name: "Exhbition Expo",
+      leftImage: "",
+      rightImage: "",
       desc: "An Exhibition Expo is a large-scale event where businesses, organizations, and individuals showcase their products, services, innovations, or art to a targeted audience. These expos often cater to specific industries such as technology, fashion, healthcare, or education.",
     },
     {
       img: "/event-page/pharma.jpeg",
       name: "Pharma Expo",
+      leftImage: "",
+      rightImage: "",
       desc: "A Pharma Expo is a specialized trade exhibition focused on the pharmaceutical industry. It serves as a platform for pharmaceutical companies, healthcare professionals, researchers, and manufacturers to showcase innovations, products, and technologies related to medicine, drug development, and healthcare solutions.",
     },
     {
       img: "/event-page/travel-Tourism.jpeg",
       name: "Travel & Tourism Expo",
+      leftImage: "",
+      rightImage: "",
       desc: "A Travel & Tourism Expo is a large-scale event that brings together travel agencies, tourism boards, airlines, hospitality brands, and adventure companies to showcase destinations, travel services, and experiences. These expos serve as a hub for networking, business collaborations, and discovering new travel trends.",
     },
     {
       img: "/event-page/tech-expo.jpeg",
       name: "Tech Expo",
+      leftImage: "",
+      rightImage: "",
       desc: "A Tech Expo is a large-scale event that showcases the latest advancements in technology, innovation, and digital transformation. It serves as a platform for tech companies, startups, developers, and industry leaders to present their cutting-edge products, software, and solutions.",
     },
     {
       img: "/event-page/destate.jpeg",
       name: "D'estate Expo",
+      leftImage: "",
+      rightImage: "",
       desc: "D'Estate Expo is a leading real estate exhibition that brings together industry experts, investors, developers, and homebuyers under one roof. Whether you're looking for residential, commercial, or luxury properties, this expo offers exclusive opportunities to explore top-tier real estate projects and investment prospects.",
     },
     {
       img: "/event-page/carrer-expo.jpeg",
       name: "Carrer Expo",
+      leftImage: "",
+      rightImage: "",
       desc: "A Career Expo is a premier event where job seekers, professionals, and recruiters come together to explore career opportunities, industry trends, and skill development. Whether you're a fresh graduate, an experienced professional, or a company looking for top talent, this expo serves as a dynamic platform for networking and career advancement.",
     }
   ];
@@ -90,6 +105,11 @@ export default function FridayNight() {
       },
     ],
   };
+  function handleChange(title, description, ticketdes, imdVideo, leftImage, rightImage) {
+
+    handleUpdate(title, description, ticketdes)
+    imageForLandingPage(leftImage, imdVideo, rightImage)
+  }
 
   return (
     <div className="container-fluid p-lg-5 p-0 mt-5">
@@ -107,28 +127,12 @@ export default function FridayNight() {
                 <div className="overlay">
                   <h1 className="text-san">{image.name}</h1>
                 </div>
-                <div className="p-3 text-white visible-on-hover">
+                <div 
+                onClick={() => { handleChange(image.title, image.desc, image.desc, image.img, image.leftImage, image.rightImage) }}
+                 className="p-3 text-white visible-on-hover">
                   <h6 className="m-0 fw-bold">{image.name}</h6>
                   <p className='mt-2'>{image.desc}</p>
-                  {/* <p className="m-0 text-secondary">Location: India</p>
-                  <p className="text-secondary">{image.name === "Blue Collar Chronicles" ? "22.06.24 18:00" :
-                    image.name === "Influencers Award Ceremony" ? "25.06.24 19:00" :
-                    image.name === "Warzone Paintball Tournament" ? "30.06.24 15:00" :
-                    image.name === "Comedy Show" ? "05.07.24 20:00" :
-                    image.name === "Career Expo" ? "12.07.24 09:00" :
-                    "Date: TBD"}</p> */}
-                  {/* <p className="text-secondary">{image.name === "Blue Collar Chronicles" || image.name === "Career Expo" ? "Peter Whelan" :
-                    image.name === "Influencers Award Ceremony" ? "John Doe" :
-                    image.name === "Warzone Paintball Tournament" ? "Sarah Smith" :
-                    image.name === "Comedy Show" ? "Mike Johnson" : "Speaker"}</p> */}
-
-                  {/* <p className="text-secondary">
-                    {image.name === "Blue Collar Chronicles" ? "Direttore" :
-                    image.name === "Influencers Award Ceremony" ? "Event Organizer" :
-                    image.name === "Warzone Paintball Tournament" ? "Tournament Organizer" :
-                    image.name === "Comedy Show" ? "Comedian" :
-                    image.name === "Career Expo" ? "Organizer" : "Speaker"}
-                  </p> */}
+                 
                   <Link
                     href={{
                       pathname: '/landingpage',

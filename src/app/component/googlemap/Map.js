@@ -8,8 +8,8 @@ export default function Map() {
   });
 
   return (
-    <div className="container-fluid p-lg-5 p-3">
-      <h1 className="gradient-text fw-bold">Our Print-Media & Electronic-media Channel Partner's Globally! </h1>
+    <div className="container-fluid p-lg-5 p-3 bg-black">
+      <p style={{ fontSize: '28px' }} className=" text-center text-white">Our Print-Media & Electronic-media Channel Partner's Globally! </p>
       <main id="map" className="mt-5" style={{ width: '100%', height: '100%' }}>
         {/* <p className="fs-4 text-center text-shadow-effect mt-4">Visualize events geographically on a map.</p> */}
         <div id="map">
