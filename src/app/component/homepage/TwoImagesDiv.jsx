@@ -12,13 +12,13 @@ function TwoImagesDiv() {
       images: [
         {
           size: 8,
-          src: "/event-page/wz̄ine_festval_video.mp4",
+          src: "/event-page/grand_wine.mp4",
           link: "/landingpage",
           leftImage: "./event-page/wine_making.png",
           rightImage: "./event-page/wine_making.png",
           title: "Wine Making Festival-Fete du  Vin ",
-          description: "Ready to crush some grapes the old-school way? Get your feet wet (literally!) at this wild wine-making party. We're ditching the stuffy wine talk for hands-on fun - squish grapes, mix your own secret blend, and yes, plenty of tasting! Whether you're a wine newbie or a seasoned sipper, come unleash your inner vintner. Warning: Purple feet and big smiles guaranteed! 🍇✨",
-          ticketdes: "This event is for wine lovers who want to learn the art of winemaking. Participants will get to crush grapes, mix their own blend, and taste different wines. Whether you're a wine newbie or a seasoned sipper, this event promises a fun and educational experience."
+          description: "",
+          ticketdes: "Step into the enchanting world of The Grand Pour, where tradition meets taste, and every moment is paired with elegance. Celebrate the art of winemaking with a vibrant blend of culture, cuisine, and creativity. From grape stomping to jazz under the stars, this event promises an unforgettable experience for wine lovers, connoisseurs, and creators alike. Join us for a luxurious celebration of vinous glory!"
         },
         {
           size: 4,
@@ -67,7 +67,7 @@ function TwoImagesDiv() {
       images: [
         {
           size: 8,
-          src: "/cooking.jpeg",
+          src: "/event-page/culinary_event.mp4",
           link: "/landingpage",
           // title: "Event /05",
           title: "Cutinary O' Affaris",
@@ -169,12 +169,12 @@ function TwoImagesDiv() {
   return (
     <div
       className="container-fluid mb-5 col-lg-11"
-      style={{
-        backgroundImage: `url('/ve.jpg')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
-      }}
+      // style={{
+      //   backgroundImage: `url('/ve.jpg')`,
+      //   backgroundSize: 'cover',
+      //   backgroundPosition: 'center',
+      //   backgroundRepeat: 'no-repeat',
+      // }}
     >
       {data.map((section, index) => (
         <div className="d-flex flex-lg-row flex-column gap-3 mt-5 p-lg-0 p-2" key={index}>

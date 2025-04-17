@@ -12,12 +12,12 @@ const CarouselSection = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 3000,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
-    arrows: false, // Default arrows हटा दिए गए हैं
+    arrows: false, 
     pauseOnHover: false,
   };
 
@@ -41,13 +41,26 @@ const CarouselSection = () => {
             alt="Slide 4"
             style={{ height: '100vh', objectFit: 'cover' }}
           />
+                      <button className="border-0 rounded position-absolute  fs-6 text-white px-3">Know More</button>
+
           
         </div>
         <div>
           <video className="slide-video-test" autoPlay loop muted>
-            <source src="/car-o-bar.mp4" type="video/mp4" />
+            <source src="/368510590484226049.mp4" type="video/mp4" />
           </video>
         </div>
+        <div>
+          <video className="slide-video-test" autoPlay loop muted>
+            <source src="/WhatsApp Video 2025-04-16 at 20.10.07.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div>
+          <video className="slide-video-test" autoPlay loop muted>
+            <source src="/agrotech.mp4" type="video/mp4" />
+          </video>
+        </div>
+        
         {/* <div>
           <img className="slide-image" src="/event-page/enter.jpeg" alt="Slide 3" />
         </div> */}

@@ -118,12 +118,17 @@ export default function FridayNight() {
           {initialImages.map((image, index) => (
             <div key={index} className="d-flex justify-content-center align-items-center p-2">
               <div className="image-container position-relative">
-                <img
+                {/* <img
                 style={{height:'270px'}}
                   className="rounded img-fluid w-100"
                   src={image.img}
                   alt={image.name}
-                />
+                /> */}
+                <div>
+          <video  style={{height:'270px'}} className="slide-video-test" autoPlay loop muted>
+            <source src="/WhatsApp Video 2025-04-16 at 20.10.07.mp4" type="video/mp4" />
+          </video>
+        </div>
                 <div className="overlay">
                   <h1 className="text-san">{image.name}</h1>
                 </div>
