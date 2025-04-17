@@ -7,7 +7,7 @@ const TicketCard = ({ price, list }) => (
     <div className="d-flex flex-column  px-1 py-2 border rounded shadow">
         <h4 className="">{price}</h4>
         {
-            list.map((item) => <p className="m-0 px-3 text-start smallfont">{item}</p>)
+            list.map((item,i) => <p key={i+1} className="m-0 px-3 text-start smallfont">{item}</p>)
         }
 
 
@@ -74,7 +74,7 @@ const CustomTabBar = () => {
         <div className="tab-container">
             {/* Tab Navigation */}
             <div className="tab-bar">
-                {tabs.map((tab) => (
+                {tabs.map((tab,key) => (
                     <button
                         key={tab.id}
                         className={`tab-button ${activeTab === tab.id ? "active" : ""}`}
