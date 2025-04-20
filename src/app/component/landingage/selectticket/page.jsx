@@ -5,7 +5,7 @@ import { GoPlus } from "react-icons/go";
 import { IoArrowBackSharp } from "react-icons/io5";
 import { Auth } from "../../../../context/AppContext";
 import './index.css'
-const Selectticket = () => {
+const Selectticket = ({data}) => {
     const { landingHeading, landingDes, ticketdes } = useContext(Auth)
     const [ticketCount, setTicketCount] = useState(1);
     return (
@@ -23,14 +23,14 @@ const Selectticket = () => {
                             </div>
 
                             <div className="leandingtext-container">
-                                <p className=" text-white leandingtext">{landingHeading}</p>
+                                <p className=" text-white leandingtext">{data.eventTitle}</p>
                             </div>
                             <p className="text-white">ALREADY REGISTER ? <span style={{ color: 'orange' }}>LOG IN</span></p>
                             <div className="d-flex flex-column">
                                 <p className="text-white m-0">Ticket type : Virtual</p>
                                 <p className="text-white m-0">Email : info@demigodhouse.com</p>
                                 <p className="text-white m-0">Total : ${500 * ticketCount}</p>
-                                <p className="text-white mt-4">{ticketdes ? ticketdes : 'More Details'}
+                                <p className="text-white mt-4">{data.description}
                                 </p>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ const Selectticket = () => {
                                 }} className="px-3 rounded-circle py-2"> <GoPlus color="white" /></div>
                             </div>
 
-                            <p className="text-white">{landingDes}</p>
+                            {/* <p className="text-white">{landingDes}</p> */}
                         </div>
                     </div>
                 </div>

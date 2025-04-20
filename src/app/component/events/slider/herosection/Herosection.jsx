@@ -5,6 +5,7 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./hero.css";
+import Link from "next/link";
 
 const CarouselSection = () => {
   const sliderRef = useRef(null);
@@ -120,7 +121,10 @@ const CarouselSection = () => {
             >
             Demigod House brings you Agro Tech 2025 — a celebration of innovation in agriculture. Discover smart farming solutions, sustainable technologies, and the future of agri-business, all in one place.
             </p>
+            <Link href='/landingpage?slug=agro-tech'>
             <button className="border-0 rounded  fs-6 text-white px-3">Know More</button>
+
+            </Link>
           </div>
         </div>
         <div className="position-relative">

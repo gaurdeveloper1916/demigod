@@ -1,0 +1,1105 @@
+[
+    {
+        "eventTitle": "BEAUTY PAGEANT EVENT –“The Royal Tiara”",
+        "slug": "beauty-pagent-event",
+        "description": "Step into a world of elegance and grace at The Royal Tiara, where beauty, poise, and personality shine. This dazzling pageant celebrates individuality through stunning runway showcases, heartfelt moments, and a glamorous crowning ceremony. Whether you're competing for the crown or cheering from the audience, join us for an unforgettable night of sparkle, style, and celebration!",
+        "leftImage": "",
+        "rightImage": "",
+        "midImage": "/event-page/Beauty_Paegant_Poster.mp4",
+        "ticketTypes": [
+            {
+                "name": "The Radiant Pass (Contestant)",
+                "price": "₹9,999",
+                "tagline": "Step into your spotlight. Your crown awaits.",
+                "inclusions": [
+                    "Participation in the Beauty Pageant (3 Show Rounds + Q/A)",
+                    "Custom Designer Outfit Rental for Each Round",
+                    "Backstage Access & Professional Styling",
+                    "High Tea Gala Invitation",
+                    "Professional Portfolio Photoshoot (5 Edited Shots)",
+                    "After Party Access + Red Carpet Appearance",
+                    "Free Hair & Makeup by Partnered Stylists",
+                    "Gift Hampers worth ₹5,000+",
+                    "Crowning Night Walk on the Runway",
+                    "Certificate of Participation",
+                    "Winner Takes Home: ₹1,00,000 + Crown, ₹25,000 + Silver Tiara, ₹10,000 + Bronze Sash",
+                    "Special Category Awards (Miss Photogenic, Miss Popular, Miss Elegance)"
+                ]
+            },
+            {
+                "name": "Royal Spectator Pass (VIP Guest)",
+                "price": "₹6,000 - ₹10,000",
+                "tagline": "Where luxury meets beauty.",
+                "inclusions": [
+                    "Reserved Front Row Runway Seating",
+                    "High Tea with Influencers & Designers",
+                    "Access to Celebrity Q/A Session",
+                    "Access to Grand Crowning Ceremony",
+                    "Welcome Gift Hamper (Worth ₹2,000)",
+                    "Red Carpet Photography",
+                    "After Party Entry + Private Lounge Access",
+                    "Name Mention in Royal Guest Roll"
+                ]
+            },
+            {
+                "name": "Elegance Entry (Standard Guest)",
+                "price": "₹1,500 - ₹2,500",
+                "tagline": "Enjoy the sparkle and grace from the best seat in the house.",
+                "inclusions": [
+                    "Entry to All Pageant Rounds & Crowning",
+                    "Open Seating in Viewing Gallery",
+                    "Live Music & Stage Entertainment",
+                    "Access to Fashion Pop-ups & Beauty Booths",
+                    "Complimentary Beverage & Snack Voucher"
+                ]
+            },
+            {
+                "name": "After Party Pass",
+                "price": "₹2,000",
+                "tagline": "Night of Glamour & Beats",
+                "inclusions": [
+                    "Access to Fashion After Party",
+                    "Free-flowing Mocktails/Cocktails",
+                    "DJ, Dance Floor, and Celebrity Guest Appearance",
+                    "Selfie Stage with Contestants & Designers"
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "registrationOpens": "May 1, 2025",
+            "registrationCloses": "June 15, 2025",
+            "ticketSalesOpen": "May 10, 2025",
+            "ticketSalesClose": "July 31, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 17, 2025 (Friday)",
+                "events": [
+                    "10:00 AM: Gates Open & Contestant Prep",
+                    "11:00 AM: Red Carpet Welcome",
+                    "12:30 PM - 3:00 PM: Personality & Poise Round",
+                    "4:00 PM - 6:00 PM: Ethnic Runway Showcase",
+                    "7:00 PM: High Tea Gala"
+                ]
+            },
+            {
+                "day": "October 18, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Fashion Pop-ups & Beauty Booths",
+                    "12:00 PM - 2:00 PM: Cocktail Runway Showcase",
+                    "3:00 PM - 5:00 PM: Celebrity Q/A Session",
+                    "6:00 PM - 8:00 PM: Evening Gown Runway"
+                ]
+            },
+            {
+                "day": "October 19, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Extended Fashion Pop-ups",
+                    "12:00 PM - 2:00 PM: Final Q/A Round",
+                    "3:00 PM - 5:00 PM: Grand Crowning Ceremony",
+                    "7:00 PM - 10:00 PM: Fashion After Party"
+                ]
+            }
+        ]
+    },
+    {
+        "eventTitle": "OKTOBREW ROYALE – Beer Making Event",
+        "slug": "oktober-fest-event",
+        "description": "Raise your mugs at Oktobrew Royale, a frothy celebration of craft beer, gourmet flavors, and vibrant vibes. From brewing with global masters to dancing under neon lights, this event blends tradition with a modern twist. Whether you're a beer enthusiast or a party seeker, join us for an unforgettable toast to hops, heart, and high spirits!",
+        "leftImage": "",
+        "rightImage": "",
+        "midImage": "",
+        "ticketTypes": [
+            {
+                "name": "Taster Pass",
+                "price": "₹999",
+                "tagline": "Sip, chill, and soak in the scene.",
+                "inclusions": [
+                    "General Grounds Access",
+                    "3 Premium Craft Beer Tokens",
+                    "Live Music and DJ Access",
+                    "Brand Interaction Zones",
+                    "Gourmet Food Stalls Access (Pay & Eat)",
+                    "Souvenir Mug and Wristband",
+                    "Entry to Keg Carnival Games",
+                    "Photobooth Experience"
+                ]
+            },
+            {
+                "name": "Royale Brew Pass",
+                "price": "₹2,999",
+                "tagline": "Double the beer. Double the fun.",
+                "inclusions": [
+                    "All benefits of Taster Pass",
+                    "6 Beer Tokens (Global Craft and Fusion Brews)",
+                    "Exclusive Entry to Royal Biergarten Tent",
+                    "Food Pairing Tasting Platter",
+                    "Early Access to Brew Lab Zone",
+                    "Oktober Kit: Cap, Badge, and Brew Booklet",
+                    "Contest Entry for Keg Carnival Leaderboard"
+                ]
+            },
+            {
+                "name": "Brew Boss Lounge",
+                "price": "₹6,999",
+                "tagline": "Where luxury and lager meet.",
+                "inclusions": [
+                    "All benefits of Royale Brew Pass",
+                    "VIP Entry and Brew Butler Table Service",
+                    "Private Lounge Access with Live Acoustic Sessions",
+                    "Unlimited Tastings of Curated Global Beers",
+                    "Gourmet Buffet and Dessert Bar",
+                    "Complimentary Homebrew Starter Kit",
+                    "Meet and Greet with Brewmasters",
+                    "Front Row Spot for Suds Runway and Live Performances",
+                    "Luxury Swag Kit worth ₹3,000+"
+                ]
+            },
+            {
+                "name": "After Hours Party",
+                "price": "₹1,499",
+                "tagline": "Drink. Dance. Dream.",
+                "inclusions": [
+                    "Access to the Night Party Arena",
+                    "Live DJ with Visual Beer Drops",
+                    "2 Beer Cocktails or Mocktails",
+                    "Glow-in-the-Dark Accessories",
+                    "Dance Contests, Trivia and Beer Bingo",
+                    "Unlimited Snacks and Finger Foods",
+                    "Post-Party Photography and Social Reel Coverage"
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "ticketSalesOpen": "May 1, 2025",
+            "ticketSalesClose": "July 31, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 24, 2025 (Friday)",
+                "events": [
+                    "10:00 AM: Gates Open & Brew Lab Setup",
+                    "11:00 AM: Opening Toast & Craft Beer Masterclass",
+                    "12:30 PM - 3:00 PM: Keg Carnival Games Kickoff",
+                    "4:00 PM - 6:00 PM: Royal Biergarten Tent Opens",
+                    "7:00 PM: Sunset Acoustic Sessions"
+                ]
+            },
+            {
+                "day": "October 25, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Brew Lab Zone & Merch Stalls",
+                    "12:00 PM - 2:00 PM: Hops & Gourmet Food Pairing",
+                    "3:00 PM - 5:00 PM: Suds Runway Fashion Show",
+                    "6:00 PM - 8:00 PM: Folk Rock Live Music"
+                ]
+            },
+            {
+                "day": "October 26, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Extended Brew Tastings & Stalls",
+                    "12:00 PM - 2:00 PM: Homebrew Contest Judging",
+                    "3:00 PM - 5:00 PM: Beer Games Finale",
+                    "6:00 PM - 9:00 PM: After Hours Party with Electro-Beer DJ Set"
+                ]
+            }
+        ]
+    },
+    {
+        "eventTitle": "First Flame – Dating Event",
+        "slug": "tinder-night-events",
+        "description": "Ignite your journey at First Flame, a 3-day dating extravaganza designed to kindle connections and create unforgettable stories. From curated mingling to romantic bonfires, this event blends chemistry, charm, and celebration. Whether you're seeking love or cheering for romance, join us to light up your heart in a vibrant, luxurious setting!",
+        "leftImage": "./event-page/new/datingevent1.png",
+        "rightImage": "./event-page/new/datingevent2.png",
+        "midImage": "/event-page/dating.png",
+        "ticketTypes": [
+            {
+                "name": "Flame Pass (Contestant)",
+                "price": "₹7,500 (Single) / ₹13,000 (Couple)",
+                "tagline": "For the bold hearts ready to burn bright.",
+                "inclusions": [
+                    "Full 3-Day Access to “First Flame” Events",
+                    "Participation in curated matching activities",
+                    "Entry to workshops & themed nights",
+                    "Free access to dinners, drinks & bonfire sessions",
+                    "Exclusive 'Confession Booth' participation",
+                    "Professional photoshoot session",
+                    "Gift hampers + chance to win 'First Flame Crown'",
+                    "Final Night Drone Show & Couple Feature Spotlight"
+                ]
+            },
+            {
+                "name": "Glow Pass (Guest)",
+                "price": "₹3,000 – ₹5,000",
+                "tagline": "Experience the sparks without joining the match.",
+                "inclusions": [
+                    "Day entry for all events except private date zones",
+                    "Access to music events, meals & games",
+                    "Community table seating during dinners",
+                    "Final Night celebration access",
+                    "Eligible for 'Spectator’s Choice Couple' vote"
+                ]
+            },
+            {
+                "name": "Evening Flame Access (Final Night Only)",
+                "price": "₹2,000",
+                "tagline": "One magical night. All the love, light & laughter.",
+                "inclusions": [
+                    "Entry to Grand Finale Night",
+                    "Live Band + Drone Light Show",
+                    "Bonfire Love Games + Storytelling",
+                    "Closing Couple Ceremony"
+                ]
+            },
+            
+            {
+                "name": "VIP Ember Lounge Add-on",
+                "price": "₹4,000",
+                "tagline": "When you want exclusivity with your emotion.",
+                "inclusions": [
+                    "Private seating & elevated wine bar access",
+                    "Personalized couple memory book",
+                    "One-on-one compatibility session",
+                    "Early sneak peek into confession box stories",
+                    "Luxury gift set (worth ₹1,500+)"
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "registrationOpens": "May 1, 2025",
+            "earlyBirdDeadline": "May 15, 2025",
+            "passSalesOpen": "May 10, 2025",
+            "registrationCloses": "June 30, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 3, 2025 (Friday)",
+                "events": [
+                    "10:00 AM: Gates Open & Icebreakers",
+                    "11:00 AM: Compatibility Games",
+                    "12:30 PM - 3:00 PM: Speed Mingling Kickoff",
+                    "4:00 PM - 6:00 PM: Dinner Date Night",
+                    "7:00 PM: Retro Theme Night"
+                ]
+            },
+            {
+                "day": "October 4, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Love Language Workshops",
+                    "12:00 PM - 2:00 PM: Bonding Challenges",
+                    "3:00 PM - 5:00 PM: Red Theme Night",
+                    "6:00 PM - 8:00 PM: Intimate Wine & Dine"
+                ]
+            },
+            {
+                "day": "October 5, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Extended Mingling & Games",
+                    "12:00 PM - 2:00 PM: Chemistry Workshops",
+                    "3:00 PM - 5:00 PM: Royal Theme Night",
+                    "6:00 PM - 7:00 PM: Drone Light Show",
+                    "7:00 PM - 10:00 PM: Moonlight Bonfire Finale & Couple Crowning"
+                ]
+            }
+        ]
+    },
+    {
+        "eventTitle": "PharmaForge – The Global Pharma Leadership & Innovation Expo",
+        "slug": "pharma-expo-events",
+        "tagline": "Where Science Meets Scale. And Innovation Meets Influence.",
+        "description": "A high-impact, invitation-only expo + leadership forum uniting pioneers in pharmaceuticals, biotech, medtech, regulatory, and healthcare investment. Vibe: Ultra-premium, global, future-forward, investor-attractive, clinically precise — with the showmanship of an Apple launch.",
+        "leftImage": "",
+        "rightImage": "",
+        "midImage": "",
+        "ticketTypes": [
+            {
+                "name": "General Delegate Pass",
+                "price": "₹2,000 – ₹7,000",
+                "tagline": "Access to expo, talks, networking.",
+                "inclusions": [
+                    "Access to expo, talks, networking",
+                    "Research compendiums + digital whitepapers"
+                ]
+            },
+            {
+                "name": "Premium Delegate Pass",
+                "price": "₹15,000 – ₹30,000",
+                "tagline": "Awards gala access and exclusive sessions.",
+                "inclusions": [
+                    "All benefits of General Delegate Pass",
+                    "Awards gala access",
+                    "CEO session or deal room entry",
+                    "Private pharma concierge service"
+                ]
+            },
+            {
+                "name": "Investor/International Guest Pass",
+                "price": "Price on Request",
+                "tagline": "Concierge handling + speaking slots.",
+                "inclusions": [
+                    "All benefits of Premium Delegate Pass",
+                    "Concierge handling + speaking slots",
+                    "All-access + post-event closed-door roundtables"
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "registrationOpens": "May 1, 2025",
+            "registrationCloses": "July 31, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 24, 2025 (Friday)",
+                "events": [
+                    "9:00 AM: Gates Open & Innovation Showcase Arena Setup",
+                    "10:00 AM: Opening Ceremony & Future of Pharma Summit",
+                    "12:00 PM - 3:00 PM: Clinical Trial Village Kickoff",
+                    "4:00 PM - 6:00 PM: Policy & Regulation Hall Q&As",
+                    "7:00 PM: Women in Pharma Leadership Roundtable"
+                ]
+            },
+            {
+                "day": "October 25, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Future Labs Startup Pitches",
+                    "12:00 PM - 2:00 PM: Investor Forum: Rx Capital",
+                    "3:00 PM - 5:00 PM: Healthcare Supply Chain & Infra Zone",
+                    "6:00 PM - 8:00 PM: CEO Circle Breakfast"
+                ]
+            },
+            {
+                "day": "October 26, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Extended Innovation Showcase",
+                    "12:00 PM - 2:00 PM: CureTank Startup Arena",
+                    "3:00 PM - 5:00 PM: Global Deal Rooms Networking",
+                    "6:00 PM - 9:00 PM: PharmaVision Awards Night"
+                ]
+            }
+        ]
+    },
+    {
+        "eventTitle": "AgroTech Summit",
+        "slug": "agro-tech",
+        "tagline": "Step into the future of farming at the AgroTech Summit, a dynamic platform for innovators, farmers, and tech enthusiasts to explore cutting-edge agricultural solutions.",
+        "leftImage": "./event-page/new/agrotech_1.png",
+        "rightImage": "./event-page/new/agrotech_2.png",
+        "midImage": "/event-page/agrotech.png",
+        "description": "Witness groundbreaking exhibits, live demonstrations, and expert insights while connecting with global leaders in agri-tech. From AI-driven tools to sustainable practices, this summit blends innovation with tradition to revolutionize agriculture. Join us for an unforgettable experience that shapes the future of food production!",
+        "majorAttractions": [
+            "Innovation Showcase: Exhibits of the latest agri-tech solutions, including drones, AI-driven farming tools, and precision irrigation systems.",
+            "Live Demonstrations: Hands-on displays of farm machinery, robotic harvesters, and smart sensors in action.",
+            "Expert Panels & Keynote Speeches: Insights from global agri-tech leaders on AI, climate-smart farming, and sustainable agriculture.",
+            "Startup Pitch Competition: Emerging agri-tech startups compete for investment and recognition.",
+            "Networking Gala Dinner: A gourmet 4-course meal with organic farm-to-table cuisine.",
+            "Field Tour: An exclusive visit to a model smart farm showcasing integrated tech solutions.",
+            "Drone Light Show & Hindi music night: A spectacular aerial display highlighting agri-tech’s future."
+        ],
+        "prizesAndIncentives": {
+            "bestInnovationAward": "₹51L cash + a partnership with a leading agri-tech firm.",
+            "bestAgroTechStartupPitch": "₹75,000 cash + mentorship from top investors.",
+            "bestOrganicPracticeAward": "₹51,000 cash + a tech equipment package.",
+            "additionalPerks": [
+                "Media exposure via live streaming and industry publications.",
+                "Access to a digital expo platform for post-event networking.",
+                "Complimentary tech consultation session with experts."
+            ]
+        },
+        "ticketTypes": [
+            {
+                "name": "Stall Booking Registration",
+                "price": "₹20,000",
+                "tagline": "Lead the future of farming with innovation.",
+                "inclusions": [
+                    "Entry to showcase innovations, pitch as a startup, or participate as a tech-savvy farmer.",
+                    "Access to live demonstrations, expert panels, and the startup pitch competition.",
+                    "Invitation to the Networking Gala Dinner and After Party.",
+                    "Full access to Innovation Showcase and Drone Light Show.",
+                    "Field Tour of a smart farm.",
+                    "Opportunity to win ₹1,50,000 (innovation), ₹75,000 (startup), or ₹50,000 (farmer) + additional perks."
+                ]
+            },
+            {
+                "name": "Platinum Tech Pass",
+                "price": "₹35,000 - ₹45,000",
+                "tagline": "Experience agri-tech’s elite frontier.",
+                "inclusions": [
+                    "Reserved seating for keynote speeches, panels, and the startup pitch competition.",
+                    "Exclusive access to a VIP lounge with gourmet organic cuisine.",
+                    "Private meet-and-greet with keynote speakers and innovators.",
+                    "Networking Gala Dinner with premium beverage pairings.",
+                    "After Party access with live music and tech-themed cocktails.",
+                    "Luxury welcome hamper (worth ₹12,000+) with tech gadgets.",
+                    "Prime viewing of the Drone Light Show.",
+                    "Name featured in the Platinum Delegate Registry."
+                ]
+            },
+            {
+                "name": "Grower Entry",
+                "price": "₹399",
+                "tagline": "Discover the future of sustainable farming.",
+                "inclusions": [
+                    "Entry to the event grounds for the Innovation Showcase, demonstrations, and panels.",
+                    "Access to open seating for the Drone Light Show and Networking Gala Dinner.",
+                    "Sampling of organic food and beverages from the gala.",
+                    "Opportunity to connect with exhibitors and tech providers."
+                ]
+            },
+            {
+                "name": "After Party Pass",
+                "price": "₹6,000",
+                "tagline": "Celebrate innovation under the stars.",
+                "inclusions": [
+                    "Entry to the exclusive After Party with live music and networking.",
+                    "Access to organic cocktails and late-night bites."
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "delegateRegistrationOpens": "May 15, 2025",
+            "delegateRegistrationCloses": "July 1, 2025",
+            "guestPassesOpens": "June 1, 2025",
+            "guestPassesCloses": "August 15, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 24, 2025 (Friday)",
+                "events": [
+                    "10:00 AM: Gates Open & Setup",
+                    "11:00 AM: Opening Ceremony & Innovation Showcase (Open to All)",
+                    "12:30 PM - 3:00 PM: Live Demonstrations Kickoff (Open to All)",
+                    "4:00 PM - 6:00 PM: Expert Panels (Open to All)",
+                    "7:00 PM: After Party"
+                ]
+            },
+            {
+                "day": "October 25, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Innovation Showcase (Open to All)",
+                    "12:00 PM - 2:00 PM: Keynote Speeches (Open to All)",
+                    "3:00 PM - 5:00 PM: Startup Pitch Competition (Open to All)",
+                    "6:00 PM - 7:00 PM: Drone Light Show (Open to All)",
+                    "8:00 PM - 11:00 PM: Networking Gala Dinner (Delegates, VIPs)"
+                ]
+            },
+            {
+                "day": "October 26, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Extended Innovation Showcase (Open to All)",
+                    "12:00 PM - 2:00 PM: Networking & Field Tour",
+                    "3:00 PM - 5:00 PM: Expert Panels & Live Demonstrations Finale (Open to All)",
+                    "7:00 PM - 10:00 PM: After Party (Delegates, VIPs, After Party Pass Holders)"
+                ]
+            }
+        ]
+    },
+    {
+        "eventTitle": "D'Throne Prince - Male Beauty Pageant 2025",
+        "slug": "Dthrone-event",
+        "theme": "A prestigious male pageant showcasing physical prowess, intelligence, charisma, and social advocacy, crowning the ultimate ambassador of modern masculinity.",
+        "description": "Step into the spotlight to redefine valor, connect with a vibrant community, and celebrate the essence of today’s gentleman in a grand, unforgettable spectacle!",
+        "leftImage": "./event-page/new/d'throneprince2.png",
+        "rightImage": "./event-page/new/d'throneprince1.png",
+        "midImage": "./images/landing-page-images/section2/smallImage.webp",
+        "ticketTypes": [
+            {
+                "name": "Contestant Registration",
+                "price": "₹15,000",
+                "tagline": "Rise to valor and claim your crown.",
+                "inclusions": [
+                    "Entry to compete in personal interview, outfit of choice, fitness/swimwear, formal wear, and Q&A rounds.",
+                    "Professional styling and stage support.",
+                    "Access to gala dinner and after party.",
+                    "Opportunity to win cash prizes and media exposure.",
+                    "E-Certificate and finalist photo package."
+                ]
+            },
+            {
+                "name": "Platinum Crown Pass",
+                "price": "₹30,000 - ₹40,000",
+                "tagline": "Experience the pinnacle of pageantry.",
+                "inclusions": [
+                    "Reserved front-row seating for all rounds.",
+                    "Exclusive VIP lounge with gourmet refreshments.",
+                    "Private meet-and-greet with judges and winners.",
+                    "Access to gala dinner, after party, and drone light show.",
+                    "Luxury swag kit worth ₹10,000+.",
+                    "Professional photoshoot opportunity."
+                ]
+            },
+            {
+                "name": "Spectator Pass",
+                "price": "₹5,000 - ₹7,000",
+                "tagline": "Witness the rise of valor.",
+                "inclusions": [
+                    "Entry to all public rounds, cultural performances, and coronation.",
+                    "Access to networking reception and finish line festival.",
+                    "Free snack and drink coupon.",
+                    "Chance to participate in audience engagement activities."
+                ]
+            },
+            {
+                "name": "After Party Pass",
+                "price": "₹5,000",
+                "tagline": "Dance into the night with champions.",
+                "inclusions": [
+                    "Entry to the exclusive after party with live music.",
+                    "Unlimited mocktails and light bites.",
+                    "Access to award highlights and photo moments."
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "registrationOpens": "June 15, 2025",
+            "earlyBirdDiscountDeadline": "June 30, 2025",
+            "finalRegistrationDeadline": "August 1, 2025"
+        },
+        "schedule": [
+            {
+                "day": "November 7, 2025 (Friday)",
+                "events": [
+                    "10:00 AM: Gates Open & Registration",
+                    "11:00 AM: Opening Ceremony & Press Presentation",
+                    "12:00 PM - 2:00 PM: Preliminary Rounds - Personal Interview",
+                    "2:30 PM - 4:30 PM: Preliminary Rounds - Outfit of Choice",
+                    "5:00 PM - 6:30 PM: Cultural Performance & Networking Reception",
+                    "7:00 PM: Gala Dinner"
+                ]
+            },
+            {
+                "day": "November 8, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Final Rounds - Fitness/Swimwear Competition",
+                    "12:00 PM - 2:00 PM: Final Rounds - Formal Wear & Q&A",
+                    "2:30 PM - 4:00 PM: Award Judging & Top Contender Announcement",
+                    "4:30 PM - 5:30 PM: Coronation Ceremony & Drone Light Show",
+                    "6:00 PM - 9:00 PM: After Party"
+                ]
+            },
+            {
+                "day": "November 9, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Final Rounds - Formal Wear & Q&A",
+                    "12:00 PM - 2:00 PM: Award Judging & Top Contender Announcement",
+                    "3:00 PM - 5:00 PM: Coronation Ceremony & Drone Light Show",
+                    "6:00 PM - 9:00 PM: After Party"
+                ]
+            }
+        ]
+    },
+    {
+        "eventTitle": "D’ESTATE EXPO",
+        "slug": "d-estate-expo",
+        "theme": "The Future of Living. The Power of Property.",
+        "description": "An ultra-luxury real estate expo for global developers, high-net-worth investors, and curated buyers. Immerse yourself in a world of iconic properties, cutting-edge PropTech, and visionary designs that redefine opulent living. Connect with industry titans and shape the future of real estate in an exclusive, high-energy showcase!",
+        "leftImage": "",
+        "rightImage": "",
+        "midImage": "",
+        "ticketTypes": [
+            {
+                "name": "General Visitor Pass",
+                "price": "₹999 - ₹2,999",
+                "tagline": "Entry to general exhibition zones.",
+                "inclusions": [
+                    "Entry to general exhibition zones.",
+                    "Holographic walk-through access.",
+                    "Free NFT-based event certificate + brochures."
+                ]
+            },
+            {
+                "name": "Investor Delegate Pass",
+                "price": "₹15,000 - ₹25,000",
+                "tagline": "Invite to Capital Connect Lounge.",
+                "inclusions": [
+                    "All benefits of General Visitor Pass.",
+                    "Invite to Capital Connect Lounge.",
+                    "Reserved seating in all panels.",
+                    "Access to Awards Night + Rooftop Gala.",
+                    "Concierge for property bookings, priority VR walkthroughs."
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "applicationsOpenForExhibitors": "May 1, 2025",
+            "investorDelegateInvitationsBegin": "May 15, 2025",
+            "awardsNominationsLaunch": "June 1, 2025",
+            "finalRegistrationDeadline": "July 31, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 24, 2025 (Friday)",
+                "events": [
+                    "9:00 AM: Gates Open & Billionaire Boulevard Setup",
+                    "10:00 AM: Opening Ceremony & Visionaries of Real Estate Panel",
+                    "12:00 PM - 3:00 PM: PropTech Pavilion Demos",
+                    "4:00 PM - 6:00 PM: Future Cities Gallery Walkthrough",
+                    "7:00 PM: Capital Connect Lounge Networking"
+                ]
+            },
+            {
+                "day": "October 25, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Interior & Design Showcase",
+                    "12:00 PM - 2:00 PM: Investment Den 1:1 Meetings",
+                    "3:00 PM - 5:00 PM: Architecture & Sustainability Zone",
+                    "6:00 PM - 8:00 PM: SkyDeck Party"
+                ]
+            },
+            {
+                "day": "October 26, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Extended Exhibition Zones",
+                    "12:00 PM - 2:00 PM: Holographic Walkthrough Sessions",
+                    "3:00 PM - 5:00 PM: Estate Hunt Game Finale",
+                    "6:00 PM - 9:00 PM: D’ESTATE Awards Night"
+                ]
+            }
+        ]
+    },
+    {
+        "eventTitle": "The Grand Pour",
+        "slug": "wine-making-festival",
+        "theme": "Step into the enchanting world of The Grand Pour, where tradition meets taste, and every moment is paired with elegance.",
+        "description": "Celebrate the art of winemaking with a vibrant blend of culture, cuisine, and creativity. From grape stomping to jazz under the stars, this event promises an unforgettable experience for wine lovers, connoisseurs, and creators alike. Join us for a luxurious celebration of vinous glory!",
+        "leftImage": "./event-page/wine_inner.png",
+        "rightImage": "./event-page/wine_inner.png",
+        "midImage": "./event-page/wz̄ine_festval_video.mp4",
+        "ticketTypes": [
+            {
+                "name": "Vintner’s Pass",
+                "price": "₹6,000",
+                "tagline": "For those born to ferment greatness.",
+                "inclusions": [
+                    "Entry into the 'Wine Making' competition.",
+                    "Access to traditional wine-making equipment & ingredients.",
+                    "Participation in the Grape Stomping Ritual Ceremony.",
+                    "Invitation to the After Party with wine connoisseurs & jazz.",
+                    "Full access to a 7-Course Organic Meal, Vineyard Fashion Show, Jazz Concert + Drone Show.",
+                    "Wine branding exposure (booth or stall if shortlisted).",
+                    "Winner takes home ₹50,000 + Gift Hampers."
+                ]
+            },
+            {
+                "name": "Sommelier Gold Pass",
+                "price": "₹15,000 - ₹25,000",
+                "tagline": "Step beyond velvet ropes into a world of elegance, flavor, and fine company.",
+                "inclusions": [
+                    "Private Vineyard Tour with Master Sommeliers.",
+                    "Early Access to Exclusive Wine Tastings.",
+                    "Reserved seating for the Jazz Concert under the stars, Vineyard Fashion Show, Drone Symphony Finale.",
+                    "7-Course Organic Dinner with curated wine pairings.",
+                    "After Party Access with artisanal wine cocktails.",
+                    "Premium Gold Welcome Hamper (Worth ₹5,000+).",
+                    "Exclusive access to the Grape Stomping Ceremony.",
+                    "Name feature in the Golden Guest Registry of The Grand Pour."
+                ]
+            },
+            {
+                "name": "Connoisseur Entry",
+                "price": "₹4,000 - ₹6,000",
+                "tagline": "Step into the enchanting world of The Grand Pour, where tradition meets taste, and every moment is paired with elegance.",
+                "inclusions": [
+                    "Entry to The Grand Pour Grounds.",
+                    "Access to the Traditional Wine-Making Celebration.",
+                    "Grape Stomping Experience.",
+                    "Open viewing of the Vineyard Fashion Show.",
+                    "Access to the Evening Jazz Concert.",
+                    "Admission to the Drone Show Spectacle.",
+                    "Wine Sampling Corners across the venue.",
+                    "Organic 7-Course Meal in the community garden seating."
+                ]
+            },
+            {
+                "name": "After Party Pass",
+                "price": "₹3,500",
+                "tagline": "Celebrate winemaking under the stars.",
+                "inclusions": [
+                    "Entry to the exclusive After Party with live jazz and networking.",
+                    "Access to artisanal wine cocktails and late-night bites."
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "startingDateForRegistration": "May 1, 2025",
+            "lastDateForRegistration": "June 15, 2025",
+            "startingDateForBuyingPasses": "May 15, 2025",
+            "lastDateForBuyingPasses": "July 31, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 10, 2025 (Friday)",
+                "events": [
+                    "10:00 AM: Gates Open & Setup",
+                    "11:00 AM: Opening Ceremony & Traditional Wine-Making Celebration",
+                    "12:30 PM - 3:00 PM: Grape Stomping Kickoff",
+                    "4:00 PM - 6:00 PM: Wine Tasting Booths Open",
+                    "7:00 PM: After Party"
+                ]
+            },
+            {
+                "day": "October 11, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Vineyard Tours & Tasting Booths",
+                    "12:00 PM - 2:00 PM: Jazz Concert",
+                    "3:00 PM - 5:00 PM: Vineyard Fashion Show"
+                ]
+            },
+            {
+                "day": "October 12, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Extended Wine Tasting & Shopping",
+                    "12:00 PM - 2:00 PM: Networking & 7-Course Organic Meal",
+                    "3:00 PM - 5:00 PM: Wine Competition Finale",
+                    "6:00 PM - 7:00 PM: Drone Show",
+                    "7:00 PM - 10:00 PM: After Party"
+                ]
+            }
+        ]
+    },
+    {
+        "eventTitle": "Marathon Mingle - Run. Connect. Celebrate.",
+        "slug": "marathon-mingle-event",
+        "theme": "A premium couple marathon event where partners run, connect, and celebrate together, featuring diverse race categories, wellness perks, and a festive finish. Join us for two days of fitness, romance, and fun, where every step strengthens your bond. Lace up with your loved one and make memories that last beyond the finish line!",
+        "description": "A premium couple marathon event where partners run, connect, and celebrate together, featuring diverse race categories, wellness perks, and a festive finish.",
+        "leftImage": "./event-page/new/marathon1.png",
+        "rightImage": "./event-page/new/marathon2.png",
+        "midImage": "./images/landing-page-images/section7/COUPLE'S_MARATHON.webp",
+        "ticketTypes": [
+            {
+                "name": "Couple Runner’s Pass",
+                "price": "₹1,199 (5K) / ₹1,999 (10K) / ₹2,999 (21K) per pair",
+                "tagline": "More than just miles – make memories together.",
+                "inclusions": [
+                    "Participation in chosen race category (5K, 10K, or 21K) as a pair.",
+                    "2 Dry Fit Marathon Mingle T-Shirts and Bibs.",
+                    "2 Timing Chips and Race App Access for tracking.",
+                    "2 Finisher Medals and E-Certificates.",
+                    "Energy Drinks and Hydration Stations.",
+                    "Post-Run Physiotherapy and Cooldown Booths.",
+                    "Entry to Finish Line Festival.",
+                    "Name Feature on Leaderboard as a couple.",
+                    "Top 3 Couple Winners (per category):",
+                    "1st Prize: ₹25,000 per couple.",
+                    "2nd Prize: ₹15,000 per couple.",
+                    "3rd Prize: ₹5,000 + Goodies per couple."
+                ]
+            },
+            {
+                "name": "VIP Fitness Circle",
+                "price": "₹7,999 per pair",
+                "tagline": "Run hard, recover harder, together.",
+                "inclusions": [
+                    "All benefits of Couple Runner’s Pass.",
+                    "Access to Marathon Mingle Lounge with Healthy Gourmet Buffet.",
+                    "Recovery Pods and Massage Chairs.",
+                    "Premium Swag Kit worth ₹2,000+ (per couple).",
+                    "Glow-in-the-Dark Night Sprint Entry.",
+                    "Private Chill Zone with Fitness Influencers.",
+                    "Priority Start Line Position.",
+                    "Professional Photoshoot (Running Shots + Finish Line per couple)."
+                ]
+            },
+            {
+                "name": "Cheer Squad Pass",
+                "price": "₹299 - ₹499 per person",
+                "tagline": "Fuel the runners with your energy.",
+                "inclusions": [
+                    "Entry to Marathon Grounds.",
+                    "Access to Zumba Warm-up and DJ Music Zone.",
+                    "Participation in Fun Fitness Games.",
+                    "Free Drink and Snack Coupon.",
+                    "Access to Brand Activation Zones and Lucky Draws.",
+                    "Finish Line Festival Entry."
+                ]
+            },
+            {
+                "name": "After Party Access",
+                "price": "₹999 per person",
+                "tagline": "Evening bash for runners and guests.",
+                "inclusions": [
+                    "Entry to After Run Celebration Party.",
+                    "Live DJ with Glow Theme.",
+                    "Unlimited Mocktails.",
+                    "Dance Battles and Fun Challenges.",
+                    "Medal Ceremony Viewing and Open Mic Moments.",
+                    "Event Photography and Digital Memories."
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "registrationOpens": "June 1, 2025",
+            "earlyBirdDiscountDeadline": "June 15, 2025",
+            "finalRegistrationDeadline": "July 15, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 10, 2025 (Friday)",
+                "events": [
+                    "9:00 AM: Gates Open",
+                    "10:00 AM: Opening Ceremony & Live Zumba Warm-Up with Celebrity Trainer",
+                    "11:00 AM - 2:00 PM: Couple Race Categories (5K, 10K, 21K) Start",
+                    "2:30 PM - 4:00 PM: Free Physiotherapy & Stretching Booths",
+                    "4:30 PM - 6:00 PM: Marathon Mingle Lounge Opening",
+                    "6:30 PM: DJ at Finish Line Festival"
+                ]
+            },
+            {
+                "day": "October 11, 2025 (Saturday)",
+                "events": [
+                    "9:00 AM: Glow-in-the-Dark Night Sprint",
+                    "11:00 AM - 1:00 PM: On-the-Spot Health Checkups & Brand Swag Corners",
+                    "1:30 PM - 3:00 PM: Leaderboard Screens & Live App Tracking Reveal",
+                    "3:30 PM - 5:00 PM: Medal Ceremony & Couple Awards",
+                    "6:00 PM - 9:00 PM: After Run Celebration Party"
+                ]
+            }
+        ]
+    },
+    {
+        "eventTitle": "WANDERLUXE: The Global Travel & Tourism Summit",
+        "slug": "travel-tourism-event",
+        "theme": "An ultra-premium, multi-sensory travel showcase celebrating destinations, cultures, and the future of luxury tourism. Step into a world of immersive pavilions, curated experiences, and exclusive networking that redefines wanderlust. From bespoke journeys to cultural extravaganzas, join global tastemakers for a journey like no other!",
+        "description": "An ultra-premium, multi-sensory travel showcase celebrating destinations, cultures, and the future of luxury tourism.",
+        "leftImage": "",
+        "rightImage": "",
+        "midImage": "",
+        "ticketTypes": [
+            {
+                "name": "General Explorer Pass",
+                "price": "₹1,999 - ₹4,999",
+                "tagline": "Full-day entry to Expo Zones.",
+                "inclusions": [
+                    "Full-day entry to Expo Zones.",
+                    "Access to Destination Pavilions, Culture Street, F&B sampling.",
+                    "Travel tech app trials & trip giveaways."
+                ]
+            },
+            {
+                "name": "Premium Delegate Pass",
+                "price": "₹25,000",
+                "tagline": "All-access to VIP networking areas.",
+                "inclusions": [
+                    "All benefits of General Explorer Pass.",
+                    "Entry to Royal Awards Gala & Cultural Night.",
+                    "Early RSVP for Masterclasses, Yacht Parties.",
+                    "Concierge Travel Lounge Access + Premium Gift Box."
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "applicationsForBrandBoothsOpen": "May 1, 2025",
+            "earlyBirdTicketsLive": "May 15, 2025",
+            "royalTourismAwardsNominationsBegin": "June 1, 2025",
+            "finalRegistrationDeadline": "July 31, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 17, 2025 (Friday)",
+                "events": [
+                    "9:00 AM: Gates Open & Destination Pavilions Setup",
+                    "10:00 AM: Opening Ceremony & World on a Plate Culinary Theatre",
+                    "12:00 PM - 3:00 PM: Bespoke Journey Zone Consultations",
+                    "4:00 PM - 6:00 PM: Tourism Tech Arena Demos",
+                    "7:00 PM: Sunset Yacht Party"
+                ]
+            },
+            {
+                "day": "October 18, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Glamp & Luxe Lodging Zone",
+                    "12:00 PM - 2:00 PM: Skies of Tomorrow Aviation Showcase",
+                    "3:00 PM - 5:00 PM: Global Buyers Program Networking",
+                    "6:00 PM - 8:00 PM: Cultural Night Extravaganza"
+                ]
+            },
+            {
+                "day": "October 19, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Extended Souvenir Street & Pavilions",
+                    "12:00 PM - 2:00 PM: WanderFilm Festival Screenings",
+                    "3:00 PM - 5:00 PM: Luxury Retreat Raffle Draw",
+                    "6:00 PM - 9:00 PM: Royal Tourism Awards Gala"
+                ]
+            }
+        ]
+    },
+    {
+        "eventTitle": "Punjabi Delegates",
+        "slug": "punjabi-delegates",
+        "theme": "A vibrant celebration of Punjab’s finest with music, fashion, food, and shopping",
+        "description": " Step into a vibrant celebration of Punjab’s finest at the Punjabi Delegates event, designed for all who wish to immerse themselves in culture and connect in a lively setting. Enjoy an electrifying live concert with top Punjabi singers, a stunning fashion show featuring iconic designers, a mouthwatering Punjabi food festival, and a shopping spree with the best regional brands. Whether you’re here to network, celebrate heritage, or discover new experiences, this event promises an unforgettable fusion of tradition and modernity. Ditch the routine and join us for a night of authentic Punjabi joy!",
+        "leftImage": "",
+        "rightImage": "",
+        "midImage": "",
+        "ticketTypes": [
+            {
+                "name": "Platinum VIP Pass",
+                "price": "₹30,000 – ₹40,000",
+                "tagline": "Experience Punjab’s elite celebration.",
+                "inclusions": [
+                    "Reserved front-row seating for the concert and fashion show.",
+                    "Exclusive access to a VIP lounge with gourmet Punjabi cuisine.",
+                    "Private meet-and-greet with singers, designers, and chefs.",
+                    "Grand Gala Evening with premium beverage pairings.",
+                    "After Party access with live music and cocktails.",
+                    "Luxury welcome hamper (worth ₹10,000+) featuring Punjabi brand products.",
+                    "Name featured in the Platinum Guest Registry."
+                ]
+            },
+            {
+                "name": "Heritage Entry",
+                "price": "₹6,000 – ₹8,000",
+                "tagline": "Immerse in the soul of Punjab.",
+                "inclusions": [
+                    "Entry to the event grounds for the concert, fashion show, food festival, and retail outlets.",
+                    "Access to open seating for cultural performances and the drone show.",
+                    "Sampling of Punjabi delicacies from the food festival.",
+                    "Shopping discounts at participating brand outlets.",
+                    "Community seating for the Grand Gala Evening."
+                ]
+            },
+            {
+                "name": "After Party Pass",
+                "price": "₹5,000",
+                "tagline": "Dance the night away in Punjabi style.",
+                "inclusions": [
+                    "Entry to the exclusive After Party with live Bhangra performances.",
+                    "Access to artisanal Punjabi cocktails and late-night snacks."
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "startDateOfRegistration": "May 1, 2025",
+            "endDateOfRegistration": "June 15, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 17, 2025 (Friday)",
+                "events": [
+                    "10:00 AM: Gates Open & Setup",
+                    "11:00 AM: Opening Ceremony & Cultural Performances (Open to All)",
+                    "12:30 PM - 3:00 PM: Punjabi Food Festival Kickoff (Open to All)",
+                    "4:00 PM - 6:00 PM: Retail Outlet Openings (Open to All)",
+                    "7:00 PM: After Party"
+                ]
+            },
+            {
+                "day": "October 18, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Retail Outlet Openings (Open to All)",
+                    "12:00 PM - 2:00 PM: Live Concert by Top Singers (Open to All)",
+                    "3:00 PM - 5:00 PM: Cultural Performances (Open to All)",
+                    "6:00 PM - 7:00 PM: Drone Light Show (Open to All)",
+                    "8:00 PM - 11:00 PM: Grand Gala Evening (Delegates, VIPs)"
+                ]
+            },
+            {
+                "day": "October 19, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Extended Retail Shopping Spree (Open to All)",
+                    "12:00 PM - 2:00 PM: Networking & Food",
+                    "3:00 PM - 5:00 PM: Cultural Performances & Food Festival Finale (Open to All)",
+                    "7:00 PM - 10:00 PM: After Party (Delegates, VIPs, After Party Pass Holders)"
+                ]
+            }
+        ]
+    },
+    {
+        "eventTitle": "Flavors of Love – Cook. Bond. Celebrate.",
+        "slug": "flavors-of-love-cooking-festival",
+        "theme": "A premium couples’ cooking festival where partners team up to cook, compete, and connect. Featuring fun cooking challenges, gourmet workshops, chef masterclasses, and a romantic dinner experience. Sizzle up your love in the kitchen and create tasteful memories that last forever!",
+        "description": "A unique couples’ cooking festival that blends fun, flavor, and romance. Join hands to whisk, stir, and spice up your relationship while competing in culinary challenges and enjoying gourmet experiences.",
+        "leftImage": "./event-page/new/culinary1.png",
+        "rightImage": "./event-page/new/culinary2.png",
+        "midImage": "/event-page/culinary_event.mp4",
+        "ticketTypes": [
+          {
+            "name": "Couple Chef Pass",
+            "price": "₹1,499 (Starter) / ₹2,499 (Main Course) / ₹3,499 (MasterChef) per pair",
+            "tagline": "Turn up the heat – in the kitchen and your connection.",
+            "inclusions": [
+              "Entry to selected cooking competition level.",
+              "Cooking Station & Ingredients provided.",
+              "Chef Apron Set (2) and Name Badges.",
+              "Recipe Booklet & Ingredient Kit to take home.",
+              "Professional Chef Mentors and Live Guidance.",
+              "Participation Certificate and Finisher Medal.",
+              "Couple Photo at Chef’s Wall of Fame.",
+              "Top 3 Winning Couples (per category):",
+              "1st Prize: ₹20,000 + Kitchen Appliances",
+              "2nd Prize: ₹10,000 + Gourmet Hampers",
+              "3rd Prize: ₹5,000 + Cooking Kits"
+            ]
+          },
+          {
+            "name": "VIP Gourmet Lounge",
+            "price": "₹6,999 per pair",
+            "tagline": "Luxury dining meets romantic bonding.",
+            "inclusions": [
+              "All benefits of Couple Chef Pass (MasterChef Category).",
+              "Access to Gourmet Lounge with 5-Star Dining Experience.",
+              "Wine & Dessert Pairing Workshop with Sommeliers.",
+              "Couple Cooking Photoshoot by Food Photographer.",
+              "Meet & Greet with Celebrity Chefs.",
+              "Private Table for Romantic Tasting Menu Dinner.",
+              "Luxury Welcome Hamper worth ₹3,000+"
+            ]
+          },
+          {
+            "name": "Taste Buddy Pass",
+            "price": "₹299 - ₹599 per person",
+            "tagline": "Cheer, taste, and vibe!",
+            "inclusions": [
+              "Entry to Cooking Arena and Food Tasting Zones.",
+              "Participation in Audience Games & Lucky Draws.",
+              "Live Music and Entertainment Zone Access.",
+              "Free Snack Coupon and Beverage.",
+              "Chef Q&A and Live Demos Access.",
+              "Evening Culinary Showcase Entry"
+            ]
+          },
+          {
+            "name": "After-Food Fiesta Access",
+            "price": "₹999 per person",
+            "tagline": "Groove after the gourmet.",
+            "inclusions": [
+              "Access to the After-Food Celebration Bash.",
+              "Live Band & DJ Night with Dance Floor.",
+              "Unlimited Mocktails and Sweet Treats.",
+              "Couple Dance-Off & Open Mic Food Stories.",
+              "Event Photos & Video Reel Delivery."
+            ]
+          }
+        ],
+        "registrationDetails": {
+          "registrationOpens": "August 1, 2025",
+          "earlyBirdDiscountDeadline": "August 20, 2025",
+          "finalRegistrationDeadline": "September 25, 2025"
+        },
+        "schedule": [
+          {
+            "day": "November 8, 2025 (Saturday)",
+            "events": [
+              "9:00 AM: Entry Gates Open",
+              "10:00 AM: Welcome Address & Kitchen Safety Brief",
+              "11:00 AM - 1:00 PM: Couple Cooking Challenge Rounds Begin",
+              "1:30 PM - 3:00 PM: Live Chef Demo & Tasting Session",
+              "3:30 PM - 5:00 PM: Gourmet Lounge Opens & Wine Workshop",
+              "6:00 PM: Evening Culinary Showcase",
+              "7:30 PM: DJ at Food Fiesta Grounds"
+            ]
+          },
+          {
+            "day": "November 9, 2025 (Sunday)",
+            "events": [
+              "9:00 AM: MasterChef Finals (Live Judging)",
+              "11:00 AM - 1:00 PM: Brand Activation Corners & Mini Cook-Offs",
+              "1:30 PM - 3:00 PM: Awards & Medal Ceremony",
+              "3:30 PM - 6:00 PM: Romantic Tasting Menu Experience",
+              "6:30 PM - 9:00 PM: After-Food Fiesta Celebration Party"
+            ]
+          }
+        ]
+      }
+      
+]

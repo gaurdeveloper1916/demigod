@@ -5,7 +5,7 @@ import "swiper/swiper-bundle.css";
 import "./landing.css";
 import { Auth } from "../../../context/AppContext";
 
-const Curveslider = () => {
+const Curveslider = ({data}) => {
   const { imageForLandingPage, landingImage, setLandingImage, commonImage } = useContext(Auth)
   const swiperRef = useRef(null);
   useEffect(() => {
@@ -29,14 +29,14 @@ const Curveslider = () => {
         {/* Image Slide */}
         <div className="swiper-slide">
           <div className="media-container">
-            <img src={landingImage.leftImage === '' ? commonImage : landingImage.leftImage} alt="landing page slider" />
+            <img src={data.leftImage === '' ? commonImage : data.leftImage} alt="landing page slider" />
           </div>
         </div>
 
         {/* Image Slide */}
         <div className="swiper-slide">
           <div className="media-container">
-            <img src={landingImage.leftImage === '' ? commonImage : landingImage.leftImage} alt="landing page slider" />
+            <img src={data.leftImage === '' ? commonImage : data.leftImage} alt="landing page slider" />
           </div>
         </div>
 
@@ -45,14 +45,14 @@ const Curveslider = () => {
         <div className="swiper-slide video-slide">
           <div className="media-container">
             {
-              landingImage.midVideo.includes('.mp4') ?
+              data.midImage.includes('.mp4') ?
                 <div className="video-container">
 
                   <video autoPlay muted loop>
                     <source src={landingImage.midVideo} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
-                </div> : <img src={landingImage.midVideo} alt="landing page slider" />
+                </div> : <img src={data.midImage} alt="landing page slider" />
 
             }
 
@@ -62,14 +62,14 @@ const Curveslider = () => {
         {/* Image Slide */}
         <div className="swiper-slide">
           <div className="media-container">
-            <img src={landingImage.rightImage === '' ? commonImage : landingImage.rightImage} alt="landing page slider" />
+            <img src={data.rightImage === '' ? commonImage : data.rightImage} alt="landing page slider" />
           </div>
         </div>
 
         {/* Image Slide */}
         <div className="swiper-slide">
           <div className="media-container">
-            <img src={landingImage.rightImage === '' ? commonImage : landingImage.rightImage} alt="landing page slider" />
+            <img src={data.rightImage === '' ? commonImage : data.rightImage} alt="landing page slider" />
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ function TwoImagesDiv() {
         {
           size: 8,
           src: "/event-page/grand_wine.mp4",
-          link: "/landingpage",
+          link: "/landingpage?slug=wine-making-festival",
           leftImage: "./event-page/wine_making.png",
           rightImage: "./event-page/wine_making.png",
           title: "Wine Making Festival-Fete du  Vin ",
@@ -23,7 +23,7 @@ function TwoImagesDiv() {
         {
           size: 4,
           src: "/event-page/dating.png",
-          link: "/landingpage",
+          link: "/landingpage?slug=tinder-night-events",
           title: "Tinder Nights",
           leftImage: "",
           rightImage: "",
@@ -38,8 +38,7 @@ function TwoImagesDiv() {
           size: 4,
 
           src: './images/landing-page-images/section2/smallImage.webp',
-          link: "/landingpage",
-          // title: "Event /03",
+          link: "/landingpage?slug=Dthrone-event",          // title: "Event /03",
           title: "D'Throne Prince",
           leftImage: "",
           rightImage: "",
@@ -49,7 +48,7 @@ function TwoImagesDiv() {
         {
           size: 8,
           src: "/event-page/Beauty_Paegant_Poster.mp4",
-          link: "/landingpage",
+          link: "/landingpage?slug=beauty-pagent-event",
           title: "D'Royal Tiara",
           leftImage: "",
           rightImage: "",
@@ -68,7 +67,7 @@ function TwoImagesDiv() {
         {
           size: 8,
           src: "/event-page/culinary_event.mp4",
-          link: "/landingpage",
+          link: "/landingpage?slug=flavors-of-love-cooking-festival",
           // title: "Event /05",
           title: "Cutinary O' Affaris",
           leftImage: "",
@@ -80,7 +79,7 @@ function TwoImagesDiv() {
           size: 4,
           // src: "/event-page/marathon_mingle.webp",
           src: "./images/landing-page-images/section7/COUPLE'S_MARATHON.webp",
-          link: "/landingpage",
+          link: "/landingpage?slug=marathon-mingle-event",
           // title: "Event /06",
           title: "Marathon Mingle",
           leftImage: "",

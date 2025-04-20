@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import './panel.css'; // Assuming your CSS is saved in this file
 import CustomTabBar from '../CustomTabBar'
 import TabsComponent from '../TabsComponent/TabsComponent'
-const Panel = () => {
+const Panel = ({data}) => {
   const [activeTab, setActiveTab] = useState('v-pills-home');
 
   const handleTabClick = (tabId) => {
@@ -17,7 +17,7 @@ const Panel = () => {
           <div className='col-lg-7 col-12'>
             {/* <Tabs /> */}
             {/* <TabsComponent/> */}
-            <CustomTabBar />
+            <CustomTabBar data={data} />
           </div>
           <div className='col-lg-4 col-12'>
             <h4 className='text-white text-center'>Our Partner</h4>
