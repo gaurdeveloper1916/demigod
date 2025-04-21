@@ -1,7 +1,5 @@
-import Header from '../component/common/header/Header';
-import Map from '../component/googlemap/Map';
-import Testing from "./Testing"
-import './index.css'
+
+import Testing from "../component/test/Testing"
 const Test = () => {
 
     return <Testing />

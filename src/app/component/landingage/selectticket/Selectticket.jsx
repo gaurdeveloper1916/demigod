@@ -6,7 +6,6 @@ import { IoArrowBackSharp } from "react-icons/io5";
 import { Auth } from "../../../../context/AppContext";
 import './index.css'
 const Selectticket = ({data}) => {
-    const { landingHeading, landingDes, ticketdes } = useContext(Auth)
     const [ticketCount, setTicketCount] = useState(1);
     return (
         <>

@@ -251,7 +251,6 @@
                     "Closing Couple Ceremony"
                 ]
             },
-            
             {
                 "name": "VIP Ember Lounge Add-on",
                 "price": "₹4,000",
@@ -1013,93 +1012,325 @@
         "rightImage": "./event-page/new/culinary2.png",
         "midImage": "/event-page/culinary_event.mp4",
         "ticketTypes": [
-          {
-            "name": "Couple Chef Pass",
-            "price": "₹1,499 (Starter) / ₹2,499 (Main Course) / ₹3,499 (MasterChef) per pair",
-            "tagline": "Turn up the heat – in the kitchen and your connection.",
-            "inclusions": [
-              "Entry to selected cooking competition level.",
-              "Cooking Station & Ingredients provided.",
-              "Chef Apron Set (2) and Name Badges.",
-              "Recipe Booklet & Ingredient Kit to take home.",
-              "Professional Chef Mentors and Live Guidance.",
-              "Participation Certificate and Finisher Medal.",
-              "Couple Photo at Chef’s Wall of Fame.",
-              "Top 3 Winning Couples (per category):",
-              "1st Prize: ₹20,000 + Kitchen Appliances",
-              "2nd Prize: ₹10,000 + Gourmet Hampers",
-              "3rd Prize: ₹5,000 + Cooking Kits"
-            ]
-          },
-          {
-            "name": "VIP Gourmet Lounge",
-            "price": "₹6,999 per pair",
-            "tagline": "Luxury dining meets romantic bonding.",
-            "inclusions": [
-              "All benefits of Couple Chef Pass (MasterChef Category).",
-              "Access to Gourmet Lounge with 5-Star Dining Experience.",
-              "Wine & Dessert Pairing Workshop with Sommeliers.",
-              "Couple Cooking Photoshoot by Food Photographer.",
-              "Meet & Greet with Celebrity Chefs.",
-              "Private Table for Romantic Tasting Menu Dinner.",
-              "Luxury Welcome Hamper worth ₹3,000+"
-            ]
-          },
-          {
-            "name": "Taste Buddy Pass",
-            "price": "₹299 - ₹599 per person",
-            "tagline": "Cheer, taste, and vibe!",
-            "inclusions": [
-              "Entry to Cooking Arena and Food Tasting Zones.",
-              "Participation in Audience Games & Lucky Draws.",
-              "Live Music and Entertainment Zone Access.",
-              "Free Snack Coupon and Beverage.",
-              "Chef Q&A and Live Demos Access.",
-              "Evening Culinary Showcase Entry"
-            ]
-          },
-          {
-            "name": "After-Food Fiesta Access",
-            "price": "₹999 per person",
-            "tagline": "Groove after the gourmet.",
-            "inclusions": [
-              "Access to the After-Food Celebration Bash.",
-              "Live Band & DJ Night with Dance Floor.",
-              "Unlimited Mocktails and Sweet Treats.",
-              "Couple Dance-Off & Open Mic Food Stories.",
-              "Event Photos & Video Reel Delivery."
-            ]
-          }
+            {
+                "name": "Couple Chef Pass",
+                "price": "₹1,499 (Starter) / ₹2,499 (Main Course) / ₹3,499 (MasterChef) per pair",
+                "tagline": "Turn up the heat – in the kitchen and your connection.",
+                "inclusions": [
+                    "Entry to selected cooking competition level.",
+                    "Cooking Station & Ingredients provided.",
+                    "Chef Apron Set (2) and Name Badges.",
+                    "Recipe Booklet & Ingredient Kit to take home.",
+                    "Professional Chef Mentors and Live Guidance.",
+                    "Participation Certificate and Finisher Medal.",
+                    "Couple Photo at Chef’s Wall of Fame.",
+                    "Top 3 Winning Couples (per category):",
+                    "1st Prize: ₹20,000 + Kitchen Appliances",
+                    "2nd Prize: ₹10,000 + Gourmet Hampers",
+                    "3rd Prize: ₹5,000 + Cooking Kits"
+                ]
+            },
+            {
+                "name": "VIP Gourmet Lounge",
+                "price": "₹6,999 per pair",
+                "tagline": "Luxury dining meets romantic bonding.",
+                "inclusions": [
+                    "All benefits of Couple Chef Pass (MasterChef Category).",
+                    "Access to Gourmet Lounge with 5-Star Dining Experience.",
+                    "Wine & Dessert Pairing Workshop with Sommeliers.",
+                    "Couple Cooking Photoshoot by Food Photographer.",
+                    "Meet & Greet with Celebrity Chefs.",
+                    "Private Table for Romantic Tasting Menu Dinner.",
+                    "Luxury Welcome Hamper worth ₹3,000+"
+                ]
+            },
+            {
+                "name": "Taste Buddy Pass",
+                "price": "₹299 - ₹599 per person",
+                "tagline": "Cheer, taste, and vibe!",
+                "inclusions": [
+                    "Entry to Cooking Arena and Food Tasting Zones.",
+                    "Participation in Audience Games & Lucky Draws.",
+                    "Live Music and Entertainment Zone Access.",
+                    "Free Snack Coupon and Beverage.",
+                    "Chef Q&A and Live Demos Access.",
+                    "Evening Culinary Showcase Entry"
+                ]
+            },
+            {
+                "name": "After-Food Fiesta Access",
+                "price": "₹999 per person",
+                "tagline": "Groove after the gourmet.",
+                "inclusions": [
+                    "Access to the After-Food Celebration Bash.",
+                    "Live Band & DJ Night with Dance Floor.",
+                    "Unlimited Mocktails and Sweet Treats.",
+                    "Couple Dance-Off & Open Mic Food Stories.",
+                    "Event Photos & Video Reel Delivery."
+                ]
+            }
         ],
         "registrationDetails": {
-          "registrationOpens": "August 1, 2025",
-          "earlyBirdDiscountDeadline": "August 20, 2025",
-          "finalRegistrationDeadline": "September 25, 2025"
+            "registrationOpens": "August 1, 2025",
+            "earlyBirdDiscountDeadline": "August 20, 2025",
+            "finalRegistrationDeadline": "September 25, 2025"
         },
         "schedule": [
-          {
-            "day": "November 8, 2025 (Saturday)",
-            "events": [
-              "9:00 AM: Entry Gates Open",
-              "10:00 AM: Welcome Address & Kitchen Safety Brief",
-              "11:00 AM - 1:00 PM: Couple Cooking Challenge Rounds Begin",
-              "1:30 PM - 3:00 PM: Live Chef Demo & Tasting Session",
-              "3:30 PM - 5:00 PM: Gourmet Lounge Opens & Wine Workshop",
-              "6:00 PM: Evening Culinary Showcase",
-              "7:30 PM: DJ at Food Fiesta Grounds"
-            ]
-          },
-          {
-            "day": "November 9, 2025 (Sunday)",
-            "events": [
-              "9:00 AM: MasterChef Finals (Live Judging)",
-              "11:00 AM - 1:00 PM: Brand Activation Corners & Mini Cook-Offs",
-              "1:30 PM - 3:00 PM: Awards & Medal Ceremony",
-              "3:30 PM - 6:00 PM: Romantic Tasting Menu Experience",
-              "6:30 PM - 9:00 PM: After-Food Fiesta Celebration Party"
-            ]
-          }
+            {
+                "day": "November 8, 2025 (Saturday)",
+                "events": [
+                    "9:00 AM: Entry Gates Open",
+                    "10:00 AM: Welcome Address & Kitchen Safety Brief",
+                    "11:00 AM - 1:00 PM: Couple Cooking Challenge Rounds Begin",
+                    "1:30 PM - 3:00 PM: Live Chef Demo & Tasting Session",
+                    "3:30 PM - 5:00 PM: Gourmet Lounge Opens & Wine Workshop",
+                    "6:00 PM: Evening Culinary Showcase",
+                    "7:30 PM: DJ at Food Fiesta Grounds"
+                ]
+            },
+            {
+                "day": "November 9, 2025 (Sunday)",
+                "events": [
+                    "9:00 AM: MasterChef Finals (Live Judging)",
+                    "11:00 AM - 1:00 PM: Brand Activation Corners & Mini Cook-Offs",
+                    "1:30 PM - 3:00 PM: Awards & Medal Ceremony",
+                    "3:30 PM - 6:00 PM: Romantic Tasting Menu Experience",
+                    "6:30 PM - 9:00 PM: After-Food Fiesta Celebration Party"
+                ]
+            }
         ]
-      }
-      
+    },
+    {
+        "eventTitle": "Economic Patriots Summit – Europe 2025",
+        "slug": "economic-patriots-summit-europe",
+        "theme": "A prestigious summit uniting visionary leaders, economic strategists, entrepreneurs, and change-makers committed to strengthening national economies and fostering global partnerships. Explore the future of sustainable development, economic independence, and innovation across borders.",
+        "description": "An elite two-day forum dedicated to empowering economic leadership, strategic innovation, and policy impact. Dive into thought-provoking panels, networking opportunities, and collaborative dialogues with Europe's brightest minds and global allies.",
+        "leftImage": "./event-page/europe/econ_left.png",
+        "rightImage": "./event-page/europe/econ_right.png",
+        "midImage": "/event-page/economic_patriots.webp",
+        "ticketTypes": [
+            {
+                "name": "Delegate Pass",
+                "price": "€299",
+                "tagline": "Be part of Europe’s economic revolution.",
+                "inclusions": [
+                    "Access to all Keynote Sessions & Panel Discussions.",
+                    "Delegate Kit with Summit Materials.",
+                    "Networking Coffee Breaks & Lunch.",
+                    "Certificate of Participation.",
+                    "Entry to Evening Networking Mixer."
+                ]
+            },
+            {
+                "name": "VIP Leader Pass",
+                "price": "€749",
+                "tagline": "Lead, influence, and connect at the highest level.",
+                "inclusions": [
+                    "All Delegate Pass benefits.",
+                    "Exclusive Access to VIP Lounge & Closed-Door Sessions.",
+                    "Meet & Greet with Keynote Speakers and Global Economists.",
+                    "Reserved Front-Row Seating.",
+                    "Invitation to the Executive Gala Dinner.",
+                    "Luxury Welcome Kit & Personalized Badge."
+                ]
+            },
+            {
+                "name": "Youth Innovator Pass",
+                "price": "€99 (students under 25)",
+                "tagline": "Tomorrow’s leaders start today.",
+                "inclusions": [
+                    "Access to Youth-Only Entrepreneur Labs & Innovation Talks.",
+                    "Mentorship Session with Startup Founders & Policy Makers.",
+                    "Participation Certificate & Innovation Challenge Entry.",
+                    "Access to All Public Networking Areas."
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "registrationOpens": "June 15, 2025",
+            "earlyBirdDiscountDeadline": "July 10, 2025",
+            "finalRegistrationDeadline": "September 30, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 18, 2025 (Saturday)",
+                "events": [
+                    "8:30 AM: Delegate Check-In & Welcome Kit Collection",
+                    "9:30 AM: Opening Keynote – Economic Sovereignty in a Globalized World",
+                    "11:00 AM: Panel 1 – Cross-Border Trade & Digital Currencies",
+                    "1:00 PM: Networking Lunch & Exhibition Walkthrough",
+                    "2:30 PM: Breakout Sessions: Sustainable Growth Models",
+                    "4:30 PM: Fireside Chat – Leadership in a Disrupted Economy",
+                    "6:00 PM: Evening Networking Mixer & Cocktail Reception"
+                ]
+            },
+            {
+                "day": "October 19, 2025 (Sunday)",
+                "events": [
+                    "9:00 AM: Youth Innovator Pitch Presentations",
+                    "10:30 AM: Policy Roundtable – Building Resilient Economies",
+                    "12:00 PM: VIP Luncheon with Industry Leaders",
+                    "2:00 PM: Innovation Awards & Recognitions",
+                    "3:30 PM: Closing Address & Vision 2030 Roadmap",
+                    "5:00 PM: Executive Gala Dinner & Cultural Showcase"
+                ]
+            }
+        ]
+    },
+    {
+        "eventTitle": "Economic Patriots Summit – India 2025",
+        "slug": "economic-patriots-summit-india",
+        "theme": "India’s most visionary economic summit celebrating entrepreneurship, policy innovation, and patriotic progress. Join leaders, startups, policymakers, and grassroots changemakers shaping a self-reliant Bharat.",
+        "description": "A two-day summit dedicated to India’s economic empowerment. Dive into discussions on Atmanirbhar Bharat, sustainable development, financial inclusion, and global trade strategies—powered by the spirit of Indian innovation and unity.",
+        "leftImage": "./event-page/india/econ_india_left.png",
+        "rightImage": "./event-page/india/econ_india_right.png",
+        "midImage": "/event-page/india_patriots.webp",
+        "ticketTypes": [
+            {
+                "name": "Delegate Pass",
+                "price": "₹999",
+                "tagline": "India’s future begins with you.",
+                "inclusions": [
+                    "Access to all main sessions & policy panels.",
+                    "Delegate Kit with event goodies.",
+                    "Networking Lunch & Tea Breaks.",
+                    "Certificate of Participation.",
+                    "Entry to Startup Showcase Zone."
+                ]
+            },
+            {
+                "name": "Bharat Leader Pass",
+                "price": "₹2,999",
+                "tagline": "Engage. Influence. Inspire change.",
+                "inclusions": [
+                    "All Delegate Pass benefits.",
+                    "Front-Row Access & VIP Lounge Entry.",
+                    "Invitation to Policy Roundtable with Government Advisors.",
+                    "Meet & Greet with Economic Think Tanks.",
+                    "Evening Dinner & Fireside Chat with Guest Dignitaries.",
+                    "Exclusive Swadeshi Hamper with Local Artisan Products."
+                ]
+            },
+            {
+                "name": "Young Visionary Pass",
+                "price": "₹499 (Students below 25)",
+                "tagline": "Empowering youth for a stronger tomorrow.",
+                "inclusions": [
+                    "Access to Youth Leadership Panels & Startup Labs.",
+                    "Guided Mentorship Huddles with Founders & Economists.",
+                    "Startup Pitch Deck Submission Slot.",
+                    "Innovation Kit and e-Certificate."
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "registrationOpens": "July 1, 2025",
+            "earlyBirdDiscountDeadline": "August 1, 2025",
+            "finalRegistrationDeadline": "October 10, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 26, 2025 (Sunday)",
+                "events": [
+                    "8:00 AM: Registration & Kit Collection",
+                    "9:00 AM: Opening Ceremony & Cultural Showcase",
+                    "10:00 AM: Keynote – Bharat’s Road to Economic Self-Reliance",
+                    "11:30 AM: Panel 1 – Make in India: Scaling Local for Global Impact",
+                    "1:00 PM: Networking Lunch & Startup Exhibitions",
+                    "2:30 PM: Breakout – Digital Economy & Financial Literacy",
+                    "4:00 PM: Youth Pitch Presentations",
+                    "6:00 PM: Swadeshi Showcase Walk & Folk Fusion Music Night"
+                ]
+            },
+            {
+                "day": "October 27, 2025 (Monday)",
+                "events": [
+                    "9:00 AM: Grassroots Innovation Spotlight",
+                    "10:30 AM: Roundtable – MSME Power & Rural Enterprise Growth",
+                    "12:00 PM: Awards Ceremony – Economic Changemakers",
+                    "1:00 PM: VIP Networking Lunch",
+                    "3:00 PM: Closing Plenary – India 2047 Vision Plan",
+                    "5:00 PM: Cultural Networking Gala & Closing Address"
+                ]
+            }
+        ]
+    },
+    {
+        "eventTitle": "Economic Patriots Summit – USA 2025",
+        "slug": "economic-patriots-summit-usa",
+        "theme": "Uniting America’s economic leaders, innovators, and visionaries to shape a resilient, inclusive, and future-ready economy. Focused on national growth, local empowerment, and global influence through innovation, entrepreneurship, and strategic policy.",
+        "description": "Join top-tier economists, founders, policymakers, and thought leaders at a transformative summit focused on strengthening the American economy from Main Street to Wall Street. Explore future-forward strategies, tech-driven innovation, and inclusive economic models.",
+        "leftImage": "",
+        "rightImage": "",
+        "midImage": "/event-page/us_patroits.webp",
+        "ticketTypes": [
+            {
+                "name": "General Delegate Pass",
+                "price": "$149",
+                "tagline": "For citizens who want to fuel the American future.",
+                "inclusions": [
+                    "Access to Mainstage Panels & Keynotes.",
+                    "Delegate Welcome Kit.",
+                    "Coffee Networking Breaks & Lunch.",
+                    "Certificate of Participation.",
+                    "Entry to Innovation Expo Hall."
+                ]
+            },
+            {
+                "name": "Patriot Leader Pass",
+                "price": "$499",
+                "tagline": "Lead with purpose. Shape the nation's economic path.",
+                "inclusions": [
+                    "All benefits of General Delegate Pass.",
+                    "Access to VIP Roundtables & Economic Strategy Sessions.",
+                    "Invitation to Policy Dinner with Federal Advisors & CEOs.",
+                    "Reserved Seating at Mainstage Events.",
+                    "Meet & Greet with National Economic Council Members.",
+                    "VIP Welcome Package with Custom Patriot Journal."
+                ]
+            },
+            {
+                "name": "Student Innovator Pass",
+                "price": "$59 (for students)",
+                "tagline": "Where tomorrow’s economists and leaders gather today.",
+                "inclusions": [
+                    "Entry to Youth Economic Forums & Innovation Labs.",
+                    "Startup Pitch Showcase Participation.",
+                    "Career Mentorship & Scholarship Info Sessions.",
+                    "Access to Networking Arena.",
+                    "Digital Certificate of Attendance."
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "registrationOpens": "May 15, 2025",
+            "earlyBirdDiscountDeadline": "June 15, 2025",
+            "finalRegistrationDeadline": "September 30, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 12, 2025 (Sunday)",
+                "events": [
+                    "8:00 AM: Registration & Delegate Kit Distribution",
+                    "9:30 AM: Opening Ceremony – Vision for America’s Economic Revival",
+                    "10:30 AM: Main Panel – Strengthening American Manufacturing & Tech",
+                    "12:30 PM: Networking Lunch & Innovation Expo Tour",
+                    "2:00 PM: Breakout Sessions: Financial Literacy | Green Economy | Cybersecurity",
+                    "4:00 PM: Student Pitch Battle & Panel Feedback",
+                    "6:00 PM: National Entrepreneurs Awards + Jazz & Networking Mixer"
+                ]
+            },
+            {
+                "day": "October 13, 2025 (Monday)",
+                "events": [
+                    "9:00 AM: Roundtable – Local Economies & Small Business Resurgence",
+                    "10:30 AM: Fireside Chat with Former Treasury Officials",
+                    "12:00 PM: Patriot Policy Dinner (VIP & Leaders Only)",
+                    "2:00 PM: Closing Address – A 2050 Economic Vision for America",
+                    "4:00 PM: Cultural Tribute & National Anthem Performance",
+                    "5:00 PM: Official Summit Close & Photo Session"
+                ]
+            }
+        ]
+    }
 ]

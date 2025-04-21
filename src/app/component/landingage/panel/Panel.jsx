@@ -2,13 +2,10 @@
 import React, { useState } from 'react';
 import './panel.css'; // Assuming your CSS is saved in this file
 import CustomTabBar from '../CustomTabBar'
-import TabsComponent from '../TabsComponent/TabsComponent'
-const Panel = ({data}) => {
+const Panel = ({ data }) => {
   const [activeTab, setActiveTab] = useState('v-pills-home');
 
-  const handleTabClick = (tabId) => {
-    setActiveTab(tabId);
-  };
+
 
   return (
     <>

@@ -5,7 +5,7 @@ import { Accordion } from "react-bootstrap";
 
 const TicketCard = ({ price, name, list }) => (
     <div className="d-flex flex-column  px-1 py-2 border rounded shadow">
-        <h4 className="">{price} <p>{name}</p></h4>
+        <h6  className="fw-bold">{price} <p className="text-secondary">{name}</p></h6>
         {
             list.map((item, i) => <p key={i + 1} className="m-0 px-3 text-start smallfont">{item}</p>)
         }

@@ -1,5 +1,5 @@
-import Header from '../component/common/header/Header';
-import Map from '../component/googlemap/Map';
+import Header from '../common/header/Header';
+import Map from '../googlemap/Map';
 import './index.css'
 const Testing = () => {
     const Data = [

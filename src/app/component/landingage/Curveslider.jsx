@@ -29,14 +29,14 @@ const Curveslider = ({data}) => {
         {/* Image Slide */}
         <div className="swiper-slide">
           <div className="media-container">
-            <img src={data.leftImage === '' ? commonImage : data.leftImage} alt="landing page slider" />
+            <img src={data.leftImage == "" ? commonImage : data.leftImage} alt="landing page slider" />
           </div>
         </div>
 
         {/* Image Slide */}
         <div className="swiper-slide">
           <div className="media-container">
-            <img src={data.leftImage === '' ? commonImage : data.leftImage} alt="landing page slider" />
+            <img src={data.leftImage === "" ? commonImage : data.leftImage} alt="landing page slider" />
           </div>
         </div>
 

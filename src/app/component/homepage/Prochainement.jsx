@@ -25,6 +25,7 @@ const Prochainement = () => {
       image: "/event-page/economic_patriots.webp",
       leftImage: "",
       rightImage: "",
+      linking:"/landingpage?slug=economic-patriots-summit-europe",
       event_name: "Economic Patriots Summit Euprope ",
       desc: "Calling all European business minds! Get ready for an eye-opening summit that'll shake up how we think about Europe's money matters.",
       ticketsDes: "🌟 Connect with real business heroes who've been there, done that\n🤝 Network with folks who speak your language - no corporate jargon\n💡 Get practical tips you can use right away\n🎯 Learn winning strategies from people who've built success from scratch\n🚀 Walk away with action steps, not just theory\n✨ Be part of Europe's next big economic story"
@@ -35,6 +36,7 @@ const Prochainement = () => {
 
       leftImage: "",
       rightImage: "",
+      linking:"/landingpage?slug=economic-patriots-summit-india",
       event_name: "Economic Patriots Summit India",
       desc: "Hey India! Ready to be part of something big? Join us for a game-changing summit where we're talking real business, real growth, and real opportunities.",
       ticketsDes: "🎉 Meet successful Indian entrepreneurs who started just like you\n💪 Get insider knowledge from people who understand our market\n📱 Learn how to use tech to grow your business\n🤝 Make connections that actually matter\n💡 Get real solutions for real business challenges\n🌟 Be part of India's economic revolution"
@@ -45,6 +47,7 @@ const Prochainement = () => {
       event_name: "Economic Patriots Summit USA",
       leftImage: "",
       rightImage: "",
+      linking:"/landingpage?slug=economic-patriots-summit-usa",
       desc: "America, let's talk business! Join us for a no-nonsense summit where we cut through the fluff and focus on what really works in today's economy.",
       ticketsDes: "🗽 Get straight talk from American business veterans\n💡 Learn street-smart business strategies that work\n🤝 Connect with fellow entrepreneurs who get it\n🚀 Get practical tools for growing your business\n💪 Turn challenges into opportunities\n🌟 Be part of America's next success story"
     }
@@ -72,7 +75,7 @@ const Prochainement = () => {
             <Link
               // onClick={() => handleUpdate(item.event_name, item.desc, item.ticketsDes)}
               key={index}
-              href='/landingpage'
+              href={item.linking}
             >
               <div
                 onClick={() => { handleChange(item.event_name, item.desc, item.ticketsDes, item.image, item.leftImage, item.rightImage) }}
@@ -90,6 +93,7 @@ const Prochainement = () => {
                   </div>
                 </div>
                 <div style={{ backgroundColor: '#866b2f' }} className="w-100 py-2 my-2 cursor rounded">
+                  {/* <Link href={item.linking}> */}
                   <div className="d-flex justify-content-between text-white mx-3 align-items-center">
                     <div>
                       <p className="m-0 fw-bold">{item.event_name}</p>
@@ -99,6 +103,8 @@ const Prochainement = () => {
                       <MdArrowOutward className="p-1" size={30} />
                     </div>
                   </div>
+                  {/* </Link> */}
+                 
                 </div>
               </div>
             </Link>
