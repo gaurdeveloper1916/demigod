@@ -1,6 +1,10 @@
 p{
   font-family: ivyora-display, serif;
 }
+.text-shadow {
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
 .carousel-container {
     display: flex;
     align-items: center;
@@ -265,6 +269,9 @@ transition-property: width;
   left: 50%; */
   transform: translateX(-50%);
   transition: visibility 0.3s ease;
+}
+.line-height{
+  line-height: 9px;
 }
 
 

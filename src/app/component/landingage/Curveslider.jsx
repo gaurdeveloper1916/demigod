@@ -49,7 +49,7 @@ const Curveslider = ({data}) => {
                 <div className="video-container">
 
                   <video autoPlay muted loop>
-                    <source src={landingImage.midVideo} type="video/mp4" />
+                    <source src={data.midImage} type="video/mp4" />
                     Your browser does not support the video tag.
                   </video>
                 </div> : <img src={data.midImage} alt="landing page slider" />

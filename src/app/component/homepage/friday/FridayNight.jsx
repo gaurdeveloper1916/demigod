@@ -52,6 +52,7 @@ export default function FridayNight() {
       name: "Tech Expo",
       leftImage: "",
       rightImage: "",
+      link: "/landingpage?slug=tech-expo",
       desc: "A Tech Expo is a large-scale event that showcases the latest advancements in technology, innovation, and digital transformation. It serves as a platform for tech companies, startups, developers, and industry leaders to present their cutting-edge products, software, and solutions.",
     },
     {
@@ -118,26 +119,26 @@ export default function FridayNight() {
           {initialImages.map((image, index) => (
             <div key={index} className="d-flex justify-content-center align-items-center p-2">
               <div className="image-container position-relative">
-                {/* <img
+                <img
                 style={{height:'270px'}}
                   className="rounded img-fluid w-100"
                   src={image.img}
                   alt={image.name}
-                /> */}
-                <div>
-          <video  style={{height:'270px'}} className="slide-video-test" autoPlay loop muted>
-            <source src="/WhatsApp Video 2025-04-16 at 20.10.07.mp4" type="video/mp4" />
-          </video>
-        </div>
+                />
+                {/* <div>
+                  <video style={{ height: '270px' }} className="slide-video-test" autoPlay loop muted>
+                    <source src="/WhatsApp Video 2025-04-16 at 20.10.07.mp4" type="video/mp4" />
+                  </video>
+                </div> */}
                 <div className="overlay">
                   <h1 className="text-san">{image.name}</h1>
                 </div>
-                <div 
-                onClick={() => { handleChange(image.title, image.desc, image.desc, image.img, image.leftImage, image.rightImage) }}
-                 className="p-3 text-white visible-on-hover">
+                <div
+                  onClick={() => { handleChange(image.title, image.desc, image.desc, image.img, image.leftImage, image.rightImage) }}
+                  className="p-3 text-white visible-on-hover">
                   <h6 className="m-0 fw-bold">{image.name}</h6>
                   <p className='mt-2'>{image.desc}</p>
-                 
+
                   <Link
                     href={{
                       pathname: '/landingpage',
@@ -180,7 +181,7 @@ export default function FridayNight() {
           </div>
         </div>
       </div>
-     
+
     </div>
   );
 }

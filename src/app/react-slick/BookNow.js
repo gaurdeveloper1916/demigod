@@ -101,9 +101,12 @@ const Booknow = () => {
                 this world-famous festival with exciting games, live performances, and a vibrant
                 atmosphere.
               </p>
+              <div onClick={() => console.log('ajksdh')}>
               <Link href="/landingpage">
                 <button className="btn text-white">Book Now</button>
-              </Link>
+              </Link> 
+              </div>
+              
             </div>
           </div>
 
