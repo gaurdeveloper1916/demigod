@@ -220,7 +220,7 @@ function TwoImagesDiv() {
                         </div>
                         <div style={{ top: '11rem' }} className="position-absolute  ">
                           {
-                            image.schedule.map((item) => <div style={{ backgroundColor: "#0000009c", borderTopRightRadius: '30px', borderBottomRightRadius: '30px' }}>
+                            image.schedule.map((item,index) => <div key={index} style={{ backgroundColor: "#0000009c", borderTopRightRadius: '30px', borderBottomRightRadius: '30px' }}>
                               <p className="px-5 py-3 text-white mediumfont">{item}</p>
 
                             </div>)
@@ -248,13 +248,13 @@ function TwoImagesDiv() {
                         <div className="position-absolute bottom-0 w-100">
                           <div className="d-flex gap-5 justify-content-center align-items-center mb-4 text-center">
                             <div className="line-height text-white text-shadow">
-                              {image.bottomLine.map((item) => <p key={item}>{item}</p>)}
+                              {image.bottomLine.map((item,index) => <p key={index}>{item}</p>)}
                             </div>
                             <div className="line-height text-white text-shadow">
-                              {image.bottomLine2.map((item) => <p key={item}>{item}</p>)}
+                              {image.bottomLine2.map((item,index) => <p key={index}>{item}</p>)}
                             </div>
                             <div className="line-height text-white text-shadow">
-                              {image.bottomLine3.map((item) => <p key={item}>{item}</p>)}
+                              {image.bottomLine3.map((item,index) => <p key={index}>{item}</p>)}
                             </div>
                           </div>
                         </div>
