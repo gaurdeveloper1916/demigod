@@ -211,7 +211,8 @@ function TwoImagesDiv() {
 
                     </div>
                     {
-                      image.overlay ? <div>
+                      image.overlay ?
+                       <div>
                         <div style={{ left: '9rem' }} className="position-absolute top-0 mt-4 ">
                           <div className="d-flex justify-content-center flex-column align-items-center text-center px-3">
                             <h1 className="display-3 text-white fw-bold text-shadow" >{image.overlayTitle}</h1>

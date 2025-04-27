@@ -69,27 +69,26 @@ const Testing = () => {
     return (
         <>
             <div>
-                <Header />
                 <div className="px-lg-5 px-3 px-md-5 background_video">
-                    <video autoPlay loop muted playsInline className="video-background">
-                        <source src="./homepage/demigod.mp4" type="video/mp4" />
+                    <video autoPlay loop muted   className="video-background">
+                        <source src="/demigod.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                     <div className="row gx-5 postion-relative d-flex justify-content-center vh-100 align-items-center ">
                         <div className="col-lg-8 text-cont p-lg-5 p-3 p-md-4 ">
-                            <div style={{ backgroundColor: "rgb(94 88 88 / 61%)" }} className="text-center my-5 p-5 rounded-pill">
+                            <div  className="text-center my-5 p-5 rounded-pill">
                                 <h1
                                     style={{ fontFamily: 'ui-serif', lineHeight: '70px' }}
-                                    className="display-2  text-white mb-2"
+                                    className="display-2  video-text mb-2"
                                     data-aos="fade-up"
                                     data-aos-duration="1000"
                                 >
-                                    Media and Marketing with
+                                    
                                     Demigod House
                                 </h1>
                                 <p
                                     style={{ fontFamily: 'ui-serif', lineHeight: '34px' }}
-                                    className="text-white mt-4 variety"
+                                    className="video-text  mt-4 variety"
                                     data-aos="fade-up"
                                     data-aos-duration="1500"
 
@@ -102,7 +101,7 @@ const Testing = () => {
                         </div>
                     </div>
                 </div>
-                <Map />
+            
                 <div className='d-flex justify-content-center align-items-center p-5 bg-black'>
                     <div className='col-lg-10'>
                         <div className='d-flex gap-4 justify-content-centalign-items-center'>
@@ -143,6 +142,8 @@ const Testing = () => {
                         </div>
                     </div>
                 </div>
+
+                <Map />
                 
             </div>
 

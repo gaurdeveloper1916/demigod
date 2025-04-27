@@ -1,24 +1,10 @@
 import Header from "./component/common/header/Header";
-import Formdiv from "./component/events/slider/formdiv/page";
-import GetTickets from "./component/events/slider/gettickets/page";
-import Slider from "./component/events/slider/slider/Slider";
-import Booknow from "./react-slick/BookNow";
-import FridayNight from "./component/homepage/friday/FridayNight";
-import Membership from "./component/homepage/Membership";
-import Prochainement from "./component/homepage/Prochainement";
-
-import TwoImagesDiv from "./component/homepage/TwoImagesDiv";
-import Index from "./events/page";
-import Herosection from "./component/mnm/Herosection";
-import Community from "./component/mnm/Community";
-import ElectronicCommunity from "./component/mnm/slider/ElectronicCommunity";
-import LeadingOrganisation from "./component/mnm/LeadingOrganisation";
 import Industryevents from "./component/mnm/Industryevents";
 import TabsComponent from "./component/mnm/TabsComponent";
 import Openforbusiness from "./component/mnm/Openforbusiness";
-import Partnership from "./component/mnm/Partnership";
 import Getintouch from "./component/mnm/Getintouch";
-import Map  from "./component/googlemap/Map"
+import Testing from "./component/test/Testing"
+
 export const metadata = {
   metadataBase: new URL('https://www.demigodhouse.com'),
   title: "DemiGod House | Media, Marketing & Events in India & International ! ( DemiGod House Entity is all about Brand Association, Brand Capital Procurement, Brand Seed Funding, Brand Development, Brand Marketing, Brand Management, Print-Media & Electronic Media Advertising, Digital Media Marketing, Event Management Services -  Corporate Events, Weddings and Commercial Events. ) ",
@@ -69,7 +55,7 @@ export const metadata = {
     title: "DemiGod House | Media, Marketing & Events",
     description: "DemiGod House specializes in media, marketing, and world-class event planning. Your trusted partner for corporate and luxury events worldwide.",
     images: 'https://www.demigodhouse.com/images/twitter-image.jpg',
-    site: '@YourTwitterHandle', 
+    site: '@YourTwitterHandle',
   },
 
   robots: {
@@ -78,32 +64,19 @@ export const metadata = {
   },
 
   other: {
-    'fb:app_id': 'YourFacebookAppID', 
+    'fb:app_id': 'YourFacebookAppID',
   },
 };
-
-
 export default function Home() {
   return (
     <div className="bg-black container-fluid p-0">
-     <Header/>
-      {/* <Index/> */}
-      <Herosection /> 
-      {/* <Community/>  */}
-      {/* <ElectronicCommunity/>  */}
-      <LeadingOrganisation/> 
-      <Map/>
-      {/* <Ecosystem /> */}
-      <Industryevents/>
-      <TabsComponent/>
-      {/* <Sectionone/>   */}
-      {/* <Repetativemandm/> */}
 
-      <Openforbusiness/>
-     
-      {/* <Partnership/> */}
-      <Getintouch/> 
-
+      <Header />
+      <Testing />
+      <Industryevents />
+      <TabsComponent />
+      <Openforbusiness />
+      <Getintouch />
     </div>
   );
 }

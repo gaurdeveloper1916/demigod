@@ -1,49 +1,99 @@
-.slick-slide {
-    margin: 0 60px;
-  }
+/* Styling for the entire slider container */
+/* .container {
+  max-width: 1200px;
+  margin: 0 auto;
+} */
 
-  .slick-list{
-    margin-bottom: 0px;
-    height: 380px;
+/* Styling for the bg-cards container */
+.bg-cards {
+  padding: 30px;
+}
+
+/* Styling for individual slider items (cards) */
+.bg-cards-inner {
+  background-color: #1f1f1f; /* Dark background for cards */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow to cards */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.bg-cards-inner img {
+  border-radius: 10px; /* Rounded corners for images */
+}
+
+/* Add some hover effect to the cards */
+.bg-cards-inner:hover {
+  transform: scale(1.05); /* Slight zoom-in on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+/* Slick slider specific settings */
+.react-slick-new .slick-slide {
+  margin-right: 20px; /* Space between the cards */
+}
+
+.react-slick-new .slick-track {
+  display: flex;
+  gap: 20px; /* Adds space between the cards */
+}
+
+/* Styling for the slider arrows */
+.arrow-img {
+  width: 60px; /* Set width for the arrows */
+  cursor: pointer; /* Show pointer cursor on hover */
+}
+
+.arrow-img:hover {
+  transform: scale(1.1); /* Scale up arrows slightly on hover */
+}
+
+/* Responsive settings for smaller screen sizes */
+@media screen and (max-width: 1024px) {
+  .react-slick-new .slick-slide {
+    margin-right: 15px;
   }
-  .cursor{
-    cursor: pointer !important;
+}
+
+@media screen and (max-width: 768px) {
+  .react-slick-new .slick-slide {
+    margin-right: 10px;
   }
-  .slick-slide {
-    padding: 0 !important; /* Removes padding */
-    margin: 20px !important; /* Ensures no extra margin */
+}
+
+@media screen and (max-width: 600px) {
+  .react-slick-new .slick-slide {
+    margin-right: 5px;
   }
-  .bg-cards-inner {
-    padding: 5px;
-  }
-  .slick-slide {
-    padding: 0 5px !important; 
-  }
-  
-  .bg-cards-inner {
-    padding: 10px;
-    height: 100%; 
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .slick-track {
-    display: flex;
-  }
-  
-  .slick-slide > div {
-    height: 500px
-  }
-  
-  /* .slick-slide img {
-    width: 200px;
-    height: 200px;
-    max-height: 150px; 
-  } */
-  .react-slick-new img {
-    width: 200px;
-    height: 200px;
-    max-height: 150px; 
-  }
-  
-  
+}
+
+/* Add gradient text effect */
+.gradient-text {
+  background: linear-gradient(90deg, rgba(255, 0, 150, 1) 0%, rgba(0, 204, 255, 1) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+/* Styling for the text and description inside each card */
+.verySmallFont {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* Small margin for title */
+h6.m-0.my-3 {
+  margin: 0 0 10px;
+}
+
+.p-3 {
+  padding: 20px;
+}

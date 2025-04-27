@@ -26,7 +26,7 @@ const EventMapLeaflet = () => {
       cl
       scrollWheelZoom={false}
       className="map-container rounded"
-      style={{ height: mapHeight, zIndex: "0!important", border: '2px solid yellow' }}    >
+      style={{ height: mapHeight, zIndex: "0!important", border: '1px solid #866b2f' }}    >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://server.arcgisonline.com/ArcGIS/rest/services/canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}

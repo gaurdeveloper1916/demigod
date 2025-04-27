@@ -16,31 +16,61 @@
     top: -65px;
     width: 100%;
   }
-  .tab-css-button {
-    /* background: transparent; */
-    border-radius: 4px;
-    display: inline-flex;
-    color: #dbb85e;
-    font-size: 17px;
-    font-weight: 600;
-    letter-spacing: .2375px;
-    font-family: cursive;
-  
-    /* margin-right:2px; */
-    padding: 6.5px 20px;
-    text-align: center;
-    white-space: nowrap;
-  }
-  
-  .tab-css-button-slected {
-    background: #dbb85e;
-    border-radius: 4px;
-    font-family: cursive;
-    display: inline-flex;
-    font-size: 17px;
-    font-weight: 900;
-    text-decoration: overline;
-  }
+  /* Base styles for all tabs */
+.tab-button-base {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 28px;
+  border-radius: 12px;
+  border: none;
+  white-space: nowrap;
+  transition: all 0.4s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Normal (inactive) tab button */
+.tab-button {
+  background: rgba(255, 255, 255, 0.03);
+  color: #e0e0e0; /* Light off-white text */
+  border: 1px solid #cccccc; /* Soft platinum border */
+  backdrop-filter: blur(6px);
+}
+
+.tab-button:hover {
+  background: linear-gradient(135deg, #f7f7f7 0%, #e0e0e0 100%);
+  color: #1a1a1a; /* Dark text on hover */
+  box-shadow: 0 4px 15px rgba(200, 200, 200, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Selected (active) tab button */
+.tab-button-selected {
+  background: linear-gradient(135deg, #f1f1f1, #d9d9d9);
+  color: #1a1a1a;
+  font-weight: 800;
+  box-shadow: 0px 8px 20px rgba(180, 180, 180, 0.4);
+  transform: scale(1.05);
+}
+
+/* Underline animation */
+.tab-button-base::after {
+  content: "";
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: #bfbfbf; /* Soft Gray Underline */
+  transition: all 0.4s ease;
+  transform: translateX(-50%);
+}
+
+.tab-button-base:hover::after {
+  width: 60%;
+}
+
   .image-tab{
     width: 100%;
     height: 500px;
