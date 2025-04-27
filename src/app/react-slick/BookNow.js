@@ -25,8 +25,7 @@ const Booknow = () => {
   const [currentSlide, setCurrentSlide] = useState("standup");
   console.log(currentSlide)
   function handleChange(title, description, ticketdes, imdVideo, leftImage, rightImage) {
-    handleUpdate(title, description, ticketdes);
-    imageForLandingPage(leftImage, imdVideo, rightImage);
+    console.log('hello')
     router.push("/landingpage");
   }
 
@@ -53,8 +52,8 @@ const Booknow = () => {
             </div>
             <div style={{
               background: "linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(94, 88, 88, 0.6))"
-            }} 
-            className={`book_now_user_content  p-2 rounded ${currentSlide === "standup" ? "active" : ""}`}>
+            }}
+              className={`book_now_user_content  p-2 rounded ${currentSlide === "standup" ? "active" : ""}`}>
               <h4>Sail into Luxury & Celebration</h4>
               <p className="mediumfont fs-6">
                 Step aboard a magnificent yacht and indulge in an unforgettable evening of luxury,
@@ -64,14 +63,7 @@ const Booknow = () => {
               <button
                 className="btn text-white"
                 onClick={() =>
-                  handleChange(
-                    "D'Yacht Party",
-                    "Yacht party description",
-                    "Ticket description",
-                    "/event-page/Yacht_party.mp4",
-                    "/img/left.jpg",
-                    "/img/right.jpg"
-                  )
+                  handleChange()
                 }
               >
                 Book Now
@@ -81,7 +73,7 @@ const Booknow = () => {
 
           {/* Slider 2 */}
           <div
-          
+
             className={`slider1 ${currentSlide === "djnight" ? "active" : ""}`}
             onClick={() => setCurrentSlide("djnight")}
           >
@@ -93,7 +85,7 @@ const Booknow = () => {
             </div>
             <div style={{
               background: "linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(94, 88, 88, 0.6))"
-            }}  className={`book_now_user_content p-2 rounded ${currentSlide === "djnight" ? "active" : ""}`}>
+            }} className={`book_now_user_content p-2 rounded ${currentSlide === "djnight" ? "active" : ""}`}>
               <h4>Celebrate Oktoberfest in Style</h4>
               <p className="fs-6">
                 Join us for a festive Oktoberfest celebration filled with traditional Bavarian music,
@@ -102,11 +94,23 @@ const Booknow = () => {
                 atmosphere.
               </p>
               <div onClick={() => console.log('ajksdh')}>
-              <Link href="/landingpage">
-                <button className="btn text-white">Book Now</button>
-              </Link> 
+                <button
+                  className="btn text-white"
+                  onClick={() =>
+                    handleChange(
+                      "Oktober Fest",
+                      "Oktoberfest party description",
+                      "Ticket description",
+                      "/event-page/oktober-fest.mp4",
+                      "/img/left2.jpg",
+                      "/img/right2.jpg"
+                    )
+                  }
+                >
+                  Book Now
+                </button>
               </div>
-              
+
             </div>
           </div>
 
@@ -121,11 +125,11 @@ const Booknow = () => {
                 Star Wars Theme Party
               </p>
             </div>
-            <div 
-            style={{
-              background: "linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(94, 88, 88, 0.6))"
-            }}  
-            className={`book_now_user_content p-2 rounded ${currentSlide === "dandiyanight" ? "active" : ""}`}>
+            <div
+              style={{
+                background: "linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(94, 88, 88, 0.6))"
+              }}
+              className={`book_now_user_content p-2 rounded ${currentSlide === "dandiyanight" ? "active" : ""}`}>
               <h4>Star Wars Theme Party</h4>
               <p className="fs-6">
                 Step into a world of cinematic wonder with our exclusive Movie Theme Event.

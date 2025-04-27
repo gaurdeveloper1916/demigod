@@ -26,16 +26,11 @@ export default function FridayNight() {
   };
 
   const initialImages = [
-    {
-      img: "/event-page/exhbition.jpeg",
-      name: "Exhbition Expo",
-      leftImage: "",
-      rightImage: "",
-      desc: "An Exhibition Expo is a large-scale event where businesses, organizations, and individuals showcase their products, services, innovations, or art to a targeted audience. These expos often cater to specific industries such as technology, fashion, healthcare, or education.",
-    },
+
     {
       img: "/event-page/pharma.jpeg",
       name: "Pharma Expo",
+      linking: '/landingpage?slug=pharma-expo-events',
       leftImage: "",
       rightImage: "",
       desc: "A Pharma Expo is a specialized trade exhibition focused on the pharmaceutical industry. It serves as a platform for pharmaceutical companies, healthcare professionals, researchers, and manufacturers to showcase innovations, products, and technologies related to medicine, drug development, and healthcare solutions.",
@@ -43,6 +38,7 @@ export default function FridayNight() {
     {
       img: "/event-page/travel-Tourism.jpeg",
       name: "Travel & Tourism Expo",
+      linking: '/landingpage?slug=travel-tourism-event',
       leftImage: "",
       rightImage: "",
       desc: "A Travel & Tourism Expo is a large-scale event that brings together travel agencies, tourism boards, airlines, hospitality brands, and adventure companies to showcase destinations, travel services, and experiences. These expos serve as a hub for networking, business collaborations, and discovering new travel trends.",
@@ -50,6 +46,7 @@ export default function FridayNight() {
     {
       img: "/event-page/tech-expo.jpeg",
       name: "Tech Expo",
+      linking: '/landingpage?slug=tech-expo-event',
       leftImage: "",
       rightImage: "",
       link: "/landingpage?slug=tech-expo",
@@ -58,13 +55,16 @@ export default function FridayNight() {
     {
       img: "/event-page/destate.jpeg",
       name: "D'estate Expo",
+      linking: '/landingpage?slug=d-estate-expo',
       leftImage: "",
       rightImage: "",
       desc: "D'Estate Expo is a leading real estate exhibition that brings together industry experts, investors, developers, and homebuyers under one roof. Whether you're looking for residential, commercial, or luxury properties, this expo offers exclusive opportunities to explore top-tier real estate projects and investment prospects.",
     },
     {
       img: "/event-page/carrer-expo.jpeg",
-      name: "Carrer Expo",
+      name: "Career Expo",
+
+      linking: '/landingpage?slug=ascend-career-expo',
       leftImage: "",
       rightImage: "",
       desc: "A Career Expo is a premier event where job seekers, professionals, and recruiters come together to explore career opportunities, industry trends, and skill development. Whether you're a fresh graduate, an experienced professional, or a company looking for top talent, this expo serves as a dynamic platform for networking and career advancement.",
@@ -120,7 +120,7 @@ export default function FridayNight() {
             <div key={index} className="d-flex justify-content-center align-items-center p-2">
               <div className="image-container position-relative">
                 <img
-                style={{height:'270px'}}
+                  style={{ height: '270px' }}
                   className="rounded img-fluid w-100"
                   src={image.img}
                   alt={image.name}
@@ -140,17 +140,16 @@ export default function FridayNight() {
                   <p className='mt-2'>{image.desc}</p>
 
                   <Link
-                    href={{
-                      pathname: '/landingpage',
-                      query: { name: image.name },
-
-                    }}>
+                    href={`${image.linking}`}
+                  >
                     <button className="rounded-pill btn-custom px-4 py-2 text-white">
-                      {image.name === "Blue Collar Chronicles" ? "Join Now" :
+                      {/* {image.name === "Blue Collar Chronicles" ? "Join Now" :
                         image.name === "Influencers Award Ceremony" ? "Learn More" :
                           image.name === "Warzone Paintball Tournament" ? "Register Now" :
                             image.name === "Comedy Show" ? "Get Tickets" :
-                              image.name === "Career Expo" ? "Explore Opportunities" : "Learn More"}                   </button>
+                              image.name === "Career Expo" ? "Explore Opportunities" : "Learn More"}                  */}
+                              Book Now
+                                </button>
                   </Link>
                 </div>
               </div>

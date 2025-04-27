@@ -310,64 +310,64 @@
         "rightImage": "./event-page/new/carobar2.webp",
         "midImage": "./368510590484226049.mp4",
         "ticketTypes": [
-          {
-            "name": "General Visitor Pass",
-            "price": "₹1,499 - ₹3,999",
-            "tagline": "Entry to main exhibition zones.",
-            "inclusions": [
-              "Entry to main exhibition zones",
-              "Virtual reality test-drive access",
-              "Free NFT-based event certificate + digital brochures"
-            ]
-          },
-          {
-            "name": "Collector Delegate Pass",
-            "price": "₹20,000 - ₹35,000",
-            "tagline": "Access to VIP Velocity Lounge.",
-            "inclusions": [
-              "All benefits of General Visitor Pass",
-              "Access to VIP Velocity Lounge",
-              "Reserved seating in all panels",
-              "Entry to Awards Night + Rooftop Afterparty",
-              "Concierge for vehicle bookings, priority VR test-drives"
-            ]
-          }
+            {
+                "name": "General Visitor Pass",
+                "price": "₹1,499 - ₹3,999",
+                "tagline": "Entry to main exhibition zones.",
+                "inclusions": [
+                    "Entry to main exhibition zones",
+                    "Virtual reality test-drive access",
+                    "Free NFT-based event certificate + digital brochures"
+                ]
+            },
+            {
+                "name": "Collector Delegate Pass",
+                "price": "₹20,000 - ₹35,000",
+                "tagline": "Access to VIP Velocity Lounge.",
+                "inclusions": [
+                    "All benefits of General Visitor Pass",
+                    "Access to VIP Velocity Lounge",
+                    "Reserved seating in all panels",
+                    "Entry to Awards Night + Rooftop Afterparty",
+                    "Concierge for vehicle bookings, priority VR test-drives"
+                ]
+            }
         ],
         "registrationDetails": {
-          "ticketSalesOpen": "June 1, 2025",
-          "ticketSalesClose": "August 31, 2025"
+            "ticketSalesOpen": "June 1, 2025",
+            "ticketSalesClose": "August 31, 2025"
         },
         "schedule": [
-          {
-            "day": "November 7, 2025 (Friday)",
-            "events": [
-              "9:00 AM: Gates Open & Supercar Showcase Setup",
-              "10:00 AM: Opening Ceremony & Pioneers of Mobility Panel",
-              "12:00 PM - 3:00 PM: AutoTech Pavilion Demos",
-              "4:00 PM - 6:00 PM: Concept Car Gallery Walkthrough",
-              "7:00 PM: VIP Velocity Lounge Networking"
-            ]
-          },
-          {
-            "day": "November 8, 2025 (Saturday)",
-            "events": [
-              "10:00 AM: Custom Design & Performance Showcase",
-              "12:00 PM - 2:00 PM: Collector’s Den 1:1 Meetings",
-              "3:00 PM - 5:00 PM: Electric & Sustainable Mobility Zone",
-              "6:00 PM - 8:00 PM: Neon Bar Party"
-            ]
-          },
-          {
-            "day": "November 9, 2025 (Sunday)",
-            "events": [
-              "10:00 AM: Extended Exhibition Zones",
-              "12:00 PM - 2:00 PM: Virtual Reality Test-Drive Sessions",
-              "3:00 PM - 5:00 PM: Speed Hunt Game Finale",
-              "6:00 PM - 9:00 PM: AUTO ELITE Awards Night"
-            ]
-          }
+            {
+                "day": "November 7, 2025 (Friday)",
+                "events": [
+                    "9:00 AM: Gates Open & Supercar Showcase Setup",
+                    "10:00 AM: Opening Ceremony & Pioneers of Mobility Panel",
+                    "12:00 PM - 3:00 PM: AutoTech Pavilion Demos",
+                    "4:00 PM - 6:00 PM: Concept Car Gallery Walkthrough",
+                    "7:00 PM: VIP Velocity Lounge Networking"
+                ]
+            },
+            {
+                "day": "November 8, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Custom Design & Performance Showcase",
+                    "12:00 PM - 2:00 PM: Collector’s Den 1:1 Meetings",
+                    "3:00 PM - 5:00 PM: Electric & Sustainable Mobility Zone",
+                    "6:00 PM - 8:00 PM: Neon Bar Party"
+                ]
+            },
+            {
+                "day": "November 9, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Extended Exhibition Zones",
+                    "12:00 PM - 2:00 PM: Virtual Reality Test-Drive Sessions",
+                    "3:00 PM - 5:00 PM: Speed Hunt Game Finale",
+                    "6:00 PM - 9:00 PM: AUTO ELITE Awards Night"
+                ]
+            }
         ]
-      },      
+    },
     {
         "eventTitle": "PharmaForge – The Global Pharma Leadership & Innovation Expo",
         "slug": "pharma-expo-events",
@@ -375,7 +375,7 @@
         "description": "A high-impact, invitation-only expo + leadership forum uniting pioneers in pharmaceuticals, biotech, medtech, regulatory, and healthcare investment. Vibe: Ultra-premium, global, future-forward, investor-attractive, clinically precise — with the showmanship of an Apple launch.",
         "leftImage": "./event-page/new/pharmaexpo2.webp",
         "rightImage": "./event-page/new/pharmaexpo1.webp",
-        "midImage": "",
+        "midImage": "/event-page/pharma.jpeg",
         "ticketTypes": [
             {
                 "name": "General Delegate Pass",
@@ -659,7 +659,7 @@
         "description": "An ultra-luxury real estate expo for global developers, high-net-worth investors, and curated buyers. Immerse yourself in a world of iconic properties, cutting-edge PropTech, and visionary designs that redefine opulent living. Connect with industry titans and shape the future of real estate in an exclusive, high-energy showcase!",
         "leftImage": "./event-page/new/destate1.png",
         "rightImage": "./event-page/new/destate2.png",
-        "midImage": "",
+        "midImage": "/event-page/destate.jpeg",
         "ticketTypes": [
             {
                 "name": "General Visitor Pass",
@@ -921,13 +921,207 @@
         ]
     },
     {
+        "eventTitle": "ASCEND CAREER expo",
+        "slug": "ascend-career-expo",
+        "theme": "Step into the world where ambition meets opportunity, and legends of the future are crafted.",
+        "description": "At ASCEND, every conversation, every booth, every session is a battlefield — but instead of fists, it's your dreams, skills, and passion that rise to the challenge. Whether you're chasing your first job, your next big leap, or your ultimate legacy, ASCEND promises an adrenaline-charged, game-changing experience you'll never forget.",
+        "leftImage": "./event-page/new/careerexpo1.webp",
+        "rightImage": "./event-page/new/careerexpo2.webp",
+        "midImage": "/event-page/carrer-expo.jpeg",
+        "ticketTypes": [
+            {
+                "name": "General Explorer Pass",
+                "price": "₹499–₹999",
+                "tagline": "Unlock the gates to a universe of opportunities.",
+                "inclusions": [
+                    "Full access to all Experience Zones",
+                    "Career talks, guides, and keynotes",
+                    "Resume templates + access to public job boards",
+                    "Networking with peers and industry scouts",
+                    "Digital swag kit"
+                ]
+            },
+            {
+                "name": "Premium Delegate Pass",
+                "price": "₹4,999–₹9,999",
+                "tagline": "Step into the arena of champions.",
+                "inclusions": [
+                    "Priority hiring lane access",
+                    "1:1 premium mentorship sessions",
+                    "AI-generated CV & Personal Brand Audit",
+                    "Entry to Awards Night + Speaker Dinner",
+                    "Exclusive career lounge access (latte bar, acoustic zones)",
+                    "Designer entry kits (custom journals, gold CV folders)",
+                    "Personalized NFC Career Cards",
+                    "Recruitment Concierge service",
+                    "Red Carpet Walk for Creator-Influencers",
+                    "Access to Champagne Hiring Night"
+                ]
+            },
+            {
+                "name": "Investor & Recruiter Suite Access",
+                "price": "₹5,00,000–₹10,00,000",
+                "tagline": "Discover the leaders of tomorrow. Hire the legends today.",
+                "inclusions": [
+                    "Private hiring suite",
+                    "Access to live candidate matchmaking dashboard",
+                    "Real-time candidate discovery tools",
+                    "Invite to VIP Champagne Hiring Night",
+                    "Red Carpet Entry & Private Lounge Access"
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "startingDateForRegistration": "May 1, 2025",
+            "lastDateForRegistration": "June 15, 2025",
+            "startingDateForBuyingPasses": "May 10, 2025",
+            "lastDateForBuyingPasses": "July 31, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 17, 2025 (Friday)",
+                "events": [
+                    "10:00 AM: Gates Open & Experience Zones Activation",
+                    "11:00 AM: Leadership Lab Keynote Panels",
+                    "12:30 PM - 3:00 PM: Global University Avenue Showcases",
+                    "4:00 PM - 6:00 PM: Career Galaxy Hiring Trials",
+                    "7:00 PM: Networking Gala & Early Bird Mentorship Sessions"
+                ]
+            },
+            {
+                "day": "October 18, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Resume & Pitch Clinics Open",
+                    "12:00 PM - 2:00 PM: Creator Club Stage Showcases",
+                    "3:00 PM - 5:00 PM: Future of Work Zone Fireside Chats",
+                    "6:00 PM - 8:00 PM: Hire-A-Thon Walk-In Interviews",
+                    "8:30 PM: Champagne Hiring Night (VIP Lounge Event)"
+                ]
+            },
+            {
+                "day": "October 19, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Reverse Career Fair Activation",
+                    "12:00 PM - 2:00 PM: The 1-Minute Job Challenge Finals",
+                    "3:00 PM - 5:00 PM: Ascend Awards Night & Creator Shark Tank",
+                    "7:00 PM - 10:00 PM: Closing Ceremony + Legacy Networking Bash"
+                ]
+            }
+        ]
+    },
+    {
+        "eventTitle": "DEMIGOD FIGHT CLUB",
+        "slug": "demigod-fight-club",
+        "theme": "Step into the arena of strength, skill, and pure adrenaline, where warriors clash, legends are born, and the crowd roars.",
+        "description": "This electrifying event brings together the fiercest fighters for an unforgettable tournament of grit and glory. Whether you're stepping into the ring or cheering ringside, experience the pulse-pounding action, the intense rivalries, and the ultimate crowning of the Fight Champion.",
+        "leftImage": "./event-page/new/demigod_fight1.jpg",
+        "rightImage": "./event-page/new/demigod_fight2.jpg",
+        "midImage": "/event-page/DFC.webp",
+        "ticketTypes": [
+            {
+                "name": "Warrior Entry Pass (Fighter)",
+                "price": "₹9,999",
+                "tagline": "Face the fight. Claim your glory.",
+                "inclusions": [
+                    "Entry into the Fight Club Tournament (3 Fight Rounds + Final Showdown)",
+                    "Custom Fighter Gear Rental (Gloves, Shorts, Robe)",
+                    "Professional Coaching & Warm-up Sessions",
+                    "High Energy Pre-Fight Briefing Event",
+                    "Professional Fight Photoshoot (5 Edited Action Shots)",
+                    "VIP After Brawl Party Access",
+                    "Free Health & Recovery Kit by Fitness Partners",
+                    "Gift Hamper worth ₹5,000+",
+                    "Grand Entrance Walk & Spotlight Moment",
+                    "Certificate of Valor",
+                    "Champions Win: ₹1,00,000 + Championship Belt",
+                    "Runner-up Prizes: ₹25,000 + Silver Gloves Trophy, ₹10,000 + Bronze Warrior Medal",
+                    "Special Awards: Best Knockout, Best Comeback, Crowd Favorite"
+                ]
+            },
+            {
+                "name": "Frontline Fury Pass (VIP Guest)",
+                "price": "₹6,000 - ₹10,000",
+                "tagline": "Witness the roar. Feel the heat.",
+                "inclusions": [
+                    "Reserved Ringside Front Row Seats",
+                    "VIP Lounge Access with Fighters and Coaches",
+                    "Access to Fighter Q/A & Strategy Session",
+                    "Entry to Championship Belt Ceremony",
+                    "Welcome Kit (Merchandise + Goodies worth ₹2,000)",
+                    "Red Carpet Photo Opportunity",
+                    "After Brawl Bash Access (Private Lounge)"
+                ]
+            },
+            {
+                "name": "Arena Entry (Standard Guest)",
+                "price": "₹1,500 - ₹2,500",
+                "tagline": "Dive into the action from the best seats in the house.",
+                "inclusions": [
+                    "Entry to All Fight Rounds + Final Brawl",
+                    "Open Seating in the General Arena Gallery",
+                    "Live DJ, Hype Shows & Stage Entertainment",
+                    "Access to Food & Merchandise Stalls",
+                    "Complimentary Drink & Snack Voucher"
+                ]
+            },
+            {
+                "name": "After Brawl Bash Pass",
+                "price": "₹2,000",
+                "tagline": "Celebrate the warriors. Dance with champions.",
+                "inclusions": [
+                    "Entry to the Exclusive After Party",
+                    "Unlimited Mocktails/Cocktails",
+                    "Celebrity Fighters Meet-and-Greet",
+                    "DJ Sets, Dance Floor, and Live Performances",
+                    "Selfie Stage with Fighters, Coaches, and Guests"
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "startingDateForRegistration": "May 1, 2025",
+            "lastDateForRegistration": "June 15, 2025",
+            "startingDateForBuyingPasses": "May 10, 2025",
+            "lastDateForBuyingPasses": "July 31, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 17, 2025 (Friday)",
+                "events": [
+                    "10:00 AM: Gates Open & Fighter Briefing",
+                    "11:00 AM: Red Carpet Fighter Entrance",
+                    "12:30 PM - 3:00 PM: Qualification Rounds",
+                    "4:00 PM - 6:00 PM: Tag Team Showcase",
+                    "7:00 PM: Pre-Fight High Energy Meet & Greet"
+                ]
+            },
+            {
+                "day": "October 18, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Merch Pop-Ups, Hype Zone Opens",
+                    "12:00 PM - 2:00 PM: Semi-Finals Rumble",
+                    "3:00 PM - 5:00 PM: Fighter Q/A with Coaches",
+                    "6:00 PM - 8:00 PM: Main Event Showdowns"
+                ]
+            },
+            {
+                "day": "October 19, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Warm-up Sessions & Meet Fighters",
+                    "12:00 PM - 2:00 PM: Grand Final Brawls",
+                    "3:00 PM - 5:00 PM: Championship Belt Ceremony",
+                    "7:00 PM - 10:00 PM: After Brawl Bash"
+                ]
+            }
+        ]
+    },    
+    {
         "eventTitle": "WANDERLUXE: The Global Travel & Tourism Summit",
         "slug": "travel-tourism-event",
         "theme": "An ultra-premium, multi-sensory travel showcase celebrating destinations, cultures, and the future of luxury tourism. Step into a world of immersive pavilions, curated experiences, and exclusive networking that redefines wanderlust. From bespoke journeys to cultural extravaganzas, join global tastemakers for a journey like no other!",
         "description": "An ultra-premium, multi-sensory travel showcase celebrating destinations, cultures, and the future of luxury tourism.",
         "leftImage": "",
         "rightImage": "",
-        "midImage": "",
+        "midImage": "/event-page/travel-Tourism.jpeg",
         "ticketTypes": [
             {
                 "name": "General Explorer Pass",
@@ -1169,7 +1363,6 @@
     {
         "eventTitle": "Economic Patriots Summit – Europe 2025",
         "slug": "economic-patriots-summit-europe",
-
         "theme": "A prestigious summit uniting visionary leaders, economic strategists, entrepreneurs, and change-makers committed to strengthening national economies and fostering global partnerships. Explore the future of sustainable development, economic independence, and innovation across borders.",
         "description": "An elite two-day forum dedicated to empowering economic leadership, strategic innovation, and policy impact. Dive into thought-provoking panels, networking opportunities, and collaborative dialogues with Europe's brightest minds and global allies.",
         "leftImage": "./event-page/new/summit-euprope1.webp",
@@ -1253,85 +1446,85 @@
         "rightImage": "./event-page/new/summit-usa.webp",
         "midImage": "/event-page/us_patroits.webp",
         "ticketTypes": [
-          {
-            "name": "Global Patriot Pass",
-            "price": "$150 - $300",
-            "tagline": "Join the worldwide movement for America’s economic leadership.",
-            "inclusions": [
-              "Access to all plenary sessions and global exhibition zones",
-              "Participation in international panel discussions",
-              "Digital summit certificate and resource materials"
-            ]
-          },
-          {
-            "name": "Strategic Leader Pass",
-            "price": "$800 - $1,200",
-            "tagline": "For policymakers, industry experts, and global business leaders.",
-            "inclusions": [
-              "All Global Patriot Pass benefits",
-              "Access to Strategic Leadership Roundtables",
-              "Reserved seating at keynote sessions",
-              "Invitation to International Networking Luncheon",
-              "Early access to summit reports and whitepapers"
-            ]
-          },
-          {
-            "name": "Visionary Partner VIP Pass",
-            "price": "$2,000 - $3,000",
-            "tagline": "Exclusive access for senior executives and global partners.",
-            "inclusions": [
-              "All Strategic Leader Pass benefits",
-              "Invitation to VIP Gala Dinner",
-              "Private meet-and-greet with keynote speakers",
-              "Access to VIP Lounge and business matchmaking sessions",
-              "Premium summit swag and commemorative collectibles"
-            ]
-          },
-          {
-            "name": "Sovereign Master Pass",
-            "price": "$4,000 - $5,500",
-            "tagline": "Ultimate summit experience for global economic champions.",
-            "inclusions": [
-              "All Visionary Partner VIP Pass benefits",
-              "Exclusive Masterclass with international economic strategists",
-              "Private roundtable with government dignitaries",
-              "VIP access to After-Summit Supper Club",
-              "Limited-edition signed memorabilia and premium gift package"
-            ]
-          }
+            {
+                "name": "Global Patriot Pass",
+                "price": "$150 - $300",
+                "tagline": "Join the worldwide movement for America’s economic leadership.",
+                "inclusions": [
+                    "Access to all plenary sessions and global exhibition zones",
+                    "Participation in international panel discussions",
+                    "Digital summit certificate and resource materials"
+                ]
+            },
+            {
+                "name": "Strategic Leader Pass",
+                "price": "$800 - $1,200",
+                "tagline": "For policymakers, industry experts, and global business leaders.",
+                "inclusions": [
+                    "All Global Patriot Pass benefits",
+                    "Access to Strategic Leadership Roundtables",
+                    "Reserved seating at keynote sessions",
+                    "Invitation to International Networking Luncheon",
+                    "Early access to summit reports and whitepapers"
+                ]
+            },
+            {
+                "name": "Visionary Partner VIP Pass",
+                "price": "$2,000 - $3,000",
+                "tagline": "Exclusive access for senior executives and global partners.",
+                "inclusions": [
+                    "All Strategic Leader Pass benefits",
+                    "Invitation to VIP Gala Dinner",
+                    "Private meet-and-greet with keynote speakers",
+                    "Access to VIP Lounge and business matchmaking sessions",
+                    "Premium summit swag and commemorative collectibles"
+                ]
+            },
+            {
+                "name": "Sovereign Master Pass",
+                "price": "$4,000 - $5,500",
+                "tagline": "Ultimate summit experience for global economic champions.",
+                "inclusions": [
+                    "All Visionary Partner VIP Pass benefits",
+                    "Exclusive Masterclass with international economic strategists",
+                    "Private roundtable with government dignitaries",
+                    "VIP access to After-Summit Supper Club",
+                    "Limited-edition signed memorabilia and premium gift package"
+                ]
+            }
         ],
         "registrationDetails": {
-          "registrationOpens": "June 1, 2025",
-          "strategicLeaderInvites": "June 15, 2025",
-          "finalRegistrationDeadline": "August 31, 2025"
+            "registrationOpens": "June 1, 2025",
+            "strategicLeaderInvites": "June 15, 2025",
+            "finalRegistrationDeadline": "August 31, 2025"
         },
         "schedule": [
-          {
-            "day": "October 16, 2025 (Thursday)",
-            "events": [
-              "9:00 AM: Registration & Global Welcome Coffee",
-              "10:00 AM: Opening Ceremony & Keynote: Economic Patriotism in a Competitive World",
-              "11:30 AM – 1:00 PM: Panel: Rebuilding American Manufacturing for Global Markets",
-              "1:00 PM – 2:00 PM: International Networking Luncheon (Strategic Leader Pass & above)",
-              "2:30 PM – 4:30 PM: Workshops: Exporting American Innovation & SME Global Empowerment",
-              "5:00 PM – 6:30 PM: Fireside Chat: America’s Role in the Future of Global Trade",
-              "7:30 PM: VIP Gala Dinner (Visionary Partner & Sovereign Master Pass holders)"
-            ]
-          },
-          {
-            "day": "October 17, 2025 (Friday)",
-            "events": [
-              "9:30 AM: Roundtable: Policy Frameworks for U.S. Products on the World Stage",
-              "11:00 AM – 1:00 PM: Sectoral Breakouts: Agriculture, Manufacturing, Tech, and Services",
-              "1:00 PM – 2:00 PM: Networking Lunch",
-              "2:30 PM – 4:00 PM: Masterclass: Global Economic Trends & America’s Strategic Position (Sovereign Master Pass only)",
-              "4:30 PM – 6:00 PM: Closing Ceremony & Economic Patriotism Awards",
-              "7:00 PM: After-Summit Supper Club (Sovereign Master Pass holders)"
-            ]
-          }
+            {
+                "day": "October 16, 2025 (Thursday)",
+                "events": [
+                    "9:00 AM: Registration & Global Welcome Coffee",
+                    "10:00 AM: Opening Ceremony & Keynote: Economic Patriotism in a Competitive World",
+                    "11:30 AM – 1:00 PM: Panel: Rebuilding American Manufacturing for Global Markets",
+                    "1:00 PM – 2:00 PM: International Networking Luncheon (Strategic Leader Pass & above)",
+                    "2:30 PM – 4:30 PM: Workshops: Exporting American Innovation & SME Global Empowerment",
+                    "5:00 PM – 6:30 PM: Fireside Chat: America’s Role in the Future of Global Trade",
+                    "7:30 PM: VIP Gala Dinner (Visionary Partner & Sovereign Master Pass holders)"
+                ]
+            },
+            {
+                "day": "October 17, 2025 (Friday)",
+                "events": [
+                    "9:30 AM: Roundtable: Policy Frameworks for U.S. Products on the World Stage",
+                    "11:00 AM – 1:00 PM: Sectoral Breakouts: Agriculture, Manufacturing, Tech, and Services",
+                    "1:00 PM – 2:00 PM: Networking Lunch",
+                    "2:30 PM – 4:00 PM: Masterclass: Global Economic Trends & America’s Strategic Position (Sovereign Master Pass only)",
+                    "4:30 PM – 6:00 PM: Closing Ceremony & Economic Patriotism Awards",
+                    "7:00 PM: After-Summit Supper Club (Sovereign Master Pass holders)"
+                ]
+            }
         ]
-      },
-      {
+    },
+    {
         "eventTitle": "ENTREPRENEURSHIP FORUM",
         "slug": "entrepreneurship-forum-2025",
         "leftImage": "./event-page/new/entreprenurship1.webp",
@@ -1340,100 +1533,100 @@
         "theme": "From Ideas to Impact. The Power of Visionaries.",
         "description": "A premium gathering for visionary founders, investors, and business leaders. Experience a world-class forum where entrepreneurial minds converge to share insights, tackle challenges, and ignite innovation. Dive into interactive sessions, exclusive networking, and transformative masterclasses designed to accelerate your entrepreneurial journey. Shape the future of business in an inspiring, high-energy environment!",
         "ticketTypes": [
-          {
-            "name": "Explorer Pass",
-            "price": "₹5,000 - ₹10,000",
-            "tagline": "Discover the entrepreneurial landscape.",
-            "inclusions": [
-              "Entry to main forum sessions and exhibition zones",
-              "Access to select panel discussions",
-              "Digital event certificate & forum resources"
-            ]
-          },
-          {
-            "name": "Innovator Delegate Pass",
-            "price": "₹40,000 - ₹60,000",
-            "tagline": "Connect with the ecosystem’s rising stars.",
-            "inclusions": [
-              "All Explorer Pass benefits",
-              "Access to Delegate Networking Lounge",
-              "Reserved seating at all panels",
-              "Entry to Awards Night & Networking Social",
-              "Priority for startup pitch sessions"
-            ]
-          },
-          {
-            "name": "Founder Elite VIP Pass",
-            "price": "₹100,000 - ₹150,000",
-            "tagline": "Exclusive access for high-impact founders and investors.",
-            "inclusions": [
-              "All Innovator Delegate Pass benefits",
-              "Invite to Private Founders’ Dinner",
-              "Access to VIP Investment Bar",
-              "Personalized mentorship session with industry leaders",
-              "Premium entrepreneur swag kit"
-            ]
-          },
-          {
-            "name": "Visionary Master Pass",
-            "price": "₹200,000 - ₹300,000",
-            "tagline": "Ultimate entrepreneurial immersion.",
-            "inclusions": [
-              "All Founder Elite VIP Pass benefits",
-              "Exclusive Masterclass with global business icons",
-              "Private roundtable with keynote speakers",
-              "VIP access to After-Forum Supper Club",
-              "Limited-edition signed collectible & premium business gadget"
-            ]
-          }
+            {
+                "name": "Explorer Pass",
+                "price": "₹5,000 - ₹10,000",
+                "tagline": "Discover the entrepreneurial landscape.",
+                "inclusions": [
+                    "Entry to main forum sessions and exhibition zones",
+                    "Access to select panel discussions",
+                    "Digital event certificate & forum resources"
+                ]
+            },
+            {
+                "name": "Innovator Delegate Pass",
+                "price": "₹40,000 - ₹60,000",
+                "tagline": "Connect with the ecosystem’s rising stars.",
+                "inclusions": [
+                    "All Explorer Pass benefits",
+                    "Access to Delegate Networking Lounge",
+                    "Reserved seating at all panels",
+                    "Entry to Awards Night & Networking Social",
+                    "Priority for startup pitch sessions"
+                ]
+            },
+            {
+                "name": "Founder Elite VIP Pass",
+                "price": "₹100,000 - ₹150,000",
+                "tagline": "Exclusive access for high-impact founders and investors.",
+                "inclusions": [
+                    "All Innovator Delegate Pass benefits",
+                    "Invite to Private Founders’ Dinner",
+                    "Access to VIP Investment Bar",
+                    "Personalized mentorship session with industry leaders",
+                    "Premium entrepreneur swag kit"
+                ]
+            },
+            {
+                "name": "Visionary Master Pass",
+                "price": "₹200,000 - ₹300,000",
+                "tagline": "Ultimate entrepreneurial immersion.",
+                "inclusions": [
+                    "All Founder Elite VIP Pass benefits",
+                    "Exclusive Masterclass with global business icons",
+                    "Private roundtable with keynote speakers",
+                    "VIP access to After-Forum Supper Club",
+                    "Limited-edition signed collectible & premium business gadget"
+                ]
+            }
         ],
         "registrationDetails": {
-          "exhibitorApplicationsOpen": "July 1, 2025",
-          "delegateInvitationsBegin": "July 15, 2025",
-          "awardsNominationsLaunch": "August 1, 2025",
-          "finalRegistrationDeadline": "September 30, 2025"
+            "exhibitorApplicationsOpen": "July 1, 2025",
+            "delegateInvitationsBegin": "July 15, 2025",
+            "awardsNominationsLaunch": "August 1, 2025",
+            "finalRegistrationDeadline": "September 30, 2025"
         },
         "schedule": [
-          {
-            "day": "November 14, 2025 (Friday)",
-            "events": [
-              "9:00 AM: Gates Open & Forum Setup",
-              "10:00 AM: Opening Ceremony & Visionaries Panel",
-              "12:00 PM – 3:00 PM: Startup Showcase & Pitch Arena",
-              "4:00 PM – 6:00 PM: Impact Innovation Gallery Walkthrough",
-              "7:00 PM: Delegate Networking Lounge",
-              "9:00 PM: Private Founders’ Dinner (Founder Elite VIP & Visionary Master Pass holders)"
-            ]
-          },
-          {
-            "day": "November 15, 2025 (Saturday)",
-            "events": [
-              "10:00 AM: Entrepreneurial Trends & Strategy Sessions",
-              "12:00 PM – 2:00 PM: Investor-Startup 1:1 Meetings",
-              "3:00 PM – 5:00 PM: Social Impact & Sustainability Zone",
-              "6:00 PM – 8:00 PM: Networking Social",
-              "9:00 PM: After-Forum Supper Club (Visionary Master Pass holders)"
-            ]
-          },
-          {
-            "day": "November 16, 2025 (Sunday)",
-            "events": [
-              "10:00 AM: Extended Exhibition & Mentorship Clinics",
-              "12:00 PM – 2:00 PM: Masterclass with Business Icons",
-              "3:00 PM – 5:00 PM: Entrepreneur Quest Challenge Finale",
-              "6:00 PM – 9:00 PM: ENTREPRENEUR VISION Awards Night",
-              "10:00 PM: VIP Networking Party (Innovator Delegate, Founder Elite VIP, Visionary Master Pass holders)"
-            ]
-          }
+            {
+                "day": "November 14, 2025 (Friday)",
+                "events": [
+                    "9:00 AM: Gates Open & Forum Setup",
+                    "10:00 AM: Opening Ceremony & Visionaries Panel",
+                    "12:00 PM – 3:00 PM: Startup Showcase & Pitch Arena",
+                    "4:00 PM – 6:00 PM: Impact Innovation Gallery Walkthrough",
+                    "7:00 PM: Delegate Networking Lounge",
+                    "9:00 PM: Private Founders’ Dinner (Founder Elite VIP & Visionary Master Pass holders)"
+                ]
+            },
+            {
+                "day": "November 15, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Entrepreneurial Trends & Strategy Sessions",
+                    "12:00 PM – 2:00 PM: Investor-Startup 1:1 Meetings",
+                    "3:00 PM – 5:00 PM: Social Impact & Sustainability Zone",
+                    "6:00 PM – 8:00 PM: Networking Social",
+                    "9:00 PM: After-Forum Supper Club (Visionary Master Pass holders)"
+                ]
+            },
+            {
+                "day": "November 16, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Extended Exhibition & Mentorship Clinics",
+                    "12:00 PM – 2:00 PM: Masterclass with Business Icons",
+                    "3:00 PM – 5:00 PM: Entrepreneur Quest Challenge Finale",
+                    "6:00 PM – 9:00 PM: ENTREPRENEUR VISION Awards Night",
+                    "10:00 PM: VIP Networking Party (Innovator Delegate, Founder Elite VIP, Visionary Master Pass holders)"
+                ]
+            }
         ]
-      },      
+    },
     {
         "eventTitle": "Economic Patriots Summit – India 2025",
         "slug": "economic-patriots-summit-india",
         "theme": "India’s most visionary economic summit celebrating entrepreneurship, policy innovation, and patriotic progress. Join leaders, startups, policymakers, and grassroots changemakers shaping a self-reliant Bharat.",
         "description": "A two-day summit dedicated to India’s economic empowerment. Dive into discussions on Atmanirbhar Bharat, sustainable development, financial inclusion, and global trade strategies—powered by the spirit of Indian innovation and unity.",
         "leftImage": "./event-page/new/India1.webp",
-        "rightImage":"./event-page/new/India2.webp",
+        "rightImage": "./event-page/new/India2.webp",
         "midImage": "/event-page/india_patriots.webp",
         "ticketTypes": [
             {
@@ -1506,18 +1699,17 @@
         ]
     },
     {
-        "eventName": "TECH EXPO",
-        "tagline": "The Future of Innovation. The Pulse of Technology.",
-        "slug": "tech-expo",
+        "eventTitle": "TECH EXPO – The Future of Innovation. The Pulse of Technology.",
+        "slug": "tech-expo-event",
+        "description": "A world-class technology exhibition for global innovators, venture capitalists, and curated tech enthusiasts. Dive into groundbreaking gadgets, transformative AI solutions, and visionary designs that redefine the digital era. Connect with industry leaders and shape the future of technology in an exclusive, high-energy showcase!",
         "leftImage": "./event-page/new/techexpo1.webp",
         "rightImage": "./event-page/new/techexpo2.webp",
-        "midImage": "",
-        "description": "A world-class technology exhibition for global innovators, venture capitalists, and curated tech enthusiasts. Dive into groundbreaking gadgets, transformative AI solutions, and visionary designs that redefine the digital era. Connect with industry leaders and shape the future of technology in an exclusive, high-energy showcase!",
+        "midImage": "/event-page/tech-expo.jpeg",
         "ticketTypes": [
             {
                 "name": "General Visitor Pass",
-                "priceRange": "₹1,999 - ₹4,999",
-                "description": "Entry to main exhibition zones.",
+                "price": "₹1,999 - ₹4,999",
+                "tagline": "Entry to main exhibition zones.",
                 "inclusions": [
                     "Entry to main exhibition zones",
                     "Interactive AR demo access",
@@ -1526,8 +1718,8 @@
             },
             {
                 "name": "Innovator Delegate Pass",
-                "priceRange": "₹25,000 - ₹40,000",
-                "description": "Access to Visionary Connect Lounge.",
+                "price": "₹25,000 - ₹40,000",
+                "tagline": "Access to Visionary Connect Lounge.",
                 "inclusions": [
                     "All benefits of General Visitor Pass",
                     "Access to Visionary Connect Lounge",
@@ -1538,8 +1730,8 @@
             },
             {
                 "name": "Tech Titan VIP Pass",
-                "priceRange": "₹60,000 - ₹90,000",
-                "description": "Exclusive tech and dining experiences.",
+                "price": "₹60,000 - ₹90,000",
+                "tagline": "Exclusive tech and dining experiences.",
                 "inclusions": [
                     "All benefits of Innovator Delegate Pass",
                     "Invite to private After-Party 7-Course Gala Dinner",
@@ -1550,8 +1742,8 @@
             },
             {
                 "name": "Visionary Master Pass",
-                "priceRange": "₹120,000 - ₹180,000",
-                "description": "Ultimate innovation immersion.",
+                "price": "₹120,000 - ₹180,000",
+                "tagline": "Ultimate innovation immersion.",
                 "inclusions": [
                     "All benefits of Tech Titan VIP Pass",
                     "Exclusive Masterclass with tech pioneers",
@@ -1561,159 +1753,145 @@
                 ]
             }
         ],
+        "registrationDetails": {
+            "ticketSalesOpen": "July 1, 2025",
+            "ticketSalesClose": "September 30, 2025"
+        },
+        "schedule": [
+            {
+                "day": "November 14, 2025 (Friday)",
+                "events": [
+                    "9:00 AM: Gates Open & Tech Frontier Setup",
+                    "10:00 AM: Opening Ceremony & Pioneers of Innovation Panel",
+                    "12:00 PM - 3:00 PM: AI & Robotics Pavilion Demos",
+                    "4:00 PM - 6:00 PM: Future Tech Gallery Walkthrough",
+                    "7:00 PM: Visionary Connect Lounge Networking",
+                    "9:00 PM: After-Party 7-Course Gala Dinner (Tech Titan VIP & Visionary Master Pass holders)"
+                ]
+            },
+            {
+                "day": "November 15, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Gadget & Design Showcase",
+                    "12:00 PM - 2:00 PM: Investor Den 1:1 Meetings",
+                    "3:00 PM - 5:00 PM: Cybersecurity & Sustainability Zone",
+                    "6:00 PM - 8:00 PM: Neon Pulse Bar Party",
+                    "9:00 PM: After-After-Party Supper Club (Visionary Master Pass holders)"
+                ]
+            },
+            {
+                "day": "November 16, 2025 (Sunday)",
+                "events": [
+                    "10:00 AM: Extended Exhibition Zones",
+                    "12:00 PM - 2:00 PM: Augmented Reality Demo Sessions",
+                    "3:00 PM - 5:00 PM: Tech Quest Game Finale",
+                    "6:00 PM - 9:00 PM: TECH VISION Awards Night",
+                    "10:00 PM: Rooftop Tech Party (Innovator Delegate, Tech Titan VIP, Visionary Master Pass holders)"
+                ]
+            }
+        ]
+    },
+    {
+        "eventName": "CULINARY QUEST EXPO",
+        "blog": "culinary-quest-expo",
+        "tagline": "The Future of Flavor. The Art of Gastronomy.",
+        "description": "A world-class food and culinary exhibition for global chefs, food industry leaders, and curated epicureans. Savor innovative cuisines, cutting-edge food tech, and visionary culinary creations that redefine dining. Connect with gastronomy pioneers and shape the future of food in an exclusive, vibrant showcase!",
+        "ticketTypes": [
+            {
+                "name": "General Visitor Pass",
+                "priceRange": "₹1,499 - ₹3,999",
+                "description": "Entry to main exhibition zones.",
+                "inclusions": [
+                    "Entry to main exhibition zones",
+                    "Access to live cooking demos",
+                    "Free NFT-based event certificate + digital recipe booklets"
+                ]
+            },
+            {
+                "name": "Gourmet Delegate Pass",
+                "priceRange": "₹20,000 - ₹35,000",
+                "description": "Access to Taste Makers Lounge.",
+                "inclusions": [
+                    "All benefits of General Visitor Pass",
+                    "Access to Taste Makers Lounge",
+                    "Reserved seating at culinary panels",
+                    "Entry to Awards Night + Rooftop Flavor Fiesta",
+                    "Priority access to tasting stations"
+                ]
+            },
+            {
+                "name": "Epicurean VIP Pass",
+                "priceRange": "₹50,000 - ₹75,000",
+                "description": "Exclusive dining experiences.",
+                "inclusions": [
+                    "All benefits of Gourmet Delegate Pass",
+                    "Invite to private After-Party Dinner",
+                    "Access to VIP Mixology Bar",
+                    "Personalized food pairing consultations",
+                    "Complimentary gourmet gift hamper"
+                ]
+            },
+            {
+                "name": "Chef’s Master Pass",
+                "priceRange": "₹100,000 - ₹150,000",
+                "description": "Ultimate culinary immersion.",
+                "inclusions": [
+                    "All benefits of Epicurean VIP Pass",
+                    "Exclusive Masterclass with Michelin-starred chefs",
+                    "Private meet-and-greet with celebrity chefs",
+                    "VIP access to After-After-Party Supper Club",
+                    "Limited-edition signed cookbook + premium wine pairing"
+                ]
+            }
+        ],
         "schedule": {
             "recommendedDuration": "3 Days (Friday, Saturday, Sunday)",
             "registration": {
-                "applicationsOpen": "July 1, 2025",
-                "applicationsNote": "Showcase your innovation to the world.",
-                "delegateInvitationsBegin": "July 15, 2025",
-                "delegateNote": "Join the elite shaping technology.",
-                "awardsNominations": "August 1, 2025",
-                "awardsNote": "Nominate excellence in innovation.",
-                "finalDeadline": "September 30, 2025",
+                "applicationsOpen": "August 1, 2025",
+                "applicationsNote": "Showcase your culinary vision to the world.",
+                "delegateInvitationsBegin": "August 15, 2025",
+                "delegateNote": "Join the elite shaping gastronomy.",
+                "awardsNominations": "September 1, 2025",
+                "awardsNote": "Nominate excellence in culinary arts.",
+                "finalDeadline": "October 31, 2025",
                 "finalNote": "Last chance to secure your spot."
             },
             "days": [
                 {
-                    "date": "November 14, 2025",
+                    "date": "December 5, 2025",
                     "day": "Friday",
                     "activities": [
-                        "9:00 AM: Gates Open & Tech Frontier Setup",
-                        "10:00 AM: Opening Ceremony & Pioneers of Innovation Panel",
-                        "12:00 PM - 3:00 PM: AI & Robotics Pavilion Demos",
-                        "4:00 PM - 6:00 PM: Future Tech Gallery Walkthrough",
-                        "7:00 PM: Visionary Connect Lounge Networking",
-                        "9:00 PM: After-Party 7-Course Gala Dinner (Tech Titan VIP & Visionary Master Pass holders)"
+                        "9:00 AM: Gates Open & Flavor Avenue Setup",
+                        "10:00 AM: Opening Ceremony & Masters of Cuisine Panel",
+                        "12:00 PM - 3:00 PM: FoodTech Pavilion Demos",
+                        "4:00 PM - 6:00 PM: Global Cuisine Gallery Walkthrough",
+                        "7:00 PM: Taste Makers Lounge Networking",
+                        "9:00 PM: After-Party Dinner (Epicurean VIP & Chef’s Master Pass holders)"
                     ]
                 },
                 {
-                    "date": "November 15, 2025",
+                    "date": "December 6, 2025",
                     "day": "Saturday",
                     "activities": [
-                        "10:00 AM: Gadget & Design Showcase",
-                        "12:00 PM - 2:00 PM: Investor Den 1:1 Meetings",
-                        "3:00 PM - 5:00 PM: Cybersecurity & Sustainability Zone",
-                        "6:00 PM - 8:00 PM: Neon Pulse Bar Party",
-                        "9:00 PM: After-After-Party Supper Club (Visionary Master Pass holders)"
+                        "10:00 AM: Artisanal Ingredients Showcase",
+                        "12:00 PM - 2:00 PM: Chef’s Table 1:1 Tastings",
+                        "3:00 PM - 5:00 PM: Sustainable Food Systems Zone",
+                        "6:00 PM - 8:00 PM: Mixology Bar Party",
+                        "9:00 PM: After-After-Party Supper Club (Chef’s Master Pass holders)"
                     ]
                 },
                 {
-                    "date": "November 16, 2025",
+                    "date": "December 7, 2025",
                     "day": "Sunday",
                     "activities": [
                         "10:00 AM: Extended Exhibition Zones",
-                        "12:00 PM - 2:00 PM: Augmented Reality Demo Sessions",
-                        "3:00 PM - 5:00 PM: Tech Quest Game Finale",
-                        "6:00 PM - 9:00 PM: TECH VISION Awards Night",
-                        "10:00 PM: Rooftop Tech Party (Innovator Delegate, Tech Titan VIP, Visionary Master Pass holders)"
+                        "12:00 PM - 2:00 PM: Live Cooking Masterclass Sessions",
+                        "3:00 PM - 5:00 PM: Flavor Hunt Game Finale",
+                        "6:00 PM - 9:00 PM: CULINARY QUEST Awards Night",
+                        "10:00 PM: Rooftop Flavor Fiesta (Gourmet Delegate, Epicurean VIP, Chef’s Master Pass holders)"
                     ]
                 }
             ]
         }
-    },
-   
-    {
-        "eventName": "CULINARY QUEST EXPO",
-        "blog":"culinary-quest-expo",
-        "tagline": "The Future of Flavor. The Art of Gastronomy.",
-        "description": "A world-class food and culinary exhibition for global chefs, food industry leaders, and curated epicureans. Savor innovative cuisines, cutting-edge food tech, and visionary culinary creations that redefine dining. Connect with gastronomy pioneers and shape the future of food in an exclusive, vibrant showcase!",
-        "ticketTypes": [
-          {
-            "name": "General Visitor Pass",
-            "priceRange": "₹1,499 - ₹3,999",
-            "description": "Entry to main exhibition zones.",
-            "inclusions": [
-              "Entry to main exhibition zones",
-              "Access to live cooking demos",
-              "Free NFT-based event certificate + digital recipe booklets"
-            ]
-          },
-          {
-            "name": "Gourmet Delegate Pass",
-            "priceRange": "₹20,000 - ₹35,000",
-            "description": "Access to Taste Makers Lounge.",
-            "inclusions": [
-              "All benefits of General Visitor Pass",
-              "Access to Taste Makers Lounge",
-              "Reserved seating at culinary panels",
-              "Entry to Awards Night + Rooftop Flavor Fiesta",
-              "Priority access to tasting stations"
-            ]
-          },
-          {
-            "name": "Epicurean VIP Pass",
-            "priceRange": "₹50,000 - ₹75,000",
-            "description": "Exclusive dining experiences.",
-            "inclusions": [
-              "All benefits of Gourmet Delegate Pass",
-              "Invite to private After-Party Dinner",
-              "Access to VIP Mixology Bar",
-              "Personalized food pairing consultations",
-              "Complimentary gourmet gift hamper"
-            ]
-          },
-          {
-            "name": "Chef’s Master Pass",
-            "priceRange": "₹100,000 - ₹150,000",
-            "description": "Ultimate culinary immersion.",
-            "inclusions": [
-              "All benefits of Epicurean VIP Pass",
-              "Exclusive Masterclass with Michelin-starred chefs",
-              "Private meet-and-greet with celebrity chefs",
-              "VIP access to After-After-Party Supper Club",
-              "Limited-edition signed cookbook + premium wine pairing"
-            ]
-          }
-        ],
-        "schedule": {
-          "recommendedDuration": "3 Days (Friday, Saturday, Sunday)",
-          "registration": {
-            "applicationsOpen": "August 1, 2025",
-            "applicationsNote": "Showcase your culinary vision to the world.",
-            "delegateInvitationsBegin": "August 15, 2025",
-            "delegateNote": "Join the elite shaping gastronomy.",
-            "awardsNominations": "September 1, 2025",
-            "awardsNote": "Nominate excellence in culinary arts.",
-            "finalDeadline": "October 31, 2025",
-            "finalNote": "Last chance to secure your spot."
-          },
-          "days": [
-            {
-              "date": "December 5, 2025",
-              "day": "Friday",
-              "activities": [
-                "9:00 AM: Gates Open & Flavor Avenue Setup",
-                "10:00 AM: Opening Ceremony & Masters of Cuisine Panel",
-                "12:00 PM - 3:00 PM: FoodTech Pavilion Demos",
-                "4:00 PM - 6:00 PM: Global Cuisine Gallery Walkthrough",
-                "7:00 PM: Taste Makers Lounge Networking",
-                "9:00 PM: After-Party Dinner (Epicurean VIP & Chef’s Master Pass holders)"
-              ]
-            },
-            {
-              "date": "December 6, 2025",
-              "day": "Saturday",
-              "activities": [
-                "10:00 AM: Artisanal Ingredients Showcase",
-                "12:00 PM - 2:00 PM: Chef’s Table 1:1 Tastings",
-                "3:00 PM - 5:00 PM: Sustainable Food Systems Zone",
-                "6:00 PM - 8:00 PM: Mixology Bar Party",
-                "9:00 PM: After-After-Party Supper Club (Chef’s Master Pass holders)"
-              ]
-            },
-            {
-              "date": "December 7, 2025",
-              "day": "Sunday",
-              "activities": [
-                "10:00 AM: Extended Exhibition Zones",
-                "12:00 PM - 2:00 PM: Live Cooking Masterclass Sessions",
-                "3:00 PM - 5:00 PM: Flavor Hunt Game Finale",
-                "6:00 PM - 9:00 PM: CULINARY QUEST Awards Night",
-                "10:00 PM: Rooftop Flavor Fiesta (Gourmet Delegate, Epicurean VIP, Chef’s Master Pass holders)"
-              ]
-            }
-          ]
-        }
-      }
-      
+    }
 ]
