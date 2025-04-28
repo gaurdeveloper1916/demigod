@@ -11,7 +11,11 @@
     color: white;
 }
 
-  
+
+  .background-text{
+        backdrop-filter: blur(15px);
+    background: rgba(20, 74, 165, .57);
+  }
   .video-background {
     position: absolute;
     top: 0;

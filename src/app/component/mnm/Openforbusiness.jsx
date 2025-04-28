@@ -53,7 +53,7 @@ export default function Openforbusiness() {
   };
 
   return (
-    <div className="d-flex flex-lg-row flex-md-row flex-column p-3">
+    <div className="d-flex flex-lg-row flex-md-row flex-column p-5">
       <div className="col-lg-4 col-12 col-md-4 d-flex justify-content-center align-items-center">
         <div className="d-flex flex-column">
           <h5 className="text-white fw-bold">

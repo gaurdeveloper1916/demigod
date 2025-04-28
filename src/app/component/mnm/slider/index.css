@@ -69,7 +69,8 @@
 
 /* Add gradient text effect */
 .gradient-text {
-  background: linear-gradient(90deg, rgba(255, 0, 150, 1) 0%, rgba(0, 204, 255, 1) 100%);
+  background: #866b2f;
+  /* background: linear-gradient(90deg, rgba(255, 0, 150, 1) 0%, rgba(0, 204, 255, 1) 100%); */
   -webkit-background-clip: text;
   color: transparent;
   font-weight: bold;

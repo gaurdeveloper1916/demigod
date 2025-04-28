@@ -42,7 +42,7 @@ const CarouselSection = () => {
             alt="Slide 4"
             style={{ height: '100vh', objectFit: 'cover', opacity: 1 }}
           />
-          <button className="border-0 rounded position-absolute  fs-6 text-white px-3">Book Now </button>
+          <button className="border-0 top-0  rounded position-absolute  fs-6 text-white px-3">Book Now </button>
 
 
         </div>
