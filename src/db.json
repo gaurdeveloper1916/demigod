@@ -1187,9 +1187,9 @@
         "slug": "punjabi-delegates",
         "theme": "A vibrant celebration of Punjab’s finest with music, fashion, food, and shopping",
         "description": " Step into a vibrant celebration of Punjab’s finest at the Punjabi Delegates event, designed for all who wish to immerse themselves in culture and connect in a lively setting. Enjoy an electrifying live concert with top Punjabi singers, a stunning fashion show featuring iconic designers, a mouthwatering Punjabi food festival, and a shopping spree with the best regional brands. Whether you’re here to network, celebrate heritage, or discover new experiences, this event promises an unforgettable fusion of tradition and modernity. Ditch the routine and join us for a night of authentic Punjabi joy!",
-        "leftImage": "",
-        "rightImage": "",
-        "midImage": "",
+        "leftImage": "/event-page/punjabideligates.png",
+        "rightImage": "/images/landing-page-images/Punjabideligatescopy4.webp",
+        "midImage": "/event-page/Website Motion Graphics_4.mp4",
         "ticketTypes": [
             {
                 "name": "Platinum VIP Pass",

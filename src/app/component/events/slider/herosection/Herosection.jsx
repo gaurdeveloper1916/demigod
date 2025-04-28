@@ -17,7 +17,7 @@ const CarouselSection = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000, 
+    autoplaySpeed: 5000,
     arrows: false,
     pauseOnHover: true,
   };
@@ -42,10 +42,18 @@ const CarouselSection = () => {
             alt="Slide 4"
             style={{ height: '100vh', objectFit: 'cover', opacity: 1 }}
           />
-          <button className="border-0 top-0  rounded position-absolute  fs-6 text-white px-3">Book Now </button>
-
-
+          <Link   href='/landingpage?slug=punjabi-delegates'>
+          <button
+         
+            className="border-0 position-absolute  start-50 translate-middle-x rounded fs-6 bg-black text-white px-2 "
+            style={{ bottom:"11.9rem"}}
+          >
+            Book Now
+          </button>
+          </Link>
+         
         </div>
+
         <div className="position-relative">
           <video className="slide-video-test" autoPlay loop muted>
             <source src="/368510590484226049.mp4" type="video/mp4" />
