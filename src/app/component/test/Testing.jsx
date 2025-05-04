@@ -2,6 +2,8 @@
 import { useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { GoArrowLeft, GoArrowRight } from "react-icons/go";
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -10,6 +12,7 @@ import 'swiper/css/scrollbar';
 import Header from '../common/header/Header';
 import Map from '../googlemap/Map';
 import './index.css';
+import { FaLongArrowAltLeft, FaLongArrowAltRight } from 'react-icons/fa';
 
 const Testing = () => {
     const Data = [
@@ -123,8 +126,10 @@ const Testing = () => {
 
                         {/* Custom buttons */}
                         <div className="d-flex justify-content-end gap-2 my-3">
-                            <button ref={prevRef} className="btn btn-light btn-sm">Prev</button>
-                            <button ref={nextRef} className="btn btn-light btn-sm">Next</button>
+                        {/* <FaLongArrowAltLeft  />
+                        <FaLongArrowAltRight /> */}
+                            <button ref={prevRef} className="btn btn-light btn-sm border-0  bg-black"><GoArrowLeft color='white' size={30} /></button>
+                            <button ref={nextRef} className="btn btn-light btn-sm border-0 bg-black"><GoArrowRight color='white' size={30} /></button>
                         </div>
 
                         {/* Swiper */}

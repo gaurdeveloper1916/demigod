@@ -143,7 +143,7 @@ function Footer(props) {
 
               <div className="text-white smallfont">
                 <p className="sub-meduium-font border-0 fw-bold rounded  py-2 text-heading ">
-                 Event Categories 
+                  Event Categories
                 </p>
                 <div className="d-flex flex-column gap-2 mediumfont">
                   <p className="m-0">Live concert's</p>
@@ -151,7 +151,7 @@ function Footer(props) {
                   <p className="m-0">Travel Events</p>
                   <p className="m-0"> Sport's Event </p>
                   <p className="m-0">Art & Craft</p>
-         
+
                 </div>
               </div>
               <div className=" text-white smallfont">
@@ -159,12 +159,12 @@ function Footer(props) {
                   Trending Event's
                 </p>
                 <div className="d-flex flex-column gap-2 mediumfont">
-                  <p className="m-0">Punjabi Delegates</p>
-                  <p className="m-0">Wine Makeing Festival</p>
-                  <p className="m-0">Car-O-Bar </p>
-                  <p className="m-0"> Tinder Nights </p>
-                  <p className="m-0">Enterprenuership Forum </p>
-         
+                  <Link href='/landingpage?slug=punjabi-delegates' className="m-0 text-deco text-white">Punjabi Delegates</Link>
+                  <Link href='/landingpage?slug=wine-making-festival' className="m-0 text-deco text-white">Wine Makeing Festival</Link>
+                  <Link href='/landingpage?slug=car-o-bar-event' className="m-0 text-deco text-white">Car-O-Bar </Link>
+                  <Link href='/landingpage?slug=tinder-night-events' className="m-0 text-deco text-white"> Tinder Nights </Link>
+                  <Link href='/landingpage?slug=entrepreneurship-forum-2025' className="m-0 text-deco text-white">Enterprenuership Forum </Link>
+
                 </div>
               </div>
               <div className="text-white smallfont">
