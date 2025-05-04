@@ -14,14 +14,14 @@ const Faq = () => {
     // }}
     className="d-flex justify-content-center align-items-center">
       <div className="col-lg-8">
-        <h3 className="text-black p-3 membership-title">F.A.Q</h3>
+        <h3 className="text-white p-3 align-items-center membership-title">F.A.Q</h3>
         <Accordion className="d-flex flex-column gap-4" defaultActiveKey="0">
           <Accordion.Item eventKey="0">
             <Accordion.Header>
               What is the agenda behind DemiGod House & number of subsidiaries?
             </Accordion.Header>
             <Accordion.Body>
-              <p className="accordian-color-cus text-black">
+              <p className="accordian-color-cus text-white">
                 DemiGod House is the flagship subsidiary of our hedge fund structuring, orchestrating a network of other subsidiaries across diverse sectors and spanning 48 countries. This chic collective is devoted to pioneering the most promising, ROI-generating strategies, firmly establishing itself as the ultimate high-flyer in the financial cosmos.
               </p>
             </Accordion.Body>
@@ -30,7 +30,7 @@ const Faq = () => {
             <Accordion.Header>
               Modus Operandi to participate in DemiGod House events
             </Accordion.Header>
-            <Accordion.Body className="text-black">
+            <Accordion.Body className="text-white">
               <p>Two fabulous ways to join our exclusive DemiGod House events:</p>
               <ol type="A" className="accordian-color-cus d-flex flex-column gap-3 mt-2 accordian-color-cus">
                 <li >
@@ -45,7 +45,7 @@ const Faq = () => {
 
           <Accordion.Item eventKey="2">
             <Accordion.Header>What is the profiling fee?</Accordion.Header>
-            <Accordion.Body className="text-black">
+            <Accordion.Body className="text-white">
               <ul className="accordian-color-cus d-flex flex-column gap-3 mt-2 accordian-color-cus" >
                 <li>
                   Profiling fee is a petite investment of ₹550 — your ticket to our world of refined events. This mandatory profiling interview, whether done virtually or in-person, ensures that every participant brings the charm and professionalism we adore, keeping our gatherings absolutely exquisite and filtering out any elements that might disrupt the ambiance.
@@ -59,7 +59,7 @@ const Faq = () => {
 
           <Accordion.Item eventKey="3">
             <Accordion.Header>What are the grounds for profiling?</Accordion.Header>
-            <Accordion.Body className="text-black">
+            <Accordion.Body className="text-white">
               <p>
                 At DemiGod House, we carefully select participants to maintain the excellence and spirit of our events. Candidates are assessed on three core pillars:
               </p>

@@ -1,26 +1,54 @@
-import React from "react";
-import Marquee from "react-fast-marquee";
-import './index.css'
+// import React from "react";
+// import Marquee from "react-fast-marquee";
+// import './index.css'
 import Header from "../component/common/header/Header";
+
+import Section1 from "./components/section1";
+import Section2 from "./components/section2";
+import Section3 from "./components/section3";
+import Section4 from "./components/section4";
+import Section5 from "./components/section5";
+import Section6 from "./components/section6";
+import Section7 from "./components/section7";
+import Section8 from "./components/section8";
+
+
+
+
 const page = () => {
-  const features = [
-    {
-      title: "Why Choose Us?",
-      text: "With a deep understanding of market trends and innovative strategies, we drive brands toward unparalleled growth. Our results-driven approach ensures your business stays ahead in the competitive landscape.",
-    },
-    {
-      title: "Creative Experts",
-      text: "Our team of visionary marketers, designers, and strategists crafts compelling campaigns that resonate with your audience. We turn ideas into impactful brand stories that drive engagement and conversions.",
-    },
-    {
-      title: "Launch & Scale",
-      text: "From seamless campaign execution to continuous optimization, we ensure your brand’s success. We refine strategies based on insights, maximizing reach and impact for sustainable growth.",
-    },
-  ];
+
+  // const features = [
+  //   {
+  //     title: "Why Choose Us?",
+  //     text: "With a deep understanding of market trends and innovative strategies, we drive brands toward unparalleled growth. Our results-driven approach ensures your business stays ahead in the competitive landscape.",
+  //   },
+  //   {
+  //     title: "Creative Experts",
+  //     text: "Our team of visionary marketers, designers, and strategists crafts compelling campaigns that resonate with your audience. We turn ideas into impactful brand stories that drive engagement and conversions.",
+  //   },
+  //   {
+  //     title: "Launch & Scale",
+  //     text: "From seamless campaign execution to continuous optimization, we ensure your brand’s success. We refine strategies based on insights, maximizing reach and impact for sustainable growth.",
+  //   },
+  // ];
+  
   return (
-    <div className="">
+    <>
+
+<Section1/>
+<Section2/>
+<Section3/>
+<Section4/>
+<Section5/>
+<Section6/>
+<Section7/>
+<Section8/>
+
+
+
+     {/* <div className=""> */}
         <Header/>
-      <div className="px-lg-5 px-3 px-md-5 background_video">
+    {/*}  <div className="px-lg-5 px-3 px-md-5 background_video">
         <video autoPlay loop muted playsInline className="video-background">
           <source src="/bg-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
@@ -455,6 +483,13 @@ const page = () => {
         </div>
       </div>
     </div>
+
+ */}
+
+
+
+
+    </>
   );
 };
 

@@ -294,6 +294,9 @@ import Faq from "./Faq";
 
 import { useState } from 'react';
 import Header from '../component/common/header/Header';
+import Section_1 from "./components/section_1";
+import Section_2 from "./components/section_2";
+import Section_3 from "./components/section_3";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -327,8 +330,21 @@ export default function ContactPage() {
     <main>
       <Header />
 
-      {/* 1. Hero Section */}
-      <section style={{ background: "linear-gradient(to bottom right, #0000009c, #866b2f)" }} className=" text-white py-5 mb-5">
+
+
+
+<Section_1/>
+
+<Section_2/>
+
+<Section_3/>
+
+
+
+
+
+       {/* 1. Hero Section */}
+      {/* <section style={{ background: "linear-gradient(to bottom right, #0000009c, #866b2f)" }} className=" text-white py-5 mb-5">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-8 mx-auto text-center">
@@ -337,10 +353,10 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 2. Contact Form Section */}
-      <section className="py-5 mb-5" id="contact-form">
+      {/* <section className="py-5 mb-5" id="contact-form">
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
@@ -417,10 +433,10 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 3. Contact Information Section */}
-      <section className="py-5 bg-light mb-5" id="contact-info">
+      {/* <section className="py-5 bg-light mb-5" id="contact-info">
         <div className="container">
           <div className="row">
             <div className="col-12 text-center mb-4">
@@ -478,13 +494,13 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* 4. FAQ Section */}
-      <Faq />
+      {/* <Faq /> */}
 
       {/* 5. Map Section */}
-      <section className="py-5 mb-5" id="map">
+      {/* <section className="py-5 mb-5" id="map">
         <div className="container-fluid ">
           <div className="row mb-4">
             <div className="col-12 text-center">
@@ -509,10 +525,10 @@ export default function ContactPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-
-    </main>
+      
+    </main> 
   );
 }
 
