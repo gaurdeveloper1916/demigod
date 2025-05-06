@@ -160,8 +160,8 @@ function Footer(props) {
                   Event Categories
                 </p>
                 <div className="d-flex flex-column gap-2 mediumfont">
-                  {events2.map(({ slug, name }) => (
-                    <div className="d-flex align-items-center">
+                  {events2.map(({ slug, name },index) => (
+                    <div key={index} className="d-flex align-items-center">
                       <MdArrowOutward color="white" className="me-2" />
                       <Link
                         key={slug}
@@ -181,8 +181,8 @@ function Footer(props) {
                 </p>
                 <div className="d-flex flex-column gap-2 mediumfont">
                   <div className="d-flex flex-column gap-2 mediumfont">
-                    {events.map(({ slug, name }) => (
-                      <div className="d-flex align-items-center">
+                    {events.map(({ slug, name },index) => (
+                      <div key={index} className="d-flex align-items-center">
                       <MdArrowOutward color="white" className="me-2" />
                       <Link
                         key={slug}
