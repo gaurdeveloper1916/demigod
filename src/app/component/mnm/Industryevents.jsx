@@ -8,9 +8,14 @@ function Industryevents(props) {
         <div className="d-flex justify-content-center align-items-center mx-5">
           <div className="col-lg-4">
 
-             <h5><p  style={{fontWeight:'400'}} className="text-secondary "> <span  style={{fontWeight:'400'}} className="text-white">Demigod House</span>: Your Strategic Partner in Event Management, Media, and Marketing
+             <h5><p  style={{fontWeight:'400'}} className="text-secondary ">SECTORS WE CATER:
+
             </p></h5>
-            <p style={{ fontWeight: '200' }} className="text-white">At Demigod House, we provide a time-tested, structured, and results-driven sales, advertising, and marketing execution plan  with great success for brands across diversified sectors. Our approach ensures 12%-35% ROI profitability, Period ! While maintaining effectiveness and efficiency for every clientele investments.Sectors We Are Pioneering, Practicing & Monopolistically Leading Across Global Markets are as follows:
+            <p style={{ fontWeight: '200' }} className="text-white">At DemiGod House, we transcend the conventional agency model. As a distinguished entity within the Hedge Fund Portfolio, we architect visionary campaigns and immersive brand experiences that generate tangible, sustainable value.
+
+            </p>
+            <p style={{ fontWeight: '200' }} className="text-white">Rooted in precision, performance, and creative ingenuity, our multidisciplinary approach consistently delivers 12%–35% ROI, not merely as a promise, but as a foundational standard. Every initiative is strategically crafted to amplify brand equity, optimize capital deployment, and maximize returns on every associate and client investment with unwavering consistency.
+
             </p>
           </div>
           <div className="col-lg-8">

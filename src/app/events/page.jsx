@@ -58,8 +58,8 @@ function Index() {
       <div className="text-center mt-5 text-white">
         <h2>Join us for an unforgettable Friday night!</h2>
         <p>Experience the best events and activities, curated just for you.</p>
-        <Link href="/events">
-          <button className="btn btn-primary px-4 py-2">Explore All Events</button>
+        <Link href="/about-us">
+          <button className="btn btn-primary px-4 py-2">Reach Us</button>
         </Link>
       </div>
     </div>

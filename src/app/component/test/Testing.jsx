@@ -87,23 +87,35 @@ const Testing = () => {
                     <div className="d-flex p-0  postion-relative d-flex  vh-100 align-items-center justify-content-center ">
                         <div className="col-lg-12  d-flex text-cont  ">
                             <div data-aos="fade-up"
-                                    data-aos-duration="1000" className=" background-text  text-center my-5 px-5 py-4 rounded">
-                                <h2
+                                data-aos-duration="1000" className=" background-text  text-center my-5 px-5 py-4 rounded">
+                                {/* <h2
                                     style={{ fontFamily: 'ui-serif', lineHeight: '65px', fontSize:'60px' }}
                                     className="display-2 video-text mb-2 text-start"
                                     
                                 >
                                     Demigod House
-                                </h2>
+                                </h2> */}
                                 <p
-                                    style={{  lineHeight: '35px' ,fontSize:'25px'}}
+                                    style={{ lineHeight: '35px', fontSize: '28px' }}
                                     className="video-text mt-4 variety text-start col-lg-12"
                                     data-aos="fade-up"
                                     data-aos-duration="1500"
                                 >
-                                    Brand Association | Venture Capital | Brand Seed Funding | Brand Development | Brand
-                                    Marketing | Print-media & Electronic-media Advertising | Digital Media Marketing | Event Management
-                                    Services - B2B / B2C / Private Events!
+                                    Brand Association |
+                                    Venture Capital |
+                                    Revenue Sharing Model |
+                                    Brand Seed Funding |
+                                    Brand Marketing |
+                                    Brand Development |
+                                    Contract Manufacturing |
+                                    Retail Interaction & Consumer Base |
+                                    Print & Electronic Media Advertising |
+                                    Digital Media Marketing |
+                                    Legal Framework |
+                                    Empanelment Modus Operandi |
+                                    Consultancy |
+                                    Event Management Services(B2B/B2C/Private) |
+                                    Signature 
                                 </p>
                             </div>
                         </div>
@@ -114,22 +126,21 @@ const Testing = () => {
                     <div className="col-lg-10">
                         <div className="d-flex gap-4 justify-content-center align-items-center">
                             <div className="col-lg-3 text-white demigod-text">
-                                <p>DemiGod House<br /> Industries</p>
+                                <p>Our Products & <br /> Services</p>
                             </div>
                             <div className="col-lg-9 text-white">
                                 <p className="marketing-agency-text">
-                                    A Marketing Agency with universal approach in print and electronic media sectors with
-                                    astounding, effective & efficient brand marketing campaign's of 100% success track record.
+                                 Media, Marketing, and Events agency under the Demigod House Hedge Fund portfolio, crafting impactful brand success stories for associates and clients worldwide.
                                 </p>
                             </div>
                         </div>
 
                         {/* Custom buttons */}
                         <div className="d-flex justify-content-end gap-2 my-3">
-                        {/* <FaLongArrowAltLeft  />
+                            {/* <FaLongArrowAltLeft  />
                         <FaLongArrowAltRight /> */}
-                            <button ref={prevRef} className="btn btn-light btn-sm border-0  bg-black"><GoArrowLeft color='white' size={30} /></button>
-                            <button ref={nextRef} className="btn btn-light btn-sm border-0 bg-black"><GoArrowRight color='white' size={30} /></button>
+                            <div ref={prevRef} className=" bg-black cursor-pointer"><GoArrowLeft color='white' size={30} /></div>
+                            <div ref={nextRef} className=" bg-black cursor-pointer"><GoArrowRight color='white' size={30} /></div>
                         </div>
 
                         {/* Swiper */}
@@ -171,7 +182,7 @@ const Testing = () => {
                                         <div className="automobile" data-aos="fade-up" data-aos-duration="1500">
                                             <img
                                                 style={{ height: "200px", borderRadius: "20px" }}
-                                                className="img-fluid w-100 p-2"
+                                                className="img-fluid w-100 p-2 opacity-50"
                                                 src={item.image}
                                                 alt={item.heading}
                                             />
