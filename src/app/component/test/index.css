@@ -7,9 +7,9 @@
 
 .video-text {
   color: white;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+  /* text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); */
   /* black shadow around the text */
-  font-weight: 600;
+  font-weight: 200;
   /* little bolder */
   color: white;
 }

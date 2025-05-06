@@ -1793,7 +1793,8 @@
     },
     {
         "eventName": "CULINARY QUEST EXPO",
-        "blog": "culinary-quest-expo",
+        "slug": "culinary-quest-expo",
+        
         "tagline": "The Future of Flavor. The Art of Gastronomy.",
         "description": "A world-class food and culinary exhibition for global chefs, food industry leaders, and curated epicureans. Savor innovative cuisines, cutting-edge food tech, and visionary culinary creations that redefine dining. Connect with gastronomy pioneers and shape the future of food in an exclusive, vibrant showcase!",
         "ticketTypes": [

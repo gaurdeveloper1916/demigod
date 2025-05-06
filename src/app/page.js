@@ -70,7 +70,6 @@ export const metadata = {
 export default function Home() {
   return (
     <div className="bg-black container-fluid p-0">
-
       <Header />
       <Testing />
       <Industryevents />

@@ -20,7 +20,7 @@ const Testing = () => {
             heading: "Brand Association",
             description:
                 "Our flagship offerings include Brand Association and Capital Procurement—where we collaborate with industrial leaders to fuel strategic brand growth and redefine market dominance.",
-            image: "./brand_association.jpeg"
+            image: "/piller/brand_association.webp"
         },
         {
             heading: "Brand Development",
@@ -32,19 +32,19 @@ const Testing = () => {
             heading: "Marketing",
             description:
                 "Our expert marketing solutions span digital, traditional, and innovative strategies to connect brands with their audience effectively. Whether it's campaign management or analytics, we deliver measurable results.",
-            image: "./homepage/marketing.jpeg"
+            image: "/piller/brand_marketing.jpeg"
         },
         {
             heading: "Print & Electronic Media",
             description:
                 "Partnering with top-tier media outlets worldwide, we provide unmatched visibility for your brand through expertly curated content in both print and electronic formats.",
-            image: "./image/print.jpg"
+            image: "/piller/PRINT_MEDIA_MARKETING.webp"
         },
         {
             heading: "Brand Seed Funding",
             description:
                 "We support emerging brands by facilitating seed funding opportunities. Our network of investors and industry experts ensures the financial backing needed to turn visionary ideas into reality.",
-            image: "./homepage/brand_seed_funding.jpeg"
+            image: "/piller/brand_seed_funding.webp"
         },
         {
             heading: "Brand Private Equity Offering",
@@ -56,7 +56,7 @@ const Testing = () => {
             heading: "B2B & B2C Events",
             description:
                 "As part of outdoor-marketing campaign, we organize and manage variety of B2B & B2C events for brands direct interactions with their consumers via our events globally.",
-            image: "./homepage/b2b.jpeg"
+            image: "./piller/b2b_b2c_events.webp"
         },
         {
             heading: "From Startups to Multinationals",
@@ -88,20 +88,20 @@ const Testing = () => {
                         <div className="col-lg-12  d-flex text-cont  ">
                             <div data-aos="fade-up"
                                     data-aos-duration="1000" className=" background-text  text-center my-5 px-5 py-4 rounded">
-                                <h1
+                                <h2
                                     style={{ fontFamily: 'ui-serif', lineHeight: '65px', fontSize:'60px' }}
                                     className="display-2 video-text mb-2 text-start"
                                     
                                 >
                                     Demigod House
-                                </h1>
+                                </h2>
                                 <p
-                                    style={{  lineHeight: '43px' ,fontSize:'33.2px'}}
+                                    style={{  lineHeight: '35px' ,fontSize:'25px'}}
                                     className="video-text mt-4 variety text-start col-lg-12"
                                     data-aos="fade-up"
                                     data-aos-duration="1500"
                                 >
-                                    Brand Association | Brand Capital Procurement | Brand Seed Funding | Brand Development | Brand
+                                    Brand Association | Venture Capital | Brand Seed Funding | Brand Development | Brand
                                     Marketing | Print-media & Electronic-media Advertising | Digital Media Marketing | Event Management
                                     Services - B2B / B2C / Private Events!
                                 </p>

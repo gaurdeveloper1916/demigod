@@ -56,6 +56,20 @@ function Footer(props) {
     { name: "About us", linking: "/about-us" },
     { name: "House Events", linking: "/events" },
   ];
+  const events = [
+    { slug: 'punjabi-delegates', name: 'Punjabi Delegates' },
+    { slug: 'wine-making-festival', name: 'Wine Making Festival' },
+    { slug: 'car-o-bar-event', name: 'Car-O-Bar' },
+    { slug: 'tinder-night-events', name: 'Tinder Nights' },
+    { slug: 'entrepreneurship-forum-2025', name: 'Entrepreneurship Forum' },
+  ];
+  const events2 = [
+    { slug: 'demigod-fight-club', name: "Live Concert's" },
+    { slug: 'car-o-bar-event', name: 'Exhibitions' },
+    { slug: 'travel-tourism-event', name: 'Travel Events' },
+    { slug: 'tech-expo-event', name: "Sport's Event" },
+    { slug: 'marathon-mingle-event', name: 'Art & Craft' },
+  ];
   return (
     <>
       <div
@@ -146,12 +160,19 @@ function Footer(props) {
                   Event Categories
                 </p>
                 <div className="d-flex flex-column gap-2 mediumfont">
-                  <p className="m-0">Live concert's</p>
-                  <p className="m-0">Exhibitions</p>
-                  <p className="m-0">Travel Events</p>
-                  <p className="m-0"> Sport's Event </p>
-                  <p className="m-0">Art & Craft</p>
+                  {events2.map(({ slug, name }) => (
+                    <div className="d-flex align-items-center">
+                      <MdArrowOutward color="white" className="me-2" />
+                      <Link
+                        key={slug}
+                        href={`/landingpage?slug=${slug}`}
+                        className="m-0 text-deco text-white"
+                      >
+                        {name}
+                      </Link>
+                    </div>
 
+                  ))}
                 </div>
               </div>
               <div className=" text-white smallfont">
@@ -159,11 +180,21 @@ function Footer(props) {
                   Trending Event's
                 </p>
                 <div className="d-flex flex-column gap-2 mediumfont">
-                  <Link href='/landingpage?slug=punjabi-delegates' className="m-0 text-deco text-white">Punjabi Delegates</Link>
-                  <Link href='/landingpage?slug=wine-making-festival' className="m-0 text-deco text-white">Wine Makeing Festival</Link>
-                  <Link href='/landingpage?slug=car-o-bar-event' className="m-0 text-deco text-white">Car-O-Bar </Link>
-                  <Link href='/landingpage?slug=tinder-night-events' className="m-0 text-deco text-white"> Tinder Nights </Link>
-                  <Link href='/landingpage?slug=entrepreneurship-forum-2025' className="m-0 text-deco text-white">Enterprenuership Forum </Link>
+                  <div className="d-flex flex-column gap-2 mediumfont">
+                    {events.map(({ slug, name }) => (
+                      <div className="d-flex align-items-center">
+                      <MdArrowOutward color="white" className="me-2" />
+                      <Link
+                        key={slug}
+                        href={`/landingpage?slug=${slug}`}
+                        className="m-0 text-deco text-white"
+                      >
+                        {name}
+                      </Link>
+                      </div>
+                    ))}
+                  </div>
+
 
                 </div>
               </div>
