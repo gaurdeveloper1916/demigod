@@ -115,7 +115,7 @@ function Footer(props) {
             <div className="col-lg-10 col-md-12 col-12 d-flex flex-wrap justify-content-between align-items-start gap-4 ">
               <div className="footer_logo  d-lg-block d-none">
                 <img
-                  src="./images/demigodnew.png"
+                  src="./new_logo.png"
                   alt="Logo"
                   className="img-fluid logoImage-footer"
                 />

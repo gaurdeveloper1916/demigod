@@ -14,7 +14,7 @@ const WeddingCard = ({ margin, image }) => {
       style={{ backgroundColor: "#3B3B3B" }}
     >
       <div className="d-flex px-2">
-        <img className="w-25 rounded-pill" src="./images/demigodnew.png"></img>
+        <img className="w-25 rounded-pill" src="./new_logo.png"></img>
         <p className="m-0  fw-bold py-3">Demigod_wedding</p>
       </div>
       <img
