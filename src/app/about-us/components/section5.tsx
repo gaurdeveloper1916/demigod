@@ -31,6 +31,7 @@ export default function Section5() {
     <div className="container-fluid p-0 bg-black">
       <Head>
         <title>Our Commitments</title>
+
         <meta name="description" content="DemiGod House Commitments" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -40,7 +41,9 @@ export default function Section5() {
         <div className="container">
           <div className="row">
             <div className="col-12 align-items-center text-center box">
-              <h2 className="commitment-title mb-4">Our Commitments</h2>
+              <h2 className="commitment-title ">Our Commitments</h2>
+              <div style={{  border: '1px solid #dbb85e' }}  className="border-bottom border-secondary w-50 mx-auto "></div>
+
             </div>
           </div>
         </div>
@@ -75,7 +78,7 @@ export default function Section5() {
         }
           
         .commitment-title {
-        padding: 2rem ;
+       
           font-size: 3.5rem;
           font-weight: 400;
           letter-spacing: 0.5px;

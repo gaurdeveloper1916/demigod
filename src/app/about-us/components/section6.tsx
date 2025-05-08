@@ -42,7 +42,7 @@ export default function Section6() {
             {/* Right side - All three sections stacked vertically */}
             <div className="col-md-6">
               {sustainabilityData.map((item, index) => (
-                <div data-aos="fade-up" data-aos-duration="1000"  className="section-container mb-5" key={index}>
+                <div data-aos="" data-aos-duration="1000"  className="section-container mb-5" key={index}>
                   <div className="d-flex">
                     <div className="icon-container me-3">
                       <div className="icon-circle">

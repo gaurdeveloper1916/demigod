@@ -20,14 +20,14 @@ const Section1: React.FC = () => {
         {/* Dark overlay image container */}
         <div className="position-relative overflow-hidden" style={{ height: '100vh' }}>
           <div 
-            className="bg-image w-100 h-100"
+            className="bg-image w-100 h-100 opacity-25"
             style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJsdXUlMjBpbWFnZXxlbnwwfHx8fDE2ODQ5NzY1NTg&ixlib=rb-4.0.3&q=80&w=1080')",
+              backgroundImage: "url('./about-us/handshake-business-men-concept.webp')",
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               position: 'absolute',
-              filter: 'brightness(0.4)',
-              backgroundColor: '#000'
+              // filter: 'brightness(0.4)',
+              // backgroundColor: '#000'
             }}
           ></div>
           
@@ -38,7 +38,7 @@ const Section1: React.FC = () => {
                 <h1 className="display-5 fw-bold">ABOUT US</h1>
               </div>
               <div data-aos="fade-up" data-aos-duration="500" className="col-md-6 text-white">
-                <p className="lead" style={{ fontSize: '1.4rem', lineHeight: '1.2' }}>
+                <p className="lead text-center" style={{ fontSize: '1.4rem', lineHeight: '1.2' }}>
                 DemiGod House is a next-generation brand investment and acceleration firm, operating at  the intersection of capital, marketing, and operational scale. We build, fund, and scale  brands that don’t just enter markets, they lead them.  With a presence across 48+ countries, we partner with founders, investors, and institutions to  transform high-potential ventures into global market icons. Backed by a robust network of  media alliances, retail infrastructure, and strategic capital, we bring structure to vision and  velocity to growth.  Our portfolio spans critical growth sectors, from Pharma and FMCG to emerging consumer  tech-powering businesses that drive economic value, create jobs, and shape culture.
                 </p>
                 {/* <p className="lead" style={{ fontSize: '2rem', lineHeight: '1.2' }}>

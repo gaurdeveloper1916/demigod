@@ -64,36 +64,42 @@ const Section2: React.FC = () => {
     {
       id: 1,
       title: "RESPONSIBILITY",
+      image:"",
       icon: <ResponsibilityIcon />,
       description: "We act with integrity, taking full ownership of every brand and capital partnership we step  into.."
     },
     {
       id: 2,
       title: "PERFORMANCE",
+      image:"",
       icon: <PerformanceIcon />,
       description: "We pursue sustainable, scalable results—measured not just in revenue, but in relevance and  long-term market leadership."
     },
     {
       id: 3,
       title: "EXCELLENCE",
+      image:"",
       icon: <ExcellenceIcon />,
       description: "Mediocrity has no place in our world. We operate with a standard of execution that  commands attention and delivers value"
     },
     {
       id: 4,
       title: "DIFFERENTIATION",
+      image:"",
       icon: <DifferentiationIcon />,
       description: "Our brands don’t blend in—they stand out. Every strategy is tailor-made, and every outcome  is intentionally bold."
     },
     {
       id: 5,
       title: "MERITOCRACY",
+      image:"",
       icon: <MeritocracyIcon />,
       description: "We rise through capability, creativity, and collaboration. Talent and tenacity drive everything  we do."
     },
     {
       id: 6,
       title: "CLIENT FIRST THINKING",
+      image:"",
       icon: <ClientFirstIcon />,
       description: "Whether you’re a founder, investor, or institutional partner—your vision shapes our strategy.  We build with you, not just for you."
     }

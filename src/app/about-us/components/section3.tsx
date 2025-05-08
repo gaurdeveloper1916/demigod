@@ -42,7 +42,7 @@ const Section3: React.FC = () => {
             <div className="col-12 text-center mb-4">
               <h1 className="fw-bold">Integrated Market Culture</h1>
             </div>
-            <div data-aos="fade-right" data-aos-duration="1000" className="col-lg-10">
+            <div data-aos="fade-down" data-aos-duration="1000" className="col-lg-10">
               <h2 className="text-center px-lg-5 main-text">
                 At DemiGod House, our culture is built on bold thinking, disciplined execution, and a shared  commitment to outpace the market. We operate at the intersection of creativity, capital, and  commerce—where the sharpest ideas fuel the strongest brands.  Our structure is unconventional by design—strategy teams work alongside media buyers,  investment partners, and market operators to build brands that lead in both mindshare and  market share. Titles are secondary to thinking. Results are the only metric that matters.  We believe in debate over hierarchy, action over assumption, and a constant pursuit of what  hasn’t been done yet. From product innovation to investor relations, every decision we make  is measured by its ability to build lasting, scalable impact.
               </h2>
@@ -64,7 +64,7 @@ const Section3: React.FC = () => {
           <div className="row">
             <div className="col-md-7 pe-md-5">
               <div className="d-flex align-items-center h-100">
-                <h3 data-aos="fade-left" data-aos-duration="1000" className="text-light alliance-text my-auto">
+                <h3 data-aos="fade-right" data-aos-duration="1000" className="text-light alliance-text my-auto">
                   Our culture enables strategic alliances that stretch far beyond conventional partnerships.  From media conglomerates and retail networks to HNIs, PE firms, and government bodies,  our integrated approach to brand-building allows us to create structures that are not only  scalable but resilient.
                 </h3>
               </div>

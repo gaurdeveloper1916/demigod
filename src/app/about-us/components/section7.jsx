@@ -2,17 +2,12 @@
 import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 
-interface TimelineItem {
-  year: string;
-  text: string;
-  image: string;
-}
 
 export default function Section7() {
   const [activeYear, setActiveYear] = useState('2011');
-  const timelineRefs = useRef<(HTMLDivElement | null)[]>([]);
+  const timelineRefs = useRef([]);
 
-  const timelineData: TimelineItem[] = [
+  const timelineData = [
     {
       year: '2011',
       text: ' DemiGod House began as a creative powerhouse—pioneering corporate  events, experiential marketing, and ATL/BTL campaigns for some of India’s most respected  brands. We didn’t just execute—we shaped narratives and shifted brand culture on-ground.',
@@ -70,7 +65,7 @@ export default function Section7() {
             {timelineData.map((item, index) => (
               <div
                 key={item.year}
-                // ref={el => timelineRefs.current[index] = el}
+                ref={el => timelineRefs.current[index] = el}
                 data-year={item.year}
                 className={`timeline-item mb-5 transition-all duration-500 ${
                   activeYear === item.year ? 'active' : ''

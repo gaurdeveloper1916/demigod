@@ -117,7 +117,7 @@ function Footer(props) {
                 <img
                   src="./new_logo.png"
                   alt="Logo"
-                  className="img-fluid logoImage-footer"
+                  className=" logoImage-footer"
                 />
                 <ul className="list-unstyled d-flex  justify-content-center align-items-center gap-3 ">
                   <li>
