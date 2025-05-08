@@ -59,7 +59,9 @@ const Booknow = () => {
                 Step aboard a magnificent yacht and indulge in an unforgettable evening of luxury,
                 music, and entertainment. Enjoy breathtaking ocean views, gourmet dining, and an
                 exclusive party atmosphere like no other.
+
               </p>
+              <h6> Price money €749</h6>
               <button
                 className="btn text-white"
                 onClick={() =>
@@ -93,6 +95,7 @@ const Booknow = () => {
                 this world-famous festival with exciting games, live performances, and a vibrant
                 atmosphere.
               </p>
+              <h6> Price money €700</h6>
               <div onClick={() => console.log('ajksdh')}>
                 <button
                   className="btn text-white"
@@ -136,6 +139,7 @@ const Booknow = () => {
                 Enjoy immersive decor, live performances, and themed experiences inspired
                 by blockbuster hits.
               </p>
+              <h6> Price money €800</h6>
               <Link href="/landingpage">
                 <button className="btn text-white">Book Now</button>
               </Link>

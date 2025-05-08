@@ -95,8 +95,11 @@ function Header({ where }) {
           <div className="px-5 w-100 d-flex gap-5 justify-content-between">
             {/* Logo */}
             <div className="position-relative">
-              <a href="/">
-                <img className="logoImage cursor" src="./new_logo.png" alt="Logo of Demigod House" />
+              <a href="/" className="text-deco">
+              <div className="text-center">
+              <img className="logoImage cursor" src="./new_logo.png" alt="Logo of Demigod House" />
+              <h6 style={{color:"#866b2f"}} className=" fw-bold ">DEMIGOD HOUSE</h6>
+              </div>
                 <p className={`position-absolute ${where !== 'corporate' ? 'logo-text' : 'logo-text-corporate'}`}>Media.Marketing.Event’s</p>
               </a>
             </div>

@@ -8,7 +8,7 @@ function Industryevents(props) {
         <div className="d-flex justify-content-center align-items-center mx-5">
           <div className="col-lg-4">
 
-             <h5><p  style={{fontWeight:'400'}} className="text-secondary ">SECTORS WE CATER:
+             <h5><p   style={{ lineHeight: '35px', fontSize: '28px' }} className="text-secondary ">SECTORS WE CATER:
 
             </p></h5>
             <p style={{ fontWeight: '200' }} className="text-white">At DemiGod House, we transcend the conventional agency model. As a distinguished entity within the Hedge Fund Portfolio, we architect visionary campaigns and immersive brand experiences that generate tangible, sustainable value.

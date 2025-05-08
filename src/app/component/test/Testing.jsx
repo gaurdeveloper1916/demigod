@@ -26,7 +26,7 @@ const Testing = () => {
             heading: "Brand Development",
             description:
                 "We specialize in crafting compelling brand identities that resonate with your target audience. From brand positioning to storytelling, our strategies help establish a strong and lasting presence in the market.",
-            image: "./brand.jpg"
+            image: "/piller/Brand_Development.webp"
         },
         {
             heading: "Marketing",
@@ -111,11 +111,11 @@ const Testing = () => {
                                     Retail Interaction & Consumer Base |
                                     Print & Electronic Media Advertising |
                                     Digital Media Marketing |
-                                    Legal Framework |
-                                    Empanelment Modus Operandi |
-                                    Consultancy |
-                                    Event Management Services(B2B/B2C/Private) |
-                                    Signature 
+                                    
+                                   
+                                 
+                                    Event Management Services(B2B/B2C/Private) 
+                                    
                                 </p>
                             </div>
                         </div>
@@ -125,12 +125,12 @@ const Testing = () => {
                 <div className="d-flex justify-content-center align-items-center p-5 bg-black">
                     <div className="col-lg-10">
                         <div className="d-flex gap-4 justify-content-center align-items-center">
-                            <div className="col-lg-3 text-white demigod-text">
+                            <div style={{fontSize:"36px",fontWeight:'200',lineHeight:"40px"}} className="col-lg-3 text-white ">
                                 <p>Our Products & <br /> Services</p>
                             </div>
                             <div className="col-lg-9 text-white">
                                 <p className="marketing-agency-text">
-                                 Media, Marketing, and Events agency under the Demigod House Hedge Fund portfolio, crafting impactful brand success stories for associates and clients worldwide.
+                                 Media, Marketing, and Events agency under the DemiGod House Hedge Fund portfolio, crafting impactful brand success stories for associates and clients worldwide.
                                 </p>
                             </div>
                         </div>

@@ -21,13 +21,15 @@ export default function Section8() {
           {/* Right Column: Text */}
           <div data-aos="fade-down" data-aos-duration="1000" className="col-md-6 mt-4 mt-md-0">
             <p className="text-light lh-lg">
-              <span className="text-capitalize text-center investment-text"  >our mission is simple: to provide you with the best real estate solutions, tailored to meet your needs. We understand that finding the perfect property is more than just a transaction it’s about creating a space where life happens. Our dedicated team combines industry expertise.
+              <span className="text-capitalize text-center investment-text"  >
+
+              visionary: At DemiGod House, our mission is to bring over 1,500 brands to life, always with a steadfast commitment to enhancing their image and visibility. By leveraging our expansive retail network and the power of bilateral investments, we strive to deliver exceptional results for every associate and client we serve. Guided by data-driven strategies and a deep understanding of market trends, we build brands that become high-performing assets-capable of achieving remarkable revenue growth.
                 
                 </span>
             </p>
-            <div className="mt-3">
+            {/* <div className="mt-3">
               <span className="text-primary" style={{ fontSize: '2rem' }}>Signature</span>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

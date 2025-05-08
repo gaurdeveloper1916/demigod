@@ -230,7 +230,7 @@ button:not(:disabled) {
 }
 
 .text-web {
-  color: #EBC013;
+  color: rgb(134, 107, 47);
 }
 
 body::-webkit-scrollbar {
