@@ -23,7 +23,7 @@ const Sectiontwo = () => {
                             <img
                                 style={{ height: "700.3px", width: "580px" }}
                                 className=" this-mage mt-5 d-lg-block d-none"
-                                src="wed2.webp"
+                                src="./wedding-v2/wed2.webp"
                                 alt="Planning Ceremony"
                             />
                         </div>
@@ -36,7 +36,7 @@ const Sectiontwo = () => {
                     <div className="col-lg-10">
                         <img
                             className=" image2"
-                            src="wed1.webp"
+                            src="./wedding-v2/wed1.webp"
                             alt="Wedding Photos"
                         />
                         <div className="d-flex flex-column justify-content-center mt-5">

@@ -15,7 +15,7 @@ const Sectionone = () => {
                     className="w-100 h-100 object-fit-cover"
                 >
                     <source
-                        src="./weeding-slider.mp4"
+                        src="./wedding-v2/weeding-slider.mp4"
                         alt="Wedding video"
                         type="video/mp4"
                     />

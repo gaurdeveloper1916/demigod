@@ -64,7 +64,7 @@ const Sectionthree = () => {
       subHeading: "We’ll start with a 45-minute complimentary Zoom call to get to know you, understand your unique love story, and explore your dream wedding vision. From your ideal destination to special requests, we’ll cover everything to ensure we’re the perfect match for bringing your big day to life."
     },
     {
-      image: "bea.jpeg",
+      image: "./wedding-v2/bea.jpeg",
       heading: "Destination & Venue Selection",
       subHeading: "After securing your design fee, you’ll officially be a part of the Demigod House family. We’ll curate up to three exquisite venue options tailored to your style, budget, and guests’ needs. Together, we’ll refine your choice until it’s everything you’ve dreamed of and more."
     },
@@ -79,23 +79,23 @@ const Sectionthree = () => {
       subHeading: "As your big day approaches, we’ll manage timelines, deposit reminders, and essential travel updates. You’ll also meet your on-site wedding coordinator, ensuring every detail is seamless. When it’s time to celebrate, you’ll enjoy a stress-free experience with our dedicated team on standby."
     },
     {
-      image: "vendor.webp",
+      image: "./wedding-v2/vendor.webp",
       heading: "Vendor Sourcing and management",
       subHeading: "We take care of sourcing and coordinating with top-notch vendors to bring your wedding vision to life. From florals to entertainment, every element will be meticulously planned, so you can relax and fully immerse yourself in your special day."
     },
 
     {
-      image: "gift.webp",
+      image: "./wedding-v2/gift.webp",
       heading: "Wedding Invitation and Gifting",
       subHeading: "Add a personal touch to your celebration with thoughtfully curated wedding Invitation and gifts. We’ll ensure each detail aligns with your style, leaving a lasting impression on your guests and making your day even more memorable."
     },
     {
-      image: "hospi.webp",
+      image: "./wedding-v2/hospi.webp",
       heading: "Guest RSVP & Hospitality Management",
       subHeading: "We make it easy for your guests to RSVP and plan their travel with our comprehensive hospitality management. From welcome gifts to personalized itineraries, we’ll create a flawless experience that your loved ones will cherish."
     },
     {
-      image: "logi.webp",
+      image: "./wedding-v2/logi.webp",
       heading: "Logistic Management",
       subHeading: "From transportation to timelines, we handle all logistical aspects of your wedding. Our expert planning ensures every detail runs smoothly, so you and your guests can focus on enjoying the celebration without a worry in the world."
     },

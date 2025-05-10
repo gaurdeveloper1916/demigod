@@ -14,13 +14,13 @@ const Sectionfour = () => {
 
                 <div className="position-relative rotate-image d-flex justify-content-center align-items-center mx-auto">
                     <img
-                        src="./img-rotate.png"
+                        src="./wedding-v2/img-rotate.png"
                         className="rotating-image position-absolute"
                         alt="Rotating text"
                     />
 
                     <img
-                        src="./position-absolute.gif"
+                        src="./wedding-v2/position-absolute.gif"
                         className="w-50 h-100 object-fit-cover position-absolute"
                         alt="Center image"
                     />
