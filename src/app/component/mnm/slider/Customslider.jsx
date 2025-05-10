@@ -54,136 +54,76 @@ const Customslider = () => {
       },
     ],
   };
+  const slideData = [
+    {
+      title: "Automotive",
+      img: "./home/auto.jpeg",
+      alt: "Automotive sector brand marketing",
+      description:
+        "We create marketing strategies that drive awareness and sales for automotive brands, focusing on both traditional and digital marketing approaches.",
+    },
+    {
+      title: "Real Estate",
+      img: "./home/real.jpeg",
+      alt: "Real Estate sector brand marketing",
+      description:
+        "Our real estate marketing strategies use the latest tools to connect potential buyers with properties, resulting in higher conversions and faster sales cycles.",
+    },
+    {
+      title: "Event Management",
+      img: "./home/event.jpeg",
+      alt: "Event Management sector brand marketing",
+      description:
+        "From corporate events to large-scale consumer experiences, we craft memorable moments that resonate with attendees, ensuring a lasting impression.",
+    },
+    {
+      title: "Jewellery",
+      img: "./home/jewel.webp",
+      alt: "Jewellery sector brand marketing",
+      description:
+        "Our expertise in jewellery marketing ensures an impactful presence, driving brand recognition and engagement with affluent clientele.",
+    },
+    {
+      title: "Gems",
+      img: "./home/jewel.webp",
+      alt: "Gems sector brand marketing",
+      description:
+        "We provide bespoke solutions for the gemstone industry, leveraging creativity and innovation to elevate brand positioning and visibility.",
+    },
+    {
+      title: "Pharma OTC",
+      img: "./home/phrma.webp",
+      alt: "Pharma OTC sector brand marketing",
+      description:
+        "Our tailored marketing and event management services promote OTC products with a focus on customer trust and long-term growth.",
+    },
+    {
+      title: "FMCG",
+      img: "./home/fmcg.jpeg",
+      alt: "FMCG sector brand marketing",
+      description:
+        "We help FMCG brands establish dominance through strategic campaigns that increase market penetration and brand loyalty.",
+    },
+  ];
+
 
   return (
     <div className="container">
       <div className="mx-4 p-4 bg-cards">
         <Slider className="react-slick-new" {...settings2} ref={sliderRef}>
-          <div className="text-white p-3 bg-cards-inner">
-            <img
-              src="auto.jpeg"
-              height={200}
-              width={200}
-              alt="Automotive sector brand marketing"
-            />
-            <div className="d-flex">
-              <div className="text-white verySmallFont">
-                <h6 className="m-0 my-3 gradient-text fw-bold">
-                  Automotive
-                </h6>
-                <p className="verySmallFont">
-                  We create marketing strategies that drive awareness and sales for automotive brands, focusing on both traditional and digital marketing approaches.
-                </p>
+          {slideData.map((slide, index) => (
+            <div key={index} className="text-white p-3 bg-cards-inner zoom-container">
+              <img src={slide.img} height={200} width={200} alt={slide.alt} />
+              <div className="d-flex justify-content-between">
+                <div className="text-white verySmallFont">
+                  <h6 className="m-0 my-3 gradient-text fw-bold">{slide.title}</h6>
+                  <p className="verySmallFont">{slide.description}</p>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="text-white p-3 bg-cards-inner">
-            <img
-              src="real.jpeg"
-              height={200}
-              width={200}
-              alt="Real Estate sector brand marketing"
-            />
-            <div className="d-flex">
-              <div className="text-white verySmallFont">
-                <h6 className="m-0 my-3 gradient-text fw-bold">
-                  Real Estate
-                </h6>
-                <p className="verySmallFont">
-                  Our real estate marketing strategies use the latest tools to connect potential buyers with properties, resulting in higher conversions and faster sales cycles.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="text-white p-3 zoom-container bg-cards-inner">
-            <img
-              src="event.jpeg"
-              height={200}
-              width={200}
-              alt="Event Management sector brand marketing"
-            />
-            <div className="d-flex justify-content-between">
-              <div className="text-white verySmallFont">
-                <h6 className="m-0 my-3 gradient-text fw-bold">
-                  Event Management
-                </h6>
-                <p className="verySmallFont">
-                  From corporate events to large-scale consumer experiences, we craft memorable moments that resonate with attendees, ensuring a lasting impression.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="text-white p-3 zoom-container bg-cards-inner">
-            <img
-              src="jewel.webp"
-              height={200}
-              width={200}
-              alt="Jewellery sector brand marketing"
-            />
-            <div className="d-flex justify-content-between">
-              <div className="text-white verySmallFont">
-                <h6 className="m-0 my-3 gradient-text fw-bold">
-                  Jewellery
-                </h6>
-                <p className="verySmallFont">
-                  Our expertise in jewellery marketing ensures an impactful presence, driving brand recognition and engagement with affluent clientele.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="text-white p-3 zoom-container bg-cards-inner">
-            <img
-              src="jewel.jpeg"
-              height={200}
-              width={200}
-              alt="Gems sector brand marketing"
-            />
-            <div className="d-flex justify-content-between">
-              <div className="text-white verySmallFont">
-                <h6 className="m-0 my-3 gradient-text fw-bold">
-                  Gems
-                </h6>
-                <p className="verySmallFont">
-                  We provide bespoke solutions for the gemstone industry, leveraging creativity and innovation to elevate brand positioning and visibility.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="text-white p-3 zoom-container bg-cards-inner">
-            <img
-              src="phrma.webp"
-              height={200}
-              width={200}
-              alt="Pharma OTC sector brand marketing"
-            />
-            <div className="d-flex justify-content-between">
-              <div className="text-white verySmallFont">
-                <h6 className="m-0 my-3 gradient-text fw-bold">
-                  Pharma OTC
-                </h6>
-                <p className="verySmallFont">
-                  Our tailored marketing and event management services promote OTC products with a focus on customer trust and long-term growth.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="text-white p-3 zoom-container bg-cards-inner">
-            <img
-              src="fmcg.jpeg"
-              height={200}
-              width={200}
-              alt="FMCG sector brand marketing"
-            />
-            <div className="d-flex justify-content-between">
-              <div className="text-white verySmallFont">
-                <h6 className="m-0 my-3 gradient-text fw-bold">FMCG</h6>
-                <p className="verySmallFont">
-                  We help FMCG brands establish dominance through strategic campaigns that increase market penetration and brand loyalty.
-                </p>
-              </div>
-            </div>
-          </div>
+          ))}
         </Slider>
+
         <div className="d-flex flex-column">
           <div className="d-flex gap-2 mt-4">
             <div

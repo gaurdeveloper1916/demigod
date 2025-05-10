@@ -56,7 +56,7 @@ const TabsComponent = () => {
                         <div className="col-lg-5">
                             <div className="position-relative overflow-hidden rounded-4 shadow-lg">
                                 <img
-                                    src="/piller/brand_association.webp"
+                                    src="/home/brand_association.webp"
                                     alt="Brand Advertising"
                                     className="w-100 rounded-4 img-fluid"
                                     style={{ height: "100%", objectFit: "cover" }}
@@ -166,7 +166,7 @@ const TabsComponent = () => {
                         <div className="col-lg-5">
                             <div className="position-relative overflow-hidden rounded-4 shadow-lg">
                                 <img
-                                    src="./piller/venture_capital.webp"
+                                    src="./home/venture_capital.webp"
                                     alt="Venture Capital"
                                     className="w-100 rounded-4 img-fluid"
                                     style={{ height: "100%", objectFit: "cover" }}
@@ -226,7 +226,7 @@ const TabsComponent = () => {
                         <div className="col-lg-5">
                             <div className="position-relative overflow-hidden rounded-4 shadow-lg">
                                 <img
-                                    src="/piller/brand_marketing.jpeg"
+                                    src="/home/brand_marketing.jpeg"
                                     alt="Brand Marketing"
                                     className="w-100 rounded-4 img-fluid"
                                     style={{ height: "100%", objectFit: "cover" }}
@@ -289,7 +289,7 @@ const TabsComponent = () => {
                         <div className="col-lg-5">
                             <div className="position-relative overflow-hidden rounded-4 shadow-lg">
                                 <img
-                                    src="./piller/contract_manufacturing.webp"
+                                    src="./home/contract_manufacturing.webp"
                                     alt="Contract Manufacturing"
                                     className="w-100 rounded-4 img-fluid"
                                     style={{ height: "100%", objectFit: "cover" }}
@@ -353,7 +353,7 @@ const TabsComponent = () => {
                         <div className="col-lg-5">
                             <div className="position-relative overflow-hidden rounded-4 shadow-lg">
                                 <img
-                                    src="./piller/brand_seed_funding.webp"
+                                    src="./home/brand_seed_funding.webp"
                                     alt="Brand Seed Funding"
                                     className="w-100 rounded-4 img-fluid"
                                     style={{ height: "100%", objectFit: "cover" }}
@@ -416,7 +416,7 @@ const TabsComponent = () => {
                         <div className="col-lg-5">
                             <div className="position-relative overflow-hidden rounded-4 shadow-lg">
                                 <img
-                                    src="./piller/b2b_b2c_events.webp"
+                                    src="./home/b2b_b2c_events.webp"
                                     alt="B2B & B2C Events"
                                     className="w-100 rounded-4 img-fluid"
                                     style={{ height: "100%", objectFit: "cover" }}

@@ -15,25 +15,25 @@ export default function Openforbusiness() {
 
   const initialImages = [
     {
-      img: "ser.webp",
+      img: "./home/ser.webp",
       name: "Choose Your Service",
       desc: "Select from brand development, marketing, print & electronic media, or third-party manufacturing tailored to your needs.",
       alt: "Service selection illustration showing different business services"
     },
     {
-      img: "key_aspect.jpeg",
+      img: "./home/key_aspect.jpeg",
       name: "Connect With Us",
       desc: "Reach out to Demigod House via our website, email, or phone. Share your vision, and let us guide you forward.",
       alt: "Connection and communication illustration"
     },
     {
-      img: "prop.webp",
+      img: "./home/prop.webp",
       name: "Proposal Evaluation",
       desc: "We'll review your proposal, and if it aligns with our expertise, we'll contact you to discuss next steps.",
       alt: "Proposal evaluation and review process illustration"
     },
     {
-      img: "pers.webp",
+      img: "./home/pers.webp",
       name: " In-Person Meeting",
       desc: "Meet with us to finalize registration, legal documentation, and discuss seed funding opportunities (if applicable).",
       alt: "In-person business meeting illustration"
