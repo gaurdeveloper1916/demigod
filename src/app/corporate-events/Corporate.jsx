@@ -103,7 +103,7 @@ const CorporatePage = () => {
           "Meta / Google Ad Campaign",
         ]}
         description="We provide end-to-end solutions for brands' B2B & B2C marketing approaches via a time-tested structured plan of action with a 99.99% success rate. Any form of marketing approach—product launch, logo re-launch, ATL/BTL activities, outdoor media, digital media ad campaigns, and akin—is organized, managed, and executed by Team Demigod House. Our exclusive factor makes headlines in domestic and international media."
-        imageSrc="4section.webp"
+        imageSrc="./corporate-v2/4section.webp"
       />
       <StatisticsSection
         statistics={[
@@ -130,7 +130,7 @@ const CorporatePage = () => {
           "Experimental  Event's",
         ]}
         description="We celebrate your company milestones with meticulously planned events that showcase your journey and achievements. Our facilitation / CSR ceremonies honor excellence with memorable and impactful recognition. Through experimental and immersive experiences, we create unique moments that captivate your audience. Our Experimental events at global platform deliver's tailored solutions and strategic promotional campaigns that drive  brand success across G20 markets."
-        imageSrc="4section.webp"
+        imageSrc="./corporate-v2/4section.webp"
       />
 
 

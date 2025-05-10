@@ -74,66 +74,66 @@ const SectionThree = () => {
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        data-srcset="/section-3/award.webp"
-                        srcSet="/section-3/award.webp"
+                        data-srcset="/corporate-v2/award.webp"
+                        srcSet="/corporate-v2/award.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/award.webp"
-                        data-src="/section-3/award.webp"
+                        src="/corporate-v2/award.webp"
+                        data-src="/corporate-v2/award.webp"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/Confe.webp"
-                        data-srcset="/section-3/Confe.webp"
+                        srcSet="/corporate-v2/Confe.webp"
+                        data-srcset="/corporate-v2/Confe.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/Confe.webp"
-                        data-src="/section-3/Confe.webp"
+                        src="/corporate-v2/Confe.webp"
+                        data-src="/corporate-v2/Confe.webp"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/network.webp"
-                        data-srcset="/section-3/network.webp"
+                        srcSet="/corporate-v2/network.webp"
+                        data-srcset="/corporate-v2/network.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/network.webp"
-                        data-src="/section-3/network.webp"
+                        src="/corporate-v2/network.webp"
+                        data-src="/corporate-v2/network.webp"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/Product.webp"
-                        data-srcset="/section-3/Product.webp"
+                        srcSet="/corporate-v2/Product.webp"
+                        data-srcset="/corporate-v2/Product.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/Product.webp"
-                        data-src="/section-3/Product.webp"
+                        src="/corporate-v2/Product.webp"
+                        data-src="/corporate-v2/Product.webp"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/seminar.webp"
-                        data-srcset="/section-3/seminar.webp"
+                        srcSet="/corporate-v2/seminar.webp"
+                        data-srcset="/corporate-v2/seminar.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/seminar.webp"
-                        data-src="/section-3/seminar.webp"
+                        src="/corporate-v2/seminar.webp"
+                        data-src="/corporate-v2/seminar.webp"
                       />
                     </picture>
                   </div>
@@ -143,66 +143,66 @@ const SectionThree = () => {
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/board.webp"
-                        data-srcset="/section-3/board.webp"
+                        srcSet="/corporate-v2/board.webp"
+                        data-srcset="/corporate-v2/board.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/board.webp"
-                        data-src="/section-3/board.webp"
+                        src="/corporate-v2/board.webp"
+                        data-src="/corporate-v2/board.webp"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/compmile.webp"
-                        data-srcset="/section-3/compmile.webp"
+                        srcSet="/corporate-v2/compmile.webp"
+                        data-srcset="/corporate-v2/compmile.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/compmile.webp"
-                        data-src="/section-3/compmile.webp"
+                        src="/corporate-v2/compmile.webp"
+                        data-src="/corporate-v2/compmile.webp"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/retreat.webp"
-                        data-srcset="/section-3/retreat.webp"
+                        srcSet="/corporate-v2/retreat.webp"
+                        data-srcset="/corporate-v2/retreat.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/retreat.webp"
-                        data-src="/section-3/retreat.webp"
+                        src="/corporate-v2/retreat.webp"
+                        data-src="/corporate-v2/retreat.webp"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/award.webp"
-                        data-srcset="/section-3/award.webp"
+                        srcSet="/corporate-v2/award.webp"
+                        data-srcset="/corporate-v2/award.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/award.webp"
-                        data-src="/section-3/award.webp"
+                        src="/corporate-v2/award.webp"
+                        data-src="/corporate-v2/award.webp"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/fund.web"
-                        data-srcset="/section-3/fund.web"
+                        srcSet="/corporate-v2/fund.web"
+                        data-srcset="/corporate-v2/fund.web"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/fund.web"
-                        data-src="/section-3/fund.web"
+                        src="/corporate-v2/fund.web"
+                        data-src="/corporate-v2/fund.web"
                       />
                     </picture>
                   </div>
@@ -212,66 +212,66 @@ const SectionThree = () => {
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/tradee.webp"
-                        data-srcset="/section-3/tradee.webp"
+                        srcSet="/corporate-v2/tradee.webp"
+                        data-srcset="/corporate-v2/tradee.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/tradee.webp"
-                        data-src="/section-3/tradee.webp"
+                        src="/corporate-v2/tradee.webp"
+                        data-src="/corporate-v2/tradee.webp"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/share.webp"
-                        data-srcset="/section-3/share.webp"
+                        srcSet="/corporate-v2/share.webp"
+                        data-srcset="/corporate-v2/share.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/share.webp"
-                        data-src="/section-3/share.webp"
+                        src="/corporate-v2/share.webp"
+                        data-src="/corporate-v2/share.webp"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/Politi.webp"
-                        data-srcset="/section-3/Politi.webp"
+                        srcSet="/corporate-v2/Politi.webp"
+                        data-srcset="/corporate-v2/Politi.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/Politi.webp"
-                        data-src="/section-3/Politi.webp"
+                        src="/corporate-v2/Politi.webp"
+                        data-src="/corporate-v2/Politi.webp"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/fund.webp"
-                        data-srcset="/section-3/fund.webp"
+                        srcSet="/corporate-v2/fund.webp"
+                        data-srcset="/corporate-v2/fund.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/fund.webp"
-                        data-src="/section-3/fund.webp"
+                        src="/corporate-v2/fund.webp"
+                        data-src="/corporate-v2/fund.webp"
                       />
                     </picture>
                     <picture>
                       <source
                         media="(min-width: 760px)"
-                        srcSet="/section-3/tradee.webp"
-                        data-srcset="/section-3/tradee.webp"
+                        srcSet="/corporate-v2/tradee.webp"
+                        data-srcset="/corporate-v2/tradee.webp"
                       />
                       <img
                         alt="Impressionen von Eventveranstaltungen"
                         className="lazy"
-                        src="/section-3/tradee.webp"
-                        data-src="/section-3/tradee.webp"
+                        src="/corporate-v2/tradee.webp"
+                        data-src="/corporate-v2/tradee.webp"
                       />
                     </picture>
                   </div>
