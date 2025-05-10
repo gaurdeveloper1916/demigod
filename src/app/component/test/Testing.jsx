@@ -86,20 +86,19 @@ const Testing = () => {
                     </video>
                     <div className="d-flex p-0  postion-relative d-flex  vh-100 align-items-center justify-content-center ">
                         <div className="col-lg-12  d-flex text-cont  ">
-                            <div data-aos="fade-up"
-                                data-aos-duration="1000" className=" background-text  text-center my-5 px-5 py-4 rounded">
-                                {/* <h2
-                                    style={{ fontFamily: 'ui-serif', lineHeight: '65px', fontSize:'60px' }}
+                            <div 
+                                 className=" background-text  text-center my-5 px-5 py-4 rounded">
+                                <p
+                                    style={{ fontFamily: 'ui-serif', lineHeight: '20px', fontSize:'45px',fontWeight:'bold' }}
                                     className="display-2 video-text mb-2 text-start"
                                     
                                 >
-                                    Demigod House
-                                </h2> */}
+                                    Media.Marketing.Events
+                                </p>
                                 <p
                                     style={{ lineHeight: '35px', fontSize: '28px' }}
                                     className="video-text mt-4 variety text-start col-lg-12"
-                                    data-aos="fade-up"
-                                    data-aos-duration="1500"
+                                    
                                 >
                                     Brand Association |
                                     Venture Capital |
