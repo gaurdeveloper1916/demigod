@@ -102,7 +102,7 @@ const TabsComponent = () => {
                         <div className="col-lg-5">
                             <div className="position-relative overflow-hidden rounded-4 shadow-lg">
                                 <img
-                                    src="Image/m&m/tabs/brand.webp"
+                                    src="/home/Brand_Development.webp"
                                     alt="Brand Development"
                                     className="w-100 rounded-4 img-fluid"
                                     style={{ height: "100%", objectFit: "cover" }}

@@ -48,7 +48,7 @@ function TwoImagesDiv() {
         {
           size: 4,
 
-          src: './images/landing-page-images/section2/smallImage.webp',
+          src: './event-page/smallImage.webp',
           link: "/landingpage?slug=Dthrone-event",
           title: "D'Throne Prince",
           leftImage: "",
@@ -100,7 +100,7 @@ function TwoImagesDiv() {
         {
           size: 4,
           // src: "/event-page/marathon_mingle.webp",
-          src: "./images/landing-page-images/section7/COUPLE'S_MARATHON.webp",
+          src: "./event-page/COUPLE'S_MARATHON.webp",
           link: "/landingpage?slug=marathon-mingle-event",
           // title: "Event /06",
           title: "Marathon Mingle",

@@ -10,7 +10,7 @@ const EventMapLeaflet = () => {
   const mapHeight = window.innerWidth < 400 ? "300px" : window.innerWidth < 768 ? "400px" : "450px";
   const yellowIcon = new L.Icon({
     iconUrl:
-      "./new_logo.png",
+      "./header&footer/new_logo.png",
     shadowUrl:
       "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png",
     iconSize: [40, 40],

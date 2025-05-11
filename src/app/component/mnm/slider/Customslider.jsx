@@ -134,7 +134,7 @@ const Customslider = () => {
               <img
                 style={{ transform: "rotate(-180deg)", width: '60px' }}
                 className="img-fluid arrow-img mx-lg-4"
-                src="/images/arrow.png"
+                src="/event-page/arrow.png"
                 alt="previous"
               ></img>
             </div>
@@ -146,7 +146,7 @@ const Customslider = () => {
               <img
                 style={{ width: '60px' }}
                 className="img-fluid arrow-img mx-lg-4"
-                src="/images/arrow.png"
+                src="/event-page/arrow.png"
                 alt="next"
               ></img>
             </div>

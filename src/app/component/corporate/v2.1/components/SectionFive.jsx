@@ -203,7 +203,7 @@ const SectionFive = () => {
                         <img
                           alt="Gesamtprojektleitung - Icon"
                           className="lazy"
-                          src="section-5/gesamtprojektleitung.svg"
+                          src="./corporate-v2/gesamtprojektleitung.svg"
                           data-src="images/index/einsatzgebiete/gesamtprojektleitung.svg"
                         />
                       </picture>
@@ -226,7 +226,7 @@ const SectionFive = () => {
                       <picture>
                         <img
                           alt="Teilprojektleitung - Icon"
-                          src="section-5/teilprojektleitung.svg"
+                          src="./corporate-v2/teilprojektleitung.svg"
                         />
                       </picture>
                     </div>
@@ -249,7 +249,7 @@ const SectionFive = () => {
                       <picture>
                         <img
                           alt="Regie-Assistenz - Icon"
-                          src="section-5/regie-assistenz.svg"
+                          src="./corporate-v2/regie-assistenz.svg"
                         />
                       </picture>
                     </div>
@@ -271,7 +271,7 @@ const SectionFive = () => {
                       <picture>
                         <img
                           alt="Onsite Managerin - Icon"
-                          src="section-5/onsite-managerin.svg"
+                          src="./corporate-v2/onsite-managerin.svg"
                         />
                       </picture>
                     </div>
@@ -294,7 +294,7 @@ const SectionFive = () => {
                       <picture>
                         <img
                           alt="Incentive Reisen - Icon"
-                          src="section-5/incentive-reisen.svg"
+                          src="./corporate-v2/incentive-reisen.svg"
                         />
                       </picture>
                     </div>
@@ -316,7 +316,7 @@ const SectionFive = () => {
                       <picture>
                         <img
                           alt="Streaming Events - Icon"
-                          src="section-5/streaming-events.svg"
+                          src="./corporate-v2/streaming-events.svg"
                         />
                       </picture>
                     </div>

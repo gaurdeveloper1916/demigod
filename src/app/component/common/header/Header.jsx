@@ -37,7 +37,7 @@ function OffCanvasExample({ data, where }) {
         <Offcanvas.Header closeButton={false} className="d-flex justify-content-between p-2">
           <Offcanvas.Title>
             <a href="/">
-              <img className="logoImage" src="./new_logo.png" alt="Logo" />
+              <img className="logoImage" src="./header&footer/new_logo.png" alt="Logo" />
             </a>
           </Offcanvas.Title>
           <BsX size={35} className="text-white" onClick={handleClose} />
@@ -97,7 +97,7 @@ function Header({ where }) {
             <div className="position-relative">
               <a href="/" className="text-deco">
                 <div className="text-center">
-                  <img className="logoImage cursor" src="./new_logo.png" alt="Logo of Demigod House" />
+                  <img className="logoImage cursor" src="./header&footer/new_logo.png" alt="Logo of Demigod House" />
                   {/* <h6 style={{color:"#866b2f"}} className=" fw-bold ">DEMIGOD HOUSE</h6> */}
                 </div>
                 <p style={{color:"rgb(169 134 56)"}} className={`position-absolute badge text-web fs-6 fw-bold text-nowrap text-center ${where !== 'corporate' ? 'logo-text' : 'logo-text-corporate'}`}>
@@ -136,7 +136,7 @@ function Header({ where }) {
       {/* Mobile Header */}
       <div className="container-fluid p-0 d-lg-none d-block bg-black p-2">
         <div className="d-flex justify-content-between align-items-center">
-          <img className="w-50" src="./new_logo.png" alt="Logo" />
+          <img className="w-50" src="./header&footer/new_logo.png" alt="Logo" />
           {/* <p className={`position-absolute ${where === "corporate" ? "logo-text-corporate" : "logo-text"}`}>
             Media.Marketing.Event’s
           </p> */}
