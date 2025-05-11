@@ -41,11 +41,10 @@ function Footer(props) {
 
     { name: "DemiGod Art", imageUrl: "https://www.artdemigod.com/assets/image/art%20logo%20finel.png" },
     { name: "DemiGod Cloud", imageUrl: "https://www.demigodcloud.com/images/demigod%20vector%20nav.webp" },
-    { name: "DemiGod HealthBox", imageUrl: "./logo/healthboxlogo.png" },
-    { name: "Demigod", imageUrl: "./new_logo.png"    },
-
-    { name: "Anagari", imageUrl: "./logo/anagari.png" },
-    { name: "DemiGod Estate", imageUrl: "./images/navlogo.png" }
+    { name: "DemiGod HealthBox", imageUrl: "./header&footer/healthboxlogo.png" },
+    { name: "Demigod", imageUrl: "./header&footer/new_logo.png"    },
+    { name: "Anagari", imageUrl: "./header&footer/anagari.png" },
+    { name: "DemiGod Estate", imageUrl: "./header&footer/navlogo.png" }
 
   ];
   const shortcut = [
@@ -115,7 +114,7 @@ function Footer(props) {
             <div className="col-lg-10 col-md-12 col-12 d-flex flex-wrap justify-content-between align-items-start gap-4 ">
               <div className="footer_logo  d-lg-block d-none">
                 <img
-                  src="./new_logo.png"
+                  src="./header&footer/new_logo.png"
                   alt="Logo"
                   className=" logoImage-footer"
                 />

@@ -56,7 +56,7 @@ const CarouselSection = () => {
 
         <div className="position-relative">
           <video className="slide-video-test" autoPlay loop muted>
-            <source src="/368510590484226049.mp4" type="video/mp4" />
+            <source src="./event-page/368510590484226049.mp4" type="video/mp4" />
           </video>
           <div
             style={{ background: "linear-gradient(to bottom right, #0000009c, #866b2f)", bottom: '-4.5rem' }}

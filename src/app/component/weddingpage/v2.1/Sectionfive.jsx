@@ -61,7 +61,7 @@ const Sectionfive = () => {
         <div className="inner">
           <img
             className="inner-img"
-            src="Image/wedding-page/sec5/dest.webp"
+            src="./wedding-v2/dest.webp"
             alt="Wedding Image 1"
             style={{ cursor: "pointer", width: "500px", height: "800px", objectFit: "cover" }}
           />
@@ -74,7 +74,7 @@ const Sectionfive = () => {
           </div>
           <img
             className="inner-img"
-            src="Image/wedding-page/sec5/celeb.webp"
+            src="./wedding-v2/celeb.webp"
             alt="Wedding Image 2"
             style={{ cursor: "pointer", width: "500px", height: "800px", objectFit: "cover" }}
           />
@@ -86,7 +86,7 @@ const Sectionfive = () => {
           </div>
           <img
             className="inner-img"
-            src="Image/wedding-page/sec5/trade.webp"
+            src="./wedding-v2/trade.webp"
             alt="Wedding Image 3"
             style={{ cursor: "pointer", width: "500px", height: "1000px", objectFit: "cover" }}
           />
@@ -97,7 +97,7 @@ const Sectionfive = () => {
           </div>
           <img
             className="inner-img"
-            src="Image/wedding-page/sec5/court.webp"
+            src="./wedding-v2/court.webp"
             alt="Wedding Image 4"
             style={{ cursor: "pointer", width: "500px", height: "800px", objectFit: "cover" }}
           />
@@ -108,7 +108,7 @@ const Sectionfive = () => {
           </div>
           <img
             className="inner-img"
-            src="Image/wedding-page/sec5/elop.webp"
+            src="./wedding-v2/elop.webp"
             alt="Wedding Image 5"
             style={{ cursor: "pointer", width: "500px", height: "800px", objectFit: "cover" }}
           />

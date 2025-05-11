@@ -110,7 +110,7 @@ const Sectionthree = () => {
         <div
           className="w-100  object-fit-cover position-relative p-5 d-flex flex-column justify-content-center align-items-cente"
           style={{
-            backgroundImage: `url('./images/effort.png')`,
+            backgroundImage: `url('./wedding-v2/effort.png')`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",

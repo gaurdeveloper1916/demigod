@@ -308,7 +308,7 @@
         "description": "A premier ultra-luxury car exhibition for global manufacturers, high-net-worth collectors, and curated enthusiasts. Experience iconic vehicles, cutting-edge automotive tech, and visionary designs that redefine performance and style. Network with industry pioneers and shape the future of mobility in an exclusive, high-octane showcase!",
         "leftImage": "./event-page/new/carobar1.webp",
         "rightImage": "./event-page/new/carobar2.webp",
-        "midImage": "./368510590484226049.mp4",
+        "midImage": "./event-page/368510590484226049.mp4",
         "ticketTypes": [
             {
                 "name": "General Visitor Pass",
@@ -565,7 +565,7 @@
         "description": "Step into the spotlight to redefine valor, connect with a vibrant community, and celebrate the essence of today’s gentleman in a grand, unforgettable spectacle!",
         "leftImage": "./event-page/new/dthrone2.jpeg",
         "rightImage": "./event-page/new/dthrone1.jpeg",
-        "midImage": "./images/landing-page-images/section2/smallImage.webp",
+        "midImage": "./event-page/smallImage.webp",
         "ticketTypes": [
             {
                 "name": "Contestant Registration",
@@ -828,7 +828,7 @@
         "description": "A premium couple marathon event where partners run, connect, and celebrate together, featuring diverse race categories, wellness perks, and a festive finish.",
         "leftImage": "./event-page/new/marathon1.jpeg",
         "rightImage": "./event-page/new/marathon2.jpeg",
-        "midImage": "./images/landing-page-images/section7/COUPLE'S_MARATHON.webp",
+        "midImage": "./event-page/COUPLE'S_MARATHON.webp",
         "ticketTypes": [
             {
                 "name": "Couple Runner’s Pass",
@@ -1188,7 +1188,7 @@
         "theme": "A vibrant celebration of Punjab’s finest with music, fashion, food, and shopping",
         "description": " Step into a vibrant celebration of Punjab’s finest at the Punjabi Delegates event, designed for all who wish to immerse themselves in culture and connect in a lively setting. Enjoy an electrifying live concert with top Punjabi singers, a stunning fashion show featuring iconic designers, a mouthwatering Punjabi food festival, and a shopping spree with the best regional brands. Whether you’re here to network, celebrate heritage, or discover new experiences, this event promises an unforgettable fusion of tradition and modernity. Ditch the routine and join us for a night of authentic Punjabi joy!",
         "leftImage": "/event-page/punjabideligates.png",
-        "rightImage": "/images/landing-page-images/Punjabideligatescopy4.webp",
+        "rightImage": "/event-page/Punjabideligatescopy4.webp",
         "midImage": "/event-page/Website Motion Graphics_4.mp4",
         "ticketTypes": [
             {

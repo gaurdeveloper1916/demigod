@@ -165,7 +165,7 @@ export default function FridayNight() {
             <img
               style={{ transform: "rotate(-180deg)" }}
               className="img-fluid w-50 arrow-img mx-lg-4"
-              src="/images/arrow.png"
+              src="/event-page/arrow.png"
             />
           </div>
           <div
@@ -175,7 +175,7 @@ export default function FridayNight() {
           >
             <img
               className="img-fluid w-50 arrow-img mx-lg-4"
-              src="/images/arrow.png"
+              src="/event-page/arrow.png"
             />
           </div>
         </div>

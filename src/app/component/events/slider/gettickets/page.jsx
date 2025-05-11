@@ -22,7 +22,7 @@ function GetTickets() {
           objectFit: "cover",
         }}
       >
-        <source src="/images/disco.mp4" type="video/mp4" />
+        <source src="/event-page/disco.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
 
