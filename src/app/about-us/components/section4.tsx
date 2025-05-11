@@ -16,10 +16,14 @@ export default function Section4() {
       {/* Header with title and line */}
       <div className="bg-black text-white pt-4 pb-2">
         <div className="container">
-          <div className="row">
-            <div className="col-12 text-center">
+          <div className="row justify-content-center mb-4">
+            {/* <div className="col-12 text-center">
               <h1 className="opportunity-title">$500M Investment Opportunity</h1>
-              <div style={{  border: '1px solid #dbb85e' }}  className="border-bottom border-secondary w-50 mx-auto mt-2"></div>
+              <hr style={{  border: '1px solid #dbb85e' }}  className="separator mx-aut " />
+            </div> */}
+             <div className="col-md-8 col-lg-10 text-center">
+              <h1 className="text-white mb-2">$500M Investment Opportunity</h1>
+              <hr style={{  border: '1px solid #dbb85e' }}  className="separator mx-auto " />
             </div>
           </div>
         </div>

@@ -39,11 +39,15 @@ export default function Section5() {
       {/* Header with title */}
       <div className="bg-black text-white py-4">
         <div className="container">
-          <div className="row">
-            <div className="col-12 align-items-center text-center box">
+          <div className="row justify-content-center mb-4">
+            {/* <div className="col-12 align-items-center text-center box">
               <h2 className="commitment-title ">Our Commitments</h2>
               <div style={{  border: '1px solid #dbb85e' }}  className="border-bottom border-secondary w-50 mx-auto "></div>
 
+            </div> */}
+             <div className="col-md-8 col-lg-8 text-center">
+              <h1 className="text-white mb-2">Our Commitments</h1>
+              <hr style={{  border: '1px solid #dbb85e' }}  className="separator mx-auto " />
             </div>
           </div>
         </div>

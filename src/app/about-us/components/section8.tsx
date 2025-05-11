@@ -23,7 +23,7 @@ export default function Section8() {
             <p className="text-light lh-lg">
               <span className="text-capitalize text-center investment-text"  >
 
-              visionary: At DemiGod House, our mission is to bring over 1,500 brands to life, always with a steadfast commitment to enhancing their image and visibility. By leveraging our expansive retail network and the power of bilateral investments, we strive to deliver exceptional results for every associate and client we serve. Guided by data-driven strategies and a deep understanding of market trends, we build brands that become high-performing assets-capable of achieving remarkable revenue growth.
+               At DemiGod House, our mission is to bring over 1,500 brands to life, always with a steadfast commitment to enhancing their image and visibility. By leveraging our expansive retail network and the power of bilateral investments, we strive to deliver exceptional results for every associate and client we serve. Guided by data-driven strategies and a deep understanding of market trends, we build brands that become high-performing assets-capable of achieving remarkable revenue growth.
                 
                 </span>
             </p>

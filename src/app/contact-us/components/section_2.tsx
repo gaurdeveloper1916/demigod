@@ -64,8 +64,8 @@ const Section_2: NextPage = () => {
       <main className="bg-black text-white min-vh-00 py-">
         <Container className="py-5">
           <Row className="justify-content-center mb-5">
-            <Col md={8} lg={6} className="text-center">
-              <div style={{ backgroundColor: 'rgba(30, 30, 30, 0.9)' ,border: '1px solid #866b2f' }} className=" rounded-pill py-3 px-5 mb-5">
+            <Col md={8} lg={4} className="text-center">
+              <div style={{ backgroundColor: 'rgba(30, 30, 30, 0.9)' ,border: '1px solid #866b2f' }} className=" rounded-pill py-2 px-2  mb-5">
                 <h1 className="display-5 fw-bold">FAQ's</h1>
               </div>
             </Col>

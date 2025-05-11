@@ -64,42 +64,42 @@ const Section2: React.FC = () => {
     {
       id: 1,
       title: "RESPONSIBILITY",
-      image:"",
+      image:"./about-us/responsibility.png",
       icon: <ResponsibilityIcon />,
       description: "We act with integrity, taking full ownership of every brand and capital partnership we step  into.."
     },
     {
       id: 2,
       title: "PERFORMANCE",
-      image:"",
+      image:"./about-us/performance.png",
       icon: <PerformanceIcon />,
       description: "We pursue sustainable, scalable results—measured not just in revenue, but in relevance and  long-term market leadership."
     },
     {
       id: 3,
       title: "EXCELLENCE",
-      image:"",
+      image:"./about-us/excellence.png",
       icon: <ExcellenceIcon />,
       description: "Mediocrity has no place in our world. We operate with a standard of execution that  commands attention and delivers value"
     },
     {
       id: 4,
       title: "DIFFERENTIATION",
-      image:"",
+      image:"./about-us/differentiation.png",
       icon: <DifferentiationIcon />,
       description: "Our brands don’t blend in—they stand out. Every strategy is tailor-made, and every outcome  is intentionally bold."
     },
     {
       id: 5,
       title: "MERITOCRACY",
-      image:"",
+      image:"./about-us/meritocracy.png",
       icon: <MeritocracyIcon />,
       description: "We rise through capability, creativity, and collaboration. Talent and tenacity drive everything  we do."
     },
     {
       id: 6,
       title: "CLIENT FIRST THINKING",
-      image:"",
+      image:"./about-us/client_first_thinking.png",
       icon: <ClientFirstIcon />,
       description: "Whether you’re a founder, investor, or institutional partner—your vision shapes our strategy.  We build with you, not just for you."
     }
@@ -134,8 +134,9 @@ const Section2: React.FC = () => {
                   {beliefs.map((belief) => (
                     <div data-aos="fade-up" data-aos-duration="1000" key={belief.id} className="col-md-4">
                       <div className="belief-card text-center p-4">
-                        <div className="icon-container mb-4">
+                        <div className="icon-container mb-4 w-25">
                           {belief.icon}
+                          <img className='img-fluid' src={belief.image}></img>
                         </div>
                         <h4 className="belief-title mb-3">{belief.title}</h4>
                         <p className="belief-description">{belief.description}</p>

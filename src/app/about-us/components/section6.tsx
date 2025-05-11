@@ -7,15 +7,18 @@ export default function Section6() {
   const sustainabilityData = [
     {
       title: "Sustainability, Built-In",
-      text: "Every DemiGod brand carrier is structured with low-impact logistics, green-certified manufacturing, and eco-conscious marketing initiatives."
+      text: "Every DemiGod brand carrier is structured with low-impact logistics, green-certified manufacturing, and eco-conscious marketing initiatives.",
+      img:"./about-us/carbon-footprint.png"
     },
     {
       title: "Track, Offset, Reduce",
-      text: "Beyond exclusive, We are implementing a standardized carbon accounting framework across our network—with annual audits and third-party verification to ensure transparency in our carbon footprint measurement. Full integration with internationally recognized registries and gold-standard certification processes, purposes devoted to your perfect lifestyle."
+      text: "Beyond exclusive, We are implementing a standardized carbon accounting framework across our network—with annual audits and third-party verification to ensure transparency in our carbon footprint measurement. Full integration with internationally recognized registries and gold-standard certification processes, purposes devoted to your perfect lifestyle.",
+      img:"./about-us/co2_1.png"
     },
     {
       title: "Net Zero by 2030",
-      text: "We're working toward our corporate-level net zero target portfolio by 2030, with enterprise-based suite integrated with Credit planning, event operations, digital infrastructure, and packaging procurement."
+      text: "We're working toward our corporate-level net zero target portfolio by 2030, with enterprise-based suite integrated with Credit planning, event operations, digital infrastructure, and packaging procurement.",
+      img:"./about-us/co2.png"
     }
   ];
 
@@ -43,10 +46,10 @@ export default function Section6() {
             <div className="col-md-6">
               {sustainabilityData.map((item, index) => (
                 <div data-aos="" data-aos-duration="1000"  className="section-container mb-5" key={index}>
-                  <div className="d-flex">
+                  <div className="d-flex justify-content-center align-items-center">
                     <div className="icon-container me-3">
                       <div className="icon-circle">
-                        <span className="icon"></span>
+                        <span className=" text-center"><img style={{width:"40px"}} src={item.img}></img></span>
                       </div>
                     </div>
                     <div className="content-container">
@@ -87,8 +90,8 @@ export default function Section6() {
           display: inline-flex;
           align-items: center;
           justify-content: center;
-          width: 40px;
-          height: 40px;
+          width: 60px;
+          height: 60px;
           border-radius: 50%;
           background-color: rgba(255, 193, 7, 0.2);
         }
