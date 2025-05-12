@@ -57,49 +57,49 @@ const Customslider = () => {
   const slideData = [
     {
       title: "Automotive",
-      img: "./home/auto.jpeg",
+      img: "./home/Automotive.webp",
       alt: "Automotive sector brand marketing",
       description:
         "We create marketing strategies that drive awareness and sales for automotive brands, focusing on both traditional and digital marketing approaches.",
     },
     {
       title: "Real Estate",
-      img: "./home/real.jpeg",
+      img: "./home/Real_estate.webp",
       alt: "Real Estate sector brand marketing",
       description:
         "Our real estate marketing strategies use the latest tools to connect potential buyers with properties, resulting in higher conversions and faster sales cycles.",
     },
     {
       title: "Event Management",
-      img: "./home/event.jpeg",
+      img: "./home/Event_management.webp",
       alt: "Event Management sector brand marketing",
       description:
         "From corporate events to large-scale consumer experiences, we craft memorable moments that resonate with attendees, ensuring a lasting impression.",
     },
     {
       title: "Jewellery",
-      img: "./home/jewel.webp",
+      img: "./home/Jewellery.webp",
       alt: "Jewellery sector brand marketing",
       description:
         "Our expertise in jewellery marketing ensures an impactful presence, driving brand recognition and engagement with affluent clientele.",
     },
     {
       title: "Gems",
-      img: "./home/jewel.webp",
+      img: "./home/gems.webp",
       alt: "Gems sector brand marketing",
       description:
         "We provide bespoke solutions for the gemstone industry, leveraging creativity and innovation to elevate brand positioning and visibility.",
     },
     {
       title: "Pharma OTC",
-      img: "./home/phrma.webp",
+      img: "./home/Pharma_OTC.webp",
       alt: "Pharma OTC sector brand marketing",
       description:
         "Our tailored marketing and event management services promote OTC products with a focus on customer trust and long-term growth.",
     },
     {
       title: "FMCG",
-      img: "./home/fmcg.jpeg",
+      img: "./home/Fmcg.webp",
       alt: "FMCG sector brand marketing",
       description:
         "We help FMCG brands establish dominance through strategic campaigns that increase market penetration and brand loyalty.",
