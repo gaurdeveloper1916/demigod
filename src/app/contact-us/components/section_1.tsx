@@ -68,7 +68,7 @@ const Section_1: NextPage = () => {
                     </div>
                     <div>
                       <p className="mb-0 text-secondary">Our email</p>
-                      <p className="mb-0">devansh@designgodhouse.com</p>
+                      <p className="mb-0">dev@demigodhouse.com</p>
                     </div>
                   </div>
                   
@@ -86,9 +86,12 @@ const Section_1: NextPage = () => {
                     <div className="contact-icon me-3">
                       <FaMapMarkerAlt className="text-warning" size={24} />
                     </div>
-                    <div>
-                      <p className="mb-0 text-secondary">Find us</p>
-                      <p className="mb-0">Open Google Maps</p>
+                    <div className='d-flex flex-column gap-3 '>
+                      <p className="mb-0 font-weight-light text-secondary">Find us</p>
+                      <p className="mb-0 font-weight-light">Registered Office- D-10, Kabir Marg, Banipark,Jaipur, Raj-302016</p>
+                      <p className='mb-0 font-weight-light'>Corporate Office Address- 208, PMB, Charni Road,Opera House, Girgaon-Mumbai 40004
+</p>
+                      <p className='mb-0'>Global Satellite Offices: USA | Australia | Germany | UK & EUROPE | RUSSIA | CHINA | BRAZIL | ARGENTINA | KENYA | SOUTH AFRICA | VITENAM | THAILAND | DUBAI | SAUDI ARABIA | SINGAPORE</p>
                     </div>
                   </div>
                 </div>

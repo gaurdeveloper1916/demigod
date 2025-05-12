@@ -50,7 +50,7 @@ const Testing = () => {
             heading: "Brand Private Equity Offering",
             description:
                 "DemiGod House assists brands in accessing private equity markets, offering strategic advice and execution to fuel growth and expansion.",
-            image: "./homepage/Brand_Private_Equity_Offering.jpeg"
+            image: "./home/Brand_Private_Equity_Offering.jpeg"
         },
         {
             heading: "B2B & B2C Events",
@@ -62,13 +62,13 @@ const Testing = () => {
             heading: "From Startups to Multinationals",
             description:
                 "At Demigod House, we cater to businesses of all sizes. Whether you're a budding startup or a global multinational, our expertise ensures tailored strategies that drive growth and success across industries.",
-            image: "./homepage/startups.jpeg"
+            image: "./home/startups.jpeg"
         },
         {
             heading: "Hybrid Environments",
             description:
                 "We embrace the future of work and collaboration by fostering hybrid environments. Our solutions bridge physical and digital spaces, enabling seamless operations and connectivity for your business.",
-            image: "./homepage/hybrid.jpeg"
+            image: "./home/hybrid.jpeg"
         },
     ];
 
