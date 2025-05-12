@@ -72,7 +72,7 @@ const Section3: React.FC = () => {
             <div  className="col-md-5">
               <div data-aos="fade-left" data-aos-duration="1000" className="mt-3 mt-md-0">
                 <img
-                  src="./statergic.jpeg"
+                  src="./about-us/statergic.jpeg"
                   className="img-fluid rounded"
                   alt="Strategic alliance illustration"
                   style={{

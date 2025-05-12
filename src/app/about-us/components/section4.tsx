@@ -51,7 +51,7 @@ export default function Section4() {
             <div data-aos="fade-left" data-aos-duration="1000" className="col-md-6">
               <div className="image-container">
                 <img 
-                  src="./opportunity.jpeg" 
+                  src="./about-us/opportunity.jpeg" 
                   className="img-fluid rounded" 
                   alt="Team members discussing investment opportunity"
                   style={{ 

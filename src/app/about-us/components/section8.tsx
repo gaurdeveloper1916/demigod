@@ -14,7 +14,7 @@ export default function Section8() {
           {/* Left Column: Image */}
           <div data-aos="fade-left" data-aos-duration="1000" className="col-md-5 d-flex justify-content-center">
             <div className="rounded-4 overflow-hidden shadow" style={{ maxWidth: '100%', width: '500px' }}>
-              <Image src="/devanshu2.jpg" alt="Visionary" className="img-fluid" width={1080} height={600} />
+              <Image src="/about-us/devanshu2.jpg" alt="Visionary" className="img-fluid" width={1080} height={600} />
             </div>
           </div>
 
