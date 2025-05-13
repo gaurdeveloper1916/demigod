@@ -117,10 +117,10 @@ const TabsComponent = () => {
                                         <strong><em>Brand Development</em></strong>
                                     </h2>
                                     <p
-                                        className="text-white"
-                                        style={{ fontWeight: "400", fontSize: "0.95rem", lineHeight: "1.5" }}
+                                        className="text-white text-head"
+                                        
                                     >
-                                        <strong>
+                                        <strong className="sub-text">
                                             Articulating, designing and curating a strategic brand market image alongside reflecting the consumer's demand DNA & structuring in brand products & services.
                                             Our team's research, expertise & exposure across a variety of commercial/industrial sectors gives us the edge and grasp to develop a successfully strategic brand story!
                                         </strong>

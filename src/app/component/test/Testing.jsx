@@ -84,7 +84,7 @@ const Testing = () => {
                         <source src="./home/demigod.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-                    <div className="d-flex p-0  postion-relative d-flex  vh-100 align-items-center justify-content-center ">
+                    <div className="d-flex p-0 postion-relative d-flex  vh-100 align-items-center justify-content-center ">
                         <div className="col-lg-12  d-flex text-cont  ">
                             <div 
                                  className=" background-text  text-center my-5 px-5 py-4 rounded">
