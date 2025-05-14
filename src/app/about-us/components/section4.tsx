@@ -21,9 +21,9 @@ export default function Section4() {
               <h1 className="opportunity-title">$500M Investment Opportunity</h1>
               <hr style={{  border: '1px solid #dbb85e' }}  className="separator mx-aut " />
             </div> */}
-             <div className="col-md-8 col-lg-10 text-center">
+            <div className="col-md-8 col-lg-10 text-center">
               <h1 className="text-white mb-2">$500M Investment Opportunity</h1>
-              <hr style={{  border: '1px solid #dbb85e' }}  className="separator mx-auto " />
+              <hr style={{ border: '1px solid #dbb85e' }} className="separator mx-auto " />
             </div>
           </div>
         </div>
@@ -36,25 +36,34 @@ export default function Section4() {
             {/* Left column with text */}
             <div data-aos="fade-right" data-aos-duration="1000" className="col-md-6">
               <h4 className="investment-text mb-4">
-              
-              </h4>
-              <h4 className="investment-text">
-              At DemiGod House, we o er a capital ecosystem of up to $500 million, dedicated to building  and scaling high-potential brands across sectors like Pharma OTC, FMCG, Electronics, and  emerging consumer categories.
-              </h4>
-              <h4 className="investment-text">
-              We deploy capital through seed funding, venture capital, and co-investment alliances with  global HNIs and private equity firms. Each investment is structured for measurable  performance, with clear ROI windows, equity-aligned returns, and full CapEx-OpEx  management under our control.
 
               </h4>
+              <h4 className="investment-text">
+                At demigod house, we offer a capital ecosystem of up to $500 million, dedicated to building and scaling high potential brands across sectors like Pharma OTC, FMCG, Electronics and emerging consumer categories.
+              </h4>
+              <h4 className="investment-text">
+                Our investment model was beyond funding, we bring and to an infrastructure from manufacturing and distribution to media buyouts and legal compliance, creating a ready-to-scale foundation for every brand we back.
+
+              </h4>
+
+
+              <h4 className="investment-text">
+                We deploy capital to seed funding, venture capital, and Co investment alliances with global HNIs and private equity firms. Each investment is structured for measurable performance, with clear ROI windows, equity- aligned return, and full CapEx-OpEx management under our control.
+
+              </h4>
+              <h4 className="investment-text">
+                This is not just capital, it's a strategic stake in the future of category- defining brands.
+              </h4>
             </div>
-            
+
             {/* Right column with image */}
             <div data-aos="fade-left" data-aos-duration="1000" className="col-md-6">
               <div className="image-container">
-                <img 
-                  src="./about-us/opportunity.jpeg" 
-                  className="img-fluid rounded" 
+                <img
+                  src="./about-us/opportunity.jpeg"
+                  className="img-fluid rounded"
                   alt="Team members discussing investment opportunity"
-                  style={{ 
+                  style={{
                     objectFit: 'cover',
                     width: '100%',
                     height: '500px'

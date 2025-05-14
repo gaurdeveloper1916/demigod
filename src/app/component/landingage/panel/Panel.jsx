@@ -25,7 +25,7 @@ const Panel = ({ data }) => {
              
 
               <Link className='text-deco' href='/landingpage?slug=marathon-mingle-event'>
-                <img className='image-partner rounded img-fluid' src="./images/landing-page-images/section7/COUPLE'S_MARATHON.webp" alt='Businesswomen shaking hands' />
+                <img className='image-partner rounded img-fluid' src="./event-page/COUPLE'S_MARATHON.webp" alt='Businesswomen shaking hands' />
 
                 <h6 className='text-white py-2'>Marathon Mingle</h6>
 
