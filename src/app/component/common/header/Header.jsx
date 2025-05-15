@@ -136,7 +136,7 @@ function Header({ where }) {
       {/* Mobile Header */}
       <div className="container-fluid p-0 d-lg-none d-block bg-black p-2">
         <div className="d-flex justify-content-between align-items-center">
-          <img className="w-50" src="./header&footer/new_logo.png" alt="Logo" />
+          <img className="w-25" src="./header&footer/new_logo.png" alt="Logo" />
           {/* <p className={`position-absolute ${where === "corporate" ? "logo-text-corporate" : "logo-text"}`}>
             Media.Marketing.Event’s
           </p> */}

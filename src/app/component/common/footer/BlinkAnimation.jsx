@@ -5,12 +5,12 @@ import 'swiper/css/effect-fade';
 import { Autoplay } from 'swiper/modules';
 
 const images = [
-  { name: "DemiGod Art", imageUrl: "https://www.artdemigod.com/assets/image/art%20logo%20finel.png" },
-  { name: "DemiGod Cloud", imageUrl: "https://www.demigodcloud.com/images/demigod%20vector%20nav.webp" },
-  { name: "DemiGod HealthBox", imageUrl: "./logo/healthboxlogo.png" },
-  { name: "Demigod", imageUrl: "./logo/demigodlogo.png" },
-  { name: "Anagari", imageUrl: "./logo/anagari.png" },
-  { name: "DemiGod Estate", imageUrl: "./images/navlogo.png" }
+{ name: "DemiGod Art", imageUrl: "https://www.artdemigod.com/assets/image/art%20logo%20finel.png" },
+    { name: "DemiGod Cloud", imageUrl: "https://www.demigodcloud.com/images/demigod%20vector%20nav.webp" },
+    { name: "DemiGod HealthBox", imageUrl: "./header&footer/healthboxlogo.png" },
+    { name: "Demigod", imageUrl: "./header&footer/new_logo.png"    },
+    { name: "Anagari", imageUrl: "./header&footer/anagari.png" },
+    { name: "DemiGod Estate", imageUrl: "./header&footer/navlogo.png" }
 ];
 
 export default function BlinkAnimation() {
