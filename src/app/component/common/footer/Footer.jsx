@@ -63,11 +63,11 @@ function Footer(props) {
     { slug: 'entrepreneurship-forum-2025', name: 'Entrepreneurship Forum' },
   ];
   const events2 = [
-    { slug: 'demigod-fight-club', name: "Live Concert's" },
-    { slug: 'car-o-bar-event', name: 'Exhibitions' },
+    { slug: 'punjabi-delegates', name: "Live Concert's" },
+    { slug: 'economic-patriots-summit-india', name: 'Exhibitions' },
     { slug: 'travel-tourism-event', name: 'Travel Events' },
-    { slug: 'tech-expo-event', name: "Sport's Event" },
-    { slug: 'marathon-mingle-event', name: 'Art & Craft' },
+    { slug: 'marathon-mingle-event', name: "Sport's Event" },
+    { slug: 'oktober-fest-event', name: 'Art & Craft' },
   ];
   return (
     <>

@@ -82,8 +82,8 @@ const Section_1: NextPage = () => {
                     </div>
                   </div>
                   
-                  <div className="d-flex align-items-center mb-4">
-                    <div className="contact-icon me-3">
+                  <div className="d-flex align-items-cnter mb-4">
+                    <div className="contact-icon me-3 p-2">
                       <FaMapMarkerAlt className="text-warning" size={24} />
                     </div>
                     <div className='d-flex flex-column gap-3 '>
