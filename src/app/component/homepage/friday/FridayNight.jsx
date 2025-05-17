@@ -125,11 +125,7 @@ export default function FridayNight() {
                   src={image.img}
                   alt={image.name}
                 />
-                {/* <div>
-                  <video style={{ height: '270px' }} className="slide-video-test" autoPlay loop muted>
-                    <source src="/WhatsApp Video 2025-04-16 at 20.10.07.mp4" type="video/mp4" />
-                  </video>
-                </div> */}
+                
                 <div className="overlay">
                   <h1 className="text-san">{image.name}</h1>
                 </div>

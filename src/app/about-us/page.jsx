@@ -50,7 +50,7 @@ const page = () => {
         <Header/>
     {/*}  <div className="px-lg-5 px-3 px-md-5 background_video">
         <video autoPlay loop muted playsInline className="video-background">
-          <source src="/bg-video.mp4" type="video/mp4" />
+          <source src="/.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="row gx-5 d-flex justify-content-center vh-100 align-items-center">
