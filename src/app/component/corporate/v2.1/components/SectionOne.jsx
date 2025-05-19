@@ -231,11 +231,11 @@ const SectionOne = () => {
           >
             <source
               media="(min-width: 760px)"
-              srcSet="./corporate-v2/corporateslider.webp"
+              srcSet="./corporate-v2/hero_section.webp"
             />
             <img
               alt="Eventgesellschaft in einem Restaurant - hinterste Ebene"
-              src="./corporate-v2/corporateslider.webp"
+              src="./corporate-v2/hero_section.webp"
               data-parallax-target=""
             />
           </picture>

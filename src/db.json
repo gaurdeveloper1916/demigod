@@ -1113,7 +1113,7 @@
                 ]
             }
         ]
-    },    
+    },
     {
         "eventTitle": "WANDERLUXE: The Global Travel & Tourism Summit",
         "slug": "travel-tourism-event",
@@ -1794,7 +1794,6 @@
     {
         "eventName": "CULINARY QUEST EXPO",
         "slug": "culinary-quest-expo",
-        
         "tagline": "The Future of Flavor. The Art of Gastronomy.",
         "description": "A world-class food and culinary exhibition for global chefs, food industry leaders, and curated epicureans. Savor innovative cuisines, cutting-edge food tech, and visionary culinary creations that redefine dining. Connect with gastronomy pioneers and shape the future of food in an exclusive, vibrant showcase!",
         "ticketTypes": [
@@ -1894,5 +1893,88 @@
                 }
             ]
         }
+    },
+    {
+        "eventTitle": "NATYA TARANGINI – Bharatnatyam Dance Competition",
+        "slug": "natya-tarangini-event",
+        "description": "Embracing Centuries of Grace and Rhythm, Natya Tarangini is a premier Bharatnatyam competition celebrating the timeless beauty of India’s classical dance. This cultural celebration unites rising stars and seasoned performers through expressive storytelling, intricate footwork, and sublime abhinaya. Participants and attendees can immerse themselves in masterclasses, collaborative showcases, and electrifying performances that honor tradition and inspire the next generation.",
+           "leftImage": "./event-page/inside_1.webp",
+        "rightImage": "./event-page/inside_2.webp",
+        "midImage": "/event-page/main_image.webp",
+        "ticketTypes": [
+            {
+                "name": "General Attendee Pass",
+                "price": "₹500 – ₹1,000",
+                "tagline": "Experience tradition and performance.",
+                "inclusions": [
+                    "Entry to all public performances",
+                    "Access to Culture Bazaar"
+                ]
+            },
+            {
+                "name": "Patron Pass",
+                "price": "₹5,000",
+                "tagline": "Enjoy reserved seating and exclusive interactions.",
+                "inclusions": [
+                    "All benefits of General Attendee Pass",
+                    "Reserved seating",
+                    "Invitation to Patron Meet & Greet"
+                ]
+            },
+            {
+                "name": "VIP Pass",
+                "price": "₹10,000",
+                "tagline": "Exclusive backstage access and souvenirs.",
+                "inclusions": [
+                    "All benefits of Patron Pass",
+                    "Backstage tour & photo opportunity",
+                    "Complimentary event souvenir shawl"
+                ]
+            }
+        ],
+        "registrationDetails": {
+            "ticketSalesOpen": "June 1, 2025",
+            "ticketSalesClose": "August 31, 2025"
+        },
+        "schedule": [
+            {
+                "day": "October 10, 2025 (Friday)",
+                "events": [
+                    "9:00 AM: Venue Opens & Registration Desk",
+                    "10:00 AM: Inaugural Ceremony & Lamp Lighting",
+                    "11:00 AM – 1:00 PM: Preliminaries (Junior & Senior Solo Categories)",
+                    "1:00 PM – 2:00 PM: Lunch Break & Culture Bazaar",
+                    "2:00 PM – 4:00 PM: Masterclass – 'Adavus & Rhythmic Patterns' with well known Gurus",
+                    "4:30 PM – 6:30 PM: Preliminaries (Group & Duo Performances)",
+                    "7:00 PM: Patron Meet & Greet (Patron & VIP Pass holders)",
+                    "8:00 PM: Evening Showcase – 'Evolution of Bharatnatyam'"
+                ]
+            },
+            {
+                "day": "October 11, 2025 (Saturday)",
+                "events": [
+                    "10:00 AM: Semifinals (Selected Competitors)",
+                    "12:00 PM – 1:00 PM: Abhinaya – The Soul of Storytelling through Bharatnatyam",
+                    "1:00 PM – 2:00 PM: Lunch & Networking",
+                    "2:00 PM – 4:00 PM: Finals (All Categories)",
+                    "4:30 PM: Judges’ Deliberation & Audience Choice Voting",
+                    "5:30 PM: Award Ceremony & Certificates Distribution",
+                    "6:30 PM: Grand Finale Performance by Invited Gurus",
+                    "7:30 PM: Gala Dinner & Cultural Jam (VIP Pass holders)"
+                ]
+            },
+            {
+                "day": "October 12, 2025 (Sunday)",
+                "events": [
+                    "9:00 AM – 10:30 AM: Dance Wellness & Yoga Workshop with well known Guru",
+                    "11:00 AM – 1:00 PM: Collaborative Alumni Showcase: Past Winners & Mentors",
+                    "1:00 PM – 2:00 PM: Farewell Lunch & Culture Bazaar Finale",
+                    "2:00 PM – 4:00 PM: Panel Discussion – 'The Future of Bharatnatyam' featuring Renowned Dancers and Scholars",
+                    "4:30 PM: Audience Engagement – Flash Mob & Community Dance Circle",
+                    "5:30 PM: Closing Ceremony & Certificate of Participation Distribution",
+                    "6:00 PM: Grand Farewell Performance"
+                ]
+            }
+        ]
     }
 ]
