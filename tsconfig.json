@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/app/about-us/components/carbonCredits.jsx"  ],
   "exclude": [
     "node_modules"
   ]

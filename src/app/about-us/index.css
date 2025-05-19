@@ -1,3 +1,4 @@
+/* Existing background video and black shade styles */
 .background_video {
     position: relative;
     overflow: hidden;
@@ -118,3 +119,201 @@
   .accordion-button::after {
     filter: invert(1);
   }
+  
+  /* Common styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: #000;
+  color: #f8f9fa;
+}
+
+.container-fluid {
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* Center alignment fixes */
+.row {
+  margin: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.col, [class*="col-"] {
+  padding: 0 15px;
+}
+
+/* Section spacing */
+.section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 40px 0;
+}
+
+/* Timeline styles */
+.timeline-item {
+  transform: translateX(0);
+  opacity: 0.5;
+  transition: all 0.5s ease-in-out;
+}
+
+.timeline-item.active {
+  transform: translateX(20px);
+  opacity: 1;
+}
+
+/* Section titles and text */
+.section-title {
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #f8f9fa;
+  margin-bottom: 2rem;
+}
+
+.section-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #adb5bd;
+}
+
+/* Cards and beliefs */
+.belief-card {
+  height: 100%;
+  background-color: #262626;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 300px;
+  padding: 2rem;
+}
+
+.commitment-card {
+  background-color: #121212;
+  padding: 1.5rem;
+  height: 100%;
+  border-radius: 0.25rem;
+}
+
+/* Separator lines */
+.separator {
+  width: 50%;
+  height: 2px;
+  background-color: #dbb85e;
+  border: none;
+  margin: 1rem auto;
+}
+
+/* Hero section */
+.about-us-section {
+  background-color: #000;
+  color: white;
+  min-height: 100vh;
+}
+
+.bg-image {
+  opacity: 0.25;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* Mobile responsiveness fixes */
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .row {
+    margin: 0;
+  }
+
+  .col, [class*="col-"] {
+    padding: 0 10px;
+  }
+
+  .section-wrapper {
+    padding: 20px 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-text {
+    font-size: 1rem;
+  }
+
+  .hero-mobile-center {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  /* Mobile-specific hero section adjustments */
+  .about-us-section .row {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-us-section .col-md-3 {
+    margin-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-us-section .display-5 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-us-section .col-md-6 {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .about-us-section .section-text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}

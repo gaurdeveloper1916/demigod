@@ -1,4 +1,3 @@
-
 import Header from "../component/common/header/Header";
 
 import Section1 from "./components/aboutusHero";
@@ -10,32 +9,35 @@ import Section6 from "./components/ourcommitments";
 import Section7 from "./components/carbonCredits";
 import Section8 from "./components/visionary";
 
-
-
-
 const page = () => {
-
-  
   return (
-    <>
-
-<Section1/>
-<Section2/>
-<Section3/>
-<Section4/>
-<Section5/>
-<Section6/>
-<Section7/>
-<Section8/>
-
-
-
-  
-        <Header/>
-  
-
-
-    </>
+    <div className="overflow-x-hidden">
+      <Header />
+      
+        <Section1 />
+      
+      <div className="section-wrapper">
+        <Section2 />
+      </div>
+      <div className="section-wrapper">
+        <Section3 />
+      </div>
+      <div className="section-wrapper">
+        <Section4 />
+      </div>
+      <div className="section-wrapper">
+        <Section5 />
+      </div>
+      <div className="section-wrapper">
+        <Section6 />
+      </div>
+      <div className="section-wrapper">
+        <Section7 />
+      </div>
+      <div className="section-wrapper">
+        <Section8 />
+      </div>
+    </div>
   );
 };
 
