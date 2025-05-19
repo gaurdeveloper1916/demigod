@@ -38,14 +38,12 @@ function Footer(props) {
     "Contact",
   ];
   const demiGroup = [
-
     { name: "DemiGod Art", imageUrl: "https://www.artdemigod.com/assets/image/art%20logo%20finel.png" },
     { name: "DemiGod Cloud", imageUrl: "https://www.demigodcloud.com/images/demigod%20vector%20nav.webp" },
     { name: "DemiGod HealthBox", imageUrl: "./header&footer/healthboxlogo.png" },
-    { name: "Demigod", imageUrl: "./header&footer/new_logo.png"    },
+    { name: "Demigod House", imageUrl: "./header&footer/new_logo.png"    },
     { name: "Anagari", imageUrl: "./header&footer/anagari.png" },
     { name: "DemiGod Estate", imageUrl: "./header&footer/navlogo.png" }
-
   ];
   const shortcut = [
     { name: "M&M", linking: "/" },
@@ -145,7 +143,7 @@ function Footer(props) {
                   </li>
                   <li>
                     <a
-                      href="https://linkedin.com/company/DemiGodCloud"
+                      href="https://www.linkedin.com/in/demigod-house-0b1447366/"
                       className="text-white"
                     >
                       <FaLinkedinIn size={30} />

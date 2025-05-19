@@ -8,8 +8,13 @@
 }
 
 .logoImage-footer {
-  /* width: 251px; */
+  width: 153px;
   height: 153px;
+}
+.logo-text-demi{
+      width: 200px;
+    left: 6rem;
+    top: 2.3rem;
 }
 
 .logoImage-footer-marque {

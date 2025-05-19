@@ -34,7 +34,7 @@ export default function Section8() {
       <style jsx global>{`
        
         .investment-text {
-          font-size: 0.95rem;
+          font-size: 1.3rem;
           line-height: 1.7;
           color: #f8f9fa;
           opacity: 0.9;
