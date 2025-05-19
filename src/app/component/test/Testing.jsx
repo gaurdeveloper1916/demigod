@@ -126,12 +126,12 @@ const Testing = () => {
                     <div className="container-fluid">
                         {/* Header */}
                         <div className="products-header mb-4">
-                            <div className="row align-items-center text-white">
+                            <div className="row align-items-center text-white px-3">
                                 <div className="col-12 col-md-4 mb-3 mb-md-0">
-                                    <h2 className="products-title">Our Products & Services</h2>
+                                    <h2 className="products-title weight100">Our Products & <br/>Services</h2>
                                 </div>
                                 <div className="col-12 col-md-8">
-                                    <p className="products-description">
+                                    <p className="products-description weight100">
                                         Media, Marketing, and Events agency under the DemiGod House Hedge Fund portfolio, crafting impactful brand success stories for associates and clients worldwide.
                                     </p>
                                 </div>
@@ -139,23 +139,23 @@ const Testing = () => {
                         </div>
 
                         {/* Navigation Buttons */}
-                        <div className="navigation-wrapper d-flex justify-content-center justify-content-md-end gap-3 mb-4">
-                            <button 
+                        <div className="navigation-wrapper d-flex justify-content-center justify-content-md-end  mb-4">
+                            < div
                                 onClick={handlePrev} 
                                 className="nav-button" 
                                 aria-label="Previous slide"
                                 ref={prevRef}
                             >
                                 <GoArrowLeft color='white' size={30} />
-                            </button>
-                            <button 
+                            </div>
+                            <div 
                                 onClick={handleNext} 
                                 className="nav-button" 
                                 aria-label="Next slide"
                                 ref={nextRef}
                             >
                                 <GoArrowRight color='white' size={30} />
-                            </button>
+                            </div>
                         </div>
 
                         {/* Swiper */}
