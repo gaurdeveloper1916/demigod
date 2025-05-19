@@ -98,9 +98,14 @@ function Header({ where }) {
               <a href="/" className="text-deco">
                 <div className="logo-container">
                   <img className="logoImage cursor" src="./header&footer/new_logo.png" alt="Logo of Demigod House" />
-                  <p className="brand-name">DemiGod House</p>
+                  {/* <p className="brand-name">DemiGod House</p> */}
                 </div>
-              </a>
+                {/* <p style={{color:"rgb(169 134 56)"}} className={`position-absolute badge text-web fs-6 fw-bold text-nowrap text-center ${where !== 'corporate' ? 'logo-text' : 'logo-text-corporate'}`}>
+                  DemiGod Hou
+                </p>  */}
+
+                <img className="position-absolute logo-text-demi  " src="./header&footer/demigod-text1.png"></img> 
+                           </a>
             </div>
 
             {/* Navigation */}

@@ -33,10 +33,10 @@ const Formdiv = () => {
         <Modal.Header className="bg-black border-0 d-flex justify-content-end">
           <RxCross2 onClick={() => { setShow(false); setStep(1); }} size={25} className="text-white cursor-pointer" />
         </Modal.Header>
-        
+
         <Modal.Body className="bg-black">
           <div className={`d-flex flex-lg-row flex-column ${step === 2 ? "step-2" : "step-1"}`}>
-            
+
             {/* Image Section */}
             <div className={`col-lg-6 image-section ${step === 1 ? "order-2" : "order-1"}`}>
               <div className="image-wrapper">
@@ -48,15 +48,19 @@ const Formdiv = () => {
             <div className={`col-lg-6 form-section d-flex justify-content-center ${step === 1 ? "order-1" : "order-2"}`}>
               <div className="col-lg-11 col-12">
                 <h3 className="fw-bold text-warning">
-                  {step === 1 ? "Reach Out" : step === 2 ? "Tell Us More" : "Thank You!"}
+                  {/* {step === 1 ? "Reach Out" : step === 2 ? "Tell Us More" : "Thank You!"} */}
+
                 </h3>
 
                 {step === 1 && (
                   <>
-                    <h6 className="text-white mt-4">Tell Us About Yourself!</h6>
+                    <h5 className="text-white mt-4">Are you participating as a group, solo, or as a duo?
+
+                    </h5>
+
                     <form>
                       <div className="d-flex flex-lg-row flex-column gap-lg-5 gap-0 text-white">
-                        {["Corporate Client", "Private Host", "Event Enthusiast"].map((label, i) => (
+                        {["Solo", "DUO", "Group"].map((label, i) => (
                           <label key={i} className="d-flex align-items-center gap-2">
                             <input type="radio" value={`option${i + 1}`} checked={selectedOption === `option${i + 1}`} onChange={handleChange} />
                             {label}
@@ -64,20 +68,10 @@ const Formdiv = () => {
                         ))}
                       </div>
 
-                      <div className="mt-4">
-                        <label htmlFor="eventSelect" className="form-label text-white">What type of event are you planning?</label>
-                        <select className="form-select w-50" id="eventSelect">
-                          <option value="">Select an option</option>
-                          {["Corporate Meetup", "Gala", "Themed Party", "Festival"].map((option, i) => (
-                            <option key={i} value={option}>{option}</option>
-                          ))}
-                        </select>
-                      </div>
+                      {/* <input type="text" className="form-control w-50" id="reasonInput" placeholder="xyz@gmail.com" />
 
-                      <div className="mt-4 d-flex flex-column">
-                        <label htmlFor="reasonInput" className="form-label text-white">What are you reaching out for?</label>
-                        <input type="text" className="form-control w-50" id="reasonInput" placeholder="Type something..." />
-                      </div>
+                      <input type="text" className="form-control w-50" id="reasonInput" placeholder="" /> */}
+
                     </form>
                   </>
                 )}

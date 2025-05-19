@@ -1,6 +1,6 @@
 "use client";
 import Image from 'next/image';
-export default function visionary() {
+export default function Section8() {
   return (
     <div className="bg-black text-white py-5 px-4">
       <div className="text-center mb-5">
@@ -34,7 +34,7 @@ export default function visionary() {
       <style jsx global>{`
        
         .investment-text {
-          font-size: 0.95rem;
+          font-size: 1.3rem;
           line-height: 1.7;
           color: #f8f9fa;
           opacity: 0.9;
