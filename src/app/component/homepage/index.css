@@ -221,7 +221,7 @@ transition-property: width;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: purple;
+  /* background-color: purple; */
   /* Adjust color and opacity as needed */
   color: white;
   justify-content: center;
