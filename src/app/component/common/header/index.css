@@ -109,3 +109,43 @@ a{
     border-radius: .375rem;
     opacity: var(--bs-btn-close-opacity);
 }
+
+.logoImage {
+  width: 120px;
+  height: auto;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-name {
+  color: rgb(169 134 56);
+  margin: 0;
+  font-weight: bold;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+@media (max-width: 991px) {
+  .logoImage {
+    width: 80px;
+  }
+  
+  .brand-name {
+    font-size: 14px;
+  }
+}

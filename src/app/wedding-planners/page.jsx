@@ -6,7 +6,7 @@ import SectionFive from "../component/corporate/v2.1/components/SectionFive";
 import SectionThree from "../component/corporate/v2.1/components/SectionThree";
 import SectionTwo from "../component/corporate/v2.1/components/SectionTwo";
 import Slider from "../component/events/slider/slider/Slider";
-import Testtube from "../component/homepage/TestTube";
+
 import Sectionfive from "../component/weddingpage/v2.1/Sectionfive";
 import Sectionfour from "../component/weddingpage/v2.1/Sectionfour";
 import Sectionone from "../component/weddingpage/v2.1/Sectionone";
@@ -14,7 +14,7 @@ import Sectionthree from "../component/weddingpage/v2.1/Sectionthree";
 import Sectiontwo from "../component/weddingpage/v2.1/Sectiontwo";
 import Accordian from "../component/weddingpage/v2.1/Subcomponent/Accordian";
 import VendorCategories from "../component/weddingpage/v2.1/VendorCategory";
-import WeddinfSlider from "../component/weddingpage/WeddinfSlider";
+
 import Lovestory from "../component/weddingpage/v2.1/Lovestory"
 import GallerySlider from "../component/weddingpage/GallerySlider"
 import Moodboard from "../component/weddingpage/Moodboard"

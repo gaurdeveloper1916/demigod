@@ -1,6 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react';
-import { Button, Container, Row, Col } from 'react-bootstrap';
+import { Button,  Row, Col } from 'react-bootstrap';
 import Header from '../component/common/header/Header';
 import { FaCheckCircle } from 'react-icons/fa';
 

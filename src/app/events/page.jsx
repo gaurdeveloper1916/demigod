@@ -46,7 +46,7 @@ function Index() {
   return (
     <div className="container-fluid p-0 bg-black">
       <Header />
-      {/* <Slider /> */}
+      
       <CarouselSection/>
       <TwoImagesDiv />
       <Prochainement />

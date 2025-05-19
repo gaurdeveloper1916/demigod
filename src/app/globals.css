@@ -1,14 +1,11 @@
 .logoImage {
-  /* width: 120px;
-    height: 80px;
-    margin-top: 15px; */
+
     width: 89px;
     height: 89px;
-  /* margin-left: 20px; */
+
 }
 
 .logoImage-footer {
-  /* width: 251px; */
   height: 153px;
 }
 
@@ -109,8 +106,7 @@ button:not(:disabled) {
   font-weight: 500;
   background-image: linear-gradient(270deg, #866b2f, #dbb85e 50%, #866b2f);
 
-  /* font-family: "Playfair Display",
-        serif; */
+
 }
 
 .mobile-list-header {
@@ -130,12 +126,11 @@ button:not(:disabled) {
 }
 
 .accodationBorder:focus {
-  /* background-color: #000; */
   border: none !important;
   border-color: #000 !important;
 }
 
-.accordation-bg {
+.accordion-bg {
   background-color: #000 !important;
   border: none !important;
 
@@ -145,12 +140,12 @@ button:not(:disabled) {
 }
 
 .accordion-button:not(.collapsed) {
-  /* color: var(--bs-accordion-active-color); */
+  
   background-color: transparent !important;
   border-color: white !important;
 }
 
-.accordationheading {
+.accordionheading {
   color: rgb(233, 233, 30) !important;
   font-size: 24px !important;
   font-weight: 800;
@@ -349,7 +344,6 @@ body::-webkit-scrollbar-thumb {
   letter-spacing: .2375px;
   font-family: cursive;
 
-  /* margin-right:2px; */
   padding: 6.5px 20px;
   text-align: center;
   white-space: nowrap;
@@ -369,10 +363,8 @@ body::-webkit-scrollbar-thumb {
 
   color: white;
   letter-spacing: .2375px;
-  /* margin-right: 2px; */
   padding: 6.5px 10px;
   text-align: center;
-  /* white-space: nowrap; */
 }
 
 .title-des {
@@ -423,12 +415,9 @@ body::-webkit-scrollbar-thumb {
   }
 
   .logoImage {
-  /* width: 120px;
-    height: 80px;
-    margin-top: 15px; */
+
     width: 40px;
     height: 40px;
-  /* margin-left: 20px; */
 }
  
 }
@@ -452,3 +441,145 @@ body::-webkit-scrollbar-thumb {
 @media (min-width: 1440px) { 
   /* Styles for large desktops */
 }
+
+/* Add these responsive styles */
+.container-fluid {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
+
+@media (max-width: 768px) {
+  .container-fluid,
+  .container-fluid > div {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
+
+/* Fix for any Bootstrap row/col combinations */
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.col, [class^="col-"] {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media (max-width: 768px) {
+  .container-fluid {
+    padding: 0 15px;
+  }
+  
+  h1 {
+    font-size: 2rem !important;
+  }
+  
+  h2 {
+    font-size: 1.75rem !important;
+  }
+  
+  p {
+    font-size: 1rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .container-fluid {
+    padding: 0 10px;
+  }
+  
+  h1 {
+    font-size: 1.75rem !important;
+  }
+  
+  h2 {
+    font-size: 1.5rem !important;
+  }
+  
+  p {
+    font-size: 0.875rem !important;
+  }
+}
+
+/* Utility classes for responsive spacing */
+.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+@media (min-width: 768px) {
+  .my-md-4 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .my-lg-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+  }
+}
+
+/* Responsive padding utilities */
+.px-2 {
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+@media (min-width: 768px) {
+  .px-md-3 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .px-lg-4 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+}
+
+/* Common utilities moved from inline styles */
+.d-flex { display: flex; }
+.justify-content-center { justify-content: center; }
+.justify-content-between { justify-content: space-between; }
+.align-items-center { align-items: center; }
+.text-center { text-align: center; }
+.position-relative { position: relative; }
+.position-absolute { position: absolute; }
+.w-100 { width: 100%; }
+.h-100 { height: 100%; }
+.overflow-hidden { overflow: hidden; }
+
+/* Common margins/paddings */
+.m-0 { margin: 0; }
+.p-0 { padding: 0; }
+.mb-3 { margin-bottom: 1rem; }
+.mb-4 { margin-bottom: 1.5rem; }
+.mt-3 { margin-top: 1rem; }
+.mt-4 { margin-top: 1.5rem; }
+
+/* Common text utilities */
+.text-white { color: white; }
+.text-uppercase { text-transform: uppercase; }
+.font-weight-bold { font-weight: bold; }
+
+/* Common background utilities */
+.bg-black { background-color: black; }
+.bg-transparent { background-color: transparent; }

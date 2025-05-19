@@ -158,10 +158,127 @@
     /* Styles for large desktops */
   }
 
+  /* Hero Section Responsive Styles */
+.hero-section {
+  overflow: hidden;
+}
 
-  
-  
+.hero-title {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
 
-  
+.hero-description p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
 
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
   
+  .hero-description p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 1.75rem;
+  }
+  
+  .hero-description p {
+    font-size: 0.9rem;
+  }
+  
+  .hero-content {
+    padding: 1.5rem !important;
+  }
+}
+
+/* Community Component Styles */
+.community-wrapper {
+  padding: 2rem 0;
+  overflow: hidden;
+}
+
+.community-container {
+  min-height: 300px;
+  height: auto;
+}
+
+.community-fs {
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.img-circle {
+  width: 70px;
+  transition: transform 0.3s ease;
+}
+
+.img-circle:hover {
+  transform: scale(1.1);
+}
+
+.all-container {
+  transition: all 0.3s ease;
+}
+
+/* Position adjustments for different screen sizes */
+@media (max-width: 768px) {
+  .community-fs {
+    font-size: 1.5rem;
+  }
+
+  .img-circle {
+    width: 50px;
+  }
+
+  .linkdien-container { top: 40%; left: 10%; }
+  .x-twitter-container { top: 20%; right: 15%; }
+  .discord-container { top: 60%; left: 20%; }
+  .discord-container2 { top: 30%; left: 30%; }
+  .youtube-container { top: 70%; right: 20%; }
+  .forum-container { top: 50%; right: 25%; }
+  .wiki-container { top: 80%; left: 40%; }
+  .snap-container { top: 25%; left: 50%; }
+  .tele-container { top: 65%; right: 35%; }
+  .forum-container2 { top: 45%; left: 15%; }
+  .wiki-container2 { top: 75%; right: 30%; }
+  .tele-container2 { top: 35%; right: 40%; }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .community-fs {
+    font-size: 1.75rem;
+  }
+
+  .img-circle {
+    width: 60px;
+  }
+
+  /* Adjust container positions for tablet */
+  .linkdien-container { top: 45%; left: 15%; }
+  .x-twitter-container { top: 25%; right: 20%; }
+  .discord-container { top: 65%; left: 25%; }
+  .discord-container2 { top: 35%; left: 35%; }
+  .youtube-container { top: 75%; right: 25%; }
+  .forum-container { top: 55%; right: 30%; }
+  .wiki-container { top: 85%; left: 45%; }
+  .snap-container { top: 30%; left: 55%; }
+  .tele-container { top: 70%; right: 40%; }
+  .forum-container2 { top: 50%; left: 20%; }
+  .wiki-container2 { top: 80%; right: 35%; }
+  .tele-container2 { top: 40%; right: 45%; }
+}
+
+
+
+
+
+
+
+

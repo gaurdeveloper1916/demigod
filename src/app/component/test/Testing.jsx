@@ -1,13 +1,12 @@
 'use client'
 import { useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, A11y } from 'swiper/modules';
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 
 import Header from '../common/header/Header';
 import Map from '../googlemap/Map';
@@ -72,9 +71,21 @@ const Testing = () => {
         },
     ];
 
-    // Refs for custom navigation
+    const swiperRef = useRef(null);
     const prevRef = useRef(null);
     const nextRef = useRef(null);
+
+    const handlePrev = () => {
+        if (swiperRef.current) {
+            swiperRef.current.slidePrev();
+        }
+    };
+
+    const handleNext = () => {
+        if (swiperRef.current) {
+            swiperRef.current.slideNext();
+        }
+    };
 
     return (
         <>
@@ -84,22 +95,15 @@ const Testing = () => {
                         <source src="./home/demigod.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
-                    <div className="d-flex p-0 postion-relative d-flex  vh-100 align-items-center justify-content-center ">
-                        <div className="col-lg-12  d-flex text-cont  ">
-                            <div 
-                                 className=" background-text  text-center my-5 px-5 py-4 rounded">
-                                <p
-                                    style={{ fontFamily: 'ui-serif', lineHeight: '20px', fontSize:'45px',fontWeight:'bold' }}
-                                    className="display-2 video-text mb-2 text-start"
-                                    
-                                >
+                    <div className="d-flex p-0 postion-relative d-flex vh-100 align-items-center justify-content-center">
+                        <div className="col-lg-12 d-flex text-cont">
+                            <div className="background-text text-center my-5 px-5 py-4 rounded">
+                                <p style={{ fontFamily: 'ui-serif', lineHeight: '20px', fontSize:'45px', fontWeight:'bold' }}
+                                   className="display-2 video-text mb-2 text-start">
                                     Media.Marketing.Events
                                 </p>
-                                <p
-                                    style={{ lineHeight: '35px', fontSize: '28px' }}
-                                    className="video-text mt-4 variety text-start col-lg-12"
-                                    
-                                >
+                                <p style={{ lineHeight: '35px', fontSize: '28px' }}
+                                   className="video-text mt-4 variety text-start col-lg-12">
                                     Brand Association |
                                     Venture Capital |
                                     Revenue Sharing Model |
@@ -110,66 +114,68 @@ const Testing = () => {
                                     Retail Interaction & Consumer Base |
                                     Print & Electronic Media Advertising |
                                     Digital Media Marketing |
-                                    
-                                   
-                                 
-                                    Event Management Services(B2B/B2C/Private) 
-                                    
+                                    Event Management Services(B2B/B2C/Private)
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="d-flex justify-content-center align-items-center p-5 bg-black">
-                    <div className="col-lg-10">
-                        <div className="d-flex gap-4 justify-content-center align-items-center">
-                            <div style={{fontSize:"36px",fontWeight:'200',lineHeight:"40px"}} className="col-lg-3 text-white ">
-                                <p>Our Products & <br /> Services</p>
-                            </div>
-                            <div className="col-lg-9 text-white">
-                                <p className="marketing-agency-text">
-                                 Media, Marketing, and Events agency under the DemiGod House Hedge Fund portfolio, crafting impactful brand success stories for associates and clients worldwide.
-                                </p>
+                {/* Products Section */}
+                <div className="products-section bg-black py-4 px-3 px-md-4 px-lg-5">
+                    <div className="container-fluid">
+                        {/* Header */}
+                        <div className="products-header mb-4">
+                            <div className="row align-items-center text-white">
+                                <div className="col-12 col-md-4 mb-3 mb-md-0">
+                                    <h2 className="products-title">Our Products & Services</h2>
+                                </div>
+                                <div className="col-12 col-md-8">
+                                    <p className="products-description">
+                                        Media, Marketing, and Events agency under the DemiGod House Hedge Fund portfolio, crafting impactful brand success stories for associates and clients worldwide.
+                                    </p>
+                                </div>
                             </div>
                         </div>
 
-                        {/* Custom buttons */}
-                        <div className="d-flex justify-content-end gap-2 my-3">
-                            {/* <FaLongArrowAltLeft  />
-                        <FaLongArrowAltRight /> */}
-                            <div ref={prevRef} className=" bg-black cursor-pointer"><GoArrowLeft color='white' size={30} /></div>
-                            <div ref={nextRef} className=" bg-black cursor-pointer"><GoArrowRight color='white' size={30} /></div>
+                        {/* Navigation Buttons */}
+                        <div className="navigation-wrapper d-flex justify-content-center justify-content-md-end gap-3 mb-4">
+                            <button 
+                                onClick={handlePrev} 
+                                className="nav-button" 
+                                aria-label="Previous slide"
+                                ref={prevRef}
+                            >
+                                <GoArrowLeft color='white' size={30} />
+                            </button>
+                            <button 
+                                onClick={handleNext} 
+                                className="nav-button" 
+                                aria-label="Next slide"
+                                ref={nextRef}
+                            >
+                                <GoArrowRight color='white' size={30} />
+                            </button>
                         </div>
 
                         {/* Swiper */}
-                        <div className="swiper-container-demigod mt-3">
+                        <div className="swiper-container-demigod">
                             <Swiper
-                                modules={[Navigation, Pagination, Scrollbar, A11y]}
+                                onBeforeInit={(swiper) => {
+                                    swiperRef.current = swiper;
+                                }}
+                                modules={[Navigation, Pagination, A11y]}
                                 spaceBetween={20}
-                                slidesPerView={3}
+                                slidesPerView={1}
+                                loop={true}
                                 navigation={{
                                     prevEl: prevRef.current,
                                     nextEl: nextRef.current,
                                 }}
-                                onSwiper={(swiper) => {
-                                    // fix navigation after component is mounted
-                                    setTimeout(() => {
-                                        swiper.params.navigation.prevEl = prevRef.current;
-                                        swiper.params.navigation.nextEl = nextRef.current;
-                                        swiper.navigation.destroy();
-                                        swiper.navigation.init();
-                                        swiper.navigation.update();
-                                    });
-                                }}
                                 pagination={{ clickable: true }}
-                                scrollbar={{ draggable: true }}
                                 breakpoints={{
-                                    320: {
-                                        slidesPerView: 1,
-                                    },
                                     768: {
-                                        slidesPerView: 2,
+                                        slidesPerView: 1,
                                     },
                                     1024: {
                                         slidesPerView: 3,
@@ -178,23 +184,21 @@ const Testing = () => {
                             >
                                 {Data.map((item, index) => (
                                     <SwiperSlide key={index}>
-                                        <div className="automobile" data-aos="fade-up" data-aos-duration="1500">
+                                        <div className="product-card" data-aos="fade-up" data-aos-duration="1500">
                                             <img
-                                                style={{ height: "200px", borderRadius: "20px" }}
-                                                className="img-fluid w-100 p-2 opacity-50"
+                                                className="product-image"
                                                 src={item.image}
                                                 alt={item.heading}
                                             />
-                                            <div className="smallfont px-2 py-2" style={{ lineHeight: "20px" }}>
-                                                <p className="p-0 fw-bold h6">{item.heading}</p>
-                                                <p>{item.description}</p>
+                                            <div className="product-content">
+                                                <h3 className="product-title">{item.heading}</h3>
+                                                <p className="product-description">{item.description}</p>
                                             </div>
                                         </div>
                                     </SwiperSlide>
                                 ))}
                             </Swiper>
                         </div>
-
                     </div>
                 </div>
 

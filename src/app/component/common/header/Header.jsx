@@ -96,13 +96,11 @@ function Header({ where }) {
             {/* Logo */}
             <div className="position-relative">
               <a href="/" className="text-deco">
-                <div className="text-center">
+                <div className="logo-container">
                   <img className="logoImage cursor" src="./header&footer/new_logo.png" alt="Logo of Demigod House" />
-                  {/* <h6 style={{color:"#866b2f"}} className=" fw-bold ">DEMIGOD HOUSE</h6> */}
+                  <p className="brand-name">DemiGod House</p>
                 </div>
-                <p style={{color:"rgb(169 134 56)"}} className={`position-absolute badge text-web fs-6 fw-bold text-nowrap text-center ${where !== 'corporate' ? 'logo-text' : 'logo-text-corporate'}`}>
-                  DemiGod House
-                </p>              </a>
+              </a>
             </div>
 
             {/* Navigation */}
@@ -136,10 +134,10 @@ function Header({ where }) {
       {/* Mobile Header */}
       <div className="container-fluid p-0 d-lg-none d-block bg-black p-2">
         <div className="d-flex justify-content-between align-items-center">
-          <img className="w-25" src="./header&footer/new_logo.png" alt="Logo" />
-          {/* <p className={`position-absolute ${where === "corporate" ? "logo-text-corporate" : "logo-text"}`}>
-            Media.Marketing.Event’s
-          </p> */}
+          <div className="logo-container">
+            <img className="logoImage" src="./header&footer/new_logo.png" alt="Logo" />
+            <p className="brand-name">DemiGod House</p>
+          </div>
           <OffCanvasExample placement="end" name="end" data={data} where={where} />
         </div>
       </div>

@@ -62,3 +62,95 @@
   font-weight: 100;
   color: white;
 }
+
+/* Video Section */
+.video-title {
+    font-family: ui-serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.video-description {
+    font-size: clamp(1rem, 2.5vw, 1.75rem);
+    line-height: 1.5;
+}
+
+/* Products Section */
+.products-title {
+    font-size: clamp(1.75rem, 3vw, 2.25rem);
+    line-height: 1.2;
+    margin-bottom: 0;
+}
+
+.products-description {
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.nav-button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.nav-button:hover {
+    transform: scale(1.1);
+}
+
+.product-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.product-image {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
+.product-content {
+    padding: 1.5rem;
+}
+
+.product-title {
+    color: white;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.product-description {
+    color: white;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Swiper Customization */
+.swiper-pagination-bullet {
+    background: white !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #866b2f !important;
+}
+
+@media (max-width: 768px) {
+    .background-text {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .product-card {
+        max-width: 100%;
+    }
+}

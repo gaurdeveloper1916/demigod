@@ -62,7 +62,7 @@ const page = () => {
         <Weplanwecelebrate/>
         <Eventmanagement/>
         <Chooseus/>
-        {/* <VideoCarousel/> */}
+      
 
         </>
     )

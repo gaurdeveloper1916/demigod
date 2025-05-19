@@ -2,20 +2,13 @@ import React from "react";
 import Header from "../component/common/header/Header";
 import Herosection from "../component/mnm/Herosection";
 import Community from "../component/mnm/Community";
-import Ecosystem from "../component/mnm/Ecosystem";
 import Industryevents from "../component/mnm/Industryevents";
 import Openforbusiness from "../component/mnm/Openforbusiness";
-import Partnership from "../component/mnm/Partnership";
 import Getintouch from "../component/mnm/Getintouch";
 import TabsComponent from "../component/mnm/TabsComponent"
-import SwiperContainer from "../component/mnm/trusted/SwiperContainer";
-import Trusted from "../component/mnm/trusted/Trusted";
-import OnScrollToChnageDiv from "../component/resuablecomponents/OnScrollToChnageDiv";
 import LeadingOrganisation from "../component/mnm/LeadingOrganisation";
-import Footer from "../component/common/footer/Footer";
 import ElectronicCommunity from "../component/mnm/slider/ElectronicCommunity";
-import Sectionone from "../component/mnm/Sectionone"
-import Repetativemandm from "../component/mnm/Repetativemandm"
+
 
 
 export const metadata = {
@@ -67,22 +60,30 @@ export const metadata = {
 
 function Index() {
   return (
-    <div className="container-fluid p-0 bg-black">
-      <Header />
-      {/* <Trusted/> */}
-      <Herosection /> 
-      <Community/> 
-      <ElectronicCommunity/> 
-      <LeadingOrganisation/> 
-      {/* <Ecosystem /> */}
-      <Industryevents/>
-      <TabsComponent/>
-      {/* <Sectionone/>   */}
-      {/* <Repetativemandm/> */}
-
-      <Openforbusiness/>
-      {/* <Partnership/> */}
-      <Getintouch/> 
+    <div className="container-fluid p-0 bg-black overflow-hidden w-100">
+      <div className="w-100 m-0">
+        <Header />
+        <Herosection /> 
+        <div className="w-100">
+          <Community/> 
+        </div>
+        <div className="w-100">
+          <ElectronicCommunity/> 
+        </div>
+        <div className="w-100">
+          <LeadingOrganisation/> 
+        </div>
+        <div className="w-100">
+          <Industryevents/>
+        </div>
+        <div className="w-100">
+          <TabsComponent/>
+        </div>
+        <div className="w-100">
+          <Openforbusiness/>
+        </div>
+        <Getintouch/> 
+      </div>
     </div> 
   );
 }

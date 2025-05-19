@@ -1,6 +1,6 @@
 'use client'
 import React, { useContext } from "react";
-import { MdArrowCircleLeft, MdArrowCircleRight, MdArrowOutward } from "react-icons/md";
+import {  MdArrowOutward } from "react-icons/md";
 import './index.css'
 import Link from "next/link";
 import { Auth } from "../../../context/AppContext";
@@ -21,7 +21,6 @@ const Prochainement = () => {
 
   const arr = [
     {
-      // image: "/images/landing-page-images/section3/EUR.webp",
       image: "/event-page/economic_patriots.webp",
       leftImage: "",
       rightImage: "",
@@ -31,7 +30,6 @@ const Prochainement = () => {
       ticketsDes: "🌟 Connect with real business heroes who've been there, done that\n🤝 Network with folks who speak your language - no corporate jargon\n💡 Get practical tips you can use right away\n🎯 Learn winning strategies from people who've built success from scratch\n🚀 Walk away with action steps, not just theory\n✨ Be part of Europe's next big economic story"
     },
     {
-      // image: "/images/landing-page-images/section3/INDIA.webp",
       image: "/event-page/india_patriots.webp",
 
       leftImage: "",
@@ -42,7 +40,6 @@ const Prochainement = () => {
       ticketsDes: "🎉 Meet successful Indian entrepreneurs who started just like you\n💪 Get insider knowledge from people who understand our market\n📱 Learn how to use tech to grow your business\n🤝 Make connections that actually matter\n💡 Get real solutions for real business challenges\n🌟 Be part of India's economic revolution"
     },
     {
-      // image: "/images/landing-page-images/section3/USA.webp",
       image: "/event-page/us_patroits.webp",
       event_name: "Economic Patriots Summit USA",
       leftImage: "",
@@ -57,23 +54,13 @@ const Prochainement = () => {
       <div className="d-flex justify-content-between align-items-center ">
         <div>
           <h4 className="text-white">Upcoming Events</h4></div>
-        {/* <div>
-          <div className="d-lg-block d-md-block d-none">
-            <button className="px-4 py-2 rounded smallfont bg-black text-white border">View All Events</button>
-            <MdArrowCircleLeft className="cursor" color="white" size={34} />
-            <MdArrowCircleRight className="cursor" color="white" size={34} />
-          </div>
-          <div className="d-lg-none d-md-none d-block">
-            <button className="px-4 py-2 rounded smallfont bg-black text-white border">View All Events</button>
-          </div>
-        </div> */}
+      
       </div>
       <p className="text-secondary fw-bold ">Stay updated with the latest Economic Patriots Summits happening around the world.</p>
       <div className="d-flex flex-lg-row flex-column justify-content-center align-items-center  gap-5 ">
         {arr.map((item, index) => {
           return (
             <Link
-              // onClick={() => handleUpdate(item.event_name, item.desc, item.ticketsDes)}
               key={index}
               href={item.linking}
             >
@@ -88,22 +75,21 @@ const Prochainement = () => {
                   <div className="specifies d-flex justify-content-center align-items-center">
                     <div className="position-absolute fontdiv">
                       <h3 className="m-0 mediumfont text-white fw-bold">{item.event_name}</h3>
-                      {/* <p className="m-0 smallfont text-center text-white fw-bold">{item.desc}</p> */}
                     </div>
                   </div>
                 </div>
                 <div style={{ backgroundColor: '#866b2f' }} className="w-100 py-2 my-2 cursor rounded">
-                  {/* <Link href={item.linking}> */}
+                
                   <div className="d-flex justify-content-between text-white mx-3 align-items-center">
                     <div>
                       <p className="m-0 fw-bold">{item.event_name}</p>
-                      {/* <p className="m-0 fw-bold">{item.desc}</p> */}
+                      
                     </div>
                     <div className="bg-warning rounded-pill">
                       <MdArrowOutward className="p-1" size={30} />
                     </div>
                   </div>
-                  {/* </Link> */}
+              
                  
                 </div>
               </div>
