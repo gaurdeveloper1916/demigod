@@ -125,6 +125,7 @@ const Testing = () => {
                 <div className="products-section bg-black py-4 px-3 px-md-4 px-lg-5">
                     <div className="container-fluid">
                         {/* Header */}
+<<<<<<< HEAD
                         <div className="products-header ">
                             <div className="row align-items-center text-white">
                                 <div className="col-12 col-md-4 mb-3 mb-md-0">
@@ -132,6 +133,15 @@ const Testing = () => {
                                 </div>
                                 <div className="col-12 col-md-6">
                                     <p className="products-description">
+=======
+                        <div className="products-header mb-4">
+                            <div className="row align-items-center text-white px-3">
+                                <div className="col-12 col-md-4 mb-3 mb-md-0">
+                                    <h2 className="products-title weight100">Our Products & <br/>Services</h2>
+                                </div>
+                                <div className="col-12 col-md-8">
+                                    <p className="products-description weight100">
+>>>>>>> db3459dc00997a85b7e2ed24cb68c08fadb0fc32
                                         Media, Marketing, and Events agency under the DemiGod House Hedge Fund portfolio, crafting impactful brand success stories for associates and clients worldwide.
                                     </p>
                                 </div>
@@ -139,8 +149,13 @@ const Testing = () => {
                         </div>
 
                         {/* Navigation Buttons */}
+<<<<<<< HEAD
                         <div className="navigation-wrapper d-flex justify-content-end justify-content-md-end gap-3 mb-4">
                             <div 
+=======
+                        <div className="navigation-wrapper d-flex justify-content-center justify-content-md-end  mb-4">
+                            < div
+>>>>>>> db3459dc00997a85b7e2ed24cb68c08fadb0fc32
                                 onClick={handlePrev} 
                                 className="nav-button" 
                                 aria-label="Previous slide"

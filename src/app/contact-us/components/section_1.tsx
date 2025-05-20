@@ -49,8 +49,8 @@ const Section_1: NextPage = () => {
         />
       </Head>
 
-      <main className="bg-black text-white min-vh-100 d-flex align-items-center">
-        <Container>
+      <main className="bg-black text-white min-vh-100 d-flex align-items-center mt-5">
+        <Container className='mt-5'>
           <Row className="justify-content-between align-items-center">
             <Col lg={5}>
               <div className="mb-5">

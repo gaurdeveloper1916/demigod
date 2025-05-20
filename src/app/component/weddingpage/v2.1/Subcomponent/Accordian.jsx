@@ -41,7 +41,11 @@ const Accordian = () => {
     };
 
     return (
+<<<<<<< HEAD
         <div className="container p-5 mt-5">
+=======
+        <div className="container p-3 mt-5">
+>>>>>>> db3459dc00997a85b7e2ed24cb68c08fadb0fc32
             <p className='bride'>WHY BRIDES & GROOMS CHOOSE US</p>
             <h3 className='col-lg-12 hospitality' >
                 From Royal & luxurious hospitality to majestic execution,we make your divine dream wedding come alive.

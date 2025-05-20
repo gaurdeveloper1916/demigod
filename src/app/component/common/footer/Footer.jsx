@@ -38,14 +38,12 @@ function Footer(props) {
     "Contact",
   ];
   const demiGroup = [
-
     { name: "DemiGod Art", imageUrl: "https://www.artdemigod.com/assets/image/art%20logo%20finel.png" },
     { name: "DemiGod Cloud", imageUrl: "https://www.demigodcloud.com/images/demigod%20vector%20nav.webp" },
     { name: "DemiGod HealthBox", imageUrl: "./header&footer/healthboxlogo.png" },
-    { name: "Demigod", imageUrl: "./header&footer/new_logo.png"    },
+    { name: "Demigod House", imageUrl: "./header&footer/new_logo.png"    },
     { name: "Anagari", imageUrl: "./header&footer/anagari.png" },
     { name: "DemiGod Estate", imageUrl: "./header&footer/navlogo.png" }
-
   ];
   const shortcut = [
     { name: "M&M", linking: "/" },
@@ -129,7 +127,7 @@ function Footer(props) {
                   </li>
                   <li>
                     <a
-                      href="https://www.instagram.com/DemiGodCloud"
+                      href="https://www.instagram.com/demigod_house?igsh=MWY4YWRoZ3k5OHN3OQ=="
                       className="text-white"
                     >
                       <FaInstagram size={30} />
@@ -137,7 +135,7 @@ function Footer(props) {
                   </li>
                   <li>
                     <a
-                      href="https://twitter.com/DemiGodCloud"
+                      href="X: https://x.com/demigodhouse?t=YuIHCsW6riNaPHr8EfYs_A&s=09"
                       className="text-white"
                     >
                       <FaXTwitter size={30} />
@@ -145,7 +143,7 @@ function Footer(props) {
                   </li>
                   <li>
                     <a
-                      href="https://linkedin.com/company/DemiGodCloud"
+                      href="https://www.linkedin.com/in/demigod-house-0b1447366/"
                       className="text-white"
                     >
                       <FaLinkedinIn size={30} />

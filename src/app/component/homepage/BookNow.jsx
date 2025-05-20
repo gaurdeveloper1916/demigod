@@ -73,7 +73,7 @@ const Booknow = () => {
           <div className="booknow__title_wrapper">
             <FaPlus className="plus_icon" />
             <p
-              className={`book_title text-uppercase ${
+              className={`book_title text-uppercase fs-4  ${
                 currentSlide === "djnight" ? "active" : ""
               }`}
             >
@@ -116,13 +116,13 @@ const Booknow = () => {
          
           <div className="booknow__title_wrapper">
             <FaPlus className="plus_icon" />
-            <p
+            <h6
               className={`book_title text-uppercase ${
                 currentSlide === "dandiyanight" ? "active" : ""
               }`}
             >
-               Movie Theme Event
-            </p>
+               Movie Theme Ev
+            </h6>
           </div>
 
           <div
