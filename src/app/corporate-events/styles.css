@@ -284,7 +284,7 @@ img {
   vertical-align: bottom;
   float: none;
   height: auto;
-  max-width: 100%;
+  /* max-width: 100%; */
   width: 100%;
 }
 

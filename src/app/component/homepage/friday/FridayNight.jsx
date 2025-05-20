@@ -68,6 +68,15 @@ export default function FridayNight() {
       leftImage: "",
       rightImage: "",
       desc: "A Career Expo is a premier event where job seekers, professionals, and recruiters come together to explore career opportunities, industry trends, and skill development. Whether you're a fresh graduate, an experienced professional, or a company looking for top talent, this expo serves as a dynamic platform for networking and career advancement.",
+    },
+     {
+      img: "/event-page/main_image.webp",
+      name: "Bharatnatyam Dance Competition",
+
+      linking: '/landingpage?slug=natya-tarangini-event',
+      leftImage: "",
+      rightImage: "",
+      desc: "Embracing Centuries of Grace and Rhythm, Natya Tarangini is a premier Bharatnatyam competition celebrating the timeless beauty of India’s classical dance. This cultural celebration unites rising stars and seasoned performers through expressive storytelling, intricate footwork, and sublime abhinaya. Participants and attendees can immerse themselves in masterclasses, collaborative showcases, and electrifying performances that honor tradition and inspire the next generation.",
     }
   ];
 

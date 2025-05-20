@@ -104,7 +104,11 @@ function Header({ where }) {
                   DemiGod Hou
                 </p>  */}
 
-                <img className="position-absolute logo-text-demi  " src="./header&footer/demigod-text1.png"></img> 
+                <img 
+                // className="position-absolute logo-text-demi  "  
+                
+                className={`position-absolute  text-center ${where !== 'corporate' ? 'logo-text-demi  ' : 'logo-text-corporate-text'}`}
+                src="./header&footer/demigod-text1.png"></img> 
                            </a>
             </div>
 

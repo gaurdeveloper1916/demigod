@@ -16,7 +16,7 @@
 }
 
 .image-container:hover .btn-custom {
-  background-color: transparent;
+  /* background-color: transparent; */
   border: none;
 }
 
@@ -34,7 +34,9 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: purple;
+  background-image: linear-gradient(270deg, #997b39, #dbb85e 50%, #866b2f);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Black shadow */
+
   color: white;
   text-align: center;
   padding: 20px;
