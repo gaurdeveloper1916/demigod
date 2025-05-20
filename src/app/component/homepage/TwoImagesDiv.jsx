@@ -179,7 +179,7 @@ function TwoImagesDiv() {
                           </div>
 
                           <div className="position-absolute bottom-0 w-100">
-                            <div className="d-flex gap-5 justify-content-center align-items-center mb-4 text-center">
+                            <div className="d-none d-sm-flex gap-5 justify-content-center align-items-center mb-4 text-center">
                               <div className="line-height text-white text-shadow">
                                 {image.bottomLine.map((item, index) => <p key={index}>{item}</p>)}
                               </div>

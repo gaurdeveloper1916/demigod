@@ -90,15 +90,15 @@ const Testing = () => {
     return (
         <>
             <div>
-                <div className="px-lg-5 px-3 px-md-5 background_video">
+                <div className="px-lg-5 px-0 px-md-5 background_video">
                     <video autoPlay loop muted className="video-background">
                         <source src="./home/demigod.mp4" type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                     <div className="d-flex p-0 postion-relative d-flex vh-100 align-items-center justify-content-center">
                         <div className="col-lg-12 d-flex text-cont">
-                            <div className="background-text text-center my-5 px-5 py-4 rounded">
-                                <p style={{ fontFamily: 'ui-serif', lineHeight: '20px', fontSize:'45px', fontWeight:'bold' }}
+                            <div className="background-text text-center my-5 px-3 px-md-5 py-4 rounded w-100">
+                                <p style={{ fontFamily: 'ui-serif', lineHeight: '1.2', fontSize:'45px',  fontWeight:'bold' }}
                                    className="display-2 video-text mb-2 text-start">
                                     Media.Marketing.Events
                                 </p>
@@ -125,12 +125,12 @@ const Testing = () => {
                 <div className="products-section bg-black py-4 px-3 px-md-4 px-lg-5">
                     <div className="container-fluid">
                         {/* Header */}
-                        <div className="products-header mb-4">
+                        <div className="products-header ">
                             <div className="row align-items-center text-white">
                                 <div className="col-12 col-md-4 mb-3 mb-md-0">
-                                    <h2 className="products-title">Our Products & Services</h2>
+                                    <h2 className="products-title ">Our Products & <br /> Services</h2>
                                 </div>
-                                <div className="col-12 col-md-8">
+                                <div className="col-12 col-md-6">
                                     <p className="products-description">
                                         Media, Marketing, and Events agency under the DemiGod House Hedge Fund portfolio, crafting impactful brand success stories for associates and clients worldwide.
                                     </p>
@@ -139,23 +139,23 @@ const Testing = () => {
                         </div>
 
                         {/* Navigation Buttons */}
-                        <div className="navigation-wrapper d-flex justify-content-center justify-content-md-end gap-3 mb-4">
-                            <button 
+                        <div className="navigation-wrapper d-flex justify-content-end justify-content-md-end gap-3 mb-4">
+                            <div 
                                 onClick={handlePrev} 
                                 className="nav-button" 
                                 aria-label="Previous slide"
                                 ref={prevRef}
                             >
                                 <GoArrowLeft color='white' size={30} />
-                            </button>
-                            <button 
+                            </div>
+                            <div 
                                 onClick={handleNext} 
                                 className="nav-button" 
                                 aria-label="Next slide"
                                 ref={nextRef}
                             >
                                 <GoArrowRight color='white' size={30} />
-                            </button>
+                            </div>
                         </div>
 
                         {/* Swiper */}

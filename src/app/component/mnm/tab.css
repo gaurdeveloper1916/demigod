@@ -6,6 +6,8 @@
     width: 100%;
     z-index: 2;
   }
+
+
   
   .info_card ::before {
     background: linear-gradient(#0000, #071d39);
@@ -76,6 +78,7 @@
   width: 60%;
 }
 
+
   .image-tab{
     width: 100%;
     height: 500px;
@@ -86,11 +89,21 @@
   }
 }
 
+
 @media (max-width: 1023px) {
   .show-more-button {
       display: block;
   }
 } */
+
+
+@media (max-width: 993px){
+  .bullet{
+      padding-top: 50px;
+    }
+}
+
+
   @media (min-width: 320px) and (max-width: 479px) { 
  
     .tab-css-button-slected {
@@ -102,4 +115,6 @@
     .sub-text{
       font-size: 10px;
     }
+
+    
   }

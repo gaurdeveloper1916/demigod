@@ -21,7 +21,7 @@ const TabsComponent = () => {
     ];
     return (
         <>
-            <div className="w-full d-flex justify-content-center px-5">
+            <div className="w-full d-flex justify-content-center bullet px-5">
                 <ul
                     className="d-flex gap-3 mb-1 overflow-x-auto lg:overflow-hidden px-2"
                     role="tablist"
