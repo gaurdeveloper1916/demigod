@@ -85,8 +85,8 @@ function Footer(props) {
           >
             <div className="d-flex gap-4">
               {demiGroup.map((item, i) => (
-                <Link target="blank" className="text-deco" href={`${item.link}`}>
-                 <div key={i + 1} className="text-center">
+                <Link  key={i + 1} target="blank" className="text-deco" href={`${item.link}`}>
+                 <div className="text-center">
                   <img
                     className="m-0 logoImage-footer-marque"
                     src={item.imageUrl}
