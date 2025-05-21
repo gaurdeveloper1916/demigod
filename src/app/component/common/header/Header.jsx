@@ -108,7 +108,7 @@ function Header({ where }) {
                 // className="position-absolute logo-text-demi  "  
                 
                 className={`position-absolute  text-center ${where !== 'corporate' ? 'logo-text-demi  ' : 'logo-text-corporate-text'}`}
-                src="./header&footer/demigod-text1.png"></img> 
+                src="./header&footer/image.png"></img> 
                            </a>
             </div>
 
