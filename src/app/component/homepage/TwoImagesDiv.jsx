@@ -122,20 +122,17 @@ function TwoImagesDiv() {
   }
   return (
     <div
-      className="container-fluid mb-5 col-lg-11"
-    // style={{
-    //   backgroundImage: `url('/ve.jpg')`,
-    //   backgroundSize: 'cover',
-    //   backgroundPosition: 'center',
-    //   backgroundRepeat: 'no-repeat',
-    // }}
+      className="container-fluid mb-5 col-lg-10 px-lg-5 px-md-4 px-4 mx-auto"
     >
       {data.map((section, index) => (
-        <div className="d-flex flex-lg-row flex-column gap-3 mt-5 p-lg-0 p-2" key={index}>
+        <div className="d-flex flex-lg-row flex-column gap-4 mt-5 px-2" key={index}>
           {section.images.map((image, i) => (
-
-            <div onClick={() => { handleChange(image.title, image.description, image.ticketdes, image.src, image.leftImage, image.rightImage) }} className={`col-lg-${image.size} ${i === 0 ? "mt-5" : ""}`} key={i}>
-              <Link href={image.link}>
+            <div 
+              onClick={() => { handleChange(image.title, image.description, image.ticketdes, image.src, image.leftImage, image.rightImage) }} 
+              className={`col-lg-${image.size} ${i === 0 ? "mt-5" : ""} card-wrapper pb-4 px-3`} 
+              key={i}
+            >
+              <Link href={image.link} className="d-block mb-3">
                 {image.src.endsWith(".mp4") ? (
                   <div className="video-container w-100 position-relative">
                     <video autoPlay muted loop playsInline className="img-fluid w-100">
@@ -265,8 +262,8 @@ function TwoImagesDiv() {
 
                 )}
               </Link>
-              <div className="mt-3" style={{ lineHeight: "2px" }}>
-                <div className="d-flex align-items-center justify-content-between mx-2">
+              <div className="mt-4 px-2" style={{ lineHeight: "2px" }}>
+                <div className="d-flex align-items-center justify-content-between mb-3">
                   <div className="text-white verySmallFont">
                     <div style={{ lineHeight: "30px" }}>
                       <p className="m-0 text-white image-div-content">{image.title}</p>
@@ -279,7 +276,7 @@ function TwoImagesDiv() {
                     </div>
                   </div>
                 </div>
-                <hr className="text-white hrClass p-0" />
+                <hr className="text-white hrClass p-0 mt-3" />
               </div>
             </div>
           ))}

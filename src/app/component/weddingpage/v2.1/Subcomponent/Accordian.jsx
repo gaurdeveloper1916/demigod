@@ -45,7 +45,7 @@ const Accordian = () => {
         <div className="container p-3 mt-5">
 
             <p className='bride'>WHY BRIDES & GROOMS CHOOSE US</p>
-            <h3 className='col-lg-12 hospitality' >
+            <h3 className='col-lg-12  hospitality' >
                 From Royal & luxurious hospitality to majestic execution,we make your divine dream wedding come alive.
                 </h3>
             {sections.map((section, index) => (

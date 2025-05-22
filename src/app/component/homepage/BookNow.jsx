@@ -59,7 +59,7 @@ const Booknow = () => {
               }}
 
                >
-                <button className="btn">Book Now</button>
+              <Link href="/"> <button className="btn">Book Now</button></Link>
 
               </Link>
           </div>
@@ -101,7 +101,7 @@ const Booknow = () => {
                 pathname: '/landingpage',
                 query: { name: ' Celebrate Oktoberfest in Style'},
               }}>
-                <button className="btn ">Book Now</button>
+            <Link href="/">    <button className="btn ">Book Now</button></Link>
 
               </Link>
           </div>
@@ -144,7 +144,7 @@ const Booknow = () => {
                 pathname: '/landingpage',
                 query: { name: '  Experience the Magic of Movies '},
               }}>
-                <button className="btn ">Book Now</button>
+            <Link href="/">   <button className="btn ">Book Now</button></Link> 
 
               </Link>
           </div>
