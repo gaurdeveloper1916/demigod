@@ -38,7 +38,7 @@ function Footer(props) {
     "Contact",
   ];
   const demiGroup = [
-    { name: "DemiGod Art", imageUrl: "https://www.artdemigod.com/assets/image/art%20logo%20finel.png",link:"https://www.demigodcloud.com/" },
+    { name: "DemiGod Art", imageUrl: "./header&footer/art_logo_finel-removebg-preview.png",link:"https://www.demigodcloud.com/" },
     { name: "DemiGod Cloud", imageUrl: "https://www.demigodcloud.com/images/demigod%20vector%20nav.webp",link:"https://www.artdemigod.com/" },
     { name: "DemiGod HealthBox", imageUrl: "./header&footer/healthboxlogo.png" },
     { name: "Demigod House", imageUrl: "./header&footer/new_logo.png" ,link:"http://demigodhouse.com/"  },
