@@ -113,6 +113,10 @@ padding: 2rem;
     transform: scale(1.1);
 }
 
+.swiper-container-demigod {
+    padding: 1rem;
+}
+
 .product-card {
     background: #000000;
     border-radius: 20px;
@@ -120,7 +124,7 @@ padding: 2rem;
     margin: 0 auto;
     max-width: 350px;
     border: #866b2f 1px solid;
-    
+    padding: 1rem;
 }
 
 .product-image {
@@ -133,8 +137,7 @@ padding: 2rem;
 }
 
 .product-content {
-    padding: 1rem;
-    font-weight: lighter;
+    padding: 1.5rem;
 }
 
 .product-title {
@@ -161,13 +164,97 @@ padding: 2rem;
     background: #866b2f !important;
 }
 
+/* Page padding adjustments */
+.products-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+    .products-section {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .products-section {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .products-section {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+/* Adjust container max-width for larger screens */
+.container-fluid {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Mobile adjustments */
 @media (max-width: 768px) {
+    .products-header {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .products-title {
+        padding-left: 0;
+    }
+
+    .navigation-wrapper {
+        padding-right: 1rem;
+    }
+
     .background-text {
         width: 90%;
         margin: 0 auto;
     }
     
+    .swiper-container-demigod {
+        padding: 0.5rem;
+    }
+
     .product-card {
-        max-width: 100%;
+        padding: 0.75rem;
+    }
+
+    .product-image {
+        margin-bottom: 0.5rem;
+        padding: 0.25rem;
+    }
+
+    .product-content {
+        padding: 1rem;
+    }
+
+    .product-title {
+        margin-bottom: 0.75rem;
+        font-size: 0.95rem;
+    }
+
+    .product-description {
+        font-size: 0.85rem;
+        line-height: 1.4;
+        margin-bottom: 0.5rem;
+    }
+
+    .swiper-slide {
+        padding: 0.5rem;
+    }
+
+    .navigation-wrapper {
+        padding: 0 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .nav-button {
+        padding: 0.35rem;
     }
 }

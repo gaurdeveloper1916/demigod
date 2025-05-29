@@ -89,7 +89,7 @@ const Testing = () => {
 
     return (
         <>
-            <div>
+            <div className="px-3 px-md-4 px-lg-5">
                 <div className="px-lg-5 px-0 px-md-5 background_video">
                     <video autoPlay loop muted className="video-background">
                         <source src="./home/demigod.mp4" type="video/mp4" />
@@ -123,7 +123,7 @@ const Testing = () => {
 
                 {/* Products Section */}
                 <div className="products-section bg-black py-4 px-3 px-md-4 px-lg-5">
-                    <div className="container-fluid">
+                    <div className="container-fluid px-lg-4">
                         {/* Header */}
 
 
@@ -144,7 +144,7 @@ const Testing = () => {
                         {/* Navigation Buttons */}
 
 
-                        <div className="navigation-wrapper d-flex justify-content-center justify-content-md-end  mb-4">
+                        <div className="navigation-wrapper d-flex justify-content-end justify-content-md-end  mb-4">
                             < div
 
                                 onClick={handlePrev} 
@@ -165,7 +165,7 @@ const Testing = () => {
                         </div>
 
                         {/* Swiper */}
-                        <div className="swiper-container-demigod">
+                        <div className="swiper-container-demigod px-3 px-lg-4">
                             <Swiper
                                 onBeforeInit={(swiper) => {
                                     swiperRef.current = swiper;
@@ -182,14 +182,16 @@ const Testing = () => {
                                 breakpoints={{
                                     768: {
                                         slidesPerView: 1,
+                                        spaceBetween: 20,
                                     },
                                     1024: {
                                         slidesPerView: 3,
+                                        spaceBetween: 20,
                                     },
                                 }}
                             >
                                 {Data.map((item, index) => (
-                                    <SwiperSlide key={index}>
+                                    <SwiperSlide key={index} className="px-2">
                                         <div className="product-card" data-aos="fade-up" data-aos-duration="1500">
                                             <img
                                                 className="product-image"

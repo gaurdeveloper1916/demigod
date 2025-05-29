@@ -21,7 +21,7 @@ const ClientLandingPage = () => {
 
     return (
         <>
-        {/* <Header /> */}
+        <Header />
             <Curveslider data={matchedData} />
             <Selectticket data={matchedData} />
             <Panel data={matchedData} />

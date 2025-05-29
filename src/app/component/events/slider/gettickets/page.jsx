@@ -32,13 +32,13 @@ function GetTickets() {
         style={{ position: "relative", zIndex: 2, width: "90%" }}
       >
         <h6 className="explore-text">
-          EXPLORE THE ENCHANTING WORLD OF <br /> SYLVIRA WITH DIMIRRI VEGAS AND LIKE MINE
+         DIVE INTO THE RAW ENERGY OF ROCKVAULT <br /> SITAR-INFUSED GUITAR RIFFS, FOLK MEETS METAL,
         </h6>
 
         <div className="mt-4">
-          <h6 className="explore-text">THE CHAINSMOKER</h6>
+          
           <p style={{ fontFamily: "emoji", fontSize: "22px" }}>
-            AFROJACK LOST FREQUENCIES MARLON HOFFSTANDT MAIN <br /> STEVE AOKI TIMMY TRUMPET AND MANY MORE
+            PSYCHEDELIC JAM SESSIONS, DESI DRUMLINES,  <br /> AND A FUSION OF SOUL, SOUND, AND REBELLION LIKE NEVER BEFORE
           </p>
         </div>
 

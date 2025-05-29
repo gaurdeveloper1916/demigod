@@ -10,9 +10,15 @@
   height: 153px;
 }
 .logo-text-demi{
+<<<<<<< HEAD
       width: 200px;
     left: 7rem;
     top: 3rem;
+=======
+     width: 200px;
+    left: 5rem;
+    top: 2rem;
+>>>>>>> 0d6431676c70d4c2b3cad0cdc8f15560f51f3e93
 }
 
 .logoImage-footer-marque {
