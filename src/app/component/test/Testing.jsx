@@ -98,12 +98,10 @@ const Testing = () => {
                     <div className="d-flex p-0 postion-relative d-flex vh-100 align-items-center justify-content-center">
                         <div className="col-lg-12 d-flex text-cont">
                             <div className="background-text text-center my-5 px-3 px-md-5 py-4 rounded w-100">
-                                <p style={{ fontFamily: 'ui-serif', lineHeight: '1.2', fontSize:'45px',  fontWeight:'bold' }}
-                                   className="display-2 video-text mb-2 text-start">
+                                <p className="main-heading video-text mb-2 text-start">
                                     Media.Marketing.Events
                                 </p>
-                                <p style={{ lineHeight: '35px', fontSize: '28px' }}
-                                   className="video-text mt-4 variety text-start col-lg-12">
+                                <p className="secondary-text video-text mt-4 variety text-start col-lg-12">
                                     Brand Association |
                                     Venture Capital |
                                     Revenue Sharing Model |
@@ -144,7 +142,7 @@ const Testing = () => {
                         {/* Navigation Buttons */}
 
 
-                        <div className="navigation-wrapper d-flex justify-content-center justify-content-md-end  mb-4">
+                        <div className="navigation-wrapper d-flex justify-content-end justify-content-md-end  mb-4">
                             < div
 
                                 onClick={handlePrev} 
@@ -171,7 +169,7 @@ const Testing = () => {
                                     swiperRef.current = swiper;
                                 }}
                                 modules={[Navigation, Pagination, A11y]}
-                                spaceBetween={20}
+                                spaceBetween={0}
                                 slidesPerView={1}
                                 loop={true}
                                 navigation={{

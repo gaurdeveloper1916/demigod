@@ -113,14 +113,21 @@ padding: 2rem;
     transform: scale(1.1);
 }
 
+.swiper-container-demigod {
+    padding: 1rem;
+    margin-left: 100px;
+    margin-right: 150px;
+    
+}
+
 .product-card {
     background: #000000;
     border-radius: 20px;
     overflow: hidden;
     margin: 0 auto;
-    max-width: 350px;
+    max-width: 380px;
     border: #866b2f 1px solid;
-    
+    padding: 0.2rem;
 }
 
 .product-image {
@@ -128,13 +135,13 @@ padding: 2rem;
     width: 100%;
     object-fit: cover;
     opacity: 0.5;
-    padding: 0.5rem;
+    padding: 0.1rem;
     border-radius: 20px;
 }
 
 .product-content {
-    padding: 1rem;
-    font-weight: lighter;
+    padding: 0.4rem;
+    font-weight: 100;
 }
 
 .product-title {
@@ -147,9 +154,10 @@ padding: 2rem;
 }
 
 .product-description {
-    color: white;
-    font-size: 0.9rem;
-    line-height: 1.2;
+    color: white;   
+    font-size: 0.8rem;
+    line-height: 1.3;
+    font-size: 0.85rem;
 }
 
 /* Swiper Customization */
@@ -161,13 +169,110 @@ padding: 2rem;
     background: #866b2f !important;
 }
 
+/* Page padding adjustments */
+.products-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media (min-width: 768px) {
+    .products-section {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .products-section {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .products-section {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+/* Adjust container max-width for larger screens */
+.container-fluid {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* Mobile adjustments */
 @media (max-width: 768px) {
+    .products-header {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .products-title {
+        padding-left: 0;
+    }
+
+    .navigation-wrapper {
+        padding-right: 1rem;
+    }
+
     .background-text {
         width: 90%;
         margin: 0 auto;
     }
     
-    .product-card {
-        max-width: 100%;
+    .swiper-container-demigod {
+        padding: 0.5rem;
     }
+
+    .product-card {
+        padding: 0.75rem;
+    }
+
+    .product-image {
+        margin-bottom: 0.5rem;
+        padding: 0.25rem;
+    }
+
+    .product-content {
+        padding: 1rem;
+    }
+
+    .product-title {
+        margin-bottom: 0.75rem;
+        font-size: 0.95rem;
+    }
+
+    .product-description {
+        font-size: 0.85rem;
+        line-height: 1.4;
+        margin-bottom: 0.5rem;
+    }
+
+    .swiper-slide {
+        padding: 0.5rem;
+    }
+
+    .navigation-wrapper {
+        padding: 0 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .nav-button {
+        padding: 0.35rem;
+    }
+}
+
+/* New styles for moved inline CSS */
+.main-heading {
+    font-family: ui-serif;
+    line-height: 1.2;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.secondary-text {
+    line-height: 35px;
+    font-size: 28px;
 }

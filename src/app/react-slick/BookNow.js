@@ -23,10 +23,9 @@ const Booknow = () => {
   };
 
   const [currentSlide, setCurrentSlide] = useState("standup");
-  console.log(currentSlide)
-  function handleChange(title, description, ticketdes, imdVideo, leftImage, rightImage) {
-    console.log('hello')
-    router.push("/landingpage");
+
+  function handleChange() {
+    router.push("/");
   }
 
   return (
@@ -64,9 +63,7 @@ const Booknow = () => {
               <h6> Price money €749</h6>
               <button
                 className="btn text-white"
-                onClick={() =>
-                  handleChange()
-                }
+                onClick={handleChange}
               >
                 Book Now
               </button>
@@ -96,24 +93,12 @@ const Booknow = () => {
                 atmosphere.
               </p>
               <h6> Price money €700</h6>
-              <div onClick={() => console.log('ajksdh')}>
-                <button
-                  className="btn text-white"
-                  onClick={() =>
-                    handleChange(
-                      "Oktober Fest",
-                      "Oktoberfest party description",
-                      "Ticket description",
-                      "/event-page/oktober-fest.mp4",
-                      "/img/left2.jpg",
-                      "/img/right2.jpg"
-                    )
-                  }
-                >
-                  Book Now
-                </button>
-              </div>
-
+              <button
+                className="btn text-white"
+                onClick={handleChange}
+              >
+                Book Now
+              </button>
             </div>
           </div>
 
@@ -140,9 +125,12 @@ const Booknow = () => {
                 by blockbuster hits.
               </p>
               <h6> Price money €800</h6>
-              <Link href="/landingpage">
-                <button className="btn text-white">Book Now</button>
-              </Link>
+              <button 
+                className="btn text-white"
+                onClick={handleChange}
+              >
+                Book Now
+              </button>
             </div>
           </div>
         </div>

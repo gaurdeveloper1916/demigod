@@ -1,0 +1,30 @@
+.accordian-container {
+    padding: 3rem;
+    margin-top: 3rem;
+}
+
+.accordian-title {
+    font-size: 32px;
+}
+
+.accordian-content {
+    flex: 1;
+    margin-right: 10px;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
+
+.accordian-content.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.accordian-icon {
+    cursor: pointer;
+}
+
+.accordian-icon svg {
+    width: 24px;
+    height: 24px;
+}
