@@ -5,6 +5,7 @@ import Curveslider from '../component/landingage/Curveslider';
 import Panel from '../component/landingage/panel/Panel';
 import Selectticket from '../component/landingage/selectticket/Selectticket';
 import jsonData from '../../db.json';
+import Header from '../component/common/header/Header';
 
 const ClientLandingPage = () => {
     const searchParams = useSearchParams();
@@ -21,7 +22,7 @@ const ClientLandingPage = () => {
 
     return (
         <>
-        {/* <Header /> */}
+        <Header />
             <Curveslider data={matchedData} />
             <Selectticket data={matchedData} />
             <Panel data={matchedData} />

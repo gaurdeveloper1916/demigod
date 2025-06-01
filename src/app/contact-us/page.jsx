@@ -1,6 +1,5 @@
 "use client";
 
-
 import { useState } from 'react';
 import Header from '../component/common/header/Header';
 import Section_1 from "./components/section_1";

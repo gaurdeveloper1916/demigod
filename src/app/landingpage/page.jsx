@@ -5,7 +5,7 @@ import ClientLandingPage from './ClientLandingPage';
 const Page = () => {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <Suspense fallback={<div className="text-white">Loading...</div>}>
                 <ClientLandingPage />
             </Suspense>

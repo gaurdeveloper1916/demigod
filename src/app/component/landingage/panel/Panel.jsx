@@ -19,13 +19,13 @@ const Panel = ({ data }) => {
             <h6 className='text-white text-center'>Explore More Events</h6>
             <div className='d-flex flex-wrap gap-4 justify-content-center align-items-center'>
               <Link className='text-deco' href='/landingpage?slug=wine-making-festival'>
-                <img className='image-partner rounded ' src='./event-page/wine_making.png' alt='Businesswomen shaking hands' />
+                <img className='image-partner suggestion-image rounded ' src='./event-page/wine_making.png' alt='Businesswomen shaking hands' />
                 <p className='text-white py-2'>Wine Making Festival</p>
                 </Link>
              
 
               <Link className='text-deco' href='/landingpage?slug=marathon-mingle-event'>
-                <img className='image-partner rounded img-fluid' src="./event-page/COUPLE'S_MARATHON.webp" alt='Businesswomen shaking hands' />
+                <img className='image-partner suggestion-image rounded img-fluid' src="./event-page/COUPLE'S_MARATHON.webp" alt='Businesswomen shaking hands' />
 
                 <h6 className='text-white py-2'>Marathon Mingle</h6>
 

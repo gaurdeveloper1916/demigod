@@ -4,6 +4,7 @@ import Modal from "react-bootstrap/Modal";
 import { RxCross2 } from "react-icons/rx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./formdiv.css";
+import Link from "next/link";
 
 const Formdiv = () => {
   const [show, setShow] = useState(false);
@@ -18,15 +19,18 @@ const Formdiv = () => {
     <div
       className="mt-5"
       style={{
-        backgroundImage: "url(/event-page/event.webp)",
+        backgroundImage: "url(/event-page/main_image.webp)",
         height: "100vh",
         backgroundSize: "cover",
       }}
     >
       <div className="d-flex justify-content-center align-items-center vh-100">
-        <button className="btn px-5 rounded bg-white text-black" onClick={() => setShow(true)}>
+       
+        <Link href='/landingpage?slug=natya-tarangini-event' >
+         <button className="btn px-5 rounded bg-white text-black" >
           Explore Now
         </button>
+        </Link>
       </div>
 
       <Modal show={show} fullscreen onHide={() => { setShow(false); setStep(1); }}>

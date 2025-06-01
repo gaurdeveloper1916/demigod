@@ -38,12 +38,12 @@ function Footer(props) {
     "Contact",
   ];
   const demiGroup = [
-    { name: "DemiGod Art", imageUrl: "https://www.artdemigod.com/assets/image/art%20logo%20finel.png" },
-    { name: "DemiGod Cloud", imageUrl: "https://www.demigodcloud.com/images/demigod%20vector%20nav.webp" },
-    { name: "DemiGod HealthBox", imageUrl: "./header&footer/healthboxlogo.png" },
-    { name: "Demigod House", imageUrl: "./header&footer/new_logo.png"    },
-    { name: "Anagari", imageUrl: "./header&footer/anagari.png" },
-    { name: "DemiGod Estate", imageUrl: "./header&footer/navlogo.png" }
+    { name: "DemiGod Art", imageUrl: "./header&footer/art_logo_finel-removebg-preview.png",link:"https://www.demigodcloud.com/" },
+    { name: "DemiGod Cloud", imageUrl: "https://www.demigodcloud.com/images/demigod%20vector%20nav.webp",link:"https://www.artdemigod.com/" },
+    { name: "DemiGod HealthBox", imageUrl: "./header&footer/healthboxlogo.png",link:"#" },
+    { name: "Demigod House", imageUrl: "./header&footer/new_logo.png" ,link:"http://demigodhouse.com/"  },
+    { name: "Anagari", imageUrl: "./header&footer/anagari.png", link:"http://www.anagari.com/" },
+    { name: "DemiGod Estate", imageUrl: "./header&footer/navlogo.png",link:"http://www.amgbharat.com/" }
   ];
   const shortcut = [
     { name: "M&M", linking: "/" },
@@ -85,7 +85,8 @@ function Footer(props) {
           >
             <div className="d-flex gap-4">
               {demiGroup.map((item, i) => (
-                <div key={i + 1} className="text-center">
+                <Link  key={i + 1} target="blank" className="text-deco" href={`${item.link}`}>
+                 <div className="text-center">
                   <img
                     className="m-0 logoImage-footer-marque"
                     src={item.imageUrl}
@@ -93,6 +94,8 @@ function Footer(props) {
                   />
                   <p className="text-center text-web">{item.name}</p>
                 </div>
+                </Link>
+               
               ))}
             </div>
           </Marquee>

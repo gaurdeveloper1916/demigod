@@ -48,7 +48,7 @@ function TwoImagesDiv() {
         {
           size: 4,
 
-          src: './event-page/smallImage.webp',
+          src: './event-page/dthrone.mp4',
           link: "/landingpage?slug=Dthrone-event",
           title: "D'Throne Prince",
           leftImage: "",
