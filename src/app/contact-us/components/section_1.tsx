@@ -1,5 +1,4 @@
-// pages/index.tsx
-import React from 'react';
+import React, { useState } from 'react';
 import Head from 'next/head';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import type { NextPage } from 'next';
@@ -7,29 +6,27 @@ import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Section_1: NextPage = () => {
 
-  //   const [formData, setFormData] = useState({
-  //     name: '',
-  //     email: '',
-  //     phone: '',
-  //     subject: '',
-  //     message: ''
-  //   });
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    subject: '',
+    message: ''
+  });
 
-  //   const handleSubmit = (e) => {
-  //     e.preventDefault();
-  //     // In a real application, you would send this data to your backend
-  //     alert('Thank you for your message. We will get back to you soon!');
-  //     // Reset form
-  //     setFormData({
-  //       name: '',
-  //       email: '',
-  //       phone: '',
-  //       subject: '',
-  //       message: ''
-  //     });
-  //   };
-  
-    
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert('Thank you for your message. We will get back to you soon!');
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      subject: '',
+      message: ''
+    });
+  };
+
+
   // const handleChange = (e) => {
   //   const { name, value } = e.target;
   //   setFormData((prev) => ({ ...prev, [name]: value }));
@@ -58,9 +55,9 @@ const Section_1: NextPage = () => {
                 <p className="lead mb-5">
                   We collaborate with thousands of creators, entrepreneurs and complete legends.
                 </p>
-                
+
                 <div className="border-top border-secondary my-4"></div>
-                
+
                 <div className="contact-info">
                   <div className="d-flex align-items-center mb-4">
                     <div className="contact-icon me-3">
@@ -71,17 +68,17 @@ const Section_1: NextPage = () => {
                       <p className="mb-0">dev@demigodhouse.com</p>
                     </div>
                   </div>
-                  
+
                   <div className="d-flex align-items-center mb-4">
                     <div className="contact-icon me-3">
-                      <FaPhone className="text-warning" size={24} />  
+                      <FaPhone className="text-warning" size={24} />
                     </div>
                     <div>
                       <p className="mb-0 text-secondary">Call us</p>
                       <p className="mb-0">+91-8355897803</p>
                     </div>
                   </div>
-                  
+
                   <div className="d-flex align-items-cnter mb-4">
                     <div className="contact-icon me-3 p-2">
                       <FaMapMarkerAlt className="text-warning" size={24} />
@@ -90,26 +87,27 @@ const Section_1: NextPage = () => {
                       <p className="mb-0 font-weight-light text-secondary">Find us</p>
                       <p className="mb-0 font-weight-light">Registered Office- D-10, Kabir Marg, Banipark,Jaipur, Raj-302016</p>
                       <p className='mb-0 font-weight-light'>Corporate Office Address- 208, PMB, Charni Road,Opera House, Girgaon-Mumbai 40004
-</p>
+                      </p>
                       <p className='mb-0'>Global Satellite Offices: USA | Australia | Germany | UK & EUROPE | RUSSIA | CHINA | BRAZIL | ARGENTINA | KENYA | SOUTH AFRICA | VITENAM | THAILAND | DUBAI | SAUDI ARABIA | SINGAPORE</p>
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="border-top border-secondary my-4"></div>
               </div>
             </Col>
-            
+
             <Col lg={6}>
-              <div className="contact-form-wrapper p-4 rounded" style={{ backgroundColor: 'rgba(30, 30, 30, 0.9)' ,border: '1px solid #866b2f' }}>
-                <Form>
+              <div className="contact-form-wrapper p-4 rounded" style={{ backgroundColor: 'rgba(30, 30, 30, 0.9)', border: '1px solid #866b2f' }}>
+                <Form onSubmit={handleSubmit}>
                   <Row>
                     <Col md={6} className="mb-3">
                       <Form.Group>
                         <Form.Label>First name</Form.Label>
-                        <Form.Control 
-                          type="text" 
-                          className="bg-transparent border-0 border-bottom rounded-0 text-white" 
+                        <Form.Control
+                          required
+                          type="text"
+                          className="bg-transparent border-0 border-bottom rounded-0 text-white"
                           style={{ borderBottomColor: '#555' }}
                         />
                       </Form.Group>
@@ -117,22 +115,24 @@ const Section_1: NextPage = () => {
                     <Col md={6} className="mb-3">
                       <Form.Group>
                         <Form.Label>Last name</Form.Label>
-                        <Form.Control 
-                          type="text" 
-                          className="bg-transparent border-0 border-bottom rounded-0 text-white" 
+                        <Form.Control
+                          required
+                          type="text"
+                          className="bg-transparent border-0 border-bottom rounded-0 text-white"
                           style={{ borderBottomColor: '#555' }}
                         />
                       </Form.Group>
                     </Col>
                   </Row>
-                  
+
                   <Row>
                     <Col md={6} className="mb-3">
                       <Form.Group>
                         <Form.Label>Email</Form.Label>
-                        <Form.Control 
-                          type="email" 
-                          className="bg-transparent border-0 border-bottom rounded-0 text-white" 
+                        <Form.Control
+                          required
+                          type="email"
+                          className="bg-transparent border-0 border-bottom rounded-0 text-white"
                           style={{ borderBottomColor: '#555' }}
                         />
                       </Form.Group>
@@ -140,29 +140,31 @@ const Section_1: NextPage = () => {
                     <Col md={6} className="mb-3">
                       <Form.Group>
                         <Form.Label>Phone</Form.Label>
-                        <Form.Control 
-                          type="tel" 
-                          className="bg-transparent border-0 border-bottom rounded-0 text-white" 
+                        <Form.Control
+                          required
+                          type="tel"
+                          className="bg-transparent border-0 border-bottom rounded-0 text-white"
                           style={{ borderBottomColor: '#555' }}
                         />
                       </Form.Group>
                     </Col>
                   </Row>
-                  
+
                   <Form.Group className="mb-4">
                     <Form.Label>Message</Form.Label>
-                    <Form.Control 
-                      as="textarea" 
-                      rows={3} 
-                      className="bg-transparent border-0 border-bottom rounded-0 text-white" 
+                    <Form.Control
+                      required
+                      as="textarea"
+                      rows={3}
+                      className="bg-transparent border-0 border-bottom rounded-0 text-white"
                       style={{ borderBottomColor: '#555' }}
                     />
                   </Form.Group>
-                  
+
                   <div className="text-center">
-                    <Button 
-                      type="submit" 
-                      className="btn px-4 py-2 rounded-pill" 
+                    <Button
+                      type="submit"
+                      className="btn px-4 py-2 rounded-pill"
                       style={{ backgroundColor: '#866b2f', border: 'none' }}
                     >
                       Submit Now
