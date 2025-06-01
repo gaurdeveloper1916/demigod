@@ -151,7 +151,7 @@ function TwoImagesDiv() {
                           <div style={{ top: '11rem' }} className="position-absolute  ">
                             {
                               image.schedule.map((item, index) => <div key={index} style={{ backgroundColor: "#0000009c", borderTopRightRadius: '30px', borderBottomRightRadius: '30px' }}>
-                                <p className="px-5 py-3 text-white mediumfont">{item}</p>
+                                <p className="px-3 py-2 text-white mediumfont">{item}</p>
 
                               </div>)
                             }
@@ -168,7 +168,7 @@ function TwoImagesDiv() {
                             }}
                           >
                             <div style={{ backgroundColor: "#0000009c", borderTopLeftRadius: '30px', borderBottomLeftRadius: '30px' }}>
-                              <p className=" px-5 py-3 text-white mediumfont">
+                              <p className=" px-3 py-2 text-white mediumfont">
                                 {image.prizeMoney}
                               </p>
                             </div>

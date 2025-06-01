@@ -89,7 +89,7 @@ const Testing = () => {
 
     return (
         <>
-            <div className="px-3 px-md-4 px-lg-5">
+            <div>
                 <div className="px-lg-5 px-0 px-md-5 background_video">
                     <video autoPlay loop muted className="video-background">
                         <source src="./home/demigod.mp4" type="video/mp4" />
@@ -98,12 +98,10 @@ const Testing = () => {
                     <div className="d-flex p-0 postion-relative d-flex vh-100 align-items-center justify-content-center">
                         <div className="col-lg-12 d-flex text-cont">
                             <div className="background-text text-center my-5 px-3 px-md-5 py-4 rounded w-100">
-                                <p style={{ fontFamily: 'ui-serif', lineHeight: '1.2', fontSize:'45px',  fontWeight:'bold' }}
-                                   className="display-2 video-text mb-2 text-start">
+                                <p className="main-heading video-text mb-2 text-start">
                                     Media.Marketing.Events
                                 </p>
-                                <p style={{ lineHeight: '35px', fontSize: '28px' }}
-                                   className="video-text mt-4 variety text-start col-lg-12">
+                                <p className="secondary-text video-text mt-4 variety text-start col-lg-12">
                                     Brand Association |
                                     Venture Capital |
                                     Revenue Sharing Model |
@@ -123,7 +121,7 @@ const Testing = () => {
 
                 {/* Products Section */}
                 <div className="products-section bg-black py-4 px-3 px-md-4 px-lg-5">
-                    <div className="container-fluid px-lg-4">
+                    <div className="container-fluid">
                         {/* Header */}
 
 
@@ -165,13 +163,13 @@ const Testing = () => {
                         </div>
 
                         {/* Swiper */}
-                        <div className="swiper-container-demigod px-3 px-lg-4">
+                        <div className="swiper-container-demigod">
                             <Swiper
                                 onBeforeInit={(swiper) => {
                                     swiperRef.current = swiper;
                                 }}
                                 modules={[Navigation, Pagination, A11y]}
-                                spaceBetween={20}
+                                spaceBetween={0}
                                 slidesPerView={1}
                                 loop={true}
                                 navigation={{
@@ -182,16 +180,14 @@ const Testing = () => {
                                 breakpoints={{
                                     768: {
                                         slidesPerView: 1,
-                                        spaceBetween: 20,
                                     },
                                     1024: {
                                         slidesPerView: 3,
-                                        spaceBetween: 20,
                                     },
                                 }}
                             >
                                 {Data.map((item, index) => (
-                                    <SwiperSlide key={index} className="px-2">
+                                    <SwiperSlide key={index}>
                                         <div className="product-card" data-aos="fade-up" data-aos-duration="1500">
                                             <img
                                                 className="product-image"

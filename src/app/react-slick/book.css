@@ -28,16 +28,18 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, 250%);
-  z-index: 2;
+  z-index: 100; /* Increased z-index */
   opacity: 0;
   transition: all 0.5s ease;
   color: white;
+  pointer-events: all; /* Ensure clicks work */
 }
 
 .book_now_user_content.active {
   opacity: 1;
   left: 40%;
   transform: translate(-50%, -50%);
+  z-index: 100; /* Keep high z-index when active */
 }
 
 .slider1 {
@@ -45,7 +47,7 @@
   flex-basis: 25%;
   color: white;
   transition: flex-basis 0.5s ease;
-  z-index: 9;
+  z-index: 10; /* Base z-index */
 }
 
 .slider1:hover .plus_icon {
@@ -89,10 +91,12 @@
 
 .slider1 .book_now_user_content {
   display: none;
+  pointer-events: all;
 }
 
 .slider1.active .book_now_user_content {
   display: block;
+  pointer-events: all;
 }
 
 .book_now_user_content p.text-uppercase {
@@ -100,6 +104,7 @@
 }
 
 .slider1.active {
+  z-index: 99; /* Higher z-index when active */
   flex-basis: 50%;
 }
 
@@ -125,4 +130,10 @@
   padding: 7px 14px;
 }
 
+.book-button {
+  cursor: pointer;
+  position: relative;
+  z-index: 101; /* Highest z-index */
+  pointer-events: all;
+}
 
