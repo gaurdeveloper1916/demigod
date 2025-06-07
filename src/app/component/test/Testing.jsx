@@ -169,7 +169,7 @@ const Testing = () => {
                                     swiperRef.current = swiper;
                                 }}
                                 modules={[Navigation, Pagination, A11y]}
-                                spaceBetween={0}
+                                spaceBetween={50}
                                 slidesPerView={1}
                                 loop={true}
                                 navigation={{

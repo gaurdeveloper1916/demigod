@@ -140,7 +140,7 @@ padding: 2rem;
 }
 
 .product-content {
-    padding: 0.4rem;
+    padding: 0.2rem;
     font-weight: 100;
 }
 
@@ -155,9 +155,8 @@ padding: 2rem;
 
 .product-description {
     color: white;   
-    font-size: 0.8rem;
     line-height: 1.3;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
 }
 
 /* Swiper Customization */
