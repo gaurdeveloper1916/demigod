@@ -17,11 +17,14 @@ const Formdiv = () => {
 
   return (
     <div
-      className="mt-5"
+      className="mt-5 background-container px-3 px-lg-0"
       style={{
         backgroundImage: "url(/event-page/main_image.webp)",
         height: "100vh",
         backgroundSize: "cover",
+        backgroundPosition: "50% 50%",
+        backgroundRepeat: "no-repeat",
+        backgroundAttachment: "scroll"
       }}
     >
       <div className="d-flex justify-content-center align-items-center vh-100">

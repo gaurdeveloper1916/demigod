@@ -27,6 +27,14 @@
   top: 13rem;
    
 }
+
+@media  (max-width: 768px) {
+  .strategy-container{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+}
 .linkdien-container{
   padding: 5rem;
   right: -17.6rem;

@@ -71,10 +71,10 @@ function Footer(props) {
     <>
       <div
 
-        className="container-fluid p-0 bg-black relative z-50 footer-background"
+        className="container-fluid p-0 bg-black relative z-50 footer-container footer-background"
       >
         {/* Marquee Section */}
-        <div className="d-lg-block d-none">
+        <div className="d-lg-block d-none"> 
           <Marquee
             className="marq "
             scrollamount="25"

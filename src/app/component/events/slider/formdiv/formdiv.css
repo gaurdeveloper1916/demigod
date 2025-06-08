@@ -87,3 +87,13 @@
 .corner-button:hover{
   color: white;
 }
+
+@media (max-width: 768px) {
+  .background-container {
+    min-height: 100vh !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}

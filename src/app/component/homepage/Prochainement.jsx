@@ -50,14 +50,14 @@ const Prochainement = () => {
     }
   ];
   return (
-    <div className="container-fluid p-lg-5 p-5 mb-5 col-lg-12 upcoming-container">
-      <div className="d-flex justify-content-between align-items-center ">
+    <div className="container-fluid px-4 px-lg-5 py-5 mb-5 col-lg-12 upcoming-container">
+      <div className="d-flex justify-content-between align-items-center mb-2 px-2">
         <div>
-          <h4 className="text-white">Upcoming Events</h4></div>
-      
+          <h4 className="text-white px-2">Upcoming Events</h4>
+        </div>
       </div>
-      <p className="text-secondary fw-bold ">Stay updated with the latest Economic Patriots Summits happening around the world.</p>
-      <div className="d-flex flex-lg-row flex-column justify-content-center align-items-center  gap-5 ">
+      <p className="text-secondary fw-bold px-3 mb-4">Stay updated with the latest Economic Patriots Summits happening around the world.</p>
+      <div className="d-flex flex-lg-row flex-column justify-content-center align-items-center gap-5 px-3">
         {arr.map((item, index) => {
           return (
             <Link
@@ -66,8 +66,7 @@ const Prochainement = () => {
             >
               <div
                 onClick={() => { handleChange(item.event_name, item.desc, item.ticketsDes, item.image, item.leftImage, item.rightImage) }}
-
-                className="d-flex flex-column justify-content-center align-items-center">
+                className="d-flex flex-column justify-content-center align-items-center px-3">
                 <div className="product col-lg-10 position-relative">
                   <div className="imgbox">
                     <img className="w-100  img-fluid" src={item.image} alt={item.event_name} />

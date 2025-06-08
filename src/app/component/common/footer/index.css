@@ -37,6 +37,10 @@
   .footer_logo {
     margin-left: 4rem;
   }
+  .footer-container{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 .logoImage-footer-marque {

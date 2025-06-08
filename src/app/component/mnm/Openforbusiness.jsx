@@ -55,7 +55,7 @@ export default function Openforbusiness() {
   return (
     <div className="d-flex flex-lg-row flex-md-row flex-column p-5">
       <div className="col-lg-4 col-12 col-md-4 d-flex justify-content-center align-items-center">
-        <div className="d-flex flex-column">
+        <div className="d-flex flex-column strategy-container">
           <h5 className="text-white fw-bold">
             <span className="gradient-text fs-5">Demigod House</span>: Your Strategic Partner in Event Management, Media, and Marketing
           </h5>
