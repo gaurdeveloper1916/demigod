@@ -5,7 +5,7 @@ import type { NextPage } from 'next';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 
 const Section_1: NextPage = () => {
-
+  const [loading, setLoading] = useState(false)
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -14,24 +14,42 @@ const Section_1: NextPage = () => {
     message: ''
   });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    alert('Thank you for your message. We will get back to you soon!');
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      subject: '',
-      message: ''
-    });
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    setLoading(true)
+    e.preventDefault();
 
-  // const handleChange = (e) => {
-  //   const { name, value } = e.target;
-  //   setFormData((prev) => ({ ...prev, [name]: value }));
-  // };
+    try {
+      const response = await fetch('https://demigodhouse.com/api/user/submit-details', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
 
+      if (response.ok) {
+        setLoading(false)
+        alert('Thank you for your message. We will get back to you soon!');
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          subject: '',
+          message: ''
+        });
+      } else {
+        setLoading(false)
+        alert('Failed to submit the form. Please try again.');
+      }
+    } catch (error) {
+      setLoading(false)
+      alert('An error occurred. Please try again later.');
+      console.error('Submission error:', error);
+    }
+  };
 
   return (
     <>
@@ -47,7 +65,7 @@ const Section_1: NextPage = () => {
       </Head>
 
       <main className="bg-black text-white min-vh-100 d-flex align-items-center mt-5">
-        <Container className='mt-5'>
+        <Container className="mt-5">
           <Row className="justify-content-between align-items-center">
             <Col lg={5}>
               <div className="mb-5">
@@ -83,12 +101,18 @@ const Section_1: NextPage = () => {
                     <div className="contact-icon me-3 p-2">
                       <FaMapMarkerAlt className="text-warning" size={24} />
                     </div>
-                    <div className='d-flex flex-column gap-3 '>
+                    <div className="d-flex flex-column gap-3">
                       <p className="mb-0 font-weight-light text-secondary">Find us</p>
-                      <p className="mb-0 font-weight-light">Registered Office- D-10, Kabir Marg, Banipark,Jaipur, Raj-302016</p>
-                      <p className='mb-0 font-weight-light'>Corporate Office Address- 208, PMB, Charni Road,Opera House, Girgaon-Mumbai 40004
+                      <p className="mb-0 font-weight-light">
+                        Registered Office- D-10, Kabir Marg, Banipark, Jaipur, Raj-302016
                       </p>
-                      <p className='mb-0'>Global Satellite Offices: USA | Australia | Germany | UK & EUROPE | RUSSIA | CHINA | BRAZIL | ARGENTINA | KENYA | SOUTH AFRICA | VITENAM | THAILAND | DUBAI | SAUDI ARABIA | SINGAPORE</p>
+                      <p className="mb-0 font-weight-light">
+                        Corporate Office Address- 208, PMB, Charni Road, Opera House, Girgaon-Mumbai 40004
+                      </p>
+                      <p className="mb-0">
+                        Global Satellite Offices: USA | Australia | Germany | UK & EUROPE | RUSSIA | CHINA | BRAZIL |
+                        ARGENTINA | KENYA | SOUTH AFRICA | VITENAM | THAILAND | DUBAI | SAUDI ARABIA | SINGAPORE
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -98,15 +122,21 @@ const Section_1: NextPage = () => {
             </Col>
 
             <Col lg={6}>
-              <div className="contact-form-wrapper p-4 rounded" style={{ backgroundColor: 'rgba(30, 30, 30, 0.9)', border: '1px solid #866b2f' }}>
+              <div
+                className="contact-form-wrapper p-4 rounded"
+                style={{ backgroundColor: 'rgba(30, 30, 30, 0.9)', border: '1px solid #866b2f' }}
+              >
                 <Form onSubmit={handleSubmit}>
                   <Row>
                     <Col md={6} className="mb-3">
                       <Form.Group>
-                        <Form.Label>First name</Form.Label>
+                        <Form.Label>Name</Form.Label>
                         <Form.Control
                           required
                           type="text"
+                          name="name"
+                          value={formData.name}
+                          onChange={handleChange}
                           className="bg-transparent border-0 border-bottom rounded-0 text-white"
                           style={{ borderBottomColor: '#555' }}
                         />
@@ -114,10 +144,13 @@ const Section_1: NextPage = () => {
                     </Col>
                     <Col md={6} className="mb-3">
                       <Form.Group>
-                        <Form.Label>Last name</Form.Label>
+                        <Form.Label>Subject</Form.Label>
                         <Form.Control
                           required
                           type="text"
+                          name="subject"
+                          value={formData.subject}
+                          onChange={handleChange}
                           className="bg-transparent border-0 border-bottom rounded-0 text-white"
                           style={{ borderBottomColor: '#555' }}
                         />
@@ -132,6 +165,9 @@ const Section_1: NextPage = () => {
                         <Form.Control
                           required
                           type="email"
+                          name="email"
+                          value={formData.email}
+                          onChange={handleChange}
                           className="bg-transparent border-0 border-bottom rounded-0 text-white"
                           style={{ borderBottomColor: '#555' }}
                         />
@@ -143,6 +179,9 @@ const Section_1: NextPage = () => {
                         <Form.Control
                           required
                           type="tel"
+                          name="phone"
+                          value={formData.phone}
+                          onChange={handleChange}
                           className="bg-transparent border-0 border-bottom rounded-0 text-white"
                           style={{ borderBottomColor: '#555' }}
                         />
@@ -155,7 +194,10 @@ const Section_1: NextPage = () => {
                     <Form.Control
                       required
                       as="textarea"
+                      name="message"
                       rows={3}
+                      value={formData.message}
+                      onChange={handleChange}
                       className="bg-transparent border-0 border-bottom rounded-0 text-white"
                       style={{ borderBottomColor: '#555' }}
                     />
@@ -167,7 +209,7 @@ const Section_1: NextPage = () => {
                       className="btn px-4 py-2 rounded-pill"
                       style={{ backgroundColor: '#866b2f', border: 'none' }}
                     >
-                      Submit Now
+                      {loading ? 'Loading...' : "Submit Now"}
                     </Button>
                   </div>
                 </Form>
@@ -183,18 +225,18 @@ const Section_1: NextPage = () => {
           color: #fff;
           font-family: 'Arial', sans-serif;
         }
-        
+
         .form-control:focus {
           box-shadow: none;
           border-color: #866b2f;
           background-color: transparent;
           color: white;
         }
-        
+
         .form-control::placeholder {
           color: #555;
         }
-        
+
         .contact-icon {
           width: 40px;
           height: 40px;
