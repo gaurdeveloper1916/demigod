@@ -11,6 +11,7 @@
   object-fit: cover;
 }
 
+
 .custom-button-test {
   position: absolute;
   top: 50%;
@@ -40,4 +41,26 @@
 .custom-button-test:hover {
   background: rgba(255, 255, 255, 0.8);
   color: black;
+}
+
+.content-wrapper {
+  bottom: -4.5rem !important;
+  width: 80%;
+  max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    bottom: auto !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    width: 90% !important;
+    padding: 15px !important;
+  }
+  .content-wrapper h1 {
+    font-size: 1.5rem !important;
+  }
+  .content-wrapper p {
+    font-size: 1rem !important;
+  }
 }

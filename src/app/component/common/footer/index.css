@@ -43,6 +43,22 @@
   }
 }
 
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 20px !important;
+  }
+  .footerr {
+    padding: 20px !important;
+  }
+  .footer-row {
+    margin: 0 !important;
+    padding: 0 20px !important;
+  }
+  .footer-row > div {
+    padding: 0 20px !important;
+  }
+}
+
 .logoImage-footer-marque {
   /* width: 100px; 
   height: 100px;  */
@@ -53,7 +69,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  
 }
+
 
 .footer-content {
   display: flex;
@@ -70,6 +88,3 @@
   width: 100%;
   max-width: 1200px;
 }
-
-
-@media (max-width: 650px) {}

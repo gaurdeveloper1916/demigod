@@ -50,13 +50,8 @@ const Prochainement = () => {
     }
   ];
   return (
-<<<<<<< HEAD
-    <div className="container-fluid px-4 px-lg-5 py-5 mb-5 col-lg-12 upcoming-container">
-      <div className="d-flex justify-content-between align-items-center mb-2 px-2">
-=======
     <div className="container-fluid p-lg-5 p-5 mb-5 col-lg-12 upcoming-container ">
       <div className="d-flex justify-content-between align-items-center ">
->>>>>>> a2a4e8a696b9bd0de85772b23a1bbffe0b73b266
         <div>
           <h4 className="text-white px-2">Upcoming Events</h4>
         </div>

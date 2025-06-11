@@ -48,6 +48,7 @@
 
 .text-deco {
   text-decoration: none;
+  font-family: sans-serif;
 }
 
 .mediumfont {
@@ -233,6 +234,8 @@ button:not(:disabled) {
 
 .text-web {
   color: rgb(134, 107, 47);
+  font-family: serif;
+  font-size: 24px;
 }
 
 body::-webkit-scrollbar {

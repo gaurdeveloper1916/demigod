@@ -59,14 +59,12 @@ const CarouselSection = () => {
             <source src="./event-page/368510590484226049.mp4" type="video/mp4" />
           </video>
           <div
-            style={{ background: "linear-gradient(to bottom right, #0000009c, #866b2f)", bottom: '-4.5rem' }}
-            className="position-absolute  start-50 translate-middle text-center px-5 py-3"
-          // data-aos="fade-up"
-          // data-aos-duration="1000"
+            style={{ background: "linear-gradient(to bottom right, #0000009c, #866b2f)" }}
+            className="position-absolute start-50 translate-middle text-center px-lg-5 px-3 py-3 content-wrapper"
           >
             <h1
               style={{ fontFamily: 'ui-serif' }}
-              className=" text-white weight100"
+              className="text-white weight100"
             >
               CAR-O-BAR –  <br /> Powered by Demigod House
             </h1>
@@ -94,8 +92,7 @@ const CarouselSection = () => {
           />
           <div
             style={{ background: "linear-gradient(to bottom right, #0000009c, #866b2f)" }}
-            className="position-absolute bottom-0 start-50 translate-middle text-center px-5 py-3 gred-color"
-
+            className="position-absolute start-50 translate-middle text-center px-lg-5 px-3 py-3 content-wrapper"
           >
             <h1
               style={{ fontFamily: 'ui-serif' }}
@@ -124,9 +121,8 @@ const CarouselSection = () => {
             style={{ height: '100vh', objectFit: 'cover' }}
           />
           <div
-            style={{ background: "linear-gradient(to bottom right, #0000009c, #866b2f)", bottom: '-4.5rem' }}
-            className="position-absolute  start-50 translate-middle text-center px-5 py-3"
-
+            style={{ background: "linear-gradient(to bottom right, #0000009c, #866b2f)" }}
+            className="position-absolute start-50 translate-middle text-center px-lg-5 px-3 py-3 content-wrapper"
           >
             <h1
               style={{ fontFamily: 'ui-serif' }}
@@ -154,9 +150,8 @@ const CarouselSection = () => {
             style={{ height: '100vh', objectFit: 'cover' }}
           />
           <div
-            style={{ background: "linear-gradient(to bottom right, #0000009c, #866b2f)", bottom: '-4.5rem' }}
-            className="position-absolute  start-50 translate-middle text-center px-5 py-3"
-
+            style={{ background: "linear-gradient(to bottom right, #0000009c, #866b2f)" }}
+            className="position-absolute start-50 translate-middle text-center px-lg-5 px-3 py-3 content-wrapper"
           >
             <h1
               style={{ fontFamily: 'ui-serif' }}

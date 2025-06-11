@@ -70,8 +70,7 @@ function Footer(props) {
   return (
     <>
       <div
-
-        className="container-fluid p-0 bg-black relative z-50 footer-container footer-background"
+        className="container-fluid bg-black relative z-50 footer-container footer-background px-lg-0 px-4"
       >
         {/* Marquee Section */}
         <div className="d-lg-block d-none"> 
@@ -109,10 +108,9 @@ function Footer(props) {
         <hr className="text-white" />
 
         {/* Support and Links Section */}
-        <div className="container-fluid py-5">
-          <div className="row justify-content-center align-items-start">
-            {/* Left Column */}
-            <div className="col-lg-10 col-md-12 col-12 d-flex flex-wrap justify-content-between align-items-start gap-4 ">
+        <div className="container-fluid py-5 px-lg-0 px-4 footerr">
+          <div className="row justify-content-center align-items-start footer-row">
+            <div className="col-lg-10 col-md-12 col-12 d-flex flex-wrap justify-content-between align-items-start gap-4 px-lg-0 px-3">
               <div className="footer_logo  d-lg-block d-none">
                 <img
                   src="./header&footer/new_logo.png"
