@@ -24,8 +24,17 @@ const Booknow = () => {
 
   const [currentSlide, setCurrentSlide] = useState("standup");
 
-  function handleChange() {
-    router.push("/");
+  function handleChange(item) {
+    if (item === 'Sail') {
+      router.push("/landingpage?slug=oktober-fest-event");
+
+    } else if (item === 'Oktoberfest') {
+      router.push("/landingpage?slug=oktober-fest-event");
+
+    } else {
+      router.push("/landingpage?slug=oktober-fest-event");
+
+    }
   }
 
   return (
@@ -63,7 +72,7 @@ const Booknow = () => {
               <h6> Price money €749</h6>
               <button
                 className="btn text-white"
-                onClick={handleChange}
+                onClick={() => { handleChange('Sail') }}
               >
                 Book Now
               </button>
@@ -95,7 +104,7 @@ const Booknow = () => {
               <h6> Price money €700</h6>
               <button
                 className="btn text-white"
-                onClick={handleChange}
+                onClick={() => { handleChange('Oktoberfest') }}
               >
                 Book Now
               </button>
@@ -125,9 +134,9 @@ const Booknow = () => {
                 by blockbuster hits.
               </p>
               <h6> Price money €800</h6>
-              <button 
+              <button
                 className="btn text-white"
-                onClick={handleChange}
+                onClick={() => { handleChange('Star') }}
               >
                 Book Now
               </button>
