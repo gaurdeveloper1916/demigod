@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 
 
-export default function carbonCredits() {
+export default function   CarbonCredits() {
   const [activeYear, setActiveYear] = useState('2011');
   const timelineRefs = useRef([]);
 
