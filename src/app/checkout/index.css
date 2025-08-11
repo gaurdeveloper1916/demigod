@@ -1,23 +1,91 @@
-.color-custom{
+.color-custom {
   color: black;
   font-weight: 600;
 }
 
 .hover-bg:hover {
-  background-color: rgba(255, 215, 0, 0.1); /* Light gold background */
-  
+  background-color: rgba(255, 215, 0, 0.1);
 }
+
 .text-gold {
   color: gold;
 }
+
 .btn-gold {
   background-color: gold;
   color: black;
 }
+
 .btn-outline-gold {
   border: 1px solid gold;
   color: gold;
 }
-.a-custom{
+
+.a-custom {
   text-decoration: none;
+}
+
+/* ======================= */
+/*  ✅ Responsive Design   */
+/* ======================= */
+
+@media (max-width: 768px) {
+  .card-body {
+    padding: 1rem !important;
+  }
+
+  h5, h6 {
+    font-size: 1rem;
+  }
+
+  .fw-bold.fs-6 {
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+  }
+
+  /* Adjust quantity buttons for mobile */
+  .btn-warning.rounded-circle {
+    width: 32px;
+    height: 32px;
+    padding: 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Make inputs mobile friendly */
+  .form-control {
+    font-size: 0.9rem;
+    padding: 0.4rem;
+  }
+
+  /* Stack sections vertically */
+  .row > [class*="col-md"] {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-body {
+    padding: 0.8rem !important;
+  }
+
+  .text-gold {
+    font-size: 0.9rem;
+  }
+
+  .p-3 h6,
+  .p-3 p {
+    font-size: 0.85rem;
+  }
+
+  /* Smaller button text on small devices */
+  .btn {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.5rem;
+  }
 }
