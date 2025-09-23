@@ -119,12 +119,12 @@ const Page = () => {
 
                       <div className="row">
                         {customers.map((customer, index) => (
-                          <div>
+                          <div key={index+1}>
                             <p className="d-flex justify-content-between align-items-center">
                               <span className='mediumfont'>Customer No {index + 1}</span>
                               <span className="text-danger smallfont">**All fields are mandatory</span>
                             </p>
-                            <div key={index} className="col-12 mb-2 d-flex  gap-4 ">
+                            <div key={index} className="col-12 mb-2 d-flex   flex-lg-row flex-column  gap-3 ">
                               <input
                                 type="text"
                                 placeholder="Enter Name"
