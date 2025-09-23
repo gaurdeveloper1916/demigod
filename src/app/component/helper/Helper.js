@@ -35,7 +35,7 @@ export const createAccount = async (data) => {
 const checkoutHandler = async (user_id, amount) => {
   const verifyPayment = async (razorpay_payment_id, razorpay_order_id, razorpay_signature) => {
     try {
-      const response = await axios.post(`${process.env.NEXT_PUBLIC_BASE_URL}/api/payment/payment-verify`, {
+      const response = await axios.post(`${process.env.NEXT_PUBLIC_BASE_URL}/payment/payment-verify`, {
         razorpay_order_id, razorpay_payment_id, razorpay_signature, user_id, amount
       });
       if (response.status === 200) {
@@ -49,7 +49,7 @@ const checkoutHandler = async (user_id, amount) => {
   };
 
   try {
-    const { data: { order } } = await axios.post(`${process.env.NEXT_PUBLIC_BASE_URL}/api/payment/checkout`, { amount });
+    const { data: { order } } = await axios.post(`${process.env.NEXT_PUBLIC_BASE_URL}/payment/checkout`, { amount });
     const key = process.env.NEXT_PUBLIC_RAZORPAY_KEY;
 
     const options = {
@@ -90,7 +90,7 @@ export const customerDetails = async (data, amount) => {
     "items": data
   };
   try {
-    const customerDetailsResponse = await axios.post(`${process.env.NEXT_PUBLIC_BASE_URL}/api/user/customer-details`, customerDetailsPayload);
+    const customerDetailsResponse = await axios.post(`${process.env.NEXT_PUBLIC_BASE_URL}/user/customer-details`, customerDetailsPayload);
     if (customerDetailsResponse.status === 201) {
       checkoutHandler(customerDetailsResponse.data.customer._id, amount);
     }
