@@ -17,7 +17,7 @@ export const createAccount = async (data) => {
 
   try {
     const account = await axios.post(
-      `${process.env.NEXT_PUBLIC_BASE_URL}/api/user/create-customer`,
+      `${process.env.NEXT_PUBLIC_BASE_URL}/user/create-customer`,
       createAccountPayload
     );
 
