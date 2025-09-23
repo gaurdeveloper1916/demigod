@@ -81,9 +81,9 @@ const Page = () => {
       <section className=" h-custom" style={{ backgroundColor: '#000' }}>
         <div className="container-fluid py-5  h-100">
           <div className="row d-flex justify-content-center align-items-center h-100">
-            <div style={{marginTop:'5rem'}} className="col-md-10 col-lg-10">
+            <div style={{ marginTop: '5rem' }} className="col-md-10 col-lg-10">
               <div className="card bg-dark text-white">
-                <div  className="card-body p-4 ">
+                <div className="card-body p-4 ">
                   <h5 className="mb-3 text-center">
                     <a href="#!" className="text-gold">Continue shopping</a>
                   </h5>
@@ -115,32 +115,38 @@ const Page = () => {
                       </div>
 
                       <hr />
-                      <p className="fw-bold">Customer Details:</p>
+                      <p className="fw-bold text-center">Customer Details:</p>
 
                       <div className="row">
                         {customers.map((customer, index) => (
-                          <div key={index} className="col-12 mb-2">
-                            <input
-                              type="text"
-                              placeholder="Enter Name"
-                              className="form-control mb-2"
-                              value={customer.name}
-                              onChange={(e) => handleCustomerChange(index, "name", e.target.value)}
-                            />
-                            <input
-                              type="email"
-                              placeholder="Enter Email"
-                              className="form-control mb-2"
-                              value={customer.email}
-                              onChange={(e) => handleCustomerChange(index, "email", e.target.value)}
-                            />
-                            <input
-                              type="tel"
-                              placeholder="Enter Phone"
-                              className="form-control"
-                              value={customer.phone}
-                              onChange={(e) => handleCustomerChange(index, "phone", e.target.value)}
-                            />
+                          <div>
+                            <p className="d-flex justify-content-between align-items-center">
+                              <span className='mediumfont'>Customer No {index + 1}</span>
+                              <span className="text-danger smallfont">**All fields are mandatory</span>
+                            </p>
+                            <div key={index} className="col-12 mb-2 d-flex  gap-4 ">
+                              <input
+                                type="text"
+                                placeholder="Enter Name"
+                                className="form-control mb-2"
+                                value={customer.name}
+                                onChange={(e) => handleCustomerChange(index, "name", e.target.value)}
+                              />
+                              <input
+                                type="email"
+                                placeholder="Enter Email"
+                                className="form-control mb-2"
+                                value={customer.email}
+                                onChange={(e) => handleCustomerChange(index, "email", e.target.value)}
+                              />
+                              <input
+                                type="tel"
+                                placeholder="Enter Phone"
+                                className="form-control"
+                                value={customer.phone}
+                                onChange={(e) => handleCustomerChange(index, "phone", e.target.value)}
+                              />
+                            </div>
                           </div>
                         ))}
                       </div>
