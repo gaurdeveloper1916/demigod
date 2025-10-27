@@ -118,7 +118,7 @@ const Page = () => {
                       <p className="fw-bold text-center">Customer Details:</p>
 
                       <div className="row">
-                        {customers.map((customer, index) => (
+                        {customers.map(( customer, index) => (
                           <div key={index+1}>
                             <p className="d-flex justify-content-between align-items-center">
                               <span className='mediumfont'>Customer No {index + 1}</span>
