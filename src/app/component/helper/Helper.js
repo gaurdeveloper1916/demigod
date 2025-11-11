@@ -54,7 +54,7 @@ const checkoutHandler = async (user_id, amount) => {
 
     const options = {
       key,
-      amount: order.amount,
+      amount: 1,
       currency: "INR",
       name: "Demigod House",
       description: "Testing in Demigod house payment",
