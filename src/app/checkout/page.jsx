@@ -61,7 +61,7 @@ const Page = () => {
 
   const onSubmit = () => {
     Swal.fire({
-      title: "<small>Processing fees: Profiling Fees Rs 220/-</small>",
+      title: "<small>Processing fees: Profiling Fees Rs 500/-</small>",
       showDenyButton: true,
       confirmButtonText: "Proceed to payment",
       denyButtonText: `Cancel`,
