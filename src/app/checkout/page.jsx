@@ -16,8 +16,8 @@ const Page = () => {
   const [couponCode, setCouponCode] = useState('');
   const [discount, setDiscount] = useState(0);
 
-  const ticketPrice = 200;
-  const shipping = 20;
+  const ticketPrice = 500;
+  const shipping = 50;
   const subtotal = quantity * ticketPrice;
   const total = subtotal + shipping - discount;
 
