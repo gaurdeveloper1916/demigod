@@ -3,14 +3,13 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install
+        - npm ci
     build:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: out       
+    baseDirectory: .next
     files:
       - '**/*'
   cache:
-    paths:
-      - node_modules/**/*
+    paths: []       # disable cache to fix ENOSPC
