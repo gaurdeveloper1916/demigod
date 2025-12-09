@@ -39,7 +39,7 @@ function Footer(props) {
   ];
   const demiGroup = [
     { name: "DemiGod Art", imageUrl: "./header&footer/art_logo_finel-removebg-preview.png",link:"https://www.demigodcloud.com/" },
-    { name: "DemiGod Cloud", imageUrl: "https://www.demigodcloud.com/images/demigod%20vector%20nav.webp",link:"https://www.artdemigod.com/" },
+    { name: "DemiGod Cloud", imageUrl: "./header&footer/demigod-cloud.webp",link:"https://www.artdemigod.com/" },
     { name: "DemiGod HealthBox", imageUrl: "./header&footer/healthboxlogo.png",link:"#" },
     { name: "Demigod House", imageUrl: "./header&footer/new_logo.png" ,link:"http://demigodhouse.com/"  },
     { name: "Anagari", imageUrl: "./header&footer/anagari.png", link:"http://www.anagari.com/" },

@@ -127,7 +127,7 @@ const SectionOne = () => {
                 <span>unvergessliche</span> <span>Momente</span>
               </i>{" "}
               <span>zu</span> <span>verwandeln.</span> */}
-              <b><h1 className="w-150"><span >You Articlate & We Execute Pragmatically</span></h1></b>{" "}
+              <b><h1 className="w-150"><span >You Articulate & We Execute Pragmatically</span></h1></b>{" "}
               <div className="col-lg-11">
               <h4 className="s1-slider" ><p  >We organise astounding events by our team management, innovation, creativity, and flawless execution.</p>
              <p> From New york to New Delhi we provide our end to end corporate event Management services i.e. product launch,Trade shows,Appreciation ceremonies,Board meetings,Shareholder meetings and akin.</p></h4>
