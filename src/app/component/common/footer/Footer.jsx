@@ -73,7 +73,7 @@ function Footer(props) {
         className="container-fluid bg-black relative z-50 footer-container footer-background px-lg-0 px-4"
       >
         {/* Marquee Section */}
-        <div className="d-lg-block d-none"> 
+        {/* <div className="d-lg-block d-none"> 
           <Marquee
             className="marq "
             scrollamount="25"
@@ -98,7 +98,7 @@ function Footer(props) {
               ))}
             </div>
           </Marquee>
-        </div>
+        </div> */}
 
         <div className="d-lg-none d-block">
           <BlinkAnimation />
