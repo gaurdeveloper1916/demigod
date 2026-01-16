@@ -23,7 +23,7 @@ const CarouselSection = () => {
   };
 
   return (
-    <div className="carousel-container-test">
+    <div className="carousel-container-test blur-lg">
       {/* Left Navigation Button */}
       <button className="custom-button-test left" onClick={() => sliderRef.current?.slickPrev()}>
         <FaChevronLeft />

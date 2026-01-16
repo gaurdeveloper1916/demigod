@@ -37,14 +37,18 @@ function Footer(props) {
     "Tenders",
     "Contact",
   ];
+  
   const demiGroup = [
-    { name: "DemiGod Art", imageUrl: "./header&footer/art_logo_finel-removebg-preview.png",link:"https://www.demigodcloud.com/" },
-    { name: "DemiGod Cloud", imageUrl: "./header&footer/demigod-cloud.webp",link:"https://www.artdemigod.com/" },
-    { name: "DemiGod HealthBox", imageUrl: "./header&footer/healthboxlogo.png",link:"#" },
-    { name: "Demigod House", imageUrl: "./header&footer/new_logo.png" ,link:"http://demigodhouse.com/"  },
-    { name: "Anagari", imageUrl: "./header&footer/anagari.png", link:"http://www.anagari.com/" },
-    { name: "DemiGod Estate", imageUrl: "./header&footer/navlogo.png",link:"http://www.amgbharat.com/" }
+    { name: "DemiGod Art", imageUrl: "./header&footer/art_logo_finel-removebg-preview.png", link: "" },
+    { name: "DemiGod Cloud", imageUrl: "./header&footer/demigod-cloud.webp", link: "https://www.demigodcloud.com/" },
+    { name: "DemiGod HealthBox", imageUrl: "./header&footer/healthboxlogo.png", link: "#" },
+    { name: "Demigod House", imageUrl: "./header&footer/new_logo.png", link: "http://demigodhouse.com/" },
+    { name: "Anagari", imageUrl: "./header&footer/anagari.png", link: "http://www.anagari.com/" },
+    { name: "DemiGod Estate", imageUrl: "./header&footer/navlogo.png", link: "" },
+    { name: "Singhashan", imageUrl: "https://singhashan.com/logo.png", link: "https://singhashan.com/" },
+    { name: "Yogmaitri", imageUrl: "https://yogmaitri.com/images/logo.svg", link: "https://yogmaitri.com/" }
   ];
+
   const shortcut = [
     { name: "M&M", linking: "/" },
     { name: "Corporate", linking: "/corporate-events" },
@@ -73,7 +77,7 @@ function Footer(props) {
         className="container-fluid bg-black relative z-50 footer-container footer-background px-lg-0 px-4"
       >
         {/* Marquee Section */}
-        {/* <div className="d-lg-block d-none"> 
+        <div className="d-lg-block d-none">
           <Marquee
             className="marq "
             scrollamount="25"
@@ -85,20 +89,20 @@ function Footer(props) {
             <div className="d-flex gap-4">
               {demiGroup.map((item, i) => (
                 <Link  key={i + 1} target="blank" className="text-deco" href={`${item.link}`}>
-                 <div className="text-center">
-                  <img
-                    className="m-0 logoImage-footer-marque"
-                    src={item.imageUrl}
-                    alt="Logo"
-                  />
-                  <p className="text-center text-web">{item.name}</p>
-                </div>
+                  <div className="text-center">
+                    <img
+                      className="m-0 logoImage-footer-marque"
+                      src={item.imageUrl}
+                      alt="Logo"
+                    />
+                    <p className="text-center text-web">{item.name}</p>
+                  </div>
                 </Link>
-               
+
               ))}
             </div>
           </Marquee>
-        </div> */}
+        </div>
 
         <div className="d-lg-none d-block">
           <BlinkAnimation />
@@ -158,7 +162,7 @@ function Footer(props) {
                   Event Categories
                 </p>
                 <div className="d-flex flex-column gap-2 mediumfont">
-                  {events2.map(({ slug, name },index) => (
+                  {events2.map(({ slug, name }, index) => (
                     <div key={index} className="d-flex align-items-center">
                       <MdArrowOutward color="white" className="me-2" />
                       <Link
@@ -179,16 +183,16 @@ function Footer(props) {
                 </p>
                 <div className="d-flex flex-column gap-2 mediumfont">
                   <div className="d-flex flex-column gap-2 mediumfont">
-                    {events.map(({ slug, name },index) => (
+                    {events.map(({ slug, name }, index) => (
                       <div key={index} className="d-flex align-items-center">
-                      <MdArrowOutward color="white" className="me-2" />
-                      <Link
-                        key={slug}
-                        href={`/landingpage?slug=${slug}`}
-                        className="m-0 text-deco text-white"
-                      >
-                        {name}
-                      </Link>
+                        <MdArrowOutward color="white" className="me-2" />
+                        <Link
+                          key={slug}
+                          href={`/landingpage?slug=${slug}`}
+                          className="m-0 text-deco text-white"
+                        >
+                          {name}
+                        </Link>
                       </div>
                     ))}
                   </div>
